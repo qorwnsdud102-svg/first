@@ -6,7 +6,7 @@
       {
         "id": "15f104108bbb0824",
         "type": "tabs",
-        "dimension": 38.825952626158596,
+        "dimension": 51.70940170940172,
         "children": [
           {
             "id": "7895c53d58fca76c",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "마케팅/아웃풋/CLAUDE.md",
+                "file": "마케팅/wiki/entities/엠타트업.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "엠타트업"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "54274fd8b80195d9",
         "type": "tabs",
-        "dimension": 61.174047373841404,
+        "dimension": 48.29059829059829,
         "children": [
           {
             "id": "04d8ed2bd72782cf",
@@ -38,8 +38,43 @@
               "icon": "lucide-file",
               "title": "새 탭"
             }
+          },
+          {
+            "id": "1b46651fb4536f2b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          },
+          {
+            "id": "023f1d60d8928bbe",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          },
+          {
+            "id": "896a2c367dc40287",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "프로그램/raw/inbox/iboss-근육돌이/2025-04-17_근육돌이_마케팅-USP-만들기-힘들다면-이-글부터-읽어보세요.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-04-17_근육돌이_마케팅-USP-만들기-힘들다면-이-글부터-읽어보세요"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,43 +238,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e17c1fa27a17db2",
+  "active": "896a2c367dc40287",
   "lastOpenFiles": [
-    "프로그램/아웃풋/CLAUDE.md",
-    "프로그램/wiki/CLAUDE.md",
-    "프로그램/raw/inbox/CLAUDE.md",
-    "프로그램/wiki/sources",
-    "프로그램/wiki/syntheses",
-    "프로그램/wiki/entities",
-    "프로그램/wiki/concepts",
-    "프로그램/raw/inbox",
-    "프로그램/raw/CLAUDE.md",
-    "프로그램/아웃풋",
-    "프로그램/wiki",
-    "프로그램/raw",
-    "프로그램",
-    "아웃풋/CLAUDE.md",
-    "마케팅/아웃풋/CLAUDE.md",
-    "마케팅/아웃풋",
-    "마케팅/wiki/sources/2025-10_엠타트업_총정리-마인드맵.md",
-    "마케팅/wiki/concepts/통찰이론 4단계.md",
-    "마케팅/wiki/concepts/접촉지점.md",
-    "마케팅/wiki/concepts/재 분류.md",
-    "마케팅/wiki/sources/2025-10_엠타트업_DA광고용-제품-기획방법.md",
-    "마케팅/wiki/concepts/욕구와 결핍.md",
-    "마케팅/wiki/concepts/선택제어.md",
-    "마케팅/wiki/concepts/상징재.md",
-    "마케팅/wiki/concepts/상징성과 당위성.md",
-    "마케팅/wiki/concepts/매몰비용.md",
-    "마케팅/wiki/concepts/마케팅 축.md",
-    "마케팅/wiki/concepts/RCS.md",
-    "마케팅/wiki/concepts/DA 광고.md",
-    "마케팅/wiki/entities/엠타트업.md",
-    "마케팅/wiki/log.md",
-    "마케팅/wiki/index.md",
-    "마케팅/wiki/CLAUDE.md",
-    "마케팅/raw/inbox/CLAUDE.md",
-    "마케팅/raw/CLAUDE.md",
-    "wiki/concepts/RCS.md"
+    "프로그램/raw/inbox/iboss-근육돌이/2018-07-05_근육돌이_스토어팜-매출-억대로-만드는-기초적인-이야기.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2018-07-06_근육돌이_스토어팜-매출-억대로-만드는-기초적인-이야기-2탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2018-07-14_근육돌이_스토어팜-매출-억대로-만드는-(기초)중급적인-이야기-3탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2018-07-21_근육돌이_스토어팜-매출-억대로-만드는-기초()-중급적인-이야기-4탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2018-07-30_근육돌이_스토어팜-매출-억대로-만드는-기초()-중급적인-이야기-5탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2018-08-19_근육돌이_스토어팜-매출-억-만들기-(중급)기초적인-이야기-6탄__49972.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2018-08-19_근육돌이_스토어팜-매출-억-만들기-(중급)기초적인-이야기-6탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2018-08-26_근육돌이_스토어팜-매출-억-만들기-(중급)기초적인-이야기-7탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2018-10-10_근육돌이_스토어팜-매출-억대로-만드는-마지막-이야기-8탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2019-11-27_근육돌이_돈-벌게-해주는-공감되는-컨텐츠를-파세요-1탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2019-11-29_근육돌이_돈-벌게-해주는-공감되는-컨텐츠를-파세요-2탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2019-12-08_근육돌이_돈-벌게-해주는-공감되는-컨텐츠를-파세요-3탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2019-12-17_근육돌이_페북이-망했다-아니-당신의-제품이-망한거다!.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2019-12-30_근육돌이_돈-벌게-해주는-공감되는-컨텐츠를-파세요-4탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2020-01-02_근육돌이_(번외)돈벌어다주는-킬링컨텐츠-롤링발칸-ㅋㅋㅋ병맛주의….md",
+    "프로그램/raw/inbox/iboss-근육돌이/2020-01-19_근육돌이_돈-벌게-해주는-공감되는-컨텐츠를-파세요-5탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2020-02-04_근육돌이_돈-벌게-해주는-공감되는-컨텐츠를-파세요-(마지막).md",
+    "프로그램/raw/inbox/iboss-근육돌이/2020-02-27_근육돌이_[7일뒤-삭제-예정]-타게팅-,-컨텐츠-,-SNS-마케팅의-실무관점에서-본질-이야기-[특S급정보].md",
+    "프로그램/raw/inbox/iboss-근육돌이/2020-03-13_근육돌이_[월10억매출-만든-컨텐츠-흐름]-SNS-컨텐츠로-성공하는-업체들-공통흐름-4가지.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2020-04-30_근육돌이_SNS-마케팅으로-과연-브랜딩에-성공-할-수-있을까.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2020-05-14_근육돌이_[GFA시리즈-예고]-하루매출-10배-상승시킨-네이버-브랜딩-DA-의-힘에-대해서.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2020-05-17_근육돌이_[GFA-GLAD시리즈-1탄]-GFA-GLAD의-구좌는-어디있을까-,-구좌의-특징은.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2020-05-23_근육돌이_[GFA-GLAD시리즈]-하루매출-10배-상승시킨-배너-만드는-비법-공개.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2020-05-31_근육돌이_[GFA-GLAD시리즈-3탄]-GFA-타게팅에-관하여!!!!!!.md",
+    "프로그램/raw/inbox/iboss-근육돌이/2020-08-10_근육돌이_GFA로-평소매출-3배~10배-올린-카피만드는-핵심-정보-[광고비-2달만에-30억이상-써봄].md",
+    "프로그램/raw/inbox/iboss-근육돌이/2020-11-15_근육돌이_네이버-GFA-[-CPC-100원대-]-만드는-비법-7가지-공개합니다..md",
+    "마케팅/raw/엠타트업/2025-10_엠타트업_본강의-21기-요약정리본.docx",
+    "프로그램/raw/inbox/iboss-근육돌이",
+    "마케팅/raw/inbox/sedWrFkXf",
+    "마케팅/raw/inbox/2025-10_엠타트업_본강의-21기-요약정리본.docx",
+    "마케팅/raw/엠타트업/2025-10_엠타트업_총정리-마인드맵.pdf",
+    "마케팅/raw/엠타트업/2025-10_엠타트업_DA광고용-제품-기획방법.txt",
+    "마케팅/wiki/sources/기타",
+    "마케팅/wiki/sources/엠타트업",
+    "마케팅/raw/기타",
+    "마케팅/raw/엠타트업"
   ]
 }
