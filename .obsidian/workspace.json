@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "아웃풋/CLAUDE.md",
+                "file": "마케팅/아웃풋/CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
@@ -33,10 +33,10 @@
             "id": "04d8ed2bd72782cf",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
@@ -203,33 +203,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7895c53d58fca76c",
+  "active": "7e17c1fa27a17db2",
   "lastOpenFiles": [
-    "wiki/index.md",
-    "wiki/CLAUDE.md",
-    "wiki/concepts/상징재.md",
-    "raw/inbox/2025-10_엠타트업_총정리-마인드맵.txt",
-    "raw/inbox/2025-10_엠타트업_총정리-마인드맵.pdf",
-    "무제",
-    "wiki/entities/엠타트업.md",
-    "wiki/sources/2025-10_엠타트업_DA광고용-제품-기획방법.md",
-    "raw/2025-10_엠타트업_DA광고용-제품-기획방법.txt",
-    "wiki/concepts/상징성과 당위성.md",
-    "wiki/sources/2026-05-09_DA광고용-제품-기획방법.md",
-    "raw/2026-05-09_미상_DA광고용-제품-기획방법.txt",
-    "wiki/concepts/DA 광고.md",
-    "raw/inbox/2026-05-09_미상_DA광고용-제품-기획방법.txt",
-    "핵심-맥락.md",
-    "wiki/log.md",
-    "wiki/log.md.tmp.32424.de725ebb2ae4",
-    "raw/inbox/CLAUDE.md",
-    "wiki/syntheses",
-    "wiki/entities",
-    "wiki/concepts",
-    "CLAUDE.md",
-    "raw/CLAUDE.md",
-    "안녕하세요.md",
-    "무제.md",
-    "아웃풋/CLAUDE.md"
+    "프로그램/아웃풋/CLAUDE.md",
+    "프로그램/wiki/CLAUDE.md",
+    "프로그램/raw/inbox/CLAUDE.md",
+    "프로그램/wiki/sources",
+    "프로그램/wiki/syntheses",
+    "프로그램/wiki/entities",
+    "프로그램/wiki/concepts",
+    "프로그램/raw/inbox",
+    "프로그램/raw/CLAUDE.md",
+    "프로그램/아웃풋",
+    "프로그램/wiki",
+    "프로그램/raw",
+    "프로그램",
+    "아웃풋/CLAUDE.md",
+    "마케팅/아웃풋/CLAUDE.md",
+    "마케팅/아웃풋",
+    "마케팅/wiki/sources/2025-10_엠타트업_총정리-마인드맵.md",
+    "마케팅/wiki/concepts/통찰이론 4단계.md",
+    "마케팅/wiki/concepts/접촉지점.md",
+    "마케팅/wiki/concepts/재 분류.md",
+    "마케팅/wiki/sources/2025-10_엠타트업_DA광고용-제품-기획방법.md",
+    "마케팅/wiki/concepts/욕구와 결핍.md",
+    "마케팅/wiki/concepts/선택제어.md",
+    "마케팅/wiki/concepts/상징재.md",
+    "마케팅/wiki/concepts/상징성과 당위성.md",
+    "마케팅/wiki/concepts/매몰비용.md",
+    "마케팅/wiki/concepts/마케팅 축.md",
+    "마케팅/wiki/concepts/RCS.md",
+    "마케팅/wiki/concepts/DA 광고.md",
+    "마케팅/wiki/entities/엠타트업.md",
+    "마케팅/wiki/log.md",
+    "마케팅/wiki/index.md",
+    "마케팅/wiki/CLAUDE.md",
+    "마케팅/raw/inbox/CLAUDE.md",
+    "마케팅/raw/CLAUDE.md",
+    "wiki/concepts/RCS.md"
   ]
 }
