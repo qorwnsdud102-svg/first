@@ -11,9 +11,11 @@
 ## 파일명 규칙
 
 `YYYY-MM-DD_저자-or-출처_제목-슬러그.md` 형식.
+**날짜는 컨텐츠 발생일·수강일 기준** (ingest 일자가 아님). 월 단위만 알면 `YYYY-MM_...`도 OK.
 
 예시:
 - `2026-05-09_karpathy_llm-wiki-gist.md`
+- `2025-10_엠타트업_DA광고용-제품-기획방법.txt` (월 단위)
 - `2026-05-09_논문_attention-is-all-you-need.md`
 
 ## 첫 줄(또는 frontmatter) 메타데이터

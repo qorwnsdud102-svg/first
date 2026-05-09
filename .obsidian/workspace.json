@@ -6,6 +6,7 @@
       {
         "id": "15f104108bbb0824",
         "type": "tabs",
+        "dimension": 38.825952626158596,
         "children": [
           {
             "id": "7895c53d58fca76c",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/상징재.md",
+                "file": "아웃풋/CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "상징재"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -26,6 +27,7 @@
       {
         "id": "54274fd8b80195d9",
         "type": "tabs",
+        "dimension": 61.174047373841404,
         "children": [
           {
             "id": "04d8ed2bd72782cf",
@@ -203,29 +205,31 @@
   },
   "active": "7895c53d58fca76c",
   "lastOpenFiles": [
+    "wiki/index.md",
+    "wiki/CLAUDE.md",
+    "wiki/concepts/상징재.md",
+    "raw/inbox/2025-10_엠타트업_총정리-마인드맵.txt",
+    "raw/inbox/2025-10_엠타트업_총정리-마인드맵.pdf",
+    "무제",
+    "wiki/entities/엠타트업.md",
+    "wiki/sources/2025-10_엠타트업_DA광고용-제품-기획방법.md",
+    "raw/2025-10_엠타트업_DA광고용-제품-기획방법.txt",
     "wiki/concepts/상징성과 당위성.md",
     "wiki/sources/2026-05-09_DA광고용-제품-기획방법.md",
-    "wiki/CLAUDE.md",
     "raw/2026-05-09_미상_DA광고용-제품-기획방법.txt",
-    "wiki/concepts/상징재.md",
     "wiki/concepts/DA 광고.md",
     "raw/inbox/2026-05-09_미상_DA광고용-제품-기획방법.txt",
     "핵심-맥락.md",
     "wiki/log.md",
     "wiki/log.md.tmp.32424.de725ebb2ae4",
-    "wiki/index.md",
     "raw/inbox/CLAUDE.md",
     "wiki/syntheses",
     "wiki/entities",
     "wiki/concepts",
-    "wiki/sources",
-    "raw/inbox",
     "CLAUDE.md",
     "raw/CLAUDE.md",
     "안녕하세요.md",
-    "무제",
     "무제.md",
-    "아웃풋/CLAUDE.md",
-    "아웃풋"
+    "아웃풋/CLAUDE.md"
   ]
 }

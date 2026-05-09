@@ -2,7 +2,7 @@
 type: 개념
 aliases: [DA, Display Advertising, 디스플레이 광고]
 status: stub
-sources: [wiki/sources/2026-05-09_DA광고용-제품-기획방법.md]
+sources: [wiki/sources/2025-10_엠타트업_DA광고용-제품-기획방법.md]
 updated: 2026-05-09
 ---
 
@@ -25,4 +25,4 @@ updated: 2026-05-09
 
 ## 출처
 
-- `wiki/sources/2026-05-09_DA광고용-제품-기획방법.md`
+- `wiki/sources/2025-10_엠타트업_DA광고용-제품-기획방법.md`
