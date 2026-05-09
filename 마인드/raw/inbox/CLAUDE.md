@@ -1,0 +1,19 @@
+# raw/inbox/ — 미분류 raw 임시 자리
+
+들어온 raw 중 **아직 ingest 처리되지 않은** 것의 임시 자리.
+
+## 규칙
+
+- 부모 `raw/`의 모든 규칙이 그대로 적용됨 (편집 금지·파일명·메타데이터).
+- inbox에 머무는 동안에도 원본 그대로 보존.
+- Ingest가 끝나면 파일을 부모 `raw/`로 이동시키고, 무엇이 wiki에 반영됐는지 `wiki/log.md`에 한 줄 기록.
+
+## 워크플로우
+
+1. 새 raw 들어옴 → 일단 `raw/inbox/`에 떨어뜨림 (가벼운 진입 비용).
+2. 시간 날 때 **Ingest**: 영향받는 `wiki/sources/` 페이지 생성, `wiki/concepts/` · `wiki/entities/` 페이지 갱신.
+3. Ingest 완료 → 파일을 `raw/`(부모)로 이동, `wiki/log.md`에 한 줄.
+
+## 운영 신호
+
+inbox에 **5개 이상** 쌓이면 ingest가 밀리고 있다는 뜻. 새 raw를 더 받기 전에 inbox부터 비운다.
