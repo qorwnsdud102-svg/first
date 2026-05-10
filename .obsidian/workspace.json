@@ -81,12 +81,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-2강-콘텐츠-기획-및-베스트-사례.md",
+                "file": "마케팅/wiki/concepts/가치더하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025_그로스짐_사전VOD-2강-콘텐츠-기획-및-베스트-사례"
+              "title": "가치더하기"
             }
           }
         ],
@@ -254,8 +254,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f29d30412817f76",
+  "active": "e867eaaac51e4787",
   "lastOpenFiles": [
+    "마케팅/wiki/concepts/가치더하기.md",
+    "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-2강-콘텐츠-기획-및-베스트-사례.md",
     "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-1강-성공하는-콘텐츠-흐름찾기.md",
     "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-3강-내-브랜드-제품-포지셔닝.md",
     "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-4강-고객의-마음-퍼포먼스-캔버스-기획.md",
@@ -289,8 +291,6 @@
     "프로그램/wiki/sources/iboss-근육돌이/AI를-다루는-마케터가-똑똑해야하는-이유-AI-3년-뒤-사업의-존폐의-여부가.md",
     "프로그램/wiki/sources/iboss-근육돌이/AI로-퍼포먼스-영상-기획-쉽게-가능하다-[-퍼포먼스-영상-기획-10배-빨리.md",
     "프로그램/wiki/sources/iboss-근육돌이/AI로-사실적인-인물-치트키-+-나노바나나-멱살잡는-씨드림40-가이드.md",
-    "프로그램/wiki/sources/iboss-근육돌이/AI로-만든-광고로-일-매출-8000만원-달성했습니다.md",
-    "프로그램/wiki/sources/iboss-근육돌이/AI-활용-성숙도-자가진단-체크리스트-자가진단.md",
-    "프로그램/wiki/sources/iboss-근육돌이/AI-활용-하면서-여러가지-카피-법칙-활용하기-[매출-2배-이상-상승시키는-DA.md"
+    "프로그램/wiki/sources/iboss-근육돌이/AI로-만든-광고로-일-매출-8000만원-달성했습니다.md"
   ]
 }
