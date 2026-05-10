@@ -4,24 +4,89 @@
     "type": "split",
     "children": [
       {
-        "id": "3efa6f60696c591c",
+        "id": "15f104108bbb0824",
         "type": "tabs",
         "children": [
           {
-            "id": "2c4f0c23832e31c3",
+            "id": "e867eaaac51e4787",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          }
+        ]
+      },
+      {
+        "id": "54274fd8b80195d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04d8ed2bd72782cf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
+            }
+          },
+          {
+            "id": "b0ac339999a6dcfd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "핵심-맥락.md",
+                "file": "무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "핵심-맥락"
+              "title": "무제"
+            }
+          },
+          {
+            "id": "82699dc73075a9b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          },
+          {
+            "id": "d0f859bb152b9b29",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "raw/inbox/2025-10_엠타트업_총정리-마인드맵.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2025-10_엠타트업_총정리-마인드맵"
+            }
+          },
+          {
+            "id": "6f29d30412817f76",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "마케팅/raw/기타/2026-02_환사장_아마겟돈-자사몰통합본.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2026-02_환사장_아마겟돈-자사몰통합본"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,16 +187,6 @@
             }
           },
           {
-            "id": "7895c53d58fca76c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
-          },
-          {
             "id": "ae5416cf92badf31",
             "type": "leaf",
             "state": {
@@ -174,23 +229,13 @@
               "icon": "lucide-list",
               "title": "환영합니다! 의 개요"
             }
-          },
-          {
-            "id": "5202b7a0977cc18f",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 767.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,48 +246,46 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "bases:새 베이스 생성하기": false,
-      "githobs:Manage a github issue": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e17c1fa27a17db2",
+  "active": "6f29d30412817f76",
   "lastOpenFiles": [
-    "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-4강-고객의-마음-퍼포먼스-캔버스-기획.md",
-    "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-3강-내-브랜드-제품-포지셔닝.md",
-    "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-2강-콘텐츠-기획-및-베스트-사례.md",
-    "마케팅/wiki/syntheses/사업 카테고리별 적합 진영.md",
-    "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-1강-성공하는-콘텐츠-흐름찾기.md",
-    "마케팅/wiki/syntheses/자관인간과 메타광고의 통합.md",
-    "마케팅/wiki/entities/그로스짐.md",
-    "마케팅/raw/그로스짐/14.2주차 다시보기 3강.txt",
-    "마케팅/raw/그로스짐/15.2주차 다시보기 4강.txt",
-    "마케팅/raw/그로스짐/16.2주차 다시보기 5강.txt",
-    "마케팅/raw/그로스짐/17. 2주차 우선피드백1.txt",
-    "마케팅/raw/그로스짐/18. 2주차 우선피드백2.txt",
-    "마케팅/raw/그로스짐/19. 2주차 우선피드백3.txt",
-    "마케팅/raw/그로스짐/2.0일차_사전 VOD_2강_콘텐츠 기획 및 베스트 콘텐츠 사례.txt",
-    "마케팅/raw/그로스짐/20. 3주차 다시보기 1강.txt",
-    "마케팅/raw/그로스짐/21. 3주차 다시보기 2강.txt",
-    "마케팅/raw/그로스짐/22. 3주차 다시보기 3강.txt",
-    "마케팅/wiki/sources/기타/2026-02_환사장_아마겟돈-자사몰통합본.md",
-    "마케팅/wiki/entities/환사장.md",
-    "마케팅/wiki/entities/엠타트업.md",
-    "마케팅/wiki/entities/근육돌이.md",
-    "마케팅/wiki/concepts/DA 광고.md",
-    "CLAUDE.md",
-    "핵심-맥락.md",
-    "마인드/wiki/sources/2025-10_엠군_부자를훔치다.md",
-    "마인드/wiki/sources/iboss-근육돌이/MBTI라는-16가지-감옥을-탈출-해야-하는-이유.md",
-    "마인드/wiki/sources/iboss-근육돌이/퍼포먼스가-종말이라구요-초현실적인-7가지-요소.md",
-    "마인드/wiki/sources/iboss-근육돌이/AI-때문에-내-직업이-없어진다고-아뇨-AI-못-쓰는-'당신'-때문입니다.md",
-    "마인드/wiki/sources/iboss-근육돌이/팔린티어를-보고-느낀-AI시대-마케팅으로-살아남으려면.md",
-    "마인드/wiki/sources/iboss-근육돌이/인문학과-심리학이-마케팅에-필요한-이유-8가지.md",
-    "마인드/wiki/sources/iboss-근육돌이/무조건-10배-성공하는-고객-제품-전략-2가지-사례-[-정육점-길거리과일판매.md",
-    "마인드/wiki/sources/iboss-근육돌이/마케터-각-연차별-체크리스트-체크해보세요.md",
-    "마인드/wiki/sources/iboss-근육돌이/광고-세팅-운영-통해서-매출-올리는-방법-안-쓰는이유-7가지.md",
-    "마인드/wiki/sources/iboss-근육돌이/100억-매출-하려면-꼭-명심-해야하는-과정.md",
-    "마인드/wiki/sources/iboss-근육돌이/[마케팅모먼트-민상시리즈]-21배-성장한-신입마케터의-미친인사이트.md",
-    "마인드/wiki/sources/iboss-근육돌이/10배-성장하는-사고와-방향성-11가지-[부제-정권-만번지르기].md",
-    "무제.canvas"
+    "마케팅/raw/CLAUDE.md",
+    "conflict-files-obsidian-git.md",
+    "마케팅/raw/그로스짐/9.1주차 우선피드백1.txt",
+    "마케팅/raw/그로스짐/8.1주차 다시보기 4강.txt",
+    "마케팅/raw/그로스짐/7.1주차 다시보기 3강.txt",
+    "마케팅/raw/그로스짐/6.1주차 다시보기 2강.txt",
+    "마케팅/raw/그로스짐/5.1주차 다시보기 1강.txt",
+    "마케팅/raw/그로스짐/36. 8주차 다시보기 2강.txt",
+    "마케팅/raw/그로스짐/35. 8주차 다시보기 1강.txt",
+    "마케팅/raw/그로스짐/4.0일차_사전 VOD_4강_고객의 마음 찾아보는 방법 및 퍼포먼스 캔버스 기획.txt",
+    "마케팅/raw/그로스짐/37. 8주차 다시보기 3강.txt",
+    "마케팅/raw/그로스짐/34. 7주차 다시보기 3강.txt",
+    "프로그램/wiki/sources/iboss-근육돌이/자동화로-업무-효율-10배-비용-절감-10배-8가지-인사이트.md",
+    "프로그램/wiki/sources/iboss-근육돌이/프롬프트의-이해와-활용-200%하는법-[AI-와-마케팅-광고-이커머스-시리즈.md",
+    "프로그램/wiki/sources/iboss-근육돌이/이커머스에-AI를-매출-만들려면-꼭-보세요-대표님들.md",
+    "프로그램/wiki/sources/iboss-근육돌이/월매출-50억-달성한-나노바나나-활용법-100가지.md",
+    "프로그램/wiki/sources/iboss-근육돌이/엔트로픽이-말하는-9가지-AI-활용하는-초꿀팁.md",
+    "프로그램/wiki/sources/iboss-근육돌이/생산성-2배-순이익-15배-만드는-AI-이커머스-활용법-AI-활용-어디까지-하세요.md",
+    "프로그램/wiki/sources/iboss-근육돌이/미드저니를-쓰면-모델비-촬영비-1000만원-아낍니다-미쳤습니다.md",
+    "프로그램/wiki/sources/iboss-근육돌이/마케팅-AI-시대-필수로-써야하는-툴-6가지-통한-무한성장-비법.md",
+    "프로그램/wiki/sources/iboss-근육돌이/당장-활용-가능한-이커머스-AI-방법들-[AI-와-마케팅-광고-이커머스-시리즈.md",
+    "프로그램/wiki/sources/iboss-근육돌이/나노바나나-프로-상상한-것이-모두-현실로-됩니다.md",
+    "프로그램/wiki/sources/iboss-근육돌이/나노바나나-PRO-가-미쳤습니다-글씨를-잘-쓰고장점이.md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI의-출연으로-인한-변화-[AI-와-마케팅-광고-이커머스-시리즈-1탄].md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI에게-세컨드-브레인이-필요한-5가지-이유.md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI에-월-100만원-쓰면서-느낀-시행착오-5가지.md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI를-다루는-마케터가-똑똑해야하는-이유-AI-3년-뒤-사업의-존폐의-여부가.md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI로-퍼포먼스-영상-기획-쉽게-가능하다-[-퍼포먼스-영상-기획-10배-빨리.md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI로-사실적인-인물-치트키-+-나노바나나-멱살잡는-씨드림40-가이드.md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI로-만든-광고로-일-매출-8000만원-달성했습니다.md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI-활용-성숙도-자가진단-체크리스트-자가진단.md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI-활용-하면서-여러가지-카피-법칙-활용하기-[매출-2배-이상-상승시키는-DA.md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI-콘텐츠로-고객사-매출-N배성장-+-비용N배-감소.md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI-자동화-암묵지-꼭-챙겨야하는-5가지-이유.md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI-자동화-3가지를-모르면-무조건-포기-필독하시죠.md",
+    "프로그램/wiki/sources/iboss-근육돌이/AI-여기-까지만-아셔도-충분합니다-[AI-와-마케팅-광고-이커머스-시리즈-4탄].md"
   ]
 }
