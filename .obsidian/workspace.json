@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "마케팅/wiki/entities/환사장.md",
+                "file": "핵심-맥락.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "환사장"
+              "title": "핵심-맥락"
             }
           }
         ]
@@ -205,11 +205,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c4f0c23832e31c3",
+  "active": "7e17c1fa27a17db2",
   "lastOpenFiles": [
+    "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-4강-고객의-마음-퍼포먼스-캔버스-기획.md",
+    "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-3강-내-브랜드-제품-포지셔닝.md",
+    "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-2강-콘텐츠-기획-및-베스트-사례.md",
+    "마케팅/wiki/syntheses/사업 카테고리별 적합 진영.md",
+    "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-1강-성공하는-콘텐츠-흐름찾기.md",
+    "마케팅/wiki/syntheses/자관인간과 메타광고의 통합.md",
+    "마케팅/wiki/entities/그로스짐.md",
+    "마케팅/raw/그로스짐/14.2주차 다시보기 3강.txt",
+    "마케팅/raw/그로스짐/15.2주차 다시보기 4강.txt",
+    "마케팅/raw/그로스짐/16.2주차 다시보기 5강.txt",
+    "마케팅/raw/그로스짐/17. 2주차 우선피드백1.txt",
+    "마케팅/raw/그로스짐/18. 2주차 우선피드백2.txt",
+    "마케팅/raw/그로스짐/19. 2주차 우선피드백3.txt",
+    "마케팅/raw/그로스짐/2.0일차_사전 VOD_2강_콘텐츠 기획 및 베스트 콘텐츠 사례.txt",
+    "마케팅/raw/그로스짐/20. 3주차 다시보기 1강.txt",
+    "마케팅/raw/그로스짐/21. 3주차 다시보기 2강.txt",
+    "마케팅/raw/그로스짐/22. 3주차 다시보기 3강.txt",
     "마케팅/wiki/sources/기타/2026-02_환사장_아마겟돈-자사몰통합본.md",
     "마케팅/wiki/entities/환사장.md",
-    "마케팅/raw/inbox/2026-02_환사장_아마겟돈-자사몰통합본.txt",
     "마케팅/wiki/entities/엠타트업.md",
     "마케팅/wiki/entities/근육돌이.md",
     "마케팅/wiki/concepts/DA 광고.md",
@@ -227,22 +243,6 @@
     "마인드/wiki/sources/iboss-근육돌이/100억-매출-하려면-꼭-명심-해야하는-과정.md",
     "마인드/wiki/sources/iboss-근육돌이/[마케팅모먼트-민상시리즈]-21배-성장한-신입마케터의-미친인사이트.md",
     "마인드/wiki/sources/iboss-근육돌이/10배-성장하는-사고와-방향성-11가지-[부제-정권-만번지르기].md",
-    "마인드/wiki/concepts/주체성.md",
-    "마인드/wiki/concepts/자본주의적 사고.md",
-    "마인드/wiki/concepts/역접부사 안쓰기.md",
-    "마인드/wiki/concepts/어떻게 살아갈 것인가.md",
-    "마인드/wiki/concepts/몰입.md",
-    "마인드/wiki/concepts/가난냄새.md",
-    "마인드/raw/CLAUDE.md",
-    "마케팅/raw/기타/2026-02_환사장_아마겟돈-자사몰통합본.pdf",
-    "마케팅/raw/엠타트업/2025-08_엠타트업_꿰뚫기-21기-단톡방발췌.txt",
-    "마케팅/raw/inbox/2025-10_미정_아마겟돈-자사몰통합본.txt",
-    "마케팅/raw/inbox/2025-10_미정_아마겟돈-자사몰통합본.pdf",
-    "마케팅/raw/inbox/2025-10_미정_꿰뚫기.txt",
-    "마케팅/raw/엠타트업/2025-10_엠군_부자를훔치다.pdf",
-    "마케팅/raw/inbox/2025-10_엠군_부자를훔치다.txt",
-    "마케팅/raw/inbox/2025-10_엠군_부자를훔치다.pdf",
-    "마케팅/raw/엠타트업/2025-10_엠군_M군스토리-자본주의적사고.pdf",
     "무제.canvas"
   ]
 }
