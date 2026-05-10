@@ -1,5 +1,6 @@
 ---
 type: 개념
+school: 네이버바이럴
 aliases: [RCS, NRCS, R-C-S, N-R-C-S, 리소스-채널-시스템, 욕구-대안-채널-시스템]
 status: growing
 sources: [마케팅/wiki/sources/엠타트업/2025-10_엠타트업_총정리-마인드맵.md, 마케팅/wiki/sources/엠타트업/2025-10_엠타트업_본강의-21기-요약정리본.md]
