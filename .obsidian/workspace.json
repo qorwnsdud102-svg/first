@@ -4,77 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "15f104108bbb0824",
+        "id": "3efa6f60696c591c",
         "type": "tabs",
-        "dimension": 51.70940170940172,
         "children": [
           {
-            "id": "7895c53d58fca76c",
+            "id": "2c4f0c23832e31c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "마케팅/wiki/entities/엠타트업.md",
+                "file": "마케팅/wiki/sources/iboss-근육돌이/[-불황-2배-성장하는-퍼포먼스-영상-꿀팁-1탄-]-성공하는-영상들-특징-6가지.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "엠타트업"
+              "title": "[-불황-2배-성장하는-퍼포먼스-영상-꿀팁-1탄-]-성공하는-영상들-특징-6가지"
             }
           }
         ]
-      },
-      {
-        "id": "54274fd8b80195d9",
-        "type": "tabs",
-        "dimension": 48.29059829059829,
-        "children": [
-          {
-            "id": "04d8ed2bd72782cf",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
-            }
-          },
-          {
-            "id": "1b46651fb4536f2b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
-            }
-          },
-          {
-            "id": "023f1d60d8928bbe",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
-            }
-          },
-          {
-            "id": "896a2c367dc40287",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "마케팅/wiki/CLAUDE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CLAUDE"
-            }
-          }
-        ],
-        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -175,6 +122,16 @@
             }
           },
           {
+            "id": "7895c53d58fca76c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
+            }
+          },
+          {
             "id": "ae5416cf92badf31",
             "type": "leaf",
             "state": {
@@ -217,13 +174,23 @@
               "icon": "lucide-list",
               "title": "환영합니다! 의 개요"
             }
+          },
+          {
+            "id": "5202b7a0977cc18f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 767.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,43 +205,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "896a2c367dc40287",
+  "active": "2c4f0c23832e31c3",
   "lastOpenFiles": [
-    "마케팅/raw/엠타트업/2025-10_엠타트업_작은형아코치_틱톡강의.docx",
-    "마케팅/wiki/sources/엠타트업/2025-10_엠타트업_작은형아코치_틱톡강의.md",
+    "마케팅/raw/엠타트업/2025-10_엠군_부자를훔치다.pdf",
+    "마인드/wiki/sources/2025-10_엠군_부자를훔치다.md",
+    "마케팅/raw/inbox/2025-10_엠군_부자를훔치다.txt",
+    "마케팅/raw/inbox/2025-10_엠군_부자를훔치다.pdf",
+    "마케팅/raw/엠타트업/2025-10_엠군_M군스토리-자본주의적사고.pdf",
+    "마인드/wiki/concepts/자본주의적 사고.md",
+    "마인드/wiki/sources/2025-10_엠군_M군스토리-자본주의적사고.md",
     "iboss-근육돌이-요약.md",
-    "마케팅/raw/inbox/2025-10_엠타트업_작은형아코치_틱톡강의.md",
-    "마케팅/raw/inbox/2025-10_엠타트업_작은형아코치_틱톡강의.docx",
-    "마인드/wiki/concepts/주체성.md",
-    "마인드/wiki/concepts/가난냄새.md",
-    "마인드/wiki/concepts/어떻게 살아갈 것인가.md",
-    "마인드/wiki/concepts/역접부사 안쓰기.md",
-    "프로그램/raw/inbox/iboss-근육돌이/2025-04-17_근육돌이_마케팅-USP-만들기-힘들다면-이-글부터-읽어보세요.md",
-    "마인드/wiki/concepts/몰입.md",
-    "마인드/wiki/sources/2025-10_엠타트업_본강의-21기-마인드추출.md",
-    "마인드/wiki/log.md",
-    "마인드/wiki/index.md",
-    "마인드/raw/CLAUDE.md",
-    "마인드/raw/CLAUDE.md.tmp.32424.e9d51f6dcbbe",
-    "마인드/아웃풋/CLAUDE.md",
-    "마인드/wiki/CLAUDE.md",
-    "마인드/raw/inbox/CLAUDE.md",
-    "마인드/wiki/syntheses",
-    "마인드/wiki/sources",
-    "마인드/wiki/concepts",
-    "마인드/wiki/entities",
-    "마인드/raw/inbox",
-    "마인드/wiki",
-    "마인드/아웃풋",
-    "마인드/raw",
-    "마케팅/wiki/concepts/스토리텔링.md",
-    "마케팅/wiki/concepts/프레임 분리.md",
-    "마케팅/wiki/concepts/프레임 조종.md",
-    "마케팅/wiki/concepts/상페 구조.md",
-    "마케팅/wiki/entities/캐리아.md",
-    "마케팅/wiki/entities/작은형아.md",
-    "마케팅/wiki/entities/라온.md",
-    "마케팅/wiki/entities/M군.md",
-    "프로그램/raw/inbox/iboss-근육돌이/2018-07-05_근육돌이_스토어팜-매출-억대로-만드는-기초적인-이야기.md"
+    "마케팅/raw/inbox/2025-10_엠군_M군스토리-자본주의적사고.txt",
+    "마케팅/raw/inbox/2025-10_엠군_M군스토리-자본주의적사고.pdf",
+    "마케팅/raw/엠타트업/2025-10_엠타트업_19기.docx",
+    "마케팅/wiki/sources/엠타트업/2025-10_엠타트업_19기.md",
+    "CLAUDE.md",
+    "핵심-맥락.md",
+    "마케팅/raw/inbox/2025-10_엠타트업_19기.md",
+    "무제.canvas",
+    "마케팅/raw/inbox/2025-10_엠타트업_19기.docx",
+    "마케팅/wiki/sources/iboss-근육돌이/[-불황-2배-성장하는-퍼포먼스-영상-꿀팁-2탄-]-효과적인-후킹-잡기-6가지.md",
+    "마케팅/raw/엠타트업/2025-10_엠타트업_라온코치_화장품판매강의.docx",
+    "마케팅/wiki/sources/iboss-근육돌이/[-불황-2배-성장하는-퍼포먼스-영상-꿀팁-1탄-]-성공하는-영상들-특징-6가지.md",
+    "마케팅/wiki/sources/iboss-근육돌이/[3일뒤-삭제]-GFA-신규-피드-지면과-영상-지면의-노하우-N가지-공유드립니다.md",
+    "마케팅/wiki/sources/엠타트업/2025-10_엠타트업_라온코치_화장품판매강의.md",
+    "마케팅/raw/inbox/2025-10_엠타트업_본강의-21기-요약정리본.md",
+    "마케팅/raw/inbox/2025-10_엠타트업_라온코치_화장품판매강의.md",
+    "마케팅/raw/inbox/2025-10_엠타트업_라온코치_화장품판매강의.docx",
+    "마케팅/wiki/sources/iboss-근육돌이/1억-이상의-효율을-뽑아내는-디자인들의-법칙-[-돈버는-디자인-시리즈-1탄-].md",
+    "마케팅/wiki/sources/iboss-근육돌이/2500억-써본-마케터의-무물-2025년-무엇이든-물어보세요.md",
+    "마케팅/wiki/sources/iboss-근육돌이/3분만-투자해-읽으면-초보마케터가-미친마케터-되는-도핑기술.md",
+    "마케팅/wiki/sources/iboss-근육돌이/40가지-마케팅-질문-답변-드렸습니다-추가-질문-환영-댓글-고고.md",
+    "마케팅/wiki/sources/iboss-근육돌이/40가지-심리-법칙을-활용한-이커머스-사례-1탄.md",
+    "마케팅/wiki/sources/iboss-근육돌이/40가지-심리-법칙을-활용한-이커머스-사례-2탄.md",
+    "마케팅/wiki/sources/iboss-근육돌이/40가지-심리-법칙을-활용한-이커머스-사례-3탄.md",
+    "마케팅/wiki/sources/iboss-근육돌이/GFA-메타-구글-광고-에-대해서-궁금한-점-모든-질문-받습니다.md",
+    "마케팅/wiki/sources/iboss-근육돌이/GFA-치트키-공개-사용시-N배-효율-상승-[-하루-3억-GFA-소진한-노하우.md",
+    "마케팅/wiki/sources/iboss-근육돌이/[-불황-2배-성장하는-퍼포먼스-영상-꿀팁-3탄-]-영상-흐름-그리고-편집.md",
+    "마케팅/wiki/sources/iboss-근육돌이/강남에서-정육점으로-수억-매출-올린-정육점-대표의-인사이트-1탄.md",
+    "프로그램/raw/inbox/iboss-근육돌이.bak"
   ]
 }

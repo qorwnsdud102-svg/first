@@ -6,13 +6,27 @@
 ## 진입점
 
 - [[index]] — 위키 전체의 텍스트 진입 페이지. 자주 가는 곳·미해결 질문·분류별 링크.
-- [[log]] — 일자별 활동 로그. Ingest·Lint·구조 변경은 모두 한 줄씩 여기.
+- [[log]] — 일자별 활동 로그 (append-only). 한 줄 = 한 액션. **고정 포맷**으로 grep 가능하게:
+
+  형식: `## [YYYY-MM-DD] <action> | <대상> → <영향>`
+
+  - `<action>` ∈ `ingest` · `lint` · `query` · `restructure` · `merge` · `split`
+  - `<대상>` — 입력 raw 파일명 / 페이지 이름 / 변경된 폴더
+  - `<영향>` — `[[엔티티A]]·[[엔티티B]] (n신, m갱신)` 식 wikilink 누적
+
+  예:
+
+  ```
+  ## [2026-05-09] ingest | 2026-05-04_근육돌이_AI-활용-성숙도-자가진단.md → [[근육돌이]]·[[AI-활용-성숙도]] (1신, 1갱신)
+  ## [2026-05-10] lint | wiki/sources/iboss-근육돌이/ → 6 stub 발견, 2 orphan 정리
+  ## [2026-05-11] restructure | wiki/concepts/RAG.md → [[검색-증강]] 로 통합
+  ```
 
 ## 하위 폴더 — 어디에 새 페이지를 두는가
 
 새 페이지는 다음 4곳 중 하나에 들어간다. `type:` frontmatter와 폴더는 보통 일치한다.
 
-- `sources/<출처>/` — raw 파일 1개당 페이지 1개. **출처별 sub-folder로 분류** (`sources/엠타트업/` · `sources/기타/` — `raw/`의 출처 폴더와 미러). 출처·요지·어느 엔티티에 영향을 줬는지 추적.
+- `sources/<출처>/` — raw 파일 1개당 페이지 1개. **출처별 sub-folder로 분류** (`sources/엠타트업/` · `sources/iboss-근육돌이/` · `sources/기타/` — `raw/`의 출처 폴더와 미러). 출처·요지·어느 엔티티에 영향을 줬는지 추적.
 - `concepts/` — 추상 개념. (예: [[어텐션]], [[RAG]], [[제2의 뇌]])  → `type: 개념`
 - `entities/` — named: 사람·책·조직·구체 작품. (예: [[Karpathy]], [[Attention Is All You Need]])  → `type: 사람` · `책` 등
 - `syntheses/` — 여러 페이지를 가로지르는 내 종합·비교·가설. wiki의 부가가치.  → `type: 질문` 또는 신규 `종합` 타입
@@ -58,6 +72,19 @@ updated: 2026-05-09
 - 같거나 유사한 엔티티가 이미 있는가? Obsidian 전역 검색·그래프뷰로 먼저 확인.
 - 있으면 합친다. 별칭이 다르면 frontmatter `aliases:`에 추가하고 페이지는 하나로 유지.
 - "비슷한데 다르다"는 판단이 들면, 두 페이지를 만들고 `[[A]] vs [[B]]` 같은 비교 페이지를 따로 만든다.
+
+## status 전이 규칙
+
+`status:` frontmatter는 페이지 성숙도 표시. 전이는 **수동**, ingest·lint 시 검토.
+
+- **stub** — 출처 0~1개. 한 줄 정의 미작성 또는 한 줄 정의만.
+- **growing** — 출처 2개 이상 OR (한 줄 정의 + 핵심 주장 1개 이상). 다른 엔티티 관계 작성 시작.
+- **stable** — 핵심 주장 + 다른 엔티티 관계 + 미해결 질문 모두 작성. 14일 이상 큰 변경 없음.
+
+전이 트리거:
+- 새 raw ingest로 출처 추가 → status 재평가.
+- lint 시 `stub` 14일 초과 → 합치거나 raw로 강등.
+- `stable`에 새 raw 들어와도 자동 강등 없음 (오히려 보강).
 
 ## Lint — 주기적으로 확인
 
