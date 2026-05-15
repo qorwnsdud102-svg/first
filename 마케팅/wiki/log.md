@@ -3,6 +3,12 @@
 > Ingest · Lint · 구조 변경의 일자별 기록. **최신이 위.**
 > 한 줄이면 충분. 시간성을 잃지 않는 게 목적.
 
+## [2026-05-15] restructure | 프로그램/raw/inbox/iboss-근육돌이.bak/ → 마케팅/raw/iboss-근육돌이/
+
+- 229 raw 파일 마케팅 raw로 활성화·이동 (`.bak` suffix 제거). 근육돌이가 마케팅 dominant이므로 schema상 raw 위치를 정정.
+- 마케팅 sources 168 + 마인드 sources 28 = 196 이미 ingest, 나머지 33개 미분류 추정 — cross-domain reference 작업 (프로그램 측 ingest) 진행 중.
+- 마케팅·마인드 sources 페이지들은 raw 경로를 직접 명시하지 않아 (`source_url`로 인터넷 원본 참조) 끊긴 링크 없음.
+
 ## 2026-05-10 (그로스짐 추가 자료 10개 ingest — 마케팅모먼트 폴더 PDF·xlsx·txt)
 
 - **사장님 지시**: 그로스짐2기 녹음 폴더 외부 (`마케팅모먼트/`) 의 PDF·xlsx·txt도 그로스짐 자료. raw에 복사 + 분석.

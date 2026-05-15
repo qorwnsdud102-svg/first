@@ -5,15 +5,15 @@
 
 ## 현재 상태 (2026-05-10)
 
-> **셋업 완료, 첫 ingest 대기 중.** wiki에 페이지 0개. raw inbox에 `iboss-근육돌이.bak/` 백업만 있음 (프로그램 도메인 ingest 대상 아님).
+> **첫 entity 신설 완료.** sources 33개 (1차 요약 ingest 완료), entities 1개 ([[MCP]]), concepts·syntheses 0개. raw inbox 비어있음 — `iboss-근육돌이.bak/`는 2026-05-15 `마케팅/raw/iboss-근육돌이/`로 활성화·이동 (dominant 도메인 schema 준수). 프로그램 측은 cross-domain reference (raw는 마케팅 측에서 참조).
 
 세 도메인 중 가장 늦게 시작. 사장님 사업 단계가 "마케팅 자동화 정상 가동" 단계에 도달하면 매일 사용 (`핵심-맥락.md` §2).
 
 ## 자주 가는 곳
 
-<!-- 자주 참조하는 5–10개 wikilink. 첫 ingest 후 채워짐. -->
+<!-- 자주 참조하는 5–10개 wikilink. -->
 
-- (페이지 신설 시 추가)
+- [[MCP]] — AI에 외부 도구·데이터를 USB 허브처럼 연결하는 프로토콜. Claude 중심. 근육돌이·[[마케팅/그로스짐]] 두 출처 모두 메인으로 사용.
 
 ## 첫 ingest 후보 (사장님 결정 대기)
 
@@ -50,10 +50,10 @@
 
 ## 분류별 폴더
 
-- [[concepts]] — 추상 개념 (디자인 패턴·아키텍처·이론) — 0개
-- [[entities]] — 라이브러리·도구·외부 서비스·API — 0개
-- [[sources]] — raw 파일별 메타 페이지 — 0개
-- [[syntheses]] — 종합·결정이력(ADR)·비교 — 0개
+- `concepts/` — 추상 개념 (디자인 패턴·아키텍처·이론) — 0개
+- `entities/` — 라이브러리·도구·외부 서비스·API — 1개 ([[MCP]])
+- `sources/` — raw 파일별 메타 페이지 — 33개 (iboss-근육돌이/, 1차 요약 ingest 완료)
+- `syntheses/` — 종합·결정이력(ADR)·비교 — 0개
 
 ## 운영 페이지
 
