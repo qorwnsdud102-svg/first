@@ -20,8 +20,35 @@
               "icon": "lucide-file",
               "title": "핵심-맥락"
             }
+          },
+          {
+            "id": "f44f76ffca5679f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "마케팅/wiki/concepts/가치더하기.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "가치더하기"
+            }
+          },
+          {
+            "id": "1ff624230cbb0184",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "마케팅/raw/그로스짐/CCFM_마케팅기초점검_리뷰편2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "CCFM_마케팅기초점검_리뷰편2"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,7 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 767.5
+    "width": 1398.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,8 +232,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e17c1fa27a17db2",
+  "active": "1ff624230cbb0184",
   "lastOpenFiles": [
+    "핵심-맥락.md.tmp.24040.42a92147ccbe",
+    "conflict-files-obsidian-git.md",
+    "마케팅/raw/그로스짐/CCFM_마케팅기초점검_리뷰편2.pdf",
+    "CLAUDE.md",
+    "핵심-맥락.md",
+    "마케팅/wiki/concepts/가치더하기.md",
+    "마케팅/wiki/entities/근육돌이.md",
     "마케팅/wiki/sources/그로스짐/2025_그로스짐_xlsx_상세페이지_체크리스트.md",
     "마케팅/wiki/sources/그로스짐/2025_그로스짐_xlsx_퍼포먼스캔버스_워크시트.md",
     "마케팅/wiki/sources/그로스짐/2025_그로스짐_프롬프트템플릿_카테고리별베스트컨텐츠카피.md",
@@ -227,19 +261,12 @@
     "마케팅/wiki/sources/그로스짐/8주차_마무리_종합_및_AI자동화.md",
     "마케팅/wiki/sources/그로스짐/(부록2)_퍼포캔기반_광고콘텐츠_실험방법.md",
     "마케팅/wiki/sources/그로스짐/2025_그로스짐_8주차-다시보기-3강.md",
-    "마케팅/wiki/sources/그로스짐/(부록1)_상세페이지_특성_및_설계.md",
-    "마케팅/wiki/sources/그로스짐/2025_그로스짐_8주차-다시보기-2강.md",
-    "마케팅/wiki/sources/그로스짐/2025_그로스짐_2주차-우선피드백3.md",
-    "마케팅/wiki/sources/그로스짐/2025_그로스짐_부록2-퍼포캔기반-광고-콘텐츠-실험방법.md",
-    "마케팅/wiki/sources/그로스짐/2025_그로스짐_2주차-우선피드백2.md",
-    "마케팅/wiki/sources/그로스짐/2025_그로스짐_4주차-다시보기-2강.md",
     "마케팅/raw/그로스짐/프롬프트템플릿_카테고리별베스트컨텐츠카피.txt",
     "마케팅/raw/그로스짐/카피라이팅의신_링크.txt",
     "마케팅/raw/그로스짐/포토리뷰+이미지+만들기.txt",
     "마케팅/raw/그로스짐/상세페이지_체크리스트.xlsx",
     "마케팅/raw/그로스짐/CCFM_마케팅사업부_퍼포먼스캔버스.xlsx",
     "마케팅/raw/그로스짐/CCFM_바이럴기초_1.pdf",
-    "마케팅/raw/그로스짐/CCFM_마케팅기초점검_리뷰편2.pdf",
     "마케팅/raw/그로스짐/CCFM_마케팅기초점검_리뷰편.pdf",
     "마케팅/raw/그로스짐/7주차자료. 최종수정_AI+이커머스+기초체력+강의-사전vod.pdf",
     "마케팅/raw/그로스짐/7주차자료. 상세페이지_마스터클래스_60_CCFM.pdf",
