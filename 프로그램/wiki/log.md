@@ -3,6 +3,12 @@
 > Ingest · Lint · 구조 변경의 일자별 기록. **최신이 위.**
 > 한 줄이면 충분. 시간성을 잃지 않는 게 목적.
 
+## [2026-05-22] ingest | raw/2026-05-22_naver-biding_journal-알짜.md → [[네이버-검색광고-API]]·[[광고주센터-비공식-API]]·[[네이버-검색결과-크롤링]]·[[다경로-데이터-모순-디버깅]]·[[네이버-광고-자동화-운영-노트]] (5신, 1 source)
+
+- naver-biding (`C:\naver-biding`) journal.md (~660줄) 정제. A (네이버 platform truth) + B (엔지니어링 메타 패턴) 만 ingest. C (일반 기술 트랩) 와 project-specific decider 디테일은 제외.
+- 신규 entities 3 (네이버-검색광고-API · 광고주센터-비공식-API · 네이버-검색결과-크롤링), concept 1 (다경로-데이터-모순-디버깅), synthesis 1 (네이버-광고-자동화-운영-노트), source 1.
+- 통계: entities 1→4, concepts 0→1, syntheses 0→1, sources 33→34.
+
 ## [2026-05-15] ingest | sources/iboss-근육돌이/마케팅-AI-시대-필수로-써야하는-툴-6가지….md → [[MCP]] (1신)
 
 - 프로그램 도메인 **첫 entity 신설**. (sources 33개는 사장님이 2026-05-10에 이미 1차 요약 ingest 완료 — 발견 후 index.md 진술 정정.)
