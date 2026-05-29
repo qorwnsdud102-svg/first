@@ -3,6 +3,14 @@
 > Ingest · Lint · 구조 변경의 일자별 기록. **최신이 위.**
 > 한 줄이면 충분. 시간성을 잃지 않는 게 목적.
 
+## [2026-05-29] ingest | raw/ccfm-강동이/2026-05-09_강동이_Claude-Code-기본-교육-교안.md → [[바이브-코딩]]·[[Claude-Skill]]·[[Hook]]·[[클로드-베이커리-비유]]·[[CCFM-AX-TEAM]]·[[강동이]] (6신, 1 source)
+
+- CCFM AX TEAM [[강동이]] 강의 PDF (34p, 2026.05.09 SAT). pypdf로 텍스트 추출 후 raw 보존.
+- 4축 비유 (MD·스킬·훅·WIKI) + 스킬 5인 사이클 (bob·dd·harness·eval·learnings-engine) 정의.
+- **5역할 ↔ 사장님 운영 13+ 스킬 매핑** ([[Claude-Skill]] 본문): bob→`brainstorming`, dd→`writing-plans`, harness→`verification-before-completion`, eval→`requesting-code-review`, learnings-engine→`writing-skills`.
+- ccfm-강동이/ sub-folder 신설 (iboss-근육돌이 패턴 미러).
+- 통계: entities 4→6, concepts 1→5, syntheses 1, sources 34→35.
+
 ## [2026-05-22] ingest | raw/2026-05-22_naver-biding_journal-알짜.md → [[네이버-검색광고-API]]·[[광고주센터-비공식-API]]·[[네이버-검색결과-크롤링]]·[[다경로-데이터-모순-디버깅]]·[[네이버-광고-자동화-운영-노트]] (5신, 1 source)
 
 - naver-biding (`C:\naver-biding`) journal.md (~660줄) 정제. A (네이버 platform truth) + B (엔지니어링 메타 패턴) 만 ingest. C (일반 기술 트랩) 와 project-specific decider 디테일은 제외.

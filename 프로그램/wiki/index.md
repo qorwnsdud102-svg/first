@@ -3,9 +3,9 @@
 > [[프로그램]] 도메인의 진입 페이지. **마케팅 자동화 · 제품 소싱 도구 개발**의 위키.
 > 마케팅 학습은 여기 들어오지 않는다 — 그건 `마케팅/`의 몫.
 
-## 현재 상태 (2026-05-22)
+## 현재 상태 (2026-05-29)
 
-> **naver-biding 알짜 ingest 완료.** entities 4 ([[MCP]], [[네이버-검색광고-API]], [[광고주센터-비공식-API]], [[네이버-검색결과-크롤링]]), concept 1 ([[다경로-데이터-모순-디버깅]]), synthesis 1 ([[네이버-광고-자동화-운영-노트]]), sources 34 (iboss-근육돌이 33 + naver-biding 1). raw inbox 비어있음.
+> **CCFM 강동이 교안 ingest 완료.** entities 6 ([[MCP]], [[네이버-검색광고-API]], [[광고주센터-비공식-API]], [[네이버-검색결과-크롤링]], [[CCFM-AX-TEAM]], [[강동이]]), concepts 5 ([[다경로-데이터-모순-디버깅]], [[바이브-코딩]], [[Claude-Skill]], [[Hook]], [[클로드-베이커리-비유]]), synthesis 1 ([[네이버-광고-자동화-운영-노트]]), sources 35 (iboss-근육돌이 33 + naver-biding 1 + ccfm-강동이 1). raw inbox 비어있음.
 
 세 도메인 중 가장 늦게 시작. 사장님 사업 단계가 "마케팅 자동화 정상 가동" 단계에 도달하면 매일 사용 (`핵심-맥락.md` §2).
 
@@ -19,6 +19,8 @@
 - [[다경로-데이터-모순-디버깅]] — 카드 vs 상세 / 표면 메시지 vs 내부 상태 모순 메타.
 - [[네이버-광고-자동화-운영-노트]] — force 우회 / 가시화 UX / 운영 PC 분리 / GUI subprocess / FastAPI 한계.
 - [[MCP]] — AI에 외부 도구·데이터를 USB 허브처럼 연결하는 프로토콜.
+- [[Claude-Skill]] — 5역할 ↔ 사장님 운영 스킬 매핑 (bob→`brainstorming`, dd→`writing-plans`, harness→`verification-before-completion`, eval→`requesting-code-review`, learnings→`writing-skills`).
+- [[클로드-베이커리-비유]] — MD·스킬·훅·WIKI 4축을 한 장 비유로.
 
 ## 운영 인프라 — 프로그램 격벽 원칙
 
@@ -73,9 +75,9 @@
 
 ## 분류별 폴더
 
-- `concepts/` — 추상 개념 (디자인 패턴·아키텍처·이론) — 1개 ([[다경로-데이터-모순-디버깅]])
-- `entities/` — 라이브러리·도구·외부 서비스·API — 4개 ([[MCP]], [[네이버-검색광고-API]], [[광고주센터-비공식-API]], [[네이버-검색결과-크롤링]])
-- `sources/` — raw 파일별 메타 페이지 — 34개 (iboss-근육돌이/ 33 + naver-biding 1)
+- `concepts/` — 추상 개념 (디자인 패턴·아키텍처·이론) — 5개 ([[다경로-데이터-모순-디버깅]], [[바이브-코딩]], [[Claude-Skill]], [[Hook]], [[클로드-베이커리-비유]])
+- `entities/` — 라이브러리·도구·외부 서비스·API·사람·조직 — 6개 ([[MCP]], [[네이버-검색광고-API]], [[광고주센터-비공식-API]], [[네이버-검색결과-크롤링]], [[CCFM-AX-TEAM]], [[강동이]])
+- `sources/` — raw 파일별 메타 페이지 — 35개 (iboss-근육돌이/ 33 + naver-biding 1 + ccfm-강동이/ 1)
 - `syntheses/` — 종합·결정이력(ADR)·비교 — 1개 ([[네이버-광고-자동화-운영-노트]])
 
 ## 운영 페이지
