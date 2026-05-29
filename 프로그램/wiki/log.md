@@ -3,6 +3,14 @@
 > Ingest · Lint · 구조 변경의 일자별 기록. **최신이 위.**
 > 한 줄이면 충분. 시간성을 잃지 않는 게 목적.
 
+## [2026-05-29] ingest | raw/karpathy/2026-04-20_forrestchang_andrej-karpathy-skills.md → [[karpathy-guidelines]]·[[Karpathy]]·[[Claude-Skill]] (2신, 1갱신, 1 source)
+
+- `multica-ai/andrej-karpathy-skills` GitHub 저장소 (forrestchang 패키징, MIT, 최신 커밋 2026-04-20). README + CLAUDE.md + SKILL.md + EXAMPLES.md 4파일 verbatim 번들로 raw 보존. CURSOR.md·README.zh.md 제외.
+- 신규 concept [[karpathy-guidelines]] — Karpathy X 글의 4대 함정 진단 ↔ 4원칙(Think Before Coding · Simplicity First · Surgical Changes · Goal-Driven Execution) 처방. 동일 콘텐츠가 Claude Code 스킬 / Cursor 룰 / CLAUDE.md 3채널로 동시 배포.
+- **5인 사이클 매핑 가설 검증**: 기존 [[Claude-Skill]] 미해결 질문 "harness ↔ karpathy-guidelines로 잡는 안" → SKILL.md 실물 확인으로 **기각**. karpathy-guidelines는 작업 무관 베이스라인이라 MD 축(가게 운영 매뉴얼)에 가까움. harness("이번 작업 한정 룰 강제")의 실제 대응은 그대로 `verification-before-completion`.
+- 신규 entity stub [[Karpathy]] — **프로그램 dominant** 확정 (다른 도메인엔 raw 없음, 마케팅은 cross-domain 참조만). 향후 LLM Wiki gist 원문 또는 nanoGPT/Intro to LLM 영상 ingest 시 growing→stable로 격상.
+- karpathy/ sub-folder 신설. 통계: entities 6→7, concepts 5→6, sources 35→36.
+
 ## [2026-05-29] ingest | raw/ccfm-강동이/2026-05-09_강동이_Claude-Code-기본-교육-교안.md → [[바이브-코딩]]·[[Claude-Skill]]·[[Hook]]·[[클로드-베이커리-비유]]·[[CCFM-AX-TEAM]]·[[강동이]] (6신, 1 source)
 
 - CCFM AX TEAM [[강동이]] 강의 PDF (34p, 2026.05.09 SAT). pypdf로 텍스트 추출 후 raw 보존.

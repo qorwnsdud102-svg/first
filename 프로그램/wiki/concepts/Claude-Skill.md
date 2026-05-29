@@ -2,7 +2,7 @@
 type: 개념
 aliases: [스킬, 클로드 스킬, Skill, Claude Code Skill, SKILL.md, 직원 5명]
 status: growing
-sources: [프로그램/raw/ccfm-강동이/2026-05-09_강동이_Claude-Code-기본-교육-교안.md, 마케팅/raw/iboss-근육돌이/2026-04-07_근육돌이_AI-에이전트-빌딩-,-이-10가지-해봤으면-당신은-중급-일껄요.md]
+sources: [프로그램/raw/ccfm-강동이/2026-05-09_강동이_Claude-Code-기본-교육-교안.md, 마케팅/raw/iboss-근육돌이/2026-04-07_근육돌이_AI-에이전트-빌딩-,-이-10가지-해봤으면-당신은-중급-일껄요.md, 프로그램/raw/karpathy/2026-04-20_forrestchang_andrej-karpathy-skills.md]
 updated: 2026-05-29
 ---
 
@@ -18,6 +18,7 @@ updated: 2026-05-29
 - **반복 패턴을 굳혀 자산화** — 프롬프트를 반복 입력하고 있다면 스킬로 체계화할 때 (i-boss 근육돌이 표현). 한 번 만들어두면 계속 재사용, 결과물 품질 일관.
 - **5개 역할로 사이클을 돈다** — 교안의 핵심 모델. 한 사이클로 이어질 때 반복 업무가 진짜 자동화됨.
 - **사장님 환경 13+개 스킬 설치** — [[superpowers]] 14개 + [[karpathy-guidelines]] 1개 + 백오피스 스킬 다수. PDF는 이론 5명, 사장님은 실전용 13+로 확장.
+  - [[karpathy-guidelines]] 실물 ingest 완료 (2026-05-29) — 4원칙 = MD 성격의 베이스라인 규범집, 5인 사이클 안의 자리 아님. 자세한 매핑은 아래 §매핑 근거.
 
 ## 5역할 ↔ 사장님 실제 스킬 매핑 (1역할 = 1스킬)
 
@@ -35,7 +36,7 @@ updated: 2026-05-29
 
 - bob → brainstorming: 정의 그대로 "아이디어→설계".
 - dd → writing-plans: "step-01·02·03 분배" = 계획 문서화. `executing-plans`·`subagent-driven-development`는 이 다음 실행 단계라 dd 본질은 writing-plans.
-- harness → verification-before-completion: "증거 없이 완료 주장 금지" = 위생 게이트 본질. `karpathy-guidelines`는 일반 규범집(=MD 파일)이라 harness와 본질이 다름.
+- harness → verification-before-completion: "증거 없이 완료 주장 금지" = 위생 게이트 본질. [[karpathy-guidelines]]는 일반 규범집(=MD 파일 성격)이라 harness와 본질이 다름. **2026-05-29 실물 ingest로 확정** — karpathy-guidelines 4원칙은 작업 무관 베이스라인이지, "이번 작업 한정 룰"이 아님.
 - eval → requesting-code-review: "독립된 평가자에게 채점 요청" = 시식 평가자 호출. 클로드 자기가 자기 채점 X.
 - learnings engine → writing-skills: 반복 부딪힌 패턴 → 스킬로 굳히기 = 다음 사이클 자동 반영. auto-memory·위키는 인프라(저장소).
 
@@ -62,9 +63,10 @@ updated: 2026-05-29
 - 사장님 실제 13개로 한정한 운영용 목록은 따로 명시 안 됨 — 추정으로는 [[superpowers]] 14 - `using-superpowers`(메타) = 13.
 - 매핑 검수 필요 항목:
   - learnings engine을 `writing-skills`로 굳히는 게 맞을지? (대안: `receiving-code-review`로 매번 피드백 반영하는 게 더 "교훈 누적"에 가까울 수도)
-  - harness를 `verification-before-completion`이 아니라 `karpathy-guidelines`로 잡는 안도 유효 — 사장님이 실제 빈도 보면서 조정 가능.
+  - ~~harness를 `verification-before-completion`이 아니라 `karpathy-guidelines`로 잡는 안도 유효~~ — **2026-05-29 ingest로 기각**. [[karpathy-guidelines]] SKILL.md 실물 확인 결과 4원칙 모두 "작업 무관 베이스라인"이라 harness 본질("이번 작업 한정 룰 강제")과 안 맞음. karpathy-guidelines는 베이커리 비유에서 MD 축(가게 운영 매뉴얼)에 가깝지 5인 사이클 안의 직원 자리는 아님.
 
 ## 출처
 
 - `프로그램/raw/ccfm-강동이/2026-05-09_강동이_Claude-Code-기본-교육-교안.md` §PART 3-2 (P.18-24)
 - `마케팅/raw/iboss-근육돌이/2026-04-07_근육돌이_AI-에이전트-빌딩-,-이-10가지-해봤으면-당신은-중급-일껄요.md` §⑤ 스킬 개념 이해, §⑥ 하네스+검증 서브에이전트
+- `프로그램/raw/karpathy/2026-04-20_forrestchang_andrej-karpathy-skills.md` — `karpathy-guidelines` 스킬 실물 SKILL.md (=MD 성격 베이스라인 규범집 확인)
