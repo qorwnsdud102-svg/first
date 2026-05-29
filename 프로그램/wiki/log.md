@@ -3,6 +3,10 @@
 > Ingest · Lint · 구조 변경의 일자별 기록. **최신이 위.**
 > 한 줄이면 충분. 시간성을 잃지 않는 게 목적.
 
+## [2026-05-29] lint | 프로그램 작은 broken 링크 정리 → [[바이브-코딩]]·[[MCP]]·[[CCFM-AX-TEAM]]·[[index]] (4갱신)
+
+- broken wikilink plain 강등: `[[Claude-Code|클로드 코드]]` → `클로드 코드 (Claude Code)` ([[바이브-코딩]]), `[[Claude]]`·`네이버 데이터랩` 후속 신설 약속 → 미작성 명시 ([[MCP]]), `[[기타/사장님|연결 대상]]` placeholder 제거 ([[CCFM-AX-TEAM]]), `[[프로그램]]`·`[[마인드/AI 시대 마인드]]` 인덱스 plain text 강등.
+
 ## [2026-05-29] lint | 프로그램 도메인 정돈 → [[Karpathy]]·[[MCP]]·[[index]]·[[커뮤니티-크롤러-브레인스토밍]] (1신 synthesis, 3갱신)
 
 - inbox 정상화: `raw/inbox/2026-05-22_커뮤니티크롤러_브레인스토밍-진행중.md` → `wiki/syntheses/커뮤니티-크롤러-브레인스토밍.md`로 이동 (외부 raw가 아니라 내부 결정 일지/ADR이라 syntheses가 맞는 자리). raw inbox 비움.
