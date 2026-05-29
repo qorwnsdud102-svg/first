@@ -3,6 +3,17 @@
 > Ingest · Lint · 구조 변경의 일자별 기록. **최신이 위.**
 > 한 줄이면 충분. 시간성을 잃지 않는 게 목적.
 
+## [2026-05-29] restructure | [[Claude-Skill]]·[[karpathy-guidelines]] 설치 스펙 정정 → [[superpowers]] (1신, 2갱신)
+
+- 기존 위키 주장 "사장님 환경 13+개 스킬 설치 완료" → **실측으로 거짓 판정** (~/.claude/skills/ 부재, installed_plugins.json 비어있음 — 이 PC 기준).
+- 사장님 정정 3건 누적:
+  1. "옵시디언 입력 PC엔 이미 설치, 다른 PC엔 미설치 가능 — 위키는 PC 무관 도서관이므로 'PC별 상태' 적지 말고 '필요한 스킬 + 설치 방법'을 명시"
+  2. "14개 스킬 필요한 게 아니라 5개 역할분담이 작동해야 하는 거지" — 14 통설치가 핵심 목표가 아님을 명확화
+  3. "처음 위키 보는 PC가 14개 다 받아서 5개만 쓰면 비효율" → bulk 플러그인 설치 X, **5스킬 cherry-pick** 권장으로 전환
+- [[Claude-Skill]] 갱신: "13+ 설치 완료" 주장 삭제 → 진짜 목표 = "5역할이 작동하는 상태" 명시. §설치 방법 재작성 — Bash·PowerShell 양 OS용 cherry-pick 절차 (clone superpowers → 5폴더 복사 → 정리). 플러그인 통설치는 부록·비권장으로 강등.
+- 신규 entity stub [[superpowers]]: 14스킬 카테고리(Testing 1 / Debugging 2 / Collaboration 9 / Meta 2 = 14) 정리 + 5개만 cherry-pick 권장 명시. WebFetch로 `skills/<이름>/SKILL.md` layout 확인.
+- [[karpathy-guidelines]] 갱신: 설치 절차도 cherry-pick으로 통일 (저장소가 1스킬이라 bulk vs cherry-pick 동일하지만 일관성).
+
 ## [2026-05-29] ingest | raw/karpathy/2026-04-20_forrestchang_andrej-karpathy-skills.md → [[karpathy-guidelines]]·[[Karpathy]]·[[Claude-Skill]] (2신, 1갱신, 1 source)
 
 - `multica-ai/andrej-karpathy-skills` GitHub 저장소 (forrestchang 패키징, MIT, 최신 커밋 2026-04-20). README + CLAUDE.md + SKILL.md + EXAMPLES.md 4파일 verbatim 번들로 raw 보존. CURSOR.md·README.zh.md 제외.

@@ -68,6 +68,27 @@ updated: 2026-05-29
 - [[클로드-베이커리-비유]] — 4축 비유에서 본 가이드라인의 정확한 자리(MD 축) 확정.
 - [[바이브-코딩]] — 자연어로 코딩할 때 바로 이 4원칙이 활성화되는 게 이 가이드라인의 의도.
 
+## 설치 (모든 PC 공통)
+
+본 가이드라인은 작업 무관 베이스라인 규범집이므로 **모든 PC에서 깔려있어야** 한다. 자세한 설치·점검은 [[Claude-Skill]] §설치 방법 참고. cherry-pick 권장 (저장소가 1스킬만 들어있어 통설치든 cherry-pick이든 같음).
+
+**Bash**:
+```bash
+git clone https://github.com/multica-ai/andrej-karpathy-skills.git /tmp/kg
+cp -r /tmp/kg/skills/karpathy-guidelines ~/.claude/skills/
+rm -rf /tmp/kg
+```
+
+**PowerShell**:
+```powershell
+$tmp = "$env:TEMP\kg"
+git clone https://github.com/multica-ai/andrej-karpathy-skills.git $tmp
+Copy-Item -Recurse "$tmp\skills\karpathy-guidelines" "$env:USERPROFILE\.claude\skills\"
+Remove-Item -Recurse -Force $tmp
+```
+
+[[superpowers]] 저장소에서 5스킬 cherry-pick과 함께 설치돼 있어야 베이커리 5인 사이클이 정상 작동.
+
 ## 내 생각 / 미해결 질문
 
 - **본 vault에 적용해야 하나?** 현재 vault의 운영 룰(CLAUDE.md·핵심-맥락)과 karpathy-guidelines가 충돌할 부분이 있는지 점검 필요. 첫인상은 동조 — 둘 다 "추측 금지", "범위 한정", "성공 기준 명시" 강조.
