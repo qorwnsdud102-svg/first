@@ -26,10 +26,10 @@
 
 ## 분류별 폴더
 
-- [[concepts]] — 추상 개념 (몰입·자각·필터·결핍·플러스 에너지 등)
-- [[entities]] — 사람·책·인용 (M군의 마인드 어록 등)
-- [[sources]] — raw 파일별 메타 페이지 (cross-domain 참조 포함)
-- [[syntheses]] — 종합·반성·일지
+- `concepts/` — 추상 개념 (몰입·자각·필터·결핍·플러스 에너지 등)
+- `entities/` — 사람·책·인용 (M군의 마인드 어록 등)
+- `sources/` — raw 파일별 메타 페이지 (cross-domain 참조 포함)
+- `syntheses/` — 종합·반성·일지
 
 ## 운영 페이지
 
