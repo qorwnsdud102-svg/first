@@ -37,7 +37,7 @@ updated: 2026-05-29
 ## 다른 엔티티와의 관계
 
 - [[karpathy-guidelines]] — 그의 X 글 4대 진단을 4원칙으로 재구성한 행동 규범.
-- [[Claude-Skill]] — `karpathy-guidelines`가 사장님 환경 13+ 스킬 중 1개로 들어가 있음.
+- [[Claude-Skill]] — `karpathy-guidelines`는 본 vault 운영의 필수 6스킬 중 1개 (5인 사이클 외 베이스라인 규범 자리). 자세한 매핑은 [[Claude-Skill]] §매핑 근거.
 - [[클로드-베이커리-비유]] — `karpathy-guidelines`의 자리(MD 축, 베이스라인 규범)를 비유 안에서 확정.
 
 ## 내 생각 / 미해결 질문

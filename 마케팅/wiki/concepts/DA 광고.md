@@ -3,7 +3,7 @@ type: 개념
 school: 네이버바이럴
 aliases: [DA, Display Advertising, 디스플레이 광고]
 status: growing
-sources: [마케팅/wiki/sources/엠타트업/2025-10_엠타트업_DA광고용-제품-기획방법.md, 마케팅/raw/inbox/2026-03-24_사장님_DA-기획이-전부다.md]
+sources: [마케팅/wiki/sources/엠타트업/2025-10_엠타트업_DA광고용-제품-기획방법.md, 마케팅/raw/기타/2026-03-24_사장님_DA-기획이-전부다.md]
 updated: 2026-05-27
 ---
 

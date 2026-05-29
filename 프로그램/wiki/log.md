@@ -3,6 +3,14 @@
 > Ingest · Lint · 구조 변경의 일자별 기록. **최신이 위.**
 > 한 줄이면 충분. 시간성을 잃지 않는 게 목적.
 
+## [2026-05-29] lint | 프로그램 도메인 정돈 → [[Karpathy]]·[[MCP]]·[[index]]·[[커뮤니티-크롤러-브레인스토밍]] (1신 synthesis, 3갱신)
+
+- inbox 정상화: `raw/inbox/2026-05-22_커뮤니티크롤러_브레인스토밍-진행중.md` → `wiki/syntheses/커뮤니티-크롤러-브레인스토밍.md`로 이동 (외부 raw가 아니라 내부 결정 일지/ADR이라 syntheses가 맞는 자리). raw inbox 비움.
+- status 격상: [[MCP]] stub→growing (한줄정의 + 4 핵심주장 + 관계 3개 모두 충족, 출처 14일 초과).
+- 엔티티 정정: [[MCP]] §도메인별 분포 신설 (프로그램 dominant — 마케팅 cross-domain 참조만).
+- 엔티티 정정: [[Karpathy]] "사장님 환경 13+ 스킬" stale 클레임 → "필수 6스킬 중 1개" 정정 (직전 [[Claude-Skill]] revision으로 13/14 추정 폐기됨).
+- 인덱스: entity 6→8 (Karpathy·superpowers 추가), concepts 5→7 (karpathy-guidelines·스킬-스코프 추가), syntheses 1→2 (커뮤니티-크롤러 추가), sources 35→36.
+
 ## [2026-05-29] restructure | 스킬 로딩 메커니즘 페이지화 → [[스킬-스코프]] (1신, 3갱신)
 
 - 진단: `~/.claude/skills/` cherry-pick 후 vault 밖 프로젝트(`C:\CLAUDE\ATM WEBSTIE`) 세션에서 "5인 역할분담 알아?" 물어보니 모름 — 스킬 본체는 로드됐지만 메타 프레임은 vault 위키 안에만 있어 vault 밖 세션은 접근 불가.
