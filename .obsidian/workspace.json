@@ -12,10 +12,12 @@
             "id": "e867eaaac51e4787",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "pdf",
+              "state": {
+                "file": "마케팅/raw/엠타트업/2025-10_엠군_부자를훔치다.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2025-10_엠군_부자를훔치다"
             }
           }
         ]
@@ -23,7 +25,7 @@
       {
         "id": "54274fd8b80195d9",
         "type": "tabs",
-        "dimension": 61.73020527859238,
+        "dimension": 61.73020527859237,
         "children": [
           {
             "id": "04d8ed2bd72782cf",
@@ -243,7 +245,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "githobs:Manage a github issue": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -251,11 +252,13 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "bases:새 베이스 생성하기": false,
+      "githobs:Manage a github issue": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "e867eaaac51e4787",
   "lastOpenFiles": [
+    "마케팅/아웃풋/CLAUDE.md",
     "마케팅/wiki/concepts/가치더하기.md",
     "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-2강-콘텐츠-기획-및-베스트-사례.md",
     "마케팅/wiki/sources/그로스짐/2025_그로스짐_사전VOD-1강-성공하는-콘텐츠-흐름찾기.md",
@@ -290,7 +293,6 @@
     "프로그램/wiki/sources/iboss-근육돌이/AI에-월-100만원-쓰면서-느낀-시행착오-5가지.md",
     "프로그램/wiki/sources/iboss-근육돌이/AI를-다루는-마케터가-똑똑해야하는-이유-AI-3년-뒤-사업의-존폐의-여부가.md",
     "프로그램/wiki/sources/iboss-근육돌이/AI로-퍼포먼스-영상-기획-쉽게-가능하다-[-퍼포먼스-영상-기획-10배-빨리.md",
-    "프로그램/wiki/sources/iboss-근육돌이/AI로-사실적인-인물-치트키-+-나노바나나-멱살잡는-씨드림40-가이드.md",
-    "프로그램/wiki/sources/iboss-근육돌이/AI로-만든-광고로-일-매출-8000만원-달성했습니다.md"
+    "프로그램/wiki/sources/iboss-근육돌이/AI로-사실적인-인물-치트키-+-나노바나나-멱살잡는-씨드림40-가이드.md"
   ]
 }
