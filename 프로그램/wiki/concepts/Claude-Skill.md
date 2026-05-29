@@ -122,12 +122,17 @@ ls ~/.claude/skills/
 ```
 6개 폴더 다 보이면 끝. 또는 임의 프로젝트에서 `brainstorming` 스킬이 호출 가능한지 테스트.
 
+### Step 3 — 유저 CLAUDE.md (메타 프레임 글로벌화)
+
+위 6스킬만 깔면 **스킬 본체는 작동**하지만, "5인 역할분담"이라는 메타 프레임은 vault 위키 안에만 있어 vault 밖 프로젝트 세션엔 안 보임. 모든 세션이 5인 사이클을 인지하게 하려면 [[스킬-스코프]] §유저 CLAUDE.md 절차 추가 실행. canonical 사본을 `~/.claude/CLAUDE.md`로 저장.
+
 ### 안 쓰는 보너스 스킬이 필요해질 경우
 
 5역할 외 9스킬(executing-plans · systematic-debugging · receiving-code-review · test-driven-development · finishing-a-development-branch · using-superpowers · using-git-worktrees · dispatching-parallel-agents · subagent-driven-development)이 나중에 진짜 필요하다 싶으면 그때 같은 cherry-pick 방식으로 1개씩 추가. **묶음으로 14개 통설치는 지양**.
 
 ## 다른 엔티티와의 관계
 
+- [[스킬-스코프]] — 본 스킬들이 **어디 살고 언제 발동되는지**의 메커니즘 (user-level vs project-level / description 매칭 auto-trigger / ~/.claude/CLAUDE.md baseline).
 - [[클로드-베이커리-비유]] — 스킬을 다른 3축 (MD·훅·WIKI)과 함께 한 장으로 정리한 비유.
 - [[바이브-코딩]] — 스킬은 바이브 코딩의 재사용 단위.
 - [[Hook]] — 스킬과 별개 레이어. 훅은 스킬 호출 외에도 자동 발동.

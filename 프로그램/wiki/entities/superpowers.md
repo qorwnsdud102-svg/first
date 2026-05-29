@@ -56,6 +56,7 @@ rm -rf /tmp/sp
 ## 다른 엔티티와의 관계
 
 - [[Claude-Skill]] — 본 플러그인이 그 안의 14개 SKILL.md 모음이라는 점에서 Claude-Skill 개념의 실제 인스턴스.
+- [[스킬-스코프]] — cherry-pick한 5스킬을 user-level(`~/.claude/skills/`)에 깔아 CWD 무관하게 작동시키는 규칙.
 - [[karpathy-guidelines]] — 함께 필수로 까는 1스킬. superpowers와 별개 마켓플레이스(`forrestchang/andrej-karpathy-skills`)에서 옴.
 - [[클로드-베이커리-비유]] — 5인 사이클의 5스킬이 본 플러그인 안에 있음.
 

@@ -3,6 +3,14 @@
 > Ingest · Lint · 구조 변경의 일자별 기록. **최신이 위.**
 > 한 줄이면 충분. 시간성을 잃지 않는 게 목적.
 
+## [2026-05-29] restructure | 스킬 로딩 메커니즘 페이지화 → [[스킬-스코프]] (1신, 3갱신)
+
+- 진단: `~/.claude/skills/` cherry-pick 후 vault 밖 프로젝트(`C:\CLAUDE\ATM WEBSTIE`) 세션에서 "5인 역할분담 알아?" 물어보니 모름 — 스킬 본체는 로드됐지만 메타 프레임은 vault 위키 안에만 있어 vault 밖 세션은 접근 불가.
+- 해결: `~/.claude/CLAUDE.md` 신설 (5인 매핑 + karpathy 4원칙 + 4축 그림). user-level memory라 모든 세션 자동 로드. 이 PC는 즉시 적용, 다른 PC는 본 페이지 §유저 CLAUDE.md canonical 복붙으로 설치.
+- 신규 concept [[스킬-스코프]]: user-level vs project-level / description 매칭 auto-trigger / ~/.claude/CLAUDE.md 강한 baseline / 세션 시작 시 로드 잠금 등 스킬 로딩 메커니즘 통합 정리. §유저 CLAUDE.md 절에 canonical 사본 인라인 보관(다른 PC 복붙용).
+- [[Claude-Skill]] 갱신: §설치 방법 Step 3 추가(메타 프레임 글로벌화 절차로 [[스킬-스코프]] 가리킴).
+- [[superpowers]]·[[karpathy-guidelines]] 갱신: 다른 엔티티 관계 절에 [[스킬-스코프]] 링크 추가.
+
 ## [2026-05-29] restructure | [[Claude-Skill]]·[[karpathy-guidelines]] 설치 스펙 정정 → [[superpowers]] (1신, 2갱신)
 
 - 기존 위키 주장 "사장님 환경 13+개 스킬 설치 완료" → **실측으로 거짓 판정** (~/.claude/skills/ 부재, installed_plugins.json 비어있음 — 이 PC 기준).
