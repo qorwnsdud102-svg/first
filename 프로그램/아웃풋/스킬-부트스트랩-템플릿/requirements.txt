@@ -1,0 +1,4 @@
+# TODO: 이 도구가 실제로 쓰는 것만 남기기 (Simplicity First)
+requests
+# openpyxl       # 엑셀 산출물 필요 시
+# playwright     # 브라우저 크롤링 필요 시 (playwright install chromium 별도)

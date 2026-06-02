@@ -1,0 +1,10 @@
+# ============================================
+# API 키 설정 파일 (템플릿)
+# 이 파일을 api_keys.txt 로 복사한 뒤 실제 값을 입력하세요.
+# api_keys.txt 는 절대 커밋하지 마세요 (.gitignore 에 추가).
+# ============================================
+
+# TODO: 이 도구가 쓰는 키만 남기기
+SERVICE_KEY=YOUR_KEY_HERE
+# CLIENT_ID=YOUR_CLIENT_ID
+# CLIENT_SECRET=YOUR_CLIENT_SECRET

@@ -3,6 +3,31 @@
 > Ingest · Lint · 구조 변경의 일자별 기록. **최신이 위.**
 > 한 줄이면 충분. 시간성을 잃지 않는 게 목적.
 
+## [2026-06-02] restructure | 다PC 자동 동기화 — _setup/ 부트스트랩 + 드리프트 hook 신설 → [[스킬-스코프]] (1갱신, _setup/ 4신)
+
+- 문제: vault는 git(origin=github qorwnsdud102-svg/first, main)으로 *지식*만 동기화 — `~/.claude/`(글로벌 CLAUDE.md·settings.json hook)는 vault 밖이라 다른 PC에 안 따라감. "어디서나 노하우 아는 클로드"가 안 됨.
+- 해결: vault 안 `_setup/` 신설 — 정본 + 설치 자동화를 git에 실어 보냄.
+  - `_setup/claude-global.md` = **단일 소스 정본**(라이브 ~/.claude/CLAUDE.md 원본).
+  - `_setup/check-claudemd-sync.ps1` = PostToolUse(Edit|Write) 드리프트 가드. ASCII-only(한글 경로/리터럴 0 → 코드페이지 안전), canon은 $PSScriptRoot 상대, live는 $env:USERPROFILE. 파이프 테스트 3케이스(비대상 silent / 동기화 silent / 드리프트 JSON경고) 통과.
+  - `_setup/install.ps1` = 멱등 부트스트랩. 정본→~/.claude/CLAUDE.md 복사 + hook을 settings.json에 병합(기존 설정 보존, BOM 없이). 이 PC 실행→검증 완료(JSON 유효, 기존 plugins/permissions 보존).
+  - `_setup/README.md` = 새 PC 3스텝(`git pull → install.ps1 → 새 터미널`) + 운영 규칙.
+- [[스킬-스코프]] 갱신: §유저 CLAUDE.md 정본을 `_setup/claude-global.md`로 명시(임베드 codeblock은 읽기용 미러로 강등), §설치 절차를 install.ps1 한 줄로 교체(수동은 폴백). 내 생각 칸에 다PC 활성화 타이밍 추가.
+- 새 PC 효과: 위 3스텝이면 5인 사이클·karpathy 4원칙·병렬 디폴트·파이프라인 스킬 패키지 노하우가 모든 세션 자동 로드 + 드리프트 자동 경고.
+
+## [2026-06-02] restructure | ~/.claude/CLAUDE.md ↔ [[스킬-스코프]] canonical 재동기화 + 부트스트랩 템플릿 신설 → [[스킬-스코프]]·[[파이프라인-스킬-패키지]] (2갱신, 템플릿 폴더 1신)
+
+- 부트스트랩 템플릿 신설: `프로그램/아웃풋/스킬-부트스트랩-템플릿/` (SKILL.md·CLAUDE.md·README·references·scripts(config+step1 골격)·hooks 3종·.gitignore·README-템플릿-사용법.md). 8 노하우를 파일 구조·주석에 박음. step1 골격 스모크 테스트 통과(파일 핸드오프 UTF-8 정상).
+- 라이브 `~/.claude/CLAUDE.md`에 "자작 도구 만들 때 — 파이프라인 스킬 패키지" 섹션 추가 → 모든 세션이 8 노하우·템플릿 경로 인지(always-on baseline, vault 밖 세션 포함).
+- [[스킬-스코프]] §Canonical 사본을 라이브와 **정확히 재동기화**: 테이블 헤더(`또는 superpowers 플러그인`)·자작도구 섹션·병렬 작업 디폴트 섹션·🍞 병렬 오븐 4축 행·실제 vault 경로 반영. (재동기화 전까지 canonical은 라이브보다 뒤처져 있었음 — 다른 PC 복붙 시 누락 위험이던 것 해소.)
+- [[스킬-스코프]] 내 생각 정정: "~/.claude/CLAUDE.md 아직 없음(2026-05-29)" stale claim → "도입·운영 중" 갱신. updated 2026-06-02.
+
+## [2026-06-02] ingest | C:\claude\네이버 급상승 키워드 기반 경쟁사 발굴\ → [[파이프라인-스킬-패키지]]·[[competitor-finder]] (2신, [[index]] 갱신)
+
+- 대표님이 공유한 competitor-finder 스킬 폴더 전체 정독(SKILL.md·README·사용법.txt·config.py·scan_surge.py·hooks/*.sh·references/). 외부 raw가 아니라 사장님 보유 프로그램이라 폴더 경로를 출처로 직접 기록.
+- 신규 concept [[파이프라인-스킬-패키지]]: 다단계 자동화 스킬을 SKILL.md(계획)·references(상세)·scripts(독립 CLI)·hooks(게이트)로 쪼개 한 폴더에 담는 표준 해부도 + 전이 가능한 8 노하우(progressive disclosure·이중 구동·파일 핸드오프·우아한 실패·정책=데이터·훅 wrapping 등). [[클로드-베이커리-비유]] 4축을 폴더 레이아웃으로 물리화한 것.
+- 신규 entity stub [[competitor-finder]] (type: 작품): 4-STEP 파이프라인·판정 임계값(15→40, 0→300)·HMAC 시간차 보정·Client ID 라운드로빈 정리. [[네이버-검색광고-API]]·[[네이버-검색결과-크롤링]]·[[Hook]] 와 연결.
+- 통계: concepts 7→8, entities 8→9. 자주 가는 곳에 [[파이프라인-스킬-패키지]] 추가.
+
 ## [2026-05-29] lint round 3 | 자체 점검에서 발견한 잔여 정리 → 핵심-맥락·[[엠타트업/2025-10_엠군_부자를훔치다]]·[[엠타트업/M군스토리]] (3갱신)
 
 - 내가 round 1·2 작업 중 introduce한 broken 링크 자체 발견:

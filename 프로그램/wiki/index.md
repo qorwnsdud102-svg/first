@@ -21,6 +21,7 @@
 - [[MCP]] — AI에 외부 도구·데이터를 USB 허브처럼 연결하는 프로토콜.
 - [[Claude-Skill]] — 5역할 ↔ 사장님 운영 스킬 매핑 (bob→`brainstorming`, dd→`writing-plans`, harness→`verification-before-completion`, eval→`requesting-code-review`, learnings→`writing-skills`).
 - [[클로드-베이커리-비유]] — MD·스킬·훅·WIKI 4축을 한 장 비유로.
+- [[파이프라인-스킬-패키지]] — 4축을 한 폴더 레이아웃으로 물리화한 해부도 + 전이 가능한 8 노하우. 표본: [[competitor-finder]].
 
 ## 운영 인프라 — 프로그램 격벽 원칙
 
@@ -75,8 +76,8 @@
 
 ## 분류별 폴더
 
-- `concepts/` — 추상 개념 (디자인 패턴·아키텍처·이론) — 7개 ([[다경로-데이터-모순-디버깅]], [[바이브-코딩]], [[Claude-Skill]], [[Hook]], [[클로드-베이커리-비유]], [[karpathy-guidelines]], [[스킬-스코프]])
-- `entities/` — 라이브러리·도구·외부 서비스·API·사람·조직 — 8개 ([[MCP]], [[네이버-검색광고-API]], [[광고주센터-비공식-API]], [[네이버-검색결과-크롤링]], [[CCFM-AX-TEAM]], [[강동이]], [[Karpathy]], [[superpowers]])
+- `concepts/` — 추상 개념 (디자인 패턴·아키텍처·이론) — 8개 ([[다경로-데이터-모순-디버깅]], [[바이브-코딩]], [[Claude-Skill]], [[Hook]], [[클로드-베이커리-비유]], [[karpathy-guidelines]], [[스킬-스코프]], [[파이프라인-스킬-패키지]])
+- `entities/` — 라이브러리·도구·외부 서비스·API·사람·조직·작품 — 9개 ([[MCP]], [[네이버-검색광고-API]], [[광고주센터-비공식-API]], [[네이버-검색결과-크롤링]], [[CCFM-AX-TEAM]], [[강동이]], [[Karpathy]], [[superpowers]], [[competitor-finder]])
 - `sources/` — raw 파일별 메타 페이지 — 36개 (iboss-근육돌이/ 33 + naver-biding 1 + ccfm-강동이/ 1 + karpathy/ 1)
 - `syntheses/` — 종합·결정이력(ADR)·비교 — 2개 ([[네이버-광고-자동화-운영-노트]], [[커뮤니티-크롤러-브레인스토밍]])
 
