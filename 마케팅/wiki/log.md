@@ -479,3 +479,5 @@
 - `raw/inbox/` 도입: 미분류 raw의 임시 자리.
 - wiki 하위 4분류: `sources/` · `concepts/` · `entities/` · `syntheses/`.
 - 진입 페이지: [[index]] · [[log]] (이 파일).
+
+## [2026-08-19] restructure | raw·wiki CLAUDE.md → 책 ingest 규칙 포인터 추가 (raw/책/ 출처 신설, 상세는 핵심-맥락.md §4)
