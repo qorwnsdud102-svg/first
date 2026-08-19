@@ -143,3 +143,10 @@
 - 4층 구조 (raw / wiki / 아웃풋), wiki 하위 4분류 (sources · concepts · entities · syntheses).
 - CLAUDE.md는 마케팅 도메인과 동일한 운영 규칙 사용 (도메인 무관 규칙이라 그대로 미러).
 - 첫 ingest 대기 중.
+
+## [2026-08-19] ingest | (cross-domain) 마케팅/raw/iboss-근육돌이/ __70692·__71348·__71608 → [[AI 지휘자-공장 모델]] 1신 · [[파이프라인-스킬-패키지]]·[[Claude-Skill]]·[[측정-지표-함정]]·[[CCFM-AX-TEAM]] 4갱신 · sources 3신 (4신, 4갱신)
+
+  - raw는 마케팅 도메인에 그대로 두고 프로그램 sources에 **절대경로 참조 메타**만 생성 (엠타트업 cross-domain 선례).
+  - 파이프라인 규약 3개 신규: **비싼 작업 직전 사람 게이트 · "예상 대 실제" 자체검증 2단계 · 기준 파일 버전 증가(한 번에 한 변수)**. 폴더 핸드오프 4단계는 competitor-finder와 **독립 출처 교차 검증**.
+  - **CCFM 정체 확인**: 콘크리트파머스(CONC.FARMERS), 근육돌이 본인이 운영하는 광고대행사 → entity 미해결질문 2개 해소, status stub→growing. ⚠️ raw에 "마케팅모먼트" 17건 / "콘크리트파머스" 9건 공존 → 단정 않고 병기 + lint 항목.
+
