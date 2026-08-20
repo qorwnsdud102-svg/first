@@ -31,6 +31,10 @@
 - `entities/` — named: 사람·책·조직·구체 작품. (예: [[Karpathy]], [[Attention Is All You Need]])  → `type: 사람` · `책` 등
 - `syntheses/` — 여러 페이지를 가로지르는 내 종합·비교·가설. wiki의 부가가치.  → `type: 질문` 또는 신규 `종합` 타입
 
+## 신뢰 등급
+
+1·2·3등급 체계는 vault 전역 공통 — 정의는 `핵심-맥락.md` §신뢰 등급, 상세 표기·인용 규칙은 `마케팅/wiki/CLAUDE.md` §신뢰 등급 참조. **1등급이 최상.**
+
 ## 페이지 형식 (템플릿)
 
 ````markdown
