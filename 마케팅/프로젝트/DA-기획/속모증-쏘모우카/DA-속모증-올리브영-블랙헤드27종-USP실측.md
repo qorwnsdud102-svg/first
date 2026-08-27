@@ -5,7 +5,7 @@ based_on:
   - 마케팅/wiki/concepts/코어 벤치마킹.md
   - 마케팅/wiki/concepts/상징재.md
   - 마케팅/wiki/syntheses/DA 기획 판정 룰.md
-  - 마케팅/아웃풋/DA-쏙모팩-경쟁사-실측.md
+  - 마케팅/프로젝트/DA-기획/속모증-쏘모우카/DA-쏙모팩-경쟁사-실측.md
 ---
 
 # 올리브영 블랙헤드·피지·모공 27종 USP 실측 (썸네일 이미지 판독)

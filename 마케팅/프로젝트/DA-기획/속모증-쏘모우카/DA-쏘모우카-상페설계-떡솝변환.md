@@ -3,7 +3,7 @@ audience: 나-자신
 status: 초안
 based_on:
   - 마케팅/wiki/syntheses/DA 기획 판정 룰.md
-  - 마케팅/아웃풋/DA-속모증-기획-최종정리.md
+  - 마케팅/프로젝트/DA-기획/속모증-쏘모우카/DA-속모증-기획-최종정리.md
 updated: 2026-08-26
 ---
 
