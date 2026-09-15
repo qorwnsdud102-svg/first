@@ -2,8 +2,8 @@
 type: 도구
 aliases: [네이버 검색광고 API, searchad API, naver-search-ad-api]
 status: growing
-sources: [프로그램/raw/2026-05-22_naver-biding_journal-알짜.md]
-updated: 2026-05-22
+sources: [프로그램/raw/2026-05-22_naver-biding_journal-알짜.md, C:\claude\성과측정 대시보드\docs\superpowers\specs\2026-09-08-naver-sa-dashboard-design.md, C:\claude\성과측정 대시보드\app\naver_api.py]
+updated: 2026-09-15
 ---
 
 # 네이버 검색광고 API
@@ -24,10 +24,24 @@ updated: 2026-05-22
 - **Estimate body 스키마 분기** — `average-position-bid`: `items:[{key,position}]` (PC 1~10 / MOBILE 1~5). `performance`: root `{key, bids:[...]}` (items 아님).
 - **다계정 creds resolve 헬퍼** — `request.app.state.scheduler._creds` 그대로 넘기면 `KeyError('api_key')`. `config.resolve_creds_for_customer(all, cid)` 공용 (단일/다계정 자동 분기 + X-Customer override).
 
+## Stat Report 일별 성과 수집 (2026-09-08~15 실측 — [[네이버-SA-성과측정-툴]])
+
+입찰가 관리(위)와 별개로 **성과를 받아오는** 면. naver-biding이 안 쓰던 부분이라 여기 새로 적는다.
+
+- **흐름**: `POST /stat-reports {reportTp, statDt}` → `GET /stat-reports/{id}` 폴링(REGIST → RUNNING → BUILT, 2초 간격·최대 3분) → `downloadUrl` 다운로드(서명 필요, 본문에 BOM → `utf-8-sig`) → `DELETE /stat-reports/{id}`. 데이터 없는 날은 400 `code 10004` → "데이터 없음"으로 기록하고 계속.
+- **TSV 형식**: 헤더 없음, 탭 구분. AD 14열(`날짜 yyyymmdd, customer_id, campaign_id, adgroup_id, keyword_id('-' 가능), ad_id, business_channel_id, media_code, device(P/M), imp, clk, cost, rank_sum, view_cnt`), AD_CONVERSION 13열(… `conv_method, conv_type, conv_cnt, conv_amt`). **매체(media_code) 7,800여 종으로 쪼개져 하루 15,000행** → `(date, keyword_id, ad_id, device)`로 합산해야 쓸 수 있다.
+- **비용 단위**: Stat Report `cost` = 광고관리시스템 총비용(VAT 포함)과 일치(2026-09-08 확인) → [[실제-광고비-계수]]의 B.
+- **전환은 쇼핑검색만 잡힌다.** 파워링크·파워컨텐츠는 카페·블로그를 거쳐서 180일간 전환 0 → [[NT-파라미터-매출-귀속]]으로 대체.
+- **부정클릭·전환은 며칠 뒤 정산** → D-1~D-7은 항상 재수집(→ [[수집-파이프라인-안전장치]]). 백필은 **180일까지**(365일 전은 데이터 없음 응답). `/stats`는 단일 ID 일별 또는 다중 ID 합산만 되고 PC/모바일 분리는 최근 7일뿐이라 일별 추이는 DB에서 계산.
+- **마스터 동기화**: 캠페인 → 광고그룹(캠페인별) → 키워드(비쇼핑) / 소재(쇼핑, `SHOPPING_PRODUCT_AD`, `referenceData.productTitle`). 계정 1개 기준 약 260회 호출, 호출 간 0.05초. 캠페인 ID 접두사 `cmp-a001-01/02/03/04` = 파워링크/쇼핑/파워컨텐츠/브랜드검색. 쇼핑은 키워드 없이 상품(소재) 단위로 성과가 잡힌다.
+- **서명 시간 오차**: 응답 `Date` 헤더로 오프셋을 계산해 재시도하되 24시간을 넘는 오프셋은 무시. 네트워크·5xx·429는 지수 백오프 3회.
+- **동명 광고그룹에 `-1, -2` 접미사**가 자동으로 붙는다 — 이름 매칭 시 접미사를 기본 정규화로 떼면 서로 다른 그룹이 뭉친다(정확 매칭 먼저, 접미사 제거는 폴백).
+
 ## 다른 엔티티와의 관계
 
 - [[광고주센터-비공식-API]] — 노출현황·실시간 순위는 비공식 API 로 보완. 인증 방식 다름 (쿠키 vs HMAC).
 - [[다경로-데이터-모순-디버깅]] — owned_hints / status sync 사례의 무대.
+- [[네이버-SA-성과측정-툴]] — Stat Report 수집기의 무대. [[수집-파이프라인-안전장치]] — 재수집 창·증거 기반 삭제. [[네이버-커머스API]] — 매출 쪽 짝(다른 플랫폼).
 
 ## 내 생각 / 미해결 질문
 
@@ -36,3 +50,4 @@ updated: 2026-05-22
 ## 출처
 
 - `프로그램/raw/2026-05-22_naver-biding_journal-알짜.md` (naver-biding journal 2026-05-14~21)
+- `성과측정 대시보드/docs/superpowers/specs/2026-09-08-naver-sa-dashboard-design.md` §2 (API 탐색 결과 2026-09-08), `app/naver_api.py`, `app/report_parser.py` — Stat Report 절.
