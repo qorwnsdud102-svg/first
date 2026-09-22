@@ -1,9 +1,9 @@
 ---
 type: 개념
-aliases: [메타 맞춤 광고 댓글 API 한계, 노출 위치별 소재 맞춤 댓글, PAC 광고 댓글, 다이내믹 광고 댓글 조회 불가, 광고 댓글 웹훅 필요, effective_object_story_id 함정, placement asset customization comments]
+aliases: [메타 맞춤 광고 댓글 API 한계, 노출 위치별 소재 맞춤 댓글, PAC 광고 댓글, 다이내믹 광고 댓글 조회 불가, 광고 댓글 웹훅 필요, effective_object_story_id 함정, placement asset customization comments, 광고 전용 게시물 반응 조회 불가, is_published false 좋아요 0]
 status: growing
 sources: [C:\claude\메타 댓글 자동삭제\docs\superpowers\specs\2026-09-17-맞춤광고-댓글-조회-한계와-선택지.md, 2026-09-17-댓글-찾기-입구-개정-design.md, 2026-09-17-실데이터-시험-감사-결과.md, 2026-09-16~17 읽기 전용 Graph API 실측(미드디 광고계정·일상곡선 페이지)]
-updated: 2026-09-17
+updated: 2026-09-22
 ---
 
 # 메타 맞춤 광고 댓글 API 한계
@@ -56,6 +56,34 @@ updated: 2026-09-17
 - 미리보기 HTML의 `videoID` 자리는 공식 문서가 보장하지 않는다 — 메타가 구조를 바꾸면 켜진 광고의 FB 영상 0개 경보로 알아챈다.
 - IG 댓글의 작성자(`username`)도 빠지는가? (2026-09-17 기준 IG 댓글이 달린 게시물이 없어 미실측)
 - FB 페이지 `feed` 웹훅이 맞춤 광고 댓글을 표준 액세스로 전달하는가? (주기 확인이 5분에 HTTP 3건으로 줄어 급하지 않음)
+
+## 반응 조회도 막힌다 — 광고 전용 피드 게시물 (2026-09-22 추가)
+
+이 페이지는 **게시물을 못 찾는** 문제를 다루는데, 찾은 뒤에도 한 겹이 더 있다.
+**광고 전용(`is_published=false`) FB 피드 게시물은 좋아요·댓글 수를 못 읽는다 — 오류가 아니라 0 이 돌아온다.**
+
+```
+GET /{page_id}_{post_id}?fields=likes.summary(true),comments.summary(true)
+  → {"likes":{"summary":{"total_count":0}}, "comments":{"summary":{"total_count":0}}}
+  실제(브라우저)  좋아요 225 · 댓글 34
+```
+
+`reactions`·`comments.filter(stream)`·`shares` 로 바꿔도 전부 0 이다. **릴스(`/reel/`)는 같은 방법으로 제대로 읽힌다**(222·33).
+릴스도 `is_published=false` 인데 읽히므로, **비공개라서 못 읽는 것이 아니다.**
+
+원인으로 보이는 것: `/me/accounts` 가 주는 페이지 id 와 그 게시물이 실제로 사는 페이지 id 가 **다르다**
+(브라우저 주소는 `facebook.com/61574054860277/posts/…`, 토큰이 주는 페이지는 `586083164589708`).
+후자로 만든 합성 id 는 **에러 없이 빈 껍데기**를 돌려준다. `61574054860277` 로는 그 객체를 열 수 없다(권한 없음).
+
+`post_impressions` 계열도 v25 에서 사라졌다(`(#100) The value must be a valid insights metric`).
+남아 있는 것은 `post_video_views`·`post_clicks` 인데, **광고 노출을 제대로 안 잡는다** —
+릴스 오브젝트 자기 조회가 4,829 인데 그 소재의 `facebook_reels` 노출은 53,639 이었다(10분의 1).
+
+### 규칙
+
+- **FB 피드 게시물의 0 은 "반응 없음" 이 아니라 "못 읽음" 이다.** 도구가 그렇게 표시해야 한다([[모름-vs-0-표시-규약]]).
+- **게시물 단위 인사이트로 노출을 판단하지 않는다.** 노출은 광고 insights(구좌 breakdown)로 본다 — [[광고-구좌별-노출-쏠림]].
+- 반응을 꼭 세야 하면 **사람이 브라우저로 연다.** 지금 API 로 가는 길은 없다.
 
 ## 다른 엔티티와의 관계
 
