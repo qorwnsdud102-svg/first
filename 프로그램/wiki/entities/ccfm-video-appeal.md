@@ -57,7 +57,7 @@ Gemini 새 대화: 경쟁사 영상 파일 1개 업로드 + 프롬프트
 
 - 폴더 통째로 `~/.claude/skills/ccfm-video-appeal/` → 새 세션에서 `/ccfm-video-appeal 처음 쓰는데 어떻게 하면 돼?`
 - Claude 웹: Customize → Skills → Upload a skill (ZIP 그대로). Codex: `%USERPROFILE%\.agents\skills\ccfm-video-appeal\`.
-- **현재 사장님 PC 미설치** (2026-09-24 기준, raw에만 보관).
+- **2026-09-24 설치 완료** — `~/.claude/skills/ccfm-video-appeal/` (원본과 동일 확인, 스킬 목록 인식 확인). 첫 실행 결과는 아직 없음.
 
 ## 다른 엔티티와의 관계
 
