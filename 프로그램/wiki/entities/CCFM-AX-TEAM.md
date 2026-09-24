@@ -1,9 +1,9 @@
 ---
 type: 조직
-aliases: [CCFM, CCFM AX, CCFM AX TEAM, AX TEAM, 콘크리트파머스, CONC.FARMERS]
+aliases: [CCFM, CCFM AX, CCFM AX TEAM, AX TEAM, 콘크리트파머스, CONC.FARMERS, CCFM EDU]
 status: growing
-sources: [프로그램/raw/ccfm-강동이/2026-05-09_강동이_Claude-Code-기본-교육-교안.md, 마케팅/raw/iboss-근육돌이/]
-updated: 2026-08-19
+sources: [프로그램/raw/ccfm-강동이/2026-05-09_강동이_Claude-Code-기본-교육-교안.md, 마케팅/raw/iboss-근육돌이/, 프로그램/raw/ccfm-edu/]
+updated: 2026-09-24
 ---
 
 # CCFM AX TEAM
@@ -25,6 +25,19 @@ updated: 2026-08-19
 - MD 우선 수정 → 코드 재생성 → MD 최신화 순환
 - 멀티 에이전트 병렬 개발 (Leader + Worker)
 - 베이커리 비유: MD·스킬·훅·WIKI 4축 ([[클로드-베이커리-비유]])
+
+## CCFM EDU 배포물 (2026-09-21~23, 3건)
+
+CCFM이 **"CCFM EDU"** 이름으로 수강생에게 AI 도구·자료를 배포하기 시작했다. 슬로건 "Act. Improve. Grow together." 원본은 `프로그램/raw/ccfm-edu/`.
+
+| 날짜 | 배포물 | 위키 |
+|---|---|---|
+| 2026-09-21 | Aside 입문 가이드 (비공식 안내서, 21쪽) | [[Aside]] |
+| 2026-09-22 | **첫 배포 스킬** — 경쟁사 광고 소재 분석 (`ccfm-video-appeal` v1.0) | [[ccfm-video-appeal]] |
+| 2026-09-23 | 업무 자동화 전 체크리스트 (4쪽, 근육돌이 칼럼 「업무를, 쪼갠다」 정리) | [[업무-자동화-선별-체크리스트]] |
+
+- 언급만 되고 **아직 못 받은 것**: `tacit-docs` 스킬 (업무 인터뷰 → 체크리스트 3쪽 워크시트 자동 작성).
+- 배포 스타일: 자료마다 **검증 범위를 스스로 밝힌다** (스킬 "Claude Code 미검증", Aside 안내서 "직접 확인 / 문서만 옮김" 구분). 우리 볼트의 신뢰 등급 표기와 같은 태도.
 
 ## 다른 엔티티와의 관계
 
@@ -53,5 +66,6 @@ updated: 2026-08-19
 ## 출처
 
 - `프로그램/raw/ccfm-강동이/2026-05-09_강동이_Claude-Code-기본-교육-교안.md` (표지·페이지 푸터)
+- `프로그램/raw/ccfm-edu/` — CCFM EDU 배포물 3건 (2026-09-21~23)
 - (간접) `마케팅/raw/iboss-근육돌이/2026-02-26_근육돌이_AI-개발-전-보면-100시간-아끼는-바이블-(치트키)-꼭-보세요.md` §파트 1 ("저희 CCFM에서 이 방법론으로…")
 - `마케팅/raw/iboss-근육돌이/` __70692·__71616·__71221 등 신규 11편 바이라인 — CCFM = 콘크리트파머스, 근육돌이 본인이 운영하는 광고대행사

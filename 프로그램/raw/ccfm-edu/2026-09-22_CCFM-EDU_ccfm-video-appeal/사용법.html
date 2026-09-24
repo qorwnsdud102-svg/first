@@ -1,0 +1,100 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>경쟁사 영상 분석 스킬 사용법</title><style>body{font-family:"Malgun Gothic",sans-serif;max-width:860px;margin:40px auto;padding:0 24px;line-height:1.8;color:#272522}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f1ee;padding:18px;border-radius:8px}h1{font-size:28px}h2{margin-top:32px}</style><main><h1>경쟁사 영상 분석 스킬 — 처음 받은 분의 사용법</h1>
+
+<p>CCFM EDU · 영상 스킬 v1.0 · 2026-09-22</p>
+
+<p>이 스킬은 Gemini에서 경쟁사 영상을 분석하도록 안내하고, 분석 결과를 검토해 우리 상품 광고에 적용할 아이디어를 정리합니다.</p>
+
+<p>기본 순서: 스킬 설치 → Claude/Codex에서 사용법 질문 → Gemini용 프롬프트 받기 → Gemini에 영상 업로드 및 분석 → 원래 대화에 결과 붙여넣기 → 검토 및 상품 적용안.</p>
+
+<h2>1. 준비하기</h2>
+
+<p>PC에서 받은 <code>ccfm-video-appeal.zip</code>을 저장하세요. Claude 또는 Codex 사용 환경, Gemini 계정, 분석할 경쟁사 영상 파일 1개가 필요합니다.</p>
+<p>전체 배포 묶음 ZIP을 받았다면 먼저 풀고, 그 안의 <code>설치파일/ccfm-video-appeal.zip</code>을 찾으세요. 이 개별 ZIP을 기준으로 설명합니다.</p>
+
+<h2>2. 스킬 설치 — 사용하는 프로그램 하나만 선택</h2>
+
+<h3>Claude 웹</h3>
+
+<p>1. https://claude.ai 에 로그인합니다.</p>
+<p>2. Customize → Skills → + → Create skill → Upload a skill을 엽니다. 언어에 따라 메뉴 이름이 다를 수 있습니다.</p>
+<p>3. 개별 <code>ccfm-video-appeal.zip</code>을 압축을 풀지 않고 업로드합니다.</p>
+<p>4. 스킬 목록에서 추가된 스킬을 켭니다.</p>
+<p>5. 새 대화를 엽니다.</p>
+
+<p>Skills 메뉴가 없으면 Settings → Capabilities의 코드 실행 설정을 확인하세요. 조직 계정은 관리자가 스킬 생성·업로드를 허용해야 할 수 있습니다.</p>
+<p>ZIP을 일반 채팅창에 첨부하는 것과 스킬로 설치하는 것은 다릅니다.</p>
+
+<h3>Codex — Windows</h3>
+
+<p>1. ZIP을 마우스 오른쪽 버튼으로 눌러 “모두 압축 풀기”를 선택합니다.</p>
+<p>2. 압축을 푼 폴더에서 <code>SKILL.md</code>와 <code>references</code>가 바로 들어 있는 <code>ccfm-video-appeal</code> 폴더를 찾습니다.</p>
+<p>3. 파일 탐색기 주소창에 <code>%USERPROFILE%</code>을 입력해 본인 사용자 폴더를 엽니다.</p>
+<p>4. 그 안에 <code>.agents</code> 폴더를 만들고, 그 안에 <code>skills</code> 폴더를 만듭니다. 이미 있으면 그대로 사용합니다.</p>
+<p>5. 2번의 폴더 전체를 <code>skills</code> 안에 복사합니다. SKILL.md만 복사하지 마세요.</p>
+<p>6. Codex를 다시 열고 새 대화를 시작합니다.</p>
+
+<p>최종 위치 예시:</p>
+
+
+<pre>C:\Users\본인계정\.agents\skills\ccfm-video-appeal\SKILL.md
+C:\Users\본인계정\.agents\skills\ccfm-video-appeal\references\gemini-prompt.txt
+</pre>
+
+
+<p>“본인계정”은 예시이며 실제 사용자 폴더명을 뜻합니다. <code>ccfm-video-appeal</code> 폴더가 두 번 중첩되지 않도록 확인하세요.</p>
+<p>macOS/Linux의 Codex는 본인 홈 폴더의 <code>.agents/skills/ccfm-video-appeal</code>에 폴더 전체를 넣습니다.</p>
+
+<h3>Claude Code</h3>
+
+<p>압축을 푼 스킬 폴더 전체를 본인 홈 폴더의 <code>.claude/skills/ccfm-video-appeal</code>에 넣습니다.</p>
+<p>새 세션에서 <code>/ccfm-video-appeal 처음 쓰는데 어떻게 하면 돼?</code>라고 입력합니다.</p>
+
+<h2>3. 스킬부터 실행하기</h2>
+
+<p>Claude 또는 Codex의 새 대화에 다음 문장을 입력합니다.</p>
+
+
+<pre>ccfm-video-appeal 스킬을 사용해줘. 이거 어떻게 써?
+</pre>
+
+
+<p>Codex가 스킬을 찾지 못하면 <code>$ccfm-video-appeal 처음 쓰는데 어떻게 하면 돼?</code>로 호출해 보세요. 그래도 찾지 못하면 2번의 설치 위치와 재시작 여부를 확인하세요.</p>
+
+<p>정상 응답은 “Gemini에 영상 업로드” 안내, 복사할 분석 프롬프트, “결과를 이 대화에 붙여넣기” 안내를 포함합니다.</p>
+<p>이미 이 스킬을 선택했거나 대화에서 이 스킬을 이야기하고 있다면 “이거 어떻게 써?”라고만 물어도 됩니다. 새 대화에서는 위처럼 스킬 이름을 함께 적으면 어떤 스킬인지 명확해집니다.</p>
+
+<h2>4. Gemini에서 영상 분석하기</h2>
+
+<p>1. https://gemini.google.com 에 로그인해 새 대화를 엽니다.</p>
+<p>2. 경쟁사 영상 파일 1개를 첨부하고 업로드가 끝날 때까지 기다립니다.</p>
+<p>3. Claude/Codex가 준 프롬프트를 같은 Gemini 대화에 붙여넣고 전송합니다.</p>
+<p>4. Gemini 분석 답변을 받습니다. 영상을 읽지 못했다고 하면 첨부 상태와 계정의 파일 제한을 확인하세요.</p>
+
+<h2>5. 결과를 원래 대화로 가져오기</h2>
+
+<p>Gemini 답변 전체를 복사한 뒤, 스킬을 실행했던 Claude/Codex 대화로 돌아와 아래 문장과 함께 붙여넣습니다.</p>
+
+
+<pre>아래는 Gemini 영상 분석 결과야. 스킬 기준으로 검토해줘.
+
+[여기에 Gemini 답변 전체 붙여넣기]
+</pre>
+
+
+<p>우리 상품 적용안도 원하면 상품명·확인된 특징·가능한 촬영 방식을 함께 적어주세요.</p>
+<p>상품 정보가 없더라도 경쟁사 분석 검토는 받을 수 있습니다.</p>
+
+<p>AI는 경쟁사의 주장·화면·순서가 어떻게 고객을 설득하는지 분석합니다. 입증 자료가 없다는 이유로 경쟁사의 주장을 삭제하지 않고 광고가 내세우는 주장으로 다룹니다. 상품 정보가 충분하면 광고 첫 문장·첫 장면·구성 또는 시험할 아이디어와 먼저 할 작업을 제안합니다.</p>
+<p>원본을 대조하지 않았다면 “Gemini 출력 검토, 원본 영상 미대조”라고 표시합니다.</p>
+
+<h2>공식 설치 안내</h2>
+
+<p>Claude: https://support.claude.com/en/articles/12512180-use-skills-in-claude</p>
+
+<p>Codex: https://learn.chatgpt.com/docs/build-skills</p>
+
+<p>Claude Code: https://code.claude.com/docs/en/skills</p>
+
+<p>이 스킬은 Gemini 자동 실행·영상 자동 업로드를 하지 않습니다. 사용자가 Gemini에 영상을 올리고, 받은 결과를 Claude/Codex로 가져오는 방식입니다.</p>
+<p>검증 범위(2026-09-22): Codex 첫 사용 안내와 결과 검토 동작, 실제 광고 영상의 사용자 직접 Gemini 분석 결과를 Codex로 가져와 추가 분석하는 흐름을 확인했습니다. 자동 브라우저 테스트에서는 Gemini 거절 응답도 발생했으므로 항상 성공한다고 보장하지 않습니다. Claude 웹·Claude Code 실제 실행과 초보자의 신규 설치는 미검증입니다. 메뉴와 이용 가능 여부는 계정·환경에 따라 다를 수 있습니다.</p>
+</main></html>
