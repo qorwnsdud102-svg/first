@@ -48,9 +48,20 @@ powershell -NoProfile -ExecutionPolicy Bypass -File C:\claude\LLM-WIKI\_setup\in
 
 > 2026-10-06 위키에서 이곳으로 모음 — 전에는 `Claude-Skill`·`스킬-스코프`·`karpathy-guidelines`·`superpowers`·`ccfm-video-appeal` 위키 페이지마다 같은 절차가 따로 적혀 있었다. 설치 절차는 **여기 한 곳**만 고친다. 왜 이 스킬들인지(5인 역할 매핑·cherry-pick 이유)는 위키 `프로그램/wiki/concepts/Claude-Skill.md`.
 
-**원칙**: 5역할에 매핑되는 5스킬 + karpathy-guidelines 1스킬 = **6개만** 깔린 상태가 목표. superpowers 플러그인을 통째로 깔면 14스킬이 다 들어와서 5개 외 9개는 안 쓰는데 자동 발동돼 혼란만 늘림 — 비효율. → **cherry-pick 방식 권장**. 모두 user-level(`~/.claude/skills/`)에 깐다 — 어느 폴더에서 `claude`를 띄워도 작동.
+**원칙 (2026-10-06 갱신)**: superpowers는 **플러그인 통설치(14스킬)** + karpathy-guidelines 1스킬. 실제 운영 PC가 통설치로 돌고 있고, 5역할 외 9스킬(서브에이전트 실행·병렬 조사·디버깅)도 실제로 쓰인다. 옛 방침(5스킬만 cherry-pick)은 아래 §옛 방식에 남겨 둔다.
 
-### 점검 (먼저 깔려있는지 확인)
+### 설치 — superpowers 플러그인 (현행)
+
+Claude Code에서:
+```
+/plugin marketplace add obra/superpowers-marketplace
+/plugin install superpowers@superpowers-marketplace
+```
+(또는 `/plugin install superpowers@claude-plugins-official`). 확인: 새 세션에서 스킬 목록에 `superpowers:brainstorming` 등 14개가 보이면 OK. 설치 위치 예: `~/.claude/plugins/cache/superpowers-dev/superpowers/<버전>/skills/`.
+
+### 옛 방식 — 5스킬만 cherry-pick (2026-05 방침, 참고용)
+
+#### 점검 (먼저 깔려있는지 확인)
 
 ```
 ls ~/.claude/skills/
@@ -64,7 +75,7 @@ ls "$env:USERPROFILE\.claude\skills"
 
 빠진 게 있으면 아래 설치 절차.
 
-### 설치 — 5역할 스킬 (cherry-pick from obra/superpowers)
+#### 설치 — 5역할 스킬 (cherry-pick from obra/superpowers)
 
 **Bash / macOS / Linux**:
 ```bash
@@ -89,7 +100,7 @@ Remove-Item -Recurse -Force $tmp
 
 저장소 layout은 `skills/<이름>/SKILL.md` (일부는 보조 파일 동반) — cherry-pick할 때 **폴더 통째로** 복사 (SKILL.md만 X).
 
-**플러그인 통설치 X** — 14개 다 들어와서 안 쓰는 9개가 자동 발동되는 비효율 발생. (만약 통설치 정말 필요한 상황이면 옵션 A: `/plugin marketplace add obra/superpowers-marketplace` → `/plugin install superpowers@superpowers-marketplace`, 옵션 B: `/plugin install superpowers@claude-plugins-official`. 권장 X.)
+(옛 방침의 이유: 14개 다 들어오면 안 쓰는 9개가 자동 발동할 거라는 우려. 실제 운영에선 9개도 쓸모가 커서 통설치로 바뀜.)
 
 ### 설치 — karpathy-guidelines (1스킬, 베이스라인 규범)
 
@@ -115,7 +126,7 @@ Remove-Item -Recurse -Force $tmp
 ```
 ls ~/.claude/skills/
 ```
-6개 폴더 다 보이면 끝. 작동 확인은 **새 터미널**에서 `claude` 띄우고 `/skills` 또는 임의 발화로 테스트(예: 임의 프로젝트에서 `brainstorming` 스킬이 호출 가능한지).
+(옛 cherry-pick 방식일 때) 6개 폴더 다 보이면 끝. 통설치면 `karpathy-guidelines` 폴더 + 스킬 목록의 `superpowers:*` 14개. 작동 확인은 **새 터미널**에서 `claude` 띄우고 `/skills` 또는 임의 발화로 테스트(예: 임의 프로젝트에서 `brainstorming` 스킬이 호출 가능한지).
 - 스킬 인덱스는 **세션 시작 시점**에 잠긴다 — 같은 세션에 새 SKILL.md를 떨궈도 반영 안 됨. 설치 직후엔 항상 새 터미널.
 
 ### 글로벌 CLAUDE.md (5인 사이클 메타 프레임)
@@ -128,9 +139,9 @@ ls ~/.claude/skills/
 
 **작동 확인**: 새 터미널 열고 임의 폴더(vault 밖 OK)에서 `claude` 띄운 뒤 "5인 역할분담 알아?" → 5인(bob·dd·harness·eval·learnings engine) 답변 나와야 정상.
 
-### 안 쓰는 보너스 스킬이 필요해질 경우
+### 5역할 외 9스킬
 
-5역할 외 9스킬(executing-plans · systematic-debugging · receiving-code-review · test-driven-development · finishing-a-development-branch · using-superpowers · using-git-worktrees · dispatching-parallel-agents · subagent-driven-development)이 나중에 진짜 필요하다 싶으면 그때 같은 cherry-pick 방식으로 1개씩 추가. **묶음으로 14개 통설치는 지양**.
+executing-plans · systematic-debugging · receiving-code-review · test-driven-development · finishing-a-development-branch · using-superpowers · using-git-worktrees · dispatching-parallel-agents · subagent-driven-development — 통설치면 자동 포함. (옛 cherry-pick 방식을 쓰는 PC라면 필요할 때 같은 방식으로 1개씩 추가.)
 
 ### 배포받은 스킬 — ccfm-video-appeal (CCFM EDU)
 

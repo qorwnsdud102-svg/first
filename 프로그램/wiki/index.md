@@ -119,7 +119,7 @@
 
 - [[Karpathy]] — LLM Wiki 운영 패턴 원작자 + LLM 코딩 4대 함정 진단 출처
 - [[CCFM-AX-TEAM]] — 강동이 강사의 AX 팀. 바이브 코딩 교육·CCFM EDU
-- [[superpowers]] — Claude Code 스킬 묶음. 베이커리 5역할 스킬만 cherry-pick
+- [[superpowers]] — Claude Code 스킬 묶음. 작업 순서 스킬 14개(베이커리 5역할 포함), 플러그인 통설치
 
 ## 운영 — 이관·인프라
 

@@ -19,7 +19,7 @@ updated: 2026-10-06
 - **5개 역할로 사이클을 돈다** — 교안의 핵심 모델. 한 사이클로 이어질 때 반복 업무가 진짜 자동화됨.
 - **진짜 필요한 것 = 5인 역할분담이 작동하는 상태** (모든 PC 공통). 14스킬을 다 깔라는 게 아니라, 5스킬이 1:1로 5역할에 매핑돼 작동해야 한다는 뜻.
   - 5스킬: `brainstorming` · `writing-plans` · `verification-before-completion` · `requesting-code-review` · `writing-skills` (자세한 매핑은 아래 표).
-  - **설치 권장 방식**: 이 5스킬은 [[superpowers]] 저장소에 함께 들어있음. 플러그인 통설치(14스킬 다 들어옴)보다 **5개만 cherry-pick** 권장 — 안 쓰는 9스킬이 자동 발동돼 혼란만 늘림.
+  - **설치 방식**: 이 5스킬은 [[superpowers]] 플러그인에 함께 들어있음. 현행은 **플러그인 통설치(14스킬)** — 5역할 외 9스킬(서브에이전트 실행·병렬 조사)도 실제로 쓰인다(2026-10-06 확인, 옛 5스킬 cherry-pick 방침 대체).
   - **추가로 깔 베이스라인 규범**: [[karpathy-guidelines]] 1스킬 (별도 저장소 `forrestchang/multica-ai`). 5인 사이클이 도는 동안 늘 깔린 가게 매뉴얼 역할. 실물 SKILL.md로 확정 — 4원칙 = MD 성격이지 5인 사이클 안 자리 아님.
   - 각 PC에서 Claude Code 처음 띄울 때 **5역할이 실제로 작동하는지** 점검 → 안 되면 설치.
   - 설치: `_setup/README.md` §스킬·플러그인 설치
@@ -58,9 +58,9 @@ updated: 2026-10-06
 
 ## 설치
 
-**원칙**: 5역할 5스킬 + [[karpathy-guidelines]] 1스킬 = **6개만**, 전부 user-level([[스킬-스코프]]). 통설치 대신 cherry-pick, 5역할 외 9스킬은 진짜 필요해질 때 1개씩.
+**원칙**: [[superpowers]] 플러그인 통설치(5역할 포함 14스킬) + [[karpathy-guidelines]] 1스킬, 전부 user-level([[스킬-스코프]]).
 
-설치: `_setup/README.md` §스킬·플러그인 설치 (점검·cherry-pick 명령·글로벌 CLAUDE.md·작동 확인까지 한 곳).
+설치: `_setup/README.md` §스킬·플러그인 설치 (플러그인 설치 명령·글로벌 CLAUDE.md·작동 확인까지 한 곳).
 
 ## 스킬로 가는 길 — 3단 사다리와 조직 도입 5단계 ([[마케팅/근육돌이]])
 
