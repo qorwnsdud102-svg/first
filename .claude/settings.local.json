@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:gist.github.com)"
+      "WebFetch(domain:gist.github.com)",
+      "Bash(git push origin main)",
+      "Bash(git -C C:/claude/LLM-WIKI push origin main)"
     ]
   }
 }
