@@ -4,7 +4,7 @@ aliases: [ccfm-video-appeal, 경쟁사 광고 소재 분석 스킬, 경쟁사 �
 status: growing
 sources: [프로그램/raw/ccfm-edu/2026-09-22_CCFM-EDU_ccfm-video-appeal/]
 confidence: 도구 문서(배포자 자체 설명). 사장님 실사용 전.
-updated: 2026-09-24
+updated: 2026-10-06
 ---
 
 # ccfm-video-appeal (경쟁사 영상 광고 분석 스킬)
@@ -53,11 +53,9 @@ Gemini 새 대화: 경쟁사 영상 파일 1개 업로드 + 프롬프트
 | E. 우리 상품 실험 1개 | 설득 원리·근거 구간 / 확인된 사실·촬영 전 확인 / **첫 문장 2안 + 첫 장면** / 먼저 시험할 1안 / 바꿀 요소 1개·유지 조건·지표 |
 | F. 다시 볼 곳 | 최대 3구간 (숫자 강조·캡처 노출 시간·전환·CTA 연결) |
 
-## 설치 (Claude Code 기준)
+## 설치
 
-- 폴더 통째로 `~/.claude/skills/ccfm-video-appeal/` → 새 세션에서 `/ccfm-video-appeal 처음 쓰는데 어떻게 하면 돼?`
-- Claude 웹: Customize → Skills → Upload a skill (ZIP 그대로). Codex: `%USERPROFILE%\.agents\skills\ccfm-video-appeal\`.
-- **2026-09-24 설치 완료** — `~/.claude/skills/ccfm-video-appeal/` (원본과 동일 확인, 스킬 목록 인식 확인). 첫 실행 결과는 아직 없음.
+설치: `_setup/README.md` §스킬·플러그인 설치 (배포받은 스킬 — ccfm-video-appeal). user-level 스킬이라 폴더째 `~/.claude/skills/`에 둔다. 첫 실행 결과는 아직 없음 → 상세 기록: 프로그램/프로젝트/운영-공통/스킬-설치-이력.md
 
 ## 다른 엔티티와의 관계
 
@@ -70,7 +68,7 @@ Gemini 새 대화: 경쟁사 영상 파일 1개 업로드 + 프롬프트
 ## 내 생각 / 미해결 질문
 
 - 원칙 1(주장으로 귀속)은 마케팅 도메인 경쟁사 표본(`마케팅/raw/경쟁사/`) 분석에도 그대로 쓸 수 있다 — 우리가 경쟁사 파컨을 볼 때도 "진짜냐"보다 "어떻게 믿게 만드나"가 배울 거리.
-- 배포자 스스로 **Claude Code 실행 미검증**이라 밝힘. 설치하면 첫 실행 결과로 이 페이지 갱신.
+- 배포자 스스로 **Claude Code 실행 미검증**이라 밝힘. 첫 실행 결과로 이 페이지 갱신.
 - 영상 파일 확보가 병목 — 메타 광고 라이브러리 영상을 파일로 받는 경로는 이 스킬 밖의 문제.
 
 ## 출처

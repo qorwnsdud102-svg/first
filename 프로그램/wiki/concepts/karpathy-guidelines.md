@@ -3,7 +3,7 @@ type: 개념
 aliases: [karpathy guidelines, Karpathy Guidelines, Karpathy-Inspired Claude Code Guidelines, 카파시 가이드라인]
 status: growing
 sources: [프로그램/raw/karpathy/2026-04-20_forrestchang_andrej-karpathy-skills.md]
-updated: 2026-05-29
+updated: 2026-10-06
 ---
 
 # karpathy-guidelines
@@ -71,24 +71,9 @@ updated: 2026-05-29
 
 ## 설치 (모든 PC 공통)
 
-본 가이드라인은 작업 무관 베이스라인 규범집이므로 **모든 PC에서 깔려있어야** 한다. 자세한 설치·점검은 [[Claude-Skill]] §설치 방법 참고. cherry-pick 권장 (저장소가 1스킬만 들어있어 통설치든 cherry-pick이든 같음).
+작업 무관 베이스라인 규범집이므로 **모든 PC에 user-level로** 깔려 있어야 한다. [[superpowers]] 5스킬 cherry-pick과 함께 설치돼 있어야 베이커리 5인 사이클이 정상 작동.
 
-**Bash**:
-```bash
-git clone https://github.com/multica-ai/andrej-karpathy-skills.git /tmp/kg
-cp -r /tmp/kg/skills/karpathy-guidelines ~/.claude/skills/
-rm -rf /tmp/kg
-```
-
-**PowerShell**:
-```powershell
-$tmp = "$env:TEMP\kg"
-git clone https://github.com/multica-ai/andrej-karpathy-skills.git $tmp
-Copy-Item -Recurse "$tmp\skills\karpathy-guidelines" "$env:USERPROFILE\.claude\skills\"
-Remove-Item -Recurse -Force $tmp
-```
-
-[[superpowers]] 저장소에서 5스킬 cherry-pick과 함께 설치돼 있어야 베이커리 5인 사이클이 정상 작동.
+설치: `_setup/README.md` §스킬·플러그인 설치
 
 ## 내 생각 / 미해결 질문
 

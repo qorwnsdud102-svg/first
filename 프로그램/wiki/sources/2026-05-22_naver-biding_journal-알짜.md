@@ -3,7 +3,7 @@ type: source
 aliases: [naver-biding journal 2026-05-22 알짜]
 status: stable
 sources: [프로그램/raw/2026-05-22_naver-biding_journal-알짜.md]
-updated: 2026-05-22
+updated: 2026-10-06
 ---
 
 # 2026-05-22 naver-biding journal 알짜
@@ -23,7 +23,7 @@ naver-biding 프로젝트 (입찰가 자동 조정 프로그램) 의 `journal.md
 - [[광고주센터-비공식-API]] — endpoint / 쿠키 인증 / rate / preview 가변 / transient retry / region dropdown 불가
 - [[네이버-검색결과-크롤링]] — 적용 범위 / 호출량 / stuck 6h 재점검 / force 우회 / 비로그인 타게팅 / nid bvsd / DOM 추출
 - [[다경로-데이터-모순-디버깅]] — 표면↔내부 / 카드↔상세 / 단방향 sync
-- [[네이버-광고-자동화-운영-노트]] — force 우회 / 가시화 UX / 운영 PC 분리 / subprocess GUI / FastAPI 한계
+- [[네이버-광고-자동화-운영-노트]] — 가시화 UX / subprocess GUI / FastAPI 한계 (force 우회 §1·운영 PC 분리 §3은 2026-10-06 `프로그램/프로젝트/naver-biding/운영노트-이관.md`로 이관)
 
 ## 제외 (project-specific, raw 스냅샷에 포함 X)
 

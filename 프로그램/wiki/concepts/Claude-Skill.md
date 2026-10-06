@@ -3,7 +3,7 @@ type: 개념
 aliases: [스킬, 클로드 스킬, Skill, Claude Code Skill, SKILL.md, 직원 5명]
 status: growing
 sources: [프로그램/raw/ccfm-강동이/2026-05-09_강동이_Claude-Code-기본-교육-교안.md, 마케팅/raw/iboss-근육돌이/2026-04-07_근육돌이_AI-에이전트-빌딩-,-이-10가지-해봤으면-당신은-중급-일껄요.md, 프로그램/raw/karpathy/2026-04-20_forrestchang_andrej-karpathy-skills.md, 마케팅/raw/iboss-근육돌이/]
-updated: 2026-08-19
+updated: 2026-10-06
 ---
 
 # Claude Skill
@@ -19,9 +19,10 @@ updated: 2026-08-19
 - **5개 역할로 사이클을 돈다** — 교안의 핵심 모델. 한 사이클로 이어질 때 반복 업무가 진짜 자동화됨.
 - **진짜 필요한 것 = 5인 역할분담이 작동하는 상태** (모든 PC 공통). 14스킬을 다 깔라는 게 아니라, 5스킬이 1:1로 5역할에 매핑돼 작동해야 한다는 뜻.
   - 5스킬: `brainstorming` · `writing-plans` · `verification-before-completion` · `requesting-code-review` · `writing-skills` (자세한 매핑은 아래 표).
-  - **설치 권장 방식**: 이 5스킬은 [[superpowers]] 저장소에 함께 들어있음. 플러그인 통설치(14스킬 다 들어옴)보다 **5개만 cherry-pick** 권장 — 안 쓰는 9스킬이 자동 발동돼 혼란만 늘림. 자세한 절차는 §설치 방법.
-  - **추가로 깔 베이스라인 규범**: [[karpathy-guidelines]] 1스킬 (별도 저장소 `forrestchang/multica-ai`). 5인 사이클이 도는 동안 늘 깔린 가게 매뉴얼 역할. 2026-05-29 실물 ingest로 확정 — 4원칙 = MD 성격이지 5인 사이클 안 자리 아님.
-  - 각 PC에서 Claude Code 처음 띄울 때 **5역할이 실제로 작동하는지** 점검 → 안 되면 §설치 방법 따라 설치.
+  - **설치 권장 방식**: 이 5스킬은 [[superpowers]] 저장소에 함께 들어있음. 플러그인 통설치(14스킬 다 들어옴)보다 **5개만 cherry-pick** 권장 — 안 쓰는 9스킬이 자동 발동돼 혼란만 늘림.
+  - **추가로 깔 베이스라인 규범**: [[karpathy-guidelines]] 1스킬 (별도 저장소 `forrestchang/multica-ai`). 5인 사이클이 도는 동안 늘 깔린 가게 매뉴얼 역할. 실물 SKILL.md로 확정 — 4원칙 = MD 성격이지 5인 사이클 안 자리 아님.
+  - 각 PC에서 Claude Code 처음 띄울 때 **5역할이 실제로 작동하는지** 점검 → 안 되면 설치.
+  - 설치: `_setup/README.md` §스킬·플러그인 설치
 
 ## 5역할 ↔ 사장님 실제 스킬 매핑 (1역할 = 1스킬)
 
@@ -39,7 +40,7 @@ updated: 2026-08-19
 
 - bob → brainstorming: 정의 그대로 "아이디어→설계".
 - dd → writing-plans: "step-01·02·03 분배" = 계획 문서화. `executing-plans`·`subagent-driven-development`는 이 다음 실행 단계라 dd 본질은 writing-plans.
-- harness → verification-before-completion: "증거 없이 완료 주장 금지" = 위생 게이트 본질. [[karpathy-guidelines]]는 일반 규범집(=MD 파일 성격)이라 harness와 본질이 다름. **2026-05-29 실물 ingest로 확정** — karpathy-guidelines 4원칙은 작업 무관 베이스라인이지, "이번 작업 한정 룰"이 아님.
+- harness → verification-before-completion: "증거 없이 완료 주장 금지" = 위생 게이트 본질. [[karpathy-guidelines]]는 일반 규범집(=MD 파일 성격)이라 harness와 본질이 다름. **실물 SKILL.md로 확정** — karpathy-guidelines 4원칙은 작업 무관 베이스라인이지, "이번 작업 한정 룰"이 아님. (harness를 karpathy-guidelines로 잡는 안은 이 근거로 기각.)
 - eval → requesting-code-review: "독립된 평가자에게 채점 요청" = 시식 평가자 호출. 클로드 자기가 자기 채점 X.
 - learnings engine → writing-skills: 반복 부딪힌 패턴 → 스킬로 굳히기 = 다음 사이클 자동 반영. auto-memory·위키는 인프라(저장소).
 
@@ -55,82 +56,13 @@ updated: 2026-08-19
 - 메타: `using-superpowers` (스킬 호출 자체의 룰)
 - 별도 묶음의 메타: [[karpathy-guidelines]] (행동 규범집, superpowers와 별개 마켓플레이스)
 
-## 설치 방법 (모든 PC 공통)
+## 설치
 
-**원칙**: 5역할에 매핑되는 5스킬 + [[karpathy-guidelines]] 1스킬 = **6개만** 깔린 상태가 목표. [[superpowers]] 플러그인 통째로 깔면 14스킬이 다 들어와서 5개 외 9개는 안 쓰는데 자동 발동돼 혼란만 늘림 — 비효율. → **cherry-pick 방식 권장**.
+**원칙**: 5역할 5스킬 + [[karpathy-guidelines]] 1스킬 = **6개만**, 전부 user-level([[스킬-스코프]]). 통설치 대신 cherry-pick, 5역할 외 9스킬은 진짜 필요해질 때 1개씩.
 
-### 점검 (먼저 깔려있는지 확인)
+설치: `_setup/README.md` §스킬·플러그인 설치 (점검·cherry-pick 명령·글로벌 CLAUDE.md·작동 확인까지 한 곳).
 
-```
-ls ~/.claude/skills/
-```
-또는 PowerShell:
-```
-ls "$env:USERPROFILE\.claude\skills"
-```
-→ 다음 6개 폴더가 다 보이면 OK:
-`brainstorming` · `writing-plans` · `verification-before-completion` · `requesting-code-review` · `writing-skills` · `karpathy-guidelines`
-
-빠진 게 있으면 아래 설치 절차.
-
-### 설치 — 5역할 스킬 (cherry-pick from [[superpowers]])
-
-**Bash / macOS / Linux**:
-```bash
-git clone https://github.com/obra/superpowers.git /tmp/sp
-mkdir -p ~/.claude/skills
-for s in brainstorming writing-plans verification-before-completion requesting-code-review writing-skills; do
-  cp -r /tmp/sp/skills/$s ~/.claude/skills/
-done
-rm -rf /tmp/sp
-```
-
-**PowerShell / Windows**:
-```powershell
-$tmp = "$env:TEMP\sp"
-git clone https://github.com/obra/superpowers.git $tmp
-$dst = "$env:USERPROFILE\.claude\skills"
-New-Item -ItemType Directory -Force -Path $dst | Out-Null
-'brainstorming','writing-plans','verification-before-completion','requesting-code-review','writing-skills' |
-  ForEach-Object { Copy-Item -Recurse "$tmp\skills\$_" $dst }
-Remove-Item -Recurse -Force $tmp
-```
-
-### 설치 — [[karpathy-guidelines]] (1스킬, 베이스라인 규범)
-
-karpathy-guidelines는 저장소 자체가 1스킬만 들어있어 cherry-pick·플러그인 어느 쪽이든 같은 결과. 가장 단순한 cherry-pick:
-
-**Bash**:
-```bash
-git clone https://github.com/multica-ai/andrej-karpathy-skills.git /tmp/kg
-cp -r /tmp/kg/skills/karpathy-guidelines ~/.claude/skills/
-rm -rf /tmp/kg
-```
-
-**PowerShell**:
-```powershell
-$tmp = "$env:TEMP\kg"
-git clone https://github.com/multica-ai/andrej-karpathy-skills.git $tmp
-Copy-Item -Recurse "$tmp\skills\karpathy-guidelines" "$env:USERPROFILE\.claude\skills\"
-Remove-Item -Recurse -Force $tmp
-```
-
-### 설치 확인
-
-```
-ls ~/.claude/skills/
-```
-6개 폴더 다 보이면 끝. 또는 임의 프로젝트에서 `brainstorming` 스킬이 호출 가능한지 테스트.
-
-### Step 3 — 유저 CLAUDE.md (메타 프레임 글로벌화)
-
-위 6스킬만 깔면 **스킬 본체는 작동**하지만, "5인 역할분담"이라는 메타 프레임은 vault 위키 안에만 있어 vault 밖 프로젝트 세션엔 안 보임. 모든 세션이 5인 사이클을 인지하게 하려면 [[스킬-스코프]] §유저 CLAUDE.md 절차 추가 실행. canonical 사본을 `~/.claude/CLAUDE.md`로 저장.
-
-### 안 쓰는 보너스 스킬이 필요해질 경우
-
-5역할 외 9스킬(executing-plans · systematic-debugging · receiving-code-review · test-driven-development · finishing-a-development-branch · using-superpowers · using-git-worktrees · dispatching-parallel-agents · subagent-driven-development)이 나중에 진짜 필요하다 싶으면 그때 같은 cherry-pick 방식으로 1개씩 추가. **묶음으로 14개 통설치는 지양**.
-
-## [[마케팅/근육돌이]] 보강 — 3단 사다리와 조직 도입 5단계 (2026-07~08 신규 11편)
+## 스킬로 가는 길 — 3단 사다리와 조직 도입 5단계 ([[마케팅/근육돌이]])
 
 ### 프롬프트 → 스킬 → 에이전트 3단 사다리
 
@@ -152,13 +84,7 @@ ls ~/.claude/skills/
 - 시작점은 딱 하나의 질문 — **"지금 사람이 꼭 안 해도 되는 일을, 사람이 붙잡고 있지 않나?"**
 - **거창한 AI 프로젝트부터 벌이지 말 것.** **20분 걸리던 걸 2분으로 줄이는 과제**부터(이미지 리사이즈·경쟁사 소재 모니터링·리뷰 수백 개 정리). n8n + Claude 조합으로 **월 10~20만 원**이면 해결. (71188:855-861)
 - 판별 질문: **"이걸 100번 하면 결과가 좋아지나?"** → 좋아지는 일(소재 제작·카피 후보·시장조사·분류·요약)은 AI 몫. (71608:210-212)
-
-### 사람 몫은 두 종류다 (71608:214-236)
-
-"중요한 일"로 뭉뚱그리면 구분이 안 되므로 나눈다.
-
-1. **관계에서 나오는 판단** — 광고주가 "이번 달은 좀 줄여보죠"라고 할 때 그게 진짜 감액인지 **"설득해달라"는 신호**인지. 데이터에 안 나오고 **표정·말투·지난 반년의 관계**에서 나온다. 팀 안에서도 같다(이 팀원에게 일을 더 주는 게 성장인지 번아웃인지).
-2. **경험에서 나오는 인지** — 숫자는 다 정상인데 뭔가 이상한 날. **"감이 아니라 압축된 경험"** — 비슷한 상황을 수백 번 본 사람의 머릿속에서 이유보다 결론이 먼저 나오는 것. AI는 내가 준 데이터 안에서만 보고, **3년 전에 데인 기억은 데이터에 없다**.
+- 안 좋아지는 일 = **사람 몫 두 종류**(관계에서 나오는 판단 · 경험에서 나오는 인지) → [[AI 지휘자-공장 모델]] §사람이 남는 자리. 팀 안에서도 같다(이 팀원에게 일을 더 주는 게 성장인지 번아웃인지).
 
 ⚠️ **비워진 시간을 미리 예약하지 않으면 성과는 안 바뀐다** — "AI가 벌어준 시간을 비워두면 그냥 일이 줄어든 것"이고, 사람은 빈 시간을 잡일로 채운다. 전환율 손보기·리뷰 읽기·다음 실험 설계 같은 일로 **시간을 미리 박아둔다**. (71608:266-272)
 
@@ -191,10 +117,9 @@ ls ~/.claude/skills/
 
 ## 내 생각 / 미해결 질문
 
-- ~~사장님 실제 13개로 한정한 운영용 목록은 따로 명시 안 됨 — 추정으로는 superpowers 14 - `using-superpowers`(메타) = 13.~~ — **2026-05-29 해결**: [[superpowers]] 플러그인은 14스킬, [[karpathy-guidelines]] 1스킬 = 합 15스킬이 정식 필요 묶음. 13/14 추정은 사라짐.
 - 매핑 검수 필요 항목:
   - learnings engine을 `writing-skills`로 굳히는 게 맞을지? (대안: `receiving-code-review`로 매번 피드백 반영하는 게 더 "교훈 누적"에 가까울 수도)
-  - ~~harness를 `verification-before-completion`이 아니라 `karpathy-guidelines`로 잡는 안도 유효~~ — **2026-05-29 ingest로 기각**. [[karpathy-guidelines]] SKILL.md 실물 확인 결과 4원칙 모두 "작업 무관 베이스라인"이라 harness 본질("이번 작업 한정 룰 강제")과 안 맞음. karpathy-guidelines는 베이커리 비유에서 MD 축(가게 운영 매뉴얼)에 가깝지 5인 사이클 안의 직원 자리는 아님.
+- 해결된 질문(13/14스킬 추정, harness=karpathy-guidelines 안 기각)의 경위 → 상세 기록: 프로그램/프로젝트/운영-공통/스킬-설치-이력.md
 
 ## 출처
 

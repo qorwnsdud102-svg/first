@@ -3,7 +3,7 @@ type: 작품
 aliases: [superpowers, obra/superpowers, Superpowers Plugin, Claude Code Superpowers]
 status: stub
 sources: [프로그램/raw/karpathy/2026-04-20_forrestchang_andrej-karpathy-skills.md]
-updated: 2026-05-29
+updated: 2026-10-06
 ---
 
 # superpowers (Claude Code 플러그인 — 5스킬 cherry-pick 저장소)
@@ -39,19 +39,9 @@ GitHub README 기준 (2026-05-29 확인). **굵게 = 5인 사이클 매핑으로
 
 ## 설치 (cherry-pick 5스킬만)
 
-자세한 절차는 [[Claude-Skill]] §설치 방법 참고. 한 줄 요약:
+**플러그인 통설치 X** — 14개 다 들어와서 안 쓰는 9개가 자동 발동되는 비효율 발생. 5스킬만 폴더째 cherry-pick.
 
-```bash
-git clone https://github.com/obra/superpowers.git /tmp/sp
-for s in brainstorming writing-plans verification-before-completion requesting-code-review writing-skills; do
-  cp -r /tmp/sp/skills/$s ~/.claude/skills/
-done
-rm -rf /tmp/sp
-```
-
-**플러그인 통설치 X** — 14개 다 들어와서 안 쓰는 9개가 자동 발동되는 비효율 발생.
-
-(만약 통설치 정말 필요한 상황이면 옵션 A: `/plugin marketplace add obra/superpowers-marketplace` → `/plugin install superpowers@superpowers-marketplace`, 옵션 B: `/plugin install superpowers@claude-plugins-official`. 본 vault 권장 X.)
+설치: `_setup/README.md` §스킬·플러그인 설치 (통설치가 정말 필요할 때의 플러그인 명령도 거기).
 
 ## 다른 엔티티와의 관계
 

@@ -3,7 +3,7 @@ type: 도구
 aliases: [데이터랩 API, 쇼핑인사이트 API, shopping insight, datalab, 검색어 트렌드 API]
 status: growing
 sources: [2026-08-19 실작업, developers.naver.com 공지, api.ncloud-docs.com]
-updated: 2026-08-19
+updated: 2026-10-06
 ---
 
 # 네이버 데이터랩 쇼핑인사이트 API
@@ -49,7 +49,9 @@ POST  body(JSON): { startDate, endDate, timeUnit: 'month',
 - 대응: 조회기간 전체 월 목록을 만들어 `{m: got.get(m, 0.0) for m in months}`.
 - 일반화 → [[측정-지표-함정]] §침묵하는 결측.
 
-## 이관 일정 (2026)
+## 이관 일정 (2026-08 기준 스냅숏)
+
+> 네이버 공지 기준 일정. 2027-06-30 전에 공지가 바뀌었는지 재확인.
 
 | 시점 | 내용 |
 |---|---|
