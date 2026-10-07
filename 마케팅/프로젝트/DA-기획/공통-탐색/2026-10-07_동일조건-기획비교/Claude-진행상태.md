@@ -29,7 +29,10 @@
 
 ## 워크플로 재개 방법 (세션이 끊겼을 때)
 
-**현재 실행 중: 2차 `wf_7dd4c7ad-690`** (⓪ 상징원 우선 탐색 7관점 → 압축 → 조사+적대검증 → 1·2차 통합 판정 → 원고)
+**현재 실행 중: 3차 `wf_d9b39d1e-75c`** — 2차는 7관점 모두 0건(`Claude-2차-탐색결과-0건.md`). 3차는 기준요약 §K 판례 보정으로 재탐색·과잉기각 회생 + S02 적대검증 + 모낭충×수란트라 조사.
+- 3차 중단 시: Workflow({scriptPath: "C:/Users/qorwn/.claude/projects/C--claude-LLM-WIKI/203d417f-c813-4e44-a156-0dccfaa67872/workflows/scripts/da-new-product-5-round3-wf_d9b39d1e-75c.js", resumeFromRunId: "wf_d9b39d1e-75c"}) (args 없음)
+
+(이전) 2차 `wf_7dd4c7ad-690` (⓪ 상징원 우선 탐색 7관점 → 압축 → 조사+적대검증 → 1·2차 통합 판정 → 원고)
 - 중단됐으면: Workflow({scriptPath: "C:/Users/qorwn/.claude/projects/C--claude-LLM-WIKI/203d417f-c813-4e44-a156-0dccfaa67872/workflows/scripts/da-new-product-5-round2-wf_7dd4c7ad-690.js", resumeFromRunId: "wf_7dd4c7ad-690"}) — args는 스크립트 실행 당시 값이 필요하므로, args 없이 재개하면 판정 단계에 1차 요약이 빠진다. 이 경우 `Claude-1차-탐색결과-사망판정.md` 표를 args.round1로 넣어 재개.
 - 2차 결과: `.../subagents/workflows/wf_7dd4c7ad-690/journal.jsonl`
 - S02(노견 스케일링)가 최종 5에 뽑히면 원고 에이전트가 1차 조사 보고서를 못 받으므로, 1차 journal의 `조사:S02` 결과를 넣어 원고를 따로 작성한다.
