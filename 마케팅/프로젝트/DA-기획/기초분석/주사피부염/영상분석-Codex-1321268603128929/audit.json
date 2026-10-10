@@ -1,0 +1,20 @@
+{
+  "source": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\주사피부염_메타광고소재\\_오래돈영상\\1321268603128929.mp4",
+  "source_sha256": "7536b867f8c4c6f46609284e1aef31063c0463d7420d0a4c07c66489e9c70af8",
+  "started_at_kst": "2026-10-10T19:48:39.396993+09:00",
+  "mode": "audit",
+  "audio": {
+    "decoded_audio_frames": 331,
+    "decoded_sample_values": 1353852,
+    "rms": 1.8563383104172196e-06,
+    "peak": 8.45163594931364e-06,
+    "rms_dbfs": -114.62685744856967,
+    "peak_dbfs": -101.46118436540283
+  },
+  "scene_change_candidates_seconds": [
+    1.5,
+    2.433333,
+    6.833333
+  ],
+  "elapsed_seconds": 0.4010115000019141
+}
