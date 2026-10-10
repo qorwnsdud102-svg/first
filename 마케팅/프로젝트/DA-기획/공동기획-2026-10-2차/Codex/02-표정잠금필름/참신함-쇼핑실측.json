@@ -1,0 +1,55 @@
+{
+  "measured_at": "2026-10-11T00:45:16",
+  "tool": "NAVER Shopping Search API",
+  "meaning": "query-matching listing totals; overlapping synonyms, duplicate sellers and irrelevant results included; not deduplicated product count or sales",
+  "queries": [
+    {
+      "query": "보톡스 패치",
+      "status": 404,
+      "total": null,
+      "error": "API response unavailable"
+    },
+    {
+      "query": "스킨보톡스 화장품",
+      "status": 404,
+      "total": null,
+      "error": "API response unavailable"
+    },
+    {
+      "query": "보톡스 필름",
+      "status": 404,
+      "total": null,
+      "error": "API response unavailable"
+    },
+    {
+      "query": "주름 필름",
+      "status": 404,
+      "total": null,
+      "error": "API response unavailable"
+    },
+    {
+      "query": "액체 주름 패치",
+      "status": 404,
+      "total": null,
+      "error": "API response unavailable"
+    },
+    {
+      "query": "보톡스 팩",
+      "status": 404,
+      "total": null,
+      "error": "API response unavailable"
+    },
+    {
+      "query": "인스턴틀리 에이지리스",
+      "status": 404,
+      "total": null,
+      "error": "API response unavailable"
+    },
+    {
+      "query": "프라우니즈 주름패치",
+      "status": 404,
+      "total": null,
+      "error": "API response unavailable"
+    }
+  ]
+}

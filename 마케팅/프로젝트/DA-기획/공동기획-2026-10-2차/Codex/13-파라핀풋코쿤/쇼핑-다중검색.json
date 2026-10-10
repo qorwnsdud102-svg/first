@@ -1,0 +1,32 @@
+[
+  {
+    "query": "파라핀 풋팩",
+    "measured_at": "2026-10-11T00:45:26.464612",
+    "http_status": 404,
+    "count": "미측정"
+  },
+  {
+    "query": "파라핀 발팩",
+    "measured_at": "2026-10-11T00:45:27.210052",
+    "http_status": 404,
+    "count": "미측정"
+  },
+  {
+    "query": "파라핀 필오프",
+    "measured_at": "2026-10-11T00:45:27.968216",
+    "http_status": 404,
+    "count": "미측정"
+  },
+  {
+    "query": "paraffin foot mask",
+    "measured_at": "2026-10-11T00:45:28.732109",
+    "http_status": 404,
+    "count": "미측정"
+  },
+  {
+    "query": "파라핀 팩 발",
+    "measured_at": "2026-10-11T00:45:29.493636",
+    "http_status": 404,
+    "count": "미측정"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "measured_at": "2026-10-11T00:46:23.521413",
+  "tool": "Naver shopping search API shop.json",
+  "semantics": "total is indexed listings including duplicates and irrelevant matches, not unique products or sales",
+  "queries": [
+    {
+      "query": "졸피뎀 안대",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "중력 수면안대",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "가중 수면안대",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "메구리즘",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "스팀 안대 리필",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "교체형 스팀 안대",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "돔 스팀 안대",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "입체 스팀 안대",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    }
+  ]
+}

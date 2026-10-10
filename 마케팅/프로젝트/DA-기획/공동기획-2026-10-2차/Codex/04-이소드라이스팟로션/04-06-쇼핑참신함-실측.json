@@ -1,0 +1,153 @@
+{
+  "measured_at": "2026-10-11T00:45:48.591076",
+  "tool": "Naver Shopping Search API, display=10, similarity, total is search matches not unique products",
+  "rows": [
+    {
+      "family": "04",
+      "query": "이소티논 크림",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "04",
+      "query": "이소틴 크림",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "04",
+      "query": "로아큐탄 로션",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "04",
+      "query": "이소티논 스팟",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "04",
+      "query": "드라잉 로션",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "04",
+      "query": "핑크 파우더 스팟",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "04",
+      "query": "오일컷 캡슐 세럼",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "05",
+      "query": "다이아몬드필 크림",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "05",
+      "query": "다이아필 스크럽",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "05",
+      "query": "다이아몬드 필링 크림",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "05",
+      "query": "마이크로더마브레이전 크림",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "05",
+      "query": "microdermabrasion cream",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "05",
+      "query": "다이아몬드필 흡입",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "05",
+      "query": "다이아몬드 모공",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "06",
+      "query": "뿌리펌 세럼",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "06",
+      "query": "뿌리펌 에센스",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "06",
+      "query": "뿌리볼륨 세럼",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "06",
+      "query": "뿌리볼륨 클립",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "06",
+      "query": "셀헤디 뿌리펌",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "06",
+      "query": "뿌리펌 앰플",
+      "status": 404,
+      "total": null,
+      "items": []
+    },
+    {
+      "family": "06",
+      "query": "루트리프트 세럼",
+      "status": 404,
+      "total": null,
+      "items": []
+    }
+  ]
+}

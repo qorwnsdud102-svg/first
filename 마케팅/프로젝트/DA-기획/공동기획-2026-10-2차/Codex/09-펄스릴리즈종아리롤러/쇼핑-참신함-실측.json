@@ -1,0 +1,49 @@
+{
+  "measured_at": "2026-10-11T00:46:25.952423",
+  "tool": "Naver shopping search API shop.json",
+  "semantics": "total is indexed listings including duplicates and irrelevant matches, not unique products or sales",
+  "queries": [
+    {
+      "query": "공기압 종아리 압박밴드",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "종아리 압박 랩",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "종아리 스퀴즈 롤러",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "종아리 집게 롤러",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "종아리 마사지 롤러",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "수동 공기압 다리 마사지",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "풀리오",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    }
+  ]
+}

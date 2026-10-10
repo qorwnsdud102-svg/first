@@ -1,0 +1,49 @@
+{
+  "measured_at": "2026-10-11T00:46:21.286599",
+  "tool": "Naver shopping search API shop.json",
+  "semantics": "total is indexed listings including duplicates and irrelevant matches, not unique products or sales",
+  "queries": [
+    {
+      "query": "위고비 젤리",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "위고비 푸딩",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "GLP1 푸딩",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "포만감 푸딩",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "식전 푸딩",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "곤약 푸딩 분말",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    },
+    {
+      "query": "식이섬유 젤 분말",
+      "http_status": 404,
+      "total": null,
+      "status": "미측정; API 응답 실패"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "query": "구강건조 사탕",
+    "measured_at": "2026-10-11T00:45:34.068387",
+    "http_status": 404,
+    "count": "미측정"
+  },
+  {
+    "query": "입마름 캔디",
+    "measured_at": "2026-10-11T00:45:34.829710",
+    "http_status": 404,
+    "count": "미측정"
+  },
+  {
+    "query": "자일리톨 사탕",
+    "measured_at": "2026-10-11T00:45:35.584232",
+    "http_status": 404,
+    "count": "미측정"
+  },
+  {
+    "query": "자일리톨 2층",
+    "measured_at": "2026-10-11T00:45:36.335812",
+    "http_status": 404,
+    "count": "미측정"
+  },
+  {
+    "query": "slow melt xylitol",
+    "measured_at": "2026-10-11T00:45:37.100599",
+    "http_status": 404,
+    "count": "미측정"
+  }
+]

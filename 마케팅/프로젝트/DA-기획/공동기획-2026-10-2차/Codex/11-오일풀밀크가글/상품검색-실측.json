@@ -1,0 +1,50 @@
+[
+  {
+    "query": "오일풀링 가글",
+    "status": 404,
+    "measured": "2026-10-11T00:44:45",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "오일풀링 농축",
+    "status": 404,
+    "measured": "2026-10-11T00:44:45",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "오일가글 밀크",
+    "status": 404,
+    "measured": "2026-10-11T00:44:46",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "oil pulling concentrate",
+    "status": 404,
+    "measured": "2026-10-11T00:44:46",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "셀프 유화 가글",
+    "status": 404,
+    "measured": "2026-10-11T00:44:47",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "뷰티풀링 오일가글",
+    "status": 404,
+    "measured": "2026-10-11T00:44:48",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  }
+]

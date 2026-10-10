@@ -1,0 +1,16 @@
+{
+  "started_kst": "2026-10-11T03:44:06.928159+09:00",
+  "handoff_id": "43f5357d-4862-4e32-9f39-3e9da31e5ddd",
+  "active_collectors_before": 0,
+  "max_brands": 45,
+  "max_scroll": 3,
+  "pause": 20,
+  "variants_for": [
+    "색소침착",
+    "구취",
+    "입마름"
+  ],
+  "stop_on_rate_limit": true,
+  "peer_report": "162/165검색에서 rate limit이라는 운영 보고만 확인, 상대 조사 원본은 읽지 않음",
+  "retry_policy": "제한 확인 뒤 재시도하지 않음"
+}

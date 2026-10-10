@@ -1,0 +1,591 @@
+{
+  "brand": "기미크림",
+  "search_url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=KR&q=%EA%B8%B0%EB%AF%B8%ED%81%AC%EB%A6%BC&search_type=keyword_unordered&media_type=all",
+  "search_queries": [
+    "기미크림"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQMF9SbCQlZ7SgGvnd6ZGh0PrFjSYgirjuNxJLu37rFJ5nqqD9UaLQ3Lu4oeJwLkkMSBChmN-aEK-JycawTvjL01j_Zie1WDC9EBJVZq0A.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=46hggr6qUVQQ7kNvwHwoXAU&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl8zNjBwIiwieHB2X2Fzc2V0X2lkIjoxMjMwNTkzNDU1ODk2MzA0LCJhc3NldF9hZ2VfZGF5cyI6MzMsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjozMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&_nc_zt=28&oh=00_AQMGZY-kX_AP03IZkaWN5IBaRopcW5YO2t4SgnlTJC2H5g&oe=6AD04878",
+      "file": "videos/001.mp4",
+      "size": 1407865
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQMFuK_Sja8eRfsC64luT22iXbFtPFMjz2r0ya6I47TQCdzhkTAFg7Ci3tVK4xiKDDOjIME1mBRXhore1CN99HMnuuLOgXW4POmpPrjJqQ.mp4?_nc_cat=105&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=WjlJm4Y2TI0Q7kNvwEsKTX3&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl8zNjBwIiwieHB2X2Fzc2V0X2lkIjoxNzk1MzYzMzgwNjEwNTc4NSwiYXNzZXRfYWdlX2RheXMiOjE4NCwidmlfdXNlY2FzZV9pZCI6MTA4MjcsImR1cmF0aW9uX3MiOjM4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&_nc_zt=28&oh=00_AQM8_kJhEdu1GNrhigkMSvAPBj9PVzDGeOvwDoY1ydu9AQ&oe=6AD066A1",
+      "file": "videos/002.mp4",
+      "size": 1787194
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQP4MHu9f82DlP0FPnkmvCDcbn1GVe0bJNK2seinIe4W9d_y5gFF5xoTfEkBV9u-vtnDgpxqqQac_bSBkDAW6GQeI4pWLFNX8a_c7L9EQQ.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=knIt3RHzl9EQ7kNvwFU8w7H&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl8zNjBwIiwieHB2X2Fzc2V0X2lkIjoxNzkzMTc1MDIxNjI0ODUzMywiYXNzZXRfYWdlX2RheXMiOjE3NCwidmlfdXNlY2FzZV9pZCI6MTA4MjcsImR1cmF0aW9uX3MiOjM3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&_nc_zt=28&oh=00_AQPVoNoBdlFbpGXhm5Zj1AyUm2XRQhYrIm_O05EviBrr0w&oe=6AD0743C",
+      "file": "videos/003.mp4",
+      "size": 1665366
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQPNFRx0kKtvCyL2UK6cConG1mHgexKMuOTbfku-9q_ejUxsm6Qq1RL4j6azVXe9Obb8-KUKXT4oNO6FSsMUrR8C2UpHaGUGR1j8nwGKag.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=aOGNbz0UuDUQ7kNvwGyupgR&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl8zNjBwIiwieHB2X2Fzc2V0X2lkIjoyODYzMTkxMDE3Mzg3MDExLCJhc3NldF9hZ2VfZGF5cyI6MjUsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjozOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&_nc_zt=28&oh=00_AQPANfLa_g5YPQKSMZCMrbnycRCLMor5wTzAakGiJhvZKg&oe=6AD06D7F",
+      "file": "videos/004.mp4",
+      "size": 1854456
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMJQ5DxRLfMkMMXPFxqLve7QihZXMX__KIzCFyzTJMJWeAXmb0x-X-SKglGl-SGL6pMtMBEw7AJec36BSvkJQwT.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=joHOK2DyNnQQ7kNvwG0R6FO&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLmFzaWNfaHExX3NkX3Byb2dyZXNzaXZlIiwieHB2X2Fzc2V0X2lkIjo5MDU0NzMyNTU2NjU2ODEsImFzc2V0X2FnZV9kYXlzIjoyMzMsInZpX3VzZWNhc2VfaWQiOjEwNjgwLCJkdXJhdGlvbl9zIjoxMiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&_nc_zt=28&oh=00_AQPrFedUMpNgzgr3GHmvp_TXS47XhHJ09C-GmFpLAfGcvQ&oe=6AD04D61",
+      "file": "videos/005.mp4",
+      "size": 187611
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMNJGndXqPaKDlz8HYth8RI4C42VPyc6D4OohRo8tF8cvQISo9jJdR4qEzk6KRBzPrEsmq95zeE_TnfyaB_BdaqKc06fL6Ht7_7GyEGWQ.mp4?_nc_cat=105&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=IdPFSTc_-o8Q7kNvwHSNp1U&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTMxNDQ0MzIwMDc0MDc3OCwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoyMywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&_nc_zt=28&oh=00_AQPF8kUeRUeiEl5PkOgZQWp_T3t5Glw0dzizCpkUXsuHRg&oe=6AD05C09",
+      "file": "videos/006.mp4",
+      "size": 518809
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOvk8CcdlNLwiPMTnu_hKAdM8uN2maDdaXxYDqWuxHIIEP8sXL4wvE0tA2zrkVAyfhw7WWY0GOmbJBr5hunsGU4H1uPWm3QwSHm5A90cg.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=ADICTDZVB0EQ7kNvwHoXt_R&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjA5Nzk3MjAwNzc3ODU4MywiYXNzZXRfYWdlX2RheXMiOjE0LCJ2aV91c2VjYXNlX2lkIjoxMjM3MywiZHVyYXRpb25fcyI6MzksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&_nc_zt=28&oh=00_AQNYRuMH7Qs6Sh5g_ak7ypCJ_3gAlX2SryNiSIhUMhef8A&oe=6AD06BDC",
+      "file": "videos/007.mp4",
+      "size": 1711729
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPI8tS6ukx9n-rTPyl7cDS5hOlbYOqXwxHb9AeizgZ-tfbYsxFDrEVVYcl1OYmdmVGQ21vJBt_R5aUX-4nmmhGaM8TyI6BOlQFtGRggzw.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=CVyY5jPvM68Q7kNvwHoJLcT&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ4NjI3MDM2OTkwOTE3OCwiYXNzZXRfYWdlX2RheXMiOjI2LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MzIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&_nc_zt=28&oh=00_AQN3CHh-XCETEKaaMX3zzKVIgEAi28qYNgQvMucR83IsFA&oe=6AD062EB",
+      "file": "videos/008.mp4",
+      "size": 386281
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPTh8xPjls_HaV2v1mRPnyAWMUeDs0ETA4ghfcoXKsj_OaLgyzhKOj1v6nHroodMjU92DnmFz7Xmh0Axu2vdqRc4_dwdZCo93bX0fo9Eg.mp4?_nc_cat=110&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=E5CtPJL-si0Q7kNvwEqzbYs&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTY0ODAyNzQ0MDIyOTc5NSwiYXNzZXRfYWdlX2RheXMiOjE1LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&_nc_zt=28&oh=00_AQOkxdw6ep0fdCxOcTySMN_KcZznKM_tOLtFzw-PC2vtbQ&oe=6AD05080",
+      "file": "videos/009.mp4",
+      "size": 2797567
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPbMxr3dxXNYXZ3Reg1CtfWYgjMM4wyIwzZYk1jwZill_tYTVW4TEC-tEbl22qWnjzD-YKRV5xj9Ei_WX9Sl3XksA1rJEUWWsmkM1bZ1g.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=21Z3ndeo6yMQ7kNvwHla-2S&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQzMDUxOTg3MjI4ODg0NywiYXNzZXRfYWdlX2RheXMiOjI2LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&_nc_zt=28&oh=00_AQNunb8YPdfhrN7rFwvCQitCor8bqFQ1mE3yoaSUvtsmIw&oe=6AD071C6",
+      "file": "videos/010.mp4",
+      "size": 1867455
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m86/AQMI8Oo58zGjEywbVGq2X3msDObCXqyCpWMBiJtX64dJVeK6_6BivcxQOF24rcYPpd1w6BGAP84ymzrUN-PjazLF9LlwfbEQYV88AIA.mp4?_nc_cat=102&_nc_sid=b66105&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=Zjesi5MwxDkQ7kNvwHB1VW5&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLmRhc2hfYmFzZWxpbmVfM192MSIsInhwdl9hc3NldF9pZCI6MTMwMDgyMDc5NDg0NzM0NSwiYXNzZXRfYWdlX2RheXMiOjE1NSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjMxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=f5ff7fd774149f0a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80MzRFNUE0M0MyNjgwODJFQTNBMEMwMThENEMwODNCMl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzk4NDczMEUzOTQxMDdBRUMyMkY1OEIzNjIyRTIzRTkzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbiwaWW3sXPBBUCKAJDMywXQD9VP3ztkWgYEmRhc2hfYmFzZWxpbmVfM192MREAdQBl5p0BAA&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&_nc_zt=28&oh=00_AQNz26N_x99SHtBM78enMbrv3lFbx_V-qwfPKYr2lnxfHg&oe=6ACC56E3",
+      "file": "videos/011.mp4",
+      "size": 1579227
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m86/AQMsxMV0bg6gS_3w1c7ded6UNqA12M-abS0UPR4ioPOpcumBpX5gMqk86zjDWWVpKuH29QOD2p2RY6Lfy5HWjukHLlV73e_jBnkxm2U.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=zf4t4vkD0-YQ7kNvwFIV2SC&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLmRhc2hfYmFzZWxpbmVfM192MSIsInhwdl9hc3NldF9pZCI6MTMzMjEwNTY5MTYzNTk0MiwiYXNzZXRfYWdlX2RheXMiOjM3NSwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjU4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=11c4851d47410c55&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80QjRBQjE0MDdBNEI2QTlBMzU5NTM1MDA2REI5RTk5NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80MDg0MTI3MDQxODQ1NjM1XzUwOTcwNDE2MDg5OTUzMjk2NzMubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJsyD7ejg4t0EFQIoAkMzLBdATUzMzMzMzRgSZGFzaF9iYXNlbGluZV8zX3YxEQB1AGWswQEA&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&_nc_zt=28&oh=00_AQOSF4bWiLcEKI3DYEpVrvxyfHipDyhmQyZ3IxM7dMmz_Q&oe=6ACC54AD",
+      "file": "videos/012.mp4",
+      "size": 2951384
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t1.30497-1/85215299_479381239411958_7755129104415850496_n.jpg?stp=c379.0.1290.1290a_cp0_dst-jpg_s50x50_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2f7377&_nc_ohc=pY9FO7hB0owQ7kNvwE1xwDM&_nc_oc=Adqwujq_sw8z_uPy1bcYjXJ5QHm2fnp3yPPYPB0w7y7_5jZJkmU-CliTm1qEZ174eX8&_nc_zt=24&_nc_ht=scontent-icn2-1.xx&_nc_ss=7a289&oh=00_AQNSxprS4alhYNEJKRCDdqBb0IBAksV85FYOvy4KvkCEww&oe=6AF1DE56",
+      "file": "images/001.jpg",
+      "size": 789
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/431180241_2704559493024360_5563362551517188771_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hKaj72571E4Q7kNvwFfHVkz&_nc_oc=AdqM_BRmL54ZifBYOgzdvv3NNlJHgXmuFcNoJmbZbbLCliRx6Jmm5N0HB4-64yeFlQM&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQPpagTzPiLe8c0kpaANsMBL5hw3Q0XWYfqOHGM48NkdqA&oe=6AD05A9D",
+      "file": "images/002.jpg",
+      "size": 48119
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/473625434_1306460493726582_99192508696972293_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8eYFfYSFiaEQ7kNvwGmtv8M&_nc_oc=Ado5YsyYvRc5bLIsnWmKTz2_plx-8-DLPQfzwihTJ9Y5kwnSj7iReb4WikGUMmYKsKM&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQP1WTEKm8FS5_CQ87zeV72RtJWpU2pTu80D55V-Qgp7LA&oe=6AD075F8",
+      "file": "images/003.jpg",
+      "size": 78681
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/671644584_1204639088247214_5167023925011983603_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=27NvDQgevQUQ7kNvwEWkl2r&_nc_oc=AdpzSCQfG5qy40m58aLcfrAGTkFTwLt__q2CfEQ5XKUWqLHpMcCiON7jvd_8pXHC9DU&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQOtm9iD-OFMPe0sM2yMSHrdQqkY2rBlKekGFekcMsIPAA&oe=6AD04F95",
+      "file": "images/004.jpg",
+      "size": 35481
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/690011524_1523442012731843_1532274027099726189_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8aP2199uJ9IQ7kNvwFjDP_l&_nc_oc=AdqpakZOUBpoptMXG5zYmvejOQT6lazFt6UdgrD38D0D0HB7oDkfvXfWMFHERksgvYA&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNlItctOICmP7OKQBUAwBb9Svmv1FGDFtJRCkEBxJ56Zg&oe=6AD06F6E",
+      "file": "images/005.jpg",
+      "size": 223104
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/732091985_1491754132217120_8949273786436446693_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7CiLjTu3lmkQ7kNvwFYVHbO&_nc_oc=Adp-A8pOq7Q8qtu4MkgjSf8gbuY4D0V_5ABKOJCH3qgQ47t8WQI-mnnTDLP3RrUDBo8&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQOJ2Fb97EtLYql9G7Jti8dk54IT4rwV1wji_Is8XjQm-w&oe=6AD04599",
+      "file": "images/006.jpg",
+      "size": 206632
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/734973758_1957994574894154_8954453753476026610_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-EWWyNv_0MwQ7kNvwFVLt62&_nc_oc=AdqX_tpGVxQHULPsTk9lXRliXt-RY9sYnxlOzFpiDPDCkkZfe7czQHAm4P7JbmDIyFA&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQPFzFqinnmi_hJRPEeWW0bStkOPLwjGfqreP3KU0GI33w&oe=6AD075E8",
+      "file": "images/007.jpg",
+      "size": 48474
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/740544371_910452771315004_6299181544141592899_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=G8T87E1d4lEQ7kNvwFSVDXT&_nc_oc=AdqxeBAmIyuDziWiv7y-rH2YACLoY3DExTD6a6tpYy3GF17d1JwGSAwVuRorBdkD9qY&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQO4kZ27VS-AAhAOb4bBP3gh6a26E5SwM79n2yO8my_vaQ&oe=6AD0597E",
+      "file": "images/008.jpg",
+      "size": 91233
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/762939342_1276873971058833_1510253997275759327_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CGfCYRNELJIQ7kNvwEpcST2&_nc_oc=Ado58G0keu4rl5QNXfeAGbMPBa08XGoNE0Eu2y3GiZJiEXM7jp8Ak7IJ5qCLqu5UWqU&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNNCMjET1kaJQZWsJsRTcrubmuj3elZP6N_sSKW8wRzqg&oe=6AD04086",
+      "file": "images/009.jpg",
+      "size": 22012
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/768432923_919441433921378_6037834106443351007_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=JqSYitlip5AQ7kNvwEfvqyc&_nc_oc=AdpgfTA9IrI7bnQ3D_PD8upFE_JBPSY4QeKer9BVti99xho1sJtEug3GxdHGSF838ag&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQMq1xJO5Ne4hMRfclF-vT104kns8XOfW__QdiW3nbbKcQ&oe=6AD055A4",
+      "file": "images/010.jpg",
+      "size": 67446
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/768941369_1290515706333691_5951849831346980916_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=0D8cboDQYrkQ7kNvwEiYntd&_nc_oc=AdrDJDGCz4weo-2MkYStNXjwHYyhymYLPjhXcOIm11byLsx3cNPK6A0KjTxmylFqjfQ&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQM9Ah4cRrpJt-RrdbvtuYo_xB1WuNQEbQjUye0PV7oJKw&oe=6AD046AF",
+      "file": "images/011.jpg",
+      "size": 21439
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/770700975_2257835754756839_3361966766672121172_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-2FDUPlQLOQQ7kNvwGQc2V1&_nc_oc=AdoD44F1fDuPR89mkvyuz02K2xN_whTpxkPUILDeFokBRjojQYOcB_UcC5LpRD1GU3k&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQPnCL2VRcbS8EzW8ulK4bRRwMlghFRoiYVfeJqHyoTl9Q&oe=6AD04B93",
+      "file": "images/012.jpg",
+      "size": 72183
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/771679229_1722416232208033_7107337710643378511_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ccgGxGKV_ugQ7kNvwFDhDSS&_nc_oc=AdofrcEZqufIyPcfrBh8Q1UmDN6FRsnfQh9IxLSCfeQSp6JhBWETsTRfvjY4pHREbXc&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQO-gvGgrVlShsfnI4Q_axWX_954lu0i10PL1-NtsxWELQ&oe=6AD05DBA",
+      "file": "images/013.jpg",
+      "size": 89678
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/772036902_899205922803074_1606516779171958782_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=F4noDFN2_awQ7kNvwGtJheP&_nc_oc=AdotUrRFoFZ2Ha9U1cEsmiqxOowb-GzZ8Iu3Htpuwb_SuAEzYv6ijFUZOY6LSWDMSUI&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNcL8LkjmnDde5bedl_OVzOPQj6DqUgnzjElBpB4AaLrg&oe=6AD07075",
+      "file": "images/014.jpg",
+      "size": 66948
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/772773200_1735250407391617_382326313460672089_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_BZcfvFJ-3AQ7kNvwFgw-gf&_nc_oc=AdprIALRoyuAltc5dcIlb8LlPgs_nQxQCmdeflIs8KPpLvIkS8oKbCK47rhDzuzu-kc&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQOK2UcjJv6K3pYoRmfefMWtpWSHbc2HX7ex4OUL_KchEw&oe=6AD0657F",
+      "file": "images/015.jpg",
+      "size": 49641
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/772818240_1048454727833659_813535404551266989_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-go8a-CWq1sQ7kNvwG8FR_C&_nc_oc=AdrQdTnIU-vygv8OUawekPm5o3LEUx_9i2TQ3JpsdqaoKNWWsXFPLVV5_kYplh1dz8Q&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNUIVgi4m95NyAdgCUH9BbPLQ4QbEJDuLKguZuhCImTfA&oe=6AD04B87",
+      "file": "images/016.jpg",
+      "size": 71747
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/779084878_2494245391097534_4045110502588872127_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GAZulEn_y1UQ7kNvwGWjSeR&_nc_oc=Adqo9Kaf07fGV2WqFm8zZ2jcN0sTISLTeKgP20R5kia9g26UdKl3Yl3bmyr1x6Es45U&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQMYHLfgp6N3PKDucQygZRA1RVUB02Yvy_G1yAbjL0nRJQ&oe=6AD0534E",
+      "file": "images/017.jpg",
+      "size": 61892
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/789300584_1393548492752241_3870277264424220264_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=cgallLjVc0IQ7kNvwHUO7X8&_nc_oc=AdptBa5zy6Yr4ToHY3xhp4yWLkp8lxZv6_J8WOblBn2vK4qW9hNt7XLj9iy4RlLeUaY&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNB5lpGpDdOn1cpiax_pRj22LqQJt_GW4IbImpZgdhf_w&oe=6AD041E1",
+      "file": "images/018.jpg",
+      "size": 43632
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/789667511_27983771914627659_6064833407706537887_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=TjkBc5L7Wn4Q7kNvwHxGPyI&_nc_oc=AdqLIpxO25gUpDgGvv1iT2J9EeL_5BVDkrJdAZH2Yi_UlF0Nwiup3_adWiaZGHD-QHA&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQOkIO89V7Dm126VxpD-hYhzHBftQRIz7nQtrYdxhllUuw&oe=6AD0421E",
+      "file": "images/019.jpg",
+      "size": 50409
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/790262937_27295533046788044_6188901780887169699_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-60L8pSq6XEQ7kNvwF8jjWS&_nc_oc=Adom76J5sHCoOJARXmoAxG8ditmQdbmld4hopGrSAcWQ4By6JnzCOJfnBh3t1FGZ_ms&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQOgoH4baPvruxnHJTOKjEXVVTr6-exXlXX-0r_l5sgp0A&oe=6AD06D9A",
+      "file": "images/020.jpg",
+      "size": 33045
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/790491126_1537655694356684_9114457085276306553_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2yssInxkgY8Q7kNvwFRSTfw&_nc_oc=AdqwADtvRSC5Ntuqo4e0v3nPVE9tlIp7A35gjBjMujodRSIml85gK7FXxK1yIr-Q1I8&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNpABkhPdpQwfcX8Eld0fEe0001Yh7PGMLGiWisqj9glQ&oe=6AD05E3B",
+      "file": "images/021.jpg",
+      "size": 31993
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/797653408_28495378330125094_1416030050138954106_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=WUHegsJftYsQ7kNvwEMXHtK&_nc_oc=AdrYktpOJFPBuEKMbq6wxWACguJ4AmBjplBXMHm9CfgHK8SWTdkTeZfIlqCLSZqDEvs&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNNh4376eaYDOvbXNmT1ZypBAl76TG3pUuh-HhLruz4eg&oe=6AD05929",
+      "file": "images/022.jpg",
+      "size": 65325
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/799525870_1522103593288750_8139608149675641755_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=N5hblmT-vTUQ7kNvwGOwJW5&_nc_oc=AdqQdXnt3xHfJkBmvtGEMZKVmN-jj8nwqwTjIFKHzYFW8vg2SwB20_a5IkwOm2oHb3U&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQMjOT0PRJjmOP41U4vXYq0XXvLg5Xb8RF78nHUplnaJOw&oe=6AD04169",
+      "file": "images/023.jpg",
+      "size": 69762
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/800115112_2542365079556129_8091898176896934016_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_Qtw40rY_akQ7kNvwFod24b&_nc_oc=AdpGNJpvFfr9g9Mj-F-K3See2z7ctykrZmakI7Mh3ZKn5QYkhSukn5dTk-NQzuCg0EY&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNrQxa2DLk2xYXV_j0r2Np-uj2TBBlDJN20WyOsoKvOKQ&oe=6AD0625F",
+      "file": "images/024.jpg",
+      "size": 67914
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/800450040_1693873508973481_3783024683471453407_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=AM8uouoxN5MQ7kNvwFePnSv&_nc_oc=Adr0IDJKgfGNJPmixb-XaIxG0-VitW7sy640wT0eFoVHv9tq2FsjFm7s4cu9ChBEmk0&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNvl84a1UegII2ktY8J1NJXnyZZgh5sDW22dIYYPNhcBQ&oe=6AD07023",
+      "file": "images/025.jpg",
+      "size": 51851
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/800594678_1861046748642546_6400094177493162570_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=e-KzktH5GZQQ7kNvwEe6ad_&_nc_oc=Adq3JdgQM_jELVSVOYfcd9fdd9Dn1ijpkMZ8AjWf5MyQzFg4pQMArtHEKSpL0PuG2ZA&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQO6YIjiu7o0gJOyEVja4ThzTKKyQa06JD5pNe5ksQMk0A&oe=6AD04416",
+      "file": "images/026.jpg",
+      "size": 70286
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/800642796_2617497248702742_4658487052800770061_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vMq5plMJLw0Q7kNvwHL4C0e&_nc_oc=Ado6d8J-jJcfY6-KSkJRtvZWTNia58FAFv88gp5oPWtpIeRes7eoUxaE5Cf6WPMonZ4&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQPB7vFjNuUEu86v2qwhqWbPfMAb8PMV_tQNwQ2ZDtM4ZA&oe=6AD045C1",
+      "file": "images/027.jpg",
+      "size": 66844
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/800994959_1633574901619345_80287679615202746_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=9dkRtpGC1NMQ7kNvwHH77l9&_nc_oc=AdqTKn3m9pVuX0t5-KVFIumiL6KTw-ZlFiNYMQeh_sevRJP0ulS1X1M7jQ0Ht9GhEUQ&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQORhueMKmZwTM5jIi-kXE-0p5WwkKTAsxD4hfBDWBTTUQ&oe=6AD0668A",
+      "file": "images/028.jpg",
+      "size": 111836
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/805752545_2403781590150093_721033817975881362_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Yh2uC7NPPvgQ7kNvwE_0MSG&_nc_oc=AdoCkjdYnSZDJvye28VyETbFHT1dpioMixQrzIzHD3831g4BjE-j4m1tnUZ_SXjWH5s&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQMDCaORgu8NibVZ842Qsq2oa-W93bjSBNYcqmh07KnTvg&oe=6AD04AA1",
+      "file": "images/029.jpg",
+      "size": 416783
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/807684794_2356527471867366_6666029287998894884_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GW27D4N8KPYQ7kNvwEkNnn7&_nc_oc=AdrQOEBdx3PtJyD5Z6OFJ6k9h0eQ93uQvOB5StN-Pkgk9XTdCfNHPOucAZJcnyHRE4M&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNT8k_TNm2h-j1330SZ8gAConuE1LLpCouW-I2fA1DDsw&oe=6AD05522",
+      "file": "images/030.jpg",
+      "size": 59169
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/807759537_2198305764453666_9143042677720251667_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7vTphqDDHx0Q7kNvwE34tN2&_nc_oc=Ado-3V5gLJpMRLMX9y0KcuQYDv-T7o6bzN7y3OMrU76ra7dbkxuU1BtSJsC0PjmzIDQ&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQOUJLGBqK9HaNOMu91R8C0qpWN28-urTbysSkkIHw5DDg&oe=6AD07298",
+      "file": "images/031.jpg",
+      "size": 49611
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/808123934_1128814832802786_4333187454911937660_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=9rYHYsB_BuUQ7kNvwHEHf7o&_nc_oc=AdoJ7Rq4J4S8mYHrsvRH8LKvY397iwpOZWxh_7ppHMPy0MeWFTe95m-qlkLw-tzxqPg&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQP6MG5YaZRvv0qQ3B0QQxYBckRBMhRJ0HUnj0yUzob-BQ&oe=6AD059B1",
+      "file": "images/032.jpg",
+      "size": 123477
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/808700738_1815699669843898_5508047624923636887_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=HlZU6o5aXukQ7kNvwEDoqjZ&_nc_oc=Adrfi6YKVo666sNXTWHpY1H_sTGn207KjRrrFDraH9kMn5E5cugazLwg3410YI_wOg0&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNmseqGupGsvReadNiuVj3-l6dE1ZpUmXN2tO1icHZ6RQ&oe=6AD04E38",
+      "file": "images/033.jpg",
+      "size": 62225
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/808804049_2159402768338441_1506474182274049862_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EHd6VokVw2QQ7kNvwH26mWC&_nc_oc=AdrW6qs3ilJcpdrj4xTLy4O1XMPi1pAq1f36MAJaibIH_AtNzuMw7HRxiITEsQOIiKY&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQMUPiezp8Rn3z1GNtGlXp6mD1ljDfD_vUgw_lduspTWwA&oe=6AD06CEE",
+      "file": "images/034.jpg",
+      "size": 56727
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/808804051_1396840389087332_3605194188507981022_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=NSrCTy2DPPEQ7kNvwEKpMbp&_nc_oc=Adq_Tb7q-_dinsm5QkOdvXnFZ3c-hDK7fTmFTNK6PkM8ZPd2za1dJINkDGNTGoKO4Ng&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQPAn30LCaC1SaUWDocL0Og3SucQP-yzaHKxz_9eJUGewg&oe=6AD071F8",
+      "file": "images/035.jpg",
+      "size": 83825
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/808907329_1232151313324304_1915506663987959063_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SYLp7VVxlBUQ7kNvwGATlJt&_nc_oc=AdpMsrC2MlkHPFWkZsNrpc6nmoM7mr_g-dTia1Gh32oUFxIoT61BGCM94ApK-R3MLKw&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQOUhFmoQXgc_4B4jna8PBX-vt3D9lftTyTXh98z1krTuQ&oe=6AD063C9",
+      "file": "images/036.jpg",
+      "size": 56359
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/808959641_1791936398660471_1847251438957122556_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Y_wAnh_BiO0Q7kNvwGDCZHQ&_nc_oc=AdroXRJBJru5Seek-Z0fWSEeX8NMWqpjGI068q-Vy7FWYHMLy9r5GJJIPe5Axy9eGxw&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNc5Cwp8_qBGQwQ_n4wjiafuqCgg5kr7YWaefgtINZ2qA&oe=6AD04651",
+      "file": "images/037.jpg",
+      "size": 54657
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/809042060_2293019601521130_1842508901634393215_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=okWckp0irUkQ7kNvwH6BWsi&_nc_oc=AdrOd5G0qcQWvBTswusUy3_wk18HNPel71wNOgkbJZRVWxFI1B6Pp69gr122gyOT_3M&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQPC4rxF-7NNQ_272_Iw_QTEoCSH6EsKnZKbO4yFXnolhw&oe=6AD06C5F",
+      "file": "images/038.jpg",
+      "size": 46042
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/809376078_1636285581220165_7835635438874204356_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EJcZMAp1gd4Q7kNvwHgYwoo&_nc_oc=Adp1AK-FaSXyT2OP1CAoMgppYP1iGfkYgeyettv13xguaC4oqBeeMALEk-cibLw2c9k&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNbEFkHnsdNzzKamAh3lfNSmlre7OZA07Hdw0yzlmCaww&oe=6AD051FD",
+      "file": "images/039.jpg",
+      "size": 47032
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/809646507_2055629488402894_5866474901981258077_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1WrSyWusAmEQ7kNvwHNrl8e&_nc_oc=AdqIBc5HnZzvSY3Oahxj9gP5XXBzdj9XKD7nTJNMjvAuqeiX08bssn3cXoZdqQRNX2k&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNPFEiV4Kiz3MvOiHcZ43l8KEiPnDlQiQtblwunxbW75g&oe=6AD04065",
+      "file": "images/040.jpg",
+      "size": 54520
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/809774511_2162811340932578_5680416780354535601_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fucsBcmUmBkQ7kNvwGgCB0E&_nc_oc=Ado-7jKPWJYhNiUOpKThhktp8sFy52DDdSDGyUleUh8tVIriUMTyHOY-9rj1bC_wYM8&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQPrCTsv5ayOXoknAYKCFOZZutzsT5GE9lSUvsKJwXbUlQ&oe=6AD062B2",
+      "file": "images/041.jpg",
+      "size": 39371
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/813332939_1089996793750049_7838867867232774896_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=XVqom8ftp0YQ7kNvwGR1Zwm&_nc_oc=Adpjtn0Ux5fyu6HxrSe-4BtQud7aiWYu6RkdUBdB8E4nCsmkypzA4BAx_fgUZ3CvbGw&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQPbEPe-TtvFw4TNUauwI5RqGKAaoYwRJOsNkcWbZInwZA&oe=6AD05F5D",
+      "file": "images/042.jpg",
+      "size": 43534
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/813614152_1652018309676482_1483461493826964161_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ejJr0hv-BeYQ7kNvwFvZHva&_nc_oc=AdqcZ-f7s_E2fK_2Beg2rPy_zLGQjIrkNwiWhqKA2WSOyBLY5_PvTvyjc5Ae6VzAMSs&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNh05xocBsrugCWypGmybqzRhok3gPkG7htRiz-5wQ_uw&oe=6AD04748",
+      "file": "images/043.jpg",
+      "size": 43104
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/815267788_1107908061701350_5617359934248971280_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=taQQT3thF48Q7kNvwEmoSwk&_nc_oc=Adq8K0ItAhPgOSTK0TiOXNz6XNxvP7YF5uM2DgXAbw6W4ujWqZ9HVTt3VMWlgpvKZVU&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQN7gmXJ_TJEWDI-_vV-tQRVkwW-g5AkTfoMIbzLzbEoEg&oe=6AD05045",
+      "file": "images/044.jpg",
+      "size": 62045
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/817117968_1489012269700634_5812435691210298968_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=prY1g1egj6MQ7kNvwE1WTLc&_nc_oc=AdrIdQr5saD1OUA_GIoxxMqof72uTUMEOBf3Fk3bf47ua6FDN7AgWNVTQaErufoHp-s&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQM6PsflGhNg19cpT0YvfYFa5DywqLVxoJfcudkSNLOi3w&oe=6AD047E7",
+      "file": "images/045.jpg",
+      "size": 56332
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/820389444_2604970186619171_7250302193472793385_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rMVly9mhYfUQ7kNvwF8zd-W&_nc_oc=AdqCd3LGtaxM9ZXzGuW-Vyzn9uta8lIlr-YRtanWXr_AwQWVfwfLSQHo7wxctE5ZERg&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQPtWiJDuIi1mMmRkKmIla5-EaFyApvdIJyjnh9xx5Q1aw&oe=6AD0603E",
+      "file": "images/046.jpg",
+      "size": 59702
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/824284243_1080481324731192_5725290565313066369_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=nGU4M52HVLgQ7kNvwGbOx_n&_nc_oc=AdqUYdRUBfIVleiW7QEaOcmVUIXXN_lHgVlUIc5Ov6q68EgMCQyTQpmCxKetRq6Ynq4&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQNVXAkGaENAZs0-lN82vSoYMk01WudhmnILlzBAAOJZAA&oe=6AD05F13",
+      "file": "images/047.jpg",
+      "size": 219484
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/828599243_1659970209073560_7138141141743983953_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ZB6sgznVyLUQ7kNvwFkLR1Z&_nc_oc=Adq76O-jkIw_3bVEL6BY_8y0b4zC08fz6RBMi7pGoWNIAltXcYuoajMykX-W5wJJnFc&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQOmU4wXu0IwjO4YQsuD2Ge5YYfQ0LowyV7P90rJDIeSMA&oe=6AD063E2",
+      "file": "images/048.jpg",
+      "size": 46220
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/828987987_1796972254877399_6476252319745331339_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SUtr1QAx_jIQ7kNvwHJPWmD&_nc_oc=AdoSKjqL3zlUqOO7Lu4CDStJsr6WQueRLnnoftIo3L7fLBByTQKQAKi784IFXbl9CUo&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQOT9MDJv1TTWcIF1TrvVFM7WgrfJsCNx5xalw7gVkvm0Q&oe=6AD060BC",
+      "file": "images/049.jpg",
+      "size": 320035
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/831402577_2589801304801922_6732742394541975647_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RRiLR5GwC3UQ7kNvwEMpi_O&_nc_oc=AdoFBgq4615HhXmGJfm1r5mehKOkwqIcxxyS926E94LyznIH0CVYQAM4pTqZAVnb7nM&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=awyErZiSwqRmTucbt_5dLw&_nc_ss=7a289&oh=00_AQOtZ9C1wpPyXbK5v0cXzw43-hB9fTEH8qL9A5l1fYtjKg&oe=6AD040B5",
+      "file": "images/050.jpg",
+      "size": 278144
+    },
+    {
+      "type": "image",
+      "url": "https://scontent.xx.fbcdn.net/hads-ak-prn2/1487645_6012475414660_1439393861_n.png",
+      "file": "images/051.png",
+      "size": 79
+    }
+  ],
+  "ad_texts": [
+    "​\n활성\n라이브러리 ID: 2340043466800587\n2026. 7. 31.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n키체스 페이지는 셀리맥스 (Celimax)과(와) 함께합니다\n광고\n#광고 \n한국인 특😑 진짜 좋은 건 \n어떻게든 1g도 남김 없이 씀🧐\n\n아무리 관리해도 이미 생겨버린 기미•잡티는 없애기 힘든 거 알죠? \n거울 볼 때마다 늘어난 것 같고\n얼굴이 칙칙해져서 나이들어 보이는 거 나만 그러냐구요 😭 \n\n✨셀리맥스 트라넥삼산 크림✨은\n기미 특화 성분인 트라넥삼산과 과잉 멜라닌 케어 성분이 고함량 들어있어서\n기미• 잡티 뿐만 아니라 모공과 미세주름까지 싹-! 케어하니까 \n거울 볼 때마다 나비존이 칙칙해보인다? 그럼 완전 추천👍\n\n✔️나비존까지 확실히 밝혀 얼굴 전체가 화사하게\n✔️멜라닌 케어 성분 고함량(110,000ppm)\n✔️수분 크림처럼 촉촉한 데일리 저자극 크림\n📣기간한정 할인에 미백 마스크까지 주니까 지금이 기회!\n\n@celimax.korea\n\n#셀리맥스 #celimax #트라넥삼산크림 #트라넥삼산 #모공잡티크림 #브라이트닝크림 #셀리맥스미백크림 #미백크림 #기미크림\n0:03 / 0:59\nOY.RUN\n키체스\n자세히 보기",
+    "​\n활성\n라이브러리 ID: 926843763410506\n2026. 9. 21.에 게재 시작함\n플랫폼\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n메디큐브 - Medicube\n광고\n약국입점 기미화장품✨\n딥비타C캡슐크림 자사몰 단독특가\n대용량 사은품 증정 >>\nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details",
+    "​\n활성\n라이브러리 ID: 1005926728762931\n2026. 5. 6.에 게재 시작함\n플랫폼\n​\n​\n광고 2개에서 이 크리에이티브 및 문구를 사용합니다\n드롭다운 열기\n​\n요약 세부 사항 보기\nzzziinii 페이지는 메라블과(와) 함께합니다\n광고\n#광고\n칙칙한 노란기와 곰팡이같은 기미로 \n고생하다 찾은 @melable_official \n루비알엔 피코샷 크림💗\n\n피부과 시술에서 착안한 제품으로, \n핵심 성분인 루비 PDRN + 고기능성 미백 성분이 \n피부 속 멜라닌을 집중 케어해줘요!\n\n+ 미세 골드 필름이 피부 깊은 곳의 \n묵은 기미 핵을 끌어올려\n잡티 흡착 + 보호막 형성까지 한 번에 🤍\n\n민감한 피부에도 사용 가능 + \n다운타임 부담 없는 것까지 더 좋았어요! \n\n✔️ 피부 속 기미 뿌리까지 케어\n✔️ 잡티 흡착 + 톤업 + 광채\n✔️ 피부과·약국 입점템\n\n지금 자사몰에서 최대 73% 할인 진행 중이니까\n기미 걱정 있으신 분들은 꼬옥 써보시길 💗 \n\n#루비알엔 #피코샷크림 #기미크림 #미백크림추천\n0:03 / 0:38",
+    "​\n활성\n라이브러리 ID: 2867030047006240\n2026. 9. 14.에 게재 시작함\n플랫폼\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n요즘리뷰\n광고\n기미 제대로 관리하는 사람들이\n약국 입점된 크림 찾는 이유❓\n[수량한정] 대용량 특가 링크 >>\nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details\n \nTHEMEDICUBE.CO.KR\nSee Details",
+    "​\n활성\n라이브러리 ID: 2042204726497460\n2026. 9. 28.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n템포러리 Temporary\n광고\n\"기미 뿌리 싹다 뽑습니다\"\n\n✅ 피부 탄력 리프팅 효과 UP, 치마버섯 추출물 함유\n✅ [논문입증] 피부 보습 10시간 지속, 나이아신아마이드 성분 함유\n✅ [식품의약품안전처인증] 주름 및 미백 개선 크림\n✅ 기미 개선, 오이풀뿌리 성분 함유\nWBSKIN.COM\n[3세트] 기미크림 9,900원\n상품 수령 후 7일이내 (주)더블유비스킨 으로 문의주셔야 교환/반품이 가능합니다.상담시간 내 고객센터 or 게시판으로 반품사유와 접수신청 남겨주세요.교환/반품시 되도록 (주)더블유비스킨으로 문의 먼저주시고 안내에 따라 ...\n지금 주문하기",
+    "​\n활성\n라이브러리 ID: 1797947414296833\n2025. 1. 15.에 게재 시작함\n플랫폼\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\nuneeda_official\n광고\n기미,잡티,모공,잔주름이 고민이시라면 지금 바로 유니다  공홈에서 설특가 프로모션으로 유니다 재생라인으로 해결하세요‼️‼️\n피부과에서 직접 사용하는 신뢰할 수 있는 제품‼️\n고객감사 역대 최대 혜택으로 준비했습니다‼️\n\n🎁설명절 최대 프로모션🎁\n✅️ 재생6종 세트 구매시  립틴트 6종 세트 증정\n✅️ 20만원 이상 구매시 립밤2종 (핑크+무색)증정\n (중복 증정 가능) \n✅️최대 76% 역대 할인율\n\n지금 바로 유니다  공홈에서 만나 보세요‼️\n\n#유니다 #유니다화장품 #기미앰플 #기미크림 #모공 #잡티 #주름개선 #탄력크림 # 주름개선 #보습크림 #미백크림 #pdrn #연어크림 #리쥬란 #피부과화장품 #skin #skincare\n0:03 / 0:13\nINSTAGRAM.COM\nuneeda_official\n더 알아보기",
+    "​\n활성\n라이브러리 ID: 1774115890710024\n2026. 8. 31.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n글래든\n광고\n어느 순간부터 더 눈에 띄는 기미, 흑자, 잡티🚨\n컨실러로 가리기보다 매일 꾸준히 케어해보세요.\n\n기미·흑자를 집중적으로 연구해온\n전문 연구 브랜드의 데일리 집중 케어.\n\n칙칙하고 얼룩덜룩해 보이는 피부를\n2주만에 맑고 균일한 피부톤으로! ✨\nHTTPS://GLADDEN.CO.KR/\n비시나 기미크림 | 트라넥삼산 고함량으로 겉기미부터 속잡티까지 케어\n국내 기미크림 추천 리스트에서 주목받는 비시나 기미크림입니다. 트라넥삼산과 나이아신아마이드의 최적 배합으로 짙은 기미와 잡티 흔적을 완화하며, 저자극 테스트를 완료해 매일 아침저녁으로 데일리 케어가 가능합니다. ...\n지금 구매하기",
+    "​\n활성\n라이브러리 ID: 2557386641373359\n2026. 9. 23.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n템포러리 Temporary\n광고\n\"기미 레이저 안 맞아도됩니다.\"\n\n✅ 피부 탄력 리프팅 효과 UP, 치마버섯 추출물 함유\n✅ [논문입증] 피부 보습 10시간 지속, 나이아신아마이드 성분 함유\n✅ [식품의약품안전처인증] 주름 및 미백 개선 크림\n✅ 기미 개선, 오이풀뿌리 성분 함유\nWBSKIN.COM\n[3개입] 9,900원\n상품 수령 후 7일이내 (주)더블유비스킨 으로 문의주셔야 교환/반품이 가능합니다.상담시간 내 고객센터 or 게시판으로 반품사유와 접수신청 남겨주세요.교환/반품시 되도록 (주)더블유비스킨으로 문의 먼저주시고 안내에 따라 ...\n지금 구매하기",
+    "​\n활성\n라이브러리 ID: 1709091190201740\n2026. 9. 2.에 게재 시작함\n플랫폼\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n뷰티정보\n광고\nHTTPS://GLADDEN.CO.KR/\n비시나 기미크림 | 트라넥삼산 고함량으로 겉기미부터 속잡티까지 케어\n국내 기미크림 추천 리스트에서 주목받는 비시나 기미크림입니다. 트라넥삼산과 나이아신아마이드의 최적 배합으로 짙은 기미와 잡티 흔적을 완화하며, 저자극 테스트를 완료해 매일 아침저녁으로 데일리 케어가 가능합니다. ...\n지금 구매하기",
+    "​\n활성\n라이브러리 ID: 1510459234162669\n2026. 8. 6.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n1957 태극제약 도미나스\n광고\n기미 집중 관리 시즌, 풍성한 공식몰 혜택! 🎁\n내 피부를 지켜줄 도미나스 기미 크림✨\nDOMINAS.CO.KR\n⭐장나라PICK 기미 크림⭐\n68년 기미명가 태극제약, 도미나스 기미크림 지금 공식몰에서만 단독 특가 중>\n지금 주문하기",
+    "​\n활성\n라이브러리 ID: 2320424455440672\n2026. 9. 17.에 게재 시작함\n플랫폼\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n메디큐브 - Medicube\n광고\n캡슐 기미크림, 공식몰에서 사면 가장 이득!\n단독 할인에 2종 사은품까지🎁\nTHEMEDICUBE.CO.KR\n딥 비타C 캡슐 크림\n브라이트닝, 기미잡티, 피부톤개선\n자세히 보기",
+    "​\n활성\n라이브러리 ID: 1801226570914312\n2026. 9. 28.에 게재 시작함\n플랫폼\n​\n​\n여러 버전이 있는 광고입니다\n​\n광고 2개에서 이 크리에이티브 및 문구를 사용합니다\n드롭다운 열기\n​\n요약 세부 사항 보기\n닥터비타\n광고\n재구매 없는 기미크림이요?\n네. 한 통으로도 확실하게 개선되니까!\n재구매 없는 기미크림\n임상으로 증명합니다\nLearn More",
+    "​\n활성\n라이브러리 ID: 1394067539496902\n2026. 9. 9.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n아직도 안샀어? 페이지는 위자드조선과(와) 함께합니다\n광고\n마흔 넘어가면서 등산 다닐 때마다 기미가 짙어지는 거 있죠 😭\n선크림 덧바르고 양산까지 썼는데 소용이 없더라구요...\n그러던 중 같이 산 타는 언니가\n기미 싹 없앴다고 기미 수면팩 하나 알려주더라구요?\n30만개 팔렸대서 속는셈 치고 써봤는데\n이게 웬걸~!\n자기 전 바르기만 했는데\n2주만에 기미가 많이 옅어졌어요.\n지금 비밀 링크에서 개당 1만원대 특가 진행 중!\n효과 없으면 무료 환불까지 된다고 하니\n야외활동 즐기면서 기미 고민인 분들 꼭 써보세요!\n#누룩밤 #기미 #기미크림 #인스타툰 #기미수면팩\nWIZARDJOSEON.COM\n🎉누적 30만개! 2주 기미 삭제 누룩밤 기미수면팩 ★약국 동일제품★ - 위자드조선\nSee Details\n \nWIZARDJOSEON.COM\n🎉누적 30만개! 2주 기미 삭제 누룩밤 기미수면팩 ★약국 동일제품★ - 위자드조선\nSee Details\n \nWIZARDJOSEON.COM\n🎉누적 30만개! 2주 기미 삭제 누룩밤 기미수면팩 ★약국 동일제품★ - 위자드조선\nSee Details\n \nWIZARDJOSEON.COM\n🎉누적 30만개! 2주 기미 삭제 누룩밤 기미수면팩 ★약국 동일제품★ - 위자드조선\nSee Details\n \nWIZARDJOSEON.COM\n🎉누적 30만개! 2주 기미 삭제 누룩밤 기미수면팩 ★약국 동일제품★ - 위자드조선\nSee Details\n \nWIZARDJOSEON.COM\n🎉누적 30만개! 2주 기미 삭제 누룩밤 기미수면팩 ★약국 동일제품★ - 위자드조선\nSee Details",
+    "​\n활성\n라이브러리 ID: 1621305906362829\n2026. 9. 17.에 게재 시작함\n플랫폼\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\nzz_a_na 페이지는 메디큐브 - Medicube과(와) 함께합니다\n광고\n#광고\n48살 되니까 주름보다 \n더 신경 쓰이는 게 있더라고요.\n바로 하나둘 눈에 띄기 시작하는 기미랑 잡티...🥲\n \n한 번 생기면 화장으로 가려도 은근히 보여서\n요즘은 거창하게 관리하기보다 매일 꾸준히 기미 관리하는 중!\n \n제가 요즘 아침저녁으로 챙겨 바르는 건\n메디큐브 딥비타C캡슐크림\n톡톡 터지는 딥비타C캡슐을 섞어서\n기미 신경 쓰이는 볼이랑 광대 쪽까지 꼼꼼하게 발라주고 있어요.\n \n특히 약국에도 입점된 기미크림이라 더 눈길이 갔는데,\n기미 관리뿐만 아니라 바르고 나면 피부가 촉촉하고 광채감까지 돌아서\n데일리 크림처럼 쓰기 좋더라고요✨\n \n48살 피부, 하루아침에 만들어지는 건 아니니까\n이런 작은 관리라도 매일 꾸준히 해보려고요\n이 정도면 관리한 보람 있죠?\n\n#동안 #동안관리 #홈케어 #메디큐브 딥비타C캡슐크림 캡슐기미크림 기미크림 미백크림 미백 기미 기미관리\n@medicube_korea\n0:02 / 0:40\nTHEMEDICUBE.CO.KR\nzz_a_na\n자세히 보기",
+    "​\n활성\n라이브러리 ID: 2692521584506114\n2026. 9. 14.에 게재 시작함\n플랫폼\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n요즘리뷰\n광고\n요즘 약국에서 유명하다는 기미크림\n효과 보니까 품절 난 이유가 있었네 ㄷㄷ\n공식몰 최저가 링크 구해옴! >>\n0:02 / 0:42\nTHEMEDICUBE.CO.KR\n약국입점 기미화장품 품절이유?\n자세히 보기",
+    "​\n활성\n라이브러리 ID: 1574729200950733\n2026. 8. 4.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n1957 태극제약 도미나스\n광고\n기미 집중 관리 시즌, 풍성한 공식몰 혜택! 🎁\n내 피부를 지켜줄 도미나스 기미크림 ✨\nDOMINAS.CO.KR\n⭐장나라PICK 기미크림⭐\n68년 기미명가 태극제약, 도미나스 기미크림 지금 공식몰에서만 단독 특가 중>\n지금 구매하기",
+    "​\n활성\n라이브러리 ID: 1058614553512424\n2026. 6. 30.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n아직도 안샀어? 페이지는 위자드조선과(와) 함께합니다\n광고\n누룩밤이 기미 케어하는 원리?\n우리 삼총사가 밤새 피부 속에서 열심히 일하기 때문✨\n맑은 피부를 위한\n수분 케어 + 피부 장벽 케어 + 브라이트닝 케어까지\n누룩밤 삼총사 출동 완료💛\n오늘도 자는 동안 피부 컨디션 관리 중…🌙\n\n@wizardjoseon_official \n\n#누룩밤 #기미크림 #기미 #애니메이션 #뷰티\n0:02 / 0:31\nWIZARDJOSEON.COM\n아직도 안샀어?\n자세히 보기",
+    "​\n활성\n라이브러리 ID: 2019392442024095\n2026. 9. 1.에 게재 시작함\n플랫폼\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n뷰티정보\n광고\nHTTPS://GLADDEN.CO.KR/\n비시나 기미크림 | 트라넥삼산 고함량으로 겉기미부터 속잡티까지 케어\n국내 기미크림 추천 리스트에서 주목받는 비시나 기미크림입니다. 트라넥삼산과 나이아신아마이드의 최적 배합으로 짙은 기미와 잡티 흔적을 완화하며, 저자극 테스트를 완료해 매일 아침저녁으로 데일리 케어가 가능합니다. ...\n지금 구매하기",
+    "​\n활성\n라이브러리 ID: 1847107929595776\n2026. 6. 30.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n1957 태극제약 도미나스\n광고\n기미 집중 관리 시즌, 풍성한 공식몰 혜택! 🎁\n내 피부를 지켜줄 도미나스 기미크림 ✨\nDOMINAS.CO.KR\n⭐장나라PICK 기미크림⭐\n68년 기미명가 태극제약, 도미나스 기미크림 지금 공식몰에서만 단독 특가 중>\n자세히 보기",
+    "​\n활성\n라이브러리 ID: 1780333263174020\n2026. 10. 2.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n​\n광고 2개에서 이 크리에이티브 및 문구를 사용합니다\n드롭다운 열기\n​\n요약 세부 사항 보기\n아이소이\n광고\n중년 여배우가 드라마 줌인에도 살아남는 법?🙂\n자꾸 짙어지는 기미·잡티, 늦기 전에 데일리로 관리하세요!\n\n김혜은 배우 PICK 기미토닝&항산화 듀오 세트 ~43%\n화장으로도 안 가려지는 칙칙함과 노화 고민. 유효성분 50,000PPM 이상 폭탄 투하! \n여배우의 맑고 화사한 피부 비결을 공개합니다.\n\n#아이소이 #기미크림 #기미앰플\n0:02 / 0:24",
+    "​\n활성\n라이브러리 ID: 1764171361494104\n2026. 9. 9.에 게재 시작함\n플랫폼\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\ndenden_unni 페이지는 메디큐브 - Medicube과(와) 함께합니다\n광고\n#광고\n40대 되고 육아에 일에 치이며\n피부에 신경 안 쓰게 되면 바로 올라오는 게 바로 기미잡티잖아요\n집에서도 관리해줘야 안심 😌\n \n그래서 저는 약국입점된 캡슐기미크림으로 평소에 관리해주고 있어요\n\n꿀팁은 신경 쓰이는 부위에 기미팩처럼 크림을 듬뿍 얹어서\n써주면 확실히 눈밑 기미 뿐만 아니라 피부톤이 전체적으로 환해져요✨\n \n캡슐을 한 번에 섞는 쾌감까지… 이거 은근 중독됨ㅋㅋ\n오늘부터 기미크림 이렇게 써보세요🤍\n@medicube_korea \n \n📢댓글에 ’정보‘ 달면 공식몰 대용량 최저가 혜택 링크 드릴게요\n수량한정 기획세트 특가니까 필요하신 분들 댓글 주세요!\n0:02 / 0:30\nTHEMEDICUBE.CO.KR\ndenden_unni\n자세히 보기",
+    "​\n활성\n라이브러리 ID: 1623568378971949\n2026. 4. 15.에 게재 시작함\n플랫폼\n​\n​\n​\n광고 3개에서 이 크리에이티브 및 문구를 사용합니다\n드롭다운 열기\n​\n요약 세부 사항 보기\n채은 페이지는 메라블과(와) 함께합니다\n광고\n요즘 루비알엔 피코샷 크림 덕분에 *광고\n피부톤이 좀 맑아진 느낌 🤍\n\n루비 PDRN이랑 미백 성분 들어 있어서 \n기미 재발 케어까지 같이 해준대요! \n\n크림 안에 골드 필름이 들어있는 것도 신기… ✨\n꾸준히 쓰니까 잡티가 덜 도드라져 보이더라구요 !\n\n약국 입점 제품이라 엄청 순해서\n메라블 루비알엔 피코샷 크림 너무 추천해요 🪽\n\n@melable_official \n\n#루비알엔 #피코샷크림 #기미크림 #미백크림추천 #기미\n0:02 / 0:38",
+    "​\n활성\n라이브러리 ID: 942079495032641\n2026. 8. 31.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n글래든\n광고\nHTTPS://GLADDEN.CO.KR/\n비시나 기미크림 | 트라넥삼산 고함량으로 겉기미부터 속잡티까지 케어\n국내 기미크림 추천 리스트에서 주목받는 비시나 기미크림입니다. 트라넥삼산과 나이아신아마이드의 최적 배합으로 짙은 기미와 잡티 흔적을 완화하며, 저자극 테스트를 완료해 매일 아침저녁으로 데일리 케어가 가능합니다. ...\n지금 구매하기",
+    "​\n활성\n라이브러리 ID: 2323950081729272\n2026. 9. 15.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n​\n광고 2개에서 이 크리에이티브 및 문구를 사용합니다\n드롭다운 열기\n​\n요약 세부 사항 보기\nKopher\n광고\n🚨곧 종료되는 할인 링크입니다🚨",
+    "​\n활성\n라이브러리 ID: 1067492202865976\n2026. 9. 29.에 게재 시작함\n플랫폼\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n꿀피부 저장소\n광고\n⭐청남/강남/압구정 피부과 품절대란 기미크림⭐\n0:02 / 0:39\nMELABLE.CO.KR\n꿀피부 저장소\n자세히 보기",
+    "​\n활성\n라이브러리 ID: 1562976132188169\n2026. 8. 20.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n​\n여러 버전이 있는 광고입니다\n​\n광고 2개에서 이 크리에이티브 및 문구를 사용합니다\n드롭다운 열기\n​\n요약 세부 사항 보기\nSkinlaboratorytip\n광고\n먼저 구매하신 분들 죄송합니다...\n약국 1등 바디 기미크림 최저가 링크⬇️\n선착순 1만원대⬇️\n효과없으면 무료반품\nSee Details",
+    "​\n활성\n라이브러리 ID: 1043641185378564\n2026. 10. 2.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n​\n드롭다운 열기\n​\n광고 상세 정보 보기\n정보모음집.zip\n광고\n0:02 / 0:58\nKOPHER.CO.KR\n기미크림 최저가 바로가기 >\n올영 1위 여배우 기미크림 45% OFF\n자세히 보기",
+    "​\n활성\n라이브러리 ID: 2616504892114413\n2026. 9. 13.에 게재 시작함\n플랫폼\n​\n​\n​\n​\n​\n광고 2개에서 이 크리에이티브 및 문구를 사용합니다\n드롭다운 열기\n​\n요약 세부 사항 보기\nKopher\n광고\n🔥1+1 기미크림, 45%할인🔥\n\n-2주 사용 후 멜라닌 21.9% 감소 \n-끈적임 ZERO, 촉촉한 수분만 남기는 크리미한 제형\n-큐텐 1위, 올영 1위 기미크림\n0:02 / 0:32"
+  ],
+  "ad_links": [
+    {
+      "id": "2340043466800587",
+      "links": [
+        "https://oy.run/zg1gMfMdphlqmA"
+      ]
+    },
+    {
+      "id": "926843763410506",
+      "links": [
+        "http://www.themedicube.co.kr/"
+      ]
+    },
+    {
+      "id": "1005926728762931",
+      "links": [
+        "https://melable.co.kr/product/%EB%A3%A8%EB%B9%84%EC%95%8C%EC%97%94-%ED%94%BC%EC%BD%94%EC%83%B7-%ED%81%AC%EB%A6%BC/52/category/67/display/1/?utm_source=meta&utm_medium=traffic_cbo&utm_campaign=RubyRN_Cream&utm_content=FB_C_260507_3P&cafe_mkt=ue_FB_C_260507_3P"
+      ]
+    },
+    {
+      "id": "2867030047006240",
+      "links": [
+        "https://themedicube.co.kr/product/detail.html?product_no=2977&cate_no=471&display_group=1",
+        "https://themedicube.co.kr/product/detail.html?product_no=1560&cate_no=474&display_group=1"
+      ]
+    },
+    {
+      "id": "2042204726497460",
+      "links": [
+        "https://wbskin.com/product/detail.html?product_no=3652&cafe_mkt=ue_s203170&utm_source=instagram&utm_medium=video&utm_content=s203170"
+      ]
+    },
+    {
+      "id": "1797947414296833",
+      "links": []
+    },
+    {
+      "id": "1774115890710024",
+      "links": [
+        "https://gladden.co.kr/?idx=51%3Futm_source%3Dmeta&utm_medium=display&utm_campaign=BSN_ABO&utm_content=image02_260901&utm_term=%7Bkeyword%7D"
+      ]
+    },
+    {
+      "id": "2557386641373359",
+      "links": [
+        "https://wbskin.com/product/detail.html?product_no=3652&cafe_mkt=ue_s203171&utm_source=instagram&utm_medium=video&utm_content=s203171"
+      ]
+    },
+    {
+      "id": "1709091190201740",
+      "links": [
+        "https://gladden.co.kr/?idx=51%3Futm_source%3Dmeta&utm_medium=display&utm_campaign=BSN_ABO&utm_content=image05_260901&utm_term=%7Bkeyword%7D"
+      ]
+    },
+    {
+      "id": "1510459234162669",
+      "links": [
+        "https://dominas.co.kr/product/detail.html?product_no=51&utm_source=meta&utm_medium=da&utm_campaign=meta_always_spot.cream_cv-asc&utm_content=spot.cream_cv-rv_asc&utm_term=260806_spot.cream_single_concern-melasma.fadeaway_51-spot.cream"
+      ]
+    },
+    {
+      "id": "2320424455440672",
+      "links": [
+        "https://themedicube.co.kr/product/detail.html?product_no=1560&cate_no=474&display_group=1"
+      ]
+    },
+    {
+      "id": "1801226570914312",
+      "links": [
+        "https://www.drvitamall.com/product/detail.html?product_no=22&utm_source=%7B%7Bsite_source_name%7D%7D&utm_medium=traffic&utm_campaign=%7B%7Bplacement%7D%7D&utm_content=S_0312_BZ_DC_4T&utm_term=S_0312_BZ_DC_4T&cafe_mkt=ue_S_0312_BZ_DC_4T#prdDetail"
+      ]
+    },
+    {
+      "id": "1394067539496902",
+      "links": [
+        "https://wizardjoseon.com/surl/p/29"
+      ]
+    },
+    {
+      "id": "1621305906362829",
+      "links": [
+        "https://themedicube.co.kr/product/detail.html?product_no=1560&cate_no=474&display_group=1"
+      ]
+    },
+    {
+      "id": "2692521584506114",
+      "links": [
+        "https://themedicube.co.kr/product/detail.html?product_no=1560&cate_no=474&display_group=1"
+      ]
+    },
+    {
+      "id": "1574729200950733",
+      "links": [
+        "https://dominas.co.kr/product/detail.html?product_no=51&utm_source=meta&utm_medium=da&utm_campaign=meta_always_spot.cream_ba-asc&utm_content=spot.cream_ba-cw_asc&utm_term=260804_spot.cream_single_ingredient-916.settlement.cream_51-spot.cream"
+      ]
+    },
+    {
+      "id": "1058614553512424",
+      "links": [
+        "https://wizardjoseon.com/surl/P/29"
+      ]
+    },
+    {
+      "id": "2019392442024095",
+      "links": [
+        "https://gladden.co.kr/?idx=51%3Futm_source%3Dmeta&utm_medium=display&utm_campaign=BSN_ABO&utm_content=image06_260901&utm_term=%7Bkeyword%7D"
+      ]
+    },
+    {
+      "id": "1847107929595776",
+      "links": [
+        "https://dominas.co.kr/product/detail.html?product_no=51&utm_source=meta&utm_medium=da&utm_campaign=meta_always_spot.cream_ba-asc&utm_content=spot.cream_ba-cw_asc&utm_term=260613_spot.cream_single_concern-noerase"
+      ]
+    },
+    {
+      "id": "1780333263174020",
+      "links": [
+        "https://www.isoi.co.kr/event/202609/duo_event?mkt_cd=ITMEDA&utm_source=meta&utm_medium=video&utm_campaign=bat_2610ppl_mo&utm_content=traffic&utm_term=txaduo1vd"
+      ]
+    },
+    {
+      "id": "1764171361494104",
+      "links": [
+        "https://themedicube.co.kr/product/detail.html?product_no=2939&cate_no=604&display_group=1"
+      ]
+    },
+    {
+      "id": "1623568378971949",
+      "links": [
+        "https://melable.co.kr/product/%EB%A3%A8%EB%B9%84%EC%95%8C%EC%97%94-%ED%94%BC%EC%BD%94%EC%83%B7-%ED%81%AC%EB%A6%BC/52/category/67/display/1/?utm_source=meta&utm_medium=engagement_cbo&utm_campaign=RubyRN_Cream&utm_content=FB_CP_260415_3&cafe_mkt=ue_FB_CP_260415_3"
+      ]
+    },
+    {
+      "id": "942079495032641",
+      "links": [
+        "https://gladden.co.kr/?idx=51%3Futm_source%3Dmeta&utm_medium=display&utm_campaign=BSN_ABO&utm_content=image04_260901&utm_term=%7Bkeyword%7D"
+      ]
+    },
+    {
+      "id": "2323950081729272",
+      "links": [
+        "https://kopher.co.kr/surl/P/167"
+      ]
+    },
+    {
+      "id": "1067492202865976",
+      "links": [
+        "https://melable.co.kr/product/%EB%A3%A8%EB%B9%84%EC%95%8C%EC%97%94-%ED%94%BC%EC%BD%94%EC%83%B7-%ED%81%AC%EB%A6%BC/52/category/67/display/1/?utm_source=%7B%7Bplacement%7D%7D%20&utm_medium=conversion&utm_campaign=RubyRN_Cream&utm_content=FB_CA_260926_V120&cafe_mkt=ue_FB_CA_260926_V120"
+      ]
+    },
+    {
+      "id": "1562976132188169",
+      "links": [
+        "https://mommy-care.co.kr/surl/P/1578?utm_source=instagram&utm_medium=social&utm_term=m_ob&utm_content=m_t_ob2_hy0820_1"
+      ]
+    },
+    {
+      "id": "1043641185378564",
+      "links": [
+        "https://kopher.co.kr/surl/P/167"
+      ]
+    },
+    {
+      "id": "2616504892114413",
+      "links": [
+        "https://kopher.co.kr/product/detail.html?product_no=167"
+      ]
+    }
+  ],
+  "truncated": true,
+  "truncated_queries": [
+    "기미크림"
+  ],
+  "truncation_reason": "rate_limit_1675004"
+}

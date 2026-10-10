@@ -1,0 +1,262 @@
+{
+  "made_kst": "2026-10-11T01:35:00.782950+09:00",
+  "phase": "Meta보완전 독립작성기록, 최종봉인 아님",
+  "files": [
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/01-멜란오프컬러팩/근거.md",
+      "sha256": "027a324c61648e118c0b507e46c59b28704d16c8c0dd7a8344562fc249608b01"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/01-멜란오프컬러팩/기획서.md",
+      "sha256": "6ccbef4c80002d4e47fedecbc1ef3b3928b77b62025720c1d11298906eb6f12a"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/01-멜란오프컬러팩/작업흐름.md",
+      "sha256": "e4a508f889e0136ee35dd445d62e3ad0c7c7066c1f4122732e8a6ae0ebc524d8"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/02-표정잠금필름/근거.md",
+      "sha256": "42714bc3b92deaa2b4d463bedc0a8da07595eb53f398a4c836ec1c4e9c535e25"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/02-표정잠금필름/기획서.md",
+      "sha256": "6b3a0cf92a9bf73da52e0839c006b0cb342ff013bc67ab47902ff367fa100481"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/02-표정잠금필름/작업흐름.md",
+      "sha256": "4e663c756d8b5957b5afdd073411b78b687969d3b8eca535e791c9e55088384e"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/03-써멀수축파우더팩/근거.md",
+      "sha256": "884face2428678a83bc6afb53dd62aa2ead39d47c62093af29eff051303019db"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/03-써멀수축파우더팩/기획서.md",
+      "sha256": "369d6c1eddda3e142f75e28bd0d832e17477c35903071262354d881fab3041b7"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/03-써멀수축파우더팩/작업흐름.md",
+      "sha256": "a9002e9ad60efb5d7871e58d48e5cb8fbac8c2c8e69255e864f87484cadedbcb"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/04-이소드라이스팟로션/근거.md",
+      "sha256": "53575c7977f852cd774ec3bb69e13291be9d301f87006720ed7e5a5fcf1dbf57"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/04-이소드라이스팟로션/기획서.md",
+      "sha256": "555ac9f5dc954ab933d55a4e5e5d7c99db53afa750ec6e3a4500f9ddbc625325"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/04-이소드라이스팟로션/작업흐름.md",
+      "sha256": "6ae513cbf022f6fefa7b4ba9eaaeb0daac43a56bf70f4fb2d47a76541adcbd85"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/05-슈오일밀크스틱/근거.md",
+      "sha256": "56e0b4acce6c55837036721a2552b12eeb4b48d146debb43e1eaa64c6408a350"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/05-슈오일밀크스틱/기획서.md",
+      "sha256": "33953000f78554b56008d02073decce694d793dfc7cfc965e58f0b9b5acdd4de"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/05-슈오일밀크스틱/작업흐름.md",
+      "sha256": "4be0858715f60a5623108d235c2d3273b8acbbf804e7cb2175481f9c08cd892c"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/06-뿌리펌텐션세럼/근거.md",
+      "sha256": "2dca43e8fb30a6e1d51c8d6e176e739e8a88f39cc20bf97b53b4bca0e3c7a103"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/06-뿌리펌텐션세럼/기획서.md",
+      "sha256": "7d5fd8401f733f8038a4c5b2f1fbd4be04b749a8609764911eea0a305a8b1849"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/06-뿌리펌텐션세럼/작업흐름.md",
+      "sha256": "884209a7e282d9558f02de58b2d365f9dc220da5e7bb1d50e9e4327545ee8f3b"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/07-위볼륨식전푸딩/근거.md",
+      "sha256": "d15d8a8683c0387b888be2c6f6416111d59ac6488ef42ff8476293f71d333b4e"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/07-위볼륨식전푸딩/기획서.md",
+      "sha256": "4e728702e0cd8f10938eed7682c1090ee958223641c0315c676b4f1708e15005"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/07-위볼륨식전푸딩/쇼핑-공개화면-관찰.md",
+      "sha256": "4919e722857f43d9335975151f755a72841b61924f7f597232c56ff67f92e2a0"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/07-위볼륨식전푸딩/작업흐름.md",
+      "sha256": "55179aa718d0f3af32f220bf58a1334bbc9206107619e006d86d5a6800761192"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/08-스팀오프수면돔/근거.md",
+      "sha256": "88760d712bd4f9ec009c7c8c59977a0ac09b87c88083d116c3b844b7b7991bbc"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/08-스팀오프수면돔/기획서.md",
+      "sha256": "f437bd7925d6808f82d726bd6a02024bc50e31bcc215f901d61b4ff3b72c226b"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/08-스팀오프수면돔/네이버-최종상징확장-전사.md",
+      "sha256": "bcc81f231911e30fb980736b12faeefdc7aa9f3658779c3bc4471f39e2c09a57"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/08-스팀오프수면돔/쇼핑-공개화면-관찰.md",
+      "sha256": "8e2136efd0e2403e0e17fc8df423cb1f09ad9c28df141af47d5eca950e03ecd1"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/08-스팀오프수면돔/작업흐름.md",
+      "sha256": "024df14a9206288733a0f944857012950913fad5a37c38d5e8b64b4e2e655e13"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/09-펄스릴리즈종아리롤러/근거.md",
+      "sha256": "12241f91efcfc427a4400cfbda899e61653cc9533d46fc4bd8b0ee1ca8546d2f"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/09-펄스릴리즈종아리롤러/기획서.md",
+      "sha256": "6b7dc4273f730bf1941b9af582bbd0c202ef0a6437c8e38e87db1a6021161b68"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/09-펄스릴리즈종아리롤러/쇼핑-공개화면-관찰.md",
+      "sha256": "ca80f025302f2befe416602f8604e427a51a4fb2bf9286f7d78dcc3a4382f787"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/09-펄스릴리즈종아리롤러/작업흐름.md",
+      "sha256": "b53e14beb08b66681d051719353947efad2617bf31f24ef413e965e3a900d2ce"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/10-라미코트치아메이크업/근거.md",
+      "sha256": "2d2829e638ec6cffd03df01ffacd4adb50307e0c2aa530eca045437a75022f26"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/10-라미코트치아메이크업/기획서.md",
+      "sha256": "011d403f9807b3743d82208841333ae67580307e4f50ac21dca65891e884a942"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/10-라미코트치아메이크업/작업흐름.md",
+      "sha256": "439a8504009a193b2e061570e1176a287533797126d8eba43c9acf222d9a8808"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/11-오일풀밀크가글/근거.md",
+      "sha256": "13acf8d5f0194551f5e3eabf2504e0acfdd871e235f8d182f7c54a47cad22ed5"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/11-오일풀밀크가글/기획서.md",
+      "sha256": "99664354794dddbe4329c190bdb90d6a36fa6fbf89168ae00eb2017ee4e2e0d6"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/11-오일풀밀크가글/작업흐름.md",
+      "sha256": "2f4cdf815ada0aea9e536f5c865b309674889528fbb349bc74338116feda9d12"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/12-크리스탈보송데오/근거.md",
+      "sha256": "93fe827d16ce242c414526536ff892d5eeccdb579d92d68d911843a2f32629b0"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/12-크리스탈보송데오/기획서.md",
+      "sha256": "a2c1eaface76889057d6dfbd4e04fcfa15a207a2d43a4021cfc2ed5c2bdccbba"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/12-크리스탈보송데오/작업흐름.md",
+      "sha256": "8fe5d6096ad52b37aa9e6cc825e09cc1cd26e2d7b8a1cded4bbb1a1ffe894417"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/13-파라핀풋코쿤/근거.md",
+      "sha256": "889bca806d74e126817e5416b2c22fc31b63339efa08303753269565445be504"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/13-파라핀풋코쿤/기획서.md",
+      "sha256": "69672eda431777606d1d0f1bd78b2033da4f1e8e3fdfb969934ba6919c2779c6"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/13-파라핀풋코쿤/작업흐름.md",
+      "sha256": "e0d9ed91198dc629130c3f2aecc9b0b1866144ce555eecba5a8b78a072bec8e5"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/14-바이오버블튼살밤/근거.md",
+      "sha256": "c185e003fcc77990071aee045ea926e2fef63e264bdff6bde6821fa41a3ff8f6"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/14-바이오버블튼살밤/기획서.md",
+      "sha256": "30f22e82b38f844ca138c6437a87896e460c762f16270fc2144ebb946a2e40a7"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/14-바이오버블튼살밤/작업흐름.md",
+      "sha256": "1a757c402e753cf39e09940a8290bf888777d76c36cfe6efb9125ea878ab7231"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/15-자일리롱멜트/근거.md",
+      "sha256": "16ca4598fd397c03010fc8001a7a42670aab0481aec108f85e5a90db02aad9e3"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/15-자일리롱멜트/기획서.md",
+      "sha256": "8311649f02c02c475717db2d8c849d04e9f296df52d7989b4686e9a0c3333770"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/15-자일리롱멜트/작업흐름.md",
+      "sha256": "5f5dd21ded46ece77c6fa51c490d81b9bd5c2994d42b8807f69cbf4055126955"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/01-얼굴색소/시장카드.md",
+      "sha256": "32f8ffc5b480a25d86d0bff918237030ef9d6ba4ac3ea5ff30b633637563c4d1"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/02-얼굴주름/시장카드.md",
+      "sha256": "29cb10d02b9e6b3b449f8bf65342e14b26a314275c7da73c6591ed2b07e9fb10"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/03-얼굴탄력/시장카드.md",
+      "sha256": "812396827dc84b36d6d63c572db5efbc6cb81e0025998cb08ad8916b4d16acd7"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/04-반복트러블/시장카드.md",
+      "sha256": "6473a8f8bc7a51c2f18b9ca374243afbac9e60814a5a4a206aa4e1609a51606d"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/05-블랙헤드/시장카드.md",
+      "sha256": "1c3cfc34d83e85d3083521e3de0d0ed81a1d7d18ed371ac225aab2bc0f3f1dfa"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/06-숱감소/시장카드.md",
+      "sha256": "315d1e95beb796d5b89504bc30fc17be692c5f8a766e3bcb92c5bca59bcea728"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/07-체중관리/시장카드.md",
+      "sha256": "efb18a86e9a9961238f92150871c3f75fb88b46a7caec4d8ba05d1613a8634ec"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/08-잠들기어려움/시장카드.md",
+      "sha256": "dd4fbbbdf6c4b578b8d34cfaba138de7738449d400fb74e581be067685acf474"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/09-무거운다리/시장카드.md",
+      "sha256": "9cfa43a81af4451b9c38adfe55688bf475740afd68bbef9ce68a487978e1a820"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/10-치아미백/시장카드.md",
+      "sha256": "6e57f72219e849d895a5ce686b73848d70531adef315cf0ad3453862721bacfe"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/11-입냄새/시장카드.md",
+      "sha256": "ad19bd30a7b2a43c11df595f79479fd584e5b4f368bbf00603425b67d81cb799"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/12-몸냄새/시장카드.md",
+      "sha256": "99d84758206d74b7caf3d79e732aa998df61e8919be8c2286826f4faacb053a6"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/13-발각질갈라짐/시장카드.md",
+      "sha256": "9bf9c68c1c36f6bfc582d8dd287d6b43288949f1241b683ed85bbb323782a04f"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/14-튼살/시장카드.md",
+      "sha256": "edf448ce452c8138e57c04656a091c768a27896e251de4ff7aed99becf652c22"
+    },
+    {
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/시장카드/15-지속입마름/시장카드.md",
+      "sha256": "835f07466bd2747cc37daa4e3db7c6b21381e261a49f1f878529fee4ff61762f"
+    }
+  ]
+}

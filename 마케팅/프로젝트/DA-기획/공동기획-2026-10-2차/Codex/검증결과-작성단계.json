@@ -1,0 +1,117 @@
+{
+  "checked_kst": "2026-10-11T01:29:08.630307+09:00",
+  "plans": 15,
+  "numbered_folders": 15,
+  "market_cards": 15,
+  "checker_success": 15,
+  "extra_error_count": 0,
+  "frozen_inputs_changed": [],
+  "meaning": "양식/파일구성/동결입력 확인; 효과·사업성·시장성 통과 아님; Meta수집 전",
+  "results": [
+    {
+      "number": "01",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/01-멜란오프컬러팩/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "02",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/02-표정잠금필름/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "03",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/03-써멀수축파우더팩/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "04",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/04-이소드라이스팟로션/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "05",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/05-슈오일밀크스틱/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "06",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/06-뿌리펌텐션세럼/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "07",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/07-위볼륨식전푸딩/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "08",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/08-스팀오프수면돔/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "09",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/09-펄스릴리즈종아리롤러/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "10",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/10-라미코트치아메이크업/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "11",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/11-오일풀밀크가글/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "12",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/12-크리스탈보송데오/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "13",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/13-파라핀풋코쿤/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "14",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/14-바이오버블튼살밤/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    },
+    {
+      "number": "15",
+      "path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10-2차/Codex/15-자일리롱멜트/기획서.md",
+      "returncode": 0,
+      "last_line": "위반 0개",
+      "extra_errors": []
+    }
+  ]
+}

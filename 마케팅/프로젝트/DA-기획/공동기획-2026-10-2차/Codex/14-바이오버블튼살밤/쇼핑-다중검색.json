@@ -1,0 +1,32 @@
+[
+  {
+    "query": "튼살 오일 캡슐",
+    "measured_at": "2026-10-11T00:45:30.255028",
+    "http_status": 404,
+    "count": "미측정"
+  },
+  {
+    "query": "바이오오일 젤",
+    "measured_at": "2026-10-11T00:45:31.005079",
+    "http_status": 404,
+    "count": "미측정"
+  },
+  {
+    "query": "튼살 버블밤",
+    "measured_at": "2026-10-11T00:45:31.777872",
+    "http_status": 404,
+    "count": "미측정"
+  },
+  {
+    "query": "바디 오일캡슐",
+    "measured_at": "2026-10-11T00:45:32.541977",
+    "http_status": 404,
+    "count": "미측정"
+  },
+  {
+    "query": "튼살 오일",
+    "measured_at": "2026-10-11T00:45:33.305371",
+    "http_status": 404,
+    "count": "미측정"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "query": "크리스탈 데오드란트",
+    "status": 404,
+    "measured": "2026-10-11T00:44:48",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "크리스탈 데오 젤",
+    "status": 404,
+    "measured": "2026-10-11T00:44:49",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "미네랄 데오 젤",
+    "status": 404,
+    "measured": "2026-10-11T00:44:49",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "보송 데오 크림",
+    "status": 404,
+    "measured": "2026-10-11T00:44:50",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "crystal deodorant gel",
+    "status": 404,
+    "measured": "2026-10-11T00:44:50",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "워터 데오 젤",
+    "status": 404,
+    "measured": "2026-10-11T00:44:51",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  }
+]

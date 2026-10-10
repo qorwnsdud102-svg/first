@@ -1,0 +1,42 @@
+[
+  {
+    "query": "라미네이트 치아 코팅",
+    "status": 404,
+    "measured": "2026-10-11T00:44:42",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "치아 매니큐어",
+    "status": 404,
+    "measured": "2026-10-11T00:44:42",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "치아 화이트 코팅",
+    "status": 404,
+    "measured": "2026-10-11T00:44:43",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "teeth paint",
+    "status": 404,
+    "measured": "2026-10-11T00:44:44",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  },
+  {
+    "query": "하니크 치아",
+    "status": 404,
+    "measured": "2026-10-11T00:44:44",
+    "endpoint": "https://openapi.naver.com/v1/search/shop.json",
+    "total": null,
+    "items": []
+  }
+]
