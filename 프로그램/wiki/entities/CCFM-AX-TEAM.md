@@ -2,8 +2,8 @@
 type: 조직
 aliases: [CCFM, CCFM AX, CCFM AX TEAM, AX TEAM, 콘크리트파머스, CONC.FARMERS, CCFM EDU, 강동이, 강동이 강사]
 status: growing
-sources: [프로그램/raw/ccfm-강동이/2026-05-09_강동이_Claude-Code-기본-교육-교안.md, 마케팅/raw/iboss-근육돌이/, 프로그램/raw/ccfm-edu/]
-updated: 2026-10-06
+sources: [프로그램/raw/ccfm-강동이/2026-05-09_강동이_Claude-Code-기본-교육-교안.md, 마케팅/raw/iboss-근육돌이/, 프로그램/raw/ccfm-edu/, 마케팅/raw/ccfm-edu/]
+updated: 2026-10-10
 ---
 
 # CCFM AX TEAM
@@ -26,17 +26,20 @@ updated: 2026-10-06
 - 멀티 에이전트 병렬 개발 (Leader + Worker)
 - 베이커리 비유: MD·스킬·훅·WIKI 4축 ([[클로드-베이커리-비유]])
 
-## CCFM EDU 배포물 (3건)
+## CCFM EDU 배포물
 
-CCFM이 **"CCFM EDU"** 이름으로 수강생에게 AI 도구·자료를 배포하기 시작했다. 슬로건 "Act. Improve. Grow together." 원본은 `프로그램/raw/ccfm-edu/`.
+CCFM이 **"CCFM EDU"** 이름으로 수강생에게 AI 도구·자료를 배포한다. 슬로건 "Act. Improve. Grow together." 배포 자료에는 **번호(자료 #NN)**가 붙는다. 원본은 `프로그램/raw/ccfm-edu/`(AI 도구·스킬), `마케팅/raw/ccfm-edu/`(광고 운영).
 
 | 날짜 | 배포물 | 위키 |
 |---|---|---|
 | 2026-09-21 | Aside 입문 가이드 (비공식 안내서, 21쪽) | [[Aside]] |
 | 2026-09-22 | **첫 배포 스킬** — 경쟁사 광고 소재 분석 (`ccfm-video-appeal` v1.0) | [[ccfm-video-appeal]] |
 | 2026-09-23 | 업무 자동화 전 체크리스트 (4쪽, 근육돌이 칼럼 「업무를, 쪼갠다」 정리) | [[업무-자동화-선별-체크리스트]] |
+| 2026-10-01 | 두 번째 배포 스킬 — 리뷰에서 광고 메시지 찾기 (`ccfm-review-messages` v1.0) | [[ccfm-review-messages]] |
+| 2026-10-07 | 자료 #08 — 안드로메다? 요즘 핫한 메타 광고 트렌드 쫓아가기 (세팅 가이드 v2.2, 6쪽) | [[마케팅/안드로메다]] |
+| 2026-10-08 | 자료 #09 — 바이브코더를 위한 클로드 코드 스킬 10선 (6쪽) | [[Claude-Skill]] §외부 스킬 후보 |
 
-- 언급만 되고 **아직 못 받은 것**: `tacit-docs` 스킬 (업무 인터뷰 → 체크리스트 3쪽 워크시트 자동 작성).
+- 언급만 되고 **아직 못 받은 것**: `tacit-docs` 스킬 (업무 인터뷰 → 체크리스트 3쪽 워크시트 자동 작성) · 자료 #05 (grill-me·handoff 첫 소개) · 자료 #07 (광고-상세페이지 일치 점검 5가지). 그 밖의 번호(#01~#04·#06)도 미확인.
 - 배포 스타일: 자료마다 **검증 범위를 스스로 밝힌다** (스킬 "Claude Code 미검증", Aside 안내서 "직접 확인 / 문서만 옮김" 구분). 우리 볼트의 신뢰 등급 표기와 같은 태도.
 
 ## 강동이

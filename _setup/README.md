@@ -149,3 +149,20 @@ executing-plans · systematic-debugging · receiving-code-review · test-driven-
 - Claude 웹: Customize → Skills → Upload a skill (ZIP 그대로). Codex: `%USERPROFILE%\.agents\skills\ccfm-video-appeal\`.
 - 원본: `프로그램/raw/ccfm-edu/2026-09-22_CCFM-EDU_ccfm-video-appeal/` (설치 경로·검증 범위는 그 안 `사용법.md`).
 - 설치 이력(어느 PC에 언제 깔았나)은 `프로그램/프로젝트/운영-공통/스킬-설치-이력.md`.
+
+### 배포받은 스킬 — ccfm-review-messages (CCFM EDU)
+
+- 폴더 통째로 `~/.claude/skills/ccfm-review-messages/` (SKILL.md·references 함께) → `/ccfm-review-messages 첨부 엑셀에서 광고 메시지 찾아줘`
+- 원본: `프로그램/raw/ccfm-edu/2026-10-01_CCFM-EDU_ccfm-review-messages/` (설치 안 될 때는 그 안 `프롬프트대안.txt`).
+
+### Matt Pocock 스킬 3개 골라 담기 — grill-me·research·handoff
+
+플러그인 통설치(`mattpocock-skills@claude-plugins-official`, 25스킬)는 **하지 않는다** — tdd·code-review 등이 superpowers와 겹친다(이유: 위키 `Claude-Skill` §외부 스킬 후보). 대신 폴더 4개만 복사:
+
+```bash
+git clone https://github.com/mattpocock/skills.git /tmp/mp && cd /tmp/mp && git checkout c55ee46073ed923f86ce59a5eb3b6d895095d1b7
+cp -r skills/productivity/grill-me skills/productivity/grilling skills/engineering/research skills/productivity/handoff ~/.claude/skills/
+```
+
+- `grill-me`는 `grilling`을 부르는 껍데기 → 둘 다 필요. 호출: `/grill-me <계획>` · `/handoff <다음 할 일>` (둘 다 직접 불러야 켜짐) · research는 "조사해서 문서로 저장해줘"로 자동.
+- sha는 2026-10-10 공식 마켓플레이스가 가리키던 커밋. 올릴 땐 새 SKILL.md를 먼저 읽는다.

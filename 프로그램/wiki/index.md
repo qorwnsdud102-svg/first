@@ -25,7 +25,7 @@
 
 - [[karpathy-guidelines]] — LLM 코딩 4대 함정에 대응하는 4원칙 행동 규범
 - [[바이브-코딩]] — 자연어로 대화하듯 코딩. 비개발자가 도구를 만드는 길
-- [[Claude-Skill]] — 5역할 ↔ 운영 스킬 매핑 (bob→`brainstorming`, dd→`writing-plans`, harness→`verification-before-completion`, eval→`requesting-code-review`, learnings→`writing-skills`)
+- [[Claude-Skill]] — 5역할 ↔ 운영 스킬 매핑 (bob→`brainstorming`, dd→`writing-plans`, harness→`verification-before-completion`, eval→`requesting-code-review`, learnings→`writing-skills`) · 외부 스킬 후보 CCFM 10선(grill-me·handoff·research 등)
 - [[Hook]] — 규칙을 어기려는 순간 자동 차단하는 안전장치
 - [[스킬-스코프]] — 스킬을 어디서 읽고 언제 발동하나 (user / project, description 매칭)
 - [[클로드-베이커리-비유]] — MD·스킬·훅·WIKI 4축을 한 장 비유로
@@ -117,6 +117,7 @@
 - [[snskit-booster]] — 메타 광고 소재 게시물에 좋아요·댓글을 회차별 자동 주문
 - [[competitor-finder]] — 급상승 키워드 → 신규 브랜드 → 메타 광고 소재 → 경쟁사 보고서 4-STEP 스킬. 파이프라인 스킬 패키지 표본
 - [[ccfm-video-appeal]] — 경쟁사 영상 광고를 장면별로 뜯어 설득 구조·우리 상품 실험 1개로. 주장은 광고의 주장으로 귀속
+- [[ccfm-review-messages]] — 리뷰 엑셀에서 고객 표현 근거로 광고 메시지·첫 문장·첫 장면 후보 ≤3. 구매 이유는 명시된 것만, 빈도는 "읽은 N건 중"
 
 ## 사람·조직·저장소
 

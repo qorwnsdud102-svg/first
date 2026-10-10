@@ -346,3 +346,12 @@
   - **종료 방식은 "끝나는 시점을 내가 아는가"로.** 달력이 정하는 행사=자동 종료, 입고처럼 유동적인 건 수동(날짜 박으면 "품절인데 즉시구매"라는 반대 사고). 자동화는 입력이 확정적일 때만 안전.
   - **여러 화면이 쓰는 함수는 공통 로드 파일에**(스킨: header). 상세 전용 파일에 뒀더니 메인에서 `typeof fn === 'undefined'`로 **조용히 누락** — 호출부의 우아한 폴백이 에러까지 삼켰다. "A엔 나오고 B엔 없다"면 CSS보다 **정의 존재 여부**부터. 폴백은 실패를 숨기므로 발동 상황이 비정상이면 경고를 남길 것.
   - 검증: 대표가 F12 기기 에뮬을 켜줘 **실제 아이폰 조건(440×956·DPR3·iPhone UA·touch)**에서 6개 상품·팝업·드로어 전수 통과. 자동화 창의 `resize_window` 한계를 우회하지 않고 진짜 조건으로 본 첫 사례.
+
+## [2026-10-10] ingest | CCFM EDU 배포물 2건(ccfm-review-messages 스킬 v1.0 · 자료09 클로드 코드 스킬 10선) → [[ccfm-review-messages]] (1신) · [[Claude-Skill]]·[[CCFM-AX-TEAM]]·[[index]] (3갱신) · source 2신
+  - raw: `raw/ccfm-edu/2026-10-01_CCFM-EDU_ccfm-review-messages/`(스킬 폴더 무가공) · `2026-10-08_CCFM-EDU_자료09-클로드코드-스킬10선.{pdf,md}`(한글 사이 홑공백 제거 추출본). 같은 날 마케팅 쪽 자료08(안드로메다)은 `마케팅/raw/ccfm-edu/` → [[마케팅/안드로메다]].
+  - **리뷰 스킬** — 리뷰 엑셀 → 근거표 → 주제·반대 사례 → 메시지 후보 ≤3 → 쓰지 않을 주장 → 먼저 시험할 1개(+요청 시 요약·통계). 규율: 구매 이유는 명시된 것만("할인할 때 샀다"·사용 후 장점은 안 셈) · "읽은 N건 중" · 없는 열은 "열 없음" · 광고 초안을 실제 후기처럼 내지 않음 · 불만발 메시지는 "가설" 표시.
+  - **스킬 10선** — 6개가 Matt Pocock 묶음. 우리 쪽 쓰임 판정을 Claude-Skill 표에: grill-me·research 높음, handoff·to-questionnaire 중간~높음, 나머지 낮음~중간. 깔기 전 SKILL.md 열기.
+  - CCFM EDU 배포물 표 6건으로. 미입수: 자료 #05·#07·tacit-docs.
+
+## [2026-10-10] restructure | Matt Pocock 스킬 3개 골라 담기 결정 → [[Claude-Skill]] (1갱신) · `_setup/README.md` 설치 절차 2절 추가
+  - grill-me(+grilling)·research·handoff만 `~/.claude/skills/`로. 플러그인 통설치 25스킬은 tdd·code-review 등이 superpowers와 겹쳐 안 함. research 저장 위치는 `<도메인>/프로젝트/` 지정. ccfm-review-messages 설치 절차도 README로.
