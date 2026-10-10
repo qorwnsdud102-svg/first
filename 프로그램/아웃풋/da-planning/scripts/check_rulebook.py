@@ -7,15 +7,17 @@
 종료 코드 0 = 통과, 1 = 위반(목록 출력).
 """
 import argparse, re, sys
+from collections import Counter
 from pathlib import Path
 
 STAGES = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧"]
 FIELDS = ["목표", "입력", "출력", "통과 조건"]
 MAX_LINES = 300
 STAGE_RE = re.compile(r"^## ([①-⑧]) ")
-RULE_START_RE = re.compile(r"^- [①-⑧]-\d")
+# 규칙 줄처럼 보이는 줄을 넓게 잡는다(굵은 번호·별표·들여쓰기·en dash 등). 판정은 엄격한 RULE_RE가 한다.
+RULE_START_RE = re.compile(r"^\s*[-*+]\s*\**\s*[①-⑧]\s*\W?\s*\d")
 RULE_RE = re.compile(r"^- ([①-⑧])-(\d{2}) (🔒|📊|🧪) (하드|경고) \| (.+?) \| (.+)$")
-REF_RE = re.compile(r"[①-⑧]-\d{2}")
+REF_RE = re.compile(r"[①-⑧]-\d{2}(?!\d)")
 
 
 def check_rulebook(text):
@@ -26,6 +28,7 @@ def check_rulebook(text):
         errs.append(f"줄 수 {len(lines)} > {MAX_LINES}")
     current = None
     for no, ln in enumerate(lines, 1):
+        ln = ln.replace("\ufe0f", "")  # 이모지 뒤 변형 선택자 제거
         m = STAGE_RE.match(ln)
         if m:
             current = m.group(1)
@@ -34,6 +37,9 @@ def check_rulebook(text):
             continue
         if ln.startswith("## "):
             current = None
+            continue
+        if RULE_START_RE.match(ln) and current is None:
+            errs.append(f"{no}행 단계 밖 규칙: {ln[:60]}")
             continue
         if current is None:
             continue
@@ -69,12 +75,22 @@ def check_mapping(case_text, map_text, rule_ids):
     """판례 목록의 모든 P-ID가 매핑표에 있고, 가리키는 규칙이 실제로 있는지 검사."""
     errs = []
     cases = re.findall(r"^\| (P\d{4}) \|", case_text, re.M)
-    mapped = {}
+    if not cases:
+        errs.append("판례 목록에서 P-ID를 못 찾음")
+    counts = Counter(cases)
+    errs += [f"{pid} 판례 목록 중복" for pid, n in counts.items() if n > 1]
+    mapped, dup = {}, set()
     for ln in map_text.splitlines():
         m = re.match(r"^\| (P\d{4}) \| (.*?) \|$", ln.strip())
         if m:
-            mapped[m.group(1)] = m.group(2).strip()
-    for pid in cases:
+            pid = m.group(1)
+            if pid in mapped:
+                if pid not in dup:
+                    errs.append(f"{pid} 매핑 중복")
+                    dup.add(pid)
+                continue  # 첫 항목만 유지
+            mapped[pid] = m.group(2).strip()
+    for pid in counts:
         if pid not in mapped:
             errs.append(f"매핑 누락 {pid}")
     for pid, target in mapped.items():
@@ -100,6 +116,8 @@ def main():
     ap.add_argument("--cases")
     ap.add_argument("--mapping")
     a = ap.parse_args()
+    if bool(a.cases) != bool(a.mapping):
+        ap.error("--cases와 --mapping은 함께 지정")
     errs, ids = check_rulebook(Path(a.rulebook).read_text(encoding="utf-8"))
     if a.cases and a.mapping:
         errs += check_mapping(Path(a.cases).read_text(encoding="utf-8"),

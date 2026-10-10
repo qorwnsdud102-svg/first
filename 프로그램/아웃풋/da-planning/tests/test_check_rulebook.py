@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """check_rulebook — 단계별 규칙집 형식·판례 매핑 검사."""
 import os, sys
+import pytest
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts"))
 
-from check_rulebook import STAGES, check_rulebook, check_mapping
+from check_rulebook import STAGES, check_rulebook, check_mapping, main
 
 
 def make_book(extra=None, skip=None, rule="🔒 하드"):
@@ -76,3 +77,67 @@ def test_없는_규칙을_가리키면_실패():
 def test_제외는_사유가_있어야_함():
     errs = check_mapping(CASES, "| P1001 | ④-01 |\n| P1002 | 제외: |\n", {"④-01"})
     assert errs == ["P1002 제외 사유 없음"]
+
+
+
+# ---- 코드 품질 검토 반영 (변형 규칙 줄·단계 밖 규칙·매핑 중복·CLI 인자) ----
+
+@pytest.mark.parametrize("line", [
+    "- **⑧-02** 🧪 경고 | 규칙 | 기본값",    # 굵은 번호
+    "* ⑧-02 🧪 경고 | 규칙 | 기본값",          # 별표 글머리
+    "  - ⑧-02 🧪 경고 | 규칙 | 기본값",        # 들여쓰기
+    "- ⑧–02 🧪 경고 | 규칙 | 기본값",          # en dash
+])
+def test_변형_규칙_줄은_형식_위반(line):
+    errs, _ = check_rulebook(make_book(extra=[line]))
+    assert any("형식" in e for e in errs)
+
+
+def test_단계_밖_규칙은_위반():
+    errs, _ = check_rulebook(make_book(extra=["## 부록", "- ⑧-02 🧪 경고 | 규칙 | 기본값"]))
+    assert any("단계 밖 규칙" in e for e in errs)
+    errs, _ = check_rulebook("- ①-01 🔒 하드 | 규칙 | 판례: P1001\n" + make_book())
+    assert any("단계 밖 규칙" in e for e in errs)
+
+
+def test_변형_선택자가_붙어도_통과():
+    errs, ids = check_rulebook(make_book(rule="🔒\ufe0f 하드"))
+    assert errs == []
+    assert len(ids) == 8
+
+
+def test_CRLF_줄바꿈도_통과():
+    errs, ids = check_rulebook(make_book().replace("\n", "\r\n"))
+    assert errs == []
+    assert len(ids) == 8
+
+
+def test_세자리_번호는_두자리로_오인되지_않음():
+    errs = check_mapping(CASES, "| P1001 | ④-012 |\n| P1002 | 제외: 제품 개별 판정 |\n", {"④-01"})
+    assert errs == ["P1001 규칙 번호 없음: ④-012"]
+
+
+def test_매핑표_P_ID_중복은_실패():
+    errs = check_mapping(CASES, "| P1001 | ④-01 |\n| P1001 | ④-01 |\n| P1002 | ④-01 |\n", {"④-01"})
+    assert errs == ["P1001 매핑 중복"]
+
+
+def test_판례_목록_P_ID_중복은_실패():
+    dup_cases = CASES + "| P1001 | a.md:20 | 원문 | 요지 |\n"
+    errs = check_mapping(dup_cases, "| P1001 | ④-01 |\n| P1002 | ④-01 |\n", {"④-01"})
+    assert errs == ["P1001 판례 목록 중복"]
+
+
+def test_판례_목록에_P_ID가_없으면_실패():
+    errs = check_mapping("| P-ID | 위치 |\n|---|---|\n", "| P1001 | ④-01 |\n", {"④-01"})
+    assert errs == ["판례 목록에서 P-ID를 못 찾음"]
+
+
+def test_CLI는_cases와_mapping을_함께_받아야_함(monkeypatch, tmp_path):
+    book = tmp_path / "book.md"
+    book.write_text(make_book(), encoding="utf-8")
+    for flag in ("--cases", "--mapping"):
+        monkeypatch.setattr(sys, "argv", ["check_rulebook.py", str(book), flag, str(book)])
+        with pytest.raises(SystemExit) as exc:
+            main()
+        assert exc.value.code == 2
