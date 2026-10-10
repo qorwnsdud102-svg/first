@@ -1,0 +1,270 @@
+{
+  "status": "독립 연산 검산; 견적/성과 아님",
+  "formula": "(P+S)/1.1-q*C-3000-(P+S)*.033-P*.03",
+  "rows": [
+    {
+      "candidate": "01-캐비어밀착앰플",
+      "quantity": 1,
+      "unit_manufacture_exVAT": 3800,
+      "product_sales": 39900,
+      "customer_shipping": 3000,
+      "contribution_before_ads": 29587.3,
+      "BE_percent": 134.86,
+      "contribution_ROAS170": 6116.71,
+      "contribution_ROAS200": 9637.3
+    },
+    {
+      "candidate": "01-캐비어밀착앰플",
+      "quantity": 2,
+      "unit_manufacture_exVAT": 3800,
+      "product_sales": 71820.0,
+      "customer_shipping": 0,
+      "contribution_before_ads": 50166.25,
+      "BE_percent": 143.16,
+      "contribution_ROAS170": 7919.19,
+      "contribution_ROAS200": 14256.25
+    },
+    {
+      "candidate": "01-캐비어밀착앰플",
+      "quantity": 1,
+      "unit_manufacture_exVAT": 4500,
+      "product_sales": 39900,
+      "customer_shipping": 3000,
+      "contribution_before_ads": 28887.3,
+      "BE_percent": 138.12,
+      "contribution_ROAS170": 5416.71,
+      "contribution_ROAS200": 8937.3
+    },
+    {
+      "candidate": "01-캐비어밀착앰플",
+      "quantity": 2,
+      "unit_manufacture_exVAT": 4500,
+      "product_sales": 71820.0,
+      "customer_shipping": 0,
+      "contribution_before_ads": 48766.25,
+      "BE_percent": 147.27,
+      "contribution_ROAS170": 6519.19,
+      "contribution_ROAS200": 12856.25
+    },
+    {
+      "candidate": "01-캐비어밀착앰플",
+      "quantity": 1,
+      "unit_manufacture_exVAT": 6000,
+      "product_sales": 39900,
+      "customer_shipping": 3000,
+      "contribution_before_ads": 27387.3,
+      "BE_percent": 145.69,
+      "contribution_ROAS170": 3916.71,
+      "contribution_ROAS200": 7437.3
+    },
+    {
+      "candidate": "01-캐비어밀착앰플",
+      "quantity": 2,
+      "unit_manufacture_exVAT": 6000,
+      "product_sales": 71820.0,
+      "customer_shipping": 0,
+      "contribution_before_ads": 45766.25,
+      "BE_percent": 156.93,
+      "contribution_ROAS170": 3519.19,
+      "contribution_ROAS200": 9856.25
+    },
+    {
+      "candidate": "02-숱섬유젤",
+      "quantity": 1,
+      "unit_manufacture_exVAT": 3000,
+      "product_sales": 39000,
+      "customer_shipping": 3000,
+      "contribution_before_ads": 29625.82,
+      "BE_percent": 131.64,
+      "contribution_ROAS170": 6684.64,
+      "contribution_ROAS200": 10125.82
+    },
+    {
+      "candidate": "02-숱섬유젤",
+      "quantity": 2,
+      "unit_manufacture_exVAT": 3000,
+      "product_sales": 70200.0,
+      "customer_shipping": 0,
+      "contribution_before_ads": 50395.58,
+      "BE_percent": 139.3,
+      "contribution_ROAS170": 9101.46,
+      "contribution_ROAS200": 15295.58
+    },
+    {
+      "candidate": "02-숱섬유젤",
+      "quantity": 1,
+      "unit_manufacture_exVAT": 4400,
+      "product_sales": 39000,
+      "customer_shipping": 3000,
+      "contribution_before_ads": 28225.82,
+      "BE_percent": 138.17,
+      "contribution_ROAS170": 5284.64,
+      "contribution_ROAS200": 8725.82
+    },
+    {
+      "candidate": "02-숱섬유젤",
+      "quantity": 2,
+      "unit_manufacture_exVAT": 4400,
+      "product_sales": 70200.0,
+      "customer_shipping": 0,
+      "contribution_before_ads": 47595.58,
+      "BE_percent": 147.49,
+      "contribution_ROAS170": 6301.46,
+      "contribution_ROAS200": 12495.58
+    },
+    {
+      "candidate": "03-혼합미백젤",
+      "quantity": 1,
+      "unit_manufacture_exVAT": 5000,
+      "product_sales": 39900,
+      "customer_shipping": 3000,
+      "contribution_before_ads": 28387.3,
+      "BE_percent": 140.56,
+      "contribution_ROAS170": 4916.71,
+      "contribution_ROAS200": 8437.3
+    },
+    {
+      "candidate": "03-혼합미백젤",
+      "quantity": 2,
+      "unit_manufacture_exVAT": 5000,
+      "product_sales": 71820.0,
+      "customer_shipping": 0,
+      "contribution_before_ads": 47766.25,
+      "BE_percent": 150.36,
+      "contribution_ROAS170": 5519.19,
+      "contribution_ROAS200": 11856.25
+    },
+    {
+      "candidate": "04-온천보습바디밤",
+      "quantity": 1,
+      "unit_manufacture_exVAT": 3550,
+      "product_sales": 39000,
+      "customer_shipping": 3000,
+      "contribution_before_ads": 29075.82,
+      "BE_percent": 134.13,
+      "contribution_ROAS170": 6134.64,
+      "contribution_ROAS200": 9575.82
+    },
+    {
+      "candidate": "04-온천보습바디밤",
+      "quantity": 2,
+      "unit_manufacture_exVAT": 3550,
+      "product_sales": 70200.0,
+      "customer_shipping": 0,
+      "contribution_before_ads": 49295.58,
+      "BE_percent": 142.41,
+      "contribution_ROAS170": 8001.46,
+      "contribution_ROAS200": 14195.58
+    },
+    {
+      "candidate": "04-온천보습바디밤",
+      "quantity": 1,
+      "unit_manufacture_exVAT": 4200,
+      "product_sales": 39000,
+      "customer_shipping": 3000,
+      "contribution_before_ads": 28425.82,
+      "BE_percent": 137.2,
+      "contribution_ROAS170": 5484.64,
+      "contribution_ROAS200": 8925.82
+    },
+    {
+      "candidate": "04-온천보습바디밤",
+      "quantity": 2,
+      "unit_manufacture_exVAT": 4200,
+      "product_sales": 70200.0,
+      "customer_shipping": 0,
+      "contribution_before_ads": 47995.58,
+      "BE_percent": 146.26,
+      "contribution_ROAS170": 6701.46,
+      "contribution_ROAS200": 12895.58
+    },
+    {
+      "candidate": "04-온천보습바디밤",
+      "quantity": 1,
+      "unit_manufacture_exVAT": 5000,
+      "product_sales": 39000,
+      "customer_shipping": 3000,
+      "contribution_before_ads": 27625.82,
+      "BE_percent": 141.17,
+      "contribution_ROAS170": 4684.64,
+      "contribution_ROAS200": 8125.82
+    },
+    {
+      "candidate": "04-온천보습바디밤",
+      "quantity": 2,
+      "unit_manufacture_exVAT": 5000,
+      "product_sales": 70200.0,
+      "customer_shipping": 0,
+      "contribution_before_ads": 46395.58,
+      "BE_percent": 151.31,
+      "contribution_ROAS170": 5101.46,
+      "contribution_ROAS200": 11295.58
+    },
+    {
+      "candidate": "05-습포워터크림",
+      "quantity": 1,
+      "unit_manufacture_exVAT": 3300,
+      "product_sales": 39900,
+      "customer_shipping": 3000,
+      "contribution_before_ads": 30087.3,
+      "BE_percent": 132.61,
+      "contribution_ROAS170": 6616.71,
+      "contribution_ROAS200": 10137.3
+    },
+    {
+      "candidate": "05-습포워터크림",
+      "quantity": 2,
+      "unit_manufacture_exVAT": 3300,
+      "product_sales": 71820.0,
+      "customer_shipping": 0,
+      "contribution_before_ads": 51166.25,
+      "BE_percent": 140.37,
+      "contribution_ROAS170": 8919.19,
+      "contribution_ROAS200": 15256.25
+    },
+    {
+      "candidate": "05-습포워터크림",
+      "quantity": 1,
+      "unit_manufacture_exVAT": 3500,
+      "product_sales": 39900,
+      "customer_shipping": 3000,
+      "contribution_before_ads": 29887.3,
+      "BE_percent": 133.5,
+      "contribution_ROAS170": 6416.71,
+      "contribution_ROAS200": 9937.3
+    },
+    {
+      "candidate": "05-습포워터크림",
+      "quantity": 2,
+      "unit_manufacture_exVAT": 3500,
+      "product_sales": 71820.0,
+      "customer_shipping": 0,
+      "contribution_before_ads": 50766.25,
+      "BE_percent": 141.47,
+      "contribution_ROAS170": 8519.19,
+      "contribution_ROAS200": 14856.25
+    },
+    {
+      "candidate": "05-습포워터크림",
+      "quantity": 1,
+      "unit_manufacture_exVAT": 4000,
+      "product_sales": 39900,
+      "customer_shipping": 3000,
+      "contribution_before_ads": 29387.3,
+      "BE_percent": 135.77,
+      "contribution_ROAS170": 5916.71,
+      "contribution_ROAS200": 9437.3
+    },
+    {
+      "candidate": "05-습포워터크림",
+      "quantity": 2,
+      "unit_manufacture_exVAT": 4000,
+      "product_sales": 71820.0,
+      "customer_shipping": 0,
+      "contribution_before_ads": 49766.25,
+      "BE_percent": 144.31,
+      "contribution_ROAS170": 7519.19,
+      "contribution_ROAS200": 13856.25
+    }
+  ]
+}

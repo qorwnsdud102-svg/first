@@ -1,0 +1,158 @@
+{
+  "measured_kst": "2026-10-10T21:39:21.102507",
+  "file_count": 30,
+  "plan_count": 5,
+  "issues": [],
+  "files": [
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\01-캐비어밀착앰플\\2-출발점.md",
+      "bytes": 2206,
+      "sha256": "2801b43036f2dca26b1206e4692c63e52f98751e03d469b0aab264590fe23466"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\01-캐비어밀착앰플\\3-결핍카드.md",
+      "bytes": 2406,
+      "sha256": "dcbb2b7387ef5ff9482e208c232e363b681d8c731a98e42daec32b6e9a8834fc"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\01-캐비어밀착앰플\\4-상징설계.md",
+      "bytes": 4399,
+      "sha256": "d9b575b1d1acafc8e788a7d13d18d2074333bcbd2ff0cb3b8d0df8a6b827e2e3"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\01-캐비어밀착앰플\\5-사업메모.md",
+      "bytes": 3317,
+      "sha256": "9f886e65c40b414d5d82b2cd81964361bc23d70b111958648572236aaf410007"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\01-캐비어밀착앰플\\기획서.md",
+      "bytes": 4538,
+      "sha256": "efb129701f5ca756993578c963b0025b5d3d2649eae0e0ded1e86901de0d69f5"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\01-캐비어밀착앰플\\작업흐름.md",
+      "bytes": 1553,
+      "sha256": "a6a8189ed368f206488ac95d83b9d34efdf47dde222e151ce2fc01cbb8fe9cb8"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\02-숱섬유젤\\2-출발점.md",
+      "bytes": 7623,
+      "sha256": "0453cf4046727183cfa8d376bb675b6001f92f81d86c4fd5bc9fd6d64e9a380c"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\02-숱섬유젤\\3-결핍카드.md",
+      "bytes": 6471,
+      "sha256": "d0aba0da7950e71c3bb90b7f13bf753dcf3b2c83ce147b224a6742d6e5298760"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\02-숱섬유젤\\4-상징설계.md",
+      "bytes": 9466,
+      "sha256": "c625c587e3e967d406845c61bba8748b2b572314de8487b5d3adc6ad6d10c364"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\02-숱섬유젤\\5-사업메모.md",
+      "bytes": 9941,
+      "sha256": "ba6b7dfdc655589748f42a536dc1a1582d6ff7367cb85e72105622bc989ecc10"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\02-숱섬유젤\\기획서.md",
+      "bytes": 7510,
+      "sha256": "961c7bdcea2308627a687719c835259b3ae873f82ef7ebf88f744de15ce13c8f"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\02-숱섬유젤\\작업흐름.md",
+      "bytes": 8938,
+      "sha256": "36aef0e9a1c2dd06f8379fc1cf6f6c78ef6cd8c023b9564cf718c5f2cd2c8f35"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\03-혼합미백젤\\2-출발점.md",
+      "bytes": 6635,
+      "sha256": "7da8cc5e7c3673fd66e1eb81aef07745a05a33c46ff8049e92ea042d8fbfd015"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\03-혼합미백젤\\3-결핍카드.md",
+      "bytes": 7182,
+      "sha256": "38d8684b5934b44d46eab1b06ebe4fb751bf70a76157e52a03bb91f287916a1a"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\03-혼합미백젤\\4-상징설계.md",
+      "bytes": 9654,
+      "sha256": "200628260ca896423559f9e750ff12421ff67f2235f73237e6ec48485b541b3c"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\03-혼합미백젤\\5-사업메모.md",
+      "bytes": 12345,
+      "sha256": "8ef5774274d766c9efd335aa6ae76f2fcd2a0f8138b17312ba125c57d5e8d901"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\03-혼합미백젤\\기획서.md",
+      "bytes": 6995,
+      "sha256": "a31d5e9227b9fd756d5beb41dd2f5d6b40e3d247b13c72838d8084362a008620"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\03-혼합미백젤\\작업흐름.md",
+      "bytes": 9462,
+      "sha256": "9dbf17836374a841b949ba9e006355431557233a298dfbc22d9aec41bea17a24"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\04-온천보습바디밤\\2-출발점.md",
+      "bytes": 8946,
+      "sha256": "c62e7942cbf8d41f50a56a207bf9f877b4c41dfce30a40930db65484407a86e2"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\04-온천보습바디밤\\3-결핍카드.md",
+      "bytes": 9179,
+      "sha256": "33141e2db850cc4d3e69e8e5518d42d8d19d8860cae172264da8722639e90b94"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\04-온천보습바디밤\\4-상징설계.md",
+      "bytes": 10140,
+      "sha256": "003e29b28099e2acfe6156c963252e66b6049ca8e7d72853d97a9baf51467313"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\04-온천보습바디밤\\5-사업메모.md",
+      "bytes": 9696,
+      "sha256": "60b15df4cf68b205e4cbdc2156cf4d16c937989a385b97a9304f2f8d60f70cfb"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\04-온천보습바디밤\\기획서.md",
+      "bytes": 8707,
+      "sha256": "7309804ba515bfc1fe0f9d1611cf03c239c2300328f07937c40e98b4dbd30117"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\04-온천보습바디밤\\작업흐름.md",
+      "bytes": 11335,
+      "sha256": "983420b4016ce1aa528ab2287ca3fe8a7a2491cda571963d820ca915775180e4"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\05-습포워터크림\\2-출발점.md",
+      "bytes": 8112,
+      "sha256": "0e2e1f409ce95fba3cf5aa7b17092a0f3825590240c8c36b5afdd5a943d646ef"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\05-습포워터크림\\3-결핍카드.md",
+      "bytes": 8618,
+      "sha256": "961c26e404518a869707ef01e127dbca07c05ae1bc86e800ece7cbd0058091d3"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\05-습포워터크림\\4-상징설계.md",
+      "bytes": 14787,
+      "sha256": "571323a09972b9d6d218c6f3b1d3687fec8cbf44e155ba93d8198e901683feb7"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\05-습포워터크림\\5-사업메모.md",
+      "bytes": 9442,
+      "sha256": "4d138b319f99e11220a51c3a25f9a137c006fa5dcbee4495a3f7fb2d7bad2680"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\05-습포워터크림\\기획서.md",
+      "bytes": 9152,
+      "sha256": "ef0687214689c040a1dc588eeba46319b08b275f4ebcd2500398eeb6a8bfaab7"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\05-습포워터크림\\작업흐름.md",
+      "bytes": 11244,
+      "sha256": "5cd266696b632f1f4210da201b4425872b787e8c393ac7de931ea2c3f6d21c36"
+    }
+  ]
+}

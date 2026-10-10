@@ -1,0 +1,51 @@
+{
+  "measured_kst": "2026-10-10T21:39:21.102507",
+  "type": "형식검사; 제품/효능/사업성 확인 아님",
+  "results": [
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\01-캐비어밀착앰플\\기획서.md",
+      "exit_code": 0,
+      "last_line": "위반 0개",
+      "stdout": "위반 0개\n",
+      "stderr": "",
+      "sha256": "efb129701f5ca756993578c963b0025b5d3d2649eae0e0ded1e86901de0d69f5",
+      "stable_while_check": true
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\02-숱섬유젤\\기획서.md",
+      "exit_code": 0,
+      "last_line": "위반 0개",
+      "stdout": "위반 0개\n",
+      "stderr": "",
+      "sha256": "961c7bdcea2308627a687719c835259b3ae873f82ef7ebf88f744de15ce13c8f",
+      "stable_while_check": true
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\03-혼합미백젤\\기획서.md",
+      "exit_code": 0,
+      "last_line": "위반 0개",
+      "stdout": "위반 0개\n",
+      "stderr": "",
+      "sha256": "a31d5e9227b9fd756d5beb41dd2f5d6b40e3d247b13c72838d8084362a008620",
+      "stable_while_check": true
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\04-온천보습바디밤\\기획서.md",
+      "exit_code": 0,
+      "last_line": "위반 0개",
+      "stdout": "위반 0개\n",
+      "stderr": "",
+      "sha256": "7309804ba515bfc1fe0f9d1611cf03c239c2300328f07937c40e98b4dbd30117",
+      "stable_while_check": true
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\공동기획-2026-10\\Codex\\05-습포워터크림\\기획서.md",
+      "exit_code": 0,
+      "last_line": "위반 0개",
+      "stdout": "위반 0개\n",
+      "stderr": "",
+      "sha256": "ef0687214689c040a1dc588eeba46319b08b275f4ebcd2500398eeb6a8bfaab7",
+      "stable_while_check": true
+    }
+  ]
+}
