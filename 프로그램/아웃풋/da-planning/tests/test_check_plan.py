@@ -14,6 +14,8 @@ BOOK = "\n".join([
     "- ④-12 🔒 경고 | 과거에 쓴 상징재도 다시 쓴다 | P6031",
     "## ⑤ 사업성",
     "- ⑤-03 📊 경고 | 원가율은 약 10% | P6040",
+    "## ⑩ 학습",
+    "- ⑩-05 🧪 경고 | 🧪 규칙은 Claude가 고친다 | 설계 §2-2",
 ])
 AD = ["- 종류: 오래 돈 광고",
       "- 광고: joodocworld.1 · 장벽박사 클렌징 듀오 · 게재 179일 · 라이브러리 ID: 952907087430431",
@@ -23,11 +25,13 @@ SYMBOL = ["- 종류: 유명 상징재", "- 상징재: 아쿠아필",
           "- 인지 근거: 네이버 월간 검색량 '아쿠아필' 24,250 (2026-10-10)",
           "- 범위 단계: 1 — 블랙헤드 팩 시장"]
 JUDGE = ["| ④ 상징·당위 | 통과 | ④-07 | 국가를 떼도 장벽 축이 남는다 |"]
-SCORE_ROWS = ["① 기초분석", "② 출발점", "③ 결핍 카드", "④ 상징·당위",
-              "⑤ 사업성", "⑥ 기획서", "⑦ 범위 확장", "⑧ 학습"]
+SCORE_ROWS = ["① 기초분석", "② 출발점", "③ 결핍 카드", "④ 상징·당위", "⑤ 참신함",
+              "⑥ 사업성", "⑦ 기획서", "⑧ 현실 보정", "⑨ 범위 확장", "⑩ 학습"]
+V1_SCORE_ROWS = ["① 기초분석", "② 출발점", "③ 결핍 카드", "④ 상징·당위",
+                 "⑤ 사업성", "⑥ 기획서", "⑦ 범위 확장", "⑧ 학습"]
 
 
-def make_plan(start=AD, judge=JUDGE, score=True, tail=None):
+def make_plan(start=AD, judge=JUDGE, score=True, tail=None, rows=SCORE_ROWS):
     parts = ["# 장벽 클렌징 밤 — DA 기획서", "", "## 제품", "- 무엇을: 약산성 클렌징 밤 100g", ""]
     if start is not None:
         parts += ["## 출발점 근거"] + list(start) + [""]
@@ -37,12 +41,12 @@ def make_plan(start=AD, judge=JUDGE, score=True, tail=None):
         parts += list(tail) + [""]
     if score:
         parts += ["## 사장님 채점", "| 단계 | 틀림 ✔ | 한 줄 |", "|---|---|---|"]
-        parts += [f"| {s} | | |" for s in SCORE_ROWS]
+        parts += [f"| {s} | | |" for s in rows]
     return "\n".join(parts) + "\n"
 
 
 def test_정본에서_규칙_강도를_읽는다():
-    assert rule_table(BOOK) == {"②-01": "하드", "④-07": "하드", "④-12": "경고", "⑤-03": "경고"}
+    assert rule_table(BOOK) == {"②-01": "하드", "④-07": "하드", "④-12": "경고", "⑤-03": "경고", "⑩-05": "경고"}
 
 
 def test_절을_제목으로_읽는다():
@@ -91,8 +95,22 @@ def test_채점표가_없으면_실패():
 
 
 def test_채점표_칸이_빠지면_실패():
-    plan = make_plan().replace("| ⑦ 범위 확장 | | |\n", "")
-    assert check_plan(plan, BOOK) == ["③ 채점표 칸 누락: ⑦"]
+    plan = make_plan().replace("| ⑨ 범위 확장 | | |\n", "")
+    assert check_plan(plan, BOOK) == ["③ 채점표 칸 누락: ⑨"]
+
+
+def test_v1_8칸_채점표는_9_10칸이_빠진다():
+    assert check_plan(make_plan(rows=V1_SCORE_ROWS), BOOK) == ["③ 채점표 칸 누락: ⑨⑩"]
+
+
+def test_10단계_규칙_번호도_정본과_대조한다():
+    assert check_plan(make_plan(tail=["## 학습", "- ⑩-05 확인함"]), BOOK) == []
+    assert check_plan(make_plan(tail=["## 학습", "- ⑩-99 확인함"]), BOOK) == ["② 정본에 없는 규칙 번호 ⑩-99"]
+
+
+def test_본문에서_10단계_경고_규칙을_하드라고_적으면_실패():
+    errs = check_plan(make_plan(tail=["## 학습", "- ⑩-05 하드라서 규칙을 고쳤다"]), BOOK)
+    assert errs == ["④ ⑩-05를 하드로 적었으나 정본에서 경고"]
 
 
 def test_채점표가_맨_끝이_아니면_실패():

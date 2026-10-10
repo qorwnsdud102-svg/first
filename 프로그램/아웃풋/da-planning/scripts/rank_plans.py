@@ -5,9 +5,11 @@
     python rank_plans.py <라운드 폴더> [--top 5]
 라운드 폴더 구조: <폴더>/<Claude|Codex>/<번호>-<제품명>/기획서.md + 교차채점-<상대>.md
 정렬: 탈락 칸 적은 순 → 경고 칸 적은 순 → 시장성(상>중>하) 높은 순. 셋이 같으면 같은 순위.
+⑧ 현실 보정 칸은 탈락·경고 수에 세지 않는다(현실 보정은 사장님 판단 — 정본 ⑧, P6101·P6102·P6105).
 상위 N개 경계에 같은 순위가 걸리면 '경계 동점(사장님 판단)'으로 표시한다.
 불일치: 기획서 '## 단계별 판정'(작성자)과 교차 채점(상대)의 판정이 다른 단계.
-교차 채점 파일이 없거나 ①~⑦ 일곱 칸이 다 차지 않은 기획은 '채점 대기'로 뺀다.
+교차 채점 파일이 없거나 ①~⑨ 아홉 칸이 다 차지 않은 기획은 '채점 대기'로 뺀다.
+1차 라운드(정본 v1, ①~⑦ 일곱 칸)는 --scored 7로 센다.
 종료 코드 0 = 모든 기획의 교차 채점이 끝남, 1 = 채점 대기 있음(순위 확정 불가).
 """
 import argparse, re, sys
@@ -15,13 +17,15 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from check_plan import section
+from check_rulebook import SYM
 
 AUTHORS = ("Claude", "Codex")
-JUDGE_RE = re.compile(r"^\|\s*([①-⑧])[^|]*\|\s*(통과|경고|탈락)\s*\|")
+JUDGE_RE = re.compile(rf"^\|\s*({SYM})[^|]*\|\s*(통과|경고|탈락)\s*\|")
 MARKET_RE = re.compile(r"^-\s*시장성:\s*(상|중|하)", re.M)
 MARKET = {"상": 3, "중": 2, "하": 1}
 MARKET_NAME = {3: "상", 2: "중", 1: "하", 0: "-"}
-SCORED = 7  # 교차 채점 칸: ①~⑦
+SCORED = 9  # 교차 채점 칸: ①~⑨ (정본 v2, ⑩ 학습 제외)
+UNRANKED = ("⑧",)  # 칸은 채우되 순위의 탈락·경고 수에는 세지 않는 단계
 
 
 def parse_judgments(lines):
@@ -37,9 +41,10 @@ def parse_judgments(lines):
 def score(cross_text):
     j = parse_judgments(cross_text.splitlines())
     m = MARKET_RE.search(cross_text)
+    ranked = [v for s, v in j.items() if s not in UNRANKED]
     return {"judg": j,
-            "drop": sum(v == "탈락" for v in j.values()),
-            "warn": sum(v == "경고" for v in j.values()),
+            "drop": ranked.count("탈락"),
+            "warn": ranked.count("경고"),
             "market": MARKET[m.group(1)] if m else 0}
 
 
@@ -65,7 +70,7 @@ def rank(rows, top=5):
     return rows
 
 
-def collect(root):
+def collect(root, scored=SCORED):
     rows, waiting = [], []
     for author in AUTHORS:
         other = AUTHORS[1 - AUTHORS.index(author)]
@@ -76,8 +81,8 @@ def collect(root):
                 waiting.append(f"{author}/{d.name}")
                 continue
             s = score(cross.read_text(encoding="utf-8"))
-            if len(s["judg"]) < SCORED:
-                waiting.append(f"{author}/{d.name} (채점 칸 {len(s['judg'])}/{SCORED})")
+            if len(s["judg"]) < scored:
+                waiting.append(f"{author}/{d.name} (채점 칸 {len(s['judg'])}/{scored})")
                 continue
             self_j = parse_judgments(section(plan.read_text(encoding="utf-8"), "단계별 판정") or [])
             s.update(name=f"{author}/{d.name}", scorer=other, diff=disagreements(self_j, s["judg"]))
@@ -109,8 +114,9 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("root")
     ap.add_argument("--top", type=int, default=5)
+    ap.add_argument("--scored", type=int, default=SCORED, help="다 차야 하는 채점 칸 수 (1차 라운드 v1은 7)")
     a = ap.parse_args(argv)
-    rows, waiting = collect(Path(a.root))
+    rows, waiting = collect(Path(a.root), a.scored)
     print(render(rank(rows, a.top), waiting))
     return 1 if waiting else 0
 

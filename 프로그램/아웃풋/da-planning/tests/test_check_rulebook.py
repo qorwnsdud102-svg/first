@@ -22,7 +22,23 @@ def make_book(extra=None, skip=None, rule="🔒 하드"):
 def test_올바른_규칙집은_통과():
     errs, ids = check_rulebook(make_book())
     assert errs == []
-    assert "④-01" in ids and len(ids) == 8
+    assert "④-01" in ids and len(ids) == 10
+
+
+def test_정본_v2는_10단계():
+    assert STAGES == ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩"]
+
+
+def test_9_10단계_규칙도_읽는다():
+    errs, ids = check_rulebook(make_book())
+    assert errs == []
+    assert {"⑨-01", "⑩-01"} <= ids
+
+
+def test_8단계_v1_규칙집은_단계_누락():
+    book = make_book().split("## ⑨")[0]
+    errs, _ = check_rulebook(book)
+    assert any("단계 제목" in e for e in errs)
 
 
 def test_단계가_빠지면_실패():
@@ -103,13 +119,27 @@ def test_단계_밖_규칙은_위반():
 def test_변형_선택자가_붙어도_통과():
     errs, ids = check_rulebook(make_book(rule="🔒\ufe0f 하드"))
     assert errs == []
-    assert len(ids) == 8
+    assert len(ids) == 10
 
 
 def test_CRLF_줄바꿈도_통과():
     errs, ids = check_rulebook(make_book().replace("\n", "\r\n"))
     assert errs == []
-    assert len(ids) == 8
+    assert len(ids) == 10
+
+
+def test_9_10단계_번호도_매핑에서_읽는다():
+    errs = check_mapping(CASES, "| P1001 | ⑩-01 |\n| P1002 | ⑨-03 |\n", {"⑩-01", "⑨-03"})
+    assert errs == []
+    errs = check_mapping(CASES, "| P1001 | ⑩-02 |\n| P1002 | ⑨-03 |\n", {"⑩-01", "⑨-03"})
+    assert errs == ["P1001 → 없는 규칙 ⑩-02"]
+
+
+def test_10단계_변형_규칙_줄과_단계_밖_규칙도_잡는다():
+    errs, _ = check_rulebook(make_book(extra=["- **⑩-02** 🧪 경고 | 규칙 | 기본값"]))
+    assert any("형식" in e for e in errs)
+    errs, _ = check_rulebook(make_book(extra=["## 부록", "- ⑩-02 🧪 경고 | 규칙 | 기본값"]))
+    assert any("단계 밖 규칙" in e for e in errs)
 
 
 def test_세자리_번호는_두자리로_오인되지_않음():

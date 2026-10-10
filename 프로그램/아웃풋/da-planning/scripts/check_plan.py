@@ -7,7 +7,7 @@
   ① 출발점 근거 — '## 출발점 근거' 절에 오래 돈 광고(시장 카드 경로 또는 라이브러리 ID)
      또는 유명 상징재(+ 숫자가 든 인지 근거)가 있고, 범위 단계가 적혀 있나
   ② 규칙 번호 — 본문의 ①-01 꼴 번호가 정본 규칙집에 실제로 있나
-  ③ 채점표 — 맨 끝 '## 사장님 채점' 절에 ①~⑧ 여덟 칸이 있나
+  ③ 채점표 — 맨 끝 '## 사장님 채점' 절에 ①~⑩ 열 칸이 있나 (정본 v2 10단계)
   ④ 하드 — '탈락'·'하드'로 적은 규칙이 정본에서 하드인가 (하드 탈락이면 제출 불가)
 종료 코드 0 = 통과, 1 = 위반(목록 출력).
 """
@@ -15,7 +15,7 @@ import argparse, re, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from check_rulebook import RULE_RE, REF_RE, STAGES
+from check_rulebook import RULE_RE, REF_RE, STAGES, SYM
 
 VAULT = "C:/claude/LLM-WIKI"
 RULEBOOK = "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md"
@@ -25,7 +25,7 @@ SYMBOL_RE = re.compile(r"^-\s*상징재:\s*\S")
 AWARE_RE = re.compile(r"^-\s*인지 근거:.*\d")
 RANGE_RE = re.compile(r"^-\s*범위 단계:\s*[123]")
 ROW_DROP_RE = re.compile(r"^\|[^|]*\|\s*탈락\s*\|")
-INLINE_HARD_RE = re.compile(r"([①-⑧]-\d{2})(?!\d)\s*(?:🔒\s*)?하드")
+INLINE_HARD_RE = re.compile(rf"({SYM}-\d{{2}})(?!\d)\s*(?:🔒\s*)?하드")
 
 
 def section(text, title):

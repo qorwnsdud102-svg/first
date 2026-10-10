@@ -10,14 +10,16 @@ import argparse, re, sys
 from collections import Counter
 from pathlib import Path
 
-STAGES = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧"]
+# 정본 v2(2026-10-10 밤): 10단계 — ⑤ 참신함·⑧ 현실 보정 신설
+STAGES = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩"]
+SYM = "[①-⑩]"  # 단계 기호 한 글자 (다른 검사기도 이것으로 정규식을 만든다)
 FIELDS = ["목표", "입력", "출력", "통과 조건"]
 MAX_LINES = 300
-STAGE_RE = re.compile(r"^## ([①-⑧]) ")
+STAGE_RE = re.compile(rf"^## ({SYM}) ")
 # 규칙 줄처럼 보이는 줄을 넓게 잡는다(굵은 번호·별표·들여쓰기·en dash 등). 판정은 엄격한 RULE_RE가 한다.
-RULE_START_RE = re.compile(r"^\s*[-*+]\s*\**\s*[①-⑧]\s*\W?\s*\d")
-RULE_RE = re.compile(r"^- ([①-⑧])-(\d{2}) (🔒|📊|🧪) (하드|경고) \| (.+?) \| (.+)$")
-REF_RE = re.compile(r"[①-⑧]-\d{2}(?!\d)")
+RULE_START_RE = re.compile(rf"^\s*[-*+]\s*\**\s*{SYM}\s*\W?\s*\d")
+RULE_RE = re.compile(rf"^- ({SYM})-(\d{{2}}) (🔒|📊|🧪) (하드|경고) \| (.+?) \| (.+)$")
+REF_RE = re.compile(rf"{SYM}-\d{{2}}(?!\d)")
 
 
 def check_rulebook(text):

@@ -12,9 +12,11 @@ CROSS = """# 교차 채점
 | ② 출발점 | 통과 | | 라이브러리 ID 인용 |
 | ③ 결핍 카드 | 경고 | ③-04 | 비중 표본 12개 |
 | ④ 상징·당위 | 경고 | ④-12 | 경쟁사가 쓴 상징 |
-| ⑤ 사업성 | 통과 | | |
-| ⑥ 기획서 | 통과 | | |
-| ⑦ 범위 확장 | 통과 | | |
+| ⑤ 참신함 | 통과 | | |
+| ⑥ 사업성 | 통과 | | |
+| ⑦ 기획서 | 통과 | | |
+| ⑧ 현실 보정 | 통과 | | |
+| ⑨ 범위 확장 | 통과 | | |
 
 ## 시장성
 - 시장성: 상 — 주사피부염 오래 돈 광고 179일
@@ -29,6 +31,13 @@ def test_교차_채점_파일에서_칸을_센다():
     s = score(CROSS)
     assert (s["drop"], s["warn"], s["market"]) == (0, 2, 3)
     assert s["judg"]["④"] == "경고"
+    assert s["judg"]["⑨"] == "통과" and len(s["judg"]) == 9
+
+
+def test_현실_보정_경고는_순위_칸_수에_세지_않는다():
+    s = score(CROSS.replace("| ⑧ 현실 보정 | 통과 |", "| ⑧ 현실 보정 | 경고 |"))
+    assert s["judg"]["⑧"] == "경고"
+    assert (s["drop"], s["warn"]) == (0, 2)
 
 
 def test_시장성이_없으면_0():
@@ -88,7 +97,31 @@ def test_라운드_폴더_순위표(tmp_path, capsys):
 
 def test_칸이_덜_찬_교차_채점은_대기(tmp_path, capsys):
     _plan(tmp_path / "Claude" / "01-장벽밤", [("④ 상징·당위", "통과")])
-    half = CROSS.replace("| ⑦ 범위 확장 | 통과 | | |", "| ⑦ 범위 확장 | | | |")
+    half = CROSS.replace("| ⑨ 범위 확장 | 통과 | | |", "| ⑨ 범위 확장 | | | |")
     (tmp_path / "Claude" / "01-장벽밤" / "교차채점-Codex.md").write_text(half, encoding="utf-8")
     assert main([str(tmp_path)]) == 1
-    assert "채점 대기: Claude/01-장벽밤 (채점 칸 6/7)" in capsys.readouterr().out
+    assert "채점 대기: Claude/01-장벽밤 (채점 칸 8/9)" in capsys.readouterr().out
+
+
+V1_CROSS = """# 교차 채점 (1차 라운드 — 정본 v1, 7칸)
+| 단계 | 통과/경고/탈락 | 걸린 규칙 번호 | 근거 한 줄 |
+|---|---|---|---|
+| ① 기초분석 | 통과 | | |
+| ② 출발점 | 통과 | | |
+| ③ 결핍 카드 | 경고 | ③-04 | |
+| ④ 상징·당위 | 통과 | | |
+| ⑤ 사업성 | 통과 | | |
+| ⑥ 기획서 | 통과 | | |
+| ⑦ 범위 확장 | 통과 | | |
+
+## 시장성
+- 시장성: 중 — 예시
+"""
+
+
+def test_v1_라운드_7칸_채점은_scored_7로_센다(tmp_path, capsys):
+    _plan(tmp_path / "Claude" / "01-장벽밤", [("④ 상징·당위", "통과")])
+    (tmp_path / "Claude" / "01-장벽밤" / "교차채점-Codex.md").write_text(V1_CROSS, encoding="utf-8")
+    assert main([str(tmp_path)]) == 1
+    assert "(채점 칸 7/9)" in capsys.readouterr().out
+    assert main([str(tmp_path), "--scored", "7"]) == 0
