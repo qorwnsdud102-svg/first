@@ -58,7 +58,7 @@ based_on: [마케팅/raw/본인/2026-10-10_본인구술_GPT협업-첫기획-방�
 
 ## 순위 규칙
 
-교차 채점(상대가 매긴 것)으로 ① 탈락 칸 적은 순 ② 경고 칸 적은 순 ③ 시장성 상>중>하. 셋이 같으면 같은 순위, 상위 5 경계에 걸리면 사장님 판단. 계산: `python "C:/claude/LLM-WIKI/프로그램/아웃풋/da-planning/scripts/rank_plans.py" "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10"`.
+교차 채점(상대가 매긴 것)으로 ① 탈락 칸 적은 순 ② 경고 칸 적은 순 ③ 시장성 상>중>하. 셋이 같으면 같은 순위, 상위 5 경계에 걸리면 사장님 판단. 계산: `python "C:/claude/LLM-WIKI/프로그램/아웃풋/da-planning/scripts/rank_plans.py" "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/공동기획-2026-10" --scored 7` (정본 v2 뒤 rank_plans 기본은 ①~⑨ 9칸이라, v1 7칸인 이 라운드는 `--scored 7`을 붙인다 — 0d7e26b).
 
 ## 안전 규칙
 
