@@ -2,13 +2,17 @@
 """DA 기획서 제출 전 검사.
 
 사용:
-    python check_plan.py <기획서.md> [--rulebook <정본 규칙집.md>] [--vault <vault 루트>]
-검사 4가지:
+    python check_plan.py <기획서.md> [--rulebook <정본 규칙집.md>] [--vault <vault 루트>] [--evidence <근거.md> ...]
+검사 7가지:
   ① 출발점 근거 — '## 출발점 근거' 절에 오래 돈 광고(시장 카드 경로 또는 라이브러리 ID)
      또는 유명 상징재(+ 숫자가 든 인지 근거)가 있고, 범위 단계가 적혀 있나
   ② 규칙 번호 — 본문의 ①-01 꼴 번호가 정본 규칙집에 실제로 있나
   ③ 채점표 — 맨 끝 '## 사장님 채점' 절에 ①~⑩ 열 칸이 있나 (정본 v2 10단계)
   ④ 하드 — '탈락'·'하드'로 적은 규칙이 정본에서 하드인가 (하드 탈락이면 제출 불가)
+  ⑤ 한 줄 — 제목 다음 첫 줄이 '한 줄: <바르는 ○○ 또는 후킹 한마디>'인가 (정본 ⑦-01)
+  ⑥ 목소리 — '## 출발점 근거'에 '- 목소리: <목소리 비중표 경로>'가 있고 그 파일이 있나 (①-01·①-24, 목소리 먼저)
+  ⑦ 근거 대조 — 근거 파일에서 경고였던 테스트(1초 사진·이름 지우기·형태 역할·그거네)를 기획서에서
+     통과로 적지 않았고, 경고였던 규칙 번호가 '## 사장님 판단 칸'에 있나 (④-57)
 종료 코드 0 = 통과, 1 = 위반(목록 출력).
 """
 import argparse, re, sys
@@ -26,6 +30,13 @@ AWARE_RE = re.compile(r"^-\s*인지 근거:.*\d")
 RANGE_RE = re.compile(r"^-\s*범위 단계:\s*[123]")
 ROW_DROP_RE = re.compile(r"^\|[^|]*\|\s*탈락\s*\|")
 INLINE_HARD_RE = re.compile(rf"({SYM}-\d{{2}})(?!\d)\s*(?:🔒\s*)?하드")
+PITCH_RE = re.compile(r"^한 줄:\s*\S")
+VOICE_RE = re.compile(r"^-\s*목소리:\s*`?([^`\s]+\.md)`?")
+TESTS = ("1초 사진", "이름 지우기", "형태 역할", "그거네")
+STRENGTH_RE = re.compile(r"[🔒🧪📊]\s*(?:하드|경고)")
+EV_WARN_RE = re.compile(r"\|\s*(?:△|✕|✗|×|경고|실패)\s*\||\((?:경고|△|실패)\)|→\s*(?:경고|실패|△)"
+                        r"|[:：]\s*(?:경고|실패|△)(?=[\s,.)·]|$)")
+WARN_RE = re.compile(r"△|✕|✗|×|경고|실패")
 
 
 def section(text, title):
@@ -114,7 +125,70 @@ def check_hard(text, table):
     return errs
 
 
-def check_plan(text, book_text, exists=lambda p: True):
+def check_pitch(text):
+    """⑦-01 — 제목 줄 다음 첫 줄이 '한 줄: …'인가"""
+    lines = [l.strip() for l in text.splitlines()]
+    i = next((k for k, l in enumerate(lines) if l.startswith("# ")), None)
+    first = next((l for l in lines[i + 1:] if l), "") if i is not None else ""
+    if PITCH_RE.match(first):
+        return []
+    return ["⑤ 제목 다음 첫 줄에 '한 줄: <바르는 ○○ 또는 후킹 한마디>'가 없음 (⑦-01)"]
+
+
+def check_voice(text, exists):
+    """①-01·①-24 — 출발점 근거에 목소리 비중표가 있나(목소리를 먼저 모은다)"""
+    lines = section(text, "출발점 근거")
+    if lines is None:
+        return []  # 절이 없으면 ①이 이미 잡는다
+    paths = [m.group(1) for m in (VOICE_RE.match(l.strip()) for l in lines) if m]
+    if not paths:
+        return ["⑥ 출발점 근거에 '- 목소리: <목소리 비중표 경로>'가 없음 — 목소리를 먼저 모으고 출발점을 고른다 (①-01·①-24)"]
+    return [f"⑥ 목소리 비중표 파일 없음: {p}" for p in paths if not exists(p)]
+
+
+def warned(evidence):
+    """근거 글들에서 경고로 적힌 테스트 이름과 규칙 번호. 규칙 강도 표시(🔒 경고 등)는 세지 않는다."""
+    tests, rules = set(), set()
+    for t in evidence:
+        for ln in t.replace("️", "").splitlines():
+            ln = STRENGTH_RE.sub("", ln)
+            if EV_WARN_RE.search(ln):
+                tests |= {x for x in TESTS if x in ln}
+                rules |= set(REF_RE.findall(ln))
+    return tests, rules
+
+
+def passed_in_plan(text, test):
+    """기획서에서 그 테스트를 통과로 적은 줄. 표 줄은 줄 전체, 다른 줄은 · , ; / 로 나눈 조각으로 본다."""
+    for ln in text.splitlines():
+        if test not in ln:
+            continue
+        parts = [ln] if ln.strip().startswith("|") else re.split(r"[·,;/]", ln)
+        if any(test in p and "통과" in p and not WARN_RE.search(p) for p in parts):
+            return ln.strip()
+    return None
+
+
+def check_evidence(text, evidence):
+    """④-57 — 근거 파일의 경고가 기획서에서 통과로 바뀌지 않고 사장님 판단 칸으로 갔나"""
+    tests, rules = warned(evidence)
+    judge = "\n".join(section(text, "사장님 판단 칸") or [])
+    errs = []
+    for x in sorted(tests):
+        ln = passed_in_plan(text, x)
+        if ln:
+            errs.append(f"⑦ 근거에서 경고였던 테스트를 기획서에서 통과로 적음 — {x}: {ln[:60]}")
+    errs += [f"⑦ 근거에서 경고였던 {r}가 '## 사장님 판단 칸'에 없음" for r in sorted(rules) if r not in judge]
+    return errs
+
+
+def evidence_files(plan_path):
+    """기획서와 같은 폴더의 근거.md와 2~6 단계 파일"""
+    d = Path(plan_path).parent
+    return [p for p in [d / "근거.md", *sorted(d.glob("[2-6]-*.md"))] if p.exists()]
+
+
+def check_plan(text, book_text, exists=lambda p: True, evidence=()):
     """반환: 위반 목록 (빈 목록 = 통과)"""
     text = text.replace("\ufe0f", "")
     table = rule_table(book_text)
@@ -123,6 +197,9 @@ def check_plan(text, book_text, exists=lambda p: True):
     errs += check_refs(text, table)
     errs += check_scorecard(text)
     errs += check_hard(text, table)
+    errs += check_pitch(text)
+    errs += check_voice(text, exists)
+    errs += check_evidence(text, evidence)
     return list(dict.fromkeys(errs))
 
 
@@ -134,6 +211,7 @@ def main(argv=None):
     ap.add_argument("plan")
     ap.add_argument("--vault", default=VAULT)
     ap.add_argument("--rulebook", help="기본: <vault>/" + RULEBOOK)
+    ap.add_argument("--evidence", nargs="*", help="근거 파일(기본: 기획서 폴더의 근거.md와 2~6 단계 파일, 값 없이 주면 대조 안 함)")
     a = ap.parse_args(argv)
     vault = Path(a.vault)
     book = Path(a.rulebook) if a.rulebook else vault / RULEBOOK
@@ -142,8 +220,10 @@ def main(argv=None):
         q = Path(p)
         return (q if q.is_absolute() else vault / q).exists()
 
+    ev = [Path(p) for p in a.evidence] if a.evidence is not None else evidence_files(a.plan)
     errs = check_plan(Path(a.plan).read_text(encoding="utf-8"),
-                      book.read_text(encoding="utf-8"), exists)
+                      book.read_text(encoding="utf-8"), exists,
+                      [p.read_text(encoding="utf-8") for p in ev])
     for e in errs:
         print(e)
     print(f"위반 {len(errs)}개")
