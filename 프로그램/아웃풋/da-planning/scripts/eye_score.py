@@ -19,6 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from eye_build import answer_rows, load  # noqa: E402
 
 POS_WORDS = ("진행", "조건부", "보류", "좋음")
+JUDGES = ("눈", "v1", "v2")
 
 
 def is_pos(verdict):
@@ -73,6 +74,8 @@ def score(cfg_path, folder, fmt_path=None, out=None):
     runs = collections.defaultdict(dict)  # 판정자 -> 순서 -> {ID: (판정, 점수)}
     for p in sorted(glob.glob(os.path.join(folder, "*-[0-9].md"))):
         judge, r = os.path.basename(p)[:-3].rsplit("-", 1)
+        if judge not in JUDGES:  # 같은 폴더의 정규화-묶음-k·누출감사-* 파일은 판정이 아니다
+            continue
         t = parse_table(p, "K")
         runs[judge][r] = {code2id[c]: (v["판정"], v["점수"]) for c, v in t.items() if c in code2id}
     pairs = cfg["최소쌍"]
