@@ -148,6 +148,7 @@ def cmd_check(cfg_path):
     s_set = set(cfg["양식S"])
     names = leak_terms(cfg, ("이름",))
     span, targets = cfg.get("양식F_글자"), set(cfg.get("정규화대상") or [])
+    ban, one_price = cfg.get("점검_금지말", []), cfg.get("점검_가격하나")
     cards = os.path.join(base, "카드")
     bad, warn = [], []
     for f in sorted(os.listdir(cards)):
@@ -166,6 +167,12 @@ def cmd_check(cfg_path):
                 warn.append(f"{i}: 긴 줄 {len(ln)}자")
         if span and i in targets and i not in s_set and not span[0] <= len(t.strip()) <= span[1]:
             warn.append(f"{i}: 글자 수 {len(t.strip())}(기준 {span[0]}~{span[1]})")
+        if i in targets:
+            warn += [f"{i}: 금지 말 '{w}'" for w in ban if w in t]
+            p = re.search(r"^-\s*가격\s*[:：](.*)$", t, re.M)
+            n_price = len(re.findall(r"\d[\d,]*\s*원", p.group(1))) if p else 0
+            if one_price and n_price > 1:
+                warn.append(f"{i}: 가격 {n_price}개")
         n = nz(t)
         for j, ts in names.items():
             for x in ts:
