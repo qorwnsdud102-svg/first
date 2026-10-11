@@ -12,6 +12,7 @@ def rows(path):
     for ln in open(path, encoding="utf-8"):
         if not ln.startswith("|"): hdr = None if not ln.strip() else hdr; continue
         cells = [c.strip() for c in ln.strip().strip("|").split("|")]
+        cells[0] = re.sub(r"\.md$", "", cells[0])  # 'N01.md'처럼 파일명으로 적은 ID
         if all(set(c) <= set("-: ") for c in cells): continue
         if hdr is None and any("ID" == c or c.startswith("ID") for c in cells): hdr = cells; continue
         if hdr and re.match(r"^[A-Z]\d{2,3}$", cells[0]): out.append(dict(zip(hdr, cells)))
