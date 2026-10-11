@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """히트 해부 2차 보강용 — 오래 돈 광고 영상에서 장면을 뽑아 한 장짜리 모아보기(jpg)로 만든다.
 
-사용: python hit_ad_frames.py <수집 폴더> <브랜드> <출력 폴더> [--groups 6] [--per 2]
+사용: python hit_ad_frames.py <수집 폴더> <브랜드> <출력 폴더> [--groups 6] [--per 2] [--asr]
+  --asr: 영상 음성도 받아쓴다(ad_media.py — 이 PC 안 faster-whisper, 사장님 2026-10-11 P6237).
   소재 번호는 hit_ads_digest.py와 같다(같은 본문 묶음, 오래 돈 순).
   영상마다 '앞'(0.5~18.5초 6장면, 첫 장면 = 1초 후킹)과, 24초보다 길면 '뒤'(18초~끝 6장면)를 3x2로 붙인다.
   이미지 소재는 출력 폴더로 옮겨 적는다(에이전트가 출력 폴더만 읽게).
@@ -40,6 +41,7 @@ def main():
     ap.add_argument("--groups", type=int, default=6)
     ap.add_argument("--per", type=int, default=2)
     ap.add_argument("--skip", nargs="*", default=[], help="이미 본 _ads.json — 그 광고는 뺀다")
+    ap.add_argument("--asr", action="store_true", help="영상 음성도 받아써 소재n-영상k-음성.txt로(ad_media, 이 PC 안)")
     a = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
     ffmpeg = imageio_ffmpeg.get_ffmpeg_exe()
@@ -64,6 +66,13 @@ def main():
                 dst = os.path.join(od, f"소재{n}-영상{k}-뒤.jpg")
                 if sheet(ffmpeg, src, dst, 18.0, dur - 18.5):
                     got.append(dst)
+            if a.asr:  # 음성 받아쓰기(사장님 P6237 — 장면뿐 아니라 음성까지)
+                from ad_media import fmt_segments, transcribe
+                text = fmt_segments(transcribe(src, ffmpeg))
+                dst = os.path.join(od, f"소재{n}-영상{k}-음성.txt")
+                with open(dst, "w", encoding="utf-8") as f:
+                    f.write((text or "(들린 말 없음)") + "\n")
+                got.append(dst)
         for k, p in enumerate(imgs, 1):  # 해부 에이전트가 출력 폴더만 읽도록 이미지도 옮겨 둔다
             dst = os.path.join(od, f"소재{n}-이미지{k}{os.path.splitext(p)[1]}")
             shutil.copyfile(os.path.join(a.root, a.brand, p), dst)

@@ -97,8 +97,13 @@ def view_md(products):
     rows = [p for p in products if not p["병원"]]
     out = [f"# 매대 — 제품 {len(rows)}개", ""]
     for p in rows:
+        pics = p.get("그림") or []
+        pics = [pics] if isinstance(pics, str) else pics
         out += [f"## {p['code']}", f"- 광고주: {', '.join(p['페이지']) or '—'}", f"- 문구: {p['문구'] or '—'}",
-                f"- 제목: {p['제목'] or '—'}", f"- 그림: {p.get('그림') or '없음'}", ""]
+                f"- 제목: {p['제목'] or '—'}", f"- 그림: {', '.join(pics) or '없음'}"]
+        if p.get("음성"):
+            out.append("- 음성:\n" + "\n".join("  " + ln for ln in p["음성"].splitlines()))
+        out.append("")
     return "\n".join(out)
 
 
@@ -118,26 +123,34 @@ def load(root, keywords):
     return ads, media
 
 
-def picture(p, media, view, ffmpeg):
-    """대표 광고의 그림, 없으면 영상 1초 장면을 보기/<코드>.<확장자>로. 못 만들면 None."""
+def picture(p, media, view, ffmpeg, frames=False, asr=False):
+    """대표 광고의 그림, 없으면 영상 장면을 보기/에 둔다 → (파일 이름 목록, 음성 글).
+    frames: 영상은 1초 장면 1장 대신 앞(0.5~18.5초)·뒤 6장면 모아보기. asr: 영상 음성을 받아쓴다(ad_media)."""
     files = [f for i in [p["대표"], *p["광고"]] for f in media.get(i, []) if os.path.exists(f)]
     img = next((f for f in files if f.lower().endswith(IMG)), None)
-    if img:
-        name = p["code"] + os.path.splitext(img)[1].lower()
-        shutil.copy(img, os.path.join(view, name))
-        return name
     vid = next((f for f in files if f.lower().endswith(".mp4")), None)
-    if vid and ffmpeg:
+    names, voice = [], ""
+    if vid and ffmpeg and frames:
+        from ad_media import sheets
+        names = [os.path.basename(x) for x in sheets(ffmpeg, vid, os.path.join(view, p["code"]))]
+    elif img:
+        names = [p["code"] + os.path.splitext(img)[1].lower()]
+        shutil.copy(img, os.path.join(view, names[0]))
+    elif vid and ffmpeg:
         dst = os.path.join(view, p["code"] + ".jpg")
         for at in ("1", "0"):
             subprocess.run([ffmpeg, "-y", "-ss", at, "-i", vid, "-frames:v", "1", "-q:v", "3", dst],
                            capture_output=True)
             if os.path.exists(dst):
-                return os.path.basename(dst)
-    return None
+                names = [os.path.basename(dst)]
+                break
+    if vid and asr:
+        from ad_media import fmt_segments, transcribe
+        voice = fmt_segments(transcribe(vid, ffmpeg), limit=500)
+    return names, voice
 
 
-def build(root, keywords, out):
+def build(root, keywords, out, frames=False, asr=False):
     ads, media = load(root, keywords)
     products = [product(f"S{n:02d}", g) for n, g in enumerate(group(ads), 1)]
     view = os.path.join(out, "보기")
@@ -148,7 +161,7 @@ def build(root, keywords, out):
     except Exception:
         ffmpeg = None
     for p in products:
-        p["그림"] = None if p["병원"] else picture(p, media, view, ffmpeg)
+        p["그림"], p["음성"] = ([], "") if p["병원"] else picture(p, media, view, ffmpeg, frames, asr)
     with open(os.path.join(view, "매대.md"), "w", encoding="utf-8") as f:
         f.write(view_md(products))
     with open(os.path.join(out, "매대.json"), "w", encoding="utf-8") as f:
@@ -189,6 +202,8 @@ def main(argv=None):
     b.add_argument("root")
     b.add_argument("--keywords", required=True)
     b.add_argument("--out", required=True)
+    b.add_argument("--frames", action="store_true", help="영상은 앞·뒤 6장면 모아보기(기본: 1초 장면 1장)")
+    b.add_argument("--asr", action="store_true", help="영상 음성을 받아써 보기에 적는다(이 PC 안 faster-whisper)")
     s = sub.add_parser("score")
     s.add_argument("shelf")
     s.add_argument("answer")
@@ -197,7 +212,7 @@ def main(argv=None):
     a = ap.parse_args(argv)
     if a.cmd == "build":
         kws = [k.strip() for k in re.split(r"[,;\n]", a.keywords) if k.strip()]
-        ps = build(a.root, kws, a.out)
+        ps = build(a.root, kws, a.out, a.frames, a.asr)
         print(f"제품 {len(ps)}개(병원 {sum(p['병원'] for p in ps)}개) · 그림 {sum(1 for p in ps if p.get('그림'))}개"
               f" → {os.path.join(a.out, '보기')}")
         return 0

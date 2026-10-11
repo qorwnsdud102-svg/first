@@ -42,6 +42,15 @@ def test_병원_광고주는_따로_표시하고_보기에서_뺀다():
     assert "## S02" in md and "## S01" not in md and "제품 1개" in md
 
 
+def test_보기에_장면_여러_장과_음성을_적는다():
+    p = product("S01", [("k", ad(1))])
+    p["그림"] = ["S01-앞.jpg", "S01-뒤.jpg"]
+    p["음성"] = "[0.0] 이거 딱 쓰면\n[2.2] 동전 모양 패치"
+    md = view_md([p])
+    assert "- 그림: S01-앞.jpg, S01-뒤.jpg" in md
+    assert "- 음성:\n  [0.0] 이거 딱 쓰면\n  [2.2] 동전 모양 패치" in md
+
+
 def test_표시_답을_읽는다():
     text = "| 제품 | 표시 | 근거 |\n|---|---|---|\n| S01 | 예 | 동전 모양 |\n| S02 | 아니오 | — |\n| S03 | 병원 | 시술 |"
     assert labels(text) == {"S01": "예", "S02": "아니오", "S03": "병원"}
