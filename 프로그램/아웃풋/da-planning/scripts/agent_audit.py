@@ -2,7 +2,7 @@
 """서브에이전트 도구 호출 감사 — 허용 폴더 밖을 읽었거나 허용 밖 도구를 썼는지 본다.
 
 사용: python agent_audit.py --allow <폴더> <agent-id> [<agent-id> ...]
-  허용: Read·Grep·Glob(경로가 허용 폴더 안), SubagentHandback, ToolSearch.
+  허용: Read·Grep·Glob(경로가 허용 폴더 안), SubagentHandback, ToolSearch. --web 이면 WebSearch·WebFetch도.
   Grep·Glob에 경로가 없으면(기본 = 볼트 작업 폴더) 밖으로 친다. 그 밖의 도구는 모두 '무효'.
 """
 import argparse
@@ -14,6 +14,7 @@ import sys
 
 BASE = os.path.expanduser("~/.claude/projects/C--claude-LLM-WIKI")
 OK_TOOLS = {"SubagentHandback", "ToolSearch"}
+WEB_TOOLS = {"WebSearch", "WebFetch"}
 
 
 def norm(p):
@@ -27,7 +28,7 @@ def inside(p, allow):
     return p == allow or p.startswith(allow + os.sep)
 
 
-def audit(agent_id, allow):
+def audit(agent_id, allow, web=False):
     hits = glob.glob(os.path.join(BASE, "*", "subagents", f"agent-{agent_id}.jsonl"))
     if not hits:
         return ["기록 없음"], collections.Counter()
@@ -41,7 +42,7 @@ def audit(agent_id, allow):
                 continue
             name, inp = b.get("name"), b.get("input") or {}
             used[name] += 1
-            if name in OK_TOOLS:
+            if name in OK_TOOLS or (web and name in WEB_TOOLS):
                 continue
             if name == "Read":
                 if not inside(inp.get("file_path", ""), allow):
@@ -62,13 +63,14 @@ def audit(agent_id, allow):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--allow", required=True)
+    ap.add_argument("--web", action="store_true", help="WebSearch·WebFetch 허용(히트 해부용)")
     ap.add_argument("agent_ids", nargs="+")
     a = ap.parse_args()
     allow = norm(a.allow)
     sys.stdout.reconfigure(encoding="utf-8")
     any_bad = False
     for aid in a.agent_ids:
-        bad, used = audit(aid, allow)
+        bad, used = audit(aid, allow, a.web)
         tools = ", ".join(f"{k} {v}" for k, v in sorted(used.items())) or "도구 호출 0"
         verdict = "무효" if bad else "깨끗"
         any_bad |= bool(bad)

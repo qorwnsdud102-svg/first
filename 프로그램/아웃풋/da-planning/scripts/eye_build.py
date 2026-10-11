@@ -93,6 +93,13 @@ def clean_quote(q):
     return re.sub(r"\s{2,}", " ", q).strip(" —·")
 
 
+def scrub_ids(s):
+    """판정자 자료에서 내부 카드 ID 언급((B07과 같은 한 마디)·(회귀 시험 G04))과 P-ID 꼬리를 지운다."""
+    s = re.sub(r"\s*\((?:[ABGHN]\d{2,3}s?과 같은 한 마디|회귀 시험 [ABGHN]\d{2,3}s?)\)", "", s)
+    s = re.sub(r"\s*[—-]?\s*P\d{4}(?:\s*[·,]\s*P\d{4})*", "", s)
+    return s.strip()
+
+
 def card_text(base, i):
     return open(os.path.join(base, "카드", i + ".md"), encoding="utf-8").read().strip()
 
@@ -221,7 +228,7 @@ def cmd_build(cfg_path, sandbox):
             verdict, quote = H_VERDICT, f"{p['원문']} (요지: {p['요지']})"
         else:
             verdict, quote = ans[i]["판정"], clean_quote(ans[i]["원문"])
-        blocks.append(f"### {rcode[i]}\n{card_text(base, i)}\n- 사장님 판정: {verdict}\n- 사장님 말: {quote}\n")
+        blocks.append(f"### {rcode[i]}\n{card_text(base, i)}\n- 사장님 판정: {scrub_ids(verdict)}\n- 사장님 말: {scrub_ids(quote)}\n")
     head = ("# 판정 사례집 — 사장님이 실제로 판정한 카드 " + str(len(ids)) + "장\n\n"
             "카드는 모두 같은 양식(7줄 또는 상징 후보 4줄)으로 옮겨 적은 것이다. 판정과 말은 사장님 원문이다.\n\n")
     open(os.path.join(jd, "사례.md"), "w", encoding="utf-8").write(head + "\n".join(blocks))
@@ -245,7 +252,7 @@ def cmd_build(cfg_path, sandbox):
         if any(nz(t) in text for t in held_terms):
             why["③ 시험 문항 누출어"] += 1
             continue
-        kept.append(f"- {pid} [{r['종류']}] 원문 {r['원문']} / 요지 {r['요지']}")
+        kept.append(f"- {pid} [{r['종류']}] 원문 {scrub_ids(r['원문'])} / 요지 {scrub_ids(r['요지'])}")
     said = write_parts(jd, "말", "사장님 말 모음 — 기획에 대해 사장님이 직접 한 말(원문)과 요지", kept)
 
     # 비교 기준: 규칙집 v1·v2 시험용 사본(같은 누출어 줄을 가림)
@@ -276,6 +283,18 @@ def cmd_build(cfg_path, sandbox):
     table["사례"] = {c: i for i, c in rcode.items()}
     table["시험"] = {c: i for i, c in kcode.items()}
     save_table(table, tpath)
+
+    # 누출 감사용: 시험 문항의 정체와 정답(감사자만 본다 — 판정자 폴더 밖)
+    ad = os.path.join(sandbox, "audit")
+    os.makedirs(ad, exist_ok=True)
+    src = cfg.get("원천", {})
+    rows = []
+    for i in tests:
+        a = ans[src.get(i, i)]
+        rows.append(f"### {i} — {a['이름']}\n- 사장님 판정: {a['판정']}\n- 사장님 말: {clean_quote(a['원문'])}\n"
+                    f"- 누출어: {', '.join(terms_all.get(src.get(i, i), []))}\n- 정규화 카드:\n{card_text(base, i)}\n")
+    open(os.path.join(ad, "시험문항-정답.md"), "w", encoding="utf-8").write(
+        f"# 시험 문항 {len(tests)}개 — 정체와 사장님 판정 (누출 감사용)\n\n" + "\n".join(rows))
 
     # 사본 보관(규칙집 사본은 빼고 — 위 명령으로 다시 만들 수 있다)
     keep = os.path.join(base, "입력")
