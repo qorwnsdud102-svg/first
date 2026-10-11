@@ -6,6 +6,8 @@
   - 무작위 코드(X01…)로 <샌드박스>/norm/<코드>.txt 에 쓴다. 제목 줄(ID·이름)은 지운다.
   - 길이가 고르게 정규화 묶음을 나눠 <샌드박스>/norm/묶음-<k>.json (files, S) 으로 쓴다.
   - 코드표는 설정 폴더의 코드표.json 의 '정규화' 칸에 쓴다(판정 에이전트에게는 보내지 않는다).
+  - 설정 '원천파일'(ID → 설정 폴더 기준 경로)이 있으면 그 ID는 시험지 대신 그 파일을 읽는다(v1.1: 사장님이 본 판).
+  - 설정 '정규화대상'이 있으면 그 ID만 정리한다(나머지 카드는 이전 판 그대로 쓴다).
 """
 import argparse
 import json
@@ -46,8 +48,10 @@ def main():
     sys.stdout.reconfigure(encoding="utf-8")
     cfg = json.load(open(a.config, encoding="utf-8"))
     src = cfg.get("원천", {})
+    files = cfg.get("원천파일", {})
+    base = os.path.dirname(os.path.abspath(a.config))
     ids = []
-    for i in cfg["시험"] + cfg["사례"] + cfg["형식누출"]["진짜"] + cfg["형식누출"]["AI"]:
+    for i in cfg.get("정규화대상") or (cfg["시험"] + cfg["사례"] + cfg["형식누출"]["진짜"] + cfg["형식누출"]["AI"]):
         if i not in ids:
             ids.append(i)
     rnd = random.Random(cfg["씨앗"])
@@ -58,7 +62,8 @@ def main():
     os.makedirs(norm_dir, exist_ok=True)
     texts, problems = {}, []
     for i in ids:
-        raw = open(os.path.join(ROOT, src.get(i, i) + ".md"), encoding="utf-8").read()
+        path = os.path.join(base, files[i]) if i in files else os.path.join(ROOT, src.get(i, i) + ".md")
+        raw = open(path, encoding="utf-8").read()
         t = clean(raw)
         texts[i] = t
         for m in CHECK.finditer(t):

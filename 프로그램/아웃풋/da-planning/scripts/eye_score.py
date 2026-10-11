@@ -67,6 +67,21 @@ def rank_of(scores, item, positives):
     return higher + 1 + (ties if item in positives else 0)
 
 
+def auc_of(mean, items, positives, w_half):
+    """긍정이 부정보다 높을 확률(동점 0.5, 무게0.5 부정은 반만). 긍정이나 부정이 없으면 None."""
+    num = den = 0.0
+    for p in items:
+        if p not in positives:
+            continue
+        for n in items:
+            if n in positives:
+                continue
+            w = 0.5 if n in w_half else 1.0
+            den += w
+            num += w * (1.0 if mean[p] > mean[n] else 0.5 if mean[p] == mean[n] else 0.0)
+    return num / den if den else None
+
+
 def score(cfg_path, folder, fmt_path=None, out=None):
     cfg, base, table, _ = load(cfg_path)
     code2id = table["시험"]
@@ -96,15 +111,7 @@ def score(cfg_path, folder, fmt_path=None, out=None):
                 max(1, sum(1 for d in rs.values() if i in d and d[i][1] is not None)) for i in rank_items}
         ranks = {i: rank_of(mean, i, positives) for i in positives}
         top = sum(1 for i in positives if ranks[i] <= crit["순위_상위"])
-        num = den = 0.0
-        for p in positives:
-            for n in rank_items:
-                if n in positives:
-                    continue
-                w = 0.5 if n in w_half else 1.0
-                den += w
-                num += w * (1.0 if mean[p] > mean[n] else 0.5 if mean[p] == mean[n] else 0.0)
-        auc = num / den if den else 0.0
+        auc = auc_of(mean, rank_items, positives, w_half) or 0.0
         pol = {r: sum(1 for i in cfg["시험"] if i in d and is_pos(d[i][0]) == is_pos(tr[i])) for r, d in rs.items()}
         res[judge] = {"pairs": sum(ok for *_, ok, _ in [(g, b, ok, ss) for g, b, ok, ss in pr]),
                       "pair_rows": pr, "ranks": ranks, "top": top, "auc": auc, "pol": pol,
@@ -142,6 +149,28 @@ def score(cfg_path, folder, fmt_path=None, out=None):
     for j, r in res.items():
         order = sorted(rank_items, key=lambda i: -r["mean"][i])
         lines.append(f"- {j}: " + ", ".join(f"{i}{'★' if i in positives else ''} {r['mean'][i]:g}" for i in order))
+
+    diag = cfg.get("진단")
+    if diag:  # 통과 판정에는 쓰지 않는 진단 — 기준 카드별 최소쌍, 작성자별 AUC, 일부 카드를 뺀 AUC
+        lines += ["", "## 진단 (통과 판정에는 안 씀)", ""]
+        anchors = list(dict.fromkeys(g for g, _ in pairs))
+        auth = list(diag.get("작성자", {}).items())
+        fmt = lambda v: "—" if v is None else f"{v:.2f}"  # noqa: E731
+        for j, r in res.items():
+            m = r["mean"]
+            seg = ["최소쌍 " + " · ".join(
+                f"{a} {sum(ok for g, _, ok, _ in r['pair_rows'] if g == a)}/{sum(1 for g, *_ in r['pair_rows'] if g == a)}"
+                for a in anchors)]
+            for name, ids_ in auth:
+                seg.append(f"{name} 안 AUC {fmt(auc_of(m, [i for i in rank_items if i in ids_], positives, w_half))}")
+            if len(auth) == 2:
+                (n1, g1), (n2, g2) = auth
+                g1, g2 = [i for i in g1 if i in m], [i for i in g2 if i in m]
+                hi = sum(1.0 if m[x] > m[y] else 0.5 if m[x] == m[y] else 0.0 for x in g1 for y in g2)
+                seg.append(f"{n1} > {n2} 쌍 {hi / (len(g1) * len(g2)):.0%}")
+            for label, drop in diag.get("뺀AUC", []):
+                seg.append(f"{label} AUC {fmt(auc_of(m, [i for i in rank_items if i not in drop], positives, w_half))}")
+            lines.append(f"- {j}: " + " / ".join(seg))
 
     eye = res.get("눈")
     if eye:

@@ -147,6 +147,7 @@ def cmd_check(cfg_path):
     cfg, base, _, _ = load(cfg_path)
     s_set = set(cfg["양식S"])
     names = leak_terms(cfg, ("이름",))
+    span, targets = cfg.get("양식F_글자"), set(cfg.get("정규화대상") or [])
     cards = os.path.join(base, "카드")
     bad, warn = [], []
     for f in sorted(os.listdir(cards)):
@@ -163,6 +164,8 @@ def cmd_check(cfg_path):
         for ln in lines:
             if len(ln) > 170:
                 warn.append(f"{i}: 긴 줄 {len(ln)}자")
+        if span and i in targets and i not in s_set and not span[0] <= len(t.strip()) <= span[1]:
+            warn.append(f"{i}: 글자 수 {len(t.strip())}(기준 {span[0]}~{span[1]})")
         n = nz(t)
         for j, ts in names.items():
             for x in ts:
