@@ -196,6 +196,18 @@ def test_규칙_강도_표시는_경고로_세지_않는다():
     assert check_plan(make_plan(), BOOK, evidence=ev) == []
 
 
+def test_머리줄이_강도인_표_칸은_경고로_세지_않는다():
+    # 2026-10-11 1회차 02·03: 강도 칸 '경고'가 판정으로 읽혀 작성자가 기호로 바꿔야 했다
+    ev = ["| 규칙 | 강도 | 판정 | 근거 |\n|---|---|---|---|\n| ④-12 | 경고 | 통과 | 매대 0/11 |\n| ④-24 | 경고 | 경고 | 그거네 |"]
+    assert check_plan(make_plan(), BOOK, evidence=ev) == ["⑦ 근거에서 경고였던 ④-24가 '## 사장님 판단 칸'에 없음"]
+
+
+def test_한_줄에_테스트가_여럿이면_경고_조각의_테스트만_센다():
+    ev = ["- 테스트: 1초 사진 0/3 → 경고, 이름 지우기 3/3 → 통과"]
+    plan = make_plan(tail=["## 상징·당위", "- 이름 지우기 3/3 → 통과", "- 1초 사진 0/3 → 경고"])
+    assert check_plan(plan, BOOK, evidence=ev) == []
+
+
 def make_vault(tmp_path):
     voice = tmp_path / VOICE_PATH
     voice.parent.mkdir(parents=True, exist_ok=True)

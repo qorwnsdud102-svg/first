@@ -146,15 +146,40 @@ def check_voice(text, exists):
     return [f"⑥ 목소리 비중표 파일 없음: {p}" for p in paths if not exists(p)]
 
 
+SEP_ROW_RE = re.compile(r"^\s*\|[\s:|-]+\|\s*$")
+
+
 def warned(evidence):
-    """근거 글들에서 경고로 적힌 테스트 이름과 규칙 번호. 규칙 강도 표시(🔒 경고 등)는 세지 않는다."""
+    """근거 글들에서 경고로 적힌 테스트 이름과 규칙 번호. 규칙 강도 표시(🔒 경고 등)와
+    머리줄이 '강도'인 표 칸은 세지 않는다. 한 줄에 테스트가 여럿이면 경고가 붙은 조각의 테스트만 센다
+    (2026-10-11 1회차: 강도 칸 '경고'와 '1초 사진 → 경고, 이름 지우기 → 통과' 줄이 통과까지 경고로 잡혔다)."""
     tests, rules = set(), set()
     for t in evidence:
-        for ln in t.replace("️", "").splitlines():
+        lines = t.replace("️", "").splitlines()
+        strength = None
+        for i, ln in enumerate(lines):
+            if ln.lstrip().startswith("|"):
+                if SEP_ROW_RE.match(ln):
+                    continue
+                cells = [c.strip() for c in ln.strip().strip("|").split("|")]
+                if i + 1 < len(lines) and SEP_ROW_RE.match(lines[i + 1]):
+                    strength = next((k for k, c in enumerate(cells) if "강도" in c), None)
+                    continue
+                if strength is not None and strength < len(cells):
+                    cells[strength] = ""
+                ln = "| " + " | ".join(cells) + " |"
+            else:
+                strength = None
             ln = STRENGTH_RE.sub("", ln)
-            if EV_WARN_RE.search(ln):
-                tests |= {x for x in TESTS if x in ln}
-                rules |= set(REF_RE.findall(ln))
+            if not EV_WARN_RE.search(ln):
+                continue
+            rules |= set(REF_RE.findall(ln))
+            named = [x for x in TESTS if x in ln]
+            if len(named) == 1 or ln.lstrip().startswith("|"):
+                tests |= set(named)
+            else:
+                parts = re.split(r"[·,;]|—", ln)
+                tests |= {x for x in named if any(x in p and EV_WARN_RE.search(p) for p in parts)}
     return tests, rules
 
 
