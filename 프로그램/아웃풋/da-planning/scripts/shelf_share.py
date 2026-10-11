@@ -9,7 +9,8 @@
   python shelf_share.py score <매대 폴더> <표시 답.md> --symbol "동전파스 외형" [--stale 0.3]
       표시 답의 '| S01 | 예 |' 줄로 비율·시작 달·먼저 쓴 곳을 낸다 → 5-참신함.md에 붙일 절.
 제품으로 묶는 법: 같은 상품 링크(도메인 + 상품 번호·경로), 같은 광고주의 같은 본문, 같은 광고 ID면 한 제품.
-광고주 이름이 병원·의원·클리닉이면 경쟁자가 아니라 분모에서 뺀다(시장카드 양식). 표시 에이전트가 '병원'이라고 한 것도 뺀다.
+광고주 이름이 병원·의원·클리닉이어도 보기에서 빼지 않는다 — 제품 광고가 가짜 병원 이름을 쓰는 경우가 있다(2026-10-11 관절 매대 '○○의원' 이름의 관절정 광고).
+보기에 '광고주 이름에 병원 말' 줄을 달고, 표시 에이전트가 '병원'이라고 한 것과, 병원 이름인데 표시가 없는 것만 분모에서 뺀다.
 표시 에이전트 지시문: references/매대비율-지시문.md
 """
 import argparse
@@ -94,13 +95,14 @@ def product(code, g):
 
 
 def view_md(products):
-    rows = [p for p in products if not p["병원"]]
-    out = [f"# 매대 — 제품 {len(rows)}개", ""]
-    for p in rows:
+    out = [f"# 매대 — 제품 {len(products)}개", ""]
+    for p in products:
         pics = p.get("그림") or []
         pics = [pics] if isinstance(pics, str) else pics
         out += [f"## {p['code']}", f"- 광고주: {', '.join(p['페이지']) or '—'}", f"- 문구: {p['문구'] or '—'}",
                 f"- 제목: {p['제목'] or '—'}", f"- 그림: {', '.join(pics) or '없음'}"]
+        if p["병원"]:
+            out.append("- 광고주 이름에 병원 말이 있다 — 이름만 보고 빼지 말고, 파는 것이 물건인지 직접 본다")
         if p.get("음성"):
             out.append("- 음성:\n" + "\n".join("  " + ln for ln in p["음성"].splitlines()))
         out.append("")
@@ -161,7 +163,7 @@ def build(root, keywords, out, frames=False, asr=False):
     except Exception:
         ffmpeg = None
     for p in products:
-        p["그림"], p["음성"] = ([], "") if p["병원"] else picture(p, media, view, ffmpeg, frames, asr)
+        p["그림"], p["음성"] = picture(p, media, view, ffmpeg, frames, asr)
     with open(os.path.join(view, "매대.md"), "w", encoding="utf-8") as f:
         f.write(view_md(products))
     with open(os.path.join(out, "매대.json"), "w", encoding="utf-8") as f:
@@ -175,7 +177,7 @@ def labels(text):
 
 def score(products, lab, symbol, stale=0.3):
     """→ (비율 또는 None, 판정, 5-참신함.md에 붙일 절)"""
-    rows = [p for p in products if not p["병원"] and lab.get(p["code"]) != "병원"]
+    rows = [p for p in products if lab.get(p["code"]) != "병원" and not (p["병원"] and p["code"] not in lab)]
     yes = [p for p in rows if lab.get(p["code"]) == "예"]
     n = len(yes) + sum(1 for p in rows if lab.get(p["code"]) == "아니오")
     share = len(yes) / n if n else None

@@ -34,12 +34,22 @@ def test_같은_상품_링크와_같은_본문을_한_제품으로_묶는다():
     assert p["키워드"] == ["무릎통증", "오십견"] and p["광고"] == ["5"]
 
 
-def test_병원_광고주는_따로_표시하고_보기에서_뺀다():
+def test_병원_이름_광고주도_보기에_남기고_표시만_단다():
+    # 2026-10-11 관절 매대: '○○의원' 이름의 관절정 제품 광고가 이름만으로 빠졌다
     ps = [product("S01", [("k", ad(1, page="청담 OO피부과의원"))]),
           product("S02", [("k", ad(2, page="OO코스메틱", body="피부과 시술 대신"))])]
     assert [p["병원"] for p in ps] == [True, False]
     md = view_md(ps)
-    assert "## S02" in md and "## S01" not in md and "제품 1개" in md
+    assert "## S01" in md and "## S02" in md and "제품 2개" in md
+    assert md.count("광고주 이름에 병원 말이 있다") == 1
+
+
+def test_병원_이름이라도_표시자가_물건이라고_하면_센다():
+    ps = [product("S01", [("k", ad(1, page="울산희망의원", body="관절정"))]),
+          product("S02", [("k", ad(2, page="OO의원", body="시술 안내", pid="p2"))]),
+          product("S03", [("k", ad(3, page="가게", body="크림", pid="p3"))])]
+    text = score(ps, {"S01": "예", "S03": "아니오"}, "x")[2]
+    assert "제품 2개(병원 1개·모름 0개 뺌) 중 1개가 씀 → 50%" in text
 
 
 def test_보기에_장면_여러_장과_음성을_적는다():
