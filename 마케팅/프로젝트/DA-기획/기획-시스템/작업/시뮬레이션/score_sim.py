@@ -14,7 +14,7 @@ def rows(path):
         cells = [c.strip() for c in ln.strip().strip("|").split("|")]
         if all(set(c) <= set("-: ") for c in cells): continue
         if hdr is None and any("ID" == c or c.startswith("ID") for c in cells): hdr = cells; continue
-        if hdr and re.match(r"^[AB]\d{2}$", cells[0]): out.append(dict(zip(hdr, cells)))
+        if hdr and re.match(r"^[A-Z]\d{2,3}$", cells[0]): out.append(dict(zip(hdr, cells)))
     return out
 
 def col(d, *keys):
@@ -43,19 +43,23 @@ def main(folder, prefix="예측-"):
     print(f"정답 {len(ans)}건 · 예측 파일 {len(runs)}개")
     for p in runs:
         preds = {r["ID"]: r for r in rows(p)}
-        n = hit_v = hit_c = 0; tp = fn = fp = tn = 0
+        st = defaultdict(lambda: [0] * 7)  # 묶음(A·B·H)별: n, 판정 일치, 범주 일치, tp, fn, fp, tn
         for i, a in ans.items():
             if i not in preds: continue
-            pr = preds[i]; n += 1
+            pr = preds[i]
             av, pv = polarity(col(a, "판정")), polarity(col(pr, "판정"))
-            ok_v = av == pv; hit_v += ok_v
+            ok_v = av == pv
             ac, pc = cats(col(a, "범주"), answer=True), cats(col(pr, "범주"))
-            ok_c = bool(ac & pc) if av == "neg" else ok_v; hit_c += ok_c
-            tp += av == "pos" and pv == "pos"; fn += av == "pos" and pv == "neg"
-            fp += av == "neg" and pv == "pos"; tn += av == "neg" and pv == "neg"
+            ok_c = bool(ac & pc) if av == "neg" else ok_v
+            for g in (i[0], "전체"):
+                s = st[g]; s[0] += 1; s[1] += ok_v; s[2] += ok_c
+                s[3] += av == "pos" and pv == "pos"; s[4] += av == "pos" and pv == "neg"
+                s[5] += av == "neg" and pv == "pos"; s[6] += av == "neg" and pv == "neg"
             per_item[i].append((pv, ok_v, ok_c, ",".join(sorted(pc))))
-        if n:
-            print(f"- {os.path.basename(p)}: {n}건 · 판정 일치 {hit_v}/{n} · 이유 범주 일치 {hit_c}/{n} · "
+        for g in sorted(st, key=lambda g: (g == "전체", g)):
+            n, hv, hc, tp, fn, fp, tn = st[g]
+            if len(st) == 2 and g != "전체": continue  # 묶음이 하나면 전체만
+            print(f"- {os.path.basename(p)} [{g}]: {n}건 · 판정 일치 {hv}/{n} · 이유 범주 일치 {hc}/{n} · "
                   f"진행을 진행으로 {tp}/{tp+fn} · 기각을 기각으로 {tn}/{tn+fp}")
     print("\n문항별 (정답 판정 | 정답 범주 | 예측들)")
     for i in sorted(per_item):
