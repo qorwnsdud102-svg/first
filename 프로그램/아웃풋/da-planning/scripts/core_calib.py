@@ -51,16 +51,19 @@ def prep(rows, sandbox):
                     f"| 상징원 | 핵심 코어 | 사장님 말 |\n|---|---|---|\n{ex}\n\n## 물음\n- {n}\n")
 
 
-def sheet(rows, ans_dir, sandbox, seed=20261011):
-    """→ 코드표 {코드: {'상징원', '조건'}}. <샌드박스>/채점/채점.md를 쓴다."""
+def sheet(rows, ans_dir, sandbox, seed=20261011, conds=None):
+    """→ 코드표 {코드: {'상징원', '조건'}}. <샌드박스>/채점/채점.md를 쓴다.
+    conds: [(조건 이름, 답 파일)] — 주면 답-00·답-NN 대신 이 답들을 상징원마다 섞는다(코어 v2: 목소리 조건)."""
     rnd = random.Random(seed)
     zero = answers(os.path.join(ans_dir, "답-00.md"))
+    named = [(name, answers(path)) for name, path in conds or []]
     pool = [a + b + c for a in "ABCDEFGH" for b in "JKLMNPQR" for c in "STUVWXYZ"]
     rnd.shuffle(pool)
     codes, blocks = {}, []
     for i, (n, _, core, quote) in enumerate(rows, 1):
         loo = answers(os.path.join(ans_dir, f"답-{i:02d}.md"))
-        pair = [("보기 없음", zero.get(n, "")), ("보기 9개", loo.get(n) or next(iter(loo.values()), ""))]
+        pair = ([(name, a.get(n, "")) for name, a in named] if named else
+                [("보기 없음", zero.get(n, "")), ("보기 9개", loo.get(n) or next(iter(loo.values()), ""))])
         rnd.shuffle(pair)
         block = [f"## {n}", f"- 사장님 말: {quote}", f"- 사장님 답 요지: {core}"]
         for cond, a in pair:
@@ -97,6 +100,8 @@ def main(argv=None):
     s.add_argument("answers")
     s.add_argument("sandbox")
     s.add_argument("--seed", type=int, default=20261011)
+    s.add_argument("--cond", action="append", default=[],
+                   help="'조건 이름=답 파일'(표 | 상징원 | 핵심 코어 |). 주면 답-00·답-NN 대신 쓴다. 여러 번 준다")
     c = sub.add_parser("score")
     c.add_argument("codes")
     c.add_argument("graded")
@@ -107,7 +112,8 @@ def main(argv=None):
         print(f"질문 {len(rows) + 1}개 → {os.path.join(a.sandbox, '질문')}")
         return 0
     if a.cmd == "sheet":
-        codes = sheet(cores(a.gold), a.answers, a.sandbox, a.seed)
+        conds = [tuple(c.split("=", 1)) for c in a.cond]
+        codes = sheet(cores(a.gold), a.answers, a.sandbox, a.seed, conds)
         path = os.path.join(os.path.dirname(os.path.abspath(a.gold)), "코드표.json")
         with open(path, "w", encoding="utf-8") as f:
             json.dump(codes, f, ensure_ascii=False, indent=1)

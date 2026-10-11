@@ -54,3 +54,12 @@ def test_CLI_한_바퀴(tmp_path, capsys):
     assert main(["score", str(tmp_path / "코드표.json"), str(tmp_path / "채점답.md")]) == 0
     out = capsys.readouterr().out
     assert "보기 9개: 맞음 3 · 부분 0 · 틀림 0 · 빠짐 0 → 3/3" in out
+
+
+def test_조건을_이름으로_주면_그_답들을_섞는다(tmp_path):
+    (tmp_path / "목소리.md").write_text("| 상징원 | 핵심 코어 |\n|---|---|\n| 상징1 | 뜨거움 |\n| 상징2 | 주사기 |", encoding="utf-8")
+    (tmp_path / "옛답.md").write_text("| 상징원 | 핵심 코어 |\n|---|---|\n| 상징1 | 원리 |", encoding="utf-8")
+    codes = sheet(ROWS, tmp_path, tmp_path, conds=[("목소리", str(tmp_path / "목소리.md")), ("v1", str(tmp_path / "옛답.md"))])
+    md = (tmp_path / "채점" / "채점.md").read_text(encoding="utf-8")
+    assert "뜨거움" in md and "주사기" in md and "원리" in md
+    assert sorted({v["조건"] for v in codes.values()}) == ["v1", "목소리"] and len(codes) == 6
