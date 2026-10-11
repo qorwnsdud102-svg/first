@@ -89,7 +89,8 @@ def score(cfg_path, folder, fmt_path=None, out=None):
         pr = []
         for g, b in pairs:
             ss = [(d[g][1], d[b][1]) for d in rs.values() if g in d and b in d]
-            ok = bool(ss) and all(x is not None and y is not None and x > y for x, y in ss)
+            # 한 순서라도 카드가 빠지면 ○가 아니다(두 순서 모두 좋은 쪽이 높아야 ○)
+            ok = bool(ss) and len(ss) == len(rs) and all(x is not None and y is not None and x > y for x, y in ss)
             pr.append((g, b, ok, ss))
         mean = {i: sum(d[i][1] for d in rs.values() if i in d and d[i][1] is not None) /
                 max(1, sum(1 for d in rs.values() if i in d and d[i][1] is not None)) for i in rank_items}
@@ -115,7 +116,7 @@ def score(cfg_path, folder, fmt_path=None, out=None):
     if fmt_path and os.path.exists(fmt_path):
         right, total, _ = fmt_score(cfg_path, fmt_path)
         fmt_ok = right <= crit["형식누출_최대"]
-        fmt_line = f"형식 누출 검사: {right}/{total} 맞힘 (기준 {crit['형식누출_최대']} 이하) → {'통과' if fmt_ok else '불합격'}"
+        fmt_line = f"형식 누출 검사: {right}/{total} 맞힘 (기준 {crit['형식누출_최대']} 이하) → {'통과' if fmt_ok else '시험 무효'}"
 
     lines += ["# 사장님 눈 v1 — 채점 결과", "", fmt_line, "",
               "## 판정자별 요약", "",
@@ -140,7 +141,7 @@ def score(cfg_path, folder, fmt_path=None, out=None):
     lines += ["", "## AI 기획 23장 순위 (2회 평균 점수)", ""]
     for j, r in res.items():
         order = sorted(rank_items, key=lambda i: -r["mean"][i])
-        lines.append(f"- {j}: " + ", ".join(f"{i}{'★' if i in positives else ''} {r['mean'][i]:.0f}" for i in order))
+        lines.append(f"- {j}: " + ", ".join(f"{i}{'★' if i in positives else ''} {r['mean'][i]:g}" for i in order))
 
     eye = res.get("눈")
     if eye:
@@ -151,11 +152,16 @@ def score(cfg_path, folder, fmt_path=None, out=None):
              eye["pairs"] >= best_rule + crit["최소쌍_규칙집보다"]),
             (f"A05·N02·N04 중 상위 {crit['순위_상위']} 안 {eye['top']}장 ≥ {crit['순위_긍정_최소']}",
              eye["top"] >= crit["순위_긍정_최소"]),
-            (fmt_line, bool(fmt_ok)),
         ]
+        # 부록 C: 형식 누출이 기준 이하일 때만 시험을 인정한다 — 넘으면 불합격이 아니라 '시험 무효'
         lines += ["", "## 사장님 눈 통과 판정 (부록 C)", ""]
+        lines.append(f"- {'✔' if fmt_ok else '✘'} 시험 성립 — {fmt_line}")
         lines += [f"- {'✔' if ok else '✘'} {t}" for t, ok in conds]
-        lines.append(f"- **{'통과' if all(ok for _, ok in conds) else '불합격'}** (누출 감사·도구 감사는 따로)")
+        if fmt_ok:
+            verdict = "통과" if all(ok for _, ok in conds) else "불합격"
+        else:
+            verdict = "시험 무효 — 형식 누출 기준을 넘어 이 입력으로는 시험이 성립하지 않는다. 위 기준은 참고"
+        lines.append(f"- **{verdict}** (누출 감사·도구 감사는 따로)")
     text = "\n".join(lines) + "\n"
     if out:
         open(out, "w", encoding="utf-8").write(text)
