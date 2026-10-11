@@ -27,7 +27,7 @@ TRACKERS = ("fb.com", "facebook.com", "fb.me", "instagram.com", "linktr.ee", "bi
 ID_KEYS = ("product_no", "productNo", "goodsNo", "goods_no", "item_id", "itemId", "pid")
 PATH_ID = re.compile(r"/(?:product|products|goods|item|items|shop)/(?:[^/]*/)*?(\d{3,})")
 HOSPITAL = re.compile(r"병원|의원|클리닉|피부과|한의원|치과|성형외과|정형외과|통증의학과|재활의학과")
-LABEL = re.compile(r"^\|\s*(S\d{2,3})\s*\|\s*(예|아니오|모름|병원)\s*\|", re.M)
+LABEL = re.compile(r"^\|\s*(S\d{2,3})\b[^|]*\|\s*(예|아니오|모름|병원)\s*\|", re.M)
 IMG = (".jpg", ".jpeg", ".png", ".webp")
 
 
