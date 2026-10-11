@@ -60,3 +60,18 @@ def test_카드_두_벌과_사장님_ox_맞추기(tmp_path, monkeypatch):
     boss.write_text("| R1-01 | ○ |\n| R1-02 | × |\n| R1-03 | ○ |", encoding="utf-8")
     table = eye_v2.score(str(cfg), str(res), str(boss))
     assert "| 눈 | 1.5/3 |" in table and "R1-02 ×:0.5" in table
+
+
+def test_사장님_점수는_보류_이상과_단계_순위로(tmp_path, monkeypatch):
+    cfg, sb = setup(tmp_path, monkeypatch)
+    k = eye_v2.cards(str(cfg), str(sb))
+    res = tmp_path / "결과"
+    res.mkdir()
+    (res / "눈-1.md").write_text(f"| {k['R1-01']} | 조건부 | 70 | x | y |\n| {k['R1-02']} | 기각 | 20 | x | y |\n"
+                                f"| {k['R1-03']} | 기각 | 10 | x | y |", encoding="utf-8")
+    (res / "눈-2.md").write_text(f"| {k['R1-01']} | 보류 | 60 | x | y |\n| {k['R1-02']} | 진행 | 80 | x | y |\n"
+                                f"| {k['R1-03']} | 기각 | 15 | x | y |", encoding="utf-8")
+    boss = tmp_path / "사장님.md"
+    boss.write_text("| R1-01 | 10 |\n| R1-02 | 2 |\n| R1-03 | 1 |", encoding="utf-8")
+    table = eye_v2.score(str(cfg), str(res), str(boss))
+    assert "| 눈 | 2.5/3 | 1.5/3 | 0.87 |" in table and "R1-01 ○:1" in table

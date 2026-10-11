@@ -8,7 +8,9 @@ v2는 시험 문항을 새 기획(1회차)으로 바꾸고, 지난 문항 31장�
   python eye_v2.py materials <설정.json> <샌드박스>  → <샌드박스>/judge/ 사례.md·말-*.md·v1-*.md·v2-*.md
   python eye_v2.py cards <설정.json> <샌드박스>      → <샌드박스>/judge/카드-1.md·카드-2.md(K 코드 무작위), 코드표.json '시험'
   python eye_v2.py score <설정.json> <결과 폴더> <사장님 답.md>
-      사장님 답: '| R1-01 | ○ |' 줄. 판정자 답의 진행·조건부·보류 = ○, 기각 = ×. 두 순서가 갈리면 0.5.
+      사장님 답: '| R1-01 | ○ |' 또는 '| R1-01 | 7 |'(1~10점) 줄. 점수는 4점 이상 = ○(보류 이상).
+      판정자 답의 진행·조건부·보류 = ○, 기각 = ×. 두 순서가 갈리면 0.5.
+      점수가 오면 단계(1~3 기각·4~5 보류·6~7 조건부·8~10 진행)가 맞는지와 순위 상관(스피어만)도 적는다.
 설정.json: 씨앗, 사례(ID 목록), 사례카드(폴더), 원천(ID→정답지 ID), H사례판정, 판례_끝(이 P-ID까지만), 시험(ID 목록).
 시험 카드는 <설정 폴더>/카드/<ID>.md(정규화 7줄)에 둔다.
 """
@@ -26,7 +28,38 @@ from eye_build import (H_VERDICT, SIM, answer_rows, clean_quote, panrye, save_ta
                        scrub_ids, write_parts)
 from eye_score import is_pos, parse_table  # noqa: E402
 
-MARK = re.compile(r"^\|\s*(R\d-\d{2})\s*\|\s*([○×xXoO])\s*\|", re.M)
+MARK = re.compile(r"^\|\s*(R\d-\d{2})\s*\|\s*([○×xXoO]|10|[1-9])\s*\|", re.M)
+BAND = ((3, 1), (5, 2), (7, 3), (10, 4))  # 사장님 점수 띠 → 단계. 아침 화면의 띠와 같다.
+
+
+def level(verdict):
+    """판정자 말 → 단계(기각 1 · 보류 2 · 조건부 3 · 진행 4). 모르면 None."""
+    v = re.split(r"[(（]", verdict)[0].replace(" ", "")
+    if v.startswith(("기각", "패스")):
+        return 1
+    return next((n for w, n in (("조건부", 3), ("진행", 4), ("보류", 2)) if w in v), None)
+
+
+def band(points):
+    return next(n for top, n in BAND if points <= top)
+
+
+def spearman(xs, ys):
+    def ranks(v):
+        order = sorted(range(len(v)), key=lambda i: v[i])
+        out, i = [0.0] * len(v), 0
+        while i < len(order):
+            j = i
+            while j + 1 < len(order) and v[order[j + 1]] == v[order[i]]:
+                j += 1
+            for k in order[i:j + 1]:
+                out[k] = (i + j) / 2 + 1
+            i = j + 1
+        return out
+    rx, ry = ranks(xs), ranks(ys)
+    mx, my = sum(rx) / len(rx), sum(ry) / len(ry)
+    vx, vy = sum((a - mx) ** 2 for a in rx), sum((b - my) ** 2 for b in ry)
+    return sum((a - mx) * (b - my) for a, b in zip(rx, ry)) / (vx * vy) ** 0.5 if vx and vy else None
 
 
 def load(cfg_path):
@@ -104,13 +137,15 @@ def cards(cfg_path, sandbox):
 def score(cfg_path, folder, boss_path):
     cfg, base, table, _ = load(cfg_path)
     back = table["시험"]
-    boss = {k: (v in "○oO") for k, v in MARK.findall(open(boss_path, encoding="utf-8").read())}
+    raw = dict(MARK.findall(open(boss_path, encoding="utf-8").read()))
+    pts = {k: int(v) for k, v in raw.items() if v.isdigit()}
+    boss = {k: (pts[k] >= 4 if k in pts else v in "○oO") for k, v in raw.items()}
     rows = []
     for judge in ("눈", "v1", "v2"):
         runs = [parse_table(f, "K") for f in sorted(glob.glob(os.path.join(folder, f"{judge}-*.md")))]
         if not runs:
             continue
-        hit, detail = 0.0, []
+        hit, same, detail, xs, ys = 0.0, 0.0, [], [], []
         for code, rid in sorted(back.items(), key=lambda kv: kv[1]):
             if rid not in boss:
                 continue
@@ -119,8 +154,16 @@ def score(cfg_path, folder, boss_path):
             got = p if boss[rid] else 1 - p
             hit += got
             detail.append(f"{rid} {'○' if boss[rid] else '×'}:{got:g}")
-        rows.append(f"| {judge} | {hit:g}/{len(boss)} | {' · '.join(detail)} |")
-    return "\n".join(["| 판정자 | 사장님 ○/×와 맞음 | 문항별 |", "|---|---|---|"] + rows)
+            lv = [x for x in (level(r[code]["판정"]) for r in runs if code in r) if x]
+            if rid in pts and lv:
+                same += sum(x == band(pts[rid]) for x in lv) / len(lv)
+                xs.append(sum(lv) / len(lv))
+                ys.append(pts[rid])
+        rho = spearman(xs, ys) if len(xs) >= 3 else None
+        rows.append(f"| {judge} | {hit:g}/{len(boss)} | {f'{same:g}/{len(xs)}' if xs else '—'} | "
+                    f"{'—' if rho is None else f'{rho:.2f}'} | {' · '.join(detail)} |")
+    head = "| 판정자 | 사장님과 맞음(보류 이상 = ○) | 단계 맞음 | 순위 상관 | 문항별 |"
+    return "\n".join([head, "|---|---|---|---|---|"] + rows)
 
 
 def main(argv=None):
