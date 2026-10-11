@@ -74,6 +74,14 @@ def test_CLI_prep_full은_가리지_않은_상징_설명을_따로_쓴다(tmp_pa
     assert not (box / "상징.md").exists()
 
 
+def test_CLI_prep은_샌드박스_경로에_정답이_보이면_멈춘다(tmp_path):
+    plan = tmp_path / "기획서.md"
+    plan.write_text(PLAN, encoding="utf-8")
+    assert main(["prep", str(plan), "--terms", ",".join(TERMS), "--out", str(tmp_path / "울쎄업")]) == 1
+    assert not (tmp_path / "울쎄업").exists()
+    assert main(["prep", str(plan), "--terms", ",".join(TERMS), "--out", str(tmp_path / "B7K2")]) == 0
+
+
 def test_CLI_prep은_이름이_남거나_절이_없으면_멈춘다(tmp_path):
     plan = tmp_path / "기획서.md"
     plan.write_text("# t\n\n## 제품\n- 무엇을: 세럼\n", encoding="utf-8")

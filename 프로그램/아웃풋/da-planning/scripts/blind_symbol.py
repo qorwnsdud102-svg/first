@@ -104,6 +104,8 @@ def main(argv=None):
     if a.cmd == "prep":
         out, probs = prep(Path(a.plan).read_text(encoding="utf-8"), split(a.terms),
                           tuple(split(a.scene)), tuple(split(a.desc)))
+        # 판정 에이전트는 파일 경로를 본다 — 샌드박스 경로에 상징원·제품 이름이 있으면 정답이 샌다(2026-10-11 시험 운전)
+        probs += [f"샌드박스 경로에 이름 '{t}'가 보임 — 무작위 코드 폴더를 쓴다" for t in leftovers(os.path.abspath(a.out), split(a.terms))]
         for x in probs:
             print("✗", x)
         if probs:
