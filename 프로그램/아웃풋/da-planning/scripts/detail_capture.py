@@ -27,6 +27,20 @@ LAZY_JS = """() => { for (const i of document.querySelectorAll('img')) {
     const v = i.getAttribute(k); if (v && i.getAttribute('src') !== v) i.setAttribute('src', v); } } }"""
 HIDE_FIXED_JS = """() => { for (const e of document.querySelectorAll('body *')) {
   const p = getComputedStyle(e).position; if (p === 'fixed' || p === 'sticky') e.style.setProperty('display', 'none', 'important'); } }"""
+# 상세를 '더보기'로 접어 둔 페이지가 있다(2026-10-12 릴리이브 — 조각 9장 아래가 비었다). 상세 쪽 펼치기 단추만 누른다:
+# 글이 '더보기·펼치기' 꼴이고, 보이고, 다른 페이지로 가는 링크가 아니고, class·id에 detail/prd/product/cont/more가 있고, 페이지 위쪽(1200px) 아래에 있는 것. 많아야 2개.
+EXPAND_JS = r"""() => { const re = /^\s*((상품|상세)\s*(상세\s*)?(정보|페이지|설명)?\s*)?(더\s*보기|펼치기|펼쳐\s*보기)\s*[+▼∨⌄>]?\s*$/;
+  const out = [];
+  for (const e of document.querySelectorAll('button, a, div, span')) {
+    if (out.length >= 2) break;
+    const t = (e.innerText || '').trim();
+    if (!re.test(t) || e.children.length > 3 || !(e.offsetWidth || e.offsetHeight)) continue;
+    const href = e.getAttribute('href') || '';
+    if (href && !href.startsWith('#') && !href.startsWith('javascript')) continue;
+    const id = ((e.className || '') + ' ' + (e.id || '')).toString().toLowerCase();
+    if (!/detail|prd|product|cont|more/.test(id) || e.getBoundingClientRect().top + scrollY < 1200) continue;
+    e.click(); out.push(id.trim().slice(0, 40)); }
+  return out; }"""
 
 
 def page_key(url):
@@ -86,6 +100,17 @@ def load_ads(root, keywords):
     return ads
 
 
+def scroll_to_end(page):
+    for _ in range(500):  # 지연 로딩 이미지를 부르려고 끝까지 천천히 내린다
+        page.mouse.wheel(0, 900)
+        page.wait_for_timeout(200)
+        if page.evaluate("window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2"):
+            h = page.evaluate("document.documentElement.scrollHeight")
+            page.wait_for_timeout(1500)
+            if page.evaluate("document.documentElement.scrollHeight") <= h:
+                break
+
+
 def shot(url, out, width=1000, tile=1600, max_tiles=40):
     from playwright.sync_api import sync_playwright
     os.makedirs(out, exist_ok=True)
@@ -94,14 +119,11 @@ def shot(url, out, width=1000, tile=1600, max_tiles=40):
         page = browser.new_context(viewport={"width": width, "height": 1000}, locale="ko-KR").new_page()
         page.goto(url, wait_until="domcontentloaded", timeout=60000)
         page.wait_for_timeout(3000)
-        for _ in range(500):  # 지연 로딩 이미지를 부르려고 끝까지 천천히 내린다
-            page.mouse.wheel(0, 900)
-            page.wait_for_timeout(200)
-            if page.evaluate("window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2"):
-                h = page.evaluate("document.documentElement.scrollHeight")
-                page.wait_for_timeout(1500)
-                if page.evaluate("document.documentElement.scrollHeight") <= h:
-                    break
+        scroll_to_end(page)
+        opened = page.evaluate(EXPAND_JS)
+        if opened:
+            page.wait_for_timeout(2000)
+            scroll_to_end(page)
         page.evaluate(LAZY_JS)
         try:
             page.wait_for_load_state("networkidle", timeout=20000)
@@ -119,7 +141,8 @@ def shot(url, out, width=1000, tile=1600, max_tiles=40):
         cut = height > tile * max_tiles
         open(os.path.join(out, "page.txt"), "w", encoding="utf-8").write(
             f"요청 주소: {url}\n최종 주소: {page.url}\n제목: {page.title()}\n높이: {height}px · 조각 {n}장(조각 높이 {tile}px)"
-            + (f" — {tile * max_tiles}px 아래는 잘림\n" if cut else "\n"))
+            + (f" — {tile * max_tiles}px 아래는 잘림\n" if cut else "\n")
+            + (f"펼침: 접힌 상세를 '더보기'로 펼침({', '.join(opened)})\n" if opened else ""))
         open(os.path.join(out, "text.txt"), "w", encoding="utf-8").write(page.evaluate("document.body.innerText"))
         browser.close()
     return n, height
