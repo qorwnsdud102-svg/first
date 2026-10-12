@@ -28,19 +28,21 @@ LAZY_JS = """() => { for (const i of document.querySelectorAll('img')) {
 HIDE_FIXED_JS = """() => { for (const e of document.querySelectorAll('body *')) {
   const p = getComputedStyle(e).position; if (p === 'fixed' || p === 'sticky') e.style.setProperty('display', 'none', 'important'); } }"""
 # 상세를 '더보기'로 접어 둔 페이지가 있다(2026-10-12 릴리이브 — 조각 9장 아래가 비었다). 상세 쪽 펼치기 단추만 누른다:
-# 글이 '더보기·펼치기' 꼴이고, 보이고, 다른 페이지로 가는 링크가 아니고, class·id에 detail/prd/product/cont/more가 있고, 페이지 위쪽(1200px) 아래에 있는 것. 많아야 2개.
+# 글이 '더보기·펼치기' 꼴이고, 보이고, 다른 페이지로 가는 링크가 아니고, 페이지 위쪽(1200px) 아래에 있는 것. 많아야 2개.
+# class·id에 detail/prd/product/cont가 든 단추를 먼저 누르고, 없을 때만 more가 든 단추를 누른다
+# (2026-10-12 한의비책 — 리뷰 위젯의 'dcr-rv-more'가 먼저 눌렸다).
 EXPAND_JS = r"""() => { const re = /^\s*((상품|상세)\s*(상세\s*)?(정보|페이지|설명)?\s*)?(더\s*보기|펼치기|펼쳐\s*보기)\s*[+▼∨⌄>]?\s*$/;
-  const out = [];
+  const cand = [];
   for (const e of document.querySelectorAll('button, a, div, span')) {
-    if (out.length >= 2) break;
     const t = (e.innerText || '').trim();
     if (!re.test(t) || e.children.length > 3 || !(e.offsetWidth || e.offsetHeight)) continue;
     const href = e.getAttribute('href') || '';
     if (href && !href.startsWith('#') && !href.startsWith('javascript')) continue;
-    const id = ((e.className || '') + ' ' + (e.id || '')).toString().toLowerCase();
-    if (!/detail|prd|product|cont|more/.test(id) || e.getBoundingClientRect().top + scrollY < 1200) continue;
-    e.click(); out.push(id.trim().slice(0, 40)); }
-  return out; }"""
+    if (e.getBoundingClientRect().top + scrollY < 1200) continue;
+    cand.push([e, ((e.className || '') + ' ' + (e.id || '')).toString().toLowerCase()]); }
+  let pick = cand.filter(([e, id]) => /detail|prd|product|cont/.test(id));
+  if (!pick.length) pick = cand.filter(([e, id]) => /more/.test(id));
+  return pick.slice(0, 2).map(([e, id]) => { e.click(); return id.trim().slice(0, 40); }); }"""
 
 
 def page_key(url):
