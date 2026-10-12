@@ -30,7 +30,8 @@ function judge(name, tag) {
     { label: tag + ' ' + name, phase: 'Check', agentType: 'Explore', model: 'opus', effort: 'max' })
 }
 function verdict(t) { const m = /판정:\s*\**\s*(통과|경고|탈락)/.exec(t || ''); return m ? m[1] : '모름' }
-function oneLine(s) { return (s || '').replace(/["`$\\]/g, '').replace(/\s+/g, ' ').trim().slice(0, 120) }
+// --fix 한 줄은 셸 명령에 들어간다 — 한글·영숫자·쉼표·마침표 등만 남긴다(4회차 10번이 따옴표로 멈춤)
+function oneLine(s) { return (s || '').replace(/[^가-힣A-Za-z0-9 .,·%~+\-]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 120) }
 function afterPlan(name, fix) {
   return mech(py('after_plan.py', name + (fix ? ` --fix "${oneLine(fix)}"` : '')), '검사 준비 ' + name, 'Check')
 }
@@ -168,7 +169,7 @@ async function eyeChain() {
 
 phase('Eye')
 const out = await parallel([
-  eyeChain,
+  () => A.skipEye ? null : eyeChain(),
   () => extraNames.length ? agent(linksPrompt(extraNames), { label: '제품 링크', phase: 'Screen', agentType: 'general-purpose', model: 'sonnet' }) : null,
   () => extraNames.length ? agent(extrasPrompt(extraNames), { label: '신호등·정하실 것', phase: 'Screen', agentType: 'general-purpose', model: 'sonnet' }) : null,
 ])

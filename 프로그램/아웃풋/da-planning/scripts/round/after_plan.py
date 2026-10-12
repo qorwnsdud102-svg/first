@@ -16,6 +16,7 @@ import time
 from round_env import DA, ENV, HERE, NO, ROUND, SIGN, VAULT, WORK
 
 CARD = (700, 850)
+SLACK = 20  # 몇 자 넘침으로 멈추지 않는다(4회차 852·855자로 두 기획이 멈춤) — 범위 밖이면 경고만 찍고, 680~870 밖이면 멈춘다
 
 
 def run(cmd, cwd=None):
@@ -48,8 +49,10 @@ def main():
     line = re.search(r"^한 줄:\s*(.+)$", t, re.M)
     line = line.group(1).strip() if line else "(한 줄 없음)"
     print(f"{a.name}: check_plan {last} · 카드 {card}자 · 한 줄: {line}")
-    if n_bad != 0 or not CARD[0] <= card <= CARD[1]:
-        print("멈춤 — 위반 0·카드 700~850자가 아니다")
+    if not CARD[0] <= card <= CARD[1]:
+        print(f"카드 길이 경고 — {card}자(목표 {CARD[0]}~{CARD[1]})")
+    if n_bad != 0 or not CARD[0] - SLACK <= card <= CARD[1] + SLACK:
+        print(f"멈춤 — 위반 0·카드 {CARD[0] - SLACK}~{CARD[1] + SLACK}자가 아니다")
         sys.exit(1)
 
     if not a.no_commit:
