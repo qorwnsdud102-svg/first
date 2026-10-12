@@ -54,7 +54,9 @@ def run(keywords, out, sites=DEFAULT_SITES, max_posts=20, filt="smart", pause=30
     state_path = os.path.join(out, "_수집.json")
     state = json.load(open(state_path, encoding="utf-8")) if os.path.exists(state_path) else []
     done = {s["키워드"] for s in state if s.get("파일") and not s.get("막힘")}
+    # 창을 띄우지 않는다(사장님 작업 화면을 가림, 2026-10-12). 창을 보고 싶으면 CRAWL_HEADLESS=0으로 돌린다.
     env = dict(os.environ, PYTHONIOENCODING="utf-8")
+    env.setdefault("CRAWL_HEADLESS", "1")
     ran = 0
     for kw in keywords:
         if kw in done:
