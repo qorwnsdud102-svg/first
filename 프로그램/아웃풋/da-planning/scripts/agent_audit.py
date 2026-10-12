@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """서브에이전트 도구 호출 감사 — 허용 폴더 밖을 읽었거나 허용 밖 도구를 썼는지 본다.
 
-사용: python agent_audit.py --allow <폴더> <agent-id> [<agent-id> ...]
+사용: python agent_audit.py --allow <폴더> [--allow <파일·폴더> ...] <agent-id> [<agent-id> ...]
   허용: Read·Grep·Glob(경로가 허용 폴더 안), SubagentHandback, ToolSearch. --web 이면 WebSearch·WebFetch도.
   Grep·Glob에 경로가 없으면(기본 = 볼트 작업 폴더) 밖으로 친다. 그 밖의 도구는 모두 '무효'.
 """
@@ -25,7 +25,7 @@ def inside(p, allow):
     if not p:
         return False
     p = norm(p.split("*")[0].rstrip("/\\") or p)
-    return p == allow or p.startswith(allow + os.sep)
+    return any(p == x or p.startswith(x + os.sep) for x in ([allow] if isinstance(allow, str) else allow))
 
 
 def audit(agent_id, allow, web=False):
@@ -62,11 +62,12 @@ def audit(agent_id, allow, web=False):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--allow", required=True)
+    ap.add_argument("--allow", required=True, action="append",
+                    help="여러 번 줄 수 있다 — 샌드박스 + 지시문이 읽으라고 적은 파일(2026-10-12 핵심 옮김 검사)")
     ap.add_argument("--web", action="store_true", help="WebSearch·WebFetch 허용(히트 해부용)")
     ap.add_argument("agent_ids", nargs="+")
     a = ap.parse_args()
-    allow = norm(a.allow)
+    allow = [norm(x) for x in a.allow]
     sys.stdout.reconfigure(encoding="utf-8")
     any_bad = False
     for aid in a.agent_ids:
