@@ -29,7 +29,8 @@ def inside(p, allow):
 
 
 def audit(agent_id, allow, web=False):
-    hits = glob.glob(os.path.join(BASE, "*", "subagents", f"agent-{agent_id}.jsonl"))
+    hits = (glob.glob(os.path.join(BASE, "*", "subagents", f"agent-{agent_id}.jsonl"))
+            or glob.glob(os.path.join(BASE, "*", "subagents", "workflows", "*", f"agent-{agent_id}.jsonl")))  # 워크플로 안 에이전트
     if not hits:
         return ["기록 없음"], collections.Counter()
     bad, used = [], collections.Counter()
