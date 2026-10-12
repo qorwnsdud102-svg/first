@@ -1,0 +1,366 @@
+<title>기획 __NO__회차 판정</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
+<style>
+/* 한 줄 세로 흐름: 기획 카드 → 히트 해부 → 켜고 끄는 결정. 카드는 판정 단위에만 쓴다. (1~3회차 화면과 같은 토큰) */
+:root {
+  --bg: #f4f5f2;
+  --surface: #ffffff;
+  --ink: #1c2421;
+  --muted: #5b6662;
+  --line: #dfe3df;
+  --chip: #ecefeb;
+  --accent: #2c6e5a;
+  --accent-ink: #ffffff;
+  --link: #1f5f8b;
+  --ok: #2f8a4e;
+  --mid: #6b7f1f;
+  --warn: #b7791f;
+  --bad: #c0442b;
+  --no: #5b6662;
+  --on-band: #ffffff;
+  --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --font-num: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121614; --surface: #1a201d; --ink: #e6ebe8; --muted: #9aa6a1; --line: #2b3430; --chip: #222a26;
+    --accent: #6cc3a5; --accent-ink: #0f1a16; --link: #8cc4ea; --ok: #5cc580; --mid: #b5cf5f; --warn: #e2a948; --bad: #f0795c;
+    --no: #9aa6a1; --on-band: #0f1a16;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121614; --surface: #1a201d; --ink: #e6ebe8; --muted: #9aa6a1; --line: #2b3430; --chip: #222a26;
+  --accent: #6cc3a5; --accent-ink: #0f1a16; --link: #8cc4ea; --ok: #5cc580; --mid: #b5cf5f; --warn: #e2a948; --bad: #f0795c;
+  --no: #9aa6a1; --on-band: #0f1a16;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; padding-block: 24px 64px; display: grid; gap: 28px; }
+h1, h2 { text-wrap: balance; margin: 0; line-height: 1.3; }
+h1 { font-size: 1.6rem; font-weight: 700; }
+h2 { font-size: 1.15rem; font-weight: 700; }
+.lede { color: var(--muted); margin: 6px 0 0; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-top: 12px; }
+.count { font-family: var(--font-num); font-variant-numeric: tabular-nums; font-size: .95rem; }
+.status { font-size: .85rem; color: var(--muted); }
+.status.bad { color: var(--bad); }
+section { display: grid; gap: 12px; }
+.sec-head { display: grid; gap: 4px; }
+.sec-head p { margin: 0; color: var(--muted); font-size: .92rem; }
+.stack { display: grid; gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.card.done { border-color: var(--accent); }
+.tag { display: inline-block; font-size: .78rem; letter-spacing: .02em; background: var(--chip); color: var(--muted); border-radius: 999px; padding: 1px 10px; }
+.conf { font-size: .8rem; color: var(--muted); }
+.oneline { font-size: 1.12rem; font-weight: 700; margin: 0; }
+.reason { margin: 0; }
+.fixed { margin: 0; font-size: .9rem; color: var(--muted); }
+.fixed b { color: var(--ink); font-weight: 600; }
+.facts { display: grid; grid-template-columns: 7.5em minmax(0, 1fr); gap: 8px 14px; margin: 0; }
+.facts dt { font-weight: 600; color: var(--muted); font-size: .9rem; padding-top: 1px; }
+.facts dt.key { color: var(--accent); }
+.facts dd { margin: 0; min-width: 0; }
+.links { display: flex; flex-wrap: wrap; gap: 2px 14px; margin-top: 4px; font-size: .86rem; }
+.links a { color: var(--link); text-underline-offset: 2px; overflow-wrap: anywhere; }
+.lights { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0; padding: 0; list-style: none; font-size: .88rem; }
+.lights li { display: flex; gap: 6px; align-items: baseline; min-width: 0; }
+.dot { width: 9px; height: 9px; border-radius: 50%; flex: none; transform: translateY(-1px); display: inline-block; }
+.dot.ok { background: var(--ok); } .dot.warn { background: var(--warn); } .dot.bad { background: var(--bad); }
+.lights small { color: var(--muted); }
+details { font-size: .9rem; }
+details summary { cursor: pointer; color: var(--muted); }
+details ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 4px; }
+.judge { border-top: 1px solid var(--line); padding-top: 14px; display: grid; gap: 14px; }
+.judge-row { display: grid; gap: 8px; }
+.row-head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.row-label { font-weight: 600; font-size: .95rem; }
+.pick { font-family: var(--font-num); font-variant-numeric: tabular-nums; font-weight: 700; }
+.nums { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 6px; }
+.num { font-family: var(--font-num); font-size: 1.2rem; font-weight: 700; min-height: 46px; padding: 0; border-radius: 8px; border: 1.5px solid var(--line); border-bottom-width: 5px; background: var(--surface); color: var(--ink); cursor: pointer; }
+.num.b-bad { border-bottom-color: var(--bad); } .num.b-warn { border-bottom-color: var(--warn); }
+.num.b-mid { border-bottom-color: var(--mid); } .num.b-ok { border-bottom-color: var(--ok); }
+.num[aria-pressed="true"] { color: var(--on-band); }
+.num[aria-pressed="true"].b-bad { background: var(--bad); border-color: var(--bad); }
+.num[aria-pressed="true"].b-warn { background: var(--warn); border-color: var(--warn); }
+.num[aria-pressed="true"].b-mid { background: var(--mid); border-color: var(--mid); }
+.num[aria-pressed="true"].b-ok { background: var(--ok); border-color: var(--ok); }
+.legend { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: .84rem; color: var(--muted); }
+.legend span::before { content: ""; display: inline-block; width: 12px; height: 5px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+.legend .l-bad::before { background: var(--bad); } .legend .l-warn::before { background: var(--warn); }
+.legend .l-mid::before { background: var(--mid); } .legend .l-ok::before { background: var(--ok); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: inherit; font-size: .92rem; min-height: 40px; padding: 4px 14px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+.choose { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 1.05rem; min-width: 64px; min-height: 44px; padding: 6px 16px; border-radius: 8px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.btn[aria-pressed="true"].yes { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn[aria-pressed="true"].no { background: var(--no); border-color: var(--no); color: var(--surface); }
+.num:focus-visible, .chip:focus-visible, .btn:focus-visible, input:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note-row { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+.note { font: inherit; font-size: .95rem; flex: 1 1 260px; min-width: 0; min-height: 44px; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
+.saved { font-size: .8rem; color: var(--muted); }
+.plain { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+.dropped { margin: 0; font-size: .9rem; color: var(--muted); }
+.dropped:empty { display: none; }
+.chat { font-size: .9rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; margin: 0; }
+.chat code { font-family: var(--font-num); background: var(--chip); border-radius: 4px; padding: 1px 6px; overflow-wrap: anywhere; }
+@media (max-width: 560px) {
+  .facts { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .facts dd { margin-bottom: 8px; }
+  .nums { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+@media (prefers-reduced-motion: no-preference) { .num, .chip, .btn { transition: background .12s, border-color .12s, color .12s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>기획 __NO__회차 판정</h1>
+    <p class="lede" id="lede"></p>
+    <div class="bar">
+      <span class="count" id="count"></span>
+      <span class="status" id="status">저장 준비 중…</span>
+    </div>
+  </header>
+
+  <section aria-labelledby="h-plans">
+    <div class="sec-head">
+      <h2 id="h-plans">1. 기획 — 진행해 볼 만한가</h2>
+      <p>점수 띠는 1~3 기각 · 4~5 보류 · 6~7 조건부(고치면 진행) · 8~10 진행입니다. 신호등은 다른 Claude가 미리 본 검사입니다.</p>
+    </div>
+    <div class="stack" id="plans"></div>
+    <p class="dropped" id="dropped"></p>
+  </section>
+
+  <section aria-labelledby="h-hits">
+    <div class="sec-head">
+      <h2 id="h-hits">2. 히트 해부 — 잘되는 이유를 맞게 찾았나</h2>
+      <p>지금 메타 광고로 팔리고 있거나 예전에 검색이 높았던 제품입니다. 상세페이지를 끝까지 보고 제품 기획(이름·원료·숫자·용기)에서 이유를 찾았습니다. 점수 띠는 1~3 틀림 · 4~6 반쯤 · 7~10 맞음이고, 틀렸으면 진짜 이유를 한 줄로 적어 주세요.</p>
+    </div>
+    <div class="stack" id="hits"></div>
+  </section>
+
+  <section aria-labelledby="h-toggles">
+    <div class="sec-head">
+      <h2 id="h-toggles">3. 켜고 끄는 결정</h2>
+      <p>○면 그대로 진행합니다. ×면 이유 칸에 한 줄만 적어 주세요.</p>
+    </div>
+    <div class="stack" id="toggles"></div>
+  </section>
+
+  <details class="changes">
+    <summary>__PREV__회차 판정 뒤 바꾼 것 (읽기만)</summary>
+    <ul class="plain" id="changes"></ul>
+  </details>
+
+  <p class="chat" id="chat"></p>
+</div>
+
+<script>
+const DATA = __DATA__;
+const FACTS = [["gap", "결핍"], ["borrow", "빌려 온 것"], ["why", "왜 이걸 빌리나", true], ["product", "제품", true],
+  ["money", "가격·돈"], ["scene", "첫 광고 장면"], ["risk", "걸리는 점"]];
+const BANDS = {
+  plan: [[1, 3, "기각", "bad"], [4, 5, "보류", "warn"], [6, 7, "조건부", "mid"], [8, 10, "진행", "ok"]],
+  hit: [[1, 3, "틀림", "bad"], [4, 6, "반쯤", "warn"], [7, 10, "맞음", "ok"]],
+};
+const PARTS = ["결핍", "빌린 상징", "제품", "한 줄·광고", "돈·위험", "없음"];
+const PLANS = DATA.plans, HITS = DATA.hits || [], TOGGLES = DATA.toggles || [];
+const KIND = {};
+PLANS.forEach(p => KIND[p.id] = "plan"); HITS.forEach(h => KIND[h.id] = "hit"); TOGGLES.forEach(t => KIND[t.id] = "toggle");
+const IDS = Object.keys(KIND);
+const state = {};
+let db = null;
+
+function el(tag, attrs, ...kids) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (k === "class") n.className = v; else if (k === "text") n.textContent = v; else n.setAttribute(k, v);
+  }
+  for (const c of kids) if (c) n.append(c);
+  return n;
+}
+
+function bandOf(kind, n) { return BANDS[kind].find(b => n >= b[0] && n <= b[1]); }
+
+function scoreRow(id, kind) {
+  const nums = el("div", { class: "nums", role: "group", "aria-label": "점수 1~10" });
+  for (let n = 1; n <= 10; n++) {
+    const b = bandOf(kind, n);
+    const btn = el("button", { class: "num b-" + b[3], type: "button", "aria-pressed": "false", "data-id": id, "data-score": String(n), "aria-label": n + "점, " + b[2] }, String(n));
+    btn.addEventListener("click", () => save(id, { score: n }));
+    nums.append(btn);
+  }
+  const legend = el("div", { class: "legend" });
+  for (const [lo, hi, word, c] of BANDS[kind]) legend.append(el("span", { class: "l-" + c, text: lo + "~" + hi + " " + word }));
+  return el("div", { class: "judge-row" },
+    el("div", { class: "row-head" }, el("span", { class: "row-label", text: "점수" }), el("span", { class: "pick", id: "pick-" + id })),
+    nums, legend);
+}
+
+function partsRow(id) {
+  const chips = el("div", { class: "chips", role: "group", "aria-label": "제일 걸리는 곳" });
+  for (const p of PARTS) {
+    const c = el("button", { class: "chip", type: "button", "aria-pressed": "false", "data-id": id, "data-part": p }, p);
+    c.addEventListener("click", () => save(id, { weak: p }));
+    chips.append(c);
+  }
+  return el("div", { class: "judge-row" }, el("span", { class: "row-label", text: "제일 걸리는 곳" }), chips);
+}
+
+function markRow(id) {
+  const row = el("div", { class: "choose", role: "group", "aria-label": "○ 진행 / × 안 함" });
+  for (const [mark, cls, word] of [["○", "yes", "진행"], ["×", "no", "안 함"]]) {
+    const b = el("button", { class: "btn " + cls, type: "button", "aria-pressed": "false", "data-id": id, "data-mark": mark, "aria-label": mark + " " + word }, mark);
+    b.addEventListener("click", () => save(id, { mark }));
+    row.append(b);
+  }
+  return row;
+}
+
+function noteRow(id, hint) {
+  const note = el("input", { class: "note", type: "text", id: "note-" + id, placeholder: hint, "aria-label": hint, "data-id": id });
+  note.addEventListener("change", () => save(id, { note: note.value.trim() }));
+  return el("div", { class: "note-row" }, note, el("span", { class: "saved", id: "saved-" + id }));
+}
+
+function linkLine(list) {
+  if (!list || !list.length) return null;
+  const box = el("span", { class: "links" });
+  for (const [label, url] of list) box.append(el("a", { href: url, target: "_blank", rel: "noopener", text: label + " ↗" }));
+  return box;
+}
+
+function renderPlans() {
+  const box = document.getElementById("plans");
+  for (const p of PLANS) {
+    const facts = el("dl", { class: "facts" });
+    for (const [key, name, main] of FACTS) {
+      if (!p.facts[key]) continue;
+      const dd = el("dd", {}, document.createTextNode(p.facts[key]));
+      const links = linkLine((p.links || {})[key]);
+      if (links) dd.append(el("br"), links);
+      facts.append(el("dt", { class: main ? "key" : "", text: name }), dd);
+    }
+    const card = el("article", { class: "card", id: "card-" + p.id },
+      el("div", {}, el("span", { class: "tag", text: p.need })),
+      el("p", { class: "oneline", text: p.line }),
+      facts);
+    if (p.lights && p.lights.length) {
+      const lights = el("ul", { class: "lights" });
+      for (const [lv, name, sub] of p.lights) {
+        lights.append(el("li", {}, el("span", { class: "dot " + lv, "aria-hidden": "true" }), el("span", { text: name }), sub ? el("small", { text: sub }) : null));
+      }
+      card.append(lights);
+    }
+    if (p.fixed) card.append(el("p", { class: "fixed" }, el("b", { text: "검사 뒤 고친 것 " }), document.createTextNode(p.fixed)));
+    if (p.defaults && p.defaults.length) {
+      const ul = el("ul");
+      for (const d of p.defaults) ul.append(el("li", { text: d }));
+      card.append(el("details", {}, el("summary", { text: "정하실 것 " + p.defaults.length + "개 — 추천대로 갑니다 (바꾸실 것만 이유 칸에)" }), ul));
+    }
+    card.append(el("div", { class: "judge" }, scoreRow(p.id, "plan"), partsRow(p.id),
+      noteRow(p.id, "왜 이 점수인지 한 줄 — 짧아도 제일 많이 배웁니다")));
+    box.append(card);
+  }
+  document.getElementById("h-plans").textContent = "1. 기획 " + PLANS.length + "개 — 진행해 볼 만한가";
+  if (DATA.dropped && DATA.dropped.length) document.getElementById("dropped").textContent = "화면에서 뺀 기획: " + DATA.dropped.join(" · ");
+}
+
+function renderHits() {
+  const box = document.getElementById("hits");
+  for (const h of HITS) {
+    const facts = el("dl", { class: "facts" });
+    for (const [name, text, main] of [["무엇", h.what], ["잘되는 이유", h.reason, true], ["우리가 배울 길", h.way]]) {
+      if (text) facts.append(el("dt", { class: main ? "key" : "", text: name }), el("dd", { text: text }));
+    }
+    const head = el("div", {}, el("span", { class: "tag", text: h.brand }), document.createTextNode(" "), el("span", { class: "conf", text: h.conf }));
+    const links = linkLine(h.links);
+    box.append(el("article", { class: "card", id: "card-" + h.id }, head, facts, links,
+      el("div", { class: "judge" }, scoreRow(h.id, "hit"), noteRow(h.id, "틀린 곳이 있으면 진짜 이유 한 줄"))));
+  }
+  document.getElementById("h-hits").textContent = "2. 히트 해부 " + HITS.length + "장 — 잘되는 이유를 맞게 찾았나";
+}
+
+function renderToggles() {
+  const box = document.getElementById("toggles");
+  for (const t of TOGGLES) {
+    const card = el("article", { class: "card", id: "card-" + t.id }, el("p", { class: "oneline", text: t.title }), el("p", { class: "reason", text: t.text }));
+    if (t.why) card.append(el("p", { class: "fixed" }, el("b", { text: "왜 " }), document.createTextNode(t.why)));
+    if (t.items && t.items.length) {
+      const ul = el("ul", { class: "plain" });
+      for (const x of t.items) ul.append(el("li", { text: x }));
+      card.append(ul);
+    }
+    card.append(el("div", { class: "judge" }, markRow(t.id), noteRow(t.id, t.hint || "×면 이유 한 줄")));
+    box.append(card);
+  }
+}
+
+function answered(id) {
+  const s = state[id] || {};
+  return KIND[id] === "toggle" ? !!s.mark : Number.isInteger(s.score);
+}
+
+function paint(id) {
+  const s = state[id] || {};
+  const mine = sel => document.querySelectorAll('[data-id="' + id + '"]' + sel);
+  mine("[data-score]").forEach(b => b.setAttribute("aria-pressed", String(Number(b.dataset.score) === s.score)));
+  mine("[data-part]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.part === s.weak)));
+  mine("[data-mark]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mark === s.mark)));
+  const pick = document.getElementById("pick-" + id);
+  if (pick) pick.textContent = Number.isInteger(s.score) && BANDS[KIND[id]] ? s.score + "점 · " + bandOf(KIND[id], s.score)[2] : "";
+  const note = document.getElementById("note-" + id);
+  if (note && document.activeElement !== note && typeof s.note === "string") note.value = s.note;
+  const card = document.getElementById("card-" + id);
+  if (card) card.classList.toggle("done", answered(id));
+  document.getElementById("count").textContent = IDS.length + "개 중 " + IDS.filter(answered).length + "개 답함";
+}
+
+function setStatus(text, bad) {
+  const s = document.getElementById("status");
+  s.textContent = text; s.classList.toggle("bad", !!bad);
+}
+
+async function save(id, patch) {
+  const next = Object.assign({}, state[id] || {}, patch, { at: new Date().toISOString() });
+  state[id] = next;
+  paint(id);
+  const tag = document.getElementById("saved-" + id);
+  if (!db) { setStatus("이 화면에서는 저장되지 않습니다. 채팅으로 답해 주세요.", true); return; }
+  try {
+    await db.doc("answers/" + id).set(next);
+    if (tag) tag.textContent = "저장됨";
+    setStatus("누르시는 대로 저장됩니다.");
+  } catch (e) {
+    if (tag) tag.textContent = "저장 안 됨";
+    setStatus("저장이 안 됐습니다. 채팅으로 답해 주세요.", true);
+  }
+}
+
+function renderRest() {
+  document.getElementById("lede").textContent = "기획 " + PLANS.length + "개는 점수(1~10) · 제일 걸리는 곳 · 이유 한 줄, 해부 " + HITS.length +
+    "장은 점수만(틀렸으면 한 줄), 결정 " + TOGGLES.length + "개는 ○/×입니다. 15분쯤 걸리고, 누르시는 대로 저장됩니다.";
+  const ul = document.getElementById("changes");
+  for (const t of DATA.changes || []) ul.append(el("li", { text: t }));
+  const ex = "기획 " + PLANS.map((_, i) => [6, 4, 3, 5, 7][i % 5]).join(" ") + " / 해부 " + HITS.map((_, i) => [8, 5, 7, 3, 9][i % 5]).join(" ") +
+    " / 결정 " + TOGGLES.map(() => "○").join(" ");
+  document.getElementById("chat").append("채팅으로 답하셔도 됩니다. 예: ", el("code", { text: ex }), " 다음 줄부터 기획마다 걸리는 곳과 이유 한 줄.");
+  document.getElementById("count").textContent = IDS.length + "개 중 0개 답함";
+}
+
+renderPlans(); renderHits(); renderToggles(); renderRest();
+
+(async () => {
+  try { db = window.claude && window.claude.use ? await window.claude.use("db") : null; } catch (e) { db = null; }
+  if (!db) { setStatus("이 화면에서는 저장되지 않습니다. 채팅으로 답해 주세요.", true); return; }
+  setStatus("누르시는 대로 저장됩니다.");
+  db.collection("answers").onSnapshot(snap => {
+    for (const d of snap.docs) if (d.exists) state[d.id] = Object.assign({}, d.data());
+    for (const id of Object.keys(state)) if (KIND[id]) paint(id);
+  }, () => setStatus("저장 연결이 끊겼습니다. 채팅으로 답해 주세요.", true));
+})();
+</script>
