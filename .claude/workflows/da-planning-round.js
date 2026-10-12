@@ -1,11 +1,11 @@
 export const meta = {
   name: 'da-planning-round',
-  description: 'DA 기획 회차: (기획자) → 위반·카드 검사·커밋 → 핵심 옮김 검사 → 탈락이면 고침·재검사(재검사 탈락이면 2명째) → 카드 정리 → 사장님 눈 2명(봉인용) + 제품 링크·신호등',
-  whenToUse: 'DA 기획 자가학습 회차를 기획부터(또는 중간부터) 끝까지 돌릴 때. args: round, work, eye, plans[{name, stage: plan|first|recheck, fix?}], passed[], extras[]',
+  description: 'DA 기획 회차: (기획자) → 위반·카드 검사·커밋 → 핵심 옮김 검사 → 탈락이면 고침·재검사(재검사 탈락이면 2명째) → 판례 비평 1명(봉인) → 카드 정리 → 사장님 눈(봉인) + 제품 링크·신호등',
+  whenToUse: 'DA 기획 자가학습 회차를 기획부터(또는 중간부터) 끝까지 돌릴 때. args: round, work, eye, plans[{name, stage: plan|first|recheck, fix?}], passed[], extras[], critic(기본 true), eyeOrders(기본 [1])',
   phases: [
     { title: 'Plan', detail: '기획자(새 기획만)' },
-    { title: 'Check', detail: '핵심 옮김 검사 · 고침 · 재검사' },
-    { title: 'Eye', detail: '카드 정리 1명 → 사장님 눈 2명' },
+    { title: 'Check', detail: '핵심 옮김 검사 · 고침 · 재검사 · 판례 비평' },
+    { title: 'Eye', detail: '카드 정리 1명 → 사장님 눈(기본 순서 1 한 명)' },
     { title: 'Screen', detail: '제품 링크 · 신호등 · 정하실 것' },
   ],
 }
@@ -26,7 +26,7 @@ function mech(cmd, label, ph) {
 }
 function py(script, rest) { return `cd "${TOOLS}" && ${ENVS} python ${script} ${rest}` }
 function judge(name, tag) {
-  return agent(READ + ' 마지막 답은 지시문의 출력 일곱 줄만 쓴다.\n\n지시문: ' + WIN + '\\core\\' + name.split('-')[0] + '\\_지시.md',
+  return agent(READ + ' 마지막 답은 지시문의 출력 줄만 쓴다.\n\n지시문: ' + WIN + '\\core\\' + name.split('-')[0] + '\\_지시.md',
     { label: tag + ' ' + name, phase: 'Check', agentType: 'Explore', model: 'opus', effort: 'max' })
 }
 function verdict(t) { const m = /판정:\s*\**\s*(통과|경고|탈락)/.exec(t || ''); return m ? m[1] : '모름' }
@@ -44,7 +44,7 @@ function fixer(name, judgeText) {
 1. 처음 받은 지시문 ${WIN}\\prompt-${name}.txt 를 Read로 읽어 규칙·재료·'마지막 답' 형식을 확인한다.
 2. 기획 폴더 ${RWIN}\\${name}\\ 의 2-출발점.md·3-결핍카드.md·4-상징설계.md·5-참신함.md·6-사업메모.md·기획서.md를 읽는다.
 
-핵심 옮김 검사(v3) 결과가 '탈락'이다. 한 번 고칠 기회가 있다. 고친 설계로 다시 검사하고, 또 탈락이면 이 기획은 사장님 화면에서 빠진다.
+핵심 옮김 검사 결과가 '탈락'이다. 한 번 고칠 기회가 있다. 고친 설계로 다시 검사하고, 또 탈락이면 이 기획은 사장님 화면에서 빠진다.
 
 검사자의 답(그대로):
 ${judgeText}
@@ -85,12 +85,20 @@ async function one(p) {
     rec.steps.push({ kind: 'recheckA', text: a })
     v = verdict(a)
   }
-  if (v === '모름') { rec.final = 'unknown'; return rec }
-  if (v !== '탈락') { rec.final = v === '통과' ? 'pass' : 'warn'; return rec }
-  const b = await judge(p.name, '재검사 B')
-  rec.steps.push({ kind: 'recheckB', text: b })
-  rec.final = verdict(b) === '탈락' ? 'drop' : 'split'
+  if (v === '모름') rec.final = 'unknown'
+  else if (v !== '탈락') rec.final = v === '통과' ? 'pass' : 'warn'
+  else {
+    const b = await judge(p.name, '재검사 B')
+    rec.steps.push({ kind: 'recheckB', text: b })
+    rec.final = verdict(b) === '탈락' ? 'drop' : 'split'
+  }
+  // 판례 비평(봉인 예측): 화면에 오르는 기획만, 마지막 설계로. after_plan이 critic 샌드박스를 만든다(사장님 눈 재료가 있을 때).
+  if (A.critic !== false && rec.final !== 'drop') rec.critic = !!(await critic(p.name))
   return rec
+}
+function critic(name) {
+  return agent(READ + '\n\n지시문: ' + WIN + '\\critic\\C' + name.split('-')[0] + '\\_지시.md',
+    { label: '판례 비평 ' + name, phase: 'Check', agentType: 'Explore', model: 'opus', effort: 'max' })
 }
 
 function linksPrompt(names) {
@@ -153,7 +161,7 @@ async function eyeChain() {
     { label: '카드 정리', phase: 'Eye', agentType: 'general-purpose', model: 'opus', effort: 'max' })
   const c = await mech(py('eye_round.py', A.eye + ' cards'), '판정 카드·지시문·커밋', 'Eye')
   if (!c || !c.ok) return { error: 'cards', out: c ? c.out : '', done }
-  const eyes = await parallel([1, 2].map(r => () => agent(READ + '\n\n지시문: ' + WIN + '\\eye\\judge\\_지시-눈-' + r + '.md',
+  const eyes = await parallel((A.eyeOrders || [1]).map(r => () => agent(READ + '\n\n지시문: ' + WIN + '\\eye\\judge\\_지시-눈-' + r + '.md',
     { label: '사장님 눈 순서' + r, phase: 'Eye', agentType: 'Explore', model: 'opus', effort: 'max' })))
   return { done, cards: c.out, eyes: eyes.map(e => !!e) }
 }
@@ -167,7 +175,7 @@ const out = await parallel([
 return {
   screen, dropped,
   plans: recs.map(r => ({ name: r.name, final: r.final,
-    verdicts: r.steps.filter(s => s.text && /^(first|recheck)/.test(s.kind)).map(s => s.kind + ':' + verdict(s.text)),
+    verdicts: r.steps.filter(s => s.text && /^(first|recheck)/.test(s.kind)).map(s => s.kind + ':' + verdict(s.text)), critic: !!r.critic,
     prep: (r.steps.find(s => s.kind === 'prep') || {}).out })),
   eye: out[0],
   linksDone: !!out[1], extrasDone: !!out[2],

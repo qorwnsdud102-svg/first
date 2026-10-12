@@ -3,6 +3,7 @@
 
 사용: python persist_run.py <워크플로 기록 폴더(journal.jsonl이 있는 곳)> <눈 폴더 이름(예: 눈-v4)>
   '검사 A <기획>'·'재검사 A <기획>'·'재검사 B <기획>' → <회차>/<기획>/핵심옮김-A.md·핵심옮김-재검사-A.md·핵심옮김-재검사-B.md
+  '판례 비평 <기획>' → <회차>/<기획>/비평-판례.md(봉인 예측)
   '사장님 눈 순서1·2' → <눈 폴더>/결과/눈-1.md·눈-2.md
   '제품 링크' → $DA_WORK/page/links-wf.md, '신호등·정하실 것' → $DA_WORK/page/extras-wf.json
 판정자마다 agent_audit.py로 샌드박스(+지시문이 읽으라고 한 파일) 밖을 읽었는지 본다. 커밋은 하지 않는다(출력 경로를 보고 커밋).
@@ -16,6 +17,8 @@ import sys
 from round_env import ENV, ROUND, SCRIPTS, SELF_LEARN, WORK
 
 RULES = os.path.join(r"C:\claude\LLM-WIKI\마케팅\wiki\syntheses", "DA 기획 단계별 규칙.md")
+_first = open(os.path.join(ROUND, "_지시문", "핵심옮김-검사.md"), encoding="utf-8").readline() if os.path.exists(os.path.join(ROUND, "_지시문", "핵심옮김-검사.md")) else ""
+VER = (re.search(r"v\d+", _first) or re.search(r"", "")).group(0) or "v?"
 CORE_FILES = {"검사 A": "핵심옮김-A.md", "재검사 A": "핵심옮김-재검사-A.md", "재검사 B": "핵심옮김-재검사-B.md"}
 
 
@@ -56,10 +59,17 @@ def main(run_dir, eye):
         m = re.match(r"(검사 A|재검사 A|재검사 B) (\S+)$", label)
         if m:
             out = os.path.join(ROUND, m.group(2), CORE_FILES[m.group(1)])
-            head = (f"> 핵심 옮김 검사 v3 {m.group(1)}(워크플로 da-planning-round, 에이전트 {aid}) · 지시문 `../_지시문/핵심옮김-검사.md` · "
+            head = (f"> 핵심 옮김 검사 {VER} {m.group(1)}(워크플로 da-planning-round, 에이전트 {aid}) · 지시문 `../_지시문/핵심옮김-검사.md` · "
                     f"샌드박스 `$DA_WORK/core/{m.group(2)[:2]}/` · Explore 1명(Opus 5.5 max)")
             open(out, "w", encoding="utf-8").write(head + "\n\n" + str(res).strip() + "\n")
             print(out, "|", audit(aid, core_allow(m.group(2))))
+        elif label.startswith("판례 비평 "):
+            name = label[len("판례 비평 "):]
+            out = os.path.join(ROUND, name, "비평-판례.md")
+            head = (f"> 판례 비평(봉인 예측, 워크플로 da-planning-round, 에이전트 {aid}) · 지시문 `../_지시문/판례비평-지시.md` · "
+                    f"샌드박스 `$DA_WORK/critic/C{name[:2]}/` · Explore 1명(Opus 5.5 max). 사장님 판정 전까지 열지 않는다.")
+            open(out, "w", encoding="utf-8").write(head + "\n\n" + str(res).strip() + "\n")
+            print(out, "|", audit(aid, [os.path.join(WORK, "critic", "C" + name[:2])]))
         elif label.startswith("사장님 눈 순서"):
             r = label[-1]
             d = os.path.join(SELF_LEARN, "시험", eye, "결과")
