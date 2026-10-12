@@ -11,7 +11,7 @@ v2는 시험 문항을 새 기획(1회차)으로 바꾸고, 지난 문항 31장�
       사장님 답: '| R1-01 | ○ |' 또는 '| R1-01 | 7 |'(1~10점) 줄. 점수는 4점 이상 = ○(보류 이상).
       판정자 답의 진행·조건부·보류 = ○, 기각 = ×. 두 순서가 갈리면 0.5.
       점수가 오면 단계(1~3 기각·4~5 보류·6~7 조건부·8~10 진행)가 맞는지와 순위 상관(스피어만)도 적는다.
-설정.json: 씨앗, 사례(ID 목록), 사례카드(폴더), 원천(ID→정답지 ID), H사례판정, 판례_끝(이 P-ID까지만), 시험(ID 목록).
+설정.json: 씨앗, 사례(ID 목록), 사례카드(폴더 또는 폴더 목록 — 앞에서부터 찾는다), 원천(ID→정답지 ID), H사례판정, 판례_끝(이 P-ID까지만), 시험(ID 목록).
 시험 카드는 <설정 폴더>/카드/<ID>.md(정규화 7줄)에 둔다.
 """
 import argparse
@@ -82,7 +82,9 @@ def materials(cfg_path, sandbox, ans=None, pan=None):
     if os.path.isdir(jd):
         shutil.rmtree(jd)
     os.makedirs(jd)
-    src, cards = cfg.get("원천", {}), os.path.join(base, cfg["사례카드"])
+    src = cfg.get("원천", {})
+    dirs = cfg["사례카드"] if isinstance(cfg["사례카드"], list) else [cfg["사례카드"]]
+    dirs = [os.path.join(base, d) for d in dirs]
     ids = cfg["사례"]
     rcodes = [f"R{n:02d}" for n in range(1, len(ids) + 1)]
     random.Random(cfg["씨앗"] + 11).shuffle(rcodes)
@@ -95,7 +97,8 @@ def materials(cfg_path, sandbox, ans=None, pan=None):
         else:
             a = ans[src.get(i, i)]
             verdict, quote = a["판정"], clean_quote(a["원문"])
-        card = open(os.path.join(cards, i + ".md"), encoding="utf-8").read().strip()
+        path = next(q for q in (os.path.join(x, i + ".md") for x in dirs) if os.path.exists(q))
+        card = open(path, encoding="utf-8").read().strip()
         blocks.append(f"### {rcode[i]}\n{card}\n- 사장님 판정: {scrub_ids(verdict)}\n- 사장님 말: {scrub_ids(quote)}\n")
     open(os.path.join(jd, "사례.md"), "w", encoding="utf-8").write(
         f"# 판정 사례집 — 사장님이 실제로 판정한 카드 {len(ids)}장\n\n"

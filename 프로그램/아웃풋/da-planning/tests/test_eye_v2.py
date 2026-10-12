@@ -75,3 +75,29 @@ def test_사장님_점수는_보류_이상과_단계_순위로(tmp_path, monkeyp
     boss.write_text("| R1-01 | 10 |\n| R1-02 | 2 |\n| R1-03 | 1 |", encoding="utf-8")
     table = eye_v2.score(str(cfg), str(res), str(boss))
     assert "| 눈 | 2.5/3 | 1.5/3 | 0.87 |" in table and "R1-01 ○:1" in table
+
+
+def test_정답지_W의_점수_판정도_사례로_읽는다(tmp_path, monkeypatch):
+    import eye_build
+    head = "| ID | 기획명 | 사장님 판정 | 원문 |\n|---|---|---|---|\n"
+    for f in ("A", "B", "G", "N", "H"):
+        (tmp_path / f"정답지-{f}.md").write_text(head, encoding="utf-8")
+    (tmp_path / "정답지-W.md").write_text(head + '| W01 | 기미 — 바르는 피코토닝 10회권 | 기각 | "회차권은 상징성 없음" |\n',
+                                       encoding="utf-8")
+    monkeypatch.setattr(eye_build, "SIM", str(tmp_path))
+    rows = eye_build.answer_rows()
+    assert rows["W01"]["판정"] == "기각" and "회차권" in rows["W01"]["원문"]
+
+
+def test_사례카드는_여러_폴더에서_앞부터_찾는다(tmp_path, monkeypatch):
+    cfg, sb = setup(tmp_path, monkeypatch)
+    extra = tmp_path / "눈-v2" / "더"
+    extra.mkdir()
+    (extra / "W01.md").write_text("- 무엇: 회차 기획", encoding="utf-8")
+    c = json.loads(cfg.read_text(encoding="utf-8"))
+    c["사례"], c["사례카드"] = ["A01", "W01"], ["../옛카드", "더"]
+    cfg.write_text(json.dumps(c, ensure_ascii=False), encoding="utf-8")
+    ans = dict(ANS, W01={"판정": "기각", "원문": "\"회차권\"", "행": "", "이름": "다"})
+    out = eye_v2.materials(str(cfg), str(sb), ans=ans, pan=PAN)
+    case = (sb / "judge" / "사례.md").read_text(encoding="utf-8")
+    assert out["사례"] == 2 and "회차 기획" in case and "가 제품" in case

@@ -55,9 +55,9 @@ def held_ids(cfg):
 
 
 def answer_rows():
-    """정답지 A·B·G·N·H 의 첫 표에서 ID별 판정·원문·행. 칸 이름은 머리줄에서 찾는다."""
+    """정답지 A·B·G·N·H·W 의 첫 표에서 ID별 판정·원문·행. 칸 이름은 머리줄에서 찾는다(W = 기획 회차 점수 판정)."""
     rows = {}
-    for f in ("정답지-A.md", "정답지-B.md", "정답지-G.md", "정답지-N.md", "정답지-H.md"):
+    for f in ("정답지-A.md", "정답지-B.md", "정답지-G.md", "정답지-N.md", "정답지-H.md", "정답지-W.md"):
         hdr = None
         for ln in open(os.path.join(SIM, f), encoding="utf-8"):
             if not ln.startswith("|"):
