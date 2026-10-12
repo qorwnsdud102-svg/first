@@ -101,3 +101,48 @@ def test_사례카드는_여러_폴더에서_앞부터_찾는다(tmp_path, monke
     out = eye_v2.materials(str(cfg), str(sb), ans=ans, pan=PAN)
     case = (sb / "judge" / "사례.md").read_text(encoding="utf-8")
     assert out["사례"] == 2 and "회차 기획" in case and "가 제품" in case
+
+
+def test_정답지_W의_점수와_걸리는_곳도_읽는다(tmp_path, monkeypatch):
+    import eye_build
+    head = "| ID | 기획명 | 사장님 판정 | 원문 |\n|---|---|---|---|\n"
+    for f in ("A", "B", "G", "N", "H"):
+        (tmp_path / f"정답지-{f}.md").write_text(head, encoding="utf-8")
+    (tmp_path / "정답지-W.md").write_text(
+        "| ID | 기획명 | 사장님 판정 | 점수 | 제일 걸리는 곳 | 원문 | P-ID |\n|---|---|---|---|---|---|---|\n"
+        '| W01 | 기미 | 기각 | 3 | 빌린 상징 | "회차권은 상징성 없음" | P6251 |\n', encoding="utf-8")
+    monkeypatch.setattr(eye_build, "SIM", str(tmp_path))
+    w = eye_build.answer_rows()["W01"]
+    assert w["점수"] == "3" and w["걸리는 곳"] == "빌린 상징" and "회차권" in w["원문"]
+
+
+def test_사례에_사장님_점수와_걸리는_곳을_붙인다(tmp_path, monkeypatch):
+    cfg, sb = setup(tmp_path, monkeypatch)
+    extra = tmp_path / "눈-v2" / "더"
+    extra.mkdir()
+    (extra / "W01.md").write_text("- 무엇: 회차 기획", encoding="utf-8")
+    c = json.loads(cfg.read_text(encoding="utf-8"))
+    c["사례"], c["사례카드"] = ["W01"], ["../옛카드", "더"]
+    cfg.write_text(json.dumps(c, ensure_ascii=False), encoding="utf-8")
+    ans = dict(ANS, W01={"판정": "기각", "원문": "\"회차권\"", "행": "", "이름": "다", "점수": "3", "걸리는 곳": "빌린 상징"})
+    eye_v2.materials(str(cfg), str(sb), ans=ans, pan=PAN)
+    case = (sb / "judge" / "사례.md").read_text(encoding="utf-8")
+    assert "사장님 판정: 기각 · 3점 · 제일 걸리는 곳: 빌린 상징" in case
+
+
+def test_점수척도가_1_10이면_판정자_점수로_순위_점수차_걸리는_곳(tmp_path, monkeypatch):
+    cfg, sb = setup(tmp_path, monkeypatch)
+    c = json.loads(cfg.read_text(encoding="utf-8"))
+    c["점수척도"] = "1~10"
+    cfg.write_text(json.dumps(c, ensure_ascii=False), encoding="utf-8")
+    k = eye_v2.cards(str(cfg), str(sb))
+    res = tmp_path / "결과"
+    res.mkdir()
+    (res / "눈-1.md").write_text(f"| {k['R1-01']} | 조건부 | 7 | 제품 | x |\n| {k['R1-02']} | 기각 | 2 | 빌린 상징 | x |\n"
+                                f"| {k['R1-03']} | 보류 | 4 | 제품 | x |", encoding="utf-8")
+    (res / "눈-2.md").write_text(f"| {k['R1-01']} | 조건부 | 6 | 제품 | x |\n| {k['R1-02']} | 기각 | 3 | 결핍 | x |\n"
+                                f"| {k['R1-03']} | 보류 | 5 | 돈·위험 | x |", encoding="utf-8")
+    boss = tmp_path / "사장님.md"
+    boss.write_text("| R1-01 | 7 | 제품 |\n| R1-02 | 2 | 빌린 상징 |\n| R1-03 | 4 | 돈·위험 |", encoding="utf-8")
+    table = eye_v2.score(str(cfg), str(res), str(boss))
+    assert "| 눈 | 3/3 | 3/3 | 1.00 | 0.5 | 2/3 |" in table and "점수 차" in table

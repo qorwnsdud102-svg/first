@@ -72,6 +72,9 @@ def answer_rows():
             verdict = next((v for k, v in d.items() if "판정" in k), "")
             quote = next((v for k, v in d.items() if "원문" in k and "파일" not in k), "")
             rows[cells[0]] = {"판정": verdict, "원문": quote, "행": ln, "이름": cells[1]}
+            for key, col in (("점수", "점수"), ("걸리는 곳", "제일 걸리는 곳")):
+                if d.get(col):
+                    rows[cells[0]][key] = d[col]
     return rows
 
 

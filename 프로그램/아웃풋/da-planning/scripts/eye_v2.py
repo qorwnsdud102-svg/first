@@ -11,6 +11,8 @@ v2는 시험 문항을 새 기획(1회차)으로 바꾸고, 지난 문항 31장�
       사장님 답: '| R1-01 | ○ |' 또는 '| R1-01 | 7 |'(1~10점) 줄. 점수는 4점 이상 = ○(보류 이상).
       판정자 답의 진행·조건부·보류 = ○, 기각 = ×. 두 순서가 갈리면 0.5.
       점수가 오면 단계(1~3 기각·4~5 보류·6~7 조건부·8~10 진행)가 맞는지와 순위 상관(스피어만)도 적는다.
+      설정의 '점수척도'가 '1~10'이면 판정자 답 셋째 칸(1~10점)으로 순위 상관·점수 차를 재고,
+      사장님 답 셋째 칸(제일 걸리는 곳, '| R2-01 | 7 | 제품 |')과 판정자 답 넷째 칸을 맞춘다.
 설정.json: 씨앗, 사례(ID 목록), 사례카드(폴더 또는 폴더 목록 — 앞에서부터 찾는다), 원천(ID→정답지 ID), H사례판정, 판례_끝(이 P-ID까지만), 시험(ID 목록).
 시험 카드는 <설정 폴더>/카드/<ID>.md(정규화 7줄)에 둔다.
 """
@@ -28,7 +30,7 @@ from eye_build import (H_VERDICT, SIM, answer_rows, clean_quote, panrye, save_ta
                        scrub_ids, write_parts)
 from eye_score import is_pos, parse_table  # noqa: E402
 
-MARK = re.compile(r"^\|\s*(R\d-\d{2})\s*\|\s*([○×xXoO]|10|[1-9])\s*\|", re.M)
+MARK = re.compile(r"^\|\s*(R\d-\d{2})\s*\|\s*([○×xXoO]|10|[1-9])\s*\|(?:[ \t]*([^|\n]*?)[ \t]*\|)?", re.M)
 BAND = ((3, 1), (5, 2), (7, 3), (10, 4))  # 사장님 점수 띠 → 단계. 아침 화면의 띠와 같다.
 
 
@@ -97,6 +99,10 @@ def materials(cfg_path, sandbox, ans=None, pan=None):
         else:
             a = ans[src.get(i, i)]
             verdict, quote = a["판정"], clean_quote(a["원문"])
+            if a.get("점수"):
+                verdict += f" · {a['점수']}점"
+            if a.get("걸리는 곳"):
+                verdict += f" · 제일 걸리는 곳: {a['걸리는 곳']}"
         path = next(q for q in (os.path.join(x, i + ".md") for x in dirs) if os.path.exists(q))
         card = open(path, encoding="utf-8").read().strip()
         blocks.append(f"### {rcode[i]}\n{card}\n- 사장님 판정: {scrub_ids(verdict)}\n- 사장님 말: {scrub_ids(quote)}\n")
@@ -140,7 +146,10 @@ def cards(cfg_path, sandbox):
 def score(cfg_path, folder, boss_path):
     cfg, base, table, _ = load(cfg_path)
     back = table["시험"]
-    raw = dict(MARK.findall(open(boss_path, encoding="utf-8").read()))
+    found = MARK.findall(open(boss_path, encoding="utf-8").read())
+    raw = {k: v for k, v, _ in found}
+    weak = {k: w for k, _, w in found if w}
+    ten = cfg.get("점수척도") == "1~10"  # 판정자도 1~10점으로 답하면 그 점수로 순위·점수 차를 잰다
     pts = {k: int(v) for k, v in raw.items() if v.isdigit()}
     boss = {k: (pts[k] >= 4 if k in pts else v in "○oO") for k, v in raw.items()}
     rows = []
@@ -148,7 +157,7 @@ def score(cfg_path, folder, boss_path):
         runs = [parse_table(f, "K") for f in sorted(glob.glob(os.path.join(folder, f"{judge}-*.md")))]
         if not runs:
             continue
-        hit, same, detail, xs, ys = 0.0, 0.0, [], [], []
+        hit, same, nsame, detail, xs, ys, gaps, wk = 0.0, 0.0, 0, [], [], [], [], []
         for code, rid in sorted(back.items(), key=lambda kv: kv[1]):
             if rid not in boss:
                 continue
@@ -158,13 +167,28 @@ def score(cfg_path, folder, boss_path):
             hit += got
             detail.append(f"{rid} {'○' if boss[rid] else '×'}:{got:g}")
             lv = [x for x in (level(r[code]["판정"]) for r in runs if code in r) if x]
+            jp = [r[code]["점수"] for r in runs if code in r and r[code]["점수"] is not None]
             if rid in pts and lv:
                 same += sum(x == band(pts[rid]) for x in lv) / len(lv)
-                xs.append(sum(lv) / len(lv))
+                nsame += 1
+                if not ten:
+                    xs.append(sum(lv) / len(lv))
+                    ys.append(pts[rid])
+            if ten and rid in pts and jp:
+                xs.append(sum(jp) / len(jp))
                 ys.append(pts[rid])
+                gaps.append(abs(xs[-1] - pts[rid]))
+                detail[-1] += f" {xs[-1]:g}→{pts[rid]}"
+            wv = [r[code]["칸"][3] == weak[rid] for r in runs if code in r and len(r[code]["칸"]) > 3] if rid in weak else []
+            if ten and wv:
+                wk.append(sum(wv) / len(wv))
         rho = spearman(xs, ys) if len(xs) >= 3 else None
-        rows.append(f"| {judge} | {hit:g}/{len(boss)} | {f'{same:g}/{len(xs)}' if xs else '—'} | "
-                    f"{'—' if rho is None else f'{rho:.2f}'} | {' · '.join(detail)} |")
+        extra = (f"{sum(gaps) / len(gaps):.1f} | " if gaps else "— | ") + (f"{sum(wk):g}/{len(wk)} | " if wk else "— | ")
+        rows.append(f"| {judge} | {hit:g}/{len(boss)} | {f'{same:g}/{nsame}' if nsame else '—'} | "
+                    f"{'—' if rho is None else f'{rho:.2f}'} | {extra if ten else ''}{' · '.join(detail)} |")
+    if ten:
+        head = "| 판정자 | 사장님과 맞음(보류 이상 = ○) | 단계 맞음 | 순위 상관 | 점수 차(평균) | 걸리는 곳 맞음 | 문항별 |"
+        return "\n".join([head, "|---|---|---|---|---|---|---|"] + rows)
     head = "| 판정자 | 사장님과 맞음(보류 이상 = ○) | 단계 맞음 | 순위 상관 | 문항별 |"
     return "\n".join([head, "|---|---|---|---|---|"] + rows)
 
