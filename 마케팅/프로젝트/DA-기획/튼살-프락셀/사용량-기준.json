@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-13T11:33:30.455Z",
+  "usage": {
+    "input_tokens": 365787345,
+    "cached_input_tokens": 347679360,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1484122,
+    "reasoning_output_tokens": 458199,
+    "total_tokens": 367573179
+  },
+  "account_weekly_percent": 12,
+  "note": "중간 지시 전환 시점. 시장확인 초반 읽기/API 조회 일부는 이 기준 이전이므로 별도 설명한다."
+}

@@ -1,0 +1,346 @@
+{
+  "measured_at": "2026-10-13T20:35:00.800603",
+  "query": "튼살크림",
+  "display_total": 50,
+  "sample_n": 30,
+  "product_ad_n": 20,
+  "sampling_limit": "첫 화면, 광고 본문·제목·설명만. 영상·이미지 및 전성분 미확인. 같은제품 여러광고 포함. 시장점유율 아님.",
+  "rows": [
+    {
+      "id": "1025148050051063",
+      "page": "썬플랜 Son Plan",
+      "days": 112,
+      "status": "제외",
+      "reason": "튼살 직접연결 미확인 보습제품",
+      "symbol_hits": [],
+      "links": [
+        "https://sonplan.com/surl/P/10/?cafe_mkt=ue_ndr_03"
+      ]
+    },
+    {
+      "id": "1385362606788766",
+      "page": "맘솔브",
+      "days": 79,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "http://momsolve.co.kr/surl/P/28?utm_source=meta&utm_medium=da&utm_campaign=260602_mc&utm_content=commerce_cumulativesa_26s"
+      ]
+    },
+    {
+      "id": "2520263395099200",
+      "page": "Life teller",
+      "days": 106,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://www.housweet.kr/product/detail.html?product_no=58&utm_source=meta&utm_medium=paid_social&utm_campaign=TZ_conv_kasc1_normal&utm_content=v1437_Mhw5_Afr"
+      ]
+    },
+    {
+      "id": "2063349774236003",
+      "page": "프라젠트라",
+      "days": 221,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://plagentra.kr/product/detail.html?product_no=2313"
+      ]
+    },
+    {
+      "id": "1335354597998300",
+      "page": "썬플랜 Son Plan",
+      "days": 112,
+      "status": "제외",
+      "reason": "튼살 직접연결 미확인 보습제품",
+      "symbol_hits": [],
+      "links": [
+        "https://sonplan.com/surl/P/10/?cafe_mkt=ue_ndr_04"
+      ]
+    },
+    {
+      "id": "1383903086565883",
+      "page": "Teunlab.offical",
+      "days": 40,
+      "status": "제외",
+      "reason": "댓글 증정 이벤트",
+      "symbol_hits": [],
+      "links": [
+        "https://www.teunlab.kr/product/detail.html?product_no=49&utm_source=meta&utm_medium=da&utm_campaign=cbo_pt&utm_content=260904_03_tc_CCFM"
+      ]
+    },
+    {
+      "id": "1053688407214617",
+      "page": "비바코리아",
+      "days": 85,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "http://vivakorea.net/",
+        "https://vivakorea.net/product/detail.html?product_no=12&cafe_mkt=gmpfbe_ct&cate_no=4",
+        "https://vivakorea.net/product/detail.html?product_no=125&cafe_mkt=gmpfbe_ct&cate_no=53",
+        "https://vivakorea.net/product/detail.html?product_no=13&cafe_mkt=gmpfbe_ct&cate_no=53"
+      ]
+    },
+    {
+      "id": "28270324255964924",
+      "page": "몽디에스",
+      "days": 22,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://m.mongdies.com/product/detail.html?product_no=157&cate_no=27&display_group=1"
+      ]
+    },
+    {
+      "id": "1425264032801215",
+      "page": "Teunlab.offical",
+      "days": 40,
+      "status": "제외",
+      "reason": "댓글 증정 이벤트",
+      "symbol_hits": [],
+      "links": [
+        "https://www.teunlab.kr/product/detail.html?product_no=49&utm_source=meta&utm_medium=da&utm_campaign=cbo_pt&utm_content=260904_01_tc_CCFM"
+      ]
+    },
+    {
+      "id": "2950000928669017",
+      "page": "nuovo_skin52",
+      "days": 52,
+      "status": "제외",
+      "reason": "커버 관리샵",
+      "symbol_hits": [],
+      "links": [
+        "https://instagram.com/nuovo_skin52"
+      ]
+    },
+    {
+      "id": "1128275543046998",
+      "page": "맘솔브",
+      "days": 6,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "http://momsolve.co.kr/surl/P/53?utm_source=meta&utm_medium=da&utm_campaign=261007_mc&utm_content=commerce_ngmaybestill_42s"
+      ]
+    },
+    {
+      "id": "941560422357687",
+      "page": "MilliMom Korea",
+      "days": 27,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://millimomkr.cafe24.com/product/%F0%9F%A4%B0%F0%9F%8F%BB%EC%98%88%EB%B9%84%EB%A7%98-%EB%9D%BC%EC%9A%B4%EC%A7%80-%EC%B5%9C%EB%8C%80-50-%EB%B0%80%EB%A6%AC%EB%A7%98-%EC%A0%84%EC%83%81%ED%92%88-%EB%AA%A8%EC%9D%8C%EC%A0%84/276/category/86/display/1/"
+      ]
+    },
+    {
+      "id": "1803726997482885",
+      "page": "부담제로",
+      "days": 5,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://budamzero.com/surl/P/37"
+      ]
+    },
+    {
+      "id": "932984449534029",
+      "page": "부담제로",
+      "days": 6,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://budamzero.com/surl/p/37"
+      ]
+    },
+    {
+      "id": "1657706385977480",
+      "page": "Rootbeshop",
+      "days": 12,
+      "status": "제외",
+      "reason": "복수브랜드 출산선물 행사",
+      "symbol_hits": [],
+      "links": [
+        "https://instagram.com/roobeelac_official",
+        "https://www.instagram.com/_u/roobeelac_official"
+      ]
+    },
+    {
+      "id": "1630238091965516",
+      "page": "프라젠트라",
+      "days": 23,
+      "status": "제외",
+      "reason": "무료체험 모집",
+      "symbol_hits": [],
+      "links": [
+        "https://plagentra.kr/board/free/list.html?board_no=6"
+      ]
+    },
+    {
+      "id": "1818532379569662",
+      "page": "몽디에스",
+      "days": 13,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://m.mongdies.com/product/detail.html?product_no=157&cate_no=27&display_group=1"
+      ]
+    },
+    {
+      "id": "929229003286648",
+      "page": "비비스카랩",
+      "days": 8,
+      "status": "제외",
+      "reason": "흉터 관리샵",
+      "symbol_hits": [],
+      "links": [
+        "http://instagram.com/b.bscarlab_re"
+      ]
+    },
+    {
+      "id": "4639550772957491",
+      "page": "Laorganic_official",
+      "days": 6,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://brand.naver.com/atono2/products/13739322979"
+      ]
+    },
+    {
+      "id": "1039326659168128",
+      "page": "비비스카랩",
+      "days": 8,
+      "status": "제외",
+      "reason": "흉터 관리샵",
+      "symbol_hits": [
+        "레이저"
+      ],
+      "links": [
+        "https://instagram.com/b.bscarlab_re"
+      ]
+    },
+    {
+      "id": "1766749911552030",
+      "page": "Laorganic_official",
+      "days": 6,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://brand.naver.com/atono2/products/13739322979"
+      ]
+    },
+    {
+      "id": "5579743292251375",
+      "page": "Laorganic_official",
+      "days": 7,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://www.atono2.com/product/detail.html?product_no=906&cate_no=164&display_group=1&cafe_mkt=by.soonforty&utm_source=instagram&utm_medium=video&utm_campaign=conver_partner&utm_content=cv_partner_handwash_by.soonforty_261007"
+      ]
+    },
+    {
+      "id": "1118453353935808",
+      "page": "Laorganic_official",
+      "days": 11,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://www.atono2.com/product/detail.html?product_no=906&cate_no=164&display_group=1&cafe_mkt=kkyul2__&utm_source=instagram&utm_medium=video&utm_campaign=conver_partner&utm_content=cv_partner_handwash_kkyul2___261002"
+      ]
+    },
+    {
+      "id": "1628138685374569",
+      "page": "MilliMom Korea",
+      "days": 5,
+      "status": "제외",
+      "reason": "댓글 증정 이벤트",
+      "symbol_hits": [],
+      "links": [
+        "https://millimomkr.cafe24.com/product/%F0%9F%A4%B0%F0%9F%8F%BB%EC%98%88%EB%B9%84%EB%A7%98-%EB%9D%BC%EC%9A%B4%EC%A7%80-%EC%B5%9C%EB%8C%80-50-%EB%B0%80%EB%A6%AC%EB%A7%98-%EC%A0%84%EC%83%81%ED%92%88-%EB%AA%A8%EC%9D%8C%EC%A0%84/276/category/86/display/1/?utm_id=pregnantlounge_sep&utm_source=meta&utm_medium=paid_social&utm_campaign=pregnantlounge_sep&utm_content=bamilyhaus_function_reels_260916_v1"
+      ]
+    },
+    {
+      "id": "2220154358919382",
+      "page": "맘솔브",
+      "days": 6,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "http://momsolve.co.kr/surl/P/53?utm_source=meta&utm_medium=da&utm_campaign=261007_mc&utm_content=commerce_shmaybestill_44s"
+      ]
+    },
+    {
+      "id": "1441914311336703",
+      "page": "Laorganic_official",
+      "days": 6,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://brand.naver.com/atono2/products/13739322979"
+      ]
+    },
+    {
+      "id": "1624199025956533",
+      "page": "Laorganic_official",
+      "days": 10,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://www.atono2.com/product/detail.html?product_no=906&cate_no=164&display_group=1&cafe_mkt=yeah_bbom_&utm_source=instagram&utm_medium=video&utm_campaign=conver_partner&utm_content=cv_partner_handwash_yeah_bbom__261002"
+      ]
+    },
+    {
+      "id": "1803421374180779",
+      "page": "Laorganic_official",
+      "days": 9,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://www.atono2.com/product/detail.html?product_no=860&cate_no=4&display_group=1&cafe_mkt=kang._.chichi&utm_source=instagram&utm_medium=video&utm_campaign=conver_partner&utm_content=cv_partner_handwash_kang._.chichi_261002"
+      ]
+    },
+    {
+      "id": "1429491905800113",
+      "page": "Laorganic_official",
+      "days": 10,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://atono2.com/product/detail.html?product_no=906&cafe_mkt=gmpfbe_ct&cate_no=4"
+      ]
+    },
+    {
+      "id": "1075225188653150",
+      "page": "부담제로",
+      "days": 6,
+      "status": "판매소재",
+      "reason": "",
+      "symbol_hits": [],
+      "links": [
+        "https://budamzero.com/surl/p/37"
+      ]
+    }
+  ]
+}

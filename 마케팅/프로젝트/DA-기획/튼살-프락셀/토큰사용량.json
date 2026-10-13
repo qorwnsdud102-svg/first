@@ -1,0 +1,49 @@
+{
+  "parent_start": {
+    "at": "2026-10-13T11:33:30.455Z",
+    "usage": {
+      "input_tokens": 365787345,
+      "cached_input_tokens": 347679360,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1484122,
+      "reasoning_output_tokens": 458199,
+      "total_tokens": 367573179
+    },
+    "account_weekly_percent": 12,
+    "note": "중간 지시 전환 시점. 시장확인 초반 읽기/API 조회 일부는 이 기준 이전이므로 별도 설명한다."
+  },
+  "parent_end": {
+    "timestamp": "2026-10-13T11:39:43.950Z",
+    "usage": {
+      "input_tokens": 368012015,
+      "cached_input_tokens": 349831552,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1493048,
+      "reasoning_output_tokens": 459776,
+      "total_tokens": 369806775
+    }
+  },
+  "parent_delta": {
+    "input_tokens": 2224670,
+    "cached_input_tokens": 2152192,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 8926,
+    "reasoning_output_tokens": 1577,
+    "total_tokens": 2233596
+  },
+  "agent": {
+    "timestamp": "2026-10-13T11:39:22.387Z",
+    "usage": {
+      "input_tokens": 2584463,
+      "cached_input_tokens": 2406528,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 8641,
+      "reasoning_output_tokens": 968,
+      "total_tokens": 2593104
+    }
+  },
+  "total_including_cached": 4826700,
+  "weekly_start": 12,
+  "weekly_end": 16,
+  "limit": "본체 시장확인 초반은 기준 이전. 이후 병행하는 히트10 문서 읽기가 일부 포함돼 업무별 정밀 분리 아님. 다른 에이전트 사용량은 제외. 주간 퍼센트는 계정 공용."
+}
