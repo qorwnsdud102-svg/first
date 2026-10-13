@@ -1,0 +1,69 @@
+{
+  "parent_session": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl",
+  "baseline": {
+    "timestamp": "2026-10-13T10:02:12.445Z",
+    "info": {
+      "input_tokens": 335851571,
+      "cached_input_tokens": 318725760,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1396948,
+      "reasoning_output_tokens": 431979,
+      "total_tokens": 337550231
+    }
+  },
+  "agents_baseline": [
+    {
+      "id": "01a1347f-69cc-75e3-b0f0-337ba01370c5",
+      "path": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T18-02-07-01a1347f-69cc-75e3-b0f0-337ba01370c5.jsonl",
+      "timestamp": "2026-10-13T09:58:00.425Z",
+      "info": {
+        "input_tokens": 3739138,
+        "cached_input_tokens": 3484416,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 45076,
+        "reasoning_output_tokens": 14944,
+        "total_tokens": 3784214
+      }
+    },
+    {
+      "id": "01a1347f-6aea-7a90-a196-228218240234",
+      "path": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T18-02-08-01a1347f-6aea-7a90-a196-228218240234.jsonl",
+      "timestamp": "2026-10-13T09:55:40.650Z",
+      "info": {
+        "input_tokens": 4867042,
+        "cached_input_tokens": 4660096,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 35341,
+        "reasoning_output_tokens": 13495,
+        "total_tokens": 4902383
+      }
+    },
+    {
+      "id": "01a13494-e493-7b30-9f2f-0abe9859c535",
+      "path": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T18-25-35-01a13494-e493-7b30-9f2f-0abe9859c535.jsonl",
+      "timestamp": "2026-10-13T10:00:55.037Z",
+      "info": {
+        "input_tokens": 4457594,
+        "cached_input_tokens": 4185216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 35614,
+        "reasoning_output_tokens": 9882,
+        "total_tokens": 4493208
+      }
+    },
+    {
+      "id": "01a13494-e59b-7030-8023-89a88132c2f8",
+      "path": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T18-25-35-01a13494-e59b-7030-8023-89a88132c2f8.jsonl",
+      "timestamp": "2026-10-13T10:00:04.176Z",
+      "info": {
+        "input_tokens": 4347264,
+        "cached_input_tokens": 4057216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 36843,
+        "reasoning_output_tokens": 8919,
+        "total_tokens": 4384107
+      }
+    }
+  ],
+  "account_start_7day": 67
+}
