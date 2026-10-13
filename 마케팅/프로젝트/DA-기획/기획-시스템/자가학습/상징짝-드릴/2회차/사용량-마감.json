@@ -1,0 +1,61 @@
+{
+  "parent_end": {
+    "timestamp": "2026-10-13T09:23:57.685Z",
+    "info": {
+      "input_tokens": 324515853,
+      "cached_input_tokens": 307710464,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1355279,
+      "reasoning_output_tokens": 419919,
+      "total_tokens": 326172844
+    }
+  },
+  "parent_delta": {
+    "input_tokens": 5380544,
+    "cached_input_tokens": 5185920,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22587,
+    "reasoning_output_tokens": 6063,
+    "total_tokens": 5403131
+  },
+  "agents": [
+    {
+      "id": "01a1347f-69cc-75e3-b0f0-337ba01370c5",
+      "path": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T18-02-07-01a1347f-69cc-75e3-b0f0-337ba01370c5.jsonl",
+      "timestamp": "2026-10-13T09:16:12.650Z",
+      "info": {
+        "input_tokens": 1027888,
+        "cached_input_tokens": 941952,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 17249,
+        "reasoning_output_tokens": 9597,
+        "total_tokens": 1045137
+      }
+    },
+    {
+      "id": "01a1347f-6aea-7a90-a196-228218240234",
+      "path": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T18-02-08-01a1347f-6aea-7a90-a196-228218240234.jsonl",
+      "timestamp": "2026-10-13T09:13:56.507Z",
+      "info": {
+        "input_tokens": 1242647,
+        "cached_input_tokens": 1152128,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 14307,
+        "reasoning_output_tokens": 6622,
+        "total_tokens": 1256954
+      }
+    }
+  ],
+  "sum": {
+    "input_tokens": 7651079,
+    "cached_input_tokens": 7280000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 54143,
+    "reasoning_output_tokens": 22282,
+    "total_tokens": 7705222
+  },
+  "account_start_7day": 51,
+  "account_end_7day": 55,
+  "account_5hour": null,
+  "note": "캐시 입력은 입력에 포함, 추론은 출력에 포함. 계정 비율은 다른 작업과 공유하며 토큰과 직접 환산하지 않음. 마감 측정 이후 안내·전송 토큰 미포함."
+}

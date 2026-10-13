@@ -1,0 +1,22 @@
+{
+  "request_timestamp": "2026-10-13T08:59:10.462Z",
+  "baseline": {
+    "timestamp": "2026-10-13T08:58:43.746Z",
+    "info": {
+      "input_tokens": 319135309,
+      "cached_input_tokens": 302524544,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1332692,
+      "reasoning_output_tokens": 413856,
+      "total_tokens": 320769713
+    }
+  },
+  "parent_session": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl",
+  "request_id": "1c7b954d-9435-46db-bbe7-8a752aaca33c",
+  "start_account_7day": 51,
+  "start_account_5hour": null,
+  "agent_ids": [
+    "01a1347f-69cc-75e3-b0f0-337ba01370c5",
+    "01a1347f-6aea-7a90-a196-228218240234"
+  ]
+}
