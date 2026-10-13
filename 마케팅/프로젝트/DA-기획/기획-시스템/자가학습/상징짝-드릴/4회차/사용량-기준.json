@@ -1,0 +1,32 @@
+{
+  "parent_session": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl",
+  "baseline": {
+    "timestamp": "2026-10-13T11:58:27.548Z",
+    "usage": {
+      "input_tokens": 372496925,
+      "cached_input_tokens": 354133632,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1513356,
+      "reasoning_output_tokens": 464509,
+      "total_tokens": 374311993
+    }
+  },
+  "agents_baseline": {
+    "01a134fd-303d-7020-8566-defd5aefb9b1": {
+      "input_tokens": 8989964,
+      "cached_input_tokens": 8580096,
+      "output_tokens": 26090,
+      "reasoning_output_tokens": 3500,
+      "total_tokens": 9016054
+    },
+    "01a13509-d707-7ed2-bc60-9cbb12eef24a": {
+      "input_tokens": 5429391,
+      "cached_input_tokens": 5157504,
+      "output_tokens": 13654,
+      "reasoning_output_tokens": 1907,
+      "total_tokens": 5443045
+    }
+  },
+  "account_weekly": 23,
+  "note": "전담A/B는히트10종료스냅샷부터드릴4;본체는히트10정리후기준."
+}

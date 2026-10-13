@@ -1,0 +1,28 @@
+{
+  "products": 49,
+  "rules_per_product": 89,
+  "judgments": 4361,
+  "errors": [],
+  "relocated_references": 165,
+  "changed_rules": [
+    "④-21"
+  ],
+  "input_manifest": [
+    {
+      "file": "_적용-A.json",
+      "sha256": "e1f6900156062e94cbf18a18ef6c07ebcb1b75409c6fe4a7f71b1782dbba6952"
+    },
+    {
+      "file": "_적용-B.json",
+      "sha256": "4f7ce84fa679cc1586a714b28da79ed094f07c9cd2c05a132eaf1b3c2590dc27"
+    },
+    {
+      "file": "_적용-C.json",
+      "sha256": "3494e61916193ae4955b2477c7119550be43445182e9f3d686d4e81b7a90153d"
+    },
+    {
+      "file": "_적용-D.json",
+      "sha256": "fd3941b712fb4f557e7cb9cdc97cb3bfbbf44b03c3d19319f8435b554c490688"
+    }
+  ]
+}

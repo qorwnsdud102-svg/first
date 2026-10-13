@@ -1,0 +1,132 @@
+{
+  "as_of": "2026-10-13T21:51:45.287412+09:00",
+  "scope": "히트10 마감 뒤 본체 공유 구간 + 드릴4 전담 차분 + 역검증 전담 전체. 업무별 순수 비용 아님.",
+  "parent_shared": {
+    "input_tokens": 15196738,
+    "cached_input_tokens": 14721024,
+    "output_tokens": 57275,
+    "reasoning_output_tokens": 21241,
+    "total_tokens": 15254013
+  },
+  "drill4_agents": {
+    "input_tokens": 10926159,
+    "cached_input_tokens": 10372224,
+    "output_tokens": 109562,
+    "reasoning_output_tokens": 34501,
+    "total_tokens": 11035721
+  },
+  "reverse_agents": {
+    "input_tokens": 25232749,
+    "cached_input_tokens": 24049280,
+    "output_tokens": 228516,
+    "reasoning_output_tokens": 31963,
+    "total_tokens": 25461265
+  },
+  "combined_without_double_counting": {
+    "input_tokens": 51355646,
+    "cached_input_tokens": 49142528,
+    "output_tokens": 395353,
+    "reasoning_output_tokens": 87705,
+    "total_tokens": 51750999
+  },
+  "uncached_input_tokens": 2213118,
+  "snapshots": {
+    "01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc": {
+      "timestamp": "2026-10-13T12:50:56.153Z",
+      "usage": {
+        "input_tokens": 387693663,
+        "cached_input_tokens": 368854656,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1570631,
+        "reasoning_output_tokens": 485750,
+        "total_tokens": 389566006
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+    },
+    "01a134fd-303d-7020-8566-defd5aefb9b1": {
+      "timestamp": "2026-10-13T12:50:29.743Z",
+      "usage": {
+        "input_tokens": 14588352,
+        "cached_input_tokens": 13889024,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 81558,
+        "reasoning_output_tokens": 20667,
+        "total_tokens": 14669910
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T20-19-30-01a134fd-303d-7020-8566-defd5aefb9b1.jsonl"
+    },
+    "01a13509-d707-7ed2-bc60-9cbb12eef24a": {
+      "timestamp": "2026-10-13T12:50:00.105Z",
+      "usage": {
+        "input_tokens": 10757162,
+        "cached_input_tokens": 10220800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 67748,
+        "reasoning_output_tokens": 19241,
+        "total_tokens": 10824910
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T20-33-19-01a13509-d707-7ed2-bc60-9cbb12eef24a.jsonl"
+    },
+    "01a13505-08e1-7e50-ae75-db36a13c0eab": {
+      "timestamp": "2026-10-13T12:40:19.457Z",
+      "usage": {
+        "input_tokens": 6799113,
+        "cached_input_tokens": 6469248,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 76016,
+        "reasoning_output_tokens": 11369,
+        "total_tokens": 6875129
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T20-28-05-01a13505-08e1-7e50-ae75-db36a13c0eab.jsonl"
+    },
+    "01a13505-0a2b-72d0-b203-c979ee7db1eb": {
+      "timestamp": "2026-10-13T12:46:42.139Z",
+      "usage": {
+        "input_tokens": 12183012,
+        "cached_input_tokens": 11697920,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111858,
+        "reasoning_output_tokens": 11973,
+        "total_tokens": 12294870
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T20-28-05-01a13505-0a2b-72d0-b203-c979ee7db1eb.jsonl"
+    },
+    "01a134f8-5ac0-7b81-9133-dc2a5333093d": {
+      "timestamp": "2026-10-13T11:43:05.971Z",
+      "usage": {
+        "input_tokens": 6166966,
+        "cached_input_tokens": 5847040,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 40286,
+        "reasoning_output_tokens": 8445,
+        "total_tokens": 6207252
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T20-14-14-01a134f8-5ac0-7b81-9133-dc2a5333093d.jsonl"
+    },
+    "01a13505-4121-7eb0-a7e6-9b6517ccedef": {
+      "timestamp": "2026-10-13T11:28:25.374Z",
+      "usage": {
+        "input_tokens": 47850,
+        "cached_input_tokens": 29184,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 192,
+        "reasoning_output_tokens": 75,
+        "total_tokens": 48042
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T20-28-19-01a13505-4121-7eb0-a7e6-9b6517ccedef.jsonl"
+    },
+    "01a13505-0bc3-7043-8cd0-4e6e8283c36c": {
+      "timestamp": "2026-10-13T11:36:25.688Z",
+      "usage": {
+        "input_tokens": 35808,
+        "cached_input_tokens": 5888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 164,
+        "reasoning_output_tokens": 101,
+        "total_tokens": 35972
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T20-28-05-01a13505-0bc3-7043-8cd0-4e6e8283c36c.jsonl"
+    }
+  },
+  "limits": "캐시는 입력의 부분집합, reasoning은 출력 부분집합. 로컬 Python/ASR/이미지 추출은 별도 모델 토큰 호출 아님. 가격·계정 사용률과 선형 환산 불가. 본체 공유량을 양쪽에 각각 더하지 않음. 보고서 최종 작성 이후 소량은 미포함."
+}

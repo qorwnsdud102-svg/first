@@ -1,0 +1,691 @@
+{
+  "meta": {
+    "task": "상징짝 드릴4 담당 B",
+    "date": "2026-10-13",
+    "scope": "피부·외형 제외 질병·기능불편",
+    "target_count": 15,
+    "accepted_count": 0,
+    "shortfall": 15,
+    "in_dictionary_rejected_count": 10,
+    "outside_expansion_rejected_count": 2,
+    "status": "기록 정합성 검증 완료·통과 후보 미달",
+    "counting_rule": "기각 12건과 사전밖 확장을 통과 후보 수에 넣지 않는다.",
+    "prediction_note": "predictions는 카드와 별도 배열이며 본체에서 최종 비공개 파일로 분리한다.",
+    "assumptions": [
+      "모든 line·product·타겟이 믿는 원인·top3는 AI 기획 가설이다.",
+      "top3는 타겟조사·자동완성 실측 결과가 아니며 좁은 전문 시술의 세 항목은 용도 변주일 수 있다.",
+      "원본 치료 방식의 공식 확인과 새 제품의 작동·효능·제조 가능성은 별개다.",
+      "기각은 이번 구상의 문제이며 분야 전체에 기회가 없다는 결론이 아니다.",
+      "같은 기전의 제품이 존재한다는 사실만으로 기각하지 않는다. B01·B05·B06·B10·B12는 각 구상이 원형 재현 또는 제형 변경에 머물러 별도의 상징 구현 가치를 제시하지 못했다는 개별 판단이다.",
+      "임상동등성·효능·제조 가능성 미확인은 조사 상태이며 기획 탈락 조건으로 사용하지 않는다. 작용·체감 연결에 관한 기각은 해당 구상의 상징 당위 판단이다.",
+      "B08은 ④-21의 상위 상징 타분야 작동결 예외로 허용될 수 있으나, 이번 드릴4의 명시적 top3 조건을 우선해 제외했다. 예외 자체를 부정하거나 새 구강 적용의 임상 미검증을 기각 근거로 삼지 않는다."
+    ],
+    "not_done": [
+      "네이버 API·자동완성 조회",
+      "Meta 추가 수집",
+      "실제 타겟조사",
+      "시제품 검증",
+      "시장 전체 포화율 측정"
+    ]
+  },
+  "read_basis": [
+    "_지시.md",
+    "../3회차/_지시.md",
+    "../_드릴-하는-법.md",
+    "_중복기준.json",
+    "1~3회차 카드 원문",
+    "DA 기획 단계별 규칙.md ③④⑤",
+    "상징원-사전/결핍별.md 및 JSON",
+    "상징원-사전/다른분야-상징.md 및 JSON",
+    "히트해부/방법정답지.md 1등급",
+    "히트해부/8회차/해부-뉴티365-뉴티락.md",
+    "1·2회차 본인 판정 원문"
+  ],
+  "cards": [],
+  "rejected_cards": [
+    {
+      "id": "B01",
+      "need": "역류성식도염",
+      "symbol": "오메프라졸",
+      "line": "오메프라졸 — 위산 억제 성분을 물 없이 녹여 먹는 필름.",
+      "gap": "신물이 반복해 올라옴; 위산이 너무 많이 나온다는 원인 가설.",
+      "borrow": "위산 분비 억제 약물 성분.",
+      "why": "원료를 유지하는 길은 있지만 약 이름과 먹는 형태만으로 강한 새 체감을 만들지 못했다.",
+      "product": "오메프라졸을 담은 구강붕해 필름으로 입에서 얇게 풀리는 형태를 가정했다.",
+      "risk": "기존 먹는 약의 제형 변경에 머문다.",
+      "top3": [
+        "역류성 속쓰림",
+        "위궤양 관리",
+        "과다 위산 억제"
+      ],
+      "top3_basis": "AI 연상 추정; 실제 타겟조사 아님",
+      "status": "기각",
+      "count_as_candidate": false,
+      "dictionary_ref": "DIC-G03",
+      "outside_dictionary": false,
+      "failed_rules": "④-05·④-64·④-65",
+      "exception_conflict": null,
+      "source_queries": [
+        "오메프라졸",
+        "역류성식도염 오메프라졸",
+        "오메프라졸 필름"
+      ],
+      "source_refs": [
+        "S01"
+      ],
+      "medical_status": "연결 출처는 원본 치료·기성품 설명만 뒷받침함"
+    },
+    {
+      "id": "B02",
+      "need": "역류성식도염",
+      "symbol": "위저부주름술",
+      "line": "위저부주름술 — 위 입구를 받친다는 복부 지지띠.",
+      "gap": "신물이 반복해 올라옴; 위 입구가 잘 안 닫힌다는 원인 가설.",
+      "borrow": "식도 아래쪽을 위 조직으로 감싸는 구조.",
+      "why": "수술의 감쌈을 외부 띠로 옮기려 했으나 작용하는 위치와 구조가 사라진다.",
+      "product": "실리콘 탄성띠로 상복부를 감싸 조이는 체감을 내는 구상을 검토했다.",
+      "risk": "겉을 조이는 체감이 위 입구를 감싸는 작용으로 이어지지 않는다.",
+      "top3": [
+        "역류성식도염 수술",
+        "약으로 조절 안 되는 역류",
+        "식도 아래 역류 방어 구조 강화"
+      ],
+      "top3_basis": "AI 연상 추정; 실제 타겟조사 아님",
+      "status": "기각",
+      "count_as_candidate": false,
+      "dictionary_ref": "DIC-G03",
+      "outside_dictionary": false,
+      "failed_rules": "④-22·④-59·④-60",
+      "exception_conflict": null,
+      "source_queries": [
+        "위저부주름술",
+        "위저부성형술",
+        "역류성식도염 수술"
+      ],
+      "source_refs": [
+        "S02"
+      ],
+      "medical_status": "연결 출처는 원본 치료·기성품 설명만 뒷받침함"
+    },
+    {
+      "id": "B03",
+      "need": "전립선비대증",
+      "symbol": "유로리프트",
+      "line": "유로리프트 — 소변길을 벌린다는 골반 텐션 벨트.",
+      "gap": "소변 줄기가 약함; 커진 전립선이 길을 누른다는 원인 가설.",
+      "borrow": "전립선 조직을 옆으로 당겨 고정하는 구조.",
+      "why": "강한 병원 해결책이지만 당기는 대상이 몸속 전립선이라는 핵심이 외부 제품에 남지 않는다.",
+      "product": "좌우 탄성 밴드가 골반 바깥을 당기는 착용형 벨트를 검토했다.",
+      "risk": "몸 밖 당김으로 소변길이 열린다는 연결이 억지다.",
+      "top3": [
+        "전립선비대증 배뇨장애",
+        "비대 전립선의 요도 압박",
+        "전립선비대증 시술 대안"
+      ],
+      "top3_basis": "AI 연상 추정; 실제 타겟조사 아님",
+      "status": "기각",
+      "count_as_candidate": false,
+      "dictionary_ref": "DIC-I05",
+      "outside_dictionary": false,
+      "failed_rules": "④-22·④-59·④-60",
+      "exception_conflict": null,
+      "source_queries": [
+        "유로리프트",
+        "전립선비대증 유로리프트",
+        "유로리프트 후기"
+      ],
+      "source_refs": [
+        "S03"
+      ],
+      "medical_status": "연결 출처는 원본 치료·기성품 설명만 뒷받침함"
+    },
+    {
+      "id": "B04",
+      "need": "전립선비대증",
+      "symbol": "홀렙",
+      "line": "홀렙 — 전립선 레이저의 열을 옮긴 온열 좌판.",
+      "gap": "소변 줄기가 약함; 커진 조직이 통로를 막는다는 원인 가설.",
+      "borrow": "레이저로 비대 조직을 분리·제거하는 작용.",
+      "why": "따뜻함은 만들 수 있지만 조직을 제거해 통로를 확보하는 원본 작용을 나르지 못한다.",
+      "product": "얇은 발열체를 넣은 좌판에서 회음부 주변의 온기를 느끼는 구상을 검토했다.",
+      "risk": "온열만 남고 조직 제거라는 핵심이 빠진다.",
+      "top3": [
+        "전립선비대증 수술",
+        "소변길을 막는 전립선 조직 제거",
+        "전립선 수술 대안"
+      ],
+      "top3_basis": "AI 연상 추정; 실제 타겟조사 아님",
+      "status": "기각",
+      "count_as_candidate": false,
+      "dictionary_ref": "DIC-I05",
+      "outside_dictionary": false,
+      "failed_rules": "④-22·④-59",
+      "exception_conflict": null,
+      "source_queries": [
+        "홀렙",
+        "전립선 홀렙",
+        "전립선 레이저"
+      ],
+      "source_refs": [
+        "S04"
+      ],
+      "medical_status": "연결 출처는 원본 치료·기성품 설명만 뒷받침함"
+    },
+    {
+      "id": "B05",
+      "need": "난청으로 말소리가 잘 안 들림",
+      "symbol": "보청기",
+      "line": "보청기 — 상대 목소리를 가까이 모아 듣는 목걸이형 증폭기.",
+      "gap": "대화 소리를 놓침; 귀가 작은 말소리를 못 잡는다는 원인 가설.",
+      "borrow": "마이크 수음·전자 증폭·스피커 전달.",
+      "why": "상징과 작용은 맞지만 이 안은 원격 마이크·목걸이 수신기라는 기성 원형을 그대로 제안했고, 이를 넘어서는 상징 구현의 차이를 제시하지 못했다.",
+      "product": "원격 마이크와 넥밴드 수신기로 말소리를 키워 듣는 형태를 검토했다.",
+      "risk": "원격 마이크·목걸이 수신기의 기성 원형을 그대로 제안한 수준이다.",
+      "top3": [
+        "난청의 청력 보조",
+        "잘 안 들리는 대화 듣기",
+        "TV 말소리 듣기"
+      ],
+      "top3_basis": "AI 연상 추정; 실제 타겟조사 아님",
+      "status": "기각",
+      "count_as_candidate": false,
+      "dictionary_ref": "DIC-H03의 보청기(상징만 재사용)",
+      "outside_dictionary": false,
+      "failed_rules": "④-05·④-64",
+      "exception_conflict": null,
+      "source_queries": [
+        "보청기",
+        "목걸이 보청기",
+        "난청 목걸이 증폭기"
+      ],
+      "source_refs": [
+        "S05",
+        "S06"
+      ],
+      "medical_status": "연결 출처는 원본 치료·기성품 설명만 뒷받침함"
+    },
+    {
+      "id": "B06",
+      "need": "반복되는 치아 우식·충치",
+      "symbol": "치과 불소도포",
+      "line": "치과 불소도포 — 치아에 밀착해 불소를 머금는 필름.",
+      "gap": "충치가 반복됨; 치아 겉면이 약해져 썩는다는 원인 가설.",
+      "borrow": "치아 미네랄 보충에 쓰이는 불소 원료.",
+      "why": "불소를 그대로 옮길 수 있지만 기존 불소 제품 대비 역할이 필름 형태 변경에 머문다.",
+      "product": "불소를 담은 얇은 치면 밀착 필름으로 겔과 다른 붙는 체감을 가정했다.",
+      "risk": "2회차 불소도포 겔을 필름으로 바꾼 변형에 가깝다.",
+      "top3": [
+        "충치 예방",
+        "초기 치아 탈회 관리",
+        "시린 이 관리"
+      ],
+      "top3_basis": "AI 연상 추정; 실제 타겟조사 아님",
+      "status": "기각",
+      "count_as_candidate": false,
+      "dictionary_ref": "DIC-F02",
+      "outside_dictionary": false,
+      "failed_rules": "④-05·④-65; 기존 구현 변형 경고",
+      "exception_conflict": null,
+      "source_queries": [
+        "불소도포",
+        "충치 불소도포",
+        "불소 필름"
+      ],
+      "source_refs": [
+        "S07"
+      ],
+      "medical_status": "연결 출처는 원본 치료·기성품 설명만 뒷받침함"
+    },
+    {
+      "id": "B07",
+      "need": "귀지 막힘으로 귀가 먹먹함",
+      "symbol": "치과 스케일링",
+      "line": "귀 스케일링 — 불린 귀지를 물로 회수하는 세정기.",
+      "gap": "귀가 먹먹함; 굳은 귀지가 길을 막는다는 원인 가설.",
+      "borrow": "딱딱한 침착물을 제거하고 매끈해지는 느낌.",
+      "why": "때 제거의 결은 닮았지만 치과의 대표 연상에 귀지가 없고 구현도 세정 도구에 머문다.",
+      "product": "연화액과 물세척 헤드로 귀지를 흘려 모으는 구상을 검토했다.",
+      "risk": "스케일링의 작용보다 제거 도구만 빌린다.",
+      "top3": [
+        "치아 치석 제거",
+        "잇몸 관리",
+        "치아 표면 청소"
+      ],
+      "top3_basis": "AI 연상 추정; 실제 타겟조사 아님",
+      "status": "기각",
+      "count_as_candidate": false,
+      "dictionary_ref": "CROSS-09",
+      "outside_dictionary": false,
+      "failed_rules": "드릴4 top3·④-58·④-59",
+      "exception_conflict": "④-21 타분야 작동결 예외로 검토했지만 드릴4 top3 하드 조건을 우선해 기각.",
+      "source_queries": [
+        "귀지 막힘",
+        "귀지 제거",
+        "귀 스케일링"
+      ],
+      "source_refs": [
+        "S08"
+      ],
+      "medical_status": "연결 출처는 원본 치료·기성품 설명만 뒷받침함"
+    },
+    {
+      "id": "B08",
+      "need": "반복 구내염",
+      "symbol": "리쥬란",
+      "line": "구내염 리쥬란 — 헐은 입안에 머무르는 DNA 겔.",
+      "gap": "헐은 부위가 먹을 때 따가움; 점막이 손상돼 덜 아문다는 원인 가설.",
+      "borrow": "재생해 차오른다는 상징의 느낌과 DNA 원료 가설.",
+      "why": "④-21의 상위 상징 타분야 작동결 예외로 손상 회복의 짝을 허용할 여지는 있으나, 이번 드릴4는 AI 추정 top3에 결핍이 없으면 쓰지 말라는 명시 지시여서 제외했다.",
+      "product": "PN·PDRN을 동일시하지 않는 DNA 계열 점착 구강 겔을 구상 수준으로 검토했다.",
+      "risk": "AI 추정 top3에 구내염이 없어 이번 드릴의 명시 조건과 충돌한다.",
+      "top3": [
+        "피부결 관리",
+        "잔주름 관리",
+        "피부 탄력 관리"
+      ],
+      "top3_basis": "AI 연상 추정; 실제 타겟조사 아님",
+      "status": "기각",
+      "count_as_candidate": false,
+      "dictionary_ref": "CROSS-02",
+      "outside_dictionary": false,
+      "failed_rules": "드릴4 명시 top3 조건만 적용; ④-21 예외 허용 가능성과 분리",
+      "exception_conflict": "④-21의 상위 상징 타분야 작동결 예외는 허용 가능성을 남긴다. 이번 제외는 더 좁은 드릴4 top3 명시 지시 때문이며, ④-13이나 임상동등성 미증명을 별도 기각 근거로 확정하지 않는다.",
+      "source_queries": [
+        "리쥬란",
+        "구내염 리쥬란",
+        "구내염 PDRN"
+      ],
+      "source_refs": [],
+      "medical_status": "새 구강 적용의 원료·효능 미검증; 의료 사실로 사용하지 않으며 기획 기각 근거도 아님"
+    },
+    {
+      "id": "B09",
+      "need": "반복되는 차멀미·뱃멀미",
+      "symbol": "노이즈캔슬링",
+      "line": "멀미 캔슬링 — 이동 중 거슬리는 소리를 지우는 이어버드.",
+      "gap": "차나 배에서 메스꺼움; 흔들림을 몸이 못 따라간다는 원인 가설.",
+      "borrow": "외부 소음을 상쇄하는 신호 처리.",
+      "why": "거슬림을 줄인다는 표현은 닮아도 외부 소음과 멀미의 작용 대상이 다르다.",
+      "product": "외부 저주파 소음을 줄이는 ANC 이어버드를 검토했다.",
+      "risk": "소음을 없애는 작용이 멀미의 핵심과 이어지지 않는다.",
+      "top3": [
+        "외부 소음 차단",
+        "음악 몰입",
+        "조용한 환경 만들기"
+      ],
+      "top3_basis": "AI 연상 추정; 실제 타겟조사 아님",
+      "status": "기각",
+      "count_as_candidate": false,
+      "dictionary_ref": "CROSS-13",
+      "outside_dictionary": false,
+      "failed_rules": "드릴4 top3·④-21·④-59",
+      "exception_conflict": "④-21 타분야 작동결 예외로 검토했지만 드릴4 top3 하드 조건을 우선해 기각.",
+      "source_queries": [
+        "멀미",
+        "멀미 노이즈캔슬링"
+      ],
+      "source_refs": [
+        "S09"
+      ],
+      "medical_status": "연결 출처는 원본 치료·기성품 설명만 뒷받침함"
+    },
+    {
+      "id": "B10",
+      "need": "비타민B12 결핍성 빈혈",
+      "symbol": "비타민B12주사",
+      "line": "비타민B12주사 — B12 원료를 입에서 녹여 먹는 필름.",
+      "gap": "빈혈로 기운이 떨어짐; 부족한 비타민이 피를 만드는 데 필요하다는 원인 가설.",
+      "borrow": "결핍된 비타민B12를 보충하는 원료.",
+      "why": "원료를 옮길 길은 있지만 경구 정제가 이미 있고 원료의 대표 연상이 일반 빈혈의 철분과 충돌할 수 있다.",
+      "product": "B12 원료를 담은 구강붕해 필름으로 녹여 먹는 체감을 가정했다.",
+      "risk": "기존 B12 보충제를 필름으로 바꾼 수준이다.",
+      "top3": [
+        "피로 관리라는 이미지",
+        "B12 결핍 보충",
+        "B12 결핍성 빈혈 치료"
+      ],
+      "top3_basis": "AI 연상 추정; 실제 타겟조사 아님",
+      "status": "기각",
+      "count_as_candidate": false,
+      "dictionary_ref": "DIC-E04의 B12주사(상징만 재사용)",
+      "outside_dictionary": false,
+      "failed_rules": "④-05·④-64·④-65의 해당 제형 변경안 판단; 대상 폭 미확인은 기각 근거 아님",
+      "exception_conflict": null,
+      "source_queries": [
+        "비타민B12주사",
+        "B12 결핍성 빈혈",
+        "비타민B12 필름"
+      ],
+      "source_refs": [
+        "S10"
+      ],
+      "medical_status": "연결 출처는 원본 치료·기성품 설명만 뒷받침함"
+    }
+  ],
+  "outside_dictionary_expansions": [
+    {
+      "id": "B11",
+      "need": "반복되는 요로결석",
+      "symbol": "체외충격파쇄석술",
+      "line": "체외충격파쇄석술 — 돌을 부순다는 복부 진동 패치.",
+      "gap": "결석 재발이 걱정됨; 몸속 돌을 작게 부숴 빼야 한다는 원인 가설.",
+      "borrow": "결석을 작은 조각으로 부수는 충격파 작용.",
+      "why": "사전의 근골격 체외충격파와 비뇨기 쇄석술을 같은 시술로 합치지 않아 별도 확장으로 분리했다.",
+      "product": "복부에 붙여 두드리는 진동 패치를 검토했지만 결석 표적 파쇄에 해당하는 부품은 제시하지 못했다.",
+      "risk": "표면 진동으로 돌이 부서진다는 당위가 없다.",
+      "top3": [
+        "요로결석 분쇄",
+        "신장결석 치료",
+        "결석 배출을 위한 조각내기"
+      ],
+      "top3_basis": "AI 연상 추정; 실제 타겟조사 아님",
+      "status": "기각",
+      "count_as_candidate": false,
+      "dictionary_ref": "사전 밖 확장(CROSS-17과 구분)",
+      "outside_dictionary": true,
+      "failed_rules": "④-22·④-59; 사전 밖 술식",
+      "exception_conflict": null,
+      "source_queries": [
+        "체외충격파쇄석술",
+        "요로결석 쇄석술",
+        "체외충격파쇄석술 후기"
+      ],
+      "source_refs": [
+        "S11"
+      ],
+      "medical_status": "연결 출처는 원본 치료·기성품 설명만 뒷받침함"
+    },
+    {
+      "id": "B12",
+      "need": "반복되는 차멀미·뱃멀미",
+      "symbol": "스코폴라민·멀미약",
+      "line": "멀미약 — 물 없이 녹여 먹는 멀미 필름.",
+      "gap": "차나 배에서 메스꺼움; 흔들림을 몸이 못 따라간다는 원인 가설.",
+      "borrow": "멀미에 작용하는 약물 원료.",
+      "why": "대명사 약의 원료를 가져오지만 씹거나 빠는 정제 등 기존 쉬운 복용 형태보다 새로운 작용·체감이 없다.",
+      "product": "스코폴라민 계열 원료의 구강붕해 필름을 제형 가설로 검토했다.",
+      "risk": "익숙한 멀미약의 복용 형태만 바꾼다.",
+      "top3": [
+        "차멀미 예방",
+        "뱃멀미 예방",
+        "여행 중 메스꺼움 완화"
+      ],
+      "top3_basis": "AI 연상 추정; 실제 타겟조사 아님",
+      "status": "기각",
+      "count_as_candidate": false,
+      "dictionary_ref": "사전 밖 확장",
+      "outside_dictionary": true,
+      "failed_rules": "④-05·④-65; 사전 밖 상징",
+      "exception_conflict": null,
+      "source_queries": [
+        "스코폴라민",
+        "멀미약",
+        "멀미 필름"
+      ],
+      "source_refs": [
+        "S12",
+        "S13"
+      ],
+      "medical_status": "연결 출처는 원본 치료·기성품 설명만 뒷받침함"
+    }
+  ],
+  "duplicate_exclusions": [
+    {
+      "need": "수면무호흡·코골이 변형",
+      "reason": "1회차 D1-01 코골이의 인접 변형으로 선제 제외"
+    },
+    {
+      "need": "비염·집먼지진드기 알레르기 코 증상",
+      "reason": "1회차 D1-02 알레르기 비염의 원인 세분화로 재출제하지 않음"
+    },
+    {
+      "need": "구강건조·시린이·잇몸 내려앉음·이갈이·편도결석",
+      "reason": "1~3회차에 있음"
+    },
+    {
+      "need": "안구건조·노안·이명·편두통·귀 눌림",
+      "reason": "1~3회차에 있음"
+    },
+    {
+      "need": "치질·위염·과민성대장·생리통·요실금·질건조",
+      "reason": "1~3회차에 있음"
+    },
+    {
+      "need": "족저근막·손목터널·무릎·통풍·하지정맥류·수족냉증",
+      "reason": "1~3회차에 있음"
+    },
+    {
+      "need": "잇몸 출혈·구취·양치 후 남는 오염",
+      "reason": "방법정답지 1등급 파로덱스·고유지·뉴로덴트"
+    },
+    {
+      "need": "불면·목 불편·손가락마디·일반 근육관절 통증",
+      "reason": "방법정답지 1등급 슬리피솔·포렌·넥필·한의비책·바로랩; 오십견·테니스엘보의 단순 부위 재조준을 보수적으로 제외"
+    },
+    {
+      "need": "변비·배변 불만",
+      "reason": "방법정답지 뉴티락의 결핍을 원 해부의 토끼똥·먹는 관장 맥락까지 대조해 제외"
+    }
+  ],
+  "dictionary_pre_exclusions": [
+    {
+      "symbol": "개비스콘",
+      "reason": "DIC-G03 drill_exclude=true; 정본 ④-05 기존 개비스콘 뚜껑 기각 예시",
+      "source_refs": [
+        "S14"
+      ]
+    },
+    {
+      "symbol": "쏘팔메토",
+      "reason": "DIC-I05 drill_exclude=true; 정본 ④-13·④-65 기존 기각 예시"
+    },
+    {
+      "symbol": "신경차단술",
+      "reason": "DIC-D05 drill_exclude=true; 정본 ④-53 기존 구현 예시"
+    }
+  ],
+  "source_queries": {
+    "naver_executed": false,
+    "priority_queue": [],
+    "reason": "통과 후보가 없어 필수 통합조회 대기열은 비워 둠; 각 기각 카드의 source_queries는 재검토할 경우에만 쓰는 선택 목록",
+    "optional_recheck": [
+      {
+        "ids": [
+          "B05"
+        ],
+        "queries": [
+          "보청기",
+          "목걸이 보청기",
+          "난청 목걸이 증폭기"
+        ],
+        "purpose": "상징 인지도와 기성품 중복의 국내 표현 대조"
+      },
+      {
+        "ids": [
+          "B06"
+        ],
+        "queries": [
+          "불소도포",
+          "충치 불소도포",
+          "불소 필름"
+        ],
+        "purpose": "원료 대명사성·기존 제형과 차별 여지 재검토"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "id": "S01",
+      "title": "NHS: Omeprazole",
+      "url": "https://www.nhs.uk/medicines/omeprazole/",
+      "confirmed": "위산 생성을 줄이는 약이며 경구 정제·캡슐·액제가 이미 존재한다.",
+      "quote": "reduces the amount of acid in your stomach"
+    },
+    {
+      "id": "S02",
+      "title": "NIDDK: GERD treatment",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/treatment",
+      "confirmed": "위저부주름술은 위 윗부분으로 식도 아래쪽을 감싸는 수술이다.",
+      "quote": null
+    },
+    {
+      "id": "S03",
+      "title": "UroLift 제조사: How it works",
+      "url": "https://www.urolift.com/patients/treatment-options/how-urolift-works",
+      "confirmed": "요도를 통해 접근해 임플란트로 전립선 조직을 옆으로 당겨 고정한다.",
+      "quote": "lift and hold the enlarged prostate tissue out of the way"
+    },
+    {
+      "id": "S04",
+      "title": "CUH: HoLEP",
+      "url": "https://www.cuh.nhs.uk/patient-information/holmium-laser-enucleation-of-the-prostate-holep/",
+      "confirmed": "레이저를 이용해 비대 전립선 조직을 제거하는 수술이다.",
+      "quote": null
+    },
+    {
+      "id": "S05",
+      "title": "NIDCD: Hearing aids",
+      "url": "https://www.nidcd.nih.gov/health/hearing-aids",
+      "confirmed": "마이크·증폭기·스피커로 소리를 증폭하며 청력 손실을 보조한다.",
+      "quote": "a microphone, amplifier, and speaker"
+    },
+    {
+      "id": "S06",
+      "title": "Neosonic: NW10 Pro 공식 판매 페이지",
+      "url": "https://neosonic.com/products/nw10",
+      "confirmed": "원격 마이크로 대화·TV 소리를 전달하는 목걸이형 청취 증폭기가 이미 판매된다.",
+      "quote": "neckband hearing amplifier",
+      "limit": "제품 존재와 제조사 표시만 확인; 난청 치료 효과를 독립 검증한 자료가 아니다."
+    },
+    {
+      "id": "S07",
+      "title": "NIDCR: Fluoride",
+      "url": "https://www.nidcr.nih.gov/health-info/fluoride",
+      "confirmed": "불소는 치아 미네랄 소실을 보완하며 치과 겔·바니시와 일상 치약·가글에 사용된다.",
+      "quote": "replenishing lost minerals"
+    },
+    {
+      "id": "S08",
+      "title": "NHS: Earwax build-up",
+      "url": "https://www.nhs.uk/conditions/earwax-build-up/",
+      "confirmed": "귀지 연화 점이제와 의료기관의 세척·미세흡인 방법을 소개한다.",
+      "quote": null
+    },
+    {
+      "id": "S09",
+      "title": "NHS: Motion sickness",
+      "url": "https://www.nhs.uk/conditions/motion-sickness/",
+      "confirmed": "멀미 설명은 눈과 내이 신호의 불일치이며 약·패치 등 기존 대안을 안내한다.",
+      "quote": "The inner ear sends different signals to your brain"
+    },
+    {
+      "id": "S10",
+      "title": "NHS: B12 deficiency treatment",
+      "url": "https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/treatment/",
+      "confirmed": "B12 결핍성 빈혈에 주사 또는 정제가 사용되며 원인에 따라 치료가 달라진다.",
+      "quote": null
+    },
+    {
+      "id": "S11",
+      "title": "NIDDK: Kidney stone treatment",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/treatment",
+      "confirmed": "충격파쇄석술은 결석을 작은 조각으로 부수어 요로로 배출되게 하는 치료다.",
+      "quote": "blast the kidney stone into small pieces"
+    },
+    {
+      "id": "S12",
+      "title": "NHS: Hyoscine hydrobromide",
+      "url": "https://www.nhs.uk/medicines/hyoscine-hydrobromide/",
+      "confirmed": "멀미에 쓰는 약이며 씹거나 빨거나 삼키는 정제가 이미 있다.",
+      "quote": "tablets that can be chewed, sucked or swallowed whole"
+    },
+    {
+      "id": "S13",
+      "title": "NHS Wales: Travel health",
+      "url": "https://111.wales.nhs.uk/travelhealth/traveltips/",
+      "confirmed": "hyoscine과 scopolamine의 명칭 연결 및 멀미 용도를 확인했다.",
+      "quote": "Hyoscine, also known as scopolamine"
+    },
+    {
+      "id": "S14",
+      "title": "NHS: About Gaviscon",
+      "url": "https://www.nhs.uk/medicines/gaviscon/about-gaviscon/",
+      "confirmed": "위 내용물 위 보호층을 형성하며 씹는 정제·액제·소포장 제형이 이미 존재한다.",
+      "quote": null
+    }
+  ],
+  "predictions": [
+    {
+      "id": "B01",
+      "score": 2,
+      "weak": "기존 먹는 약의 제형 변경에 머문다.",
+      "why": "AI 참고 예측; ④-05·④-64·④-65에 걸려 이번 드릴 통과 후보로 세지 않음."
+    },
+    {
+      "id": "B02",
+      "score": 1,
+      "weak": "겉을 조이는 체감이 위 입구를 감싸는 작용으로 이어지지 않는다.",
+      "why": "AI 참고 예측; ④-22·④-59·④-60에 걸려 이번 드릴 통과 후보로 세지 않음."
+    },
+    {
+      "id": "B03",
+      "score": 1,
+      "weak": "몸 밖 당김으로 소변길이 열린다는 연결이 억지다.",
+      "why": "AI 참고 예측; ④-22·④-59·④-60에 걸려 이번 드릴 통과 후보로 세지 않음."
+    },
+    {
+      "id": "B04",
+      "score": 1,
+      "weak": "온열만 남고 조직 제거라는 핵심이 빠진다.",
+      "why": "AI 참고 예측; ④-22·④-59에 걸려 이번 드릴 통과 후보로 세지 않음."
+    },
+    {
+      "id": "B05",
+      "score": 3,
+      "weak": "원격 마이크·목걸이 수신기의 기성 원형을 그대로 제안한 수준이다.",
+      "why": "AI 참고 예측; B05 자체가 기성 원형을 넘는 구현을 제시하지 못했다는 판단이며, 같은 기전 제품의 존재를 보편 기각 규칙으로 삼지 않음."
+    },
+    {
+      "id": "B06",
+      "score": 3,
+      "weak": "2회차 불소도포 겔을 필름으로 바꾼 변형에 가깝다.",
+      "why": "AI 참고 예측; ④-05·④-65; 기존 구현 변형 경고에 걸려 이번 드릴 통과 후보로 세지 않음."
+    },
+    {
+      "id": "B07",
+      "score": 2,
+      "weak": "스케일링의 작용보다 제거 도구만 빌린다.",
+      "why": "AI 참고 예측; 드릴4 top3·④-58·④-59에 걸려 이번 드릴 통과 후보로 세지 않음."
+    },
+    {
+      "id": "B08",
+      "score": 2,
+      "weak": "AI 추정 top3에 구내염이 없어 이번 드릴의 명시 조건과 충돌한다.",
+      "why": "이번 드릴4 지시 아래의 AI 참고 예측이며 top3 조건만으로 제외; ④-21 예외가 허용하는 기획 가치 판단과 임상 미확인 상태는 별개."
+    },
+    {
+      "id": "B09",
+      "score": 1,
+      "weak": "소음을 없애는 작용이 멀미의 핵심과 이어지지 않는다.",
+      "why": "AI 참고 예측; 드릴4 top3·④-21·④-59에 걸려 이번 드릴 통과 후보로 세지 않음."
+    },
+    {
+      "id": "B10",
+      "score": 2,
+      "weak": "기존 B12 보충제를 필름으로 바꾼 수준이다.",
+      "why": "AI 참고 예측; B10의 제형 변경 외 구현 가치가 약하다는 판단이며 대상 폭·임상동등성 미확인은 기각 근거로 사용하지 않음."
+    },
+    {
+      "id": "B11",
+      "score": 1,
+      "weak": "표면 진동으로 돌이 부서진다는 당위가 없다.",
+      "why": "AI 참고 예측; ④-22·④-59; 사전 밖 술식에 걸려 이번 드릴 통과 후보로 세지 않음."
+    },
+    {
+      "id": "B12",
+      "score": 2,
+      "weak": "익숙한 멀미약의 복용 형태만 바꾼다.",
+      "why": "AI 참고 예측; ④-05·④-65; 사전 밖 상징에 걸려 이번 드릴 통과 후보로 세지 않음."
+    }
+  ]
+}

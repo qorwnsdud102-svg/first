@@ -1,0 +1,162 @@
+{
+  "created": "2026-10-13T21:51:45.128660+09:00",
+  "requested": 30,
+  "actual": 28,
+  "missing": 2,
+  "fields_checked": [
+    "id",
+    "need",
+    "symbol",
+    "line",
+    "gap",
+    "borrow",
+    "why",
+    "product",
+    "risk",
+    "top3"
+  ],
+  "prediction_separate": true,
+  "awareness_exact_measured": 24,
+  "provenance": [
+    {
+      "id": "D4-01",
+      "file": "_후보-A2.json",
+      "source_id": "A2-01"
+    },
+    {
+      "id": "D4-02",
+      "file": "_후보-A2.json",
+      "source_id": "A2-02"
+    },
+    {
+      "id": "D4-03",
+      "file": "_후보-A2.json",
+      "source_id": "A2-03"
+    },
+    {
+      "id": "D4-04",
+      "file": "_후보-A2.json",
+      "source_id": "A2-04"
+    },
+    {
+      "id": "D4-05",
+      "file": "_후보-A2.json",
+      "source_id": "A2-05"
+    },
+    {
+      "id": "D4-06",
+      "file": "_후보-A2.json",
+      "source_id": "A2-06"
+    },
+    {
+      "id": "D4-07",
+      "file": "_후보-A2.json",
+      "source_id": "A2-07"
+    },
+    {
+      "id": "D4-08",
+      "file": "_후보-A2.json",
+      "source_id": "A2-08"
+    },
+    {
+      "id": "D4-09",
+      "file": "_후보-A2.json",
+      "source_id": "A2-09"
+    },
+    {
+      "id": "D4-10",
+      "file": "_후보-A2.json",
+      "source_id": "A2-10"
+    },
+    {
+      "id": "D4-11",
+      "file": "_후보-A2.json",
+      "source_id": "A2-11"
+    },
+    {
+      "id": "D4-12",
+      "file": "_후보-A2.json",
+      "source_id": "A2-12"
+    },
+    {
+      "id": "D4-13",
+      "file": "_후보-B2.json",
+      "source_id": "B2-01"
+    },
+    {
+      "id": "D4-14",
+      "file": "_후보-B2.json",
+      "source_id": "B2-02"
+    },
+    {
+      "id": "D4-15",
+      "file": "_후보-B2.json",
+      "source_id": "B2-03"
+    },
+    {
+      "id": "D4-16",
+      "file": "_후보-B2.json",
+      "source_id": "B2-04"
+    },
+    {
+      "id": "D4-17",
+      "file": "_후보-B2.json",
+      "source_id": "B2-05"
+    },
+    {
+      "id": "D4-18",
+      "file": "_후보-B2.json",
+      "source_id": "B2-06"
+    },
+    {
+      "id": "D4-19",
+      "file": "_후보-B2.json",
+      "source_id": "B2-07"
+    },
+    {
+      "id": "D4-20",
+      "file": "_후보-B2.json",
+      "source_id": "B2-08"
+    },
+    {
+      "id": "D4-21",
+      "file": "_후보-B2.json",
+      "source_id": "B2-09"
+    },
+    {
+      "id": "D4-22",
+      "file": "_후보-A3.json",
+      "source_id": "A3-01"
+    },
+    {
+      "id": "D4-23",
+      "file": "_후보-A3.json",
+      "source_id": "A3-02"
+    },
+    {
+      "id": "D4-24",
+      "file": "_후보-A3.json",
+      "source_id": "A3-03"
+    },
+    {
+      "id": "D4-25",
+      "file": "_후보-B3.json",
+      "source_id": "B3-01"
+    },
+    {
+      "id": "D4-26",
+      "file": "_후보-B3.json",
+      "source_id": "B3-02"
+    },
+    {
+      "id": "D4-27",
+      "file": "_후보-B3.json",
+      "source_id": "B3-03"
+    },
+    {
+      "id": "D4-28",
+      "file": "_후보-A.json",
+      "source_id": "A02"
+    }
+  ]
+}
