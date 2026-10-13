@@ -1,0 +1,81 @@
+{
+  "as_of": "2026-10-13T23:52:05.345754+09:00",
+  "groups": {
+    "본체": {
+      "total_tokens": 4690113,
+      "input_tokens": 4657608,
+      "cached_input_tokens": 4458368,
+      "output_tokens": 32505,
+      "reasoning_output_tokens": 11036
+    },
+    "분담2명": {
+      "total_tokens": 6052293,
+      "input_tokens": 6000636,
+      "cached_input_tokens": 5693696,
+      "output_tokens": 51657,
+      "reasoning_output_tokens": 13421
+    }
+  },
+  "total": {
+    "total_tokens": 10742406,
+    "input_tokens": 10658244,
+    "cached_input_tokens": 10152064,
+    "output_tokens": 84162,
+    "reasoning_output_tokens": 24457
+  },
+  "uncached_input": 506180,
+  "baseline": {
+    "timestamp": "2026-10-13T14:21:43.022Z",
+    "usage": {
+      "input_tokens": 413925017,
+      "cached_input_tokens": 394210816,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1664291,
+      "reasoning_output_tokens": 504871,
+      "total_tokens": 415891020
+    },
+    "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+  },
+  "snapshots": {
+    "01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc": {
+      "timestamp": "2026-10-13T14:50:50.479Z",
+      "usage": {
+        "input_tokens": 418582625,
+        "cached_input_tokens": 398669184,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1696796,
+        "reasoning_output_tokens": 515907,
+        "total_tokens": 420581133
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+    },
+    "01a135a9-c09e-78c2-93a8-470254e21d85": {
+      "timestamp": "2026-10-13T14:48:01.158Z",
+      "usage": {
+        "input_tokens": 3289422,
+        "cached_input_tokens": 3131648,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 30276,
+        "reasoning_output_tokens": 9145,
+        "total_tokens": 3319698
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T23-27-59-01a135a9-c09e-78c2-93a8-470254e21d85.jsonl"
+    },
+    "01a135a9-c1ed-78f2-9494-12ea56ada57f": {
+      "timestamp": "2026-10-13T14:42:55.989Z",
+      "usage": {
+        "input_tokens": 2711214,
+        "cached_input_tokens": 2562048,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 21381,
+        "reasoning_output_tokens": 4276,
+        "total_tokens": 2732595
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T23-28-00-01a135a9-c1ed-78f2-9494-12ea56ada57f.jsonl"
+    }
+  },
+  "account_weekly_start": 71,
+  "account_weekly_last": 77,
+  "five_hour": null,
+  "limitations": "캐시는 입력의 일부·reasoning은 출력의 일부. 계정 %는 타 작업 공유. 본체에 회고 마지막 인계와 다음 H12 지시 읽기 일부 포함. 마감 뒤 안내 토큰은 다음 구간에 속함."
+}

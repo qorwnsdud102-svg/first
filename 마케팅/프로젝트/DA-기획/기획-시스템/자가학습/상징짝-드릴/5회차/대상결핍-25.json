@@ -1,0 +1,177 @@
+[
+  {
+    "id": "AC-C03",
+    "need": "족저근막염",
+    "main_keyword": "족저근막염",
+    "monthly_search_volume": 84350,
+    "zone": "C"
+  },
+  {
+    "id": "DIC-I04",
+    "need": "다낭성난소증후군",
+    "main_keyword": "다낭성난소증후군",
+    "monthly_search_volume": 45720,
+    "zone": "I"
+  },
+  {
+    "id": "DIC-G03",
+    "need": "역류성식도염",
+    "main_keyword": "역류성식도염",
+    "monthly_search_volume": 40870,
+    "zone": "G"
+  },
+  {
+    "id": "DIC-I01",
+    "need": "갱년기증상",
+    "main_keyword": "갱년기증상",
+    "monthly_search_volume": 39770,
+    "zone": "I"
+  },
+  {
+    "id": "DIC-G02",
+    "need": "과민성대장증후군",
+    "main_keyword": "과민성대장증후군",
+    "monthly_search_volume": 33130,
+    "zone": "G"
+  },
+  {
+    "id": "DIC-D07",
+    "need": "하지정맥류",
+    "main_keyword": "하지정맥류",
+    "monthly_search_volume": 32870,
+    "zone": "D"
+  },
+  {
+    "id": "DIC-I05",
+    "need": "전립선비대증",
+    "main_keyword": "전립선비대증",
+    "monthly_search_volume": 32260,
+    "zone": "I"
+  },
+  {
+    "id": "DIC-D04",
+    "need": "손목터널증후군",
+    "main_keyword": "손목터널증후군",
+    "monthly_search_volume": 27500,
+    "zone": "D"
+  },
+  {
+    "id": "DIC-G05",
+    "need": "치질",
+    "main_keyword": "치질",
+    "monthly_search_volume": 23910,
+    "zone": "G"
+  },
+  {
+    "id": "DIC-H05",
+    "need": "축농증",
+    "main_keyword": "축농증",
+    "monthly_search_volume": 23870,
+    "zone": "H"
+  },
+  {
+    "id": "DIC-H02",
+    "need": "비염",
+    "main_keyword": "비염",
+    "monthly_search_volume": 21990,
+    "zone": "H"
+  },
+  {
+    "id": "AC-C02",
+    "need": "내성발톱",
+    "main_keyword": "내성발톱",
+    "monthly_search_volume": 20620,
+    "zone": "C"
+  },
+  {
+    "id": "DIC-B04",
+    "need": "지루성두피염",
+    "main_keyword": "지루성두피염",
+    "monthly_search_volume": 18060,
+    "zone": "B"
+  },
+  {
+    "id": "DIC-H03",
+    "need": "이명",
+    "main_keyword": "이명",
+    "monthly_search_volume": 17120,
+    "zone": "H"
+  },
+  {
+    "id": "DIC-D01",
+    "need": "오십견",
+    "main_keyword": "오십견",
+    "monthly_search_volume": 16810,
+    "zone": "D"
+  },
+  {
+    "id": "AC-C04",
+    "need": "티눈",
+    "main_keyword": "티눈",
+    "monthly_search_volume": 15690,
+    "zone": "C"
+  },
+  {
+    "id": "AC-A04",
+    "need": "쥐젖",
+    "main_keyword": "쥐젖",
+    "monthly_search_volume": 14960,
+    "zone": "A"
+  },
+  {
+    "id": "DIC-D05",
+    "need": "허리디스크",
+    "main_keyword": "허리디스크",
+    "monthly_search_volume": 14880,
+    "zone": "D"
+  },
+  {
+    "id": "DIC-G04",
+    "need": "위염",
+    "main_keyword": "위염",
+    "monthly_search_volume": 14290,
+    "zone": "G"
+  },
+  {
+    "id": "DIC-B01",
+    "need": "탈모",
+    "main_keyword": "탈모",
+    "monthly_search_volume": 13460,
+    "zone": "B"
+  },
+  {
+    "id": "AC-C01",
+    "need": "무좀",
+    "main_keyword": "무좀",
+    "monthly_search_volume": 13430,
+    "zone": "C"
+  },
+  {
+    "id": "DIC-E01",
+    "need": "불면증",
+    "main_keyword": "불면증",
+    "monthly_search_volume": 12410,
+    "zone": "E"
+  },
+  {
+    "id": "DIC-G01",
+    "need": "변비",
+    "main_keyword": "변비",
+    "monthly_search_volume": 11350,
+    "zone": "G"
+  },
+  {
+    "id": "AC-A01",
+    "need": "아토피",
+    "main_keyword": "아토피",
+    "monthly_search_volume": 11180,
+    "zone": "A"
+  },
+  {
+    "id": "AC-A05",
+    "need": "기미",
+    "main_keyword": "기미",
+    "monthly_search_volume": 10870,
+    "zone": "A"
+  }
+]

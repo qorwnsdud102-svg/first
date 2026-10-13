@@ -1,0 +1,14 @@
+{
+  "cards": 30,
+  "predictions": 30,
+  "flow_items": 150,
+  "needs": 19,
+  "max_per_need": 2,
+  "top_half_pass": true,
+  "measurement_matches": 60,
+  "source_files_exist": true,
+  "autocomplete_attached": true,
+  "old_pair_text_match": [],
+  "manual_semantic_checks": "모발이식·대표 대안·옛 비듬/두피 별칭 대조. 니조랄은 이전 등드름/무좀과 다른 결핍이나 원리 확장으로 표시. 케겔은 기존 요실금 짝 제외를 준수. 갱년기 보톡스는 다한증 대표안 인접 응용으로 독창성 약점 표시.",
+  "selection": "눈v6 미통과: 선발 없음. Claude가 예측을 보지 않고 선정."
+}
