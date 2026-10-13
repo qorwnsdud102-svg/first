@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-13T23:39:18.602Z",
+  "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl",
+  "usage": {
+    "input_tokens": 464666047,
+    "cached_input_tokens": 443185664,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1852823,
+    "reasoning_output_tokens": 550759,
+    "total_tokens": 466820582
+  },
+  "scope": "요구 읽기 뒤부터의 본체 부분 측정; 이전 초반 불포함"
+}

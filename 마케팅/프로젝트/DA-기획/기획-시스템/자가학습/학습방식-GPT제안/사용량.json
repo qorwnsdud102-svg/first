@@ -1,0 +1,69 @@
+{
+  "measured_at": "2026-10-14T08:44:43.903483+09:00",
+  "parent_partial": {
+    "input_tokens": 1358622,
+    "cached_input_tokens": 1336064,
+    "output_tokens": 9340,
+    "reasoning_output_tokens": 1836,
+    "total_tokens": 1367962
+  },
+  "parent_baseline": {
+    "timestamp": "2026-10-13T23:39:18.602Z",
+    "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl",
+    "usage": {
+      "input_tokens": 464666047,
+      "cached_input_tokens": 443185664,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1852823,
+      "reasoning_output_tokens": 550759,
+      "total_tokens": 466820582
+    },
+    "scope": "요구 읽기 뒤부터의 본체 부분 측정; 이전 초반 불포함"
+  },
+  "parent_end": {
+    "timestamp": "2026-10-13T23:44:10.670Z",
+    "usage": {
+      "input_tokens": 466024669,
+      "cached_input_tokens": 444521728,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1862163,
+      "reasoning_output_tokens": 552595,
+      "total_tokens": 468188544
+    }
+  },
+  "reviewer_interval": {
+    "input_tokens": 639485,
+    "cached_input_tokens": 633088,
+    "output_tokens": 2238,
+    "reasoning_output_tokens": 1552,
+    "total_tokens": 641723
+  },
+  "reviewer_baseline": {
+    "timestamp": "2026-10-13T23:39:41.466Z",
+    "usage": {
+      "input_tokens": 4018423,
+      "cached_input_tokens": 3835392,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39535,
+      "reasoning_output_tokens": 7598,
+      "total_tokens": 4057958
+    }
+  },
+  "reviewer_end": {
+    "timestamp": "2026-10-13T23:44:13.888Z",
+    "usage": {
+      "input_tokens": 4657908,
+      "cached_input_tokens": 4468480,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 41773,
+      "reasoning_output_tokens": 9150,
+      "total_tokens": 4699681
+    }
+  },
+  "reviewer_source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T08-23-05-01a13793-a3a9-7ef1-8c52-c41190f75b67.jsonl",
+  "limitations": [
+    "본체: 요구 초반 읽기는 시작점 전이라 불포함. 제안 작성 중 소량의 병행 역검증 조율 포함.",
+    "검토자는 별도 누적 전부가 아니라 독립안 동결 직후~검토 뒤 구간 차분. 경계시각 근사 포함.",
+    "역검증 확장 사용량과 구간이 겹치므로 두 보고서를 합산하지 않는다. 계정 사용률은 공용이며 비용 환산 불가."
+  ]
+}
