@@ -1,0 +1,2014 @@
+[
+  {
+    "need": "아토피",
+    "main_kw": "아토피",
+    "vol": 11180,
+    "symbols": [],
+    "related_observed": [
+      {
+        "keyword": "대상포진",
+        "total": 151600,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-171.txt"
+      },
+      {
+        "keyword": "콜린성두드러기",
+        "total": 31750,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-171.txt"
+      },
+      {
+        "keyword": "접촉성피부염",
+        "total": 25000,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-171.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "여드름",
+    "main_kw": "여드름",
+    "vol": 8020,
+    "symbols": [
+      {
+        "name": "연고",
+        "kw": "여드름 연고",
+        "vol": 20850,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-07.txt"
+      },
+      {
+        "name": "여드름 염증주사 / 주사",
+        "kw": "여드름 염증주사",
+        "vol": 6900,
+        "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt"
+      },
+      {
+        "name": "약",
+        "kw": "여드름 약",
+        "vol": 6720,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-07.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "피부과",
+        "total": 477900,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-172.txt"
+      },
+      {
+        "keyword": "항히스타민제",
+        "total": 24090,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-172.txt"
+      },
+      {
+        "keyword": "피코토닝",
+        "total": 21420,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-172.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "안면홍조",
+    "main_kw": "안면홍조",
+    "vol": 1690,
+    "symbols": [
+      {
+        "name": "레이저",
+        "kw": "안면홍조레이저",
+        "vol": 580,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-06.txt"
+      },
+      {
+        "name": "크림",
+        "kw": "안면홍조크림",
+        "vol": 400,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-06.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "모낭염",
+        "total": 40390,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-173.txt"
+      },
+      {
+        "keyword": "항히스타민제",
+        "total": 24090,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-173.txt"
+      },
+      {
+        "keyword": "지루성두피염",
+        "total": 18060,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-173.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "쥐젖",
+    "main_kw": "쥐젖",
+    "vol": 14960,
+    "symbols": [
+      {
+        "name": "피부과 쥐젖 절제",
+        "kw": "쥐젖 제거",
+        "vol": 29640,
+        "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt"
+      },
+      {
+        "name": "피부과 쥐젖 절제 / 크림",
+        "kw": "쥐젖 제거 크림",
+        "vol": 13070,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-08.txt"
+      },
+      {
+        "name": "피부과 쥐젖 절제",
+        "kw": "쥐젖 제거 비용",
+        "vol": 4410,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-08.txt"
+      },
+      {
+        "name": "피부과 쥐젖 절제",
+        "kw": "다이소 쥐젖 제거",
+        "vol": 2270,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-02.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "피부과",
+        "total": 477900,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-174.txt"
+      },
+      {
+        "keyword": "편평사마귀",
+        "total": 55340,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-174.txt"
+      },
+      {
+        "keyword": "사마귀",
+        "total": 49130,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-174.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "기미",
+    "main_kw": "기미",
+    "vol": 10870,
+    "symbols": [
+      {
+        "name": "크림",
+        "kw": "기미크림",
+        "vol": 13530,
+        "measured": "# 측정: 2026-10-13 21:56 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-01.txt"
+      },
+      {
+        "name": "레이저",
+        "kw": "기미 잡티 레이저",
+        "vol": 9820,
+        "measured": "# 측정: 2026-10-13 21:56 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-01.txt"
+      },
+      {
+        "name": "연고",
+        "kw": "기미 연고",
+        "vol": 2900,
+        "measured": "# 측정: 2026-10-13 21:56 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-01.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "매스틱",
+        "total": 50250,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-175.txt"
+      },
+      {
+        "keyword": "멜라논크림",
+        "total": 50040,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-175.txt"
+      },
+      {
+        "keyword": "글루타치온효과",
+        "total": 29280,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-175.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "주름",
+    "main_kw": "주름",
+    "vol": 1280,
+    "symbols": [
+      {
+        "name": "크림",
+        "kw": "주름개선크림",
+        "vol": 5040,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-08.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "뷰티디바이스",
+        "total": 31770,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-176.txt"
+      },
+      {
+        "keyword": "마사지기",
+        "total": 18080,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-176.txt"
+      },
+      {
+        "keyword": "얼굴마사지기",
+        "total": 13670,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-176.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "무좀",
+    "main_kw": "무좀",
+    "vol": 13430,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "무좀약",
+        "vol": 15520,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-03.txt"
+      },
+      {
+        "name": "연고",
+        "kw": "무좀 연고",
+        "vol": 5840,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-03.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "로게인폼",
+        "total": 66620,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-177.txt"
+      },
+      {
+        "keyword": "발톱무좀",
+        "total": 22400,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-177.txt"
+      },
+      {
+        "keyword": "내성발톱",
+        "total": 20620,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-177.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "내성발톱",
+    "main_kw": "내성발톱",
+    "vol": 20620,
+    "symbols": [
+      {
+        "name": "3TO 발톱교정 와이어 / 교정",
+        "kw": "내성발톱 교정기",
+        "vol": 9920,
+        "measured": "# 측정: 2026-10-13 21:56 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-01.txt"
+      },
+      {
+        "name": "3TO 발톱교정 와이어 / 교정",
+        "kw": "내성발톱 교정",
+        "vol": 2650,
+        "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt"
+      },
+      {
+        "name": "발톱 부분절제술 / 수술",
+        "kw": "내성발톱 수술",
+        "vol": 1870,
+        "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "정형외과",
+        "total": 497300,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-178.txt"
+      },
+      {
+        "keyword": "족저근막염",
+        "total": 84350,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-178.txt"
+      },
+      {
+        "keyword": "발바닥통증",
+        "total": 41450,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-178.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "족저근막염",
+    "main_kw": "족저근막염",
+    "vol": 84350,
+    "symbols": [
+      {
+        "name": "맞춤깔창",
+        "kw": "족저근막염깔창",
+        "vol": 20390,
+        "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt"
+      },
+      {
+        "name": "주사",
+        "kw": "족저근막염주사",
+        "vol": 2210,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-08.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "이비인후과",
+        "total": 649500,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-179.txt"
+      },
+      {
+        "keyword": "정형외과",
+        "total": 497300,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-179.txt"
+      },
+      {
+        "keyword": "병원",
+        "total": 231800,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-179.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "티눈",
+    "main_kw": "티눈",
+    "vol": 15690,
+    "symbols": [
+      {
+        "name": "전문가 티눈 각질 제거",
+        "kw": "티눈 제거",
+        "vol": 13130,
+        "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt"
+      },
+      {
+        "name": "전문가 티눈 각질 제거",
+        "kw": "발바닥 티눈 제거",
+        "vol": 8740,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-04.txt"
+      },
+      {
+        "name": "살리실산 티눈밴드",
+        "kw": "티눈밴드",
+        "vol": 7990,
+        "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt"
+      },
+      {
+        "name": "약",
+        "kw": "티눈약",
+        "vol": 2350,
+        "measured": "# 측정: 2026-10-13 21:58 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-09.txt"
+      },
+      {
+        "name": "연고",
+        "kw": "티눈 연고",
+        "vol": 1690,
+        "measured": "# 측정: 2026-10-13 21:58 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-09.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "족저근막염",
+        "total": 84350,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-180.txt"
+      },
+      {
+        "keyword": "편평사마귀",
+        "total": 55340,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-180.txt"
+      },
+      {
+        "keyword": "사마귀",
+        "total": 49130,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-180.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "손발다한증",
+    "main_kw": "손다한증",
+    "vol": 1700,
+    "symbols": [
+      {
+        "name": "손발 다한증 보톡스 / 보톡스",
+        "kw": "손 다한증 보톡스",
+        "vol": 510,
+        "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt"
+      },
+      {
+        "name": "수술",
+        "kw": "손 다한증 수술",
+        "vol": 390,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-05.txt"
+      },
+      {
+        "name": "약",
+        "kw": "손 다한증 약",
+        "vol": 290,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-05.txt"
+      },
+      {
+        "name": "수술",
+        "kw": "손 다한증 수술 후기",
+        "vol": 70,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-05.txt"
+      },
+      {
+        "name": "손발 다한증 보톡스 / 보톡스",
+        "kw": "손 다한증 보톡스 가격",
+        "vol": 70,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-05.txt"
+      },
+      {
+        "name": "약",
+        "kw": "손 다한증 약국",
+        "vol": 70,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-05.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "다한증",
+        "total": 6950,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-181.txt"
+      },
+      {
+        "keyword": "식은땀이나는이유",
+        "total": 5920,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-181.txt"
+      },
+      {
+        "keyword": "겨드랑이냄새",
+        "total": 5560,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-181.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "탈모",
+    "main_kw": "탈모",
+    "vol": 13460,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "탈모약",
+        "vol": 25360,
+        "measured": "# 측정: 2026-10-13 21:58 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-09.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "미녹시딜",
+        "total": 69290,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-182.txt"
+      },
+      {
+        "keyword": "모낭염",
+        "total": 40390,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-182.txt"
+      },
+      {
+        "keyword": "탈모샴푸",
+        "total": 35440,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-182.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "새치",
+    "main_kw": "새치",
+    "vol": 3520,
+    "symbols": [
+      {
+        "name": "새치 염색 / 약",
+        "kw": "새치염색약",
+        "vol": 12990,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-05.txt"
+      },
+      {
+        "name": "새치 염색",
+        "kw": "새치염색",
+        "vol": 9130,
+        "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt"
+      },
+      {
+        "name": "영양제",
+        "kw": "새치 영양제",
+        "vol": 660,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-05.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "염색약",
+        "total": 33360,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-183.txt"
+      },
+      {
+        "keyword": "염색샴푸",
+        "total": 21370,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-183.txt"
+      },
+      {
+        "keyword": "염색",
+        "total": 19590,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-183.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "비듬",
+    "main_kw": "비듬",
+    "vol": 3370,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "비듬약",
+        "vol": 820,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-04.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "모낭염",
+        "total": 40390,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-184.txt"
+      },
+      {
+        "keyword": "탈모샴푸",
+        "total": 35440,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-184.txt"
+      },
+      {
+        "keyword": "헤드스파",
+        "total": 31240,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-184.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "지루성두피염",
+    "main_kw": "지루성두피염",
+    "vol": 18060,
+    "symbols": [
+      {
+        "name": "연고",
+        "kw": "지루성두피염연고",
+        "vol": 1100,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-08.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "모낭염",
+        "total": 40390,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-185.txt"
+      },
+      {
+        "keyword": "탈모샴푸",
+        "total": 35440,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-185.txt"
+      },
+      {
+        "keyword": "콜린성두드러기",
+        "total": 31750,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-185.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "오십견",
+    "main_kw": "오십견",
+    "vol": 16810,
+    "symbols": [],
+    "related_observed": [
+      {
+        "keyword": "정형외과",
+        "total": 497300,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-186.txt"
+      },
+      {
+        "keyword": "한의원",
+        "total": 173300,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-186.txt"
+      },
+      {
+        "keyword": "대상포진",
+        "total": 151600,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-186.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "무릎관절염",
+    "main_kw": "무릎관절염",
+    "vol": 2480,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "무릎 관절염 약",
+        "vol": 230,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-03.txt"
+      },
+      {
+        "name": "주사",
+        "kw": "무릎 관절염 주사",
+        "vol": 100,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-03.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "정형외과",
+        "total": 497300,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-187.txt"
+      },
+      {
+        "keyword": "콘드로이친1200",
+        "total": 50080,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-187.txt"
+      },
+      {
+        "keyword": "무릎",
+        "total": 34860,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-187.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "테니스엘보",
+    "main_kw": "테니스엘보",
+    "vol": 8230,
+    "symbols": [],
+    "related_observed": [
+      {
+        "keyword": "정형외과",
+        "total": 497300,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-188.txt"
+      },
+      {
+        "keyword": "병원",
+        "total": 231800,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-188.txt"
+      },
+      {
+        "keyword": "한의원",
+        "total": 173300,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-188.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "손목터널증후군",
+    "main_kw": "손목터널증후군",
+    "vol": 27500,
+    "symbols": [
+      {
+        "name": "한의원",
+        "kw": "손목터널증후군한의원",
+        "vol": 240,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-05.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "정형외과",
+        "total": 497300,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-189.txt"
+      },
+      {
+        "keyword": "병원",
+        "total": 231800,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-189.txt"
+      },
+      {
+        "keyword": "한의원",
+        "total": 173300,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-189.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "허리디스크",
+    "main_kw": "허리디스크",
+    "vol": 14880,
+    "symbols": [
+      {
+        "name": "수술",
+        "kw": "허리디스크수술",
+        "vol": 5640,
+        "measured": "# 측정: 2026-10-13 21:58 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-10.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "이비인후과",
+        "total": 649500,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-190.txt"
+      },
+      {
+        "keyword": "정형외과",
+        "total": 497300,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-190.txt"
+      },
+      {
+        "keyword": "병원",
+        "total": 231800,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-190.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "거북목",
+    "main_kw": "거북목",
+    "vol": 8310,
+    "symbols": [
+      {
+        "name": "교정",
+        "kw": "거북목 교정기",
+        "vol": 16550,
+        "measured": "# 측정: 2026-10-13 21:56 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-01.txt"
+      },
+      {
+        "name": "교정",
+        "kw": "거북목 교정",
+        "vol": 4370,
+        "measured": "# 측정: 2026-10-13 21:56 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-01.txt"
+      },
+      {
+        "name": "교정",
+        "kw": "거북목 교정 운동",
+        "vol": 2510,
+        "measured": "# 측정: 2026-10-13 21:56 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-01.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "정형외과",
+        "total": 497300,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-191.txt"
+      },
+      {
+        "keyword": "대상포진",
+        "total": 151600,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-191.txt"
+      },
+      {
+        "keyword": "대상포진증상",
+        "total": 97360,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-191.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "하지정맥류",
+    "main_kw": "하지정맥류",
+    "vol": 32870,
+    "symbols": [
+      {
+        "name": "수술",
+        "kw": "하지정맥류수술방법",
+        "vol": 4410,
+        "measured": "# 측정: 2026-10-13 21:58 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-10.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "발바닥통증",
+        "total": 41450,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-192.txt"
+      },
+      {
+        "keyword": "부정맥",
+        "total": 34310,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-192.txt"
+      },
+      {
+        "keyword": "부정맥증상",
+        "total": 33150,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-192.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "불면증",
+    "main_kw": "불면증",
+    "vol": 12410,
+    "symbols": [],
+    "related_observed": [
+      {
+        "keyword": "병원",
+        "total": 231800,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-193.txt"
+      },
+      {
+        "keyword": "위고비",
+        "total": 78600,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-193.txt"
+      },
+      {
+        "keyword": "강남역",
+        "total": 61200,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-193.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "코골이",
+    "main_kw": "코골이",
+    "vol": 6580,
+    "symbols": [],
+    "related_observed": [
+      {
+        "keyword": "이비인후과",
+        "total": 649500,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-194.txt"
+      },
+      {
+        "keyword": "치과",
+        "total": 245700,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-194.txt"
+      },
+      {
+        "keyword": "양압기",
+        "total": 45210,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-194.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "수면무호흡증",
+    "main_kw": "수면무호흡증",
+    "vol": 8260,
+    "symbols": [],
+    "related_observed": [
+      {
+        "keyword": "양압기",
+        "total": 45210,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-195.txt"
+      },
+      {
+        "keyword": "공황장애",
+        "total": 27390,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-195.txt"
+      },
+      {
+        "keyword": "기면증",
+        "total": 20760,
+        "measured": "# 측정: 2026-10-13 22:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-195.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "만성피로",
+    "main_kw": "만성피로",
+    "vol": 5100,
+    "symbols": [
+      {
+        "name": "영양제",
+        "kw": "만성피로 영양제",
+        "vol": 2670,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-02.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "아르기닌",
+        "total": 61400,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-196.txt"
+      },
+      {
+        "keyword": "정신건강의학과",
+        "total": 46250,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-196.txt"
+      },
+      {
+        "keyword": "정신과",
+        "total": 43410,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-196.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "치주염",
+    "main_kw": "치주염",
+    "vol": 7860,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "치주염 약",
+        "vol": 1160,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-08.txt"
+      },
+      {
+        "name": "약",
+        "kw": "치주염 치약",
+        "vol": 980,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-08.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "치과",
+        "total": 245700,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-197.txt"
+      },
+      {
+        "keyword": "크론병",
+        "total": 50510,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-197.txt"
+      },
+      {
+        "keyword": "구내염",
+        "total": 44220,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-197.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "시린이",
+    "main_kw": "시린이",
+    "vol": 650,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "시린이 치약",
+        "vol": 5890,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-05.txt"
+      },
+      {
+        "name": "약",
+        "kw": "시린이 치약 추천",
+        "vol": 670,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-06.txt"
+      },
+      {
+        "name": "센소다인 리페어앤프로텍트—영국판",
+        "kw": "센소다인 시린이",
+        "vol": 470,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-05.txt"
+      },
+      {
+        "name": "약",
+        "kw": "시린이 약",
+        "vol": 310,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-05.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "치약",
+        "total": 60280,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-198.txt"
+      },
+      {
+        "keyword": "칫솔",
+        "total": 46490,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-198.txt"
+      },
+      {
+        "keyword": "구강유산균",
+        "total": 40020,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-198.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "입냄새",
+    "main_kw": "입냄새",
+    "vol": 2370,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "입냄새 제거 치약",
+        "vol": 1680,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-07.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "크론병",
+        "total": 50510,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-199.txt"
+      },
+      {
+        "keyword": "구내염",
+        "total": 44220,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-199.txt"
+      },
+      {
+        "keyword": "구강유산균",
+        "total": 40020,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-199.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "구강건조증",
+    "main_kw": "구강건조증",
+    "vol": 2770,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "구강건조증 약",
+        "vol": 410,
+        "measured": "# 측정: 2026-10-13 21:56 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-01.txt"
+      },
+      {
+        "name": "약",
+        "kw": "구강건조증 약국",
+        "vol": 40,
+        "measured": "# 측정: 2026-10-13 21:56 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-01.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "크론병",
+        "total": 50510,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-200.txt"
+      },
+      {
+        "keyword": "구내염",
+        "total": 44220,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-200.txt"
+      },
+      {
+        "keyword": "구강유산균",
+        "total": 40020,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-200.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "턱관절통",
+    "main_kw": "턱관절통증",
+    "vol": 2030,
+    "symbols": [],
+    "related_observed": [
+      {
+        "keyword": "치과",
+        "total": 245700,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-201.txt"
+      },
+      {
+        "keyword": "이석증",
+        "total": 69770,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-201.txt"
+      },
+      {
+        "keyword": "메니에르병",
+        "total": 36400,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-201.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "변비",
+    "main_kw": "변비",
+    "vol": 11350,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "변비약",
+        "vol": 15090,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-04.txt"
+      },
+      {
+        "name": "유산균",
+        "kw": "변비 유산균",
+        "vol": 2920,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-04.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "그릭요거트",
+        "total": 76700,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-202.txt"
+      },
+      {
+        "keyword": "대장암초기증상",
+        "total": 56600,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-202.txt"
+      },
+      {
+        "keyword": "장염증상",
+        "total": 41910,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-202.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "과민성대장증후군",
+    "main_kw": "과민성대장증후군",
+    "vol": 33130,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "과민성대장증후군 약",
+        "vol": 3690,
+        "measured": "# 측정: 2026-10-13 21:56 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-01.txt"
+      },
+      {
+        "name": "유산균",
+        "kw": "과민성대장증후군 유산균",
+        "vol": 2290,
+        "measured": "# 측정: 2026-10-13 21:56 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-01.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "내과",
+        "total": 486100,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-203.txt"
+      },
+      {
+        "keyword": "한의원",
+        "total": 173300,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-203.txt"
+      },
+      {
+        "keyword": "건강검진",
+        "total": 69400,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-203.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "역류성식도염",
+    "main_kw": "역류성식도염",
+    "vol": 40870,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "역류성 식도염 약",
+        "vol": 14590,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-07.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "내과",
+        "total": 486100,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-204.txt"
+      },
+      {
+        "keyword": "소아과",
+        "total": 221420,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-204.txt"
+      },
+      {
+        "keyword": "대상포진",
+        "total": 151600,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-204.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "위염",
+    "main_kw": "위염",
+    "vol": 14290,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "위염 약",
+        "vol": 2780,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-07.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "한의원",
+        "total": 173300,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-205.txt"
+      },
+      {
+        "keyword": "위고비",
+        "total": 78600,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-205.txt"
+      },
+      {
+        "keyword": "건강검진",
+        "total": 69400,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-205.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "치질",
+    "main_kw": "치질",
+    "vol": 23910,
+    "symbols": [
+      {
+        "name": "연고",
+        "kw": "치질연고",
+        "vol": 9780,
+        "measured": "# 측정: 2026-10-13 21:58 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-09.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "대장암초기증상",
+        "total": 56600,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-206.txt"
+      },
+      {
+        "keyword": "크론병",
+        "total": 50510,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-206.txt"
+      },
+      {
+        "keyword": "역류성식도염",
+        "total": 40870,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-206.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "비만",
+    "main_kw": "비만",
+    "vol": 3680,
+    "symbols": [
+      {
+        "name": "치료제",
+        "kw": "비만치료제",
+        "vol": 6940,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-04.txt"
+      },
+      {
+        "name": "약",
+        "kw": "비만약",
+        "vol": 1490,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-04.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "이비인후과",
+        "total": 649500,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-207.txt"
+      },
+      {
+        "keyword": "헬스장",
+        "total": 229400,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-207.txt"
+      },
+      {
+        "keyword": "소아과",
+        "total": 221420,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-207.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "안구건조증",
+    "main_kw": "안구건조증",
+    "vol": 5650,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "안구건조증 안약",
+        "vol": 2510,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-06.txt"
+      },
+      {
+        "name": "연고",
+        "kw": "안구건조증 안연고",
+        "vol": 1330,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-06.txt"
+      },
+      {
+        "name": "약",
+        "kw": "안구건조증 약",
+        "vol": 610,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-06.txt"
+      },
+      {
+        "name": "수술",
+        "kw": "안구건조증 수술",
+        "vol": 580,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-06.txt"
+      },
+      {
+        "name": "연고",
+        "kw": "안구건조증 연고",
+        "vol": 530,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-06.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "안과",
+        "total": 344900,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-208.txt"
+      },
+      {
+        "keyword": "비문증",
+        "total": 38270,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-208.txt"
+      },
+      {
+        "keyword": "녹내장",
+        "total": 31200,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-208.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "비염",
+    "main_kw": "비염",
+    "vol": 21990,
+    "symbols": [],
+    "related_observed": [
+      {
+        "keyword": "독감예방접종",
+        "total": 727600,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-209.txt"
+      },
+      {
+        "keyword": "이비인후과",
+        "total": 649500,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-209.txt"
+      },
+      {
+        "keyword": "한의원",
+        "total": 173300,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-209.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "이명",
+    "main_kw": "이명",
+    "vol": 17120,
+    "symbols": [],
+    "related_observed": [
+      {
+        "keyword": "이비인후과",
+        "total": 649500,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-210.txt"
+      },
+      {
+        "keyword": "대상포진",
+        "total": 151600,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-210.txt"
+      },
+      {
+        "keyword": "족저근막염",
+        "total": 84350,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-210.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "노안",
+    "main_kw": "노안",
+    "vol": 5550,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "노안 안약",
+        "vol": 7440,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-02.txt"
+      },
+      {
+        "name": "영양제",
+        "kw": "노안 영양제",
+        "vol": 1430,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-02.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "백내장",
+        "total": 23510,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-211.txt"
+      },
+      {
+        "keyword": "근시",
+        "total": 16180,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-211.txt"
+      },
+      {
+        "keyword": "백내장수술비용",
+        "total": 14960,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-211.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "축농증",
+    "main_kw": "축농증",
+    "vol": 23870,
+    "symbols": [
+      {
+        "name": "부비동 내시경수술 / 수술",
+        "kw": "축농증 수술",
+        "vol": 4670,
+        "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt"
+      },
+      {
+        "name": "약",
+        "kw": "축농증 약",
+        "vol": 1430,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-08.txt"
+      },
+      {
+        "name": "코세척",
+        "kw": "축농증 코세척",
+        "vol": 1390,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-08.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "독감예방접종",
+        "total": 727600,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-212.txt"
+      },
+      {
+        "keyword": "이비인후과",
+        "total": 649500,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-212.txt"
+      },
+      {
+        "keyword": "미세먼지",
+        "total": 357600,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-212.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "갱년기증상",
+    "main_kw": "갱년기증상",
+    "vol": 39770,
+    "symbols": [],
+    "related_observed": [
+      {
+        "keyword": "비뇨기과",
+        "total": 110110,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-213.txt"
+      },
+      {
+        "keyword": "발바닥통증",
+        "total": 41450,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-213.txt"
+      },
+      {
+        "keyword": "다이어트식단",
+        "total": 36230,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-213.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "질건조증",
+    "main_kw": "질건조증",
+    "vol": 2060,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "질건조증 약",
+        "vol": 220,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-08.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "산부인과",
+        "total": 215600,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-214.txt"
+      },
+      {
+        "keyword": "헤르페스",
+        "total": 44350,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-214.txt"
+      },
+      {
+        "keyword": "갱년기증상",
+        "total": 39770,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-214.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "생리통",
+    "main_kw": "생리통",
+    "vol": 5490,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "생리통 약",
+        "vol": 16620,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-05.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "산부인과",
+        "total": 215600,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-215.txt"
+      },
+      {
+        "keyword": "다낭성난소증후군",
+        "total": 45720,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-215.txt"
+      },
+      {
+        "keyword": "뇌경색",
+        "total": 44980,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-215.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "다낭성난소증후군",
+    "main_kw": "다낭성난소증후군",
+    "vol": 45720,
+    "symbols": [],
+    "related_observed": [
+      {
+        "keyword": "갑상선암증상",
+        "total": 43970,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-216.txt"
+      },
+      {
+        "keyword": "갱년기증상",
+        "total": 39770,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-216.txt"
+      },
+      {
+        "keyword": "신우신염",
+        "total": 30910,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-216.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "전립선비대증",
+    "main_kw": "전립선비대증",
+    "vol": 32260,
+    "symbols": [
+      {
+        "name": "약",
+        "kw": "전립선비대증약",
+        "vol": 4870,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-07.txt"
+      },
+      {
+        "name": "수술",
+        "kw": "전립선비대증수술비용",
+        "vol": 3800,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-07.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "비뇨기과",
+        "total": 110110,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-217.txt"
+      },
+      {
+        "keyword": "방광염증상",
+        "total": 49390,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-217.txt"
+      },
+      {
+        "keyword": "헤르페스",
+        "total": 44350,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-217.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "요실금",
+    "main_kw": "요실금",
+    "vol": 9240,
+    "symbols": [
+      {
+        "name": "요실금 슬링수술 / 수술",
+        "kw": "요실금수술",
+        "vol": 6670,
+        "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "산부인과",
+        "total": 215600,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-218.txt"
+      },
+      {
+        "keyword": "비뇨기과",
+        "total": 110110,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-218.txt"
+      },
+      {
+        "keyword": "방광염증상",
+        "total": 49390,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-218.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "집먼지진드기알레르기",
+    "main_kw": "집먼지진드기알레르기",
+    "vol": 1130,
+    "symbols": [],
+    "related_observed": [
+      {
+        "keyword": "빈대",
+        "total": 35150,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-219.txt"
+      },
+      {
+        "keyword": "진드기물린자국",
+        "total": 27260,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-219.txt"
+      },
+      {
+        "keyword": "진드기",
+        "total": 23470,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-219.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  },
+  {
+    "need": "액취증",
+    "main_kw": "액취증",
+    "vol": 3220,
+    "symbols": [
+      {
+        "name": "초음파 땀샘흡입술 / 수술",
+        "kw": "액취증수술",
+        "vol": 2060,
+        "measured": "# 측정: 2026-10-13 18:58 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징FJ.txt"
+      },
+      {
+        "name": "초음파 땀샘흡입술 / 수술",
+        "kw": "액취증수술병원",
+        "vol": 730,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-06.txt"
+      },
+      {
+        "name": "초음파 땀샘흡입술 / 수술",
+        "kw": "액취증수술시기",
+        "vol": 120,
+        "measured": "# 측정: 2026-10-13 21:57 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-추가-06.txt"
+      }
+    ],
+    "related_observed": [
+      {
+        "keyword": "드리클로",
+        "total": 7070,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-220.txt"
+      },
+      {
+        "keyword": "다한증",
+        "total": 6950,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-220.txt"
+      },
+      {
+        "keyword": "데오도란트",
+        "total": 6480,
+        "measured": "# 측정: 2026-10-13 22:05 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+        "file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\대표연상\\네이버-연관-220.txt"
+      }
+    ],
+    "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+    "interpretation": "결핍과 대안명이 함께 관찰된 검색어. 병원·약 등 일반어는 고유 상징으로 확정하지 않음."
+  }
+]

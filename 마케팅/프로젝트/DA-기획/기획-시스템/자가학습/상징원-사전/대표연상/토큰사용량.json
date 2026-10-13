@@ -1,0 +1,38 @@
+{
+  "start": {
+    "timestamp": "2026-10-13T12:56:57.587Z",
+    "usage": {
+      "input_tokens": 389243629,
+      "cached_input_tokens": 370388224,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1579472,
+      "reasoning_output_tokens": 487981,
+      "total_tokens": 391124813
+    },
+    "limitation": "기준 기록 이전의 조회준비 일부는 직전 작업 공유구간 이후로 남아있다. 이 파일은 API수집 시작 부근 본체 기준이며 전체단계가 아닌 보수적 관측구간."
+  },
+  "end": {
+    "timestamp": "2026-10-13T13:10:31.309Z",
+    "usage": {
+      "input_tokens": 391817108,
+      "cached_input_tokens": 372831104,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1591746,
+      "reasoning_output_tokens": 491551,
+      "total_tokens": 393710566
+    }
+  },
+  "delta": {
+    "input_tokens": 2573479,
+    "cached_input_tokens": 2442880,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12274,
+    "reasoning_output_tokens": 3570,
+    "total_tokens": 2585753,
+    "uncached_input_tokens": 130599
+  },
+  "account_weekly_used_pct": 44,
+  "account_remaining_pct": 56,
+  "five_hour_window": null,
+  "limitation": "API조회시작 부근 이후 본체 관측구간. 준비 일부 제외; 후반11회차 지시 읽기·에이전트 배정 일부 포함. 부과요금이나 해당작업 계정퍼센트로 환산불가."
+}

@@ -1,0 +1,5321 @@
+{
+  "created": "2026-10-13T21:55:54.466755+09:00",
+  "symbols": [
+    {
+      "symbol": "듀피젠트",
+      "seed": "듀피젠트",
+      "aliases": [
+        "듀피젠트"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A01",
+          "symbol_name": "듀피젠트"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "프로토픽",
+      "seed": "프로토픽",
+      "aliases": [
+        "프로토픽",
+        "타크로리무스"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A01",
+          "symbol_name": "프로토픽"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "프로토픽 얼굴",
+          "uses": [
+            "부위—얼굴"
+          ],
+          "origin": "자동완성",
+          "seed": "프로토픽",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "프로토픽 여드름",
+          "uses": [
+            "여드름"
+          ],
+          "origin": "자동완성",
+          "seed": "프로토픽",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "린버크",
+      "seed": "린버크",
+      "aliases": [
+        "린버크",
+        "유파다시티닙"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A01",
+          "symbol_name": "린버크"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "린버크 여드름",
+          "uses": [
+            "여드름"
+          ],
+          "origin": "자동완성",
+          "seed": "린버크",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "린버크 아토피",
+          "uses": [
+            "아토피·습진"
+          ],
+          "origin": "자동완성",
+          "seed": "린버크",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "이소트레티노인",
+      "seed": "이소트레티노인",
+      "aliases": [
+        "이소트레티노인"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A02",
+          "symbol_name": "이소트레티노인"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "이소트레티노인 탈모",
+          "uses": [
+            "모발"
+          ],
+          "origin": "자동완성",
+          "seed": "이소트레티노인",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "디페린",
+      "seed": "디페린",
+      "aliases": [
+        "디페린",
+        "아다팔렌"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A02",
+          "symbol_name": "디페린"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "여드름 염증주사",
+      "seed": "여드름염증주사",
+      "aliases": [
+        "여드름염증주사",
+        "염증주사"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A02",
+          "symbol_name": "여드름 염증주사"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "여드름 염증주사",
+          "uses": [
+            "여드름"
+          ],
+          "origin": "자동완성",
+          "seed": "염증주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "여드름 염증주사 가격",
+          "uses": [
+            "여드름"
+          ],
+          "origin": "자동완성",
+          "seed": "염증주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "브이빔",
+      "seed": "브이빔",
+      "aliases": [
+        "브이빔",
+        "브이빔퍼펙타"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A03",
+          "symbol_name": "브이빔"
+        },
+        {
+          "cross_id": "CROSS-39"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "엑셀V",
+      "seed": "엑셀V",
+      "aliases": [
+        "엑셀V",
+        "엑셀브이"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A03",
+          "symbol_name": "엑셀V"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "엑셀v레이저 홍조",
+          "uses": [
+            "홍조"
+          ],
+          "origin": "자동완성",
+          "seed": "엑셀V",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "엑셀브이 홍조",
+          "uses": [
+            "홍조"
+          ],
+          "origin": "자동완성",
+          "seed": "엑셀브이",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "IPL",
+      "seed": "IPL",
+      "aliases": [
+        "IPL",
+        "IPL홍조"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A03",
+          "symbol_name": "IPL"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "액체질소 냉동치료",
+      "seed": "쥐젖냉동치료",
+      "aliases": [
+        "쥐젖냉동치료",
+        "냉동치료"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A04",
+          "symbol_name": "액체질소 냉동치료"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "사마귀 냉동치료",
+          "uses": [
+            "돌기"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "사마귀 냉동치료 후기",
+          "uses": [
+            "돌기"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "사마귀 냉동치료 물집",
+          "uses": [
+            "돌기"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "티눈 냉동치료",
+          "uses": [
+            "각질"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "티눈 냉동치료 후기",
+          "uses": [
+            "각질"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "사마귀 냉동치료 가격",
+          "uses": [
+            "돌기"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "비염 냉동치료",
+          "uses": [
+            "코·귀"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "사마귀 냉동치료 통증",
+          "uses": [
+            "돌기"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "티눈 냉동치료 통증",
+          "uses": [
+            "각질"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "전기건조술",
+      "seed": "쥐젖전기소작",
+      "aliases": [
+        "쥐젖전기소작",
+        "전기건조술"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A04",
+          "symbol_name": "전기건조술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "피부과 쥐젖 절제",
+      "seed": "쥐젖제거",
+      "aliases": [
+        "쥐젖제거",
+        "쥐젖절제"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A04",
+          "symbol_name": "피부과 쥐젖 절제"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "피코토닝·피코웨이",
+      "seed": "피코토닝",
+      "aliases": [
+        "피코토닝",
+        "피코웨이"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A05",
+          "symbol_name": "피코토닝·피코웨이"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "피코웨이 모공",
+          "uses": [
+            "모공"
+          ],
+          "origin": "자동완성",
+          "seed": "피코웨이",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "트리루마",
+      "seed": "트리루마",
+      "aliases": [
+        "트리루마"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A05",
+          "symbol_name": "트리루마"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "하이드로퀴논 기미치료제",
+      "seed": "하이드로퀴논",
+      "aliases": [
+        "하이드로퀴논",
+        "하이드로퀴논크림"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A05",
+          "symbol_name": "하이드로퀴논 기미치료제"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "울쎄라",
+      "seed": "울쎄라",
+      "aliases": [
+        "울쎄라"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A06",
+          "symbol_name": "울쎄라"
+        },
+        {
+          "cross_id": "CROSS-05"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "써마지",
+      "seed": "써마지",
+      "aliases": [
+        "써마지",
+        "써마지FLX"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A06",
+          "symbol_name": "써마지"
+        },
+        {
+          "cross_id": "CROSS-06"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "보톡스",
+      "seed": "주름보톡스",
+      "aliases": [
+        "주름보톡스",
+        "이마보톡스",
+        "눈가보톡스"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-A06",
+          "symbol_name": "보톡스"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "팔자주름 보톡스",
+          "uses": [
+            "주름"
+          ],
+          "origin": "자동완성",
+          "seed": "주름보톡스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "이마주름 보톡스",
+          "uses": [
+            "부위—얼굴"
+          ],
+          "origin": "자동완성",
+          "seed": "주름보톡스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "미간주름 보톡스",
+          "uses": [
+            "주름"
+          ],
+          "origin": "자동완성",
+          "seed": "주름보톡스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "팔자주름 보톡스 후기",
+          "uses": [
+            "주름"
+          ],
+          "origin": "자동완성",
+          "seed": "주름보톡스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "입가주름 보톡스",
+          "uses": [
+            "부위—얼굴"
+          ],
+          "origin": "자동완성",
+          "seed": "주름보톡스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "눈밑주름 보톡스",
+          "uses": [
+            "부위—얼굴"
+          ],
+          "origin": "자동완성",
+          "seed": "주름보톡스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "라미실 크림",
+      "seed": "라미실",
+      "aliases": [
+        "라미실",
+        "라미실크림"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C01",
+          "symbol_name": "라미실 크림"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "무좀약 라미실",
+          "uses": [
+            "손발톱"
+          ],
+          "origin": "자동완성",
+          "seed": "라미실",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "주블리아",
+      "seed": "주블리아",
+      "aliases": [
+        "주블리아"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C01",
+          "symbol_name": "주블리아"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "핀포인트 발톱레이저",
+      "seed": "핀포인트레이저",
+      "aliases": [
+        "핀포인트레이저",
+        "발톱무좀레이저"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C01",
+          "symbol_name": "핀포인트 발톱레이저"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "핀포인트 레이저 무좀",
+          "uses": [
+            "손발톱"
+          ],
+          "origin": "자동완성",
+          "seed": "핀포인트레이저",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "발톱 부분절제술",
+      "seed": "내성발톱수술",
+      "aliases": [
+        "내성발톱수술",
+        "발톱부분절제술"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C02",
+          "symbol_name": "발톱 부분절제술"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "내성발톱 수술 후 소독",
+          "uses": [
+            "생활—청소"
+          ],
+          "origin": "자동완성",
+          "seed": "내성발톱수술",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "3TO 발톱교정 와이어",
+      "seed": "3TO",
+      "aliases": [
+        "3TO",
+        "발톱교정",
+        "내성발톱교정"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C02",
+          "symbol_name": "3TO 발톱교정 와이어"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "3to 발톱교정",
+          "uses": [
+            "손발톱"
+          ],
+          "origin": "자동완성",
+          "seed": "3TO",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "내성발톱 교정기",
+          "uses": [
+            "손발톱"
+          ],
+          "origin": "자동완성",
+          "seed": "발톱교정",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "내성발톱 교정",
+          "uses": [
+            "손발톱"
+          ],
+          "origin": "자동완성",
+          "seed": "발톱교정",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "내성발톱 교정 비용",
+          "uses": [
+            "손발톱"
+          ],
+          "origin": "자동완성",
+          "seed": "발톱교정",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "내성발톱 교정 밴드",
+          "uses": [
+            "손발톱"
+          ],
+          "origin": "자동완성",
+          "seed": "발톱교정",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "대전 내성발톱 교정",
+          "uses": [
+            "손발톱"
+          ],
+          "origin": "자동완성",
+          "seed": "발톱교정",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "부산 내성발톱 교정",
+          "uses": [
+            "손발톱"
+          ],
+          "origin": "자동완성",
+          "seed": "발톱교정",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "치아교정",
+      "seed": "치아교정",
+      "aliases": [
+        "치아교정",
+        "교정브라켓"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C02",
+          "symbol_name": "치아교정"
+        },
+        {
+          "cross_id": "CROSS-03"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "치아교정양치질",
+          "uses": [
+            "배변·소화"
+          ],
+          "origin": "자동완성",
+          "seed": "치아교정",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "체외충격파",
+      "seed": "체외충격파",
+      "aliases": [
+        "체외충격파",
+        "족저근막염체외충격파"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C03",
+          "symbol_name": "체외충격파"
+        },
+        {
+          "need_id": "DIC-D03",
+          "symbol_name": "체외충격파"
+        },
+        {
+          "cross_id": "CROSS-17"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "맞춤깔창",
+      "seed": "맞춤깔창",
+      "aliases": [
+        "맞춤깔창",
+        "족저근막염깔창"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C03",
+          "symbol_name": "맞춤깔창"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "야간부목",
+      "seed": "족저근막염야간부목",
+      "aliases": [
+        "족저근막염야간부목",
+        "족저근막염보조기"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C03",
+          "symbol_name": "야간부목"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "살리실산 티눈밴드",
+      "seed": "티눈밴드",
+      "aliases": [
+        "티눈밴드",
+        "살리실산티눈밴드"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C04",
+          "symbol_name": "살리실산 티눈밴드"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "발바닥 티눈 밴드",
+          "uses": [
+            "부위—몸",
+            "생활—청소"
+          ],
+          "origin": "자동완성",
+          "seed": "티눈밴드",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "사마귀 티눈밴드",
+          "uses": [
+            "돌기"
+          ],
+          "origin": "자동완성",
+          "seed": "티눈밴드",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "전문가 티눈 각질 제거",
+      "seed": "티눈제거",
+      "aliases": [
+        "티눈제거",
+        "티눈제거술"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C04",
+          "symbol_name": "전문가 티눈 각질 제거"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "발바닥 티눈 제거",
+          "uses": [
+            "부위—몸",
+            "생활—청소"
+          ],
+          "origin": "자동완성",
+          "seed": "티눈제거",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "손가락 티눈 제거",
+          "uses": [
+            "부위—몸"
+          ],
+          "origin": "자동완성",
+          "seed": "티눈제거",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "압력분산 티눈보호패드",
+      "seed": "티눈보호패드",
+      "aliases": [
+        "티눈보호패드",
+        "티눈보호링"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C04",
+          "symbol_name": "압력분산 티눈보호패드"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "손발 다한증 보톡스",
+      "seed": "손다한증보톡스",
+      "aliases": [
+        "손다한증보톡스",
+        "발다한증보톡스"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C05",
+          "symbol_name": "손발 다한증 보톡스"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "이온영동",
+      "seed": "이온영동",
+      "aliases": [
+        "이온영동",
+        "다한증이온영동"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C05",
+          "symbol_name": "이온영동"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "이온영동치료 다한증",
+          "uses": [
+            "땀·냄새"
+          ],
+          "origin": "자동완성",
+          "seed": "이온영동",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "드리클로",
+      "seed": "드리클로",
+      "aliases": [
+        "드리클로",
+        "드리클로손",
+        "드리클로발"
+      ],
+      "sources": [
+        {
+          "need_id": "AC-C05",
+          "symbol_name": "드리클로"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "드리클로 가려움",
+          "uses": [
+            "아토피·습진"
+          ],
+          "origin": "자동완성",
+          "seed": "드리클로",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징AC.txt",
+          "measured": "# 측정: 2026-10-13 18:59 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "로게인폼",
+      "seed": "로게인폼",
+      "aliases": [
+        "로게인폼",
+        "미녹시딜"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-B01",
+          "symbol_name": "로게인폼"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "프로페시아",
+      "seed": "프로페시아",
+      "aliases": [
+        "프로페시아"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-B01",
+          "symbol_name": "프로페시아"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "탈모약 프로페시아",
+          "uses": [
+            "모발"
+          ],
+          "origin": "자동완성",
+          "seed": "프로페시아",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "모발이식",
+      "seed": "모발이식",
+      "aliases": [
+        "모발이식"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-B01",
+          "symbol_name": "모발이식"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "새치 염색",
+      "seed": "새치염색",
+      "aliases": [
+        "새치염색"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-B02",
+          "symbol_name": "새치 염색"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "헤나",
+      "seed": "헤나",
+      "aliases": [
+        "헤나"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-B02",
+          "symbol_name": "헤나"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "헤나염색약",
+          "uses": [
+            "모발"
+          ],
+          "origin": "자동완성",
+          "seed": "헤나",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "헤나염색",
+          "uses": [
+            "모발"
+          ],
+          "origin": "자동완성",
+          "seed": "헤나",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "그레이 블렌딩",
+      "seed": "그레이블렌딩",
+      "aliases": [
+        "그레이블렌딩"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-B02",
+          "symbol_name": "그레이 블렌딩"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "니조랄",
+      "seed": "니조랄",
+      "aliases": [
+        "니조랄"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-B03",
+          "symbol_name": "니조랄"
+        },
+        {
+          "need_id": "DIC-B04",
+          "symbol_name": "니조랄"
+        },
+        {
+          "cross_id": "CROSS-30"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "셀선 블루",
+      "seed": "셀선블루",
+      "aliases": [
+        "셀선블루"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-B03",
+          "symbol_name": "셀선 블루"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "셀선블루 비듬",
+          "uses": [
+            "모발"
+          ],
+          "origin": "자동완성",
+          "seed": "셀선블루",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "헤드앤숄더",
+      "seed": "헤드앤숄더",
+      "aliases": [
+        "헤드앤숄더"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-B03",
+          "symbol_name": "헤드앤숄더"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "헤드앤숄더 가려운두피",
+          "uses": [
+            "모발"
+          ],
+          "origin": "자동완성",
+          "seed": "헤드앤숄더",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "헤드앤숄더 비듬",
+          "uses": [
+            "모발"
+          ],
+          "origin": "자동완성",
+          "seed": "헤드앤숄더",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "헤드앤숄더 탈모",
+          "uses": [
+            "모발"
+          ],
+          "origin": "자동완성",
+          "seed": "헤드앤숄더",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "시클로피록스 샴푸",
+      "seed": "시클로피록스",
+      "aliases": [
+        "시클로피록스"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-B04",
+          "symbol_name": "시클로피록스 샴푸"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "시클로피록스 무좀",
+          "uses": [
+            "손발톱"
+          ],
+          "origin": "자동완성",
+          "seed": "시클로피록스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "스테로이드 두피액 — 더모베이트",
+      "seed": "더모베이트",
+      "aliases": [
+        "더모베이트",
+        "스테로이드"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-B04",
+          "symbol_name": "스테로이드 두피액 — 더모베이트"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "더모베이트 두피",
+          "uses": [
+            "모발"
+          ],
+          "origin": "자동완성",
+          "seed": "더모베이트",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "스테로이드주사",
+      "seed": "스테로이드주사",
+      "aliases": [
+        "스테로이드주사"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D01",
+          "symbol_name": "스테로이드주사"
+        },
+        {
+          "need_id": "DIC-D02",
+          "symbol_name": "스테로이드주사"
+        },
+        {
+          "need_id": "DIC-D03",
+          "symbol_name": "스테로이드주사"
+        },
+        {
+          "need_id": "DIC-D04",
+          "symbol_name": "스테로이드주사"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "허리 스테로이드 주사",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "스테로이드주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "무릎 스테로이드 주사",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "스테로이드주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "어깨 스테로이드 주사",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "스테로이드주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "허리디스크 스테로이드 주사",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "스테로이드주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "수압팽창술",
+      "seed": "수압팽창술",
+      "aliases": [
+        "수압팽창술",
+        "관절낭팽창술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D01",
+          "symbol_name": "수압팽창술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "관절내시경",
+      "seed": "관절내시경",
+      "aliases": [
+        "관절내시경"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D01",
+          "symbol_name": "관절내시경"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "무릎관절내시경",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "관절내시경",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "관절내시경 어깨",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "관절내시경",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "무릎연골주사",
+      "seed": "무릎연골주사",
+      "aliases": [
+        "무릎연골주사",
+        "히알루론산주사"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D02",
+          "symbol_name": "무릎연골주사"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "무릎 히알루론산 주사",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "히알루론산주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "히알루론산 주사피부염",
+          "uses": [
+            "아토피·습진"
+          ],
+          "origin": "자동완성",
+          "seed": "히알루론산주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "인공관절수술",
+      "seed": "인공관절수술",
+      "aliases": [
+        "인공관절수술",
+        "무릎인공관절"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D02",
+          "symbol_name": "인공관절수술"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "무릎 인공관절 수술비",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "인공관절수술",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "고관절 인공관절 수술비",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "인공관절수술",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "어깨 인공관절 수술비",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "인공관절수술",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "무릎 인공관절 수술비 가격",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "인공관절수술",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "PRP주사",
+      "seed": "PRP주사",
+      "aliases": [
+        "PRP주사",
+        "자가혈주사"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D03",
+          "symbol_name": "PRP주사"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "무릎 prp 주사",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "PRP주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "무릎 prp 주사 가격",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "PRP주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "자가혈주사 어깨",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "자가혈주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "자가혈주사 얼굴",
+          "uses": [
+            "부위—얼굴"
+          ],
+          "origin": "자동완성",
+          "seed": "자가혈주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "자가혈주사 무릎",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "자가혈주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "손목보조기",
+      "seed": "손목보조기",
+      "aliases": [
+        "손목보조기",
+        "손목스플린트"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D04",
+          "symbol_name": "손목보조기"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "손목터널수술",
+      "seed": "손목터널수술",
+      "aliases": [
+        "손목터널수술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D04",
+          "symbol_name": "손목터널수술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "신경차단술",
+      "seed": "신경차단술",
+      "aliases": [
+        "신경차단술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D05",
+          "symbol_name": "신경차단술"
+        },
+        {
+          "cross_id": "CROSS-18"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "허리 신경차단술",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "신경차단술",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "미세현미경디스크수술",
+      "seed": "미세현미경디스크수술",
+      "aliases": [
+        "미세현미경디스크수술",
+        "미세현미경디스크제거술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D05",
+          "symbol_name": "미세현미경디스크수술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "도수치료",
+      "seed": "도수치료",
+      "aliases": [
+        "도수치료"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D05",
+          "symbol_name": "도수치료"
+        },
+        {
+          "need_id": "DIC-D06",
+          "symbol_name": "도수치료"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "경추견인치료",
+      "seed": "경추견인치료",
+      "aliases": [
+        "경추견인치료",
+        "목견인기"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D06",
+          "symbol_name": "경추견인치료"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "넥필",
+      "seed": "넥필",
+      "aliases": [
+        "넥필"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D06",
+          "symbol_name": "넥필"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "넥필 목견인기",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "넥필",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "목견인기 넥필",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "넥필",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "넥피라목견인기",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "넥필",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "넥필 견인기",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "넥필",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "하지정맥류레이저",
+      "seed": "하지정맥류레이저",
+      "aliases": [
+        "하지정맥류레이저"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D07",
+          "symbol_name": "하지정맥류레이저"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "하지정맥류 레이저 수면마취",
+          "uses": [
+            "수면"
+          ],
+          "origin": "자동완성",
+          "seed": "하지정맥류레이저",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "베나실",
+      "seed": "베나실",
+      "aliases": [
+        "베나실"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D07",
+          "symbol_name": "베나실"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "혈관경화요법",
+      "seed": "혈관경화요법",
+      "aliases": [
+        "혈관경화요법",
+        "하지정맥류경화요법"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-D07",
+          "symbol_name": "혈관경화요법"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "졸피뎀",
+      "seed": "졸피뎀",
+      "aliases": [
+        "졸피뎀"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-E01",
+          "symbol_name": "졸피뎀"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "졸피뎀 수면제",
+          "uses": [
+            "수면"
+          ],
+          "origin": "자동완성",
+          "seed": "졸피뎀",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "멜라토닌",
+      "seed": "멜라토닌",
+      "aliases": [
+        "멜라토닌"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-E01",
+          "symbol_name": "멜라토닌"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "멜라토닌 수면보조제",
+          "uses": [
+            "수면"
+          ],
+          "origin": "자동완성",
+          "seed": "멜라토닌",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "불면증인지행동치료",
+      "seed": "불면증인지행동치료",
+      "aliases": [
+        "불면증인지행동치료",
+        "CBT-I"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-E01",
+          "symbol_name": "불면증인지행동치료"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "양압기",
+      "seed": "양압기",
+      "aliases": [
+        "양압기"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-E02",
+          "symbol_name": "양압기"
+        },
+        {
+          "need_id": "DIC-E03",
+          "symbol_name": "양압기"
+        },
+        {
+          "cross_id": "CROSS-12"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "코골이양압기",
+          "uses": [
+            "수면"
+          ],
+          "origin": "자동완성",
+          "seed": "양압기",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "수면무호흡증양압기",
+          "uses": [
+            "수면"
+          ],
+          "origin": "자동완성",
+          "seed": "양압기",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "수면양압기",
+          "uses": [
+            "수면"
+          ],
+          "origin": "자동완성",
+          "seed": "양압기",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "코골이구강장치",
+      "seed": "코골이구강장치",
+      "aliases": [
+        "코골이구강장치",
+        "하악전진장치"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-E02",
+          "symbol_name": "코골이구강장치"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "코골이수술",
+      "seed": "코골이수술",
+      "aliases": [
+        "코골이수술",
+        "구개수구개인두성형술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-E02",
+          "symbol_name": "코골이수술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "수면무호흡구강장치",
+      "seed": "수면무호흡구강장치",
+      "aliases": [
+        "수면무호흡구강장치",
+        "하악전진장치"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-E03",
+          "symbol_name": "수면무호흡구강장치"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "설하신경자극술",
+      "seed": "설하신경자극술",
+      "aliases": [
+        "설하신경자극술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-E03",
+          "symbol_name": "설하신경자극술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "마늘주사",
+      "seed": "마늘주사",
+      "aliases": [
+        "마늘주사"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-E04",
+          "symbol_name": "마늘주사"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "마늘주사 냄새",
+          "uses": [
+            "땀·냄새"
+          ],
+          "origin": "자동완성",
+          "seed": "마늘주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "비타민B12주사",
+      "seed": "비타민B12주사",
+      "aliases": [
+        "비타민B12주사"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-E04",
+          "symbol_name": "비타민B12주사"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "공진단",
+      "seed": "공진단",
+      "aliases": [
+        "공진단"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-E04",
+          "symbol_name": "공진단"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "치과 스케일링",
+      "seed": "스케일링",
+      "aliases": [
+        "스케일링",
+        "치과스케일링"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F01",
+          "symbol_name": "치과 스케일링"
+        },
+        {
+          "need_id": "DIC-F03",
+          "symbol_name": "치과 스케일링—치주 원인 구취"
+        },
+        {
+          "cross_id": "CROSS-09"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "두피 스케일링",
+          "uses": [
+            "모발"
+          ],
+          "origin": "자동완성",
+          "seed": "스케일링",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "치근활택술",
+      "seed": "치근활택술",
+      "aliases": [
+        "치근활택술",
+        "잇몸치료"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F01",
+          "symbol_name": "치근활택술"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "치근활택술 치주소파술",
+          "uses": [
+            "구강"
+          ],
+          "origin": "자동완성",
+          "seed": "치근활택술",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징FJ.txt",
+          "measured": "# 측정: 2026-10-13 18:58 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "엠도게인 치주조직 재생술",
+      "seed": "엠도게인",
+      "aliases": [
+        "엠도게인",
+        "치주조직재생술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F01",
+          "symbol_name": "엠도게인 치주조직 재생술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "센소다인 리페어앤프로텍트—영국판",
+      "seed": "센소다인",
+      "aliases": [
+        "센소다인",
+        "센소다인리페어앤프로텍트"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F02",
+          "symbol_name": "센소다인 리페어앤프로텍트—영국판"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "치과 불소도포",
+      "seed": "불소도포",
+      "aliases": [
+        "불소도포",
+        "치과불소도포"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F02",
+          "symbol_name": "치과 불소도포"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "치과 레진치료",
+      "seed": "레진치료",
+      "aliases": [
+        "레진치료",
+        "치경부레진"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F02",
+          "symbol_name": "치과 레진치료"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "치경부 레진 치아보험",
+          "uses": [
+            "구강"
+          ],
+          "origin": "자동완성",
+          "seed": "치경부레진",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징FJ.txt",
+          "measured": "# 측정: 2026-10-13 18:58 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "테라브레스 프레시브레스 마일드민트—미국판",
+      "seed": "테라브레스",
+      "aliases": [
+        "테라브레스",
+        "테라브레스마일드민트"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F03",
+          "symbol_name": "테라브레스 프레시브레스 마일드민트—미국판"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "편도결석 흡인제거",
+      "seed": "편도결석제거",
+      "aliases": [
+        "편도결석제거",
+        "편도결석흡입"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F03",
+          "symbol_name": "편도결석 흡인제거"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "청와대 납품 소금·전통 염전·1000℃—고유지 기존짝",
+      "seed": "동주염전",
+      "aliases": [
+        "동주염전",
+        "청와대소금",
+        "소나무소금"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F03",
+          "symbol_name": "청와대 납품 소금·전통 염전·1000℃—고유지 기존짝"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "인공타액·구강보습젤—Biotène Oralbalance",
+      "seed": "인공타액",
+      "aliases": [
+        "인공타액",
+        "구강보습젤",
+        "Biotene Oralbalance"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F04",
+          "symbol_name": "인공타액·구강보습젤—Biotène Oralbalance"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "살라겐—필로카르핀",
+      "seed": "살라겐",
+      "aliases": [
+        "살라겐",
+        "필로카르핀"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F04",
+          "symbol_name": "살라겐—필로카르핀"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "인공눈물—다른 분야 상징",
+      "seed": "인공눈물",
+      "aliases": [
+        "인공눈물"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F04",
+          "symbol_name": "인공눈물—다른 분야 상징"
+        },
+        {
+          "need_id": "DIC-H01",
+          "symbol_name": "인공눈물"
+        },
+        {
+          "cross_id": "CROSS-14"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "스플린트—교합안정장치",
+      "seed": "스플린트",
+      "aliases": [
+        "스플린트",
+        "교합안정장치"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F05",
+          "symbol_name": "스플린트—교합안정장치"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "이갈이 스플린트",
+          "uses": [
+            "구강"
+          ],
+          "origin": "자동완성",
+          "seed": "스플린트",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체2.txt",
+          "measured": "# 측정: 2026-10-13 18:10 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "손가락 스플린트",
+          "uses": [
+            "부위—몸"
+          ],
+          "origin": "자동완성",
+          "seed": "스플린트",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체2.txt",
+          "measured": "# 측정: 2026-10-13 18:10 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "치아 스플린트",
+          "uses": [
+            "구강"
+          ],
+          "origin": "자동완성",
+          "seed": "스플린트",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체2.txt",
+          "measured": "# 측정: 2026-10-13 18:10 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "턱관절 관절강세척술",
+      "seed": "턱관절세척술",
+      "aliases": [
+        "턱관절세척술",
+        "관절강세척술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F05",
+          "symbol_name": "턱관절 관절강세척술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "저작근 보툴리눔 독소 주사—턱 보톡스",
+      "seed": "턱보톡스",
+      "aliases": [
+        "턱보톡스",
+        "저작근보톡스"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-F05",
+          "symbol_name": "저작근 보툴리눔 독소 주사—턱 보톡스"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "푸룬주스",
+      "seed": "푸룬주스",
+      "aliases": [
+        "푸룬주스"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G01",
+          "symbol_name": "푸룬주스"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "둘코락스",
+      "seed": "둘코락스",
+      "aliases": [
+        "둘코락스"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G01",
+          "symbol_name": "둘코락스"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "듀파락",
+      "seed": "듀파락",
+      "aliases": [
+        "듀파락",
+        "듀파락이지"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G01",
+          "symbol_name": "듀파락"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "부스코판",
+      "seed": "부스코판",
+      "aliases": [
+        "부스코판"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G02",
+          "symbol_name": "부스코판"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "부스코판 생리통",
+          "uses": [
+            "여성"
+          ],
+          "origin": "자동완성",
+          "seed": "부스코판",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "생리통 부스코판",
+          "uses": [
+            "여성"
+          ],
+          "origin": "자동완성",
+          "seed": "부스코판",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "로페라미드",
+      "seed": "로페라미드",
+      "aliases": [
+        "로페라미드"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G02",
+          "symbol_name": "로페라미드"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "Colpermin",
+      "seed": "Colpermin",
+      "aliases": [
+        "Colpermin"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G02",
+          "symbol_name": "Colpermin"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "개비스콘",
+      "seed": "개비스콘",
+      "aliases": [
+        "개비스콘"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G03",
+          "symbol_name": "개비스콘"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "오메프라졸",
+      "seed": "오메프라졸",
+      "aliases": [
+        "오메프라졸"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G03",
+          "symbol_name": "오메프라졸"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "위저부주름술",
+      "seed": "위저부주름술",
+      "aliases": [
+        "위저부주름술",
+        "위저부성형술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G03",
+          "symbol_name": "위저부주름술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "알마겔",
+      "seed": "알마겔",
+      "aliases": [
+        "알마겔"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G04",
+          "symbol_name": "알마겔"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "넥시움",
+      "seed": "넥시움",
+      "aliases": [
+        "넥시움",
+        "에스오메프라졸"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G04",
+          "symbol_name": "넥시움"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "헬리코박터제균치료",
+      "seed": "헬리코박터제균치료",
+      "aliases": [
+        "헬리코박터제균치료",
+        "헬리코박터제균"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G04",
+          "symbol_name": "헬리코박터제균치료"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "치센",
+      "seed": "치센",
+      "aliases": [
+        "치센"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G05",
+          "symbol_name": "치센"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "고무밴드결찰술",
+      "seed": "고무밴드결찰술",
+      "aliases": [
+        "고무밴드결찰술",
+        "치핵결찰술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G05",
+          "symbol_name": "고무밴드결찰술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "치핵절제술",
+      "seed": "치핵절제술",
+      "aliases": [
+        "치핵절제술",
+        "치질수술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G05",
+          "symbol_name": "치핵절제술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "위고비",
+      "seed": "위고비",
+      "aliases": [
+        "위고비"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G06",
+          "symbol_name": "위고비"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "마운자로",
+      "seed": "마운자로",
+      "aliases": [
+        "마운자로",
+        "티르제파타이드"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G06",
+          "symbol_name": "마운자로"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "위소매절제술",
+      "seed": "위소매절제술",
+      "aliases": [
+        "위소매절제술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-G06",
+          "symbol_name": "위소매절제술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "눈물점마개",
+      "seed": "눈물점마개",
+      "aliases": [
+        "눈물점마개",
+        "누점폐쇄술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H01",
+          "symbol_name": "눈물점마개"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "안구건조 IPL",
+      "seed": "안구건조 IPL",
+      "aliases": [
+        "안구건조 IPL",
+        "옵티라이트"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H01",
+          "symbol_name": "안구건조 IPL"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "지르텍",
+      "seed": "지르텍",
+      "aliases": [
+        "지르텍"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H02",
+          "symbol_name": "지르텍"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "나조넥스",
+      "seed": "나조넥스",
+      "aliases": [
+        "나조넥스"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H02",
+          "symbol_name": "나조넥스"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "비염 나조넥스",
+          "uses": [
+            "코·귀"
+          ],
+          "origin": "자동완성",
+          "seed": "나조넥스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "알레르기 면역치료",
+      "seed": "알레르기면역치료",
+      "aliases": [
+        "알레르기면역치료",
+        "알레르기주사",
+        "집먼지진드기면역치료"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H02",
+          "symbol_name": "알레르기 면역치료"
+        },
+        {
+          "need_id": "DIC-J01",
+          "symbol_name": "알레르기 면역주사"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "보청기",
+      "seed": "보청기",
+      "aliases": [
+        "보청기"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H03",
+          "symbol_name": "보청기"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "이명 재훈련치료",
+      "seed": "이명재훈련치료",
+      "aliases": [
+        "이명재훈련치료"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H03",
+          "symbol_name": "이명 재훈련치료"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "노이즈캔슬링",
+      "seed": "노이즈캔슬링",
+      "aliases": [
+        "노이즈캔슬링"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H03",
+          "symbol_name": "노이즈캔슬링"
+        },
+        {
+          "cross_id": "CROSS-13"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "노이즈캔슬링 이어폰",
+          "uses": [
+            "생활—소음"
+          ],
+          "origin": "자동완성",
+          "seed": "노이즈캔슬링",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "돋보기",
+      "seed": "돋보기",
+      "aliases": [
+        "돋보기"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H04",
+          "symbol_name": "돋보기"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "노안 돋보기 안경",
+          "uses": [
+            "눈"
+          ],
+          "origin": "자동완성",
+          "seed": "돋보기",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "누진다초점렌즈",
+      "seed": "누진다초점렌즈",
+      "aliases": [
+        "누진다초점렌즈"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H04",
+          "symbol_name": "누진다초점렌즈"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "다초점 인공수정체",
+      "seed": "다초점인공수정체",
+      "aliases": [
+        "다초점인공수정체",
+        "팬옵틱스"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H04",
+          "symbol_name": "다초점 인공수정체"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "카메라 오토포커스",
+      "seed": "오토포커스",
+      "aliases": [
+        "오토포커스"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H04",
+          "symbol_name": "카메라 오토포커스"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "코세척",
+      "seed": "코세척",
+      "aliases": [
+        "코세척"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H05",
+          "symbol_name": "코세척"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "비염 코세척",
+          "uses": [
+            "코·귀"
+          ],
+          "origin": "자동완성",
+          "seed": "코세척",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "부비동 내시경수술",
+      "seed": "축농증수술",
+      "aliases": [
+        "축농증수술",
+        "부비동내시경수술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H05",
+          "symbol_name": "부비동 내시경수술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "부비동 풍선확장술",
+      "seed": "부비동풍선확장술",
+      "aliases": [
+        "부비동풍선확장술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-H05",
+          "symbol_name": "부비동 풍선확장술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "호르몬대체요법",
+      "seed": "호르몬대체요법",
+      "aliases": [
+        "호르몬대체요법"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I01",
+          "symbol_name": "호르몬대체요법"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "훼라민큐",
+      "seed": "훼라민큐",
+      "aliases": [
+        "훼라민큐"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I01",
+          "symbol_name": "훼라민큐"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "베오자",
+      "seed": "베오자",
+      "aliases": [
+        "베오자",
+        "페졸리네탄트"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I01",
+          "symbol_name": "베오자"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "질 에스트로겐 — 바지펨",
+      "seed": "바지펨",
+      "aliases": [
+        "바지펨",
+        "질에스트로겐"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I02",
+          "symbol_name": "질 에스트로겐 — 바지펨"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "리플렌스",
+      "seed": "리플렌스",
+      "aliases": [
+        "리플렌스"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I02",
+          "symbol_name": "리플렌스"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "모나리자터치",
+      "seed": "모나리자터치",
+      "aliases": [
+        "모나리자터치"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I02",
+          "symbol_name": "모나리자터치"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "물광주사",
+      "seed": "물광주사",
+      "aliases": [
+        "물광주사"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I02",
+          "symbol_name": "물광주사"
+        },
+        {
+          "cross_id": "CROSS-28"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "이부프로펜",
+      "seed": "이부프로펜",
+      "aliases": [
+        "이부프로펜"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I03",
+          "symbol_name": "이부프로펜"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "미레나",
+      "seed": "미레나",
+      "aliases": [
+        "미레나"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I03",
+          "symbol_name": "미레나"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "TENS",
+      "seed": "TENS",
+      "aliases": [
+        "TENS",
+        "경피신경전기자극"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I03",
+          "symbol_name": "TENS"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "경구피임약",
+      "seed": "경구피임약",
+      "aliases": [
+        "경구피임약"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I04",
+          "symbol_name": "경구피임약"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "메트포르민",
+      "seed": "메트포르민",
+      "aliases": [
+        "메트포르민"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I04",
+          "symbol_name": "메트포르민"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "메트포르민 다낭성",
+          "uses": [
+            "여성"
+          ],
+          "origin": "자동완성",
+          "seed": "메트포르민",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "이노시톨 40:1",
+      "seed": "이노시톨",
+      "aliases": [
+        "이노시톨"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I04",
+          "symbol_name": "이노시톨 40:1"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "다낭성 이노시톨",
+          "uses": [
+            "여성"
+          ],
+          "origin": "자동완성",
+          "seed": "이노시톨",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "이노시톨 다이어트",
+          "uses": [
+            "체중"
+          ],
+          "origin": "자동완성",
+          "seed": "이노시톨",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "이노시톨 여드름",
+          "uses": [
+            "여드름"
+          ],
+          "origin": "자동완성",
+          "seed": "이노시톨",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "유로리프트",
+      "seed": "유로리프트",
+      "aliases": [
+        "유로리프트",
+        "전립선결찰술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I05",
+          "symbol_name": "유로리프트"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "홀렙",
+      "seed": "홀렙",
+      "aliases": [
+        "홀렙",
+        "홀뮴레이저"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I05",
+          "symbol_name": "홀렙"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "쏘팔메토",
+      "seed": "쏘팔메토",
+      "aliases": [
+        "쏘팔메토"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I05",
+          "symbol_name": "쏘팔메토"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "쏘팔메토 전립선",
+          "uses": [
+            "남성·배뇨"
+          ],
+          "origin": "자동완성",
+          "seed": "쏘팔메토",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징BDEGHI.txt",
+          "measured": "# 측정: 2026-10-13 18:54 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "케겔운동",
+      "seed": "케겔운동",
+      "aliases": [
+        "케겔운동"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I06",
+          "symbol_name": "케겔운동"
+        },
+        {
+          "cross_id": "CROSS-36"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "치질 케겔운동",
+          "uses": [
+            "배변·소화"
+          ],
+          "origin": "자동완성",
+          "seed": "케겔운동",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "요실금 슬링수술",
+      "seed": "요실금수술",
+      "aliases": [
+        "요실금수술",
+        "슬링수술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I06",
+          "symbol_name": "요실금 슬링수술"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "방광 보톡스",
+      "seed": "방광보톡스",
+      "aliases": [
+        "방광보톡스"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-I06",
+          "symbol_name": "방광 보톡스"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "제습기",
+      "seed": "제습기",
+      "aliases": [
+        "제습기"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-J01",
+          "symbol_name": "제습기"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "제습기공기청정기",
+          "uses": [
+            "생활—공기"
+          ],
+          "origin": "자동완성",
+          "seed": "제습기",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징FJ.txt",
+          "measured": "# 측정: 2026-10-13 18:58 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "공기청정제습기",
+          "uses": [
+            "생활—공기"
+          ],
+          "origin": "자동완성",
+          "seed": "제습기",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징FJ.txt",
+          "measured": "# 측정: 2026-10-13 18:58 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "HEPA 공기청정기",
+      "seed": "공기청정기",
+      "aliases": [
+        "공기청정기",
+        "헤파필터"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-J01",
+          "symbol_name": "HEPA 공기청정기"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "미세먼지공기청정기",
+          "uses": [
+            "생활—공기"
+          ],
+          "origin": "자동완성",
+          "seed": "공기청정기",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징FJ.txt",
+          "measured": "# 측정: 2026-10-13 18:58 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "차량용공기청정기",
+          "uses": [
+            "생활—승차"
+          ],
+          "origin": "자동완성",
+          "seed": "공기청정기",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징FJ.txt",
+          "measured": "# 측정: 2026-10-13 18:58 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "헤파필터 청소기",
+          "uses": [
+            "생활—청소"
+          ],
+          "origin": "자동완성",
+          "seed": "헤파필터",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "헤파필터 공기청정기",
+          "uses": [
+            "생활—공기"
+          ],
+          "origin": "자동완성",
+          "seed": "헤파필터",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "공기청정기 헤파필터",
+          "uses": [
+            "생활—공기"
+          ],
+          "origin": "자동완성",
+          "seed": "헤파필터",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "청소기 헤파필터",
+          "uses": [
+            "생활—청소"
+          ],
+          "origin": "자동완성",
+          "seed": "헤파필터",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "미라드라이",
+      "seed": "미라드라이",
+      "aliases": [
+        "미라드라이"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-J02",
+          "symbol_name": "미라드라이"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "초음파 땀샘흡입술",
+      "seed": "액취증수술",
+      "aliases": [
+        "액취증수술",
+        "초음파땀샘흡입술"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-J02",
+          "symbol_name": "초음파 땀샘흡입술"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "겨드랑이액취증수술",
+          "uses": [
+            "부위—몸"
+          ],
+          "origin": "자동완성",
+          "seed": "액취증수술",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징FJ.txt",
+          "measured": "# 측정: 2026-10-13 18:58 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "겨드랑이 보톡스—다한증 인접 상징",
+      "seed": "겨드랑이보톡스",
+      "aliases": [
+        "겨드랑이보톡스",
+        "다한증보톡스"
+      ],
+      "sources": [
+        {
+          "need_id": "DIC-J02",
+          "symbol_name": "겨드랑이 보톡스—다한증 인접 상징"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "얼굴 다한증 보톡스",
+          "uses": [
+            "부위—얼굴"
+          ],
+          "origin": "자동완성",
+          "seed": "다한증보톡스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징FJ.txt",
+          "measured": "# 측정: 2026-10-13 18:58 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "다한증 보톡스 내성",
+          "uses": [
+            "손발톱"
+          ],
+          "origin": "자동완성",
+          "seed": "다한증보톡스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-상징FJ.txt",
+          "measured": "# 측정: 2026-10-13 18:58 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "프락셀",
+      "seed": "프락셀",
+      "aliases": [
+        "프락셀"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-01"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "리쥬란",
+      "seed": "리쥬란",
+      "aliases": [
+        "리쥬란"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-02"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "냉동치료",
+      "seed": "냉동치료",
+      "aliases": [
+        "냉동치료"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-04"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "사마귀 냉동치료",
+          "uses": [
+            "돌기"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "사마귀 냉동치료 후기",
+          "uses": [
+            "돌기"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "사마귀 냉동치료 물집",
+          "uses": [
+            "돌기"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "티눈 냉동치료",
+          "uses": [
+            "각질"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "티눈 냉동치료 후기",
+          "uses": [
+            "각질"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "사마귀 냉동치료 가격",
+          "uses": [
+            "돌기"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "비염 냉동치료",
+          "uses": [
+            "코·귀"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "사마귀 냉동치료 통증",
+          "uses": [
+            "돌기"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "티눈 냉동치료 통증",
+          "uses": [
+            "각질"
+          ],
+          "origin": "자동완성",
+          "seed": "냉동치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "보톡스",
+      "seed": "보톡스",
+      "aliases": [
+        "보톡스"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-07"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "이마보톡스",
+          "uses": [
+            "부위—얼굴"
+          ],
+          "origin": "자동완성",
+          "seed": "보톡스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "얼굴보톡스",
+          "uses": [
+            "부위—얼굴"
+          ],
+          "origin": "자동완성",
+          "seed": "보톡스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "턱끝보톡스",
+          "uses": [
+            "부위—얼굴"
+          ],
+          "origin": "자동완성",
+          "seed": "보톡스",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "스컬트라",
+      "seed": "스컬트라",
+      "aliases": [
+        "스컬트라"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-08"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "스컬트라이마",
+          "uses": [
+            "부위—얼굴"
+          ],
+          "origin": "자동완성",
+          "seed": "스컬트라",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "눈밑스컬트라",
+          "uses": [
+            "부위—얼굴"
+          ],
+          "origin": "자동완성",
+          "seed": "스컬트라",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "임플란트",
+      "seed": "임플란트",
+      "aliases": [
+        "임플란트"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-10"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "라식",
+      "seed": "라식",
+      "aliases": [
+        "라식"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-11"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "듀오덤",
+      "seed": "듀오덤",
+      "aliases": [
+        "듀오덤"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-15"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "화상 듀오덤",
+          "uses": [
+            "흉터·상처"
+          ],
+          "origin": "자동완성",
+          "seed": "듀오덤",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체.txt",
+          "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "메피폼",
+      "seed": "메피폼",
+      "aliases": [
+        "메피폼"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-16"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "뜸",
+      "seed": "뜸",
+      "aliases": [
+        "뜸"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-19"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "부항",
+      "seed": "부항",
+      "aliases": [
+        "부항"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-20"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "침치료",
+      "seed": "침치료",
+      "aliases": [
+        "침치료"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-21"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "비염 침치료",
+          "uses": [
+            "코·귀"
+          ],
+          "origin": "자동완성",
+          "seed": "침치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "족저근막염 침치료",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "침치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "허리디스크 침치료",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "침치료",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "추나요법",
+      "seed": "추나요법",
+      "aliases": [
+        "추나요법"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-22"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "허리디스크추나요법",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "추나요법",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "허리추나요법",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "추나요법",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "온천",
+      "seed": "온천",
+      "aliases": [
+        "온천"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-23"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "사우나",
+      "seed": "사우나",
+      "aliases": [
+        "사우나"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-24"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "치과레진",
+      "seed": "치과레진",
+      "aliases": [
+        "치과레진"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-25"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "연골주사",
+      "seed": "연골주사",
+      "aliases": [
+        "연골주사"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-26"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "무릎연골주사",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "연골주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "무릎연골주사효과",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "연골주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "무릎연골주사비용",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "연골주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "무릎연골주사 종류",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "연골주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "무릎연골주사가격",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "연골주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "어깨 연골주사",
+          "uses": [
+            "관절·근골격"
+          ],
+          "origin": "자동완성",
+          "seed": "연골주사",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "크라이오테라피",
+      "seed": "크라이오테라피",
+      "aliases": [
+        "크라이오테라피"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-27"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "크라이오테라피 다이어트",
+          "uses": [
+            "체중"
+          ],
+          "origin": "자동완성",
+          "seed": "크라이오테라피",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-HIB.txt",
+          "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "욕창매트리스",
+      "seed": "욕창매트리스",
+      "aliases": [
+        "욕창매트리스"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-29"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "헤파필터",
+      "seed": "헤파필터",
+      "aliases": [
+        "헤파필터"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-31"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "헤파필터 청소기",
+          "uses": [
+            "생활—청소"
+          ],
+          "origin": "자동완성",
+          "seed": "헤파필터",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "헤파필터 공기청정기",
+          "uses": [
+            "생활—공기"
+          ],
+          "origin": "자동완성",
+          "seed": "헤파필터",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "공기청정기 헤파필터",
+          "uses": [
+            "생활—공기"
+          ],
+          "origin": "자동완성",
+          "seed": "헤파필터",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "청소기 헤파필터",
+          "uses": [
+            "생활—청소"
+          ],
+          "origin": "자동완성",
+          "seed": "헤파필터",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "에어서스펜션",
+      "seed": "에어서스펜션",
+      "aliases": [
+        "에어서스펜션"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-32"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "벤츠 에어서스펜션",
+          "uses": [
+            "생활—승차"
+          ],
+          "origin": "자동완성",
+          "seed": "에어서스펜션",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체2.txt",
+          "measured": "# 측정: 2026-10-13 18:10 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "에어서스펜션쿠션",
+          "uses": [
+            "생활—승차"
+          ],
+          "origin": "자동완성",
+          "seed": "에어서스펜션",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체2.txt",
+          "measured": "# 측정: 2026-10-13 18:10 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "템퍼",
+      "seed": "템퍼",
+      "aliases": [
+        "템퍼"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-33"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "템퍼 베개",
+          "uses": [
+            "생활—수면용품"
+          ],
+          "origin": "자동완성",
+          "seed": "템퍼",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "템퍼 매트리스",
+          "uses": [
+            "생활—수면용품"
+          ],
+          "origin": "자동완성",
+          "seed": "템퍼",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "스팀청소기",
+      "seed": "스팀청소기",
+      "aliases": [
+        "스팀청소기"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-34"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "압박스타킹",
+      "seed": "압박스타킹",
+      "aliases": [
+        "압박스타킹"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-35"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "실리프팅",
+      "seed": "실리프팅",
+      "aliases": [
+        "실리프팅"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-37"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "얼굴실리프팅",
+          "uses": [
+            "부위—얼굴"
+          ],
+          "origin": "자동완성",
+          "seed": "실리프팅",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    },
+    {
+      "symbol": "고압산소치료",
+      "seed": "고압산소치료",
+      "aliases": [
+        "고압산소치료"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-38"
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "symbol": "지방흡입",
+      "seed": "지방흡입",
+      "aliases": [
+        "지방흡입"
+      ],
+      "sources": [
+        {
+          "cross_id": "CROSS-40"
+        }
+      ],
+      "candidates": [
+        {
+          "kw": "허벅지안쪽지방흡입",
+          "uses": [
+            "부위—몸"
+          ],
+          "origin": "자동완성",
+          "seed": "지방흡입",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "지방흡입지방세포",
+          "uses": [
+            "체중"
+          ],
+          "origin": "자동완성",
+          "seed": "지방흡입",
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ]
+    }
+  ],
+  "needs": [
+    {
+      "need": "아토피",
+      "main_kw": "아토피",
+      "vol": 11180,
+      "candidates": [],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "여드름",
+      "main_kw": "여드름",
+      "vol": 8020,
+      "candidates": [
+        {
+          "kw": "여드름 연고",
+          "matches": [
+            "연고"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "여드름 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "여드름 염증주사",
+          "matches": [
+            "여드름 염증주사",
+            "주사"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "안면홍조",
+      "main_kw": "안면홍조",
+      "vol": 1690,
+      "candidates": [
+        {
+          "kw": "안면홍조레이저",
+          "matches": [
+            "레이저"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "안면홍조크림",
+          "matches": [
+            "크림"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "쥐젖",
+      "main_kw": "쥐젖",
+      "vol": 14960,
+      "candidates": [
+        {
+          "kw": "쥐젖 제거",
+          "matches": [
+            "피부과 쥐젖 절제"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "쥐젖 제거 크림",
+          "matches": [
+            "피부과 쥐젖 절제",
+            "크림"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "쥐젖 제거 비용",
+          "matches": [
+            "피부과 쥐젖 절제"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "다이소 쥐젖 제거",
+          "matches": [
+            "피부과 쥐젖 절제"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "기미",
+      "main_kw": "기미",
+      "vol": 10870,
+      "candidates": [
+        {
+          "kw": "기미 잡티 레이저",
+          "matches": [
+            "레이저"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "기미크림",
+          "matches": [
+            "크림"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "기미 연고",
+          "matches": [
+            "연고"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "주름",
+      "main_kw": "주름",
+      "vol": 1280,
+      "candidates": [
+        {
+          "kw": "주름개선크림",
+          "matches": [
+            "크림"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "무좀",
+      "main_kw": "무좀",
+      "vol": 13430,
+      "candidates": [
+        {
+          "kw": "무좀약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "무좀 연고",
+          "matches": [
+            "연고"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "내성발톱",
+      "main_kw": "내성발톱",
+      "vol": 20620,
+      "candidates": [
+        {
+          "kw": "내성발톱 교정기",
+          "matches": [
+            "3TO 발톱교정 와이어",
+            "교정"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "내성발톱 수술",
+          "matches": [
+            "발톱 부분절제술",
+            "수술"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "내성발톱 교정",
+          "matches": [
+            "3TO 발톱교정 와이어",
+            "교정"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "족저근막염",
+      "main_kw": "족저근막염",
+      "vol": 84350,
+      "candidates": [
+        {
+          "kw": "족저근막염주사",
+          "matches": [
+            "주사"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "족저근막염깔창",
+          "matches": [
+            "맞춤깔창"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "티눈",
+      "main_kw": "티눈",
+      "vol": 15690,
+      "candidates": [
+        {
+          "kw": "티눈 제거",
+          "matches": [
+            "전문가 티눈 각질 제거"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "발바닥 티눈 제거",
+          "matches": [
+            "전문가 티눈 각질 제거"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "티눈밴드",
+          "matches": [
+            "살리실산 티눈밴드"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "티눈약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "티눈 연고",
+          "matches": [
+            "연고"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "손발다한증",
+      "main_kw": "손다한증",
+      "vol": 1700,
+      "candidates": [
+        {
+          "kw": "손 다한증 수술",
+          "matches": [
+            "수술"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "손 다한증 보톡스",
+          "matches": [
+            "손발 다한증 보톡스",
+            "보톡스"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "손 다한증 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "손 다한증 수술 후기",
+          "matches": [
+            "수술"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "손 다한증 보톡스 가격",
+          "matches": [
+            "손발 다한증 보톡스",
+            "보톡스"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "손 다한증 약국",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+          "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "탈모",
+      "main_kw": "탈모",
+      "vol": 13460,
+      "candidates": [
+        {
+          "kw": "탈모약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "새치",
+      "main_kw": "새치",
+      "vol": 3520,
+      "candidates": [
+        {
+          "kw": "새치염색약",
+          "matches": [
+            "새치 염색",
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "새치염색",
+          "matches": [
+            "새치 염색"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "새치 영양제",
+          "matches": [
+            "영양제"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "비듬",
+      "main_kw": "비듬",
+      "vol": 3370,
+      "candidates": [
+        {
+          "kw": "비듬약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-HIB.txt",
+          "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "지루성두피염",
+      "main_kw": "지루성두피염",
+      "vol": 18060,
+      "candidates": [
+        {
+          "kw": "지루성두피염연고",
+          "matches": [
+            "연고"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "오십견",
+      "main_kw": "오십견",
+      "vol": 16810,
+      "candidates": [],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "무릎관절염",
+      "main_kw": "무릎관절염",
+      "vol": 2480,
+      "candidates": [
+        {
+          "kw": "무릎 관절염 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "무릎 관절염 주사",
+          "matches": [
+            "주사"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "테니스엘보",
+      "main_kw": "테니스엘보",
+      "vol": 8230,
+      "candidates": [],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "손목터널증후군",
+      "main_kw": "손목터널증후군",
+      "vol": 27500,
+      "candidates": [
+        {
+          "kw": "손목터널증후군한의원",
+          "matches": [
+            "한의원"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-DG.txt",
+          "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "허리디스크",
+      "main_kw": "허리디스크",
+      "vol": 14880,
+      "candidates": [
+        {
+          "kw": "허리디스크수술",
+          "matches": [
+            "수술"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "거북목",
+      "main_kw": "거북목",
+      "vol": 8310,
+      "candidates": [
+        {
+          "kw": "거북목 교정기",
+          "matches": [
+            "교정"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "거북목 교정",
+          "matches": [
+            "교정"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "거북목 교정 운동",
+          "matches": [
+            "교정"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "하지정맥류",
+      "main_kw": "하지정맥류",
+      "vol": 32870,
+      "candidates": [
+        {
+          "kw": "하지정맥류수술방법",
+          "matches": [
+            "수술"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-DG.txt",
+          "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "불면증",
+      "main_kw": "불면증",
+      "vol": 12410,
+      "candidates": [],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "코골이",
+      "main_kw": "코골이",
+      "vol": 6580,
+      "candidates": [],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "수면무호흡증",
+      "main_kw": "수면무호흡증",
+      "vol": 8260,
+      "candidates": [],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "만성피로",
+      "main_kw": "만성피로",
+      "vol": 5100,
+      "candidates": [
+        {
+          "kw": "만성피로 영양제",
+          "matches": [
+            "영양제"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "치주염",
+      "main_kw": "치주염",
+      "vol": 7860,
+      "candidates": [
+        {
+          "kw": "치주염 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "치주염 치약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "시린이",
+      "main_kw": "시린이",
+      "vol": 650,
+      "candidates": [
+        {
+          "kw": "시린이 치약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체.txt",
+          "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "시린이 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체.txt",
+          "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "시린이 치약 추천",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체.txt",
+          "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "센소다인 시린이",
+          "matches": [
+            "센소다인 리페어앤프로텍트—영국판"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체.txt",
+          "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "입냄새",
+      "main_kw": "입냄새",
+      "vol": 2370,
+      "candidates": [
+        {
+          "kw": "입냄새 제거 치약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "구강건조증",
+      "main_kw": "구강건조증",
+      "vol": 2770,
+      "candidates": [
+        {
+          "kw": "구강건조증 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체.txt",
+          "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "구강건조증 약국",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체.txt",
+          "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "턱관절통",
+      "main_kw": "턱관절통증",
+      "vol": 2030,
+      "candidates": [],
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "변비",
+      "main_kw": "변비",
+      "vol": 11350,
+      "candidates": [
+        {
+          "kw": "변비약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "변비 유산균",
+          "matches": [
+            "유산균"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "과민성대장증후군",
+      "main_kw": "과민성대장증후군",
+      "vol": 33130,
+      "candidates": [
+        {
+          "kw": "과민성대장증후군 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "과민성대장증후군 유산균",
+          "matches": [
+            "유산균"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "역류성식도염",
+      "main_kw": "역류성식도염",
+      "vol": 40870,
+      "candidates": [
+        {
+          "kw": "역류성 식도염 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "위염",
+      "main_kw": "위염",
+      "vol": 14290,
+      "candidates": [
+        {
+          "kw": "위염 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-DG.txt",
+          "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "치질",
+      "main_kw": "치질",
+      "vol": 23910,
+      "candidates": [
+        {
+          "kw": "치질연고",
+          "matches": [
+            "연고"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-DG.txt",
+          "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "비만",
+      "main_kw": "비만",
+      "vol": 3680,
+      "candidates": [
+        {
+          "kw": "비만치료제",
+          "matches": [
+            "치료제"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "비만약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "안구건조증",
+      "main_kw": "안구건조증",
+      "vol": 5650,
+      "candidates": [
+        {
+          "kw": "안구건조증 안약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "안구건조증 안연고",
+          "matches": [
+            "연고"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "안구건조증 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "안구건조증 수술",
+          "matches": [
+            "수술"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "안구건조증 연고",
+          "matches": [
+            "연고"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "비염",
+      "main_kw": "비염",
+      "vol": 21990,
+      "candidates": [],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "이명",
+      "main_kw": "이명",
+      "vol": 17120,
+      "candidates": [],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "노안",
+      "main_kw": "노안",
+      "vol": 5550,
+      "candidates": [
+        {
+          "kw": "노안 안약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-HIB.txt",
+          "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "노안 영양제",
+          "matches": [
+            "영양제"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-HIB.txt",
+          "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "축농증",
+      "main_kw": "축농증",
+      "vol": 23870,
+      "candidates": [
+        {
+          "kw": "축농증 수술",
+          "matches": [
+            "부비동 내시경수술",
+            "수술"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "축농증 코세척",
+          "matches": [
+            "코세척"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "축농증 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "갱년기증상",
+      "main_kw": "갱년기증상",
+      "vol": 39770,
+      "candidates": [],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "질건조증",
+      "main_kw": "질건조증",
+      "vol": 2060,
+      "candidates": [
+        {
+          "kw": "질건조증 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-HIB.txt",
+          "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "생리통",
+      "main_kw": "생리통",
+      "vol": 5490,
+      "candidates": [
+        {
+          "kw": "생리통 약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "다낭성난소증후군",
+      "main_kw": "다낭성난소증후군",
+      "vol": 45720,
+      "candidates": [],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "전립선비대증",
+      "main_kw": "전립선비대증",
+      "vol": 32260,
+      "candidates": [
+        {
+          "kw": "전립선비대증약",
+          "matches": [
+            "약"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "전립선비대증수술비용",
+          "matches": [
+            "수술"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "요실금",
+      "main_kw": "요실금",
+      "vol": 9240,
+      "candidates": [
+        {
+          "kw": "요실금수술",
+          "matches": [
+            "요실금 슬링수술",
+            "수술"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍1.txt",
+          "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:48 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "집먼지진드기알레르기",
+      "main_kw": "집먼지진드기알레르기",
+      "vol": 1130,
+      "candidates": [],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    },
+    {
+      "need": "액취증",
+      "main_kw": "액취증",
+      "vol": 3220,
+      "candidates": [
+        {
+          "kw": "액취증수술",
+          "matches": [
+            "초음파 땀샘흡입술",
+            "수술"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "액취증수술병원",
+          "matches": [
+            "초음파 땀샘흡입술",
+            "수술"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        },
+        {
+          "kw": "액취증수술시기",
+          "matches": [
+            "초음파 땀샘흡입술",
+            "수술"
+          ],
+          "source": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+          "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+        }
+      ],
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO"
+    }
+  ],
+  "missing": [
+    "3to 발톱교정",
+    "거북목 교정",
+    "거북목 교정 운동",
+    "거북목 교정기",
+    "겨드랑이액취증수술",
+    "고관절 인공관절 수술비",
+    "공기청정기 헤파필터",
+    "공기청정제습기",
+    "과민성대장증후군 약",
+    "과민성대장증후군 유산균",
+    "관절내시경 어깨",
+    "구강건조증 약",
+    "구강건조증 약국",
+    "기미 연고",
+    "기미 잡티 레이저",
+    "기미크림",
+    "내성발톱 교정 밴드",
+    "내성발톱 교정 비용",
+    "내성발톱 교정기",
+    "내성발톱 수술 후 소독",
+    "넥피라목견인기",
+    "넥필 견인기",
+    "넥필 목견인기",
+    "노안 돋보기 안경",
+    "노안 안약",
+    "노안 영양제",
+    "노이즈캔슬링 이어폰",
+    "눈밑스컬트라",
+    "눈밑주름 보톡스",
+    "다낭성 이노시톨",
+    "다이소 쥐젖 제거",
+    "다한증 보톡스 내성",
+    "대전 내성발톱 교정",
+    "더모베이트 두피",
+    "두피 스케일링",
+    "드리클로 가려움",
+    "린버크 아토피",
+    "린버크 여드름",
+    "마늘주사 냄새",
+    "만성피로 영양제",
+    "메트포르민 다낭성",
+    "멜라토닌 수면보조제",
+    "목견인기 넥필",
+    "무릎 prp 주사",
+    "무릎 prp 주사 가격",
+    "무릎 관절염 약",
+    "무릎 관절염 주사",
+    "무릎 스테로이드 주사",
+    "무릎 인공관절 수술비",
+    "무릎 인공관절 수술비 가격",
+    "무릎 히알루론산 주사",
+    "무릎관절내시경",
+    "무릎연골주사 종류",
+    "무릎연골주사가격",
+    "무릎연골주사비용",
+    "무릎연골주사효과",
+    "무좀 연고",
+    "무좀약",
+    "무좀약 라미실",
+    "미간주름 보톡스",
+    "미세먼지공기청정기",
+    "발바닥 티눈 밴드",
+    "발바닥 티눈 제거",
+    "벤츠 에어서스펜션",
+    "변비 유산균",
+    "변비약",
+    "부산 내성발톱 교정",
+    "부스코판 생리통",
+    "비듬약",
+    "비만약",
+    "비만치료제",
+    "비염 나조넥스",
+    "비염 냉동치료",
+    "비염 침치료",
+    "비염 코세척",
+    "사마귀 냉동치료",
+    "사마귀 냉동치료 가격",
+    "사마귀 냉동치료 물집",
+    "사마귀 냉동치료 통증",
+    "사마귀 냉동치료 후기",
+    "사마귀 티눈밴드",
+    "새치 영양제",
+    "새치염색약",
+    "생리통 부스코판",
+    "생리통 약",
+    "센소다인 시린이",
+    "셀선블루 비듬",
+    "손 다한증 보톡스 가격",
+    "손 다한증 수술",
+    "손 다한증 수술 후기",
+    "손 다한증 약",
+    "손 다한증 약국",
+    "손가락 스플린트",
+    "손가락 티눈 제거",
+    "손목터널증후군한의원",
+    "수면무호흡증양압기",
+    "수면양압기",
+    "스컬트라이마",
+    "시린이 약",
+    "시린이 치약",
+    "시린이 치약 추천",
+    "시클로피록스 무좀",
+    "쏘팔메토 전립선",
+    "안구건조증 수술",
+    "안구건조증 안약",
+    "안구건조증 안연고",
+    "안구건조증 약",
+    "안구건조증 연고",
+    "안면홍조레이저",
+    "안면홍조크림",
+    "액취증수술병원",
+    "액취증수술시기",
+    "어깨 스테로이드 주사",
+    "어깨 연골주사",
+    "어깨 인공관절 수술비",
+    "얼굴 다한증 보톡스",
+    "얼굴보톡스",
+    "얼굴실리프팅",
+    "에어서스펜션쿠션",
+    "엑셀v레이저 홍조",
+    "엑셀브이 홍조",
+    "여드름 약",
+    "여드름 연고",
+    "여드름 염증주사 가격",
+    "역류성 식도염 약",
+    "위염 약",
+    "이갈이 스플린트",
+    "이노시톨 다이어트",
+    "이노시톨 여드름",
+    "이마주름 보톡스",
+    "이소트레티노인 탈모",
+    "이온영동치료 다한증",
+    "입가주름 보톡스",
+    "입냄새 제거 치약",
+    "자가혈주사 무릎",
+    "자가혈주사 어깨",
+    "자가혈주사 얼굴",
+    "전립선비대증수술비용",
+    "전립선비대증약",
+    "제습기공기청정기",
+    "족저근막염 침치료",
+    "족저근막염주사",
+    "졸피뎀 수면제",
+    "주름개선크림",
+    "쥐젖 제거 비용",
+    "쥐젖 제거 크림",
+    "지루성두피염연고",
+    "지방흡입지방세포",
+    "질건조증 약",
+    "차량용공기청정기",
+    "청소기 헤파필터",
+    "축농증 약",
+    "축농증 코세척",
+    "치경부 레진 치아보험",
+    "치근활택술 치주소파술",
+    "치아 스플린트",
+    "치아교정양치질",
+    "치주염 약",
+    "치주염 치약",
+    "치질 케겔운동",
+    "치질연고",
+    "코골이양압기",
+    "크라이오테라피 다이어트",
+    "탈모약",
+    "탈모약 프로페시아",
+    "턱끝보톡스",
+    "템퍼 매트리스",
+    "템퍼 베개",
+    "티눈 냉동치료",
+    "티눈 냉동치료 통증",
+    "티눈 냉동치료 후기",
+    "티눈 연고",
+    "티눈약",
+    "팔자주름 보톡스",
+    "팔자주름 보톡스 후기",
+    "프로토픽 얼굴",
+    "프로토픽 여드름",
+    "피코웨이 모공",
+    "핀포인트 레이저 무좀",
+    "하지정맥류 레이저 수면마취",
+    "하지정맥류수술방법",
+    "허리 스테로이드 주사",
+    "허리 신경차단술",
+    "허리디스크 스테로이드 주사",
+    "허리디스크 침치료",
+    "허리디스크수술",
+    "허리디스크추나요법",
+    "허리추나요법",
+    "허벅지안쪽지방흡입",
+    "헤나염색",
+    "헤나염색약",
+    "헤드앤숄더 가려운두피",
+    "헤드앤숄더 비듬",
+    "헤드앤숄더 탈모",
+    "헤파필터 공기청정기",
+    "헤파필터 청소기",
+    "화상 듀오덤",
+    "히알루론산 주사피부염"
+  ],
+  "limitations": [
+    "자동완성·기존 연관표 후보풀 범위만 분류",
+    "분류표는 탐색 보조이며 소비자 대표연상 조사 아님",
+    "검색에 없는 쓰임을 추정해서 채우지 않음"
+  ]
+}

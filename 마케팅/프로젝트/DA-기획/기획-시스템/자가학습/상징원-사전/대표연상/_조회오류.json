@@ -1,0 +1,27 @@
+{
+  "batch": [
+    "3to 발톱교정",
+    "거북목 교정",
+    "거북목 교정 운동",
+    "거북목 교정기",
+    "겨드랑이액취증수술",
+    "고관절 인공관절 수술비",
+    "공기청정기 헤파필터",
+    "공기청정제습기",
+    "과민성대장증후군 약",
+    "과민성대장증후군 유산균",
+    "관절내시경 어깨",
+    "구강건조증 약",
+    "구강건조증 약국",
+    "기미 연고",
+    "기미 잡티 레이저",
+    "기미크림",
+    "내성발톱 교정 밴드",
+    "내성발톱 교정 비용",
+    "내성발톱 교정기",
+    "내성발톱 수술 후 소독"
+  ],
+  "returncode": 1,
+  "output_file": "네이버-추가-01.txt",
+  "stderr": "Failed to find real location of C:\\Users\\qorwn\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe\nTraceback (most recent call last):\n  File \"C:\\claude\\LLM-WIKI\\프로그램\\아웃풋\\da-planning\\scripts\\naver_kw.py\", line 12, in <module>\n    os.chdir(TOOL)\n    ~~~~~~~~^^^^^^\nPermissionError: [WinError 5] 액세스가 거부되었습니다: 'C:\\\\claude\\\\네이버 급상승 키워드 기반 경쟁사 발굴\\\\scripts'\n"
+}

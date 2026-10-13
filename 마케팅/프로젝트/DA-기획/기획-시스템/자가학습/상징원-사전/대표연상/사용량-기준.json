@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-10-13T12:56:57.587Z",
+  "usage": {
+    "input_tokens": 389243629,
+    "cached_input_tokens": 370388224,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1579472,
+    "reasoning_output_tokens": 487981,
+    "total_tokens": 391124813
+  },
+  "limitation": "기준 기록 이전의 조회준비 일부는 직전 작업 공유구간 이후로 남아있다. 이 파일은 API수집 시작 부근 본체 기준이며 전체단계가 아닌 보수적 관측구간."
+}
