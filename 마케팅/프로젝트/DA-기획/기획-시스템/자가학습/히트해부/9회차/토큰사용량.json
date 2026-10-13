@@ -4,16 +4,14 @@
   "account_start_7day": 67,
   "account_end_observed_7day": 96,
   "five_hour_percent": null,
-  "agents_tail_pending": [
-    "01a1347f-69cc-75e3-b0f0-337ba01370c5"
-  ],
+  "agents_tail_pending": [],
   "total_delta": {
-    "input_tokens": 66765817,
-    "cached_input_tokens": 64353664,
+    "input_tokens": 67118955,
+    "cached_input_tokens": 64698880,
     "cache_write_input_tokens": 0,
-    "output_tokens": 151467,
-    "reasoning_output_tokens": 30865,
-    "total_tokens": 66917284
+    "output_tokens": 157252,
+    "reasoning_output_tokens": 30951,
+    "total_tokens": 67276207
   },
   "sessions": [
     {
@@ -59,23 +57,23 @@
         "total_tokens": 3784214
       },
       "end": {
-        "timestamp": "2026-10-13T10:49:35.429Z",
+        "timestamp": "2026-10-13T10:52:59.193Z",
         "info": {
-          "input_tokens": 25586165,
-          "cached_input_tokens": 24670464,
+          "input_tokens": 25939303,
+          "cached_input_tokens": 25015680,
           "cache_write_input_tokens": 0,
-          "output_tokens": 71579,
-          "reasoning_output_tokens": 19954,
-          "total_tokens": 25657744
+          "output_tokens": 77364,
+          "reasoning_output_tokens": 20040,
+          "total_tokens": 26016667
         }
       },
       "delta": {
-        "input_tokens": 21847027,
-        "cached_input_tokens": 21186048,
+        "input_tokens": 22200165,
+        "cached_input_tokens": 21531264,
         "cache_write_input_tokens": 0,
-        "output_tokens": 26503,
-        "reasoning_output_tokens": 5010,
-        "total_tokens": 21873530
+        "output_tokens": 32288,
+        "reasoning_output_tokens": 5096,
+        "total_tokens": 22232453
       }
     },
     {
@@ -172,5 +170,5 @@
       }
     }
   ],
-  "note": "계정 사용량은 다른 대화 포함. 캐시 입력은 입력의 부분집합, 추론은 출력의 부분집합. 총카운터와 입출력 합 차이는 원 로그 그대로 남긴다. 산타시트 저장 마감 토큰은 아직 포함되지 않을 수 있음."
+  "note": "계정 사용량은 다른 대화 포함. 캐시 입력은 입력의 부분집합, 추론은 출력의 부분집합. 총카운터와 입출력 합 차이는 원 로그 그대로 남긴다. 산타시트 저장 마감 토큰은 아직 포함되지 않을 수 있음. 부모9회차 카운터는 최초 부분인계 시점에서 고정, 이후3회차에 귀속. 산타시트 담당 최종 꼬리만9회차로 보완."
 }
