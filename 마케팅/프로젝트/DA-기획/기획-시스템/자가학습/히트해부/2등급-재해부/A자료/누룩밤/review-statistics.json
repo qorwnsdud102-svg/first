@@ -1,0 +1,29 @@
+{
+  "productNo": 29,
+  "averageRating": 4.7697574123989215,
+  "totalCount": 18550,
+  "photoReviewCount": 2731,
+  "ratings": [
+    {
+      "rating": 1,
+      "count": 111
+    },
+    {
+      "rating": 2,
+      "count": 102
+    },
+    {
+      "rating": 3,
+      "count": 679
+    },
+    {
+      "rating": 4,
+      "count": 2163
+    },
+    {
+      "rating": 5,
+      "count": 15495
+    }
+  ],
+  "detailedEvaluations": []
+}

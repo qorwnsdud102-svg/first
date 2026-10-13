@@ -1,0 +1,704 @@
+[
+  {
+    "candidate_id": "L16",
+    "query": "bifidol.co.kr",
+    "product_no": "25",
+    "queried_at": "2026-10-14T08:03:08.168311",
+    "exact_product_ads": [],
+    "long_running": false,
+    "count": 0
+  },
+  {
+    "candidate_id": "L17",
+    "query": "ataga.co.kr",
+    "product_no": "28",
+    "queried_at": "2026-10-14T08:03:19.135313",
+    "exact_product_ads": [
+      {
+        "id": "1555617772569463",
+        "query": "ataga.co.kr",
+        "slice": "default",
+        "rank": 1,
+        "page_name": "Best Beauty",
+        "page_id": "1017394474801452",
+        "page_like_count": 5,
+        "is_active": true,
+        "start_date": "2026-05-22",
+        "end_date": "2026-10-13",
+        "days_running": 144,
+        "collation_id": "984251020660190",
+        "collation_count": 1,
+        "display_format": "IMAGE",
+        "body": "해외에서 난리난 '이것..'\n국내 최초 '에델바이스' 추출 선세럼. 겹겹이 화장 당장 갖다버리세요",
+        "title": "오늘 닫혀요",
+        "caption": "ataga.co.kr",
+        "link_description": "573명이 구매 중",
+        "cta_text": "자세히 보기",
+        "cta_type": "SEE_DETAILS",
+        "link_urls": [
+          "https://ataga.co.kr/product/detail.html?product_no=28&utm_source=mt&utm_medium=vd"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "MESSENGER",
+          "THREADS"
+        ],
+        "video_urls": [],
+        "image_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/704247189_2601640886937943_4614744109679882350_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=KO--GsammbwQ7kNvwHJfmJ6&_nc_oc=Adqhi3OOtoX6sYjhsKuv5tlSSXmbGpfal2sH7ddurccQfrGQfp8C7XalaKVb4zE0jqQ&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&oh=00_AQMS9SMsmanO96oME8eILW_odoQ4u42V4uVdgUXKUFoOFA&oe=6AD4754A"
+        ],
+        "video_preview_urls": [],
+        "cards": []
+      },
+      {
+        "id": "1559409318569040",
+        "query": "ataga.co.kr",
+        "slice": "default",
+        "rank": 3,
+        "page_name": "아타가 - Ataga",
+        "page_id": "942675215601749",
+        "page_like_count": 8,
+        "is_active": true,
+        "start_date": "2026-09-02",
+        "end_date": "2026-10-13",
+        "days_running": 41,
+        "collation_id": "1835697991134114",
+        "collation_count": 1,
+        "display_format": "DCO",
+        "body": "해외에서 난리난 '이것..'\n국내 최초 '에델바이스' 추출 선세럼. 겹겹이 화장 당장 갖다버리세요",
+        "title": "오늘 닫혀요",
+        "caption": "ataga.co.kr",
+        "link_description": "573명이 구매 중",
+        "cta_text": "자세히 보기",
+        "cta_type": "SEE_DETAILS",
+        "link_urls": [
+          "https://ataga.co.kr/product/detail.html?product_no=28&utm_source=facebook&utm_medium=paid_social&utm_campaign=260513_ABO_SUN&utm_content=SSS028"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "WHATSAPP",
+          "THREADS"
+        ],
+        "video_urls": [
+          "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMEN3RIe0Y1_hJZJWwJZ11-NHWA4PJO70iriM22NqyvrkswV7Q-Ysn7NHG4-RANAvCXNgo4ZVsP8ANXx2x7sPGiS1mva00WavdOdAJq_Q.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=MNmS_WkaFQkQ7kNvwEsVQj9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6NDIzMDk0NDgxMDUwMTg2MiwiYXNzZXRfYWdlX2RheXMiOjQxLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&_nc_zt=28&oh=00_AQORpFEX6W8Wqru-f3sqdPNUtpZHomz4DU7_fOacw4FuhA&oe=6AD4953A",
+          "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQP7sHqjzuy_BGoc929aPbHqDf_s-UMYYJHxWsuhEOxb2aQqo-LgawEJXIU6x8XpNmExZHLEHYTrzcoxTRDc323SQ6_CsoBFU89EZ32HbQ.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=Oi4GlRgyO1MQ7kNvwHVvbKq&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTM5NTg2MzQ0MjczMDkzMiwiYXNzZXRfYWdlX2RheXMiOjQxLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&_nc_zt=28&oh=00_AQMrLM4yF25L2Tc2iPQ-RAAR7e_NJAPqYO2R_1_y2b479w&oe=6AD4A199"
+        ],
+        "image_urls": [],
+        "video_preview_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/790408533_3264543770403795_1253863101984369882_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5a8KKpwLTo0Q7kNvwHBcJol&_nc_oc=AdqcZH6K0RbgJXkf_gsUoMlmnMsjFOVOK8PJ4iQELblA8Ssh7DBehlK8TilIkRLIhj8&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&oh=00_AQOfVA1e4w1ZA2pYnwv-ujILvAVyKLgFq4qkPnRk2FWdVw&oe=6AD47F43",
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/790147074_1444357577541506_6256907109598122767_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kmeN_dpOZsMQ7kNvwGSb2nl&_nc_oc=AdpL2BZGPOPz9v1pYIT-QgHFeBBzgoPOIJF7o4or-FOjDvxjiWYtkia-32uWoVNxt9I&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&oh=00_AQPbmvKq44rDEEUswFxu6zLtULqxa4sXw0Hqg29yhsXrAA&oe=6AD4852E"
+        ],
+        "cards": [
+          {
+            "title": "오늘 닫혀요",
+            "body": "",
+            "link_description": "573명이 구매 중",
+            "link_url": "https://ataga.co.kr/product/detail.html?product_no=28&utm_source=facebook&utm_medium=paid_social&utm_campaign=260513_ABO_SUN&utm_content=SSS028"
+          },
+          {
+            "title": "오늘 닫혀요",
+            "body": "",
+            "link_description": "573명이 구매 중",
+            "link_url": "https://ataga.co.kr/product/detail.html?product_no=28&utm_source=facebook&utm_medium=paid_social&utm_campaign=260513_ABO_SUN&utm_content=SSS028"
+          }
+        ]
+      },
+      {
+        "id": "1137500528958120",
+        "query": "ataga.co.kr",
+        "slice": "default",
+        "rank": 6,
+        "page_name": "아타가 - Ataga",
+        "page_id": "942675215601749",
+        "page_like_count": 8,
+        "is_active": true,
+        "start_date": "2026-10-01",
+        "end_date": "2026-10-13",
+        "days_running": 12,
+        "collation_id": "27034499929522184",
+        "collation_count": 1,
+        "display_format": "VIDEO",
+        "body": "해외에서 난리난 '이것..'\n국내 최초 '에델바이스' 추출 선세럼. 겹겹이 화장 당장 갖다버리세요",
+        "title": "오늘 닫혀요",
+        "caption": "ataga.co.kr",
+        "link_description": "573명이 구매 중",
+        "cta_text": "자세히 보기",
+        "cta_type": "SEE_DETAILS",
+        "link_urls": [
+          "https://ataga.co.kr/product/detail.html?product_no=28&utm_source=mt&utm_medium=vd"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "THREADS"
+        ],
+        "video_urls": [
+          "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPGYn2ILB-kY2yDXWDtR2NFTio0c-O_9naYEtnRehyjBlddFV-oA8SrmQdshAkyGViRCq1aZE1ze2Cb4DJaA8n9uH5oTTXCf-uFDcGN_g.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=r395PoR2S1EQ7kNvwEDx0Tl&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTAxNjc0MjM2MDczNzIyMywiYXNzZXRfYWdlX2RheXMiOjE1MSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjI2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&_nc_zt=28&oh=00_AQOaHs6fjh4FoL337S-7HHcSsHIgBiAeR0OAvJcI1mTi0Q&oe=6AD4A2BF"
+        ],
+        "image_urls": [],
+        "video_preview_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/831505463_1454739169857527_971404673369196139_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=OopJbzhvdtUQ7kNvwGa1oa7&_nc_oc=Adqry_NoqrbSfHrTHm0Pl_LJ4Qyd-eLie9VlYGATNJcC4pYRZFH77xX60HORvKyAqVg&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&oh=00_AQMVNQD2WICNZQCta05TWM7SYU4d4PXvMok4ppCjEh63pQ&oe=6AD47D4C"
+        ],
+        "cards": []
+      },
+      {
+        "id": "965116639356759",
+        "query": "ataga.co.kr",
+        "slice": "default",
+        "rank": 7,
+        "page_name": "Best Beauty",
+        "page_id": "1017394474801452",
+        "page_like_count": 5,
+        "is_active": true,
+        "start_date": "2026-10-07",
+        "end_date": "2026-10-13",
+        "days_running": 6,
+        "collation_id": "1433751648706871",
+        "collation_count": 1,
+        "display_format": "DCO",
+        "body": "해외에서 난리난 '이것..'\n국내 최초 '에델바이스' 추출 선세럼. 겹겹이 화장 당장 갖다버리세요",
+        "title": "오늘 닫혀요",
+        "caption": "ataga.co.kr",
+        "link_description": "573명이 구매 중",
+        "cta_text": "자세히 보기",
+        "cta_type": "SEE_DETAILS",
+        "link_urls": [
+          "https://ataga.co.kr/product/detail.html?product_no=28&utm_source=facebook&utm_medium=paid_social&utm_campaign=260513_ABO_SUN&utm_content=SZYR157"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "WHATSAPP",
+          "THREADS"
+        ],
+        "video_urls": [
+          "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNZ0n1XYrf4MrY95Ck-XeJsdc8kN1Di0aDxOQyCwNJp_i9RasdFYPgGIc5E7TnX2PX_PH2Io7-vrF68aGsA1Xsl4H4-HcUY3GnsEOLtUA.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=pwTDbox6O4oQ7kNvwG0tz6Q&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTMyMTAzMTg1MzM1NDk3MCwiYXNzZXRfYWdlX2RheXMiOjYsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjozMSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&_nc_zt=28&oh=00_AQMZ86bdHk4VD7mJtaoDYIQWyi103WkmrDwGX0FfOB_vVw&oe=6AD47C7A",
+          "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOqs1G8fsmbJqK74CfbFGvoscgUfMWLX6X6ZrjJbj8mn2BKugogbSEetOVozBpgzCuj9btqUTrylz097JsfxQV4kmq9sf1JosOX5jUPxA.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=_SzEtFTm9_EQ7kNvwGVlyiP&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTgxNjUxMTIzMjcxMjg3NCwiYXNzZXRfYWdlX2RheXMiOjYsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjozMSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&_nc_zt=28&oh=00_AQNlDc-voRtZCePD3JEvuK4IgIWbSEeNC0x84mwifQzbgg&oe=6AD4A27D"
+        ],
+        "image_urls": [],
+        "video_preview_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/837536928_1631071665698027_3595707109900532374_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MGXdeS5vqDsQ7kNvwFwsT5a&_nc_oc=AdqRt-Sty7k1O3jrTaZBv_KaKJRxgYd45R5Ssd0suuEW6rE2ZwD0gn8vhx-DA-aM5bw&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&oh=00_AQNSRerj1nO2Z9uzSTWjulIGwFGBvlZ-Y8ixl9z8hKYk-w&oe=6AD489B6",
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/841651305_1622210679563745_2496404872189707271_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=j3A5XCYCsScQ7kNvwG-9-_9&_nc_oc=Ado-p6vmb5p9KWSb4pk2zTgROI_K2hSjk3eMNNcN8e0QnwYRXoIZlbNGgJGVSDnLNko&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&oh=00_AQMLRaax1z3oHiXqFGI_VB9uR3W3S2ZzLskbBuo0uHJ0HA&oe=6AD49E8C"
+        ],
+        "cards": [
+          {
+            "title": "오늘 닫혀요",
+            "body": "",
+            "link_description": "573명이 구매 중",
+            "link_url": "https://ataga.co.kr/product/detail.html?product_no=28&utm_source=facebook&utm_medium=paid_social&utm_campaign=260513_ABO_SUN&utm_content=SZYR157"
+          },
+          {
+            "title": "오늘 닫혀요",
+            "body": "",
+            "link_description": "573명이 구매 중",
+            "link_url": "https://ataga.co.kr/product/detail.html?product_no=28&utm_source=facebook&utm_medium=paid_social&utm_campaign=260513_ABO_SUN&utm_content=SZYR157"
+          }
+        ]
+      },
+      {
+        "id": "1114740754363912",
+        "query": "ataga.co.kr",
+        "slice": "default",
+        "rank": 8,
+        "page_name": "아타가 - Ataga",
+        "page_id": "942675215601749",
+        "page_like_count": 8,
+        "is_active": true,
+        "start_date": "2026-10-08",
+        "end_date": "2026-10-13",
+        "days_running": 5,
+        "collation_id": "2222184388327199",
+        "collation_count": 1,
+        "display_format": "DCO",
+        "body": "해외에서 난리난 '이것..'\n국내 최초 '에델바이스' 추출 선세럼. 겹겹이 화장 당장 갖다버리세요",
+        "title": "오늘 닫혀요",
+        "caption": "ataga.co.kr",
+        "link_description": "573명이 구매 중",
+        "cta_text": "자세히 보기",
+        "cta_type": "SEE_DETAILS",
+        "link_urls": [
+          "https://ataga.co.kr/product/detail.html?product_no=28&utm_source=facebook&utm_medium=paid_social&utm_campaign=260513_ABO_SUN&utm_content=SZZ161"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "WHATSAPP",
+          "THREADS"
+        ],
+        "video_urls": [
+          "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPXFBfYQlUwgE6ms9lCQXJoSlqQ5pjIJwSD1ffmxBrDZBvmE3k_Pnvy1X7fDR--XjHhWyGblU-e5Wel6-0EaOA4agDc0fdaNdQ7yoDv_Q.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=GAwThHs4AycQ7kNvwGRxaZ9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTYyMzQyODc2MjU1NzI1MCwiYXNzZXRfYWdlX2RheXMiOjUsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjozNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&_nc_zt=28&oh=00_AQPhHrIF2Z7DR1jS-4Usz5jWR_CoerNrQ_0AQMdZjxdzkA&oe=6AD4A1AC",
+          "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQN3Nhg8uhZCSZRS8UWCPs4CShtTckSbMvLKLGzKvrTGkMXH3iVr-kAM3K-ve9tWpTFIalt8NCSjSvIaOu6jmmX-6EAW-xZOyjQOOhgu_A.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=AQRhov7w658Q7kNvwHgv9c-&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6NDQxNzkxNzQ2MTg3MDQxOCwiYXNzZXRfYWdlX2RheXMiOjUsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjozNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&_nc_zt=28&oh=00_AQOe3aBJYKT31ZInjTYuGZDnIqJg7GCNAUw1hl1xlpEMaQ&oe=6AD48A66"
+        ],
+        "image_urls": [],
+        "video_preview_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/839793952_1104345575679127_8627853528038669638_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ONBBzvj9d38Q7kNvwEKl6kA&_nc_oc=Adr1ol2CVTdKAvJd3ZS4pjHnDvJObgquHiCH59s_jrqShGfqJ2IdTnoaBuiqN7JvLx4&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&oh=00_AQNTwSoAZGw77FSKFAg1X-KCIzFPH9QhzF8wZbHnc2VASw&oe=6AD486B7",
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/840923430_1057123620661829_3500054628790264358_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PcZKJJRu6QgQ7kNvwHDHaJS&_nc_oc=AdrsJGvjQ4Q_f1D13xWztb42Yefoj8-eri5Cbb7Lg903CrJ56pH1OX4JbzM4dY71UQQ&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=hxE17hoEFqqx663Hmn-QEA&_nc_ss=7f289&oh=00_AQPOXtMRvk69b76jGea1m5zVKrGkCOXmsyedR5IEbHynrQ&oe=6AD49394"
+        ],
+        "cards": [
+          {
+            "title": "오늘 닫혀요",
+            "body": "",
+            "link_description": "573명이 구매 중",
+            "link_url": "https://ataga.co.kr/product/detail.html?product_no=28&utm_source=facebook&utm_medium=paid_social&utm_campaign=260513_ABO_SUN&utm_content=SZZ161"
+          },
+          {
+            "title": "오늘 닫혀요",
+            "body": "",
+            "link_description": "573명이 구매 중",
+            "link_url": "https://ataga.co.kr/product/detail.html?product_no=28&utm_source=facebook&utm_medium=paid_social&utm_campaign=260513_ABO_SUN&utm_content=SZZ161"
+          }
+        ]
+      }
+    ],
+    "long_running": true,
+    "count": 5
+  },
+  {
+    "candidate_id": "L18",
+    "query": "temporary-scent.kr",
+    "product_no": "146",
+    "queried_at": "2026-10-14T08:03:30.487837",
+    "exact_product_ads": [
+      {
+        "id": "1735806597731673",
+        "query": "temporary-scent.kr",
+        "slice": "default",
+        "rank": 1,
+        "page_name": "템포러리 Temporary",
+        "page_id": "110105748843541",
+        "page_like_count": 29,
+        "is_active": true,
+        "start_date": "2026-08-04",
+        "end_date": "2026-10-13",
+        "days_running": 70,
+        "collation_id": "903990228933768",
+        "collation_count": 1,
+        "display_format": "DCO",
+        "body": "{{product.brand}}",
+        "title": "{{product.name}}",
+        "caption": "temporary-scent.kr",
+        "link_description": "{{product.description}}",
+        "cta_text": "지금 구매하기",
+        "cta_type": "SHOP_NOW",
+        "link_urls": [
+          "https://temporary-scent.kr/product/detail.html?product_no=146&utm_source=instagram&utm_medium=video&utm_content=s197957"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "MESSENGER",
+          "THREADS"
+        ],
+        "video_urls": [
+          "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPzdMCGuOrRpjuAmt13scS0EJVZESo0iLQ0sa9-OLXwEftyfGmm1wAS9jTrLX1WxJgda_mpvV-V9phVdXMApLm8eas-WPsUwij8KwF0lw.mp4?_nc_cat=110&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=kwNOkeYKcXsQ7kNvwHVPZKX&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6NDQyNDUwMDk0NDQzNTY2MywiYXNzZXRfYWdlX2RheXMiOjE1MiwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjIzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=KqeHfUzABBqlXFltJSO4sQ&_nc_ss=7f289&_nc_zt=28&oh=00_AQMVV_mAAUE0DFHhp2Miy54ikjVX_b2xDQN8krY5KXL3Eg&oe=6AD479C8"
+        ],
+        "image_urls": [],
+        "video_preview_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/765192348_3901698933300845_2218708582657348840_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jhaTPEtMA4YQ7kNvwEUe4Ua&_nc_oc=AdrwKAli4Mijp_QmVdGpJerMqjcNkaJm8HqTbKPFf3_NnKmjU-y3u0JBAEmT5gVJ4iA&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=KqeHfUzABBqlXFltJSO4sQ&_nc_ss=7f289&oh=00_AQNqw4yXtDAUubvHK3Pzuq1Q4tF6gQzu911H1bLUSmS5gA&oe=6AD472B8",
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/763824656_1001220042949105_3355884683596120135_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SCaZmRoYcbYQ7kNvwHGxvqm&_nc_oc=AdqBvuK4jWcYdYyq7dBNHbW5x-eMaMq9quOIvMAC9ZNWtKNwMbR_k_xYL2_LufWkAfk&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=KqeHfUzABBqlXFltJSO4sQ&_nc_ss=7f289&oh=00_AQOyZCKQjBzuUrOFbrseeEwh7fupfj0j-jWfyWq7BOktvw&oe=6AD48FED"
+        ],
+        "cards": [
+          {
+            "title": "지금 바로 확인하세요!👇",
+            "body": "야시시한 머스크향\n찐 페로몬 향수 1+1 단독 오픈!\n\n아침에 뿌려도 자기 전까지 미친 지속력✨\n땀 흘려도 냄새 걱정 없이 은은한 향기만 맴돌아요.",
+            "link_description": "",
+            "link_url": "https://temporary-scent.kr/product/detail.html?product_no=146&utm_source=instagram&utm_medium=video&utm_content=s197957"
+          },
+          {
+            "title": "지금 바로 확인하세요!👇",
+            "body": "야시시한 머스크향\n찐 페로몬 향수 1+1 단독 오픈!\n\n아침에 뿌려도 자기 전까지 미친 지속력✨\n땀 흘려도 냄새 걱정 없이 은은한 향기만 맴돌아요.",
+            "link_description": "",
+            "link_url": "https://temporary-scent.kr/product/detail.html?product_no=146&utm_source=instagram&utm_medium=video&utm_content=s197957"
+          },
+          {
+            "title": "지금 바로 확인하세요!👇",
+            "body": "야시시한 머스크향\n찐 페로몬 향수 1+1 단독 오픈!\n\n아침에 뿌려도 자기 전까지 미친 지속력✨\n땀 흘려도 냄새 걱정 없이 은은한 향기만 맴돌아요.",
+            "link_description": "",
+            "link_url": "https://temporary-scent.kr/product/detail.html?product_no=146&utm_source=instagram&utm_medium=video&utm_content=s197957"
+          },
+          {
+            "title": "지금 바로 확인하세요!👇",
+            "body": "야시시한 머스크향\n찐 페로몬 향수 1+1 단독 오픈!\n\n아침에 뿌려도 자기 전까지 미친 지속력✨\n땀 흘려도 냄새 걱정 없이 은은한 향기만 맴돌아요.",
+            "link_description": "",
+            "link_url": "https://temporary-scent.kr/product/detail.html?product_no=146&utm_source=instagram&utm_medium=video&utm_content=s197957"
+          }
+        ]
+      },
+      {
+        "id": "28243867951875925",
+        "query": "temporary-scent.kr",
+        "slice": "default",
+        "rank": 2,
+        "page_name": "템포러리 Temporary",
+        "page_id": "110105748843541",
+        "page_like_count": 29,
+        "is_active": true,
+        "start_date": "2026-08-10",
+        "end_date": "2026-10-13",
+        "days_running": 64,
+        "collation_id": "1438899888296074",
+        "collation_count": 1,
+        "display_format": "DCO",
+        "body": "{{product.brand}}",
+        "title": "{{product.name}}",
+        "caption": "temporary-scent.kr",
+        "link_description": "{{product.description}}",
+        "cta_text": "지금 구매하기",
+        "cta_type": "SHOP_NOW",
+        "link_urls": [
+          "https://temporary-scent.kr/product/detail.html?product_no=146&utm_source=instagram&utm_medium=video&utm_content=s198716"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "MESSENGER",
+          "THREADS"
+        ],
+        "video_urls": [
+          "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMquyyi9-sk2DPHm7zLv29Ch-T0jdr5VnTZMWQ02nuryAXLVRMv2vHhLh6cbtp0CvijhKfuMbE86Of8h_nQMj7N0LzrsGYs5O-rHDDmdw.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=a-kQSH5Fp2EQ7kNvwHDH3U9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTAzMjc3MTY5NTc0NTcwNiwiYXNzZXRfYWdlX2RheXMiOjE0NCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjIzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=KqeHfUzABBqlXFltJSO4sQ&_nc_ss=7f289&_nc_zt=28&oh=00_AQMRjnVOR7Hz1UqHI1ky7q8t0vv6HOpfgXmE7hEMvQzdBQ&oe=6AD496B2"
+        ],
+        "image_urls": [],
+        "video_preview_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/772227502_1030559269594251_6218505790199982658_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=lfgZYtyaddcQ7kNvwFvQIK_&_nc_oc=AdoGgaA8cLmeqMaVcRBa0XUl_2ampOU6r9lznUqQZcntzgn3s4DZ_jBRw5EArIcdLgg&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=KqeHfUzABBqlXFltJSO4sQ&_nc_ss=7f289&oh=00_AQOv_jKvJBk9ww8pFAz3VSFHRCWcQ-uFevIL_4x21pzQ7w&oe=6AD47B40",
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/771708731_4583597385196441_8301183189316790009_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ODF-SHIv9OoQ7kNvwGXs99y&_nc_oc=AdpwuI3UuWEQzRDR34A_yeAGVOE0XQDBBzjt8FGP9dALUxVhtfKmxmN80UcF74T8MMc&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=KqeHfUzABBqlXFltJSO4sQ&_nc_ss=7f289&oh=00_AQNhAa0BnIqqEicMCpic37E2Rk9pjsN6UGEOn2nICOWBRw&oe=6AD49B8D",
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/773291112_903311585704447_6378972771383272644_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Cx3IH3IqdbUQ7kNvwG84xDz&_nc_oc=Adpzdy3ROsIFQVML0Q9GP623ZTUx-EB_4cIuvf6DF2n02Kyt_Kmkti-4kqAg5K7Qomc&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=KqeHfUzABBqlXFltJSO4sQ&_nc_ss=7f289&oh=00_AQM8RZzfxlwb65b3EhqzCJngUDuzVBwLnO_OSMqFuz54VQ&oe=6AD48F91"
+        ],
+        "cards": [
+          {
+            "title": "드디어 1+1 92% 미친 특가 풀렸습니다",
+            "body": "선착순 100명 한정⚠️\n품절 전 무조건 쟁이세요!\n\n남자 특유의 쉰내부터 여름철 땀 냄새까지 싹 잡고 하루 종일 샤워한 듯 우디향이 솔솔 남아요. 호감도 2배 상승 보장!",
+            "link_description": "",
+            "link_url": "https://temporary-scent.kr/product/detail.html?product_no=146&utm_source=instagram&utm_medium=video&utm_content=s198716"
+          },
+          {
+            "title": "드디어 1+1 92% 미친 특가 풀렸습니다",
+            "body": "선착순 100명 한정⚠️\n품절 전 무조건 쟁이세요!\n\n남자 특유의 쉰내부터 여름철 땀 냄새까지 싹 잡고 하루 종일 샤워한 듯 우디향이 솔솔 남아요. 호감도 2배 상승 보장!",
+            "link_description": "",
+            "link_url": "https://temporary-scent.kr/product/detail.html?product_no=146&utm_source=instagram&utm_medium=video&utm_content=s198716"
+          },
+          {
+            "title": "드디어 1+1 92% 미친 특가 풀렸습니다",
+            "body": "선착순 100명 한정⚠️\n품절 전 무조건 쟁이세요!\n\n남자 특유의 쉰내부터 여름철 땀 냄새까지 싹 잡고 하루 종일 샤워한 듯 우디향이 솔솔 남아요. 호감도 2배 상승 보장!",
+            "link_description": "",
+            "link_url": "https://temporary-scent.kr/product/detail.html?product_no=146&utm_source=instagram&utm_medium=video&utm_content=s198716"
+          },
+          {
+            "title": "드디어 1+1 92% 미친 특가 풀렸습니다",
+            "body": "선착순 100명 한정⚠️\n품절 전 무조건 쟁이세요!\n\n남자 특유의 쉰내부터 여름철 땀 냄새까지 싹 잡고 하루 종일 샤워한 듯 우디향이 솔솔 남아요. 호감도 2배 상승 보장!",
+            "link_description": "",
+            "link_url": "https://temporary-scent.kr/product/detail.html?product_no=146&utm_source=instagram&utm_medium=video&utm_content=s198716"
+          }
+        ]
+      }
+    ],
+    "long_running": true,
+    "count": 2
+  },
+  {
+    "candidate_id": "L20",
+    "query": "arocell.co.kr",
+    "product_no": "608",
+    "queried_at": "2026-10-14T08:03:42.861103",
+    "exact_product_ads": [
+      {
+        "id": "1354298212988049",
+        "query": "arocell.co.kr",
+        "slice": "default",
+        "rank": 15,
+        "page_name": "Arocell_official",
+        "page_id": "104758642068664",
+        "page_like_count": 398,
+        "is_active": true,
+        "start_date": "2026-08-07",
+        "end_date": "2026-10-13",
+        "days_running": 67,
+        "collation_id": "732934089666571",
+        "collation_count": 1,
+        "display_format": "IMAGE",
+        "body": "'고순도 화이트 비타민 캡슐 4000개'를 그대로 굳힌 \n기미, 피부 톤, 피부 보습 개선 아로셀 멜라 트라넥스 마스크\n\n역노화 연구소에서 개발한 붙이는 피코토닉™\n한 번만 사용해도 3일동안 멜라닌 생성을 억제합니다. \n출시 3일만에 전량 품절, 화장품만으로 진짜 효과를 본다는 것이 뭔지 직접 느껴보세요.\n\n1. '비타민 캡슐 4,000개 굳힌' 대용량 겔 마스크\n2. 역노화 연구소 개발 붙이는 피코토닉™\n3. 숨어있는 기미부터 5년 넘게 묵은 기미 개선 입증\n4. 피부 톤(밝기) 102% 증가\n5. 피부 보습 406.87% 개선\n\nREVERSE YOUR AGE\n처음 만나는 바이오 뷰티, 아로셀",
+        "title": "역노화 연구소에서 개발한 붙이는 피코토닉™팩",
+        "caption": "arocell.co.kr",
+        "link_description": "본 결제 창은 결제완료 후 자동으로 닫히며, 결제 진행 중에 본 결제 창을 닫으시면 주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.",
+        "cta_text": "더 알아보기",
+        "cta_type": "LEARN_MORE",
+        "link_urls": [
+          "https://www.arocell.co.kr/product/detail.html?product_no=608&cafe_mkt=facebook"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM"
+        ],
+        "video_urls": [],
+        "image_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/528250346_3686631481641797_6747196771523214648_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=qK0DfPHkfasQ7kNvwHl3lxN&_nc_oc=AdpSgpSMuIohsbNSk5b3sYpHm22hst_5FJx-LozAPPNKAwpPcurEbSH3JkMwQS4-x0k&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=q7JWQ94K3wY43xYgyKB1mw&_nc_ss=7f289&oh=00_AQP_Nc41FNH5_JECU3wUOk5xlcVO3p5mxwd0-hX5n01JCg&oe=6AD47096"
+        ],
+        "video_preview_urls": [],
+        "cards": []
+      },
+      {
+        "id": "986899397713755",
+        "query": "arocell.co.kr",
+        "slice": "default",
+        "rank": 26,
+        "page_name": "Arocell_official",
+        "page_id": "104758642068664",
+        "page_like_count": 398,
+        "is_active": true,
+        "start_date": "2026-08-07",
+        "end_date": "2026-10-13",
+        "days_running": 67,
+        "collation_id": "682974534797614",
+        "collation_count": 1,
+        "display_format": "PAGE_LIKE",
+        "body": "'고순도 화이트 비타민 캡슐 4000개'를 그대로 굳힌 \n기미, 피부 톤, 피부 보습 개선 아로셀 멜라 트라넥스 마스크\n\n역노화 연구소에서 개발한 붙이는 피코토닉™\n한 번만 사용해도 3일동안 멜라닌 생성을 억제합니다. \n출시 3일만에 전량 품절, 화장품만으로 진짜 효과를 본다는 것이 뭔지 직접 느껴보세요.\n\n1. '비타민 캡슐 4,000개 굳힌' 대용량 겔 마스크\n2. 역노화 연구소 개발 붙이는 피코토닉™\n3. 숨어있는 기미부터 5년 넘게 묵은 기미 개선 입증\n4. 피부 톤(밝기) 102% 증가\n5. 피부 보습 406.87% 개선\n\nREVERSE YOUR AGE\n처음 만나는 바이오 뷰티, 아로셀",
+        "title": "역노화 연구소에서 개발한 붙이는 피코토닉™팩",
+        "caption": "arocell.co.kr",
+        "link_description": "본 결제 창은 결제완료 후 자동으로 닫히며, 결제 진행 중에 본 결제 창을 닫으시면 주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.",
+        "cta_text": "더 알아보기",
+        "cta_type": "LEARN_MORE",
+        "link_urls": [
+          "https://www.arocell.co.kr/product/detail.html?product_no=608&cafe_mkt=facebook"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM"
+        ],
+        "video_urls": [],
+        "image_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/528465333_542154195586184_5755185225630245376_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=nQqKz5ygRf8Q7kNvwHdyg0j&_nc_oc=AdoYJ9dwPQFhHxlu-ZCt2NWv4kY_VVMD6W2jm3esExGVjPgQUlTYoya5dVdJYYeCBjQ&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=q7JWQ94K3wY43xYgyKB1mw&_nc_ss=7f289&oh=00_AQMcvSveOCMMdi2S0zyFo17UU6KbWv1imVw1-qZQHzvzGg&oe=6AD49CF0"
+        ],
+        "video_preview_urls": [],
+        "cards": []
+      },
+      {
+        "id": "1553433233148662",
+        "query": "arocell.co.kr",
+        "slice": "default",
+        "rank": 17,
+        "page_name": "Arocell_official",
+        "page_id": "104758642068664",
+        "page_like_count": 398,
+        "is_active": true,
+        "start_date": "2026-08-13",
+        "end_date": "2026-10-13",
+        "days_running": 61,
+        "collation_id": "2388959874926586",
+        "collation_count": 1,
+        "display_format": "IMAGE",
+        "body": "[9,900원 체험]아로셀 베스트 겔 마스크 4종💜\n딱 한 번만 써봐도, 확실히 달라집니다.\n오직 첫구매 고객님께 드리는 특별한 기회🎁\n\n✅콜라겐 생성을 넘어 콜라겐 망™ 생성까지! #슈퍼콜라겐팩 2.0💜\n✅특수 기관급 모공에이징 케어 #보툴PDRN팩🧡\n✅기미, 톤 개선 비타민 4천개 굳힌 #멜라마스크팩🤍\n✅주름 싹 펴주는 꼬리톡스다리미 #보툴케어프라임톡스팩🩵\n\n❤️ 피부 타입 따라 골라쓰는 특별 패키지\n지금 첫구매 단 9,900원에 시작하세요.\n\nREVERSE YOUR AGE\n처음 만나는 바이오 뷰티, 아로셀",
+        "title": "[첫구매 9,900원] 베스트 4종 겔 마스크💜",
+        "caption": "arocell.co.kr",
+        "link_description": "본 결제 창은 결제완료 후 자동으로 닫히며, 결제 진행 중에 본 결제 창을 닫으시면 주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.",
+        "cta_text": "자세히 보기",
+        "cta_type": "SEE_DETAILS",
+        "link_urls": [
+          "https://www.arocell.co.kr/product/detail.html?product_no=608&cafe_mkt=facebook"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM"
+        ],
+        "video_urls": [],
+        "image_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/763700992_2170090790500777_4344993218913738131_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=tGcnFKIW5hwQ7kNvwHFuMiy&_nc_oc=Adp74yzXEoB2LgcFWTofqhAqrV1pwAIBsCzYKKCbBYfnHSS7hL-a8Tf18UFFSqVWwyI&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=q7JWQ94K3wY43xYgyKB1mw&_nc_ss=7f289&oh=00_AQMytybOTN-hnlJI6djAcVqKcoMm0QEvCfFek5M-ctBCGA&oe=6AD4921C"
+        ],
+        "video_preview_urls": [],
+        "cards": []
+      },
+      {
+        "id": "2316216285580555",
+        "query": "arocell.co.kr",
+        "slice": "default",
+        "rank": 21,
+        "page_name": "Arocell_official",
+        "page_id": "104758642068664",
+        "page_like_count": 398,
+        "is_active": true,
+        "start_date": "2026-08-13",
+        "end_date": "2026-10-13",
+        "days_running": 61,
+        "collation_id": "1347491837555567",
+        "collation_count": 1,
+        "display_format": "IMAGE",
+        "body": "[9,900원 체험] 베스트 겔 마스크 4종💜\n딱 한 번만 써봐도, 확실히 달라집니다.\n오직 첫구매 고객님께 드리는 특별한 기회🎁\n\n✅콜라겐 생성을 넘어 콜라겐 망™ 생성까지! #슈퍼콜라겐팩 2.0💜\n✅특수 기관급 모공에이징 케어 #보툴PDRN팩🧡\n✅기미, 톤 개선 비타민 4천개 굳힌 #멜라마스크팩🤍\n✅주름 싹 펴주는 꼬리톡스다리미 #보툴케어프라임톡스팩🩵\n\n❤️ 피부 타입 따라 골라쓰는 특별 패키지\n지금 첫구매 단 9,900원에 시작하세요.\n\nREVERSE YOUR AGE\n처음 만나는 바이오 뷰티, 아로셀",
+        "title": "[첫구매 9,900원] 베스트 4종 겔 마스크💜",
+        "caption": "arocell.co.kr",
+        "link_description": "",
+        "cta_text": "더 알아보기",
+        "cta_type": "LEARN_MORE",
+        "link_urls": [
+          "https://www.arocell.co.kr/product/detail.html?product_no=608&cafe_mkt=facebook"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM"
+        ],
+        "video_urls": [],
+        "image_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/767389280_1380616457366051_6514679321246576705_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SyrROIwv_LkQ7kNvwHh8FfR&_nc_oc=AdrWEmOA-n7dl9AaU9FDQMOCBsfk4mDtERXCrOXjZkfReymdRZCOqySt2RutNI4fThQ&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=q7JWQ94K3wY43xYgyKB1mw&_nc_ss=7f289&oh=00_AQMA6uMq9SYZjXKCU3QIM8DswhPIwYAiaAtPsL9JhZZO2A&oe=6AD47C97"
+        ],
+        "video_preview_urls": [],
+        "cards": []
+      },
+      {
+        "id": "1591680199063387",
+        "query": "arocell.co.kr",
+        "slice": "default",
+        "rank": 13,
+        "page_name": "Arocell_official",
+        "page_id": "104758642068664",
+        "page_like_count": 398,
+        "is_active": true,
+        "start_date": "2026-09-04",
+        "end_date": "2026-10-13",
+        "days_running": 39,
+        "collation_id": "2142925602936398",
+        "collation_count": 1,
+        "display_format": "IMAGE",
+        "body": "[9,900원 체험] 베스트 겔 마스크 4종💜\n딱 한 번만 써봐도, 확실히 달라집니다.\n오직 첫구매 고객님께 드리는 특별한 기회🎁\n\n✅콜라겐 생성을 넘어 콜라겐 망™ 생성까지! #슈퍼콜라겐팩 2.0💜\n✅특수 기관급 모공에이징 케어 #보툴PDRN팩🧡\n✅기미, 톤 개선 비타민 4천개 굳힌 #멜라마스크팩🤍\n✅주름 싹 펴주는 꼬리톡스다리미 #보툴케어프라임톡스팩🩵\n\n❤️ 피부 타입 따라 골라쓰는 특별 패키지\n지금 첫구매 단 9,900원에 시작하세요.\n\nREVERSE YOUR AGE\n처음 만나는 바이오 뷰티, 아로셀",
+        "title": "[첫구매 9,900원] 베스트 4종 겔 마스크💜",
+        "caption": "arocell.co.kr",
+        "link_description": "본 결제 창은 결제완료 후 자동으로 닫히며, 결제 진행 중에 본 결제 창을 닫으시면 주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.",
+        "cta_text": "더 알아보기",
+        "cta_type": "LEARN_MORE",
+        "link_urls": [
+          "https://www.arocell.co.kr/product/detail.html?product_no=608&cafe_mkt=facebook"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM"
+        ],
+        "video_urls": [],
+        "image_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/739699435_27481065384865712_4786720800977781123_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=tDMqLMTCO38Q7kNvwFNQq6h&_nc_oc=AdrdoDxqs6481Al1eOTg_uavFwjf_RRPM1-RfLKcb1ko-8fpoN5njymEXMzRNMnBkyU&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=q7JWQ94K3wY43xYgyKB1mw&_nc_ss=7f289&oh=00_AQOul4WouJPF4OJQcvVwJ54PHACbaVirKmmIlgDiKGC72g&oe=6AD47A91"
+        ],
+        "video_preview_urls": [],
+        "cards": []
+      },
+      {
+        "id": "1076688214952560",
+        "query": "arocell.co.kr",
+        "slice": "default",
+        "rank": 29,
+        "page_name": "Arocell_official",
+        "page_id": "104758642068664",
+        "page_like_count": 398,
+        "is_active": true,
+        "start_date": "2026-09-04",
+        "end_date": "2026-10-13",
+        "days_running": 39,
+        "collation_id": "1759502718581324",
+        "collation_count": 2,
+        "display_format": "IMAGE",
+        "body": "[9,900원 체험] 베스트 겔 마스크 4종💜\n딱 한 번만 써봐도, 확실히 달라집니다.\n오직 첫구매 고객님께 드리는 특별한 기회🎁\n\n✅콜라겐 생성을 넘어 콜라겐 망™ 생성까지! #슈퍼콜라겐팩 2.0💜\n✅특수 기관급 모공에이징 케어 #보툴PDRN팩🧡\n✅기미, 톤 개선 비타민 4천개 굳힌 #멜라마스크팩🤍\n✅주름 싹 펴주는 꼬리톡스다리미 #보툴케어프라임톡스팩🩵\n\n❤️ 피부 타입 따라 골라쓰는 특별 패키지\n지금 첫구매 단 9,900원에 시작하세요.\n\nREVERSE YOUR AGE\n처음 만나는 바이오 뷰티, 아로셀",
+        "title": "[첫구매 9,900원] 베스트 4종 겔 마스크💜",
+        "caption": "arocell.co.kr",
+        "link_description": "",
+        "cta_text": "더 알아보기",
+        "cta_type": "LEARN_MORE",
+        "link_urls": [
+          "https://www.arocell.co.kr/product/detail.html?product_no=608&cafe_mkt=facebook"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM"
+        ],
+        "video_urls": [],
+        "image_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/741820658_3795596673915852_726817881229581155_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SAH7SK4EiFUQ7kNvwHYqEFW&_nc_oc=AdruCN7OFDwqy8bdXSnGayVrwW6yd8hEBLYZkAKZOM6b7OCzyy79b0TbliEiZnQMBKk&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=q7JWQ94K3wY43xYgyKB1mw&_nc_ss=7f289&oh=00_AQPhnAy743sza3nOjgmbYbWrF_P_NwC3QJkskL_N6A6huQ&oe=6AD48B80"
+        ],
+        "video_preview_urls": [],
+        "cards": []
+      },
+      {
+        "id": "1797356344740045",
+        "query": "arocell.co.kr",
+        "slice": "default",
+        "rank": 30,
+        "page_name": "뷰티 언니들의 비밀 상자",
+        "page_id": "461840183682565",
+        "page_like_count": 6,
+        "is_active": true,
+        "start_date": "2026-09-13",
+        "end_date": "2026-10-11",
+        "days_running": 28,
+        "collation_id": "1390589306517172",
+        "collation_count": 1,
+        "display_format": "VIDEO",
+        "body": "어떻게 했냐고요?\n내 피부에 콜라겐 + 엘라스틴 + 히알루론산 생성했죠💜\n팩 하나로요!",
+        "title": "[광증폭팩] 이런 피부 광채 가지고 싶다면?",
+        "caption": "arocell.co.kr",
+        "link_description": "",
+        "cta_text": "더 알아보기",
+        "cta_type": "LEARN_MORE",
+        "link_urls": [
+          "https://arocell.co.kr/product/detail.html?product_no=608&cafe_mkt=facebook"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "WHATSAPP",
+          "THREADS"
+        ],
+        "video_urls": [
+          "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQM9AA9odQOCL_uBh41wH2m1JMq24kAgmKRYNyUuzvH3A5fGSbHGC4mZDKSCWdBm9geDtj6BgVWz8gvAAtNRiW1Bc9gsR3pmNHaFc9xKUQ.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=A1HlNRtjW0IQ7kNvwHEWa4V&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQzNTU5MzMxMjAyNDcwMywiYXNzZXRfYWdlX2RheXMiOjMyLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MzMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=q7JWQ94K3wY43xYgyKB1mw&_nc_ss=7f289&_nc_zt=28&oh=00_AQNB1LWyyajnECcc4sl8UNpizkYijB65Oe0HIr2rrGsJVw&oe=6AD48736"
+        ],
+        "image_urls": [],
+        "video_preview_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/807750466_1603224571453281_9099802614879099130_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7fi7iFX2ydUQ7kNvwElsuys&_nc_oc=AdpONYhP8LoGACwOqTsphJ2l4Vvo0GAIqjzcHt-M3caIfvoPFc1TT2m4w9e1PMxjnME&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=q7JWQ94K3wY43xYgyKB1mw&_nc_ss=7f289&oh=00_AQPryXSZR4XRmitIk7R7UqplHlrepTV5GOYnrRy0FKuWpg&oe=6AD487AD"
+        ],
+        "cards": []
+      },
+      {
+        "id": "28616924784590732",
+        "query": "arocell.co.kr",
+        "slice": "default",
+        "rank": 12,
+        "page_name": "뷰티 언니들의 비밀 상자",
+        "page_id": "461840183682565",
+        "page_like_count": 6,
+        "is_active": true,
+        "start_date": "2026-09-23",
+        "end_date": "2026-10-13",
+        "days_running": 20,
+        "collation_id": "1432280348763564",
+        "collation_count": 1,
+        "display_format": "VIDEO",
+        "body": "이거 뭐야...?",
+        "title": "이 팩의 정체 >>",
+        "caption": "arocell.co.kr",
+        "link_description": "",
+        "cta_text": "더 알아보기",
+        "cta_type": "LEARN_MORE",
+        "link_urls": [
+          "https://arocell.co.kr/product/detail.html?product_no=608&cafe_mkt=facebook"
+        ],
+        "platforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "WHATSAPP",
+          "THREADS"
+        ],
+        "video_urls": [
+          "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQM13ITQntDgEQ61YfvYL__vfvJJeVotXoweP6H3-6gEEYGjOJ-WLBdGRkfDrkLClR_1h882WOECupTPfz8QOQI01pTsUpItLxkucvn3kQ.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=206RjF4__q8Q7kNvwFB6bv5&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6OTU1NzkwODA3NTk0NDYyLCJhc3NldF9hZ2VfZGF5cyI6MjEsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjozMSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=q7JWQ94K3wY43xYgyKB1mw&_nc_ss=7f289&_nc_zt=28&oh=00_AQPxOhYjQIr2Kps17gup5Lff9C-xfOpBj63K77Pz0TRp7w&oe=6AD47FDC"
+        ],
+        "image_urls": [],
+        "video_preview_urls": [
+          "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/808971329_1380399244205971_922960732094606020_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Yn6l2ompJMkQ7kNvwHFchvH&_nc_oc=Adqh8vorvyo9lQKpijCcI4IBpswjfauPqombZDWmPeb_9A2EGe9JBWbIX2mlPlUUP8E&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=q7JWQ94K3wY43xYgyKB1mw&_nc_ss=7f289&oh=00_AQNw5JBmZlsmZUdCmDj2wUeZL4gNwuQH2FVTxOm3-xcd8g&oe=6AD4A4F3"
+        ],
+        "cards": []
+      }
+    ],
+    "long_running": true,
+    "count": 8
+  }
+]

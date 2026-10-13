@@ -1,0 +1,270 @@
+{
+  "pagy": {
+    "series": [
+      5,
+      6,
+      7,
+      8,
+      "9",
+      10,
+      11,
+      12,
+      13
+    ],
+    "prev": 8,
+    "next": 10,
+    "page": 9,
+    "items": 3
+  },
+  "reviews": [
+    {
+      "id": 30473,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": 88672,
+      "user_display_name": "강****",
+      "media_count": 2,
+      "product_code": "177",
+      "product_image_source_url": "//meditold.com/web/product/medium/202601/13e8d3aa521c228d012d24e0d848457f.png",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/10/90/image/extra_small_858bdde47a4a5a7d.webp",
+      "product_name": "[32차 완판] 백노노뇽X퍼시닌 바디워시 1+1 공구특가! 무료배송",
+      "product_meta_reviews_count": 7227,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=177",
+      "created_at": "2026-01-07T09:34:59+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 26,
+      "review_source_has_video": false,
+      "filtered_message": "원래 팔뚝에 닭살처럼 모공각화증이 있어서 반팔 입을 때 마다 스트레스였어요ㅠ 스크럽 제품은 자극이 심해서 잘 안 맞고, 그래서 바디워시로 조금이라도 관리가 되면 좋겠다는 생각으로 구매해봤어요ㅎㅎ 며칠 샤워할때마다 써보니까 보니 각질이 눈에 띄게 올라오는 게 줄어든 느낌이 들었고, 만졌을 때 까칠함도 전보다 덜하네용. 확실히 피부가 편안해진 느낌이 있어서 잘 산 것 같아요ㅋㅋㅋ 꾸준히 써보고 또 사러 올께용",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "1": [
+          "만족도",
+          "효과",
+          "사용감"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/03/04/73/image1/823c102baa3fb914.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/03/04/73/image1/gallery_823c102baa3fb914.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/03/04/73/image1/portrait_823c102baa3fb914.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/03/04/73/image1/thumbnail_823c102baa3fb914.webp",
+          "media_position": 1,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/03/04/73/image2/5e1b4bbb1459c024.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/03/04/73/image2/gallery_5e1b4bbb1459c024.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/03/04/73/image2/portrait_5e1b4bbb1459c024.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/03/04/73/image2/thumbnail_5e1b4bbb1459c024.webp",
+          "media_position": 2,
+          "orientation": 1
+        }
+      ],
+      "product_options": [
+        {
+          "name": "상품 구성",
+          "value": "1개 --- (25% 할인) (+0원) 1개만 발송됩니다."
+        }
+      ],
+      "customer_properties": [
+        {
+          "name": "연령대",
+          "value": "30대"
+        },
+        {
+          "name": "성별",
+          "value": "여성"
+        }
+      ],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 23303,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": null,
+      "user_display_name": "네이버 페이 구****",
+      "media_count": 2,
+      "product_code": "177",
+      "product_image_source_url": "//meditold.com/web/product/medium/202601/13e8d3aa521c228d012d24e0d848457f.png",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/10/90/image/extra_small_858bdde47a4a5a7d.webp",
+      "product_name": "[32차 완판] 백노노뇽X퍼시닌 바디워시 1+1 공구특가! 무료배송",
+      "product_meta_reviews_count": 7227,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=177",
+      "created_at": "2024-06-12T03:26:30+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 5,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 40,
+      "review_source_has_video": false,
+      "filtered_message": "세정력 GOAT 전 바디워시 쓸 때 물로 씻은 이후에도 미끈미끈하게 뭐가 남는 걸 안좋아하는 편인데 단감 바디워시는 씻고 나면 뽀득뽀득한게 정말 개운하고 좋아요 ㅎㅎ 바디워시 향도 단감향은 아니고 달달한 우디향이 나서 거부감 없이 잘 사용하고 있어요\n\n\n\n\n\n\n\n(2024-06-11 17:45:17 에 등록된 네이버 페이 구매평)",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "1": [
+          "만족도",
+          "향기",
+          "사용감"
+        ],
+        "2": [
+          "세정력"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/03/image1/eff74d48a5bcf8bd.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/03/image1/gallery_eff74d48a5bcf8bd.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/03/image1/portrait_eff74d48a5bcf8bd.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/03/image1/thumbnail_eff74d48a5bcf8bd.webp",
+          "media_position": 1,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/03/image2/0f30a9f3feb45867.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/03/image2/gallery_0f30a9f3feb45867.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/03/image2/portrait_0f30a9f3feb45867.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/03/image2/thumbnail_0f30a9f3feb45867.webp",
+          "media_position": 2,
+          "orientation": 2
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 62685,
+      "score": 4,
+      "store_name": null,
+      "brand_user_id": 367376,
+      "user_display_name": "김****",
+      "media_count": 4,
+      "product_code": "220",
+      "product_image_source_url": "//meditold.com/web/product/medium/202604/04e3c4eb9a02555a1b90b6800ee7d55f.jpg",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/11/45/image/extra_small_d2ff868598fd4810.webp",
+      "product_name": "[공구 특가] P헬멧X퍼시닌 바디워시 최대 할인! 무료배송",
+      "product_meta_reviews_count": 6695,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=220",
+      "created_at": "2026-10-05T01:33:41+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 26,
+      "review_source_has_video": false,
+      "filtered_message": "주문 - 2026년 9월 21일(월)/ 11:38AM\n수령 - 2026년 9월 22일(화)/ 16:30PM\n택배기사분들 고생많으십니다.\n\n김동현님이 광고를 하시길래\n믿음이 좀 가서 구입해보았습니다.\n\n내용액은 물에 우유를 탄 듯한 약깐 뿌연 흰색에\n다른 바디워시들 처럼 끈적한 제형입니다.\n\n거품을 내어 몸에 문지른 뒤, 물로 씻어낼 땐\n기존 사용하던 쿤달이나 도브 제품처럼\n미끌미끌한 느낌이 아니고\n비누로 씻은 것 처럼 뽀득뽀득한 느낌입니다.\n\n향이 일반적인 과일이나 꽃향기가 아니라\n멘톨향이 섞인 약품(?)같은 향이 납니다.\n\n그냥 맡았을때 '아, 바디워시구나' 라는 생각이\n드는 향은 아닙니다.\n\n그리 불쾌감이 드는 향은 아니고\n몸에 바르는 약이라고 생각하면\n또 나름 납득이 되는 향이네요.\n\n개인적으로 아주 맘에 들지도\n그렇다고 불쾌해서 맘에 안들지도 않는\n5점으로 치면 2~3점 정도의 향이라고 생각되네요.\n\n제일 중요한 효과 부분은\n사실 등에 샤워하기 전 만져지는\n오돌토돌한 딱딱해진 피지 알갱이들은\n이 제품을 사용해도 계속 만져집니다.\n\n등드름은 거의 없고\n샤워 하면서 등을 씻을때\n드문드문 오돌토돌하게 피지가 딱딱하게 뭉친\n알갱이가 만져지는 정도이고\n두어달에 한번 그게 막혀서 여드름이 한개 정도\n발생하는 체질인데\n그 피지 자체의 발생을 억제하지는 않네요.\n\n등드름이 많은 분들도 \n아마 발생하는 기전은 이런 방식일텐데\n등드름 자체에 다른 바디워시 제품들에 비해\n엄청나게 특별한 효과를 보일것 같지는 않습니다.\n\n다만 한번만 씻고도 확연하게 느껴지는 효과가 있었는데\n바지나 손과 자주 마찰이 있는 무릎 위 부분에\n마찰로 인해 각질이 다른 신체 부위보다\n살짝 두껍게 앉아있는 편인데\n이 제품으로 한번만 샤워를 했는데도\n대중 목욕탕에서 때를 밀고 나온 것처럼\n좀 매끌매끌해진 느낌이 듭니다.\n\n완전 100% 각질이 사라진 정도는 아니고\n70~80% 정도 사라진 느낌이네요.\n\n각질 필링 제품들처럼 뭐가 벗겨지는게 \n느껴진 것도 아니라\n그냥 이 제품이 '각질을 녹여버리는 용액인가?'\n싶어서 놀랠 정도로 변화는 눈에 보입니다.\n\n발꿈치나 엄지발가락의 두터운 각질에는 변화가 없는데\n팔꿈치 옆이나 무릎 위처럼\n너무 두껍지는 않은 적당히 쌓인 각질에는\n효과를 보이는 것 같네요.\n\n그렇다고 다른 부위 피부들이 얇아진 건 아니니 각질을 막 녹이는 건 아닌거 같은데 좀 신기합니다.\n\n말이 길어졌는데 종합해보자면\n1) 광고 만화처럼 등드름이 갑자기 삭 사라질 정도로\n    딱딱한 피지 알갱이를 없애는 기능은 없다.\n2) 팔꿈치나 무릎 위처럼 마찰이 있는 부위의\n   적당히 앉은 각질은 녹여내는 기능이 있다.\n\n정도 겠네요.\n\n구입하실 분은 참조하세요.\n\n이 제품을 계속해서 구입해서 사용할지는\n한 두어달 더 사용해봐야 알 것 같습니다.\n\n번창하세요.",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "0": [
+          "만족도",
+          "효과",
+          "트러블개선"
+        ],
+        "1": [
+          "향기"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image1/139c8498cc6c4458.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image1/gallery_139c8498cc6c4458.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image1/portrait_139c8498cc6c4458.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image1/thumbnail_139c8498cc6c4458.webp",
+          "media_position": 1,
+          "orientation": 1
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image2/7bc79559b1c9ff32.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image2/gallery_7bc79559b1c9ff32.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image2/portrait_7bc79559b1c9ff32.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image2/thumbnail_7bc79559b1c9ff32.webp",
+          "media_position": 2,
+          "orientation": 1
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image3/cc246ec11f0f4674.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image3/gallery_cc246ec11f0f4674.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image3/portrait_cc246ec11f0f4674.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image3/thumbnail_cc246ec11f0f4674.webp",
+          "media_position": 3,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image4/58c9571f7836913e.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image4/gallery_58c9571f7836913e.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image4/portrait_58c9571f7836913e.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/06/26/85/image4/thumbnail_58c9571f7836913e.webp",
+          "media_position": 4,
+          "orientation": 2
+        }
+      ],
+      "product_options": [
+        {
+          "name": "상품 구성",
+          "value": "1+1 (2개) --- (63%할인)"
+        }
+      ],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    }
+  ],
+  "review_sort": 80,
+  "has_minimum_reviews": true,
+  "total_product_media_reviews_count": 2650,
+  "has_media": true
+}

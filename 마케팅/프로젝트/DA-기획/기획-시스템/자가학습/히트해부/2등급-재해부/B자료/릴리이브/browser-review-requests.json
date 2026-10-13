@@ -1,0 +1,270 @@
+[
+  {
+    "method": "GET",
+    "url": "https://lilyeve.kr/img/2026/mid-year-review/footer-to-promotion.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://lilyeve.kr/img/2026/mid-year-review/footer-to-prd.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/lilyeve.kr/api/v1/products/reviews_score?product_codes=235&mobile=0&callback=jQuery111300721625851872798_1791931172751&_=1791931172752"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/lilyeve.kr/product_reviews/photo_thumbnail?product_code=235&iframe_id=crema-product-reviews-1&widget_id=31&widget_style=photo_thumbnail&install_method=smart&locale=ko-KR&app=0&parent_url=https%3A%2F%2Flilyeve.kr%2Fproduct%2Fdetail.html%3Fproduct_no%3D235&secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&iframe=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/lilyeve.kr/product_reviews/board?product_code=235&iframe_id=crema-product-reviews-2&widget_id=32&widget_style=board&install_method=smart&locale=ko-KR&app=0&parent_url=https%3A%2F%2Flilyeve.kr%2Fproduct%2Fdetail.html%3Fproduct_no%3D235&secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&iframe=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/lilyeve.kr/product_reviews/list_v3?product_code=235&iframe_id=crema-product-reviews-3&widget_id=2&widget_style=list_v3&install_method=smart&locale=ko-KR&app=0&parent_url=https%3A%2F%2Flilyeve.kr%2Fproduct%2Fdetail.html%3Fproduct_no%3D235&secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&iframe=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/css/app.bca962f4.css"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/css/chunk-vendors.57871d8e.css"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/js/app.ffa71540.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/js/chunk-vendors.2b8dba4c.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/css/app.bca962f4.css"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/css/chunk-vendors.57871d8e.css"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/js/app.ffa71540.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/js/chunk-vendors.2b8dba4c.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/css/app.bca962f4.css"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/css/chunk-vendors.57871d8e.css"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/js/app.ffa71540.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/js/chunk-vendors.2b8dba4c.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/sessions?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/translations?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&locale=ko-KR"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/review_settings?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&mobile=0"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/widgets?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&id=32&widget_type=100&widget_style=board&parent_url=https:%2F%2Flilyeve.kr%2Fproduct%2Fdetail.html%3Fproduct_no%3D235&install_method=smart"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/categories/displayable_check?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&widget_id=32&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/review_writable_checks?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/reviews?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&fields=has_media,total_reviews_count,total_product_media_reviews_count,reviews.customer_properties,reviews.evaluation_properties&product_code=235&iframe_id=crema-product-reviews-2&widget_id=32&widget_style=board&locale=ko-KR&app=0&iframe=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/product_media_reviews?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&widget_id=32&per=12&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/sessions?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/translations?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&locale=ko-KR"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/review_settings?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&mobile=0"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/widgets?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&id=31&widget_type=100&widget_style=photo_thumbnail&parent_url=https:%2F%2Flilyeve.kr%2Fproduct%2Fdetail.html%3Fproduct_no%3D235&install_method=smart"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/sessions?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/translations?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&locale=ko-KR"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/review_settings?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&mobile=0"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/widgets?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&id=2&widget_type=100&widget_style=list_v3&parent_url=https:%2F%2Flilyeve.kr%2Fproduct%2Fdetail.html%3Fproduct_no%3D235&install_method=smart"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/categories/displayable_check?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&widget_id=31&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/review_writable_checks?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/reviews?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&fields=has_media,total_product_media_reviews_count,reviews.evaluation_properties,reviews.ai_summary,reviews.with_parent_reviews,reviews.customer_properties&product_code=235&iframe_id=crema-product-reviews-3&widget_id=2&widget_style=list_v3&locale=ko-KR&app=0&iframe=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/product_media_reviews?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&widget_id=2&per=12&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/categories/displayable_check?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&widget_id=2&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/product_score?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&widget_id=32&product_code=235&fields=scores_map"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/evaluation_type_statistics?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/review_option_types?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/review_tag_types?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/img/icons.c2f64a3b.svg"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/notice_summary?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/product_score?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&widget_id=2&product_code=235&fields=scores_map"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/evaluation_type_statistics?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/70/49/image1/gallery_e70877f6c71fc24d.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/70/49/image2/gallery_bef7d2171656ee6a.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/38/83/image1/gallery_5a3f81295058168b.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/38/83/image2/gallery_ed67be00988ef2be.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/98/29/image1/gallery_4bb9a1bc2f1b3d5a.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/72/87/image1/gallery_d5d74dfe1277d0ed.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/72/87/image2/gallery_96e00c6f8f710be1.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/36/98/image1/gallery_ca06ef57af9980e0.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/36/98/image2/gallery_2019871c7fb6a873.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/15/26/image1/gallery_c62a55112a612c07.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/15/26/image2/gallery_73df02059ab27556.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/33/82/image1/gallery_f934030bb35e5510.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/review_option_types?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/api/lilyeve.kr/reviews_summary?secure_device_token=V24be8d5f4a01158d0edb9800cd7c6fb1cc61e4102596915e986f7d571d6ee195d3d5b933770b4898c1a08e0f07ff2c847&product_code=235"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/img/icons.c2f64a3b.svg"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/img/icons.c2f64a3b.svg"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/v2/img/icons.c2f64a3b.svg"
+  },
+  {
+    "method": "GET",
+    "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/70/49/image1/thumbnail_e70877f6c71fc24d.webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/events?type=page&event=&brand_code=lilyeve.kr&location=https%3A%2F%2Flilyeve.kr%2Fprotected%2FloginSns.html%3F__popupPage%3DT&referrer=https%3A%2F%2Flilyeve.kr%2Fproduct%2Fdetail.html%3Fproduct_no%3D235&username=&device_type=pc&device_token=iBQnG0y6WbUESWkQCyWRNzg8BQpoMFTj&_=1791931175264"
+  },
+  {
+    "method": "GET",
+    "url": "https://review1.cre.ma/events?type=page&event=products-show&brand_code=lilyeve.kr&location=https%3A%2F%2Flilyeve.kr%2Fproduct%2Fdetail.html%3Fproduct_no%3D235&referrer=&product_code=235&username=&device_type=pc&device_token=iBQnG0y6WbUESWkQCyWRNzg8BQpoMFTj&_=1791931172753"
+  }
+]

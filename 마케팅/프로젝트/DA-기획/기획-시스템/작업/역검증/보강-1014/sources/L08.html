@@ -1,0 +1,2917 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+
+
+
+<head><script>(function(i, s, o, g, r) {
+    var a = s.createElement(o);
+    var m = s.getElementsByTagName(o)[0];
+    a.async = true;
+    a.src = g;
+    a.onload = function() {
+        if (i[r].init) {
+            i[r].init('https://js-error-tracer-api.cafe24.com', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5b3VydmV0LmNhZmUyNC5jb20iLCJhdWQiOiJqcy1lcnJvci10cmFjZXItYXBpLmNhZmUyNC5jb20iLCJtYWxsX2lkIjoieW91cnZldCIsInNob3Bfbm8iOjEsInBhdGhfcm9sZSI6IlBST0RVQ1RfREVUQUlMIiwibGFuZ3VhZ2VfY29kZSI6ImtvX0tSIiwiY291bnRyeV9jb2RlIjoiS1IiLCJpc195dHMiOmZhbHNlLCJpc19jb250YWluZXIiOmZhbHNlLCJ3b3Jrc3BhY2UiOiJwcm9kdWN0aW9uIn0.ixuoB-Sb02BWi-M1aEOsRWGKjAq0Elk3xCd8HCsJ4gQ', {"errors":{"path":"\/api\/v1\/store","collectWindowErrors":true,"preventDuplicateReports":true,"storageKeyPrefix":"EC_JET.PRODUCT_DETAIL","samplingEnabled":true,"samplingRate":0.5},"vitals":{"path":"\/api\/v1\/vitals","samplingEnabled":true,"samplingRate":0.3},"resources":{"path":"\/api\/v1\/resources","samplingEnabled":true,"samplingRate":0.5,"durationThreshold":3000}});
+        }
+    };
+    m.parentNode.insertBefore(a, m);
+}(window, document, 'script', '//assets.poxo.com/jet/jet.js', 'EC_JET'));</script>
+<script type="text/javascript">window.CAFE24 = window.CAFE24 || {};CAFE24.ROUTE = {"is_mobile":false,"is_need_route":false,"language_code":"ZZ","path":{"origin":"\/surl\/p\/12","result":"\/surl\/p\/12","prefix":""},"shop_no":0,"skin_code":"default","support_language_list":{"ar":"ar_EG","ar-EG":"ar_EG","de":"de_DE","de-DE":"de_DE","en":"en_US","en-IN":"en_IN","en-PH":"en_PH","en-US":"en_US","es":"es_ES","es-ES":"es_ES","hi":"hi_IN","hi-IN":"hi_IN","id":"id_ID","id-ID":"id_ID","it":"it_IT","it-IT":"it_IT","ja":"ja_JP","ja-JP":"ja_JP","ko":"ko_KR","ko-KR":"ko_KR","ms":"ms_MY","ms-MY":"ms_MY","pt":"pt_PT","pt-PT":"pt_PT","ru":"ru_RU","ru-RU":"ru_RU","th":"th_TH","th-TH":"th_TH","tr":"tr_TR","tr-TR":"tr_TR","vi":"vi_VN","vi-VN":"vi_VN","zh":"zh_CN","zh-CN":"zh_CN","zh-HK":"zh_HK","zh-MO":"zh_MO","zh-SG":"zh_SG","zh-TW":"zh_TW"}};</script><script type="text/javascript">if (typeof EC_ROUTE === "undefined") {
+    /**
+     * 프론트용 라우트 플러그인
+     * @type {{bInit: boolean, init: EC_ROUTE.init}}
+     * CAFE24.ROUTE 참조
+     */
+    var EC_ROUTE = {
+        EC_DOMAIN_PATH_INFO: 'EC_DOMAIN_PATH_INFO',
+        bInit: false,
+        aFromList: [],
+        aToList: [],
+        aCleanFilter: null,
+        init: function () {
+            if (this.bInit || typeof CAFE24.ROUTE === 'undefined') {
+                return;
+            }
+            this.bInit = true;
+            this.aCleanFilter = [
+                /^shop[1-9][0-9]*$/,
+                /^(m|p)$/,
+                new RegExp('^(' + Object.keys(CAFE24.ROUTE.support_language_list).join('|')  + ')$'),
+                /^skin-(base|skin[1-9][0-9]*|mobile[0-9]*)$/,
+            ];
+        },
+        isNeedRoute: function ()
+        {
+            return CAFE24.ROUTE.is_need_route;
+        },
+        /**
+         *
+         * @param iShopNo
+         * @param bMobile
+         * @param sFrontLanguage
+         * @param sSkinCode
+         * @returns {*|string}
+         */
+        getUrlDomain: function (iShopNo, bMobile, sFrontLanguage, sSkinCode)
+        {
+            var oRouteConfig = {};
+            if (typeof iShopNo == 'undefined') {
+                oRouteConfig.shop_no = CAFE24.SDE_SHOP_NUM;
+            } else {
+                oRouteConfig.shop_no = iShopNo;
+            }
+            if (typeof bMobile == 'undefined') {
+                oRouteConfig.is_mobile = false;
+            } else {
+                oRouteConfig.is_mobile = bMobile;
+            }
+            if (typeof sFrontLanguage == 'undefined') {
+                oRouteConfig.language_code = '';
+            }else {
+                oRouteConfig.language_code = sFrontLanguage; // 내부에서 로직으로 동작할땐 언어_지역 형태의 로케일 형태를 따른다.
+            }
+            if (typeof sSkinCode == 'undefined') {
+                oRouteConfig.skin_code = '';
+            }else {
+                oRouteConfig.skin_code = sSkinCode;
+            }
+
+            var sDomain = '';
+            if (oRouteConfig.shop_no != CAFE24.SDE_SHOP_NUM) {
+                // 접근된 다른 멀티샵 도메인 정보는 primary domain 를 조회해야함으로 ajax 를 통해 정보를 얻는다.
+                sDomain = this._getUrlDomainMultishop(oRouteConfig);
+            } else {
+                // 샵이 동일할 경우에는 접근된 domain 에 path 정보만 정리하여 반환함.
+                sDomain = this._getUrlDomain(oRouteConfig);
+            }
+            return sDomain;
+        },
+        _getUrlDomainMultishop: function (oRouteConfig)
+        {
+            var sDomain = '';
+            EC$.ajax({
+                type: 'GET',
+                url: '/exec/front/Shop/Domain',
+                data: {
+                    '_shop_no' : oRouteConfig.shop_no,
+                    'is_mobile' : oRouteConfig.is_mobile,
+                    'language_code' : oRouteConfig.language_code,
+                    'skin_code' : oRouteConfig.skin_code,
+                },
+                async: false,
+                dataType: 'json',
+                cache: true,
+                success: function(oResult) {
+                    switch (oResult.code) {
+                        case '0000' :
+                            sDomain = oResult.data;
+                            break;
+                        default :
+                            break;
+                    }
+                    return false;
+                }
+            });
+            return sDomain;
+        },
+        _getUrlDomain: function (oRouteConfig)
+        {
+            oRouteConfig.domain = this._getCreateHost(oRouteConfig);
+            return location.protocol + '//' + oRouteConfig.domain + this._getCreateUri(oRouteConfig);
+        },
+        _getCreateHost : function (oRouteConfig)
+        {
+            var sHost = location.host;
+            var aHost = sHost.split('.');
+            if (this.isBaseDomain(sHost)) {
+                if (aHost.length > 3) {
+                    aHost[0] = '';
+                }
+            } else if (oRouteConfig.is_mobile) {
+                if (this.isMobileDomain()) {
+                    oRouteConfig.is_mobile = false;
+                }
+            }
+            return aHost.filter(Boolean).join('.');
+        },
+        _getCreateUri: function (oRouteInfo)
+        {
+            var aUrl = [];
+            if (this.isBaseDomain() && oRouteInfo.shop_no > 1) {
+                aUrl.push('shop' + oRouteInfo.shop_no);
+            }
+            if (oRouteInfo.is_mobile) {
+                aUrl.push('m');
+            }
+            if (oRouteInfo.language_code != 'ZZ' && oRouteInfo.language_code != '') {
+                var iIndex = Object.values(CAFE24.ROUTE.support_language_list).indexOf(oRouteInfo.language_code);
+                if (iIndex !== -1) {
+                    aUrl.push(Object.keys(CAFE24.ROUTE.support_language_list)[iIndex]);
+                }
+            }
+            if (this.isBaseDomain() && oRouteInfo.skin_code != 'default' && oRouteInfo.skin_code != '') {
+                aUrl.push('skin-' + oRouteInfo.skin_code);
+            }
+            var sUrl= '/';
+            if (aUrl.length > 0) {
+                sUrl= '/' + aUrl.join('/');
+                sUrl = this.rtrim(sUrl, '/');
+            }
+            return sUrl;
+        },
+        /**
+         * en, en-US => en_US
+         */
+        convertValidLanguageCode: function (sUrlLanguageCode)
+        {
+            if (typeof CAFE24.ROUTE.support_language_list[sUrlLanguageCode] != 'undefined') {
+                return CAFE24.ROUTE.support_language_list[sUrlLanguageCode];
+            }
+            return false;
+        },
+        isMobileDomain: function (sHost)
+        {
+            if (typeof sHost == 'undefined') {
+                sHost = location.host;
+            }
+            var aMatched = sHost.match(/^(m|mobile|skin\-mobile|skin\-mobile[0-9]+[\-]{2}shop[0-9]+|skin\-mobile[0-9]+|mobile[\-]{2}shop[0-9]+)\./i);
+            return aMatched != null;
+        },
+        isBaseDomain: function (sHost)
+        {
+            if (typeof sHost == 'undefined') {
+                sHost = location.host;
+            }
+            return sHost.indexOf(CAFE24.GLOBAL_INFO.getRootDomain()) !== -1;
+        },
+        removePrefixUrl: function (sUrl)
+        {
+            if (this.isNeedRoute()) {
+                sUrl = sUrl.replace(this.getPrefixUrl('/'), '/'); // 자동으로  prefix 붙은 영역을 제거해준다.
+            }
+            return sUrl;
+        },
+        getPrefixUrl: function (sUrl)
+        {
+            if (this.isNeedRoute() === false) {
+                return sUrl;
+            }
+            if (sUrl.indexOf('/') !== 0) {
+                return sUrl;
+            }
+            if (sUrl.match(/^\/{2,}/) !== null) {
+                return sUrl;
+            }
+
+            var iCachedPosition = this.aFromList.indexOf(sUrl);
+            if (iCachedPosition > -1) {
+                return this.aToList[iCachedPosition];
+            }
+
+            var bTailSlash = (sCleanUrl !== '/' && sUrl.substr(-1) === '/');
+            var sCleanUrl = this.getCleanUrl(sUrl);
+            var aPrefixPart = CAFE24.ROUTE.path.prefix.split('/');
+            var aUrlPart = sCleanUrl.split('/');
+            var bMatched = true;
+            var sReturnUrl = sCleanUrl;
+            if (aUrlPart.length < aPrefixPart.length) {
+                bMatched = false;
+            } else {
+                for (var i = 0; i < aPrefixPart.length ; i++) {
+                    if (aPrefixPart[i] != aUrlPart[i]) {
+                        bMatched = false;
+                        break;
+                    }
+                }
+            }
+            if (bMatched === false) {
+                if (sCleanUrl == '/') {
+                    sReturnUrl = CAFE24.ROUTE.path.prefix;
+                } else {
+                    sReturnUrl = CAFE24.ROUTE.path.prefix +  sCleanUrl;
+                }
+                sReturnUrl = bTailSlash ? sReturnUrl : this.rtrim(sReturnUrl, '/')
+                this.aFromList.push(sUrl);
+                this.aToList.push(sReturnUrl);
+            }
+            return sReturnUrl;
+        },
+        /**
+         * document.location.pathname 이 필요할 경우 사용한다.
+         * @returns {*}
+         */
+        getPathName: function()
+        {
+            if (typeof CAFE24.ROUTE.path.result == 'undefined') {
+                return document.location.pathname;
+            }
+            return CAFE24.ROUTE.path.result;
+        },
+        rtrim: function (str, chr)
+        {
+            var rgxtrim = (!chr) ? new RegExp('\\s+$') : new RegExp(chr+'+$');
+            return str.replace(rgxtrim, '');
+        },
+        getShopNo: function ()
+        {
+            return CAFE24.ROUTE.shop_no;
+        },
+        getSkinCode: function ()
+        {
+            return CAFE24.ROUTE.skin_code;
+        },
+        getLanguageCode: function ()
+        {
+            return CAFE24.ROUTE.language_code;
+        },
+        getMobile: function ()
+        {
+            return CAFE24.ROUTE.is_mobile;
+        },
+        getIsMobile: function ()
+        {
+            return CAFE24.ROUTE.is_mobile || CAFE24.ROUTE.skin_code.match(/^mobile[0-9]*$/);
+        },
+        getCleanUrl: function (sUrl)
+        {
+            if (sUrl === '/') {
+                return sUrl;
+            }
+
+            var aUrl = sUrl.split('/');
+            aUrl.shift();
+
+            if (aUrl.length < 1) {
+                return sUrl;
+            }
+
+            // 현재 4 depth 까지 미리보기 기능이 구현되어있음
+            var iPos = 0;
+            var bFind = false;
+            for (var i = 0; i < aUrl.length ; i++) {
+                bFind = false;
+                for (var iSub = iPos, iSubCount = this.aCleanFilter.length; iSub < iSubCount ; iSub++) {
+                    if (aUrl[i].match(this.aCleanFilter[iSub]) !== null) {
+                        bFind = true;
+                        iPos = iSub + 1;
+                        aUrl.splice(i, 1);
+                        i--; // aUrl 을 삭제해 주었으니 검색 조건을 -1 제거하여 초기화 한다. 다음 for i++ 로 증감 조회됨.
+                        break;
+                    }
+                }
+                if (bFind === false) {
+                    break;
+                }
+            }
+            return '/' + aUrl.join('/');
+        },
+        getIsEasyUrl : function ()
+        {
+            return !window.location.pathname.match(/^[\w\/\-\.]+(php|html|htm)$/i);
+        }
+    };
+    EC_ROUTE.init();
+}
+</script>
+<meta name="path_role" content="PRODUCT_DETAIL" />
+<meta name="author" content="YourVet" />
+<meta name="description" content="YourVet | 강아지와 고양이를 위한 유어벳 펫 덴탈 스프레이. 쉽고 간편하게 입냄새 제거, 건강한 구강 관리의 시작을 함께하세요." />
+<meta name="keywords" content="펫 덴탈 케어, 강아지 입냄새, 고양이 구강 관리, 유어벳 추천, 간편 스프레이, 18차 리오더" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<!--카페24PRO 로케일 팝업 스크립트-->
+<script src="https://procomms.cafe24.com/web/upload/cafe24pro_locale_popup.js"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+    <!--설치 스크립트-->
+    <!--브이리뷰 스크립트 / 수정할 경우 연락 부탁드립니다 (dev@indentcorp.com)-->
+    <script src="https://script.vreview.tv/vreview.widget.js?vrid=fa041c31-33a7-437e-8cb8-40f60b95a2e6"></script>
+    <!-- PG크로스브라우징필수내용 -->
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <!-- // PG크로스브라우징필수내용 -->
+
+    <!-- 해당 CSS는 쇼핑몰 전체 페이지에 영향을 줍니다. 삭제와 수정에 주의해주세요. -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+	<!--Clothic Studio resourse-->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css"/>
+    
+    <!-- 먼저: 로컬 (폰트 경로가 빈 폴더라 깨짐) -->
+    
+    
+    
+    
+    
+    
+    
+        
+	
+    
+    
+    
+    
+    <!--Clothic Studio resourse-->
+    
+    <!-- 스마트디자인에서는 JQuery 1.4.4 버전이 내장되어있습니다. 추가로 호출하면 충돌이 생길 수 있습니다. -->
+    
+    
+    
+    <!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-31RSRRR9KP"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-31RSRRR9KP');
+	</script>
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+
+            <script type="text/javascript">
+            if(window.wcs) {
+                if(!wcs_add) var wcs_add = {};
+    
+                // (2) 각 사이트별 식별자 설정
+                wcs_add["wa"] = "s_1d4226f9fa67";
+    
+                // (3) 광고 전환추적을 위한 cookie domain설정
+    
+                if (window.wcs) {
+                    wcs.inflow("yourvet.kr");
+                }
+    
+                // 아래 Script는 개별 event 발생시 로그를 전송하기 위한 구역. 결제 완료 페이지이므로, PV event 와 결제완료 전환 event를 전송함
+     
+                
+    
+                // (5) 결제완료 전환 event 전송
+    
+                var _conv = {} // event 정보 담을 object 생성
+    
+                _conv.type = "view_product"  // object에 purchase event 세팅
+    
+                
+    
+                _conv.items = [       // 전환 event 행동의 내용 및 대상에 대한 정보 기술
+                    
+                {
+                    id: "12",                                                //string 상품 id (필수)
+                    name: "유어벳 펫 덴탈 스프레이 100ml, 강아지 고양이 입냄새 제거"       //string 상품 명 (필수)
+                    
+                }
+            
+                ];
+    
+                
+    
+                wcs.trans(_conv) // event 정보를 담은 object를 서버에 전송(위 item #1, #2 포함)
+            }
+            </script>
+        
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"유어벳 펫 덴탈 스프레이 100ml, 강아지 고양이 입냄새 제거","image":["https://yourvet.kr/web/product/big/202606/a3904dd22ae5685c6fe9565f61792575.png","https://yourvet.kr/web/product/extra/big/202401/07d86d9b42d8f52ea810d8074e6a8db5.png","https://yourvet.kr/web/product/extra/big/202311/142fb3c13360d7ef9bbc5452750ed156.png","https://yourvet.kr/web/product/extra/big/202311/c5dd3d5e16f528df5158b1baeabb2318.png"],"description":"@tag=반려동물 구강케어 베스트\r\n@feat=뿌리고 마시는 간편 케어|강아지·고양이 겸용|양치 스트레스 감소\r\n@chip=네이버쇼핑 1위|재구매율 1위|동물용의약외품","brand":{"@type":"Brand","name":"YourVet"},"sku":"cafe24_yourvet_1_12","offers":{"@type":"Offer","url":"https://yourvet.kr/product/유어벳-펫-덴탈-스프레이-100ml-강아지-고양이-입냄새-제거/12/","priceCurrency":"KRW","price":19400,"availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":4.6,"reviewCount":22848}}</script>
+<meta name="google-site-verification" content="Wd2Wc-2hBjjKvyUepXbU_yIw04Pgid4iuxCJJv4Vwac" />
+
+<!-- Dable 스크립트 시작 -->
+<script>
+(function(d,a,b,l,e,_) {
+d[b]=d[b]||function(){(d[b].q=d[b].q||[]).push(arguments)};e=a.createElement(l);
+e.async=1;e.charset='utf-8';e.src='//static.dable.io/dist/dablena.min.js';
+_=a.getElementsByTagName(l)[0];_.parentNode.insertBefore(e,_);
+})(window,document,'dablena','script');
+dablena('init', '001-011-460');
+dablena('track', 'PageView');
+</script>
+<!-- Dable 스크립트 종료 -->        
+<!-- Facebook Channel Site Verification -->
+<meta name="facebook-domain-verification" content="1usgq6n6j8a07fk82sryvcha4a1i6t" />
+<!-- Facebook Channel Site Verification -->
+
+
+<!-- Google Tag Manager 250707 MJ-->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M2LVX8K7');</script>
+<!-- End Google Tag Manager -->
+<link rel="canonical" href="https://yourvet.kr/product/유어벳-펫-덴탈-스프레이-100ml-강아지-고양이-입냄새-제거/12/" />
+<link rel="alternate" href="https://m.yourvet.kr/product/유어벳-펫-덴탈-스프레이-100ml-강아지-고양이-입냄새-제거/12/" />
+<meta property="og:url" content="https://yourvet.kr/product/유어벳-펫-덴탈-스프레이-100ml-강아지-고양이-입냄새-제거/12/" />
+<meta property="og:title" content="유어벳 펫 덴탈 스프레이 100ml, 강아지 고양이 입냄새 제거 - YourVet" />
+<meta property="og:description" content="@tag=반려동물 구강케어 베스트 @feat=뿌리고 마시는 간편 케어|강아지·고양이 겸용|양치 스트레스 감소 @chip=네이버쇼핑 1위|재구매율 1위|동물용의약외품" />
+<meta property="og:site_name" content="YourVet" />
+<meta property="og:type" content="product" />
+<meta property="og:image" content="https://yourvet.kr/web/product/big/202606/a3904dd22ae5685c6fe9565f61792575.png" />
+<meta property="product:price:amount" content="19400" />
+<meta property="product:price:currency" content="KRW" />
+<meta property="product:sale_price:amount" content="19400" />
+<meta property="product:sale_price:currency" content="KRW" />
+<meta property="product:productId" content="12" />
+<meta property="product:retailer_item_id" content="12" />
+<link rel="shortcut icon" href="/web/upload/favicon-a5597008ffb4035b4fbd69d08e0a13f1.ico" />
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">var CAFE24API = { instance: [], MALL_ID: 'yourvet', SHOP_NO: 1, basicAuthKeys: {}, setBasicAuthKey: function (clientId, basicAuthKey) { if (typeof basicAuthKey !== 'string') { return; } if (clientId) { CAFE24API.basicAuthKeys[clientId] = basicAuthKey; } else { CAFE24API.basicAuthKeys['default'] = basicAuthKey; } }, init: function (appInfo) { if (typeof appInfo == 'object') { if (appInfo.hasOwnProperty('client_id')) { var appKey = appInfo.client_id; } } else { var appKey = appInfo; } if (appKey) { if (!this.instance[appKey]) { CAFE24API.clientId = appKey; if (appInfo.hasOwnProperty('version')) { CAFE24API.version = appInfo.version; } else { if (CAFE24API.hasOwnProperty('version')) { delete CAFE24API.version; } } var copyObject = CAFE24API.constructor(); for (var attr in CAFE24API) { if (CAFE24API.hasOwnProperty(attr)) { copyObject[attr] = CAFE24API[attr]; } } this.instance[appKey] = copyObject; } return this.instance[appKey]; } }, initializeXhr: function () { try { return new XMLHttpRequest(); } catch (error) { return new window.ActiveXObject('Microsoft.XMLHTTP'); } }, fullPath: function (url) { return 'https://yourvet.cafe24api.com' + url; }, getLoginProvider: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, { 'login': CAPP_ASYNC_METHODS.AppCommon.getLoginProvider() }); }, getCustomerProvider: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, { 'login': CAPP_ASYNC_METHODS.AppCommon.getCustomerProvider() }); }, getMemberID: function (callback) { if (!CAPP_ASYNC_METHODS.IS_LOGIN) { callback(null); } else { callback(CAPP_ASYNC_METHODS.AppCommon.getMemberID()); } }, getEncryptedMemberId: function (client_id, callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, CAPP_ASYNC_METHODS.AppCommon.getEncryptedMemberId(client_id)); }, getMemberInfo: function (callback) { callback({ 'id': CAPP_ASYNC_METHODS.AppCommon.getMemberInfo() }); }, getCustomerIDInfo: function (callback) { if (!CAFE24API.__scopeErr(callback, 'application')) { return; } callback(null, { 'id': CAPP_ASYNC_METHODS.AppCommon.getCustomerIDInfo() }); }, getCustomerInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, { 'customer': CAPP_ASYNC_METHODS.AppCommon.getCustomerInfo() }); }, getDefaultShippingAddress: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, { 'shipping_address': CAPP_ASYNC_METHODS.AppCommon.getDefaultShippingAddress() }); }, getMileageInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, { 'mileage': CAPP_ASYNC_METHODS.AppCommon.getMileageInfo() }); }, getPointInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, { 'point': CAPP_ASYNC_METHODS.AppCommon.getPointInfo() }); }, getDepositInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, { 'deposit': CAPP_ASYNC_METHODS.AppCommon.getDepositInfo() }); }, getCreditInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, { 'credit': CAPP_ASYNC_METHODS.AppCommon.getCreditInfo() }); }, getCartList: function (callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.getCartList().then(function (data) { callback(null, { 'carts': data }); }); }, getCartInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'personal')) { return; } callback(null, { 'cart': CAPP_ASYNC_METHODS.AppCommon.getCartInfo() }); }, getCartItemList: function (callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } callback(null, { 'items': CAPP_ASYNC_METHODS.AppCommon.getCartItemList() }); }, getCartCount: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'personal')) { return; } callback(null, CAPP_ASYNC_METHODS.AppCommon.getCartCount()); }, getCouponCount: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'promotion')) { return; } callback(null, CAPP_ASYNC_METHODS.AppCommon.getCouponCount()); }, getWishCount: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'personal')) { return; } callback(null, CAPP_ASYNC_METHODS.AppCommon.getWishCount()); }, getShopInfo: function (callback) { if (!CAFE24API.__scopeErr(callback, 'store')) { return; } callback(null, { 'shop': CAPP_ASYNC_METHODS.AppCommon.getShopInfo() }); }, addCurrentProductToCart: function (mall_id, time, app_key, member_id, hmac, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.addCurrentProductToCart(mall_id, time, app_key, member_id, hmac).then(function (data) { callback(null, { 'cart': data }); }).catch(function (data) { if (data) { callback(new Error('422'), { 'error': { code: data.code, message: data.message } }); } else { callback(new Error('422'), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, precreateOrder: function (mall_id, time, app_key, member_id, hmac, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.precreateOrder(mall_id, time, app_key, member_id, hmac).then(function (data) { callback(null, { 'order': data }); }).catch(function (data) { if (data) { callback(new Error('422'), { 'error': { code: data.code, message: data.message } }); } else { callback(new Error('422'), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, calculatePayment: function (mall_id, request_time, app_key, member_id, request_data_json, hmac, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.calculatePayment(mall_id, request_time, app_key, member_id, request_data_json, hmac).then(function (data) { callback(null, { 'expected_payment': data }); }).catch(function (data) { if (data) { callback(new Error('422'), { 'error': { code: data.code, message: data.message } }); } else { callback(new Error('422'), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, precreateOrderV2: function (mall_id, time, app_key, member_id, request_data_json, hmac, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.precreateOrderV2(mall_id, time, app_key, member_id, request_data_json, hmac).then(function (data) { callback(null, { 'order': data }); }).catch(function (data) { if (data) { callback(new Error('422'), { 'error': { code: data.code, message: data.message } }); } else { callback(new Error('422'), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, getOrderItemList: function (start_date, end_date, order_status, page, count, order_id, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.getOrderItemList(start_date, end_date, order_status, page, count, order_id).then(function (data) { callback(null, { 'items': data }); }).catch(function (data) { if (data) { callback(new Error('422'), { 'error': { code: data.code, message: data.message } }); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, getOrderDetailInfo: function (shop_no, order_id, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.getOrderDetailInfo(shop_no, order_id).then(function (data) { callback(null, { 'orders': data }); }).catch(function (data) { if (data) { callback(new Error('422'), { 'error': { code: data.code, message: data.message } }); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, getClaimableItemList: function (order_id, customer_service_type, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.getClaimableItemList(order_id, customer_service_type).then(function (data) { callback(null, { 'items': data }); }).catch(function (data) { if (data) { callback(new Error('422'), { 'error': { code: data.code, message: data.message } }); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, emptyCart: function (basket_shipping_type, callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.emptyCart(basket_shipping_type).then(function (data) { callback(null, { 'result': data }); }).catch(function (data) { if (data) { callback(new Error('422'), { 'error': { code: data.code, message: data.message } }); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, deleteCartItems: function (basket_shipping_type, product_list, callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.deleteCartItems(basket_shipping_type, product_list).then(function (data) { callback(null, { 'result': data }); }).catch(function (data) { if (data) { callback(new Error('422'), { 'error': { code: data.code, message: data.message } }); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, addCart: function (basket_type, prepaid_shipping_fee, product_list, callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.addCart(basket_type, prepaid_shipping_fee, product_list).then(function (data) { callback(null, data); }).catch(function (data) { if (data) { callback(new Error('422'), { 'error': { code: data.code, message: data.message } }); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }) }, addBundleProductsCart: function (basket_type, prepaid_shipping_fee, product_list, callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.addBundleProductsCart(basket_type, prepaid_shipping_fee, product_list).then(function (data) { callback(null, data); }).catch(function (data) { if (data) { callback(new Error('422'), { 'error': { code: data.code, message: data.message } }); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }) }, get: function (url, callback) { return CAFE24API.complete('GET', url, this, null, callback); }, post: function (url, params, callback) { return CAFE24API.complete('POST', url, this, params, callback); }, put: function (url, params, callback) { return CAFE24API.complete('PUT', url, this, params, callback); }, delete: function (url, callback) { return CAFE24API.complete('DELETE', url, this, null, callback); }, complete: function (method, url, obj, params, callback) { var xhr = CAFE24API.sendXhr(method, url, obj, params, callback); xhr.onreadystatechange = function () { if (xhr.readyState === XMLHttpRequest.DONE) { if (xhr.status >= 200 && xhr.status <= 208) { callback(null, JSON.parse(xhr.responseText)); } else { callback(new Error(xhr.status), JSON.parse(xhr.responseText)); } } }; }, sendXhr: function (method, url, obj, params, callback) { if (method !== 'POST') { var url = obj.fullPath(url); } var xhr = obj.initializeXhr(); var queryVars = {}; if (obj.clientId) queryVars['cafe24_app_key'] = obj.clientId; if (obj.version) queryVars['cafe24_api_version'] = obj.version; var basicAuthKey = CAFE24API.basicAuthKeys[obj.clientId] || CAFE24API.basicAuthKeys['default']; if (basicAuthKey && basicAuthKey.length > 0) { queryVars['authorization'] = 'Basic ' + basicAuthKey; } if (params === null) { var seperator = url.indexOf('?') == -1 ? '?' : '&'; var queryString = []; for (var key in queryVars) { queryString.push(key + '=' + encodeURIComponent(queryVars[key])); } if (queryString.length > 0) { url = url + seperator + queryString.join('&'); } } xhr.open(method, url, true); if (typeof params == 'object' && params !== null) { xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=utf-8'); for (var key in queryVars) { params[key] = queryVars[key]; } params = 'formData=' + JSON.stringify(params); } xhr.send(params || null); return xhr; }, __sessionErr: function (callback) { callback(new Error(403), { 'error': { code: 403, message: 'Failed to get session. Only available when log in.' } }); }, __scopeErr: function (callback, scope) { if (typeof CAFE24.APPSCRIPT_SDK_DATA != "undefined" && jQuery.inArray(scope, CAFE24.APPSCRIPT_SDK_DATA) > -1) { return true; } callback(new Error(403), { 'error': { code: 403, message: 'You do not have the necessary authority(scope) to use the SDK.' } }); }, __chkValidSessionScope: function (callback, scope) { if (!CAPP_ASYNC_METHODS.IS_LOGIN) { CAFE24API.__sessionErr(callback); return false; } if (!CAFE24API.__scopeErr(callback, scope)) { return false; } return true; } }; </script>
+<script type="text/javascript">
+window.CAFE24 = window.CAFE24 || {};
+CAFE24.MANIFEST_CACHE_REVISION = '2610131513';
+CAFE24.getDeprecatedNamespace = function(sDeprecatedNamespace, sSupersededNamespace) {
+var sNamespace = sSupersededNamespace 
+? sSupersededNamespace 
+: sDeprecatedNamespace.replace(/^EC_/, '');
+return CAFE24[sNamespace];
+}
+CAFE24.FRONT_LANGUAGE_CODE = "ko_KR";
+CAFE24.MOBILE = false;
+CAFE24.MOBILE_DEVICE = false;
+CAFE24.MOBILE_USE = true;
+var EC_MOBILE = CAFE24.MOBILE;
+var EC_MOBILE_DEVICE = CAFE24.MOBILE_DEVICE;
+var EC_MOBILE_USE = CAFE24.MOBILE_USE;
+CAFE24.SKIN_CODE = "skin1";
+CAFE24.FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA = {"common_member_id_crypt":""};
+var EC_FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA = CAFE24.getDeprecatedNamespace('EC_FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA');
+CAFE24.SDE_SHOP_NUM = 1;CAFE24.SHOP = {getLanguage : function() { return "ko_KR"; },getSkinLanguageCode : function() { return "ko_KR"; },getCurrency : function() { return "KRW"; },getFlagCode : function() { return "KR"; },getTimezone: function() { return "Asia/Seoul" },getDateFormat: function() { return "Y-m-d" },isMultiShop : function() { return true; },isDefaultShop : function() { return true; },isDefaultLanguageShop : function(sLanguageCode) { return SHOP.isDefaultShop() && SHOP.isLanguageShop(sLanguageCode); },isKR : function() { return true; },isUS : function() { return false; },isJP : function() { return false; },isCN : function() { return false; },isTW : function() { return false; },isES : function() { return false; },isPT : function() { return false; },isVN : function() { return false; },isPH : function() { return false; },getCountryAndLangMap : function() { return {
+"KR": "ko_KR",
+"US": "en_US",
+"JP": "ja_JP",
+"CN": "zh_CN",
+"TW": "zh_TW",
+"VN": "vi_VN",
+"PH": "en_PH"
+}},isLanguageShop : function(sLanguageCode) { return sLanguageCode === "ko_KR"; },getDefaultShopNo : function() { return 1; },getProductVer : function() { return 2; },isSDE : function() { return true; },isMode : function() {return false; },getModeName : function() {return false; },isMobileAdmin : function() {return false; },isNewProMode : function() {return true; },isExperienceMall : function() { return false; },isDcollection : function() {return false; },isYoutubeShops : function() {return false; },getYtShopsShopNo : function() {return 0; },isFrontDesignChangeRequired : function() {return false;},isG2G : function() {return false; },isGlobale : function() {return false; },getAdminID : function() {return ''},getMallID : function() {return 'yourvet'},getCurrencyFormat : function(sPriceTxt, bIsNumberFormat) { 
+sPriceTxt = String(sPriceTxt);
+var aCurrencySymbol = ["","\uc6d0",false];
+if (typeof CAFE24.SHOP_PRICE !== 'undefined' && isNaN(sPriceTxt.replace(/[,]/gi, '')) === false && bIsNumberFormat === true) {
+// bIsNumberFormat 사용하려면 Ui(':libUipackCurrency')->plugin('Currency') 화폐 라이브러리 추가 필요
+sPriceTxt = CAFE24.SHOP_PRICE.toShopPrice(sPriceTxt.replace(/[,]/gi, ''), true, CAFE24.SDE_SHOP_NUM);
+}
+try {
+var sPlusMinusSign = (sPriceTxt.toString()).substr(0, 1);
+if (sPlusMinusSign === '-' || sPlusMinusSign === '+') {
+sPriceTxt = (sPriceTxt.toString()).substr(1);
+return sPlusMinusSign + aCurrencySymbol[0] + sPriceTxt + aCurrencySymbol[1];
+} else {
+return aCurrencySymbol[0] + sPriceTxt + aCurrencySymbol[1];
+}
+} catch (e) {
+return aCurrencySymbol[0] + sPriceTxt + aCurrencySymbol[1];
+}
+}};CAFE24.CURRENCY_INFO = {getOriginReferenceCurrency : function() {return 'USD'},getCurrencyList : function(sCurrencyCode) { var aCurrencyList = {"AED":{"currency_symbol":"&#1601;&#1604;&#1587;","decimal_place":2,"round_method_type":"R"},"AMD":{"currency_symbol":"\u058f","decimal_place":2,"round_method_type":"R"},"AOA":{"currency_symbol":"Kz","decimal_place":2,"round_method_type":"R"},"AUD":{"currency_symbol":"A$","decimal_place":2,"round_method_type":"R"},"BDT":{"currency_symbol":"&#2547;","decimal_place":2,"round_method_type":"R"},"BHD":{"currency_symbol":".&#1583;.&#1576;","decimal_place":3,"round_method_type":"R"},"BRL":{"currency_symbol":"R$","decimal_place":2,"round_method_type":"R"},"CAD":{"currency_symbol":"C$","decimal_place":2,"round_method_type":"R"},"CHF":{"currency_symbol":"Fr","decimal_place":2,"round_method_type":"R"},"CNY":{"currency_symbol":"&yen;","decimal_place":2,"round_method_type":"R"},"CRC":{"currency_symbol":"\u20a1","decimal_place":2,"round_method_type":"R"},"CVE":{"currency_symbol":"$","decimal_place":2,"round_method_type":"R"},"CZK":{"currency_symbol":"K&#269;","decimal_place":2,"round_method_type":"R"},"DJF":{"currency_symbol":"Fdj","decimal_place":0,"round_method_type":"F"},"DKK":{"currency_symbol":"kr","decimal_place":2,"round_method_type":"R"},"DZD":{"currency_symbol":"\u062f.\u062c","decimal_place":2,"round_method_type":"R"},"ETB":{"currency_symbol":"Br","decimal_place":2,"round_method_type":"R"},"EUR":{"currency_symbol":"\u20ac","decimal_place":2,"round_method_type":"R"},"GBP":{"currency_symbol":"&pound;","decimal_place":2,"round_method_type":"R"},"GEL":{"currency_symbol":"\u20be","decimal_place":2,"round_method_type":"R"},"GHS":{"currency_symbol":"GH\u20b5","decimal_place":2,"round_method_type":"R"},"GMD":{"currency_symbol":"D","decimal_place":2,"round_method_type":"R"},"GNF":{"currency_symbol":"FG","decimal_place":0,"round_method_type":"F"},"HKD":{"currency_symbol":"HK$","decimal_place":2,"round_method_type":"R"},"HUF":{"currency_symbol":"Ft","decimal_place":2,"round_method_type":"R"},"IDR":{"currency_symbol":"Rp","decimal_place":0,"round_method_type":"F"},"ILS":{"currency_symbol":"&#8362;","decimal_place":2,"round_method_type":"R"},"INR":{"currency_symbol":"&#8377;","decimal_place":2,"round_method_type":"R"},"JOD":{"currency_symbol":" &#1583;&#1610;&#1606;&#1575;&#1585;","decimal_place":3,"round_method_type":"R"},"JPY":{"currency_symbol":"&yen;","decimal_place":0,"round_method_type":"F"},"KES":{"currency_symbol":"KSh","decimal_place":2,"round_method_type":"R"},"KMF":{"currency_symbol":"CF","decimal_place":0,"round_method_type":"F"},"KWD":{"currency_symbol":"&#1583;&#1610;&#1606;&#1575;&#1585;","decimal_place":3,"round_method_type":"R"},"MAD":{"currency_symbol":"\u062f.\u0645.","decimal_place":2,"round_method_type":"R"},"MDL":{"currency_symbol":"L","decimal_place":2,"round_method_type":"R"},"MOP":{"currency_symbol":"MOP$","decimal_place":2,"round_method_type":"R"},"MVR":{"currency_symbol":"Rf","decimal_place":2,"round_method_type":"R"},"MWK":{"currency_symbol":"MK","decimal_place":2,"round_method_type":"R"},"MXN":{"currency_symbol":"Mex$","decimal_place":2,"round_method_type":"R"},"MYR":{"currency_symbol":"RM","decimal_place":2,"round_method_type":"R"},"NOK":{"currency_symbol":"kr","decimal_place":2,"round_method_type":"R"},"NZD":{"currency_symbol":"NZ$","decimal_place":2,"round_method_type":"R"},"PGK":{"currency_symbol":"K","decimal_place":2,"round_method_type":"R"},"PHP":{"currency_symbol":"&#8369;","decimal_place":2,"round_method_type":"R"},"PKR":{"currency_symbol":"&#8360;","decimal_place":2,"round_method_type":"R"},"PLN":{"currency_symbol":"z\u0142","decimal_place":2,"round_method_type":"R"},"RUB":{"currency_symbol":"\u0440\u0443\u0431","decimal_place":2,"round_method_type":"R"},"RWF":{"currency_symbol":"RF","decimal_place":0,"round_method_type":"F"},"SAR":{"currency_symbol":"&#65020;","decimal_place":2,"round_method_type":"R"},"SEK":{"currency_symbol":"kr","decimal_place":2,"round_method_type":"R"},"SGD":{"currency_symbol":"S$","decimal_place":2,"round_method_type":"R"},"SLL":{"currency_symbol":"Le","decimal_place":2,"round_method_type":"R"},"STN":{"currency_symbol":"Db","decimal_place":2,"round_method_type":"R"},"THB":{"currency_symbol":"&#3647;","decimal_place":2,"round_method_type":"R"},"TND":{"currency_symbol":"\u062f.\u062a","decimal_place":3,"round_method_type":"R"},"TOP":{"currency_symbol":"T$","decimal_place":2,"round_method_type":"R"},"TRY":{"currency_symbol":"TL","decimal_place":2,"round_method_type":"R"},"TWD":{"currency_symbol":"NT$","decimal_place":0,"round_method_type":"F"},"TZS":{"currency_symbol":"TSh","decimal_place":2,"round_method_type":"R"},"UGX":{"currency_symbol":"USh","decimal_place":0,"round_method_type":"F"},"USD":{"currency_symbol":"$","decimal_place":2,"round_method_type":"R"},"VND":{"currency_symbol":"&#8363;","decimal_place":0,"round_method_type":"F"},"VUV":{"currency_symbol":"VT","decimal_place":0,"round_method_type":"F"},"WST":{"currency_symbol":"WS$","decimal_place":2,"round_method_type":"R"},"XAF":{"currency_symbol":"FCFA","decimal_place":0,"round_method_type":"F"},"XOF":{"currency_symbol":"CFA","decimal_place":0,"round_method_type":"F"},"XPF":{"currency_symbol":"\u20a3","decimal_place":0,"round_method_type":"F"},"ZAR":{"currency_symbol":"R","decimal_place":2,"round_method_type":"R"},"ZMW":{"currency_symbol":"ZK","decimal_place":2,"round_method_type":"R"}}; return aCurrencyList[sCurrencyCode] },isUseReferenceCurrency : function() {return false }};CAFE24.COMMON_UTIL = {convertSslForString : function(sString) { return sString.replace(/http:/gi, '');},convertSslForHtml : function(sHtml) { return sHtml.replace(/((?:src|href)\s*=\s*['"])http:(\/\/(?:[a-z0-9\-_\.]+)\/)/ig, '$1$2');},getProtocol : function() { return 'https'; },moveSsl : function() { if (CAFE24.COMMON_UTIL.getProtocol() === 'http') { var oLocation = jQuery(window.location); var sUrl = 'https://' + oLocation.attr('host') + oLocation.attr('pathname') + oLocation.attr('search'); window.location.replace(sUrl); } },setEcCookie : function(sKey, sValue, iExpire) {var exdate = new Date();exdate.setDate(exdate.getDate() + iExpire);var setValue = escape(sValue) + "; domain=." + CAFE24.GLOBAL_INFO.getBaseDomain() + "; path=/;expires=" + exdate.toUTCString();document.cookie = sKey + "=" + setValue;}};CAFE24.SHOP_LIB_INFO = {getBankInfo : function() { 
+var oBankInfo = "";
+$.ajax({
+type: "GET",
+url: "/exec/front/Shop/Bankinfo",
+dataType: "json",
+async: false,
+success: function(oResponse) {
+oBankInfo = oResponse;
+}
+});
+return oBankInfo; }};            var EC_SDE_SHOP_NUM = CAFE24.SDE_SHOP_NUM;
+var SHOP = CAFE24.getDeprecatedNamespace('SHOP');
+var EC_COMMON_UTIL = CAFE24.getDeprecatedNamespace('EC_COMMON_UTIL');
+var EC_SHOP_LIB_INFO = CAFE24.getDeprecatedNamespace('EC_SHOP_LIB_INFO');
+var EC_CURRENCY_INFO = CAFE24.getDeprecatedNamespace('EC_CURRENCY_INFO');
+CAFE24.ROOT_DOMAIN = "cafe24.com";
+CAFE24.API_DOMAIN = "cafe24api.com";
+CAFE24.GLOBAL_INFO = (function() {
+var oData = {"base_domain":"yourvet.cafe24.com","root_domain":"cafe24.com","api_domain":"cafe24api.com","is_global":false,"is_global_standard":false,"country_code":"KR","language_code":"ko_KR","admin_language_code":"ko_KR","front_language_code":"ko_KR"};
+return {
+getBaseDomain: function() {
+return oData['base_domain'];
+},
+getRootDomain: function() {
+return oData['root_domain'];
+},
+getApiDomain: function() {
+return oData['api_domain'];
+},
+isGlobal: function() {
+return oData['is_global'];
+},
+isGlobalStandard: function() {
+return oData['is_global_standard'];
+},
+getCountryCode: function() {
+return oData['country_code'];
+},
+getLanguageCode: function() {
+return oData['language_code'];
+},
+getAdminLanguageCode: function() {
+return oData['admin_language_code'];
+},
+getFrontLanguageCode: function() {
+return oData['front_language_code'];
+}
+};
+})();
+var EC_ROOT_DOMAIN = CAFE24.ROOT_DOMAIN;
+var EC_API_DOMAIN = CAFE24.API_DOMAIN;
+var EC_TRANSLATE_LOG_STATUS = CAFE24.TRANSLATE_LOG_STATUS;
+var EC_GLOBAL_INFO = CAFE24.getDeprecatedNamespace('EC_GLOBAL_INFO');
+CAFE24.AVAILABLE_LANGUAGE = ["ko_KR","zh_CN","en_US","zh_TW","es_ES","pt_PT","vi_VN","ja_JP","en_PH"];
+CAFE24.AVAILABLE_LANGUAGE_CODES = {"ko_KR":"KOR","zh_CN":"CHN","en_US":"ENG","zh_TW":"TWN","es_ES":"ESP","pt_PT":"PRT","vi_VN":"VNM","ja_JP":"JPN","en_PH":"PHL"};
+var EC_AVAILABLE_LANGUAGE = CAFE24.AVAILABLE_LANGUAGE;
+var EC_AVAILABLE_LANGUAGE_CODES = CAFE24.AVAILABLE_LANGUAGE_CODES;
+CAFE24.GLOBAL_PRODUCT_LANGUAGE_CODES = {  
+sClearanceCategoryCode: '',
+sManualLink: '//support.cafe24.com/hc/ko/articles/7739013909529',
+sHsCodePopupLink: 'https://www.wcotradetools.org/en/harmonized-system',
+aCustomRegex: '"PHL" : "^[0-9]{8}[A-Z]?$"',
+sCountryCodeData: 'kor',
+sEnglishExampleURlForGlobal: '',
+aReverseAddressCountryCode: ["VNM","PHL"],
+aSizeGuideCountryAlign: '["US","UK","EU","KR","JP","CN"]',
+aIsSupportTran: ["ja_JP","zh_CN","zh_TW","en_US","vi_VN","en_PH","pt_PT","es_ES"]
+};
+var EC_GLOBAL_PRODUCT_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_PRODUCT_LANGUAGE_CODES');
+CAFE24.GLOBAL_ORDER_LANGUAGE_CODES = {
+aModifyOrderLanguage: {"KR":"ko_KR","JP":"ja_JP","CN":"zh_CN","TW":"zh_TW","VN":"vi_VN","PH":"en_PH"},
+aUseIdCardKeyCountry: ["CN","TW"],
+aLanguageWithCountryCode: {"zh_CN":["CN","CHN","HK","HNK"],"ja_JP":["JP","JPN"],"zh_TW":["TW","TWN"],"ko_KR":["KR","KOR"],"vi_VN":["VN","VNM"],"en_PH":["PH","PHL"]},
+aCheckDisplayRequiredIcon: ["ja_JP","zh_CN","zh_TW","en_US","vi_VN","en_PH"],
+aSetReceiverName: {"zh_CN":{"sCountry":"CN","bUseLastName":true},"zh_TW":{"sCountry":"TW","bUseLastName":false},"ja_JP":{"sCountry":"JP","bUseLastName":true}},
+aSetDeferPaymethodLanguage: {"ja_JP":"\uc77c\ubcf8","zh_CN":"\uc911\uad6d"},
+aUseDeferPaymethod: ["ja_JP","zh_CN"],
+aCheckShippingCompanyAndPaymethod: ["ja_JP","zh_CN"],
+aSetDeferPaymethodLanguageForShipping: {"ja_JP":"\u65e5\u672c","zh_CN":"\uc911\uad6d"},
+aCheckStoreByPaymethod: ["ja_JP","zh_CN"],
+aCheckIsEmailRequiredForJs: ["en_US","zh_CN","zh_TW","ja_JP","vi_VN","en_PH"],
+aSetIdCardKeyCountryLanguage: {"CN":"\uc911\uad6d\uc758","TW":"\ub300\ub9cc\uc758"},
+aReverseGlobalAddress: ["en_PH","vi_VN","PHL","VNM","VN","PH"],
+aNoCheckZipCode: ["KOR","JPN"],
+aNotPostCodeAPICountryList: ["en_US","es_ES","pt_PT","en_PH"],
+aEnableSearchExchangeAddr: ["KR","JP","CN","VN","TW","PH"],
+aDuplicatedBaseAddr: ["TW","JP"],
+aReverseAddressCountryCode: ["VN","PH"],
+aCheckZipCode: ["PHL","en_PH","PH"]
+};
+var EC_GLOBAL_ORDER_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_ORDER_LANGUAGE_CODES');
+CAFE24.GLOBAL_MEMBER_LANGUAGE_CODES = {  
+sAdminWebEditorLanguageCode: 'ko' ,
+oNotAvailDecimalPointLanguages: ["ko_KR","ja_JP","zh_TW","vi_VN"],
+oAddressCountryCode: {"KOR":"ko_KR","JPN":"ja_JP","CHN":"zh_CN","TWN":"zh_TW","VNM":"vi_VN","PHL":"en_PH"},
+};
+var EC_GLOBAL_MEMBER_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_MEMBER_LANGUAGE_CODES');
+CAFE24.GLOBAL_BOARD_LANGUAGE_CODES = {  
+bUseLegacyBoard: true
+};
+var EC_GLOBAL_BOARD_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_BOARD_LANGUAGE_CODES');
+CAFE24.GLOBAL_MALL_LANGUAGE_CODES = {
+oDesign: {
+oDesignAddReplaceInfo: {"group_id":"SKIN.ADD.ADMIN.DESIGNDETAIL","replacement":{"KR":"KOREAN","US":"ENGLISH","JP":"JAPANESE","CN":"SIMPLIFIED.CHINESE","TW":"TRADITIONAL.CHINESE","ES":"SPANISH","PT":"PORTUGUESE","PH":"ENGLISH"}},
+oDesignDetailLanguageCountryMap: {"KR":"ko_KR","JP":"ja_JP","CN":"zh_CN","TW":"zh_TW","US":"en_US","ES":"es_ES","PT":"pt_PT","PH":"en_PH"},
+oSmartDesignSwitchTipLink: {"edibot":{"img":"\/\/img.echosting.cafe24.com\/smartAdmin\/img\/design\/img_editor_dnd.png","link":"\/\/ecsupport.cafe24.com\/board\/free\/list.html?board_act=list&board_no=12&category_no=9&cate_no=9"},"smart":{"img":"\/\/img.echosting.cafe24.com\/smartAdmin\/img\/design\/ko_KR\/img_editor_smart.png","link":"\/\/sdsupport.cafe24.com"}},
+oSmartDesignDecoShopList: ["ko_KR","ja_JP","zh_CN","en_US","zh_TW","es_ES","pt_PT"],
+oSmartDesignDecoMultilingual: {"list":{"ko_KR":"KOREAN","en_US":"ENGLISH","ja_JP":"JAPANESE","zh_CN":"SIMPLIFIED.CHINESE","zh_TW":"TRADITIONAL.CHINESE","es_ES":"SPANISH","pt_PT":"PORTUGUESE","vi_VN":"VIETNAMESE"},"group_id":"EDITOR.LAYER.EDITING.DECO"},
+aSmartDesignModuleShopList: ["ko_KR","ja_JP","zh_CN","en_US","zh_TW","es_ES","pt_PT"]
+},
+oStore: {
+oMultiShopCurrencyInfo: {"en_US":{"currency":"USD"},"zh_CN":{"currency":"USD","sub_currency":"CNY"},"ja_JP":{"currency":"JPY"},"zh_TW":{"currency":"TWD"},"es_ES":{"currency":"EUR"},"pt_PT":{"currency":"EUR"},"ko_KR":{"currency":"KRW"},"vi_VN":{"currency":"VND"},"en_PH":{"currency":"PHP"}},
+oBrowserRedirectLanguage: {"ko":{"primary":"ko_KR","secondary":"en_US"},"en":{"detail":{"en-ph":{"primary":"en_PH","secondary":"en_US"},"en-us":{"primary":"en_US","secondary":"es_ES"},"default":{"primary":"en_US","secondary":"es_ES"}}},"ja":{"primary":"ja_JP","secondary":"en_US"},"zh":{"detail":{"zh-cn":{"primary":"zh_CN","secondary":"en_US"},"zh-tw":{"primary":"zh_TW","secondary":"zh_CN"},"default":{"primary":"en_US","secondary":"ko_KR"}}},"es":{"primary":"es_ES","secondary":"en_US"},"pt":{"primary":"pt_PT","secondary":"en_US"},"vi":{"primary":"vi_VN","secondary":"en_US"},"default":{"primary":"en_US","secondary":"ko_KR"}},
+aChangeableLanguages: ["en_US","ja_JP","ko_KR"],
+aNoZipCodeLanguage: ["ko_KR","ja_JP"]
+},
+oMobile: {
+sSmartWebAppFaqUrl: "https://support.cafe24.com/hc/ko/articles/8466586607641",
+sAmpFaqUrl: "https://ecsupport.cafe24.com/board/free/read.html?no=1864&board_no=5&category_no=13&cate_no=13&category_no=13&category_no=13",
+},
+oPromotion: {
+bQrCodeAvailable: true,
+bSnsMarketingAvailable: true
+},
+oShippingReverseAddressLanguage: ["vi_VN","en_PH"] ,
+oGlobalStandardSwitchHelpCodeLink: {"SH.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/SH.DS.html"},"PR.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/PR.DS.html"},"OR.SM.BO":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/OR.SM.BO.html"},"DE.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/DE.DS.html"},"MB.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/MB.DS.html"},"PM.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/PM.DS.html"}},
+getAdminMainLocaleLanguage: function(sSkinLocaleCode) {
+var oLocaleData = [];
+var locale = "";
+var shopLangName = "";
+if (sSkinLocaleCode == "US") {
+locale = "en_US";
+shopLangName = "ENGLISH";
+} else if (sSkinLocaleCode == "JP") {
+locale = "ja_JP";
+shopLangName = "JAPANESE";
+} else if (sSkinLocaleCode == "CN") {
+locale = "zh_CN";
+shopLangName = "SIMPLIFIED.CHINESE";
+} else if (sSkinLocaleCode == "TW") {
+locale = "zh_TW";
+shopLangName = "TRADITIONAL.CHINESE";
+} else if (sSkinLocaleCode == "ES") {
+locale = "es_ES";
+shopLangName = "SPANISH";
+} else if (sSkinLocaleCode == "PT") {
+locale = "pt_PT";
+shopLangName = "PORTUGUESE";
+} else if (sSkinLocaleCode == "VN") {
+locale = "vi_VN";
+shopLangName = "VIETNAMESE";
+} else if(sSkinLocaleCode == "PH") {
+locale = "en_PH";
+shopLangName = "ENGLISH.PH";
+}
+oLocaleData["locale"] = locale;
+oLocaleData["shopLangName"] = shopLangName;
+return oLocaleData;
+}
+};
+var EC_GLOBAL_MALL_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_MALL_LANGUAGE_CODES');
+CAFE24.GLOBAL_DATETIME_INFO = {
+oConstants: {"STANDARD_DATE_REGEX":"\/([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))\/","IN_ZONE":"inZone","OUT_ZONE":"outZone","IN_FORMAT":"inFormat","OUT_FORMAT":"outFormat","IN_DATE_FORMAT":"inDateFormat","IN_TIME_FORMAT":"inTimeFormat","OUT_DATE_FORMAT":"outDateFormat","OUT_TIME_FORMAT":"outTimeFormat","IN_FORMAT_DATE_ONLY":1,"IN_FORMAT_TIME_ONLY":2,"IN_FORMAT_ALL":3,"OUT_FORMAT_DATE_ONLY":1,"OUT_FORMAT_TIME_ONLY":2,"OUT_FORMAT_ALL":3,"DATE_ONLY":"YYYY-MM-DD","TIME_ONLY":"HH:mm:ss","FULL_TIME":"YYYY-MM-DD HH:mm:ss","ISO_8601":"YYYY-MM-DD[T]HH:mm:ssZ","YEAR_ONLY":"YYYY","MONTH_ONLY":"MM","DAY_ONLY":"DD","WEEK_ONLY":"e","TIME_H_I_ONLY":"HH:mm","TIME_HOUR_ONLY":"HH","TIME_MINUTE_ONLY":"mm","POSTGRE_FULL_TIME":"YYYY-MM-DD HH24:MI:SS","POSTGRE_TIME_ONLY":" HH24:MI:SS","MICRO_SECOND_ONLY":"u","SEOUL":"Asia\/Seoul","TOKYO":"Asia\/Tokyo","SHANGHAI":"Asia\/Shanghai","TAIPEI":"Asia\/Taipei","HANOI":"Asia\/Bangkok","LOS_ANGELES":"America\/Los_Angeles","LISBON":"Europe\/Lisbon","MADRID":"Europe\/Madrid","SINGAPORE":"Asia\/Singapore","UTC":"Etc\/UTC","MAX_DATETIME":"9999-12-31 23:59:59"},
+oOptions: {"inZone":"Asia\/Seoul","inFormat":"YYYY-MM-DD HH:mm:ss","inDateFormat":"YYYY-MM-DD","inTimeFormat":"HH:mm:ss","outZone":"Asia\/Seoul","outFormat":"YYYY-MM-DD HH:mm:ss","outDateFormat":"YYYY-MM-DD","outTimeFormat":"HH:mm:ss"},
+oPolicies: {"shop":{"outZone":"Asia\/Seoul","outFormat":"YYYY-MM-DD HH:mm:ss","outDateFormat":"YYYY-MM-DD","outTimeFormat":"HH:mm:ss"}},
+sOverrideTimezone: '',
+sMomentNamespace: 'EC_GLOBAL_MOMENT'
+};
+CAFE24.FRONT_JS_CONFIG_MANAGE = {"sSmartBannerScriptUrl":"https:\/\/app4you.cafe24.com\/SmartBanner\/tunnel\/scriptTags?vs=1563164396689206","sMallId":"yourvet","sDefaultAppDomain":"https:\/\/app4you.cafe24.com"};
+var EC_FRONT_JS_CONFIG_MANAGE = CAFE24.getDeprecatedNamespace('EC_FRONT_JS_CONFIG_MANAGE');
+CAFE24.FRONT_JS_CONFIG_SHOP = {"search_period":[],"calendar_config":{"maxDate":"2028-10-14","locale":"ko"},"bDirectBuyOrderForm":false,"product_service_type":"standard","bIsExclusivePurchaseOnly":false,"is_cultural_tax":"F","bECUseItemSalePrice":false,"DROPSHIPPING":{"sellable":"T"},"sCouponDownloadPage":"\/coupon\/coupon_productdetail.html","sIsMileageOnlyProduct":"F","sIsLoginMember":"F","aOptionColorchip":{"#171717":"","#000000":""},"oCategoryInfo":{"1":{"category_no":53,"category_name":"BEST"}},"recent_period":365,"aProductPurchaseInfo_12":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true}};
+var EC_FRONT_JS_CONFIG_SHOP = CAFE24.getDeprecatedNamespace('EC_FRONT_JS_CONFIG_SHOP');
+CAFE24.FRONT_JS_CONFIG_MEMBER = {"sAuthUrl":"https:\/\/ipin-ec.cafe24.com\/certify\/v1\/?action=auth"};
+var EC_FRONT_JS_CONFIG_MEMBER = CAFE24.getDeprecatedNamespace('EC_FRONT_JS_CONFIG_MEMBER');
+typeof window.CAFE24 === "undefined" && (window.CAFE24 = {});
+CAFE24.BOARD = {"config_6":{"board_no":6,"use_block":"F","use_report":"F"}};
+CAFE24.FRONTEND = {"IS_RENDERED_LOGIN":"F","FW_MANIFEST_CACHE_REVISION":2610131513,"IS_WEB_VIEW":"F"};
+CAFE24.ROUTE = {"is_mobile":false,"is_need_route":false,"language_code":"ZZ","path":{"origin":"\/surl\/p\/12","result":"\/surl\/p\/12","prefix":""},"shop_no":0,"skin_code":"default","support_language_list":{"ar":"ar_EG","ar-EG":"ar_EG","de":"de_DE","de-DE":"de_DE","en":"en_US","en-IN":"en_IN","en-PH":"en_PH","en-US":"en_US","es":"es_ES","es-ES":"es_ES","hi":"hi_IN","hi-IN":"hi_IN","id":"id_ID","id-ID":"id_ID","it":"it_IT","it-IT":"it_IT","ja":"ja_JP","ja-JP":"ja_JP","ko":"ko_KR","ko-KR":"ko_KR","ms":"ms_MY","ms-MY":"ms_MY","pt":"pt_PT","pt-PT":"pt_PT","ru":"ru_RU","ru-RU":"ru_RU","th":"th_TH","th-TH":"th_TH","tr":"tr_TR","tr-TR":"tr_TR","vi":"vi_VN","vi-VN":"vi_VN","zh":"zh_CN","zh-CN":"zh_CN","zh-HK":"zh_HK","zh-MO":"zh_MO","zh-SG":"zh_SG","zh-TW":"zh_TW"}};
+</script>
+
+<link rel="stylesheet" type="text/css" href="/ind-script/optimizer.php?filename=lY4xDsIwDEX3KCvnMANcACQOAOIATppC1DS2HEeC29PCQkFIZH16z98sdBEcQUKhKj6ALwV6oazgaRwp2wms-LcVvCmUqkbKxtGtSa-qbQMJ70FaAkWXQlNAbFLMwTjM-WMrRQfnyOgHOL5f2WMKuUOBjd3aNfQJlaMfljEyw-lKvEwPzwcmp6te__YdoXRf9m6mS33C9iVLYBJta1wiP8zJAw&type=css&k=ac01559abb674a04d39eab1cffa2a1c85f7f6284&t=1753857491"  /><link rel="stylesheet" type="text/css" href="/ind-script/optimizer_user.php?filename=lZVNUsMwDIX3TbecI8MtWLDjBIqtxqKOZSKlP7dHlBYWIYy1yjh5n60nWYpE7CIKjaWXI5XnPmTWRKETXSJxH0T6Q2bQrsBpb6snWREmmTguGfs62zNoH1GBcrN8xgxKXJoBiJG-ANg4I8OVF-0HEAo3PvA0be2_En-_aBRj2NkCdws5AWXOStVJJcxe5J40LwUjFVD0uoLBSQyLanNpfiC--APLXjOmCht3ct0lF6RgPiYqzYicqeLsQzKFo4t4_1hwvu6Hi6HRTmvlgKVZ-1_H_CF3deOjGPZhM_rfCXHHp8V6SxLXt0S1UhlbQSvhCWex2VLbS58QLLOdcnUirVFlHnl797UJ69uRrejebL2StFdR7Dp1AzSbEIQ5pBeX8QOz-tI0sI2TqdlE4wGPH08CSQq32_QJ&type=css&k=0958ebf1c5b341cae4cb7974c3033f00a7312cf7&t=1790063497&user=T"  />
+<style type="text/css">
+#prdDetailContentLazy img[src=""], #prdDetailContentLazy img:not([src]) { visibility: hidden !important; height: 1px !important; }
+#prdDetailContentLazy img[src=""], #prdDetailContentLazy img:not([src]) { visibility: hidden !important; height: 1px !important; }
+</style>
+<title>YourVet | 펫 덴탈 스프레이 100ml</title></head>
+<body><div id="skipNavigation">
+    <p><a href="#category">전체상품목록 바로가기</a></p>
+    <p><a href="#contents">본문 바로가기</a></p>
+</div>
+
+
+<!--
+<div id="c_header_top" class="swiper-container">
+    <div class="swiper-wrapper">
+		<div class="swiper-slide"><a href="/member/login.html"><span>[카톡 친구 추가] 3,000원 쿠폰 즉시 발급</sapn></a></div>
+	</div>
+</div>
+-->
+<div id="header">
+    
+    
+    
+
+    <div class="inner">
+        <div class="topArea">
+            <h1 class="xans-element- xans-layout xans-layout-logotop "><a href="/index.html"><img src="/Images/Common/Logo_Yourvet_2.png"/><!--YourVet--></a>
+</h1>
+        </div>
+        
+        <div id="category" class="xans-element- xans-layout xans-layout-category"><div><a href="/about.html"><span class="title">About</span></a></div>
+<div>
+                <a href="javascript:void(0);"><span class="title">Products</span></a>
+                <div class="position depth_1">
+                    <ul>
+                        <li class="xans-record-"><a href="/category/all/24/">All</a></li>
+                        <li class="xans-record-"><a href="/category/best/53/">BEST</a></li>
+                                            </ul>
+                </div>
+			</div>
+<!--
+            <div><a href="/magazine/magazine_list.html?cate_no=23"><span class="title">Magazine</span></a></div>
+-->
+<div>
+                <a href="javascript:void(0);"><span class="title">Community</span></a>
+                <div class="xans-element- xans-layout xans-layout-boardinfo depth_1"><ul>
+                        <li class="xans-record-"><a href="/board/free/list.html?board_no=1">Notice</a></li>
+                        <li class="xans-record-"><a href="/board/product/list.html?board_no=4">Review</a></li>
+<li class="xans-record-"><a href="/board/gallery/list.html?board_no=8">Event</a></li>
+<li class="xans-record-"><a href="/board/free/list.html?board_no=3">이용안내 FAQ</a></li>
+                    </ul>
+</div>
+            </div>
+<div><a href="/clinic.html"><span class="title">Dental Clinic</span></a></div>
+</div>
+        
+        
+        <div id="header_right_section">
+        	<ul>
+                <li>
+                    <div class="xans-element- xans-layout xans-layout-multishoplist list "><button type="button" class="toggle"><span>한국어</span></button>
+<ul class="xans-element- xans-layout xans-layout-multishoplistitem"><li class="selected xans-record-">
+                                <a href="//yourvet.kr/">
+                                    <span class="name">한국어</span>
+                                    <span class="unit">KRW</span>
+                                </a>
+                            </li>
+</ul>
+</div>
+                </li>
+                <li><a href="/myshop/index.html"><i class="xi-user-o"></i></a><a></a></li>
+                <li class="xans-element- xans-order xans-order-tabinfo basket "><a href="/order/basket.html"><i class="xi-cart-o"></i><span>0</span></a>
+</li>
+                <li class="slide_icon"><div class="menuicon-button"><div class="menuicon"></div></div></li>
+			</ul>
+		</div>
+            
+        
+    </div>
+</div>
+
+
+
+<div id="side_bar">
+    
+    <div id="search_layer">
+        <div class="close_btn"><i class="xi-close-thin"></i></div>
+        <div class="search_wrap">
+            <form id="searchBarForm" name="" action="/product/search.html" method="get" target="_self" enctype="multipart/form-data" >
+<input id="banner_action" name="banner_action" value="" type="hidden"  /><div class="xans-element- xans-layout xans-layout-searchheader "><!--
+                    $product_page=/product/detail.html
+                    $category_page=/product/list.html
+                -->
+<fieldset>
+                    <legend>검색</legend>
+                    <input id="keyword" name="keyword" fw-filter="" fw-label="검색어" fw-msg="" class="inputTypeText" placeholder="" onmousedown="SEARCH_BANNER.clickSearchForm(this)" value="" type="text"  /><input type="image" src="/clothic_studio/image/search.svg" alt="검색" onclick="SEARCH_BANNER.submitSearchBanner(this); return false;" style="max-height:30px; margin-bottom:10px;"/>
+</fieldset>
+</div>
+</form>
+            <div class="xans-element- xans-search xans-search-hotkeyword"><ul>
+                    <li> 인기검색어 </li>
+                    <li class="xans-record-"><a href="/product/search.html?keyword="></a></li>
+                                    </ul>
+</div>
+        </div>
+    </div>
+    
+    <div id="side_mypage" class="xans-element- xans-layout xans-layout-statelogoff "><ul>
+            <li><a href="/member/login.html">Login</a></li>
+            <li><a href="/member/join.html">Join</a></li>
+            <li><a href="/order/basket.html">Cart</a></li>
+            <li class="close_btn"><i class="xi-close"></i></li>
+		</ul>
+</div>
+    
+        
+    <div class="wrapper">
+        <div class="xans-element- xans-layout xans-layout-category category"><div><a href="/about.html"><span class="title">About</span></a></div>
+<div>	
+                <a href="javascript:void(0);"><span class="title">Products</span></a>
+                <div class="position depth_1">
+                    <ul>
+                        <li class="xans-record-"><a href="/category/all/24/">All</a></li>
+                        <li class="xans-record-"><a href="/category/best/53/">BEST</a></li>
+                                            </ul>
+                </div>
+				
+            </div>
+<!--
+            <div><a href="/magazine/magazine_list.html?cate_no=23"><span class="title">Magazine</span></a></div>
+-->
+<div>
+                <a href="javascript:void(0);"><span class="title">Community</span></a>
+                <div class="xans-element- xans-layout xans-layout-boardinfo depth_1"><ul>
+                        <li class="xans-record-"><a href="/board/free/list.html?board_no=1">Notice</a></li>
+                        <li class="xans-record-"><a href="/board/product/list.html?board_no=4">Review</a></li>
+<li class="xans-record-"><a href="/board/gallery/list.html?board_no=8">Event</a></li>
+<li class="xans-record-"><a href="/board/free/list.html?board_no=3">이용안내 FAQ</a></li>
+                    </ul>
+</div>
+            </div>
+<div><a href="/clinic.html"><span class="title">Dental Clinic</span></a></div>
+<div id="search_btn"><a href="javascript:void(0);">Search</a></div>
+</div>
+	</div>
+    
+    <div class="side_sns">
+    	<ul>
+        	<li><a href="https://www.instagram.com/yourvet_official/" target="_blank"><i class="xi-instagram"></i></a></li>
+            <!--
+        	<li><a href="#none"><i class="xi-facebook"></i></a></li>
+        	<li><a href="#none"><i class="xi-naver"></i></a></li>
+        	<li><a href="#none"><i class="xi-youtube-play"></i></a></li>
+			-->
+        </ul>
+    </div>
+</div>
+    
+<hr class="layout"/>
+
+<div id="wrap">
+    <div id="container">
+        <div id="contents">
+            
+
+
+
+
+
+
+<!--
+    $category_page = /product/list.html
+    $project_page = /product/project.html
+    $jointbuy_page = /product/jointbuy.html
+-->
+
+<style>
+    #footer .consult_btn {bottom:120px;}
+    /* 260610 style add */
+    .infoArea .summary_desc{ margin-bottom:18px !important; }
+
+    /* 녹색 카테고리 태그 */
+    .yv-tag{display:inline-block;background:#E1F5EE;color:#0F6E56;
+      font-size:13px;font-weight:600;padding:5px 14px;border-radius:999px;margin:0 0 14px;}
+
+    /* 효능 칸 : 개수에 따라 자동 배치(2~4개 대응) */
+    .yv-feat{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:15 0 22px;}
+    .yv-feat.cnt-2{grid-template-columns:repeat(2,1fr);}
+    .yv-feat.cnt-4{grid-template-columns:repeat(2,1fr);}
+    .yv-feat .cell{background:#eefdf2 !important;border-color:#9FE1CB !important;border:1px solid #9FE1CB;border-radius:12px;padding:12px 8px;
+      text-align:center;font-size:13px;font-weight:600;color:#0F6E56;line-height:1.5;}
+
+    /* 25% OFF 배지 (가격줄 안에 JS로 삽입) */
+    .yv-badge{color:#E24B4A;font-size:20px;font-weight:700;margin-right:8px;}
+    .yv-strike{color:#999;text-decoration:line-through;font-size:15px;margin-right:8px;}
+
+    /* 절감/배송 문구 */
+    .yv-save{font-size:13px;color:#666;margin:6px 0 16px;}
+
+    /* 신뢰 칩 */
+    .yv-chip{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;}
+    .yv-chip span{background:#F1F1F3;color:#333;font-size:13px;font-weight:600;
+      padding:7px 14px;border-radius:999px;}
+
+    /* 노란 혜택 띠 */
+    .yv-benefit{background:#FAEEDA;border:1px solid #FAC775;border-radius:12px;
+      padding:14px 16px;font-size:14px;font-weight:600;color:#854F0B;margin:0 0 16px;}
+
+    /* 세트상품을 After 카드처럼 보이게 (기존 productSet 재활용 시) */
+    .productSet .product>li{border:1px solid #e5e5e5;border-radius:12px;
+      padding:16px;margin-bottom:10px;}
+
+      /* 원본 정가(중복) 숨김 — 우리 배지가 대체 */
+      .infoArea .price .product_custom,
+      .price .product_custom{ display:none !important; }
+
+      /* 테마 기본 할인표시(밑줄 25% OFF) 숨김 */
+      .price .ec-sale-rate{display:none !important;}
+      #span_product_price_text + *{display:none;}
+      /* 가격 박스: 한 줄 flex */
+      .infoArea .price{
+        display:flex;
+        align-items:baseline;
+        flex-wrap:wrap;
+        gap:10px;
+      }
+
+      /* 테마 기본 정가 / 할인표시 숨김 (중복 방지) */
+      .infoArea .price .product_custom{ display:none !important; }
+      .infoArea .price .ec-sale-rate{ display:none !important; }
+
+      /* 순서: 25% OFF → 취소선 정가 → 판매가 (모두 같은 줄) */
+      .infoArea .price .yv-badge{ order:1; margin:0; }
+      .infoArea .price .yv-strike{ order:2; margin:0; }
+      .infoArea .price .product_price{ order:3; margin:0; }
+
+      /* 판매가 강조 */
+      .infoArea .price #span_product_price_text{
+        font-size:24px;
+        font-weight:700;
+        color:#111;
+      }
+
+
+      /* (4) 가격(.price) 위·아래 구분선 제거 ----------------------- */
+      /*  가격 블록 자체의 테두리 */
+      .infoArea .price{
+        border-top:0 !important;
+        border-bottom:0 !important;
+        padding-top:0 !important;
+      }
+      .infoArea .price::before,
+      .infoArea .price::after{ display:none !important; }
+
+      /*  가격 "위" 선: 효능칸(.yv-feat) 아래 경계로 그려지는 경우 */
+      .yv-feat{ border-bottom:0 !important; }
+
+      /*  가격 "아래" 선: 절감문구(.yv-save) 위 경계로 그려지는 경우 */
+      .yv-save{
+        border-top:0 !important;
+        padding-top:0 !important;
+        margin-top:0 !important;
+      }
+
+
+
+    @media (max-width:767px){
+      .yv-feat{gap:8px;}
+      .yv-feat .cell{font-size:12px;padding:12px 6px;}
+    }
+    </style>
+
+    <div class="xans-element- xans-product xans-product-detail"><!--
+            $coupon_download_page = /coupon/coupon_productdetail.html
+        -->
+<div class="detailArea ">
+            <div class="xans-element- xans-product xans-product-image imgArea "><div class="keyImg">
+                    <div class="thumbnail">
+                        <img src="//yourvet.kr/web/product/big/202606/a3904dd22ae5685c6fe9565f61792575.png" alt="유어벳 펫 덴탈 스프레이 100ml - 강아지 고양이 입냄새 제거 이미지" class="BigImage "/>                        <!--div id="zoom_wrap"></div-->
+                    </div>
+                </div>
+<div id="detail_add_slide" class="xans-element- xans-product xans-product-addimage listImg swiper-container"><ul class="swiper-wrapper">
+                        <li class="swiper-slide xans-record-"><img src="//yourvet.kr/web/product/small/202606/7f8b72c51f01a6bff8655bed28d90e8b.png"  class="ThumbImage" alt="" /></li>
+                        <li class="swiper-slide xans-record-"><img src="//yourvet.kr/web/product/extra/small/202401/07d86d9b42d8f52ea810d8074e6a8db5.png"  class="ThumbImage" alt="" /></li>
+<li class="swiper-slide xans-record-"><img src="//yourvet.kr/web/product/extra/small/202311/142fb3c13360d7ef9bbc5452750ed156.png"  class="ThumbImage" alt="" /></li>
+<li class="swiper-slide xans-record-"><img src="//yourvet.kr/web/product/extra/small/202311/c5dd3d5e16f528df5158b1baeabb2318.png"  class="ThumbImage" alt="" /></li>
+                    </ul>
+</div>
+</div>
+
+            <div class="infoArea">
+                <div class="infoArea_close_btn"><i class="xi-close-thin"></i></div>
+                
+                <div class="fixed_border">
+                    <div id="ec-product-price-info" class="displaynone" ec-data-custom="25900.00" ec-data-price="19400"></div>
+                    <div class="name">
+                        <h2>유어벳 펫 덴탈 스프레이 100ml, 강아지 고양이 입냄새 제거</h2>
+                        <span class="icon">       </span>
+                    </div>
+                    <div class="summary_desc ">
+                        [18차 리오더] 쉽고 간편하게 뿌리고 마시면서 관리하는 구강케어                    </div>
+                    <div class="summary_desc ">@tag=반려동물 구강케어 베스트
+@feat=뿌리고 마시는 간편 케어|강아지·고양이 겸용|양치 스트레스 감소
+@chip=네이버쇼핑 1위|재구매율 1위|동물용의약외품                        <!--<br/><span class="simple-mark"></span><br/>
+                                주문량이 급증하여 일부 주문 건 출고가 지연될 수 있습니다. <br/>다음 발주 분 입고 전까지는 배송이 지연될 수 있는 점 양해 부탁 드립니다.<br/><br/>-->
+                                <!--<span class="simple-highlight">3월 8일(금) 6차 물량 입고 예정</span>-->
+                    </div>
+
+                    <!-- (A) 녹색 카테고리 태그 + 효능 칸 : JS가 간략설명 읽어 자동생성 260610-->
+                    <div id="yv-tag" class="yv-tag" style="display:none;"></div>
+                    <div id="yv-feat" class="yv-feat"></div>
+
+                    <!-- ※ 가격(.price)·할인배지는 STEP 3 에서 처리. -->
+
+                    <div class="price">
+                        <div id="ec-product-price-info" class="displaynone" ec-data-custom="25900.00" ec-data-price="19400"></div>
+                        <div class="product_custom price_is_25,900 ">25,900원</div>
+                        <div class="product_price "><span id="span_product_price_text" class="ProductPrice ">19400</span></div>
+                    </div>
+
+
+                    <!-- (B) 절감 문구 + 신뢰 칩 + 혜택 띠 -->
+                    <!--  위치 : .price 블록 "아래", 세트상품(productSet) "위" 260610-->
+                    <div id="yv-save" class="yv-save"></div>
+                    <div id="yv-chip" class="yv-chip"></div>
+                    <div id="yv-benefit" class="yv-benefit" style="display:none;"></div>
+
+                    <!-- 이 아래로 기존 세트상품/추가구성/Total/버튼 모듈이 그대로 이어집니다. -->
+                    <div class="xans-element- xans-product xans-product-detaildesign"><table border="1" summary="">
+                            <caption> 기본 정보</caption>
+                            <tbody>
+                                <tr class=" product_name_css xans-record-">
+                                    <th scope="row"><span class="" style="font-size:16px;color:#555555;">상품명</span></th>
+                                    <td><span class="" style="font-size:16px;color:#555555;">유어벳 펫 덴탈 스프레이 100ml, 강아지 고양이 입냄새 제거</span></td>
+                                </tr>
+                                <tr class=" summary_desc_css xans-record-">
+                                    <th scope="row"><span class="" style="font-size:12px;color:#555555;">상품요약정보</span></th>
+                                    <td><span class="" style="font-size:12px;color:#555555;">[18차 리오더] 쉽고 간편하게 뿌리고 마시면서 관리하는 구강케어</span></td>
+                                </tr>
+<tr class=" simple_desc_css xans-record-">
+                                    <th scope="row"><span class="" style="font-size:12px;color:#545454;">순차배송 안내</span></th>
+                                    <td><span class="" style="font-size:12px;color:#545454;">@tag=반려동물 구강케어 베스트
+@feat=뿌리고 마시는 간편 케어|강아지·고양이 겸용|양치 스트레스 감소
+@chip=네이버쇼핑 1위|재구매율 1위|동물용의약외품</span></td>
+                                </tr>
+<tr class=" product_custom_css xans-record-">
+                                    <th scope="row"><span class="" style="font-size:12px;color:#555555;">소비자가</span></th>
+                                    <td><span class="" style="font-size:12px;color:#555555;"><span id="span_product_price_custom"><strike>25,900원</strike></span></span></td>
+                                </tr>
+<tr class=" product_price_css xans-record-">
+                                    <th scope="row"><span class="" style="font-size:12px;color:#008BCC;font-weight:bold;">판매가</span></th>
+                                    <td><span class="" style="font-size:12px;color:#008BCC;font-weight:bold;"><strong id="span_product_price_text">19,400원 </strong><input id="product_price" name="product_price" value="" type="hidden"  /></span></td>
+                                </tr>
+<tr class=" delivery_title_css xans-record-">
+                                    <th scope="row"><span class="" style="font-size:12px;color:#555555;">국내·해외배송</span></th>
+                                    <td><span class="" style="font-size:12px;color:#555555;">국내배송</span></td>
+                                </tr>
+<tr class=" delivery_css xans-record-">
+                                    <th scope="row"><span class="" style="font-size:12px;color:#555555;">배송방법</span></th>
+                                    <td><span class="" style="font-size:12px;color:#555555;">택배</span></td>
+                                </tr>
+<tr class=" delivery_price_css xans-record-">
+                                    <th scope="row"><span class="" style="font-size:12px;color:#555555;">배송비</span></th>
+                                    <td><span class="" style="font-size:12px;color:#555555;"><span class="delv_price_B"><input id="delivery_cost_prepaid" name="delivery_cost_prepaid" value="P" type="hidden"  /><strong>3,000원</strong> (40,000원 이상 구매 시 무료)</span></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+</div>
+
+
+                    <div class="regularDelivery displaynone">
+                        <table border="1" summary="정기결제">
+                            <caption>정기결제</caption>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">구매방법</th>
+                                    <td>
+                            <label class="gLabel"> 1회구매</label>
+                            <label class="gLabel"> 정기배송<span class="badge displaynone"> <i class="icoDown">할인</i></span></label>
+                                    </td>
+                                </tr>
+                                <tr class="shippingCycle displaynone" id="">
+                                    <th scope="row">배송주기</th>
+                                    <td>
+                                        
+                                        <div class="info displaynone" id="">
+                                            <p class="title"><strong>정기배송 할인</strong> <span class="icoSave">save</span></p>
+                                            <ul class="xans-element- xans-product xans-product-regulardiscount"><li class=""> 결제 시 :  <span class="icoDown">할인</span>
+</li>
+</ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <p class="displaynone"><img src="//img.echosting.cafe24.com/skin/base_ko_KR/product/txt_naver.gif" alt="개인결제창을 통한 결제 시 네이버 마일리지 적립 및 사용이 가능합니다."/></p>
+
+                    <table border="1" summary="" class="xans-element- xans-product xans-product-option xans-record-"><!--
+                        $use_per_add_option = yes
+                        -->
+<caption>&gt;상품 옵션</caption>
+<tbody class="xans-element- xans-product xans-product-option xans-record-"><tr>
+                                <th scope="row">필수옵션</th>
+                                <td><select option_product_no="12" option_select_element="ec-option-select-finder" option_sort_no="1" option_type="F" item_listing_type="" option_title="필수옵션" product_type="product_option" product_option_area="product_option_12_0" name="option1" id="product_option_id1" class="ProductOption0" option_style="select" required="true" ><option value="*" selected link_image="">- [필수] 옵션을 선택해 주세요 -</option><option value="**" disabled link_image="">-------------------</option><option value="P000000M00ID"  link_image="">(25%할인) 덴탈스프레이 1개</option><option value="P000000M00IE"  link_image="">(29%할인) 덴탈스프레이 2개 (+17,300원)</option><option value="P000000M00IF"  link_image="">(34%할인) 덴탈스프레이 3개 (+32,000원)</option><option value="P000000M00IG"  link_image="">(36%할인) 덴탈SET - 덴탈스프레이1개+덴탈겔1개 (+19,600원)</option></select><p class="value"></p>
+</td>
+                            </tr>
+</tbody>
+<tbody class="xans-element- xans-product xans-product-option xans-record-"><tr>
+                                <th scope="row">추가옵션</th>
+                                <td><select option_product_no="12" option_select_element="ec-option-select-finder" option_sort_no="2" option_type="F" item_listing_type="" option_title="추가옵션" product_type="product_option" product_option_area="product_option_12_0" name="option2" id="product_option_id2" class="ProductOption0" option_style="select" ><option value="*" selected link_image="">- [선택] 옵션을 선택해 주세요 -</option><option value="**" disabled link_image="">-------------------</option><option value="P000000M00IH"  link_image="">(28%할인) 메디아이드롭 (+4,000원)</option><option value="P000000M00II"  link_image="">(27%할인) 더마릴렉서 (+7,500원)</option><option value="P000000M00IJ"  link_image="">(43%할인) 버블폼 (+4,900원)</option><option value="P000000M00IK"  link_image="">(28%할인) 퓨어코튼거즈패드 (-13,600원)</option></select><p class="value"></p>
+</td>
+                            </tr>
+</tbody>
+<tbody>
+                                                    </tbody>
+<tbody>
+                            <tr class="displaynone" id="">
+                                <td colspan="2" class="selectButton"><a href="#none" class="btnSubmit sizeS" onclick="">옵션선택</a></td>
+                            </tr>
+                                                    </tbody>
+</table>
+
+                    
+                    
+
+                    
+                    <div id="totalProducts" class="">
+                        <table border="1" summary="">
+                            <caption>상품 목록</caption>
+                            <colgroup>
+                                <col style="width:284px;"/>
+                                <col style="width:80px;"/>
+                                <col style="width:110px;"/>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th scope="col">상품명</th>
+                                    <th scope="col">상품수</th>
+                                    <th scope="col">가격</th>
+                                </tr>
+                            </thead>
+                            <tbody class="displaynone">
+                                <tr>
+                                    <td>유어벳 펫 덴탈 스프레이 100ml, 강아지 고양이 입냄새 제거</td>
+                                    <td>
+                                        <span class="quantity"> <!-- //img.echosting.cafe24.com/skin/base_ko_KR/product/btn_count_up.gif -->
+                                            <input id="quantity" name="quantity_name" style="" value="0" type="text"  />                                            <a href="#none" class="QuantityUp up"><img src="https://yourvet.cafe24.com/Images/system/btn_count_up.gif" alt="수량증가" class="QuantityUp up"/></a>
+                                            <a href="#none" class="QuantityDown down"><img src="https://img.echosting.cafe24.com/skin/base_ko_KR/product/btn_count_down.gif" alt="수량감소" class="QuantityDown down"/></a>
+                                        </span>
+                                    </td>
+                                    <td class="right">
+<span class="quantity_price">19400</span> <span class="mileage displaynone">(<img src=""/>  <span class="mileage_price"></span>)</span>
+</td>
+                                </tr>
+                                <tr id="totalProductsOption" class="xans-element- xans-product xans-product-option option xans-record-"><!--
+                                    $use_per_add_option = yes
+                                    $default_option = yes
+                                    -->
+<td class="middle" colspan="3">
+                                        <table border="1" summary="">
+                                            <caption>옵션 정보</caption>
+                                            <colgroup>
+                                                <col style="width:105px;"/>
+                                                <col style="width:auto;"/>
+                                            </colgroup>
+                                            <tbody>
+
+                                                                                                                                    </tbody>
+                                        </table>
+                                    </td>
+</tr>
+                            </tbody>
+
+                            <!-- 옵션선택 또는 세트상품 선택시 상품이 추가되는 영역입니다. 쇼핑몰 화면에는 아래와 같은 마크업구조로 표시됩니다. 삭제시 기능이 정상동작 하지 않습니다. -->
+                            <tbody>
+                                <!-- tr>
+                                    <td>
+                                        <p class="product">
+                                            $상품명<br />
+                                            <span>$옵션</span>
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <span class="quantity">
+										    <input type="text" class="quantity_opt" value="1"/>
+                                            &nbsp;<a href="javascript:;" class="up eProductQuantityUpClass"><img src="//img.echosting.cafe24.com/skin/base_ko_KR/product/btn_count_up.gif" alt="수량증가" /></a>
+                                            <a href="javascript:;" class="down eProductQuantityDownClass"><img src="//img.echosting.cafe24.com/skin/base_ko_KR/product/btn_count_down.gif" alt="수량감소" /></a>
+										</span>
+                                        <a href="#none" class="option_box_del"><img src="//img.echosting.cafe24.com/design/skin/default/product/btn_price_delete.gif" alt="삭제" /></a>
+                                    </td>
+                                    <td class="right">
+                                        <span>$가격</span>
+                                        <span class="mileage">(<img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/product/ico_pay_point.gif" /> &nbsp;<span class="mileage_price">$적립금</span>)</span>
+                                    </td>
+                                </tr -->
+                            </tbody>
+
+                            <!-- // 옵션선택 또는 세트상품 선택시 상품이 추가되는 영역입니다. 쇼핑몰 화면에는 아래와 같은 마크업구조로 표시됩니다. 삭제시 기능이 정상동작 하지 않습니다. -->
+                        </table>
+                    </div>
+
+
+                    <div id="totalPrice" class="totalPrice">
+                        <strong>Total : <span class="total"><em></em> </span></strong>
+                    </div>
+                    <p class="ec-base-help txt11 displaynone EC-price-warning">할인가가 적용된 최종 결제예정금액은 주문 시 확인할 수 있습니다.</p>
+
+
+                    <div class="xans-element- xans-product xans-product-action "><div class="ec-base-button">
+                            <a href="#none" class="btnNormal size50 " onclick="product_submit(2, '/exec/front/order/basket/', this)">장바구니 담기</a>
+                            <a href="#none" class="btnSubmit size50 " onclick="product_submit(1, '/exec/front/order/basket/', this)">
+                                <span id="btnBuy">바로 구매하기</span>
+                                <span id="btnReserve" class="displaynone">예약주문</span>
+                                <span id="" class="displaynone">정기배송 신청하기</span>
+                            </a>
+
+                            <span class="btnEm size100 gFlex2 displaynone">SOLD OUT</span>
+                            <!--a href="#none" onclick="add_wishlist_nologin('/member/login.html');" class="btnNormal sizeL ">관심상품등록</a-->
+                        </div>
+<!-- 네이버 체크아웃 구매 버튼 -->
+<div id="NaverChk_Button"></div>
+<!-- //네이버 체크아웃 구매 버튼 -->
+<!-- 상품상세페이지에 추가되는 앱 관련 결제버튼's div -->
+<div id="appPaymentButtonBox"></div>
+<!--
+                       <div class="img-grid">
+  <a href="https://www.kvma.or.kr/" target="_blank"><img src="https://yourvet.cafe24.com/Images/Detail/Common/ico_Doc_01.png" alt="대한수의사협회"/></a>
+  <a href="https://www.kpanet.or.kr/" target="_blank"><img src="https://yourvet.cafe24.com/Images/Detail/Common/ico_Doc_02.png" alt="한국동물병원협회"/></a>
+  <a href="http://www.kahpa.or.kr/" target="_blank"><img src="https://yourvet.cafe24.com/Images/Detail/Common/ico_Doc_03.png" alt="한국동물약품협회"/></a>
+  <a href="https://kaha.or.kr/" target="_blank"><img src="https://yourvet.cafe24.com/Images/Detail/Common/ico_Doc_04.png" alt="한국동물보건협회"/></a>
+</div>
+-->
+<!-- Dable 스크립트 시작 250228 -->
+<script>
+                            (function(d,a,b,l,e,_) {
+                            d[b]=d[b]||function(){(d[b].q=d[b].q||[]).push(arguments)};e=a.createElement(l);
+                            e.async=1;e.charset='utf-8';e.src='//static.dable.io/dist/dablena.min.js';
+                            _=a.getElementsByTagName(l)[0];_.parentNode.insertBefore(e,_);
+                            })(window,document,'dablena','script');
+                            dablena('init', '001-011-460');
+                            document.querySelector('#NaverChk_Button')
+                            .addEventListener('click', (e) => {
+                              const btn = e.currentTarget.querySelector('[id^="NPAY_BUY_LINK_"]');
+                              btn && dablena('track', 'InitiateCheckout');
+                            });
+                            </script>
+<!-- Dable 스크립트 종료 -->
+<!-- Dable 스크립트 시작 -->
+<script>
+                            (function(d,a,b,l,e,_) {
+                            d[b]=d[b]||function(){(d[b].q=d[b].q||[]).push(arguments)};e=a.createElement(l);
+                            e.async=1;e.charset='utf-8';e.src='//static.dable.io/dist/dablena.min.js';
+                            _=a.getElementsByTagName(l)[0];_.parentNode.insertBefore(e,_);
+                            })(window,document,'dablena','script');
+                            dablena('init', '001-011-460');
+                            dablena('track', 'ViewContent');
+                            </script>
+<!-- Dable 스크립트 종료 -->
+</div>
+<!-- //div fixed -->
+                                    </div>
+            </div>
+        </div>
+<!-- 공급사:판매사정보 -->
+<div class="supplyInfo displaynone">
+                    </div>
+<!-- //공급사:판매사정보 -->
+<div class="eventArea displaynone ">
+            <h3><span>이벤트</span></h3>
+            <div class="event"></div>
+        </div>
+</div>
+
+    <!--import(/coupon/coupon_productdetail.html)-->
+
+    <div id="float_nav" class="xans-element- xans-product xans-product-additional txt14 "><ul>
+            <li class="line" ref="prdRelated">관련상품</li>
+            <li class="line" ref="prdDetail">상품상세</li>
+            <li class="line" ref="prdReview">리뷰 (<span class="vreview-review-count">0</span>)</li>
+            <li ref="prdQnA">Q&amp;A(1)</li>
+        </ul>
+</div>
+
+    <div id="float_nav_right" class="txt14">
+        <div>구매하기</div>
+    </div>
+
+    
+    <div class="xans-element- xans-product xans-product-additional"><div id="prdDetail" class="ec-base-tab gFlex">
+            <div class="cont">
+                <center>
+<div>
+<img ec-data-src="/Images/DT/Comm/Yourvet_Com_01__.png">
+<br>
+<img ec-data-src="/Images/DT/Comm/Yourvet_Com_02_Doc.png">
+<br>
+<img ec-data-src="/Images/DT/Den/261007_Yourvet_Dental_up.png">
+<br>
+<!-- ===================== 1) 카운트업 숫자 오버레이 (Yourvet_Den_01.png) ===================== -->
+
+<div style="display:inline-block;width:700px;max-width:100%;" class="yv-counter-wrap">
+  <img ec-data-src="/Images/DT/Den/Yourvet_Den_01.png" alt="" style="width:100%;">
+  <div id="yvCounter" class="yv-counter-number">0</div>
+</div>
+<style>
+		.yv-counter-wrap{position:relative;}
+		.yv-counter-number{
+		  position:absolute;
+		  left:49.5%;
+		  top:41.0%;
+		  transform:translate(-50%,-50%);
+		  color:#fff;
+		  font-weight:800;
+		  font-family:'Noto Sans KR',sans-serif;
+		  letter-spacing:-0.02em;
+		  white-space:nowrap;
+		  line-height:1;
+		  text-align:center;
+		  font-variant-numeric: tabular-nums;
+		}
+		</style>
+
+<script>
+		(function(){
+		  var wrap = document.querySelector('.yv-counter-wrap');
+		  var num  = document.getElementById('yvCounter');
+		  var TARGET = 41000;
+		  var DURATION = 1800;
+		  var isAnimating = false;
+		  function formatNum(n){
+		    return Math.round(n).toLocaleString('ko-KR');
+		  }
+		  function sizeCounter(){
+		    if(!wrap || !num) return;
+		    var w = wrap.offsetWidth;
+		    num.style.width = 'auto';
+		    num.style.fontSize = Math.round(w * 0.13) + 'px';
+		    var current = num.textContent;
+		    num.textContent = formatNum(TARGET);
+		    num.style.width = num.offsetWidth + 'px';
+		    num.textContent = current;
+		  }
+		  function playCount(){
+		    if(isAnimating) return;
+		    isAnimating = true;
+		    var start = null;
+		    function step(ts){
+		      if(!start) start = ts;
+		      var progress = Math.min((ts - start) / DURATION, 1);
+		      var eased = progress;
+		      num.textContent = formatNum(TARGET * eased);
+		      if(progress < 1){
+		        requestAnimationFrame(step);
+		      } else {
+		        num.textContent = formatNum(TARGET);
+		        isAnimating = false;
+		        setTimeout(playCount, 1200);
+		      }
+		    }
+		    requestAnimationFrame(step);
+		  }
+		  window.addEventListener('resize', sizeCounter);
+		  window.addEventListener('load', sizeCounter);
+		  sizeCounter();
+		  if('IntersectionObserver' in window){
+		    var io = new IntersectionObserver(function(entries){
+		      entries.forEach(function(e){
+		        if(e.isIntersecting) playCount();
+		      });
+		    }, {threshold:0.4});
+		    io.observe(wrap);
+		  } else {
+		    playCount();
+		  }
+		})();
+		</script>
+<br>
+
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_02GIF.gif">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_03_.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_04.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_05.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_06GIF.gif">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_07.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_08.png">
+<br>
+  <img ec-data-src="/Images/DT/Den/Yourvet_Den_09.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_10.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_11GIF.gif">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_12.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_13_.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_14.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_15GIF.gif">
+<br>
+  <img ec-data-src="/Images/DT/Den/Yourvet_Den_16.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_17.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_18GIF.gif">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_19.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_20.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_21.png">
+  <br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_22.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_23.png">
+<br>
+  <img ec-data-src="/Images/DT/Den/Yourvet_Den_24.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_25GIF.gif">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_26.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_27.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_28.png">
+<br>
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_29.png">
+<br>
+
+
+<!-- ===================== 2) FAQ 아코디언 (배경 풀블리드) ===================== -->
+  <div class="yv-faq-section">
+    <style>
+	      .yv-faq-section{background:#ffffff;font-family:'Noto Sans KR',sans-serif;}
+	      .yv-faq-section *{box-sizing:border-box;}
+	      .yv-faq-head{max-width:700px;margin:0 auto;padding:48px 20px 32px;text-align:left;}
+	      .yv-faq-head-sub{font-size:24px;color:#333;margin:0 0 6px;}
+	      .yv-faq-head-title{font-size:30px;font-weight:800;color:#111;margin:0;}
+	      .yv-faq-list{max-width:700px;margin:0 auto;background:#f1f1f1;text-align:left;}
+	      .yv-faq-item{border-bottom:1px solid #e5e5e5;}
+	      .yv-faq-item:first-of-type{border-top:1px solid #191919;}
+	      .yv-faq-item summary{list-style:none;cursor:pointer;}
+	      .yv-faq-item summary::-webkit-details-marker{display:none;}
+	      .yv-faq-q{display:flex;align-items:center;justify-content:space-between;padding:22px 20px 22px 32px;font-size:15px;font-weight:700;color:#191919;}
+	      .yv-faq-icon{position:relative;width:16px;height:16px;flex:0 0 16px;margin-left:20px;}
+	      .yv-faq-icon::before,.yv-faq-icon::after{content:"";position:absolute;background:#191919;transition:opacity .2s ease,transform .2s ease;}
+	      .yv-faq-icon::before{top:50%;left:0;width:100%;height:2px;margin-top:-1px;}
+	      .yv-faq-icon::after{left:50%;top:0;width:2px;height:100%;margin-left:-1px;}
+	      .yv-faq-item[open] .yv-faq-icon::after{opacity:0;transform:rotate(90deg);}
+	      .yv-faq-a{padding:0 20px 26px 32px;font-size:14px;line-height:1.7;color:#727272;}
+	    </style>
+
+    <div class="yv-faq-list">
+      <details open="" class="yv-faq-item">
+        <summary><div class="yv-faq-q">강아지/고양이 모두 사용 가능한가요?<span class="yv-faq-icon"></span></div></summary>
+        <div class="yv-faq-a">네, 유어벳 덴탈 스프레이는 강아지와 고양이 모두 거부감 없이 사용 가능하도록 제조되었습니다.</div>
+      </details>
+
+      <details class="yv-faq-item">
+        <summary><div class="yv-faq-q">아이가 먹어도 괜찮은가요?<span class="yv-faq-icon"></span></div></summary>
+        <div class="yv-faq-a">네, 아이가 먹는 제품인만큼 조금이라도 유해할 수 있는 성분은 모두 첨가하지 않았습니다.<br>또한 안전성 테스트를 거쳐 동물용 의약외품 승인을 받은 제품이므로 안심하고 사용하실 수 있습니다.</div>
+      </details>
+
+      <details class="yv-faq-item">
+        <summary><div class="yv-faq-q">양치질 대신 써도 되나요?<span class="yv-faq-icon"></span></div></summary>
+        <div class="yv-faq-a">가장 추천드리는 사용 방법은 양치와 병행하여 사용하는 것입니다. 그러나 양치가 어려울 경우 단독 사용만으로도 최대한의 효과를 기대할 수 있도록 연구하여 개발한 제품인 만큼 효과를 기대하실 수 있습니다.</div>
+      </details>
+    </div>
+  </div>
+<img ec-data-src="/Images/DT/Comm/Yourvet_Com_03.png">
+<br>
+
+<img ec-data-src="/Images/DT/Den/Yourvet_Den_30.png">
+<br>
+</div>
+</center>            </div>
+        </div>
+<div id="prdReview" class="ec-base-tab gFlex ">
+            <div class="board">
+                <h3>Review (<span class="vreview-review-count">0</span>)</h3>
+
+                <p class="ec-base-button">
+                    <span class="gRight">
+                        <a href="/board/product/write.html?board_no=4&product_no=12&cate_no=0&display_group=0" class="btnNormal vreview-hide">리뷰 작성</a>
+                        <a href="/board/product/list.html?board_no=4" class="btnNormal">리뷰 전체보기</a>
+                    </span>
+                </p>
+
+                <!--게시판 위젯-->
+                <!--브이리뷰 (vreview) 스크립트 / 수정할 경우 연락 부탁드립니다 (dev@vreview.tv)-->
+                <div class="vreview-review-board-widget"></div>
+                <div class="vreview-hide">
+                    <!-- <div module="product_review">-->
+                    
+                    <a name="use_review"></a>
+
+                    <p class="noAccess displaynone">글읽기 권한이 없습니다.</p>
+
+                    <div class="minor displaynone">
+                        <p><img src="//img.echosting.cafe24.com/skin/base_ko_KR/product/ico_under19.gif" alt=""/>  <strong>"19세 미만의 미성년자"</strong>는 출입을 금합니다!</p>
+                        <p class="button"><a href="/intro/board.html" class="btnEm sizeS">성인인증 하기</a></p>
+                    </div>
+
+                    <div class="ec-base-table typeList">
+                        <table border="1" summary="" class="displaynone">
+                            <caption>상품사용후기</caption>
+                            <colgroup>
+                                <col style="width:auto"/>
+                                <col style="width:100px;"/>
+                                <col style="width:100px;"/>
+                                <col style="width:80px;" class="displaynone"/>
+                            </colgroup>
+
+                            <tbody class="center">
+                                <tr class="">
+                                    <td class="subject left txtBreak txt14"> <a href=""></a> <span class="txtWarn"></span>
+</td>
+                                    <td class="txt14"> </td>
+                                    <td class="txtInfo txt14"></td>
+                                    <td class="displaynone txt14"><img src="/clothic_studio/image/ico_star.png" alt="점" style="margin-bottom:2px;"/></td>
+                                </tr>
+                                <tr class="">
+                                    <td class="subject left txtBreak txt14"> <a href=""></a> <span class="txtWarn"></span>
+</td>
+                                    <td class="txt14"> </td>
+                                    <td class="txtInfo txt14"></td>
+                                    <td class="displaynone txt14"><img src="/clothic_studio/image/ico_star.png" alt="점" style="margin-bottom:2px;"/></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="xans-element- xans-product xans-product-reviewpaging ec-base-paginate typeSub clothic_paginate vreview-hide"><a href="#none" class="first"><img src="/asset/img/first.png" alt="첫 페이지"/></a>
+<a href="#none"><img src="/asset/img/prev.png" alt="이전 페이지"/></a>
+<ol>
+                        <li class="xans-record-"><a href="?page_4=1#use_review" class="this">1</a></li>
+                        <li class="xans-record-"><a href="?page_4=2#use_review" class="other">2</a></li>
+                        <li class="xans-record-"><a href="?page_4=3#use_review" class="other">3</a></li>
+                        <li class="xans-record-"><a href="?page_4=4#use_review" class="other">4</a></li>
+                        <li class="xans-record-"><a href="?page_4=5#use_review" class="other">5</a></li>
+                    </ol>
+<a href="?page_4=2#use_review"><img src="/asset/img/next.png" alt="다음 페이지"/></a>
+<a href="?page_4=4570#use_review" class="last"><img src="/asset/img/last.png" alt="마지막 페이지"/></a>
+</div>
+            </div>
+        </div>
+<div id="prdQnA" class="ec-base-tab gFlex ">
+
+            <div class="board">
+                <h3>Q&amp;A (1)</h3>
+
+                <p class="ec-base-button">
+                    <span class="gRight">
+                        <a href="/board/product/write.html?board_no=6&product_no=12&cate_no=0&display_group=0" class="btnNormal">문의 작성</a>
+                        <a href="/board/product/list.html?board_no=6" class="btnNormal">문의 전체보기</a>
+                    </span>
+                </p>
+
+                <p class="nodata">게시물이 없습니다</p>
+                <div class="xans-element- xans-product xans-product-qnapaging ec-base-paginate typeSub clothic_paginate"><a href="#none" class="first"><img src="/asset/img/first.png" alt="첫 페이지"/></a>
+<a href="#none"><img src="/asset/img/prev.png" alt="이전 페이지"/></a>
+<ol>
+                        <li class="xans-record-"><a href="?page_6=1#use_qna" class="this">1</a></li>
+                                            </ol>
+<a href="#none"><img src="/asset/img/next.png" alt="다음 페이지"/></a>
+<a href="#none" class="last"><img src="/asset/img/last.png" alt="마지막 페이지"/></a>
+</div>
+
+            </div>
+        </div>
+</div>
+<!-- 260610 script add -->
+<script>
+(function(){
+  /* ---- (1) 간략설명({$simple_desc}) 파싱 ---- */
+  var src = "";
+  var descs = document.querySelectorAll('.infoArea .summary_desc');
+  if(descs.length){
+    src = (descs[descs.length-1].innerHTML || "")
+          .replace(/<br\s*\/?&gt;/gi, '\n')
+          .replace(/<[^>]+>/g, '');
+  }
+  function pick(key){
+    var m = src.match(new RegExp('@'+key+'=([^\n@]*)'));
+    return m ? m[1].trim() : "";
+  }
+  var tag     = pick('tag');
+  var feat    = pick('feat');
+  var chip    = pick('chip');
+  var benefit = pick('benefit');
+
+  /* 부제에서 @줄 제거 */
+  if(descs.length){
+    var last = descs[descs.length-1];
+    last.innerHTML = last.innerHTML
+      .replace(/@(tag|feat|chip|benefit)=[^<]*/g,'')
+      .replace(/(<br\s*\/?&gt;\s*)+/gi,'<br>')
+      .replace(/^(<br\s*\/?&gt;\s*)+|(<br\s*\/?&gt;\s*)+$/gi,'')
+      .trim();
+  }
+
+  /* ---- (2) 녹색 태그 ---- */
+  if(tag){
+    var t=document.getElementById('yv-tag');
+    if(t){ t.textContent=tag; t.style.display='inline-block'; }
+  }
+
+  /* ---- (3) 효능 칸 ---- */
+  if(feat){
+    var arr=feat.split('|').map(function(s){return s.trim();}).filter(Boolean);
+    var box=document.getElementById('yv-feat');
+    if(box){
+      box.className='yv-feat cnt-'+arr.length;
+      box.innerHTML=arr.map(function(s){
+        return '<div class="cell">'+s.replace(/ /,'<br>')+'</div>';
+      }).join('');
+    }
+  }
+
+  /* ---- (4) 신뢰 칩 ---- */
+  if(chip){
+    var c=chip.split('|').map(function(s){return s.trim();}).filter(Boolean);
+    var cb=document.getElementById('yv-chip');
+    if(cb){ cb.innerHTML=c.map(function(s){return '<span>'+s+'</span>';}).join(''); }
+  }
+
+  /* ---- (5) 혜택 띠 ---- */
+  if(benefit){
+    var b=document.getElementById('yv-benefit');
+    if(b){ b.textContent=benefit; b.style.display='block'; }
+  }
+
+  /* ---- (6) 할인율 / 절감액 자동계산 ---- */
+  function num(el){
+    if(!el) return 0;
+    var d=(el.innerText||"").replace(/[^0-9]/g,'');
+    return d?parseInt(d,10):0;
+  }
+  var customEl = document.querySelector('.price .product_custom');
+  var priceEl  = document.querySelector('.price .product_price');
+  var origin = num(customEl);
+  var sale   = num(priceEl);
+
+  if(origin>sale && sale>0){
+    var rate = Math.round((origin-sale)/origin*100);
+    var diff = origin-sale;
+    if(priceEl){
+      var badge=document.createElement('span');
+      badge.className='yv-badge';
+      badge.textContent=rate+'% OFF';
+      var strike=document.createElement('span');
+      strike.className='yv-strike';
+      strike.textContent=origin.toLocaleString()+'원';
+      priceEl.parentNode.insertBefore(strike, priceEl);
+      priceEl.parentNode.insertBefore(badge, strike);
+    }
+    var sv=document.getElementById('yv-save');
+    if(sv) sv.textContent='오늘 구매 시 '+diff.toLocaleString()+'원 절감 · 40,000원 이상 무료배송';
+  } else {
+    var sv2=document.getElementById('yv-save');
+    if(sv2) sv2.textContent='40,000원 이상 무료배송';
+  }
+
+  /* ---- (7) @줄 강제 제거 (부제 + 기본정보 테이블 등 위치 무관) ---- */
+  var YV_RE = /@(tag|feat|chip|benefit)=/;
+  document.querySelectorAll('.infoArea .summary_desc').forEach(function(el){
+    el.innerHTML = el.innerHTML
+      .replace(/@(tag|feat|chip|benefit)=[^<]*/g,'')
+      .replace(/(<br\s*\/?&gt;\s*)+/gi,'<br>')
+      .replace(/^(<br\s*\/?&gt;\s*)+|(<br\s*\/?&gt;\s*)+$/gi,'')
+      .trim();
+  });
+  document.querySelectorAll('.infoArea tr, .infoArea li, .infoArea p, .infoArea td').forEach(function(el){
+    if(YV_RE.test(el.textContent)){
+      var tr = el.closest('tr');
+      if(tr){ tr.style.display='none'; }
+      else { el.style.display='none'; }
+    }
+  });
+
+  /* ---- (8) 녹색 태그를 제품명(.name) 위로 이동 + 제품명 bold ---- */
+  var tagEl  = document.getElementById('yv-tag');
+  var nameEl = document.querySelector('.infoArea .name');
+  if(tagEl && nameEl && nameEl.parentNode){
+    nameEl.parentNode.insertBefore(tagEl, nameEl);
+    tagEl.style.display = 'inline-block';
+    tagEl.style.margin  = '0 0 10px';
+  }
+  var nameH = document.querySelector('.infoArea .name h2');
+  if(nameH){ nameH.style.fontWeight = '700'; }
+
+  /* ---- (9) 위쪽 중복 정가(취소선 25,900원) 강제 제거 ----
+     ec-data-custom(예 "25900.00")에서 정가 숫자를 정확히 뽑아
+     .price 안에서 그 금액과 일치하는 최하위 요소를 숨김.
+     우리 배지(.yv-badge)·취소선(.yv-strike)·판매가(.product_price)는 보존. */
+  var infoEl = document.querySelector('.price #ec-product-price-info, #ec-product-price-info');
+  var customNum = infoEl ? parseInt((infoEl.getAttribute('ec-data-custom')||'').replace(/[^0-9.]/g,''),10) : 0;
+  var saleEl2 = document.querySelector('.price .product_price');
+  var saleNum = saleEl2 ? parseInt((saleEl2.textContent||'').replace(/[^0-9]/g,''),10) : 0;
+
+  if(customNum && customNum !== saleNum){
+    var customDisp = customNum.toLocaleString(); // "25,900"
+    document.querySelectorAll('.price *').forEach(function(el){
+      if(el.children.length) return;                       // 최하위 텍스트 요소만
+      if(el.classList && (el.classList.contains('yv-strike') || el.classList.contains('yv-badge'))) return;
+      if(el.closest('.product_price')) return;             // 판매가 보존
+      var txt = el.textContent.replace(/\s/g,'').replace(/원$/,'');
+      if(txt === customDisp){
+        (el.closest('.product_custom') || el).style.display = 'none';
+      }
+    });
+  }
+  /* 테마 정가(.product_custom) 확실히 숨김 — flex 레이아웃에서도 강제 */
+var pcEl = document.querySelector('.infoArea .price .product_custom');
+if(pcEl){ pcEl.style.setProperty('display','none','important'); }
+
+})();
+</script>
+
+
+<!-- 자기주소 저장 260616 -->
+<script>
+if (location.href.indexOf('/product/') > -1) {
+  document.cookie = "lastProductUrl=" + encodeURIComponent(location.href)
+    + "; domain=.yourvet.kr; path=/; max-age=1800";
+}
+</script>
+
+
+    
+
+        </div>
+    </div>
+</div><hr class="layout"/>
+
+
+
+
+
+
+<div id="footer">
+    
+    <div class="consult_btn"><a href="http://pf.kakao.com/_xojHxjG" target="_blank">1:1 TALK</a></div><!--javascript:void(0);-->
+    
+    <div class="inner">
+        <div class="xans-element- xans-layout xans-layout-footer"><div class="bottom_logo">
+            	<span class="xans-element- xans-layout xans-layout-logobottom "><a href="/index.html"><span><img src="/Images/Common/Logo_Yourvet_2.png"/></span></a>
+</span>
+			</div>
+<div class="bottom_cs ">
+                <p class="tit">Customer center</p>
+            	<!--<p class="number">010-8115-6832</p>-->
+            	<p class="description">고객센터 운영시간 : PM 13:00 ~ PM 17:00 <br/>점심시간 12:00 - 13:00 / 주말 및 공휴일 휴무</p>
+<br/>
+                <!--
+            	<p class="tit">Account number</p>
+            	<p><span class="number_name">케이뱅크</span><span class="number">700100037140</span></p>
+            	<p class="description">예금주:주식회사  파스텔레스</p><br/><br/>
+				-->
+			</div>
+<div class="address ">    
+                <span class="tit">Company</span><span>주식회사 파스텔레스</span> <span class="tit">CEO</span><span>최건우</span><br/>
+                <span class="tit">Address</span><span> 08591 서울 금천구 가산디지털1로 30 에이스하이엔드타워10 20층 2008호</span><br/>
+                <span class="tit">Business registration number</span><span> 322-81-02815</span><br/>
+                <span class="tit">Report number</span><span>2026-서울금천-1028호<a href="#none" onclick="window.open('http://www.ftc.go.kr/bizCommPop.do?wrkr_no=3228102815', 'bizCommPop', 'width=750, height=950;');return false;">[사업자정보확인]</a></span><br/>
+                <span class="tit">Personal Information manager</span><span> 최건우</span><br/>
+                <span class="tit">Representative number</span><span>010-8115-6832 / </span><br/>
+                <span class="tit">Company E-Mail</span><a href="mailto:"><span>yourvet@pasteles.kr</span></a><br/><br/>
+                <span>Copyright ©YourVet All rights Reserved. <!--Designed by <a href="https://clothic.co.kr/" target="_blank">CLOTHIC.</a> -->Hosting by Cafe24</span>
+            </div>
+<div class="bottom_menu">    
+                <ul>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/member/agreement.html">Terms of use</a></li>
+                    <li><a href="/member/privacy.html">Privacy policy</a></li>
+                    <li><a href="/shopinfo/guide.html">Guide</a></li>
+                </ul>
+            </div>
+<div class="bottom_sns">
+                <ul>
+                    <li><a href="https://www.instagram.com/yourvet_official/" target="_blank"><i class="xi-instagram"></i></a></li>
+                    <!--
+                    <li><a href="#none"><i class="xi-facebook"></i></a></li>
+                    <li><a href="#none"><i class="xi-naver"></i></a></li>
+                    <li><a href="#none"><i class="xi-youtube-play"></i></a></li>
+					-->
+                </ul>
+			</div>
+<!--
+			<div class="img-grid2">
+    			<a href="https://www.kvma.or.kr/" target="_blank"><img src="https://yourvet.cafe24.com/Images/Detail/Common/ico_Doc_01.png" alt="대한수의사협회"/></a>
+    			<a href="https://www.kpanet.or.kr/" target="_blank"><img src="https://yourvet.cafe24.com/Images/Detail/Common/ico_Doc_02.png" alt="한국동물병원협회"/></a>
+    			<a href="http://www.kahpa.or.kr/" target="_blank"><img src="https://yourvet.cafe24.com/Images/Detail/Common/ico_Doc_03.png" alt="한국동물약품협회"/></a>
+    			<a href="https://kaha.or.kr/" target="_blank"><img src="https://yourvet.cafe24.com/Images/Detail/Common/ico_Doc_04.png" alt="한국동물보건협회"/></a>
+  			</div>
+-->
+</div>
+    </div>
+    <!--
+    <div class="scroll_btn">
+        <a href="#none" art="top"><i class="xi-angle-up"></i></a>
+    </div>
+    -->
+</div>
+
+
+
+<!-- 결제를 위한 필수 영역 -->
+<div id="progressPaybar" style="display:none;">
+    <div id="progressPaybarBackground" class="layerProgress"></div>
+    <div id="progressPaybarView">
+        <div class="box">
+            <p class="graph">
+                <span><img src="//img.echosting.cafe24.com/skin/base_ko_KR/layout/txt_progress.gif" alt="현재 결제가 진행중입니다."/></span>
+                <span><img src="//img.echosting.cafe24.com/skin/base/layout/img_loading.gif" alt=""/></span>
+            </p>
+            <p class="txt">
+                본 결제 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면<br/>
+                주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- // 결제를 위한 필수 영역 -->
+
+<div class="xans-element- xans-layout xans-layout-multishopshipping "><div class="dimmed"></div>
+<div class="worldshipLayer ec-base-layer">
+        <div class="header">
+            <h3>WORLD SHIPPING</h3>
+        </div>
+        <div class="content">
+            <p class="desc">PLEASE SELECT THE DESTINATION COUNTRY AND LANGUAGE :</p>
+            <div class="select">
+                <select class="xans-element- xans-layout xans-layout-multishopshippingcountrylist"><option value="GH"  class="xans-record-">SHIPPING TO : 가나(GHANA)</option>
+<option value="GA"  class="xans-record-">SHIPPING TO : 가봉(GABON)</option>
+<option value="GY"  class="xans-record-">SHIPPING TO : 가이아나(GUYANA)</option>
+<option value="GM"  class="xans-record-">SHIPPING TO : 감비아(GAMBIA)</option>
+<option value="GP"  class="xans-record-">SHIPPING TO : 과들루프(GUADELOUPE)</option>
+<option value="GT"  class="xans-record-">SHIPPING TO : 과테말라(GUATEMALA)</option>
+<option value="GU"  class="xans-record-">SHIPPING TO : 괌(GUAM)</option>
+<option value="GD"  class="xans-record-">SHIPPING TO : 그레나다(GRENADA)</option>
+<option value="GR"  class="xans-record-">SHIPPING TO : 그리스(GREECE)</option>
+<option value="GL"  class="xans-record-">SHIPPING TO : 그린란드(GREENLAND)</option>
+<option value="GN"  class="xans-record-">SHIPPING TO : 기니(GUINEA)</option>
+<option value="GW"  class="xans-record-">SHIPPING TO : 기니비사우(GUINEA-BISSAU)</option>
+<option value="NA"  class="xans-record-">SHIPPING TO : 나미비아(NAMIBIA)</option>
+<option value="NG"  class="xans-record-">SHIPPING TO : 나이지리아(NIGERIA)</option>
+<option value="ZA"  class="xans-record-">SHIPPING TO : 남아프리카 공화국(SOUTH AFRICA)</option>
+<option value="NL"  class="xans-record-">SHIPPING TO : 네덜란드(NETHERLANDS)</option>
+<option value="AN"  class="xans-record-">SHIPPING TO : 네덜란드령 안틸레스(NETHERLANDS(ANTILLES))</option>
+<option value="NP"  class="xans-record-">SHIPPING TO : 네팔(NEPAL)</option>
+<option value="NO"  class="xans-record-">SHIPPING TO : 노르웨이(NORWAY)</option>
+<option value="NF"  class="xans-record-">SHIPPING TO : 노퍽 섬(NORFOLK ISLAND)</option>
+<option value="NC"  class="xans-record-">SHIPPING TO : 누벨칼레도니(NEW CALEDONIA)</option>
+<option value="NZ"  class="xans-record-">SHIPPING TO : 뉴질랜드(NEW ZEALAND)</option>
+<option value="NE"  class="xans-record-">SHIPPING TO : 니제르(NIGER)</option>
+<option value="NI"  class="xans-record-">SHIPPING TO : 니카라과(NICARAGUA)</option>
+<option value="TW"  class="xans-record-">SHIPPING TO : 대만(TAIWAN)</option>
+<option value="KR"  selected="selected" class="xans-record-">SHIPPING TO : 대한민국(KOREA (REP OF,))</option>
+<option value="DK"  class="xans-record-">SHIPPING TO : 덴마크(DENMARK)</option>
+<option value="DM"  class="xans-record-">SHIPPING TO : 도미니카(DOMINICA)</option>
+<option value="DO"  class="xans-record-">SHIPPING TO : 도미니카 공화국(DOMINICAN REPUBLIC)</option>
+<option value="DE"  class="xans-record-">SHIPPING TO : 독일(GERMANY)</option>
+<option value="TL"  class="xans-record-">SHIPPING TO : 동티모르(TIMOR-LESTE)</option>
+<option value="LA"  class="xans-record-">SHIPPING TO : 라오스(LAO PEOPLE'S DEM REP)</option>
+<option value="LR"  class="xans-record-">SHIPPING TO : 라이베리아(LIBERIA)</option>
+<option value="LV"  class="xans-record-">SHIPPING TO : 라트비아(LATVIA)</option>
+<option value="RU"  class="xans-record-">SHIPPING TO : 러시아(RUSSIAN FEDERATION)</option>
+<option value="LB"  class="xans-record-">SHIPPING TO : 레바논(LEBANON)</option>
+<option value="LS"  class="xans-record-">SHIPPING TO : 레소토(LESOTHO)</option>
+<option value="RE"  class="xans-record-">SHIPPING TO : 레위니옹(REUNION)</option>
+<option value="RO"  class="xans-record-">SHIPPING TO : 루마니아(ROMANIA)</option>
+<option value="LU"  class="xans-record-">SHIPPING TO : 룩셈부르크(LUXEMBOURG)</option>
+<option value="RW"  class="xans-record-">SHIPPING TO : 르완다(RWANDA)</option>
+<option value="LY"  class="xans-record-">SHIPPING TO : 리비아(LIBYAN ARAB JAMAHIRIYA)</option>
+<option value="LT"  class="xans-record-">SHIPPING TO : 리투아니아(LITHUANIA)</option>
+<option value="LI"  class="xans-record-">SHIPPING TO : 리히텐슈타인(LIECHTENSTEIN)</option>
+<option value="MG"  class="xans-record-">SHIPPING TO : 마다가스카르(MADAGASCAR)</option>
+<option value="MQ"  class="xans-record-">SHIPPING TO : 마르티니크(MARTINIQUE)</option>
+<option value="MH"  class="xans-record-">SHIPPING TO : 마셜 제도(MARSHALL ISLANDS)</option>
+<option value="MO"  class="xans-record-">SHIPPING TO : 마카오(MACAU)</option>
+<option value="MW"  class="xans-record-">SHIPPING TO : 말라위(MALAWI)</option>
+<option value="MY"  class="xans-record-">SHIPPING TO : 말레이시아(MALAYSIA)</option>
+<option value="ML"  class="xans-record-">SHIPPING TO : 말리(MALI)</option>
+<option value="MX"  class="xans-record-">SHIPPING TO : 멕시코(MEXICO)</option>
+<option value="MC"  class="xans-record-">SHIPPING TO : 모나코(MONACO)</option>
+<option value="MA"  class="xans-record-">SHIPPING TO : 모로코(MOROCCO)</option>
+<option value="MU"  class="xans-record-">SHIPPING TO : 모리셔스(MAURITIUS)</option>
+<option value="MR"  class="xans-record-">SHIPPING TO : 모리타니(MAURITANIA)</option>
+<option value="MZ"  class="xans-record-">SHIPPING TO : 모잠비크(MOZAMBIQUE)</option>
+<option value="ME"  class="xans-record-">SHIPPING TO : 몬테네그로(MONTENEGRO)</option>
+<option value="MS"  class="xans-record-">SHIPPING TO : 몬트세랫(MONTSERRAT)</option>
+<option value="MD"  class="xans-record-">SHIPPING TO : 몰도바(MOLDOVA, REPUBLIC OF)</option>
+<option value="MV"  class="xans-record-">SHIPPING TO : 몰디브(MALDIVES)</option>
+<option value="MT"  class="xans-record-">SHIPPING TO : 몰타(MALTA)</option>
+<option value="MN"  class="xans-record-">SHIPPING TO : 몽골(MONGOLIA)</option>
+<option value="US"  class="xans-record-">SHIPPING TO : 미국(U.S.A)</option>
+<option value="VI"  class="xans-record-">SHIPPING TO : 미국령 버진아일랜드(VIRGIN ISLANDS U.S.)</option>
+<option value="MM"  class="xans-record-">SHIPPING TO : 미얀마(MYANMAR)</option>
+<option value="FM"  class="xans-record-">SHIPPING TO : 미크로네시아 연방(MICRONESIA)</option>
+<option value="VU"  class="xans-record-">SHIPPING TO : 바누아투(VANUATU)</option>
+<option value="BH"  class="xans-record-">SHIPPING TO : 바레인(BAHRAIN)</option>
+<option value="BB"  class="xans-record-">SHIPPING TO : 바베이도스(BARBADOS)</option>
+<option value="BS"  class="xans-record-">SHIPPING TO : 바하마(BAHAMAS)</option>
+<option value="BD"  class="xans-record-">SHIPPING TO : 방글라데시(BANGLADESH)</option>
+<option value="BM"  class="xans-record-">SHIPPING TO : 버뮤다(BERMUDA)</option>
+<option value="BJ"  class="xans-record-">SHIPPING TO : 베냉(BENIN)</option>
+<option value="VE"  class="xans-record-">SHIPPING TO : 베네수엘라(VENEZUELA)</option>
+<option value="VN"  class="xans-record-">SHIPPING TO : 베트남(VIET NAM)</option>
+<option value="BE"  class="xans-record-">SHIPPING TO : 벨기에(BELGIUM)</option>
+<option value="BY"  class="xans-record-">SHIPPING TO : 벨라루스(BELARUS)</option>
+<option value="BZ"  class="xans-record-">SHIPPING TO : 벨리즈(BELIZE)</option>
+<option value="BA"  class="xans-record-">SHIPPING TO : 보스니아 헤르체고비나(Bosnia and Herzegovina)</option>
+<option value="BW"  class="xans-record-">SHIPPING TO : 보츠와나(BOTSWANA)</option>
+<option value="BO"  class="xans-record-">SHIPPING TO : 볼리비아(BOLIVIA)</option>
+<option value="BI"  class="xans-record-">SHIPPING TO : 부룬디(BURUNDI)</option>
+<option value="BF"  class="xans-record-">SHIPPING TO : 부르키나파소(BURKINA FASO)</option>
+<option value="BT"  class="xans-record-">SHIPPING TO : 부탄(BHUTAN)</option>
+<option value="MP"  class="xans-record-">SHIPPING TO : 북마리아나 제도(NORTHERN MARIANA ISLANDS)</option>
+<option value="MK"  class="xans-record-">SHIPPING TO : 북마케도니아(MACEDONIA)</option>
+<option value="BG"  class="xans-record-">SHIPPING TO : 불가리아(BULGARIA(REP))</option>
+<option value="BR"  class="xans-record-">SHIPPING TO : 브라질(BRAZIL)</option>
+<option value="BN"  class="xans-record-">SHIPPING TO : 브루나이(BRUNEI DARUSSALAM)</option>
+<option value="WS"  class="xans-record-">SHIPPING TO : 사모아(SAMOA)</option>
+<option value="SA"  class="xans-record-">SHIPPING TO : 사우디아라비아(SAUDI ARABIA)</option>
+<option value="SM"  class="xans-record-">SHIPPING TO : 산마리노(SAN MARINO)</option>
+<option value="SN"  class="xans-record-">SHIPPING TO : 세네갈(SENEGAL)</option>
+<option value="RS"  class="xans-record-">SHIPPING TO : 세르비아(SERBIA/KOSOVO)</option>
+<option value="SC"  class="xans-record-">SHIPPING TO : 세이셸(SEYCHELLES)</option>
+<option value="LC"  class="xans-record-">SHIPPING TO : 세인트루시아(SAINT LUCIA)</option>
+<option value="VC"  class="xans-record-">SHIPPING TO : 세인트빈센트 그레나딘(SAINT VINCENT AND THE GRENADINES)</option>
+<option value="KN"  class="xans-record-">SHIPPING TO : 세인트키츠 네비스(SAINT KITTS AND NEVIS)</option>
+<option value="SB"  class="xans-record-">SHIPPING TO : 솔로몬 제도(SOLOMON ISLANDS)</option>
+<option value="SR"  class="xans-record-">SHIPPING TO : 수리남(SURINAME)</option>
+<option value="LK"  class="xans-record-">SHIPPING TO : 스리랑카(SRI LANKA)</option>
+<option value="SE"  class="xans-record-">SHIPPING TO : 스웨덴(SWEDEN)</option>
+<option value="CH"  class="xans-record-">SHIPPING TO : 스위스(SWITZERLAND)</option>
+<option value="ES"  class="xans-record-">SHIPPING TO : 스페인(SPAIN)</option>
+<option value="SK"  class="xans-record-">SHIPPING TO : 슬로바키아(SLOVAKIA)</option>
+<option value="SI"  class="xans-record-">SHIPPING TO : 슬로베니아(SLOVENIA)</option>
+<option value="SL"  class="xans-record-">SHIPPING TO : 시에라리온(SIERRA LEONE)</option>
+<option value="SG"  class="xans-record-">SHIPPING TO : 싱가포르(SINGAPORE)</option>
+<option value="AE"  class="xans-record-">SHIPPING TO : 아랍에미리트(UNITED ARAB EMIRATES)</option>
+<option value="AW"  class="xans-record-">SHIPPING TO : 아루바(ARUBA)</option>
+<option value="AM"  class="xans-record-">SHIPPING TO : 아르메니아(ARMENIA)</option>
+<option value="AR"  class="xans-record-">SHIPPING TO : 아르헨티나(ARGENTINA)</option>
+<option value="AS"  class="xans-record-">SHIPPING TO : 아메리칸사모아(AMERICAN SAMOA)</option>
+<option value="IS"  class="xans-record-">SHIPPING TO : 아이슬란드(ICELAND)</option>
+<option value="HT"  class="xans-record-">SHIPPING TO : 아이티(HAITI)</option>
+<option value="IE"  class="xans-record-">SHIPPING TO : 아일랜드(IRELAND)</option>
+<option value="AZ"  class="xans-record-">SHIPPING TO : 아제르바이잔(AZERBAIJAN)</option>
+<option value="AF"  class="xans-record-">SHIPPING TO : 아프가니스탄(AFGHANISTAN)</option>
+<option value="AD"  class="xans-record-">SHIPPING TO : 안도라(ANDORRA)</option>
+<option value="AL"  class="xans-record-">SHIPPING TO : 알바니아(ALBANIA)</option>
+<option value="DZ"  class="xans-record-">SHIPPING TO : 알제리(ALGERIA)</option>
+<option value="AO"  class="xans-record-">SHIPPING TO : 앙골라(ANGOLA)</option>
+<option value="AG"  class="xans-record-">SHIPPING TO : 앤티가 바부다(ANTIGUA AND BARBUDA)</option>
+<option value="AI"  class="xans-record-">SHIPPING TO : 앵귈라(ANGUILLA)</option>
+<option value="ER"  class="xans-record-">SHIPPING TO : 에리트레아(ERITREA)</option>
+<option value="SZ"  class="xans-record-">SHIPPING TO : 에스와티니(SWAZILAND)</option>
+<option value="EE"  class="xans-record-">SHIPPING TO : 에스토니아(ESTONIA)</option>
+<option value="EC"  class="xans-record-">SHIPPING TO : 에콰도르(ECUADOR)</option>
+<option value="ET"  class="xans-record-">SHIPPING TO : 에티오피아(ETHIOPIA)</option>
+<option value="SV"  class="xans-record-">SHIPPING TO : 엘살바도르(EL SALVADOR)</option>
+<option value="GB"  class="xans-record-">SHIPPING TO : 영국(UNITED KINGDOM)</option>
+<option value="VG"  class="xans-record-">SHIPPING TO : 영국령 버진아일랜드(VIRGIN ISLANDS BRITISH)</option>
+<option value="YE"  class="xans-record-">SHIPPING TO : 예멘(YEMEN)</option>
+<option value="OM"  class="xans-record-">SHIPPING TO : 오만(OMAN)</option>
+<option value="AU"  class="xans-record-">SHIPPING TO : 오스트레일리아(AUSTRALIA)</option>
+<option value="AT"  class="xans-record-">SHIPPING TO : 오스트리아(AUSTRIA)</option>
+<option value="HN"  class="xans-record-">SHIPPING TO : 온두라스(HONDURAS)</option>
+<option value="JO"  class="xans-record-">SHIPPING TO : 요르단(JORDAN)</option>
+<option value="UG"  class="xans-record-">SHIPPING TO : 우간다(UGANDA)</option>
+<option value="UY"  class="xans-record-">SHIPPING TO : 우루과이(URUGUAY)</option>
+<option value="UZ"  class="xans-record-">SHIPPING TO : 우즈베키스탄(UZBEKISTAN)</option>
+<option value="UA"  class="xans-record-">SHIPPING TO : 우크라이나(UKRAINE)</option>
+<option value="IQ"  class="xans-record-">SHIPPING TO : 이라크(IRAQ)</option>
+<option value="IR"  class="xans-record-">SHIPPING TO : 이란(IRAN(ISLAMIC REP))</option>
+<option value="IL"  class="xans-record-">SHIPPING TO : 이스라엘(ISRAEL)</option>
+<option value="EG"  class="xans-record-">SHIPPING TO : 이집트(EGYPT)</option>
+<option value="IT"  class="xans-record-">SHIPPING TO : 이탈리아(ITALY)</option>
+<option value="IN"  class="xans-record-">SHIPPING TO : 인도(INDIA)</option>
+<option value="ID"  class="xans-record-">SHIPPING TO : 인도네시아(INDONESIA)</option>
+<option value="JP"  class="xans-record-">SHIPPING TO : 일본(JAPAN)</option>
+<option value="JM"  class="xans-record-">SHIPPING TO : 자메이카(JAMAICA)</option>
+<option value="ZM"  class="xans-record-">SHIPPING TO : 잠비아(ZAMBIA)</option>
+<option value="GE"  class="xans-record-">SHIPPING TO : 조지아(GEORGIA)</option>
+<option value="CN"  class="xans-record-">SHIPPING TO : 중국(CHINA(PEOPLE'S REP))</option>
+<option value="CF"  class="xans-record-">SHIPPING TO : 중앙아프리카 공화국(CENTRAL AFRICAN REPUBLIC)</option>
+<option value="DJ"  class="xans-record-">SHIPPING TO : 지부티(DJIBOUTI)</option>
+<option value="GI"  class="xans-record-">SHIPPING TO : 지브롤터(GIBRALTAR)</option>
+<option value="ZW"  class="xans-record-">SHIPPING TO : 짐바브웨(ZIMBABWE)</option>
+<option value="TD"  class="xans-record-">SHIPPING TO : 차드(CHAD)</option>
+<option value="CZ"  class="xans-record-">SHIPPING TO : 체코(CZECH REP)</option>
+<option value="CL"  class="xans-record-">SHIPPING TO : 칠레(CHILE)</option>
+<option value="CM"  class="xans-record-">SHIPPING TO : 카메룬(CAMEROON)</option>
+<option value="CV"  class="xans-record-">SHIPPING TO : 카보베르데(CAPE VERDE)</option>
+<option value="KZ"  class="xans-record-">SHIPPING TO : 카자흐스탄(KAZAKHSTAN)</option>
+<option value="QA"  class="xans-record-">SHIPPING TO : 카타르(QATAR)</option>
+<option value="KH"  class="xans-record-">SHIPPING TO : 캄보디아(CAMBODIA)</option>
+<option value="CA"  class="xans-record-">SHIPPING TO : 캐나다(CANADA)</option>
+<option value="KE"  class="xans-record-">SHIPPING TO : 케냐(KENYA)</option>
+<option value="KY"  class="xans-record-">SHIPPING TO : 케이맨 제도(CAYMAN ISLANDS)</option>
+<option value="CR"  class="xans-record-">SHIPPING TO : 코스타리카(COSTA RICA)</option>
+<option value="CI"  class="xans-record-">SHIPPING TO : 코트디부아르(COTE D IVOIRE)</option>
+<option value="CO"  class="xans-record-">SHIPPING TO : 콜롬비아(COLOMBIA)</option>
+<option value="CG"  class="xans-record-">SHIPPING TO : 콩고 공화국(CONGO)</option>
+<option value="CU"  class="xans-record-">SHIPPING TO : 쿠바(CUBA)</option>
+<option value="KW"  class="xans-record-">SHIPPING TO : 쿠웨이트(KUWAIT)</option>
+<option value="HR"  class="xans-record-">SHIPPING TO : 크로아티아(CROATIA)</option>
+<option value="KG"  class="xans-record-">SHIPPING TO : 키르기스스탄(KYRGYZSTAN)</option>
+<option value="KI"  class="xans-record-">SHIPPING TO : 키리바시(KIRIBATI)</option>
+<option value="CY"  class="xans-record-">SHIPPING TO : 키프로스(CYPRUS)</option>
+<option value="TH"  class="xans-record-">SHIPPING TO : 타이(THAILAND)</option>
+<option value="TJ"  class="xans-record-">SHIPPING TO : 타지키스탄(TAJIKISTAN)</option>
+<option value="TZ"  class="xans-record-">SHIPPING TO : 탄자니아(TANZANIA(UNITED REP))</option>
+<option value="TC"  class="xans-record-">SHIPPING TO : 터크스 케이커스 제도(TURKS AND CAICOS ISLANDS)</option>
+<option value="TR"  class="xans-record-">SHIPPING TO : 터키(TURKEY)</option>
+<option value="TG"  class="xans-record-">SHIPPING TO : 토고(TOGO)</option>
+<option value="TO"  class="xans-record-">SHIPPING TO : 통가(TONGA)</option>
+<option value="TM"  class="xans-record-">SHIPPING TO : 투르크메니스탄(TURKMENISTAN)</option>
+<option value="TV"  class="xans-record-">SHIPPING TO : 투발루(TUVALU)</option>
+<option value="TN"  class="xans-record-">SHIPPING TO : 튀니지(TUNISIA)</option>
+<option value="TT"  class="xans-record-">SHIPPING TO : 트리니다드 토바고(TRINIDAD AND TOBAGO)</option>
+<option value="PA"  class="xans-record-">SHIPPING TO : 파나마(PANAMA(REP))</option>
+<option value="PY"  class="xans-record-">SHIPPING TO : 파라과이(PARAGUAY)</option>
+<option value="PK"  class="xans-record-">SHIPPING TO : 파키스탄(PAKISTAN)</option>
+<option value="PG"  class="xans-record-">SHIPPING TO : 파푸아 뉴기니(PAPUA NEW GUINEA)</option>
+<option value="PW"  class="xans-record-">SHIPPING TO : 팔라우(PALAU)</option>
+<option value="FO"  class="xans-record-">SHIPPING TO : 페로 제도(FAROE ISLANDS)</option>
+<option value="PE"  class="xans-record-">SHIPPING TO : 페루(PERU)</option>
+<option value="PT"  class="xans-record-">SHIPPING TO : 포르투갈(PORTUGAL)</option>
+<option value="PL"  class="xans-record-">SHIPPING TO : 폴란드(POLAND(REP))</option>
+<option value="PR"  class="xans-record-">SHIPPING TO : 푸에르토리코(PUERTO RICO)</option>
+<option value="FR"  class="xans-record-">SHIPPING TO : 프랑스(FRANCE)</option>
+<option value="GF"  class="xans-record-">SHIPPING TO : 프랑스령 기아나(FRENCH GUIANA)</option>
+<option value="PF"  class="xans-record-">SHIPPING TO : 프랑스령 폴리네시아(FRENCH POLYNESIA)</option>
+<option value="FJ"  class="xans-record-">SHIPPING TO : 피지(FIJI)</option>
+<option value="FI"  class="xans-record-">SHIPPING TO : 핀란드(FINLAND)</option>
+<option value="PH"  class="xans-record-">SHIPPING TO : 필리핀(PHILIPPINES)</option>
+<option value="HU"  class="xans-record-">SHIPPING TO : 헝가리(HUNGARY(REP))</option>
+<option value="HK"  class="xans-record-">SHIPPING TO : 홍콩(HONG KONG)</option>
+</select>
+            </div>
+            <div class="select">
+                <select class="xans-element- xans-layout xans-layout-multishopshippinglanguagelist"><option value="yourvet.kr"  selected="selected" class="xans-record-">LANGUAGE : 한국어</option>
+</select>
+            </div>
+        </div>
+        <div class="ec-base-button">
+            <a href="#none"><img src="//img.echosting.cafe24.com/skin/base_ko_KR/link/btn_go.gif" alt="GO"/></a>
+        </div>
+        <a href="#none" class="close"><img src="//img.echosting.cafe24.com/skin/base/common/btn_close.gif" width="13" height="13" alt="close"/></a>
+    </div>
+</div>
+
+    
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type="text/javascript">
+	window.jQuery1_11_2 = jQuery.noConflict(true);
+</script>
+    
+
+
+    
+<div id="multi_option" style="display:none;"></div>
+<form id="frm_image_zoom" style="display:none;"></form>
+<script type="text/javascript">var sAuthSSLDomain = "https://login2.cafe24ssl.com";</script><script type="text/javascript" src="https://login2.cafe24ssl.com/crypt/AuthSSLManager.js"></script><script type="text/javascript" src="https://login2.cafe24ssl.com/crypt/AuthSSLManager.plugin.js"></script>
+<!-- Google Tag Manager (noscript) 250707 MJ -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2LVX8K7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<span itemscope="" itemtype="https://schema.org/Organization">
+<link itemprop="url" href="https://yourvet.kr">
+</span>
+<script type="text/javascript" src="/app/Eclog/js/cid.generate.js?vs=3d0b473968a0ec4ec41e3bf59df3aa51&u=yourvet.1"></script>
+<script type="text/javascript" src="/app/Manage/js/inflowbeacon.js?vs=3d0b473968a0ec4ec41e3bf59df3aa51&u=yourvet.1"></script>
+<script>        (function (i, s, o, g) {
+            var a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            var initialized = false;
+            var interval = null;
+
+            function safeInit() {
+              if (initialized) return;
+              if (typeof i.initCaWebAnalytics === 'function') {
+                try {
+                  i.initCaWebAnalytics({"mid":"yourvet","stype":"e","domain":"","shop_no":1,"lang":"ko_KR","mobile_flag":"F","send_endpoint":"https://ca-log.cafe24data.com","path_role":"PRODUCT_DETAIL","category_no":53,"category_name":"BEST"});
+                  initialized = true;
+                } finally {
+                  if (interval) clearInterval(interval);
+                  a.onload = a.onreadystatechange = a.onerror = null;
+                }
+              }
+            }
+
+            a.onload = a.onreadystatechange = function () {
+              if (!a.readyState || a.readyState === 'loaded' || a.readyState === 'complete') {
+                safeInit();
+              }
+            };
+
+            a.onerror = function () {
+              if (interval) { clearInterval(interval); interval = null; }
+              a.onload = a.onreadystatechange = a.onerror = null;
+            };
+
+            interval = setInterval(safeInit, 200);
+            setTimeout(function () {
+              if (interval) { clearInterval(interval); interval = null; }
+            }, 10000);
+
+            safeInit();
+
+            a.async = 1;
+            a.setAttribute('crossorigin', 'anonymous');
+            a.src = g;
+            m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', "//optimizer.poxo.com/ca2/analytics.js?v=20261014");</script>
+
+                <script>
+                try {
+                    // Account ID 적용
+                    if (!wcs_add) var wcs_add = {};
+                    wcs_add["wa"] = "s_1d4226f9fa67";
+            
+                    // 네이버 페이 White list가 있을 경우
+                    wcs.checkoutWhitelist = ["yourvet.cafe24.com", "www.yourvet.cafe24.com", "m.yourvet.cafe24.com", "yourvet.kr", "www.yourvet.kr", "m.yourvet.kr"];
+                
+                    // 레퍼러 
+                    wcs.setReferer("");
+
+                    // 유입 추적 함수 호출
+                    wcs.inflow("yourvet.kr");
+
+                    // 로그수집
+                    wcs_do();
+                } catch (e) {};
+                </script>
+            
+
+<!-- External Script Start -->
+
+<!-- fbe -->
+<!-- CMC3 script -->
+<div id="fbe_common_top_script" style="display:none;">
+  <script type="text/javascript">
+if (typeof facebookChannel === 'undefined') {
+  var facebookChannel = {
+    mall_id: CAFE24.SHOP.getMallID(),
+    shop_no: CAFE24.SDE_SHOP_NUM,
+    shop_id: CAFE24.SHOP.getMallID() + '.' + CAFE24.SDE_SHOP_NUM,
+    external_id: null,
+    event_id: null,
+
+    setInitActivated: function(is_activated) {
+      window.top.fbe_init_activated = !!is_activated;
+    },
+    getInitActivated: function() {
+      return !!window.top.fbe_init_activated;
+    },
+    setEventActivated: function(event_type, is_activated) {
+      if (typeof event_type === 'string' && event_type) {
+        let key = 'fbe_' + event_type + '_activated'
+        window.top[key] = !!is_activated;
+      }
+    },
+    getEventActivated: function(event_type) {
+      if (typeof event_type === 'string' && event_type) {
+        let key = 'fbe_' + event_type + '_activated'
+        return !!window.top[key];
+      }
+      return false;
+    },
+    getCookie: function(name) {
+      return (name = (document.cookie + ';').match(name + '=.*;')) && name[0].split(/=|;/)[1];
+    },
+    getExternalId: function() {
+      return facebookChannel.getCookie('fb_external_id');
+    },
+    getEventId: function() {
+      return facebookChannel.getCookie('fb_event_id');
+    },
+    getInt: function(value) {
+      let value_int = parseInt(value);
+      value_int = isNaN(value_int) ? 0 : value_int;
+      return value_int;
+    },
+    getFloat: function(value) {
+      let value_float = parseFloat(value);
+      value_float = isNaN(value_float) ? 0.00 : value_float.toFixed(2);
+      return value_float;
+    },
+    init: function() {
+      if (facebookChannel.getInitActivated()) {
+        return;
+      }
+      facebookChannel.setInitActivated(true);
+
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+
+      if ((typeof EC_GLOBAL_INFO !== 'undefined' && EC_GLOBAL_INFO.getCountryCode() === 'US') || (typeof SHOP !== 'undefined' && SHOP.getLanguage() === 'en_US')) {
+        fbq('dataProcessingOptions', ['LDU'], 0, 0);
+      }
+
+      if (typeof ECLOG !== 'undefined' && !!ECLOG.EXTERNAL_ID) {
+        ECLOG.EXTERNAL_ID.chk(facebookChannel.shop_id, function(error, external_id) {
+          if (error || !external_id) {
+            external_id = facebookChannel.getExternalId();
+            console.info('external_id is cookie value.', '(1)');
+          }
+          fbq('init', '1105731637526447',{external_id: external_id}, {agent: 'plcafe24'});
+          fbq('trackSingle', '1105731637526447', 'PageView');
+          facebookChannel.external_id = external_id;
+          facebookChannel.basketEvent();
+        });
+      } else {
+        let external_id = facebookChannel.getExternalId();
+        console.info('external_id is cookie value.', '(2)');
+
+        fbq('init', '1105731637526447',{external_id: external_id}, {agent: 'plcafe24'});
+        fbq('trackSingle', '1105731637526447', 'PageView');
+        facebookChannel.external_id = external_id;
+        facebookChannel.basketEvent();
+      }
+    },
+    pixelEvent: function(event_type, callback, is_cookie_event) {
+      if (facebookChannel.getEventActivated(event_type)) {
+        return;
+      }
+      facebookChannel.setEventActivated(event_type, true);
+      is_cookie_event = !!is_cookie_event;
+
+      let retry = 0;
+      let execute = function() {
+        if (!facebookChannel.external_id) {
+          if (retry < 300) {
+            retry++;
+            if (retry >= 5) {
+              console.warn('retry #' + retry, event_type);
+            }
+            setTimeout(execute, 1000);
+          } else {
+            console.warn('external_id is empty.');
+          }
+          return;
+        }
+
+        if (callback.length === 0) {
+          callback();
+        }
+        else if (!is_cookie_event && typeof ECLOG !== 'undefined' && !!ECLOG.EVENT_ID) {
+          ECLOG.EVENT_ID.chk(facebookChannel.shop_id, function(error, event_id) {
+            if (error || !event_id) {
+              event_id = facebookChannel.getEventId();
+              console.info('event_id is cookie value.', '(1)');
+            }
+            facebookChannel.event_id = event_id;
+            if (event_id) {
+              callback(event_id);
+            } else {
+              console.warn('event_id is empty.', '(1)');
+            }
+          });
+        }
+        else {
+          let event_id = facebookChannel.getEventId();
+          console.info('event_id is cookie value.', '(2)');
+          facebookChannel.event_id = event_id;
+          if (event_id) {
+            callback(event_id);
+          } else {
+            console.warn('event_id is empty.', '(2)');
+          }
+        }
+      };
+      execute();
+    },
+    messengerChatPlugin: function() {
+      let event_type = 'messenger';
+      let sdk_version = '';
+      let locale = '';
+      if (!sdk_version) {
+        console.warn('sdk_version is empty.');
+        return;
+      }
+      if (!locale) {
+        console.warn('locale is empty.');
+        return;
+      }
+      if (facebookChannel.getEventActivated(event_type)) {
+        return;
+      }
+      facebookChannel.setEventActivated(event_type, true);
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId : '216637735743129',
+          autoLogAppEvents : true,
+          xfbml : true,
+          version : sdk_version
+        });
+      };
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/' + locale + '/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    },
+    basketEvent: function() {
+      let event_key = 'AddToCart';
+      if (facebookChannel.getEventActivated(event_key + '_listener')) {
+        return;
+      }
+      facebookChannel.setEventActivated(event_key + '_listener', true);
+
+      facebookChannel.pixelEvent(event_key, function(event_id) {
+        EC$("body").bind("EC_PRODUCT_ACTION_BASKET", function(e, params) {
+          try {
+            // 필수 데이터 검증
+            let validation_error = null;
+
+            if (!params || typeof params !== 'object') {
+              validation_error = 'params가 없거나 유효하지 않음';
+            } else if (!params.product_no) {
+              validation_error = 'product_no가 없음';
+            } else if (!params.contents || params.contents.length === 0) {
+              validation_error = 'contents가 비어있음';
+            } else if (typeof params.total_price === 'undefined' || params.total_price === null) {
+              validation_error = 'total_price가 없음';
+            } else {
+              // contents 배열의 각 항목 검증
+              for (let i = 0; i < params.contents.length; i++) {
+                let item = params.contents[i];
+                if (!item.variant_code) {
+                  validation_error = 'contents[' + i + '].variant_code가 없음';
+                  break;
+                }
+                if (!item.quantity) {
+                  validation_error = 'contents[' + i + '].quantity가 없음';
+                  break;
+                }
+                if (typeof item.price === 'undefined' || item.price === null) {
+                  validation_error = 'contents[' + i + '].price가 없음';
+                  break;
+                }
+              }
+            }
+
+            // 검증 실패 시 로그 전송 후 종료
+            if (validation_error) {
+              console.warn('AddToCart 이벤트 무시: ' + validation_error);
+              window.EC_JET?.message?.({
+                mall_id: facebookChannel.mall_id,
+                shop_no: facebookChannel.shop_no,
+                pixel_id: 1105731637526447,
+                external_id: facebookChannel.external_id,
+                event_id: event_id,
+                validation_error: validation_error,
+                params: params
+              }, 'MBE_ADDTOCART_VALIDATION_ERROR');
+              return;
+            }
+
+            let event_data = {
+              contents: params.contents.map(function(v) {
+                return {
+                  id: params.product_no + '.' + v.variant_code,
+                  quantity: facebookChannel.getInt(v.quantity),
+                  item_price: facebookChannel.getFloat(v.price)
+                };
+              }),
+              content_type: 'product',
+              value: facebookChannel.getFloat(params.total_price),
+              currency: params.currency
+            };
+
+            let event_log_data = Object.assign({
+              mall_id: facebookChannel.mall_id,
+              shop_no: facebookChannel.shop_no,
+              pixel_id: 1105731637526447,
+              external_id: facebookChannel.external_id,
+              event_id: event_id
+            }, event_data);
+
+            window.EC_JET?.message?.(event_log_data, 'MBE_ADDTOCART_EVENT');
+            fbq('trackSingle', '1105731637526447', event_key, event_data, {eventID: event_id});
+          } catch (e) { console.error(e); }
+        });
+      });
+    }
+  };
+
+  window.addEventListener('load', facebookChannel.init, false);
+}
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1105731637526447&ev=PageView&noscript=1"
+/></noscript>
+</div>
+<!-- CMC3 script -->
+<!-- CMC3 script -->
+<div id="fbe_product_detail_script" style="display:none;">
+  <script type="text/javascript">
+!function() {
+  try {
+    let event_key = 'ViewContent';
+    let event_data = {
+      content_name: '유어벳 펫 덴탈 스프레이 100ml, 강아지 고양이 입냄새 제거',
+      content_category: '53',
+      content_ids: ['12'],
+      content_type: 'product_group',
+      value: facebookChannel.getFloat('19400'),
+      currency: 'KRW'
+    };
+    if (typeof facebookChannel !== 'undefined') {
+      facebookChannel.pixelEvent(event_key, function (event_id) {
+        fbq('trackSingle', '1105731637526447', event_key, event_data, {eventID: event_id});
+      });
+    }
+  } catch (e) { console.error(e); }
+}();
+</script>
+</div>
+<!-- CMC3 script -->
+
+<!-- kmp -->
+<!-- CMC3 script -->
+<div id="kmp_common_top_script" style="display:none;">
+<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/kas/static/kp.js"></script></script>
+<script type="text/javascript">
+  kakaoPixel('674944102108448409').pageView();
+  kakaoPixel.setServiceOrigin('20001');
+</script>
+
+</div>
+<!-- CMC3 script -->
+ <!-- CMC3 script -->
+<div id="kmp_product_detail_script" style="display:none;">
+<script type="text/javascript">
+  kakaoPixel('674944102108448409').viewContent({
+    currency: "KRW",
+    products: [{id: "12", name: "유어벳 펫 덴탈 스프레이 100ml, 강아지 고양이 입냄새 제거", price: "19400"}]
+  });
+</script>
+</div>
+<!-- CMC3 script -->
+ 
+<!-- ttc -->
+<script type="text/javascript">
+    !function (w, d, t) {
+        w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];
+        ttq.methods=[
+            "page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"]
+            ,
+            ttq.setAndDefer=
+                function(t,e){
+                    t[e]=function(){
+                        t.push([e].concat(Array.prototype.slice.call(arguments,0)))
+                    }
+                };
+
+        for(var i=0;i<ttq.methods.length;i++)
+            ttq.setAndDefer(ttq,ttq.methods[i]);
+
+        ttq.instance=function(t){
+            for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)
+                ttq.setAndDefer(e,ttq.methods[n]);
+            return e
+        },
+
+            ttq.load=function(e,n){
+                var i="https://analytics.tiktok.com/i18n/pixel/events.js";
+                ttq._i=ttq._i||{},
+                    ttq._i[e]=[],
+                    ttq._i[e]._u=i,
+                    ttq._t=ttq._t||{},
+                    ttq._t[e]=+new Date,
+                    ttq._o=ttq._o||{},
+                    ttq._o[e]=n||{},
+                    ttq._partner=ttq._partner||"Cafe24";
+                var o=document.createElement("script");
+                o.type="text/javascript",
+                    o.async=!0,
+                    o.src=i+"?sdkid="+e+"&lib="+t;
+                var a=document.getElementsByTagName("script")[0];
+                a.parentNode.insertBefore(o,a)
+            };
+
+        ttq.load("CTB98KJC77U31F9D3270");
+        ttq.page();
+    }(window, document, 'ttq');
+
+    if (typeof tiktokChannelPixel === 'undefined' && window === window.top) {
+        var tiktokChannelPixel = {
+            setEventActivated: function (type, activated) {
+                try { window.top['ttc_' + type + '_activated'] = !!activated; } catch (e) {}
+            },
+            getEventActivated: function (type) {
+                try { return !!window.top['ttc_' + type + '_activated']; } catch (e) { return false; }
+            },
+            getCookie: function (name) {
+                return (name = (document.cookie + ';').match(name + '=.*;')) && name[0].split(/=|;/)[1];
+            },
+            getEventId: function () {
+                const self = tiktokChannelPixel;
+                return self.getCookie('fb_event_id');
+            },
+            getExternalId: function () {
+                const self = tiktokChannelPixel;
+                return self.getCookie('fb_external_id');
+            },
+            pixelEvent: function (event_type, callback) {
+                const self = tiktokChannelPixel;
+                if (self.getEventActivated(event_type)) return;
+                self.setEventActivated(event_type, true);
+
+                if (typeof ECLOG !== 'undefined' && ECLOG.EXTERNAL_ID && ECLOG.EVENT_ID) {
+                    ECLOG.EXTERNAL_ID.chk(CAFE24.SHOP.getMallID() + '.' + CAFE24.SDE_SHOP_NUM, function (error, externalId) {
+                        if (!error && externalId) {
+                            ECLOG.EVENT_ID.chk(CAFE24.SHOP.getMallID() + '.' + CAFE24.SDE_SHOP_NUM, function (error, eventId) {
+                                if (!error && eventId) {
+                                    callback(eventId, externalId);
+                                } else {
+                                    const eventId = self.getEventId();
+                                    if (eventId) callback(eventId, externalId);
+                                }
+                            });
+                        } else {
+                            const eventId = self.getEventId();
+                            const externalId = self.getExternalId();
+                            if (eventId && externalId) callback(eventId, externalId);
+                        }
+                    })
+                } else {
+                    const eventId = self.getEventId();
+                    const externalId = self.getExternalId();
+                    if (eventId && externalId) callback(eventId, externalId);
+                }
+            },
+            basketEvent: function (eventId, externalId) {
+                EC$("body").bind("EC_PRODUCT_ACTION_BASKET", function (e, params) {
+                    if (!params || typeof params !== 'object') return;
+                    if (!params.product_no) return;
+                    if (!params.contents || !params.contents.length) return;
+
+                    ttq.identify({
+                        external_id: externalId
+                    });
+                    ttq.instance("CTB98KJC77U31F9D3270").track("AddToCart", {
+                        contents: params.contents.map(v => ({
+                            content_id: "" + params.product_no,
+                            content_name: v.name,
+                            content_category: params.category ? (Object.values(params.category)[0]?.category_name || '') : '',
+                            price: v.price,
+                            quantity: v.quantity
+                        })),
+                        content_type: "product",
+                        currency: params.currency,
+                        value: params.total_price
+                    }, {event_id: eventId});
+                });
+            },
+            basketEvent2: function () {
+                const self = tiktokChannelPixel;
+                self.pixelEvent('AddToCart', self.basketEvent)
+            }
+        }
+    }
+
+    if (typeof tiktokChannelPixel !== 'undefined') window.addEventListener('load', tiktokChannelPixel.basketEvent2, false);
+</script><script type="text/javascript">
+    function ViewEvent(eventId, externalId) {
+        ttq.identify({
+            external_id: externalId
+        });
+
+        ttq.instance("CTB98KJC77U31F9D3270").track('ViewContent', {
+            contents: [{
+                content_id: "12",
+                content_name: '유어벳 펫 덴탈 스프레이 100ml, 강아지 고양이 입냄새 제거',
+                content_category: ""||""||"BEST",
+                price: 19400,
+                quantity: 1,
+            }],
+            content_type: 'product',
+            value: 19400,
+            currency: CAFE24.SHOP.getCurrency()
+        }, { event_id: eventId})
+    }
+
+    if (typeof tiktokChannelPixel !== 'undefined' && tiktokChannelPixel) tiktokChannelPixel.pixelEvent('ViewContent', ViewEvent)
+</script>
+<!-- yts -->
+<!-- Event snippet for Youtube Shopping Conversion -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GT-NSVX4JGW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'GT-NSVX4JGW');
+</script>
+<!-- External Script End -->
+
+<script type="text/javascript" src="//t1.daumcdn.net/adfit/static/kp.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://checkout.naver.com/customer/js/checkoutButton.js" charset="utf-8"></script>
+<script type="text/javascript" src="//t1.kakaocdn.net/kakao_js_sdk/v1/kakao.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/ind-script/i18n.php?v=2610131513&lang=ko_KR&domain=front&type=" charset="utf-8"></script>
+
+<script src="/ind-script/optimizer.php?filename=vVlLc9s2EL7buvZ3MJk-pldLjtNM7NiNnHqmtyW4lGCCAIqHZebXd0HSjmWSJkGpPdiSiP12F4t9grmBEnfKFIlBq7xhmNzbhL__XS7u7U95d9VzDaxI7v_xaKr24-fFb4t3k-jx0aGRIGz7YMGUKjjOw3ojIpRcIFvkMhIAgoONwdCqU6bekDZqQ6g9w2bg0PESk1KVKF2C7Kr-csfd9vb7OThYlFyOogVPiRZv6fsQrdWGS5cPslLMB8EXypQrJZ1RQqAZor4R3p5pvTQ82wxK9I6LobXcqHq3J1YJolPyxCl9IrjEkxSkHJbcAJkqSyXfpnkESY4ryUe0QTfGsaZ2WGpBdnxJClonVyrlApOvL1CNBp09DlCXKvP0yO64nsI895IFoyREl3nmFuUrF5qK6wgkR0m-NX76EijgeyUUZBNIS-8gyLhOLZqHfbMOQLQSVc7FiDNkmIMXLmzNlmDcsuMHYWm9VXqP-UUN_gwFqKQI_2_4I4quZ74BvsO0ZDqBDLSbLHFVO8C3nvMfAJxj6jdTmZMTbpSpLrl1EyFfMUeDkuHKm_BZ3RjOOhZYKjDZHpqeLtLwdKKcKzojbmktQrcvuHvKh_d2P24jUM-5dyKW_q6FLCIQ17qOng-PzkANr3_XP9dKZMq74zDrPZp5rD6VsDkSq3NuKftVnLLgwQw_EZM1lxuBaxRYJ6VjKWmI3RJsgUc6jAsvM9L0OMzuShvP6JnFqlPWohnIQ-QvucwOgNftynz4XxTgGbx2lYGa8pTlkpCKTvXrgJqEYu2v05yaHnDzpB4G9tPrRxrj802ArCPpqaWbSH_TNBgUOywuI7fAs9iU8AMaFSS0I0prTHnppiNWIERKpze1WG9DpzL1GK9Nhib4TPJRqBQENqYnQkceEWEVi2DYdoLfOcjz6mmMiJ-q0g2vQf__PJfROCMtb3NaPB7Btok9Hluio36wyWejaC38htP88NBkMGWeuDw_iBgcu8yCcjKzXabEQZN18Nh8tyg0_kc6U7Bk7WR5TLY0ifC8OjZXmlrcgYYQilGQJ4Uamn5-SJtQQoiVzMAkvyx-XbxLchpWNWdFFFS8fydfqfNGllnXWSYs0LRXF-cnRmMTuifXbD9m5flPMp-sJP-OHz3PcJagW-VAnGXZmjY2i0HI3YoVNqr3u-QFJkujdmTYFbAtxmKjm8UXqFbxuGJPE6wDLpKlDxFMD0sVWcS_4gPHHVm7aL-uIgrzF6AYv-IC4wael42DUOTLXM9Ct4OHr-KMVs9nfytVzoDN0nMdXHEWsunCZ0Ev6Fga-BVI0twcyGVmGDKUbhb0suf-a_yQKGfwoC2IONyfEuIAIWh7tvbWZY5nLIbcoFYmSkAqevzsLQAD7dgWhsrGmXfb9fpyaHnrSio7juyNdohmZSrt1GfshGjjlPtXpcG-p9aBw9ON77n-6sGArSRr_kdSl1im3aAYAdWTAuse-wismSfm4nTf1dQk5EBNGcGu6gYhXtuBQjCCOic3tzxW1h23277bzgmw3slzBGd689gIqEl-BVbUnWazsHUbtJqhb-2nsS6DEnM-z0UvoYqW99FAFusslJFUSS0vq8GUoXexPhquym-U9jo2KDw1lCUaCqkHHm_c8-ZNyppaHU0DMJUpypI2Vvkq9IvPBSjeLfYYzAif2q3-4OH1aTXbLVv8LaQHoMNl9twNND1z3ywz5gMCeAmpwGjpGtzWKIGnvZPlBNGXPZ1QD0RPTvhN-TsVasPlBHK7o2bh9evnQPuhvaXpVvKwbJnh2k3ChNd24aYvWWtk9TviHLplrxe6lyG0Xr35Jtoo7_CCP9L6vw&type=js&k=0a7362984c881e86a4938397d559e4e25827b68d&t=1791709345" ></script><script src="/ind-script/optimizer_user.php?filename=lZJJksMgDEUPgLc5B9Vn6RPIoDZyAGEEGW4fnMoqQ7WygsX7_KEQj8aj0JKtHCn_2FVsYt8j2lLH6ZoViGhKJYfTKgd5FrjILZAz0ron3vV_kaGZDKe3_KuBC5AXVMIVT4RnJbxlUGaWMxWsU6KsFADLWzLClXuzMwi5nbtfPsV1nBLnf8o8Xtw6uaNRlH_wqcdGErj8BiqF8qJdIg6fL4ZYt471Os2XIfRfTRgQdoGqjYOGCw8fZYkRxcxQtT-Wud2T3AA&type=js&k=92497badcdcfee7cb2947b60c6a99e7d574e6b9c&t=1743588912&user=T" ></script>
+<script type="text/javascript">
+var sIsFrontDesignChangeRequired = 'F';
+var sYtshopping = 'F';
+var sIsYoutubeShops = 'F';
+var sIsValidChRef = 'F';
+var sChRef = '';
+var sIsDropshipping = 'F';
+if (sIsValidChRef === 'T') {
+sessionStorage.setItem('ch_ref', sChRef);
+}
+// ch_ref 존재 여부 체크
+CAFE24.hasChRef = function() {
+if (sIsValidChRef === 'T' && sessionStorage.getItem('ch_ref')) {
+return true;
+}
+return false;
+}
+// ch_ref 데이터 조회
+CAFE24.getChRefData = function() {
+if (sIsValidChRef === 'T') {
+return sessionStorage.getItem('ch_ref');
+}
+}
+// 프론트 디자인 변경이 필요한지 여부 반환
+CAFE24.checkChannelUI = function() {
+// [ECHOSTING-598429] 드롭쉬핑은 항상 전체 UI 노출
+if (sIsDropshipping === 'T') {
+return false;
+}
+if ((sIsFrontDesignChangeRequired === 'T' && sessionStorage.getItem('ch_ref')) || sIsYoutubeShops === 'T') {
+return true;
+} else {
+return false;
+}
+}
+// 파라미터에 ch_ref 추가
+CAFE24.attachChRef = function(sUrl) {
+if (sUrl) {
+var sChRef = CAFE24.getChRefData();
+if (sChRef) {
+var sSeparator = (sUrl.includes('?')) ? '&' : '?';
+sUrl += sSeparator + 'ch_ref=' + sChRef;
+}
+}
+return sUrl;
+}
+var sIsCheckout = 'F';
+var sCheckoutToken = '';
+if (sIsCheckout === 'T') {
+sessionStorage.setItem('checkoutToken', sCheckoutToken);
+} else {
+sessionStorage.removeItem('checkoutToken');
+}
+CAFE24.getCheckoutToken = function() {
+if (sIsCheckout === 'T') {
+return sessionStorage.getItem('checkoutToken');
+}
+}
+CAFE24.attachCheckoutParam = function(sUrl) {
+if (sUrl) {
+var sCheckoutToken = CAFE24.getCheckoutToken();
+if (sCheckoutToken) {
+var sSeparator = (sUrl.includes('?')) ? '&' : '?';
+sUrl += sSeparator + 'checkoutToken=' + sCheckoutToken;
+}
+}
+return sUrl;
+}
+CAFE24.MOBILE_WEB = false; var mobileWeb = CAFE24.MOBILE_WEB;
+try {
+var isUseLoginKeepingSubmit = false;
+// isSeqNoKeyExpiretime
+function isSeqNoKeyExpiretime(iExpiretime)
+{
+var sDate = new Date();
+var iNow = Math.floor(sDate.getTime() / 1000);
+// 유효시간 확인
+if (iExpiretime > iNow) {
+return false;
+}
+return true;
+}
+function isUseLoginKeeping()
+{
+// 디바이스 확인
+if (EC_MOBILE_DEVICE === false) {
+return;
+}
+// 로그인 여부
+var isLogin = document.cookie.match(/(?:^| |;)iscache=F/) ? true : false
+if (isLogin) {
+return;
+}
+var sLoginKeepingInfo = localStorage.getItem('use_login_keeping_info');
+var iSeqnoExpiretime;
+var iSeqNoKey;
+if (sLoginKeepingInfo == null) {
+iSeqnoExpiretime = localStorage.getItem('seq_no_key_expiretime');
+iSeqNoKey = localStorage.getItem('seq_no_key');
+// 유효시간, key 값 확인
+if (iSeqnoExpiretime === null || iSeqNoKey === null) {
+return;
+}
+} else {
+var oLoginKeepingInfo = JSON.parse(sLoginKeepingInfo);
+iSeqNoKey = oLoginKeepingInfo.seq_no_key;
+iSeqnoExpiretime = oLoginKeepingInfo.seq_no_key_expiretime;
+if (isNaN(iSeqNoKey) === true || isNaN(iSeqnoExpiretime) === true) {
+return;
+}
+}
+if (isSeqNoKeyExpiretime(iSeqnoExpiretime) === false) {
+return;
+}
+useLoginKeepingSubmit();
+}
+function findGetParamValue(paramKey)
+{
+var result = null,
+tmp = [];
+location.search.substr(1).split('&').forEach(function (item) {
+tmp = item.split('=');
+if (tmp[0] === paramKey) result = decodeURIComponent(tmp[1]);
+});
+return result;
+}
+function useLoginKeepingSubmit()
+{
+var iSeqnoExpiretime;
+var iSeqNoKey;
+var sUseLoginKeepingIp;
+var sLoginKeepingInfo = localStorage.getItem('use_login_keeping_info');
+if (sLoginKeepingInfo == null) {
+iSeqnoExpiretime = localStorage.getItem('seq_no_key_expiretime');
+iSeqNoKey = localStorage.getItem('seq_no_key');
+} else {
+var oLoginKeepingInfo = JSON.parse(sLoginKeepingInfo);
+iSeqNoKey = oLoginKeepingInfo.seq_no_key;
+iSeqnoExpiretime = oLoginKeepingInfo.seq_no_key_expiretime;
+sUseLoginKeepingIp = oLoginKeepingInfo.use_login_keeping_ip;
+}
+var oForm = document.createElement('form');
+oForm.method = 'post';
+oForm.action = '/exec/front/member/LoginKeeping';
+document.body.appendChild(oForm);
+var oSeqNoObj = document.createElement('input');
+oSeqNoObj.name = 'seq_no_key';
+oSeqNoObj.type = 'hidden';
+oSeqNoObj.value = iSeqNoKey;
+oForm.appendChild(oSeqNoObj);
+oSeqNoObj = document.createElement('input');
+oSeqNoObj.name = 'seq_no_key_expiretime';
+oSeqNoObj.type = 'hidden';
+oSeqNoObj.value = iSeqnoExpiretime;
+oForm.appendChild(oSeqNoObj);
+var returnUrl = findGetParamValue('returnUrl');
+if (returnUrl == '' || returnUrl == null) {
+returnUrl = location.pathname + location.search;
+}
+oSeqNoObj = document.createElement('input');
+oSeqNoObj.name = 'returnUrl';
+oSeqNoObj.type = 'hidden';
+oSeqNoObj.value = returnUrl;
+oForm.appendChild(oSeqNoObj);
+if (sUseLoginKeepingIp != undefined) {
+oSeqNoObj = document.createElement('input');
+oSeqNoObj.name = 'use_login_keeping_ip';
+oSeqNoObj.type = 'hidden';
+oSeqNoObj.value = sUseLoginKeepingIp;
+oForm.appendChild(oSeqNoObj);
+}
+oForm.submit();
+isUseLoginKeepingSubmit = true;
+}
+isUseLoginKeeping();
+} catch(e) {
+}
+CAFE24.KAKAO_PIXEL_BRIDGE.init("674944102108448409");
+window.CAFE24=window.CAFE24||{};CAFE24.WEBMCP_Q=CAFE24.WEBMCP_Q||[];CAFE24.WEBMCP_Q.push(["init",{"isLogin":false,"shopNo":1,"mallPrefix":"cafe24_yourvet_1","pageType":""}]);
+var EC_BASKET_BENEFIT_INFO = '{"total_benefit_price_raw":null,"aBenefit":{"total_subscriptionpayseqsale_price":null,"total_periodsale_price":null,"total_membersale_price":null,"total_rebuysale_price":null,"total_bulksale_price":null,"total_newproductsale_price":null,"total_membergroupsale_price":null,"total_setproductsale_price":null,"total_shipfeesale_price":null,"total_periodsale_price_presentment":null,"total_membersale_price_presentment":null,"total_rebuysale_price_presentment":null,"total_bulksale_price_presentment":null,"total_newproductsale_price_presentment":null,"total_setproductsale_price_presentment":null,"total_membergroupsale_price_presentment":null,"total_shipfeesale_price_presentment":null}}'
+var EC_SHOP_FRONT_BASKET_DELETED_PRODUCT = [];
+var aBasketProductData = [];
+CAFE24.SHOP_CURRENCY_INFO = {"1":{"aShopCurrencyInfo":{"currency_code":"KRW","currency_no":"410","currency_symbol":"\uffe6","currency_name":"South Korean won","currency_desc":"\uffe6 \uc6d0 (\ud55c\uad6d)","decimal_place":0,"round_method_type":"F"},"aShopSubCurrencyInfo":null,"aBaseCurrencyInfo":{"currency_code":"KRW","currency_no":"410","currency_symbol":"\uffe6","currency_name":"South Korean won","currency_desc":"\uffe6 \uc6d0 (\ud55c\uad6d)","decimal_place":0,"round_method_type":"F"},"fExchangeRate":1,"fExchangeSubRate":null,"aFrontCurrencyFormat":{"head":"","tail":"\uc6d0"},"aFrontSubCurrencyFormat":{"head":"","tail":""},"bPresentmentEnabled":false,"aPresentmentCurrencyInfo":null,"fExchangePresentmentRate":null,"aFrontPresentmentCurrencyFormat":null,"bGlobaleEnabled":false}}; var SHOP_CURRENCY_INFO = CAFE24.SHOP_CURRENCY_INFO;
+if (typeof CAFE24.SHOP_FRONT_NEW_OPTION_COMMON !== "undefined") {CAFE24.SHOP_FRONT_NEW_OPTION_COMMON.initObject();}
+if (typeof CAFE24.SHOP_FRONT_NEW_OPTION_BIND !== "undefined") {CAFE24.SHOP_FRONT_NEW_OPTION_BIND.initChooseBox();}
+if (typeof CAFE24.SHOP_FRONT_NEW_OPTION_DATA !== "undefined") {CAFE24.SHOP_FRONT_NEW_OPTION_DATA.initData();}
+var sBasketDelvType = 'A';
+var bIsNewProduct = true;
+var sUseBasketConfirm = 'F';
+var sUsePaymentMethodPerProduct = 'T';
+var sDiscountApp = "";
+var bCheckedProductCalc = false;
+var bUseElastic = false;
+var sSearchBannerUseFlag = 'F';
+var iProductNo = 12;
+var aSoldoutDisplay = {"12":"\ud488\uc808"};
+var aReserveStockMessage = {"show_stock_message":"F","Q":"[\uc7ac\uace0 : [:PRODUCT_STOCK:]\uac1c][\ub2f9\uc77c\ubc1c\uc1a1]","R":"[\uc7ac\uace0 : [:PRODUCT_STOCK:]\uac1c][\uc608\uc57d\uc8fc\ubb38]","N":"","stock_message_replace_name":"[:\uc218\ub7c9:]"};
+var product_min = '1';var order_limit_type = 'O';
+var delvtype = 'A';
+var mileage_val = '0';var mileage_generate_calc = '0';
+var basket_type = 'A0000';var product_name = '유어벳 펫 덴탈 스프레이 100ml, 강아지 고양이 입냄새 제거';var product_max_type = 'F';var has_option = 'T';var mileage_icon = '//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_point.gif';var mileage_icon_alt = '적립금';var price_unit_head = '';var price_unit_tail = '원';var option_push_button = 'F';var product_image_tiny = '202606/189622ff53f7b9f1fa39813daf4e8fe8.png';var is_adult_product = 'F';var is_individual_buy = 'F';var is_soldout_icon = 'F';var link_product_detail = '/product/유어벳-펫-덴탈-스프레이-100ml-강아지-고양이-입냄새-제거/12/';var sIsNonmemberLimit = 'F';
+var product_max = '-1';
+var buy_unit_type = 'O';var buy_unit = '1';
+var product_price = '19400';var product_price_content = '';var is_selling_price = 'S';var product_price_mobile = '19400';var mobile_dc_price = '';var isMobileDcStatus = 'F';var product_price_ref = '';var currency_disp_type = 'P';
+$.data(document,'SameImage','F');
+var _iPrdtPriceOrg = 17636;
+var _iPrdtPriceTax = 1764;
+var qrcode_class = 'EC_Qrcode6aceb26a43b78';
+var sSocialUrl="/exec/front/Product/Social/";
+window.CAFE24=window.CAFE24||{};CAFE24.WEBMCP_Q=CAFE24.WEBMCP_Q||[];CAFE24.WEBMCP_Q.push(["setContext",{"page_type":"product","product_no":12,"product_name":"유어벳 펫 덴탈 스프레이 100ml, 강아지 고양이 입냄새 제거","default_item_code":"P000000M000A"}]);
+var sIsMileageDisplay = 'F';
+if (typeof CAFE24.SHOP_FRONT_NEW_LIKE_COMMON !== "undefined") {CAFE24.SHOP_FRONT_NEW_LIKE_COMMON.init({"bIsUseLikeProduct":false,"bIsUseLikeCategory":false});}
+if (typeof CAFE24.SHOP_FRONT_REVIEW_TALK_REVIEW_COUNT !== "undefined") {CAFE24.SHOP_FRONT_REVIEW_TALK_REVIEW_COUNT.bIsReviewTalk = 'F';}
+var sMileageUnit = '[:PRICE:]원';
+var sIsDisplayNonmemberPrice = "F";
+var sNonmemberPrice = '-';
+if (typeof setCategoryCookie === "function") { setCategoryCookie({"category_no":53,"category_name":"BEST"}); }
+if (typeof(ImageAction) !== 'undefined') { ImageAction.sUseAddimageAction = 'C' }
+var _iPrdtPriceOrg = 17636;
+var _iPrdtPriceTax = 1764;
+var option_type = 'F';var option_name_mapper = '필수옵션#$%추가옵션';var option_stock_data = '{\"P000000M00ID\":{\"stock_price\":\"0.00\",\"use_stock\":false,\"use_soldout\":\"F\",\"is_display\":\"T\",\"is_selling\":\"T\",\"option_price\":19400,\"option_name\":\"\\ud544\\uc218\\uc635\\uc158\",\"option_value\":\"(25%\\ud560\\uc778) \\ub374\\ud0c8\\uc2a4\\ud504\\ub808\\uc774 1\\uac1c\",\"stock_number\":0,\"option_value_orginal\":[\"(25%\\ud560\\uc778) \\ub374\\ud0c8\\uc2a4\\ud504\\ub808\\uc774 1\\uac1c\"],\"option_name_original\":[\"\\ud544\\uc218\\uc635\\uc158\"],\"use_stock_original\":\"F\",\"use_soldout_original\":\"F\",\"use_soldout_today_delivery\":\"F\",\"is_auto_soldout\":\"F\",\"is_mandatory\":\"T\",\"option_id\":\"00ID\",\"is_reserve_stat\":\"N\",\"item_image_file\":null,\"origin_option_added_price\":\"0.00\"},\"P000000M00IE\":{\"stock_price\":\"17300.00\",\"use_stock\":false,\"use_soldout\":\"F\",\"is_display\":\"T\",\"is_selling\":\"T\",\"option_price\":36700,\"option_name\":\"\\ud544\\uc218\\uc635\\uc158\",\"option_value\":\"(29%\\ud560\\uc778) \\ub374\\ud0c8\\uc2a4\\ud504\\ub808\\uc774 2\\uac1c\",\"stock_number\":0,\"option_value_orginal\":[\"(29%\\ud560\\uc778) \\ub374\\ud0c8\\uc2a4\\ud504\\ub808\\uc774 2\\uac1c\"],\"option_name_original\":[\"\\ud544\\uc218\\uc635\\uc158\"],\"use_stock_original\":\"F\",\"use_soldout_original\":\"F\",\"use_soldout_today_delivery\":\"F\",\"is_auto_soldout\":\"F\",\"is_mandatory\":\"T\",\"option_id\":\"00IE\",\"is_reserve_stat\":\"N\",\"item_image_file\":null,\"origin_option_added_price\":\"17300.00\"},\"P000000M00IF\":{\"stock_price\":\"32000.00\",\"use_stock\":false,\"use_soldout\":\"F\",\"is_display\":\"T\",\"is_selling\":\"T\",\"option_price\":51400,\"option_name\":\"\\ud544\\uc218\\uc635\\uc158\",\"option_value\":\"(34%\\ud560\\uc778) \\ub374\\ud0c8\\uc2a4\\ud504\\ub808\\uc774 3\\uac1c\",\"stock_number\":0,\"option_value_orginal\":[\"(34%\\ud560\\uc778) \\ub374\\ud0c8\\uc2a4\\ud504\\ub808\\uc774 3\\uac1c\"],\"option_name_original\":[\"\\ud544\\uc218\\uc635\\uc158\"],\"use_stock_original\":\"F\",\"use_soldout_original\":\"F\",\"use_soldout_today_delivery\":\"F\",\"is_auto_soldout\":\"F\",\"is_mandatory\":\"T\",\"option_id\":\"00IF\",\"is_reserve_stat\":\"N\",\"item_image_file\":null,\"origin_option_added_price\":\"32000.00\"},\"P000000M00IG\":{\"stock_price\":\"19600.00\",\"use_stock\":false,\"use_soldout\":\"F\",\"is_display\":\"T\",\"is_selling\":\"T\",\"option_price\":39000,\"option_name\":\"\\ud544\\uc218\\uc635\\uc158\",\"option_value\":\"(36%\\ud560\\uc778) \\ub374\\ud0c8SET - \\ub374\\ud0c8\\uc2a4\\ud504\\ub808\\uc7741\\uac1c+\\ub374\\ud0c8\\uac941\\uac1c\",\"stock_number\":0,\"option_value_orginal\":[\"(36%\\ud560\\uc778) \\ub374\\ud0c8SET - \\ub374\\ud0c8\\uc2a4\\ud504\\ub808\\uc7741\\uac1c+\\ub374\\ud0c8\\uac941\\uac1c\"],\"option_name_original\":[\"\\ud544\\uc218\\uc635\\uc158\"],\"use_stock_original\":\"F\",\"use_soldout_original\":\"F\",\"use_soldout_today_delivery\":\"F\",\"is_auto_soldout\":\"F\",\"is_mandatory\":\"T\",\"option_id\":\"00IG\",\"is_reserve_stat\":\"N\",\"item_image_file\":null,\"origin_option_added_price\":\"19600.00\"},\"P000000M00IH\":{\"stock_price\":\"4000.00\",\"use_stock\":false,\"use_soldout\":\"F\",\"is_display\":\"T\",\"is_selling\":\"T\",\"option_price\":23400,\"option_name\":\"\\ucd94\\uac00\\uc635\\uc158\",\"option_value\":\"(28%\\ud560\\uc778) \\uba54\\ub514\\uc544\\uc774\\ub4dc\\ub86d\",\"stock_number\":0,\"option_value_orginal\":[\"(28%\\ud560\\uc778) \\uba54\\ub514\\uc544\\uc774\\ub4dc\\ub86d\"],\"option_name_original\":[\"\\ucd94\\uac00\\uc635\\uc158\"],\"use_stock_original\":\"F\",\"use_soldout_original\":\"F\",\"use_soldout_today_delivery\":\"F\",\"is_auto_soldout\":\"F\",\"is_mandatory\":\"F\",\"option_id\":\"00IH\",\"is_reserve_stat\":\"N\",\"item_image_file\":null,\"origin_option_added_price\":\"4000.00\"},\"P000000M00II\":{\"stock_price\":\"7500.00\",\"use_stock\":false,\"use_soldout\":\"F\",\"is_display\":\"T\",\"is_selling\":\"T\",\"option_price\":26900,\"option_name\":\"\\ucd94\\uac00\\uc635\\uc158\",\"option_value\":\"(27%\\ud560\\uc778) \\ub354\\ub9c8\\ub9b4\\ub809\\uc11c\",\"stock_number\":0,\"option_value_orginal\":[\"(27%\\ud560\\uc778) \\ub354\\ub9c8\\ub9b4\\ub809\\uc11c\"],\"option_name_original\":[\"\\ucd94\\uac00\\uc635\\uc158\"],\"use_stock_original\":\"F\",\"use_soldout_original\":\"F\",\"use_soldout_today_delivery\":\"F\",\"is_auto_soldout\":\"F\",\"is_mandatory\":\"F\",\"option_id\":\"00II\",\"is_reserve_stat\":\"N\",\"item_image_file\":null,\"origin_option_added_price\":\"7500.00\"},\"P000000M00IJ\":{\"stock_price\":\"4900.00\",\"use_stock\":false,\"use_soldout\":\"F\",\"is_display\":\"T\",\"is_selling\":\"T\",\"option_price\":24300,\"option_name\":\"\\ucd94\\uac00\\uc635\\uc158\",\"option_value\":\"(43%\\ud560\\uc778) \\ubc84\\ube14\\ud3fc\",\"stock_number\":0,\"option_value_orginal\":[\"(43%\\ud560\\uc778) \\ubc84\\ube14\\ud3fc\"],\"option_name_original\":[\"\\ucd94\\uac00\\uc635\\uc158\"],\"use_stock_original\":\"F\",\"use_soldout_original\":\"F\",\"use_soldout_today_delivery\":\"F\",\"is_auto_soldout\":\"F\",\"is_mandatory\":\"F\",\"option_id\":\"00IJ\",\"is_reserve_stat\":\"N\",\"item_image_file\":null,\"origin_option_added_price\":\"4900.00\"},\"P000000M00IK\":{\"stock_price\":\"-13600.00\",\"use_stock\":false,\"use_soldout\":\"F\",\"is_display\":\"T\",\"is_selling\":\"T\",\"option_price\":5800,\"option_name\":\"\\ucd94\\uac00\\uc635\\uc158\",\"option_value\":\"(28%\\ud560\\uc778) \\ud4e8\\uc5b4\\ucf54\\ud2bc\\uac70\\uc988\\ud328\\ub4dc\",\"stock_number\":0,\"option_value_orginal\":[\"(28%\\ud560\\uc778) \\ud4e8\\uc5b4\\ucf54\\ud2bc\\uac70\\uc988\\ud328\\ub4dc\"],\"option_name_original\":[\"\\ucd94\\uac00\\uc635\\uc158\"],\"use_stock_original\":\"F\",\"use_soldout_original\":\"F\",\"use_soldout_today_delivery\":\"F\",\"is_auto_soldout\":\"F\",\"is_mandatory\":\"F\",\"option_id\":\"00IK\",\"is_reserve_stat\":\"N\",\"item_image_file\":null,\"origin_option_added_price\":\"-13600.00\"}}';var stock_manage = '';var option_value_mapper = 'null';var is_onlyone = 'F';var item_count = '8';var item_listing_type = 'S';var product_option_price_display = 'T';
+var add_option_name = '';
+if (EC$("#NaverChk_Button").length == 0 && (EC$('[onclick^="product_submit(2"]').length > 0 || EC$('[onclick^="product_set_submit(2"]').length > 0
+|| EC$('#btnBuy').length > 0 || EC$('#actionBuy').length > 0 || EC$('[onclick^="PRODUCTSUBMIT.sendLoginPage("]').length > 0)) {
+var EC_CHECKOUT_TARGET_DIV = EC$('[onclick^="product_submit(2"]');
+if (EC_CHECKOUT_TARGET_DIV.length == 0) {
+EC_CHECKOUT_TARGET_DIV = EC$('#btnBuy').parent();
+}
+if (EC_CHECKOUT_TARGET_DIV.length == 0) {
+EC_CHECKOUT_TARGET_DIV = EC$('#actionBuy').parent();
+}
+if (EC_CHECKOUT_TARGET_DIV.length == 0) {
+EC_CHECKOUT_TARGET_DIV = EC$('[onclick^="product_set_submit(2"]');
+}
+if (EC_CHECKOUT_TARGET_DIV.length == 0) {
+EC_CHECKOUT_TARGET_DIV = EC$('[onclick^="PRODUCTSUBMIT.sendLoginPage("]');
+}
+if (EC_CHECKOUT_TARGET_DIV.parent().hasClass('xans-product-action') === true) {
+if (typeof bIsOptionSelectFrame !== 'undefined' && bIsOptionSelectFrame === true) {
+EC_CHECKOUT_TARGET_DIV.parent().parent().append('<div id="NaverChk_Button" style="margin:20px auto 0; float:left; padding-right:10px; clear:both;"></div>');
+} else {
+EC_CHECKOUT_TARGET_DIV.parent().append('<div id="NaverChk_Button" style="margin:20px auto 0; float:left; padding-right:10px; clear:both;"></div>');
+}
+} else {
+EC_CHECKOUT_TARGET_DIV.parent().parent().append('<div id="NaverChk_Button" style="margin:20px auto 0; float:left; padding-right:10px; clear:both;"></div>');
+}
+}
+var _isProc = "T";
+var is_order_page = "N";
+if (typeof(nhn) !== "undefined") {
+nhn.CheckoutButton.apply({
+EMBED_ID: "NaverChk_Button",
+BUTTON_KEY:"95A417E9-8177-4005-9DF8-E27B990A4662",
+TYPE: "A",
+COLOR: "1",
+COUNT: "2",
+ENABLE: "Y",
+BUY_BUTTON_HANDLER:nv_add_basket_1_product,
+WISHLIST_BUTTON_HANDLER:nv_add_basket_2_product,
+"":""
+});
+}
+$(document).ready(function()
+{
+var oOptionSelectLayer = parent.document.getElementById("capp-shop-new-product-optionselect-layer");
+if (oOptionSelectLayer) {
+$(oOptionSelectLayer).height($(oOptionSelectLayer).height() + 88);
+}
+});
+var iCategoryNo = '0';var iDisplayGroup = '0';var option_msg = '필수 옵션을 선택해 주세요.';var sLoginURL = 'login.html';var bPrdOptLayer = '';var sOptionType = 'F';
+$(function() { CAFE24.FRONT_NEW_PRODUCT_LAZYLOAD.resetDetailContent();});
+$(function() { CAFE24.FRONT_NEW_PRODUCT_LAZYLOAD.resetDetailContent();});
+EC$(function() {
+var record = EC$('.xans-record-', '.xans-product-review').first();
+if (record.length < 1 || record.is(':not(:visible)')) {
+EC$('.xans-product-reviewpaging').remove();
+}
+});
+EC$(function() {
+var record = EC$('.xans-record-', '.xans-product-qna').first();
+if (record.length < 1 || record.is(':not(:visible)')) {
+EC$('.xans-product-qnapaging').remove();
+}
+});
+var EC_SHOP_MULTISHOP_SHIPPING = {"bMultishopShipping":true,"bMultishopShippingCountrySelection":false,"bMultishopShippingLanguageSelection":true};
+var sMileageName = '적립금';
+var sMileageUnit = '[:PRICE:]원';
+var sDepositName = '예치금';
+var sDepositUnit = '원';
+CAFE24.APPSCRIPT_ASSIGN_DATA = CAFE24.APPSCRIPT_ASSIGN_DATA || [{'src':'https://app4you.cafe24.com/SmartPopup/tunnel/scriptTags?vs=20250409133338.1&client_id=AyPifbe9TEq8i4fmvfUgaZ', 'integrity': 'sha384-j+WLOriOo0/sb+Ho5fn6lGPknv0cW+wMxOLlx8qpy01ShkkynynGNJQ53niqAdze'},{'src':'https://d1s5ibsnlco9or.cloudfront.net/prod/vreview-embed-script/script.js?vrid=fa041c31-33a7-437e-8cb8-40f60b95a2e6&vs=20231121134554.1&client_id=mpBjVabWLFpmMWptZtZkBD'},{'src':'https://calendar-app.cafe24.com/openapi/inject.js?vs=20241204151849.1&client_id=A8RQp67UIt9nBlqvThz2jC'},{'src':'https://static.alphwidget.com/script/Push-Script/PRODUCTION/alphapush_main.js?vs=20250924045000.1&client_id=tgHZp6LCG5KuklqvIYgrtB'},{'src':'https://static.alphwidget.com/script/Common-Script/PRODUCTION/alphacore_alpha_data.js?vs=20260205171939.1&client_id=tgHZp6LCG5KuklqvIYgrtB'}];
+CAFE24.APPSCRIPT_SDK_DATA = CAFE24.APPSCRIPT_SDK_DATA || ['application','category','collection','community','customer','design','mileage','order','personal','product','promotion','shipping','store','supply','salesreport','notification','privacy','analytics'];
+var EC_APPSCRIPT_ASSIGN_DATA = CAFE24.getDeprecatedNamespace('EC_APPSCRIPT_ASSIGN_DATA');
+var EC_APPSCRIPT_SDK_DATA = CAFE24.getDeprecatedNamespace('EC_APPSCRIPT_SDK_DATA');
+</script></body>
+</html>

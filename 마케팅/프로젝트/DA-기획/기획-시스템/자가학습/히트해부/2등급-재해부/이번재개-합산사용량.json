@@ -1,0 +1,38 @@
+{
+  "as_of": "2026-10-14T08:17:37.479469+09:00",
+  "scope": "이번재개:2등급재해부6+기존32역검증보강. 본체차분+4조사자 각각1회. 마감후bridge전달/최종답변소량제외.",
+  "total": {
+    "input_tokens": 45533983,
+    "cached_input_tokens": 43422976,
+    "output_tokens": 288772,
+    "reasoning_output_tokens": 44747,
+    "total_tokens": 45822755
+  },
+  "uncached_input": 2111007,
+  "components": {
+    "reanalysis_plus_parent_coordination": {
+      "input_tokens": 37740753,
+      "cached_input_tokens": 36028032,
+      "output_tokens": 237050,
+      "reasoning_output_tokens": 33168,
+      "total_tokens": 37977803
+    },
+    "reverse_review_agent_only": {
+      "input_tokens": 7793230,
+      "cached_input_tokens": 7394944,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 51722,
+      "reasoning_output_tokens": 11579,
+      "total_tokens": 7844952
+    }
+  },
+  "account_weekly_percent": {
+    "start": 0,
+    "end_observation": 24,
+    "remaining": 76,
+    "shared_account": true
+  },
+  "five_hour_window": "도구미제공",
+  "not_video_only": true,
+  "not_api_bill": true
+}

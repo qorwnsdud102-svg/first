@@ -1,0 +1,232 @@
+{
+  "pagy": {
+    "series": [
+      3,
+      4,
+      5,
+      6,
+      "7",
+      8,
+      9,
+      10,
+      11
+    ],
+    "prev": 6,
+    "next": 8,
+    "page": 7,
+    "items": 3
+  },
+  "reviews": [
+    {
+      "id": 23346,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": null,
+      "user_display_name": "네이버 페이 구****",
+      "media_count": 3,
+      "product_code": "177",
+      "product_image_source_url": "//meditold.com/web/product/medium/202601/13e8d3aa521c228d012d24e0d848457f.png",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/10/90/image/extra_small_858bdde47a4a5a7d.webp",
+      "product_name": "[32차 완판] 백노노뇽X퍼시닌 바디워시 1+1 공구특가! 무료배송",
+      "product_meta_reviews_count": 7227,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=177",
+      "created_at": "2024-06-12T02:41:14+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 5,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 40,
+      "review_source_has_video": false,
+      "filtered_message": "매번 대형마트 세일하는거 사서\n이상한 풀냄새 나는 바람에 억지로 쓸려고 노력했는데\n이번엔 대성공입니다>_<\n뜯자마자 바로 써봤는데\n불편한점 없구요 냄새도 너무 좋아요\n한번만 헹궈도 잘 씻기고 뽀득거려요~~\n합격\n\n\n\n\n\n\n\n\n\n(2024-06-11 09:40:30 에 등록된 네이버 페이 구매평)",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "1": [
+          "만족도",
+          "사용감",
+          "세정력"
+        ],
+        "2": [
+          "향기"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/46/image1/910b867c24dd258e.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/46/image1/gallery_910b867c24dd258e.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/46/image1/portrait_910b867c24dd258e.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/46/image1/thumbnail_910b867c24dd258e.webp",
+          "media_position": 1,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/46/image2/d881b0fdda61a516.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/46/image2/gallery_d881b0fdda61a516.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/46/image2/portrait_d881b0fdda61a516.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/46/image2/thumbnail_d881b0fdda61a516.webp",
+          "media_position": 2,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/46/image3/e274d98d6b555fb2.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/46/image3/gallery_e274d98d6b555fb2.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/46/image3/portrait_e274d98d6b555fb2.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/33/46/image3/thumbnail_e274d98d6b555fb2.webp",
+          "media_position": 3,
+          "orientation": 1
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 58664,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": null,
+      "user_display_name": "네이버 페이 구****",
+      "media_count": 1,
+      "product_code": "220",
+      "product_image_source_url": "//meditold.com/web/product/medium/202604/04e3c4eb9a02555a1b90b6800ee7d55f.jpg",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/11/45/image/extra_small_d2ff868598fd4810.webp",
+      "product_name": "[공구 특가] P헬멧X퍼시닌 바디워시 최대 할인! 무료배송",
+      "product_meta_reviews_count": 6695,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=220",
+      "created_at": "2026-09-03T03:18:26+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 5,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 40,
+      "review_source_has_video": false,
+      "filtered_message": "사용해보고 여기가 제일 저렴해서 재구매합니다!\n처음에는 궁금해서 구입하고 저만 썼는데\n어느새 온가족이 사용하도 있더라구요....ㅎ\n그런데 온 가족의 땀냄새, 피지가 좀 줄었어요!\n체취는 몰랐는데 등드름, 가드름 줄어든거 보고\n생각해보니 땀을 흘려도 특유의 꿉꿉한 냄새?가 안 납니다.\n다들 만족스러운지 거의 다 쓰고\n동생이 먼저 안 사냐구 하더라구요.....ㅎ\n그래서 특가 진행 중이신 작가님의 링크 타고\n들어와서 구입했습니다!\n바디워시치고 저렴한 편은 아니지만.....\n온 가족이 그냥 사용하는 바디워시보다\n저도 가족들도 만족스러운 바디워시가 좋아서\n또 구입합니다~\n효과가 눈에 보이니 안 쓸 수가 없더라구요ㅎㅎ\n다 쓰고 또 오겠습니다:)\n\n\n\n\n\n(2026-09-02 17:28:27 에 등록된 네이버 페이 구매평)",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "-1": [
+          "가격"
+        ],
+        "1": [
+          "효과",
+          "트러블개선"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/86/64/image1/7a325dab01a63d25.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/86/64/image1/gallery_7a325dab01a63d25.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/86/64/image1/portrait_7a325dab01a63d25.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/86/64/image1/thumbnail_7a325dab01a63d25.webp",
+          "media_position": 1,
+          "orientation": 2
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 23233,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": null,
+      "user_display_name": "네이버 페이 구****",
+      "media_count": 1,
+      "product_code": "177",
+      "product_image_source_url": "//meditold.com/web/product/medium/202601/13e8d3aa521c228d012d24e0d848457f.png",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/10/90/image/extra_small_858bdde47a4a5a7d.webp",
+      "product_name": "[32차 완판] 백노노뇽X퍼시닌 바디워시 1+1 공구특가! 무료배송",
+      "product_meta_reviews_count": 7227,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=177",
+      "created_at": "2024-09-29T02:44:34+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 4,
+      "plus_likes_count": 4,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 5,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 40,
+      "review_source_has_video": false,
+      "filtered_message": "미세하고 쫀독한 거품에 반했습니다 거품양은 말할것도 없구요 향기도 마음에듭니다. 물로 씻어낼 때의 뽀득함은 개운함을 줄뿐 아니라 타월에서조차도 3초내로 말끔히 사라지는 거품들이 신기했습니다. 이전에 사용하던 워시들은 1분 이상 헹구어야 잔여거품들이 타월에서 사라질까 말까였는데 이건 뭐 순삭이네요.\n아주 좋아요 올해 50된 남편에게도 권해야겠어요 맨날 우루오스가 최고라고 고집피우는데(우루오스 잔향 너무싫은 1인)이걸로 그 고집좀 꺾어보겠습니다 승산있어보여서요 ㅋㅋ 화이팅^^ 사랑합니다! 실효성 좋은 제품 많이 연구해주세요 -가슴골과 그 아래로 차는 땀때문에 올라오는 쉰내에 몇달을 고민했던 처자가-\n\n\n\n\n\n(2024-09-28 09:19:49 에 등록된 네이버 페이 구매평)",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "향기",
+          "사용감",
+          "품질"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/33/image1/2ff2978fb3360411.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/33/image1/gallery_2ff2978fb3360411.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/33/image1/portrait_2ff2978fb3360411.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/33/image1/thumbnail_2ff2978fb3360411.webp",
+          "media_position": 1,
+          "orientation": 2
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    }
+  ],
+  "review_sort": 80,
+  "has_minimum_reviews": true,
+  "total_product_media_reviews_count": 2650,
+  "has_media": true
+}

@@ -1,0 +1,210 @@
+{
+  "pagy": {
+    "series": [
+      7,
+      8,
+      9,
+      10,
+      "11",
+      12,
+      13,
+      14,
+      15
+    ],
+    "prev": 10,
+    "next": 12,
+    "page": 11,
+    "items": 3
+  },
+  "reviews": [
+    {
+      "id": 48844,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": null,
+      "user_display_name": "네이버 페이 구****",
+      "media_count": 1,
+      "product_code": "177",
+      "product_image_source_url": "//meditold.com/web/product/medium/202601/13e8d3aa521c228d012d24e0d848457f.png",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/10/90/image/extra_small_858bdde47a4a5a7d.webp",
+      "product_name": "[32차 완판] 백노노뇽X퍼시닌 바디워시 1+1 공구특가! 무료배송",
+      "product_meta_reviews_count": 7227,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=177",
+      "created_at": "2026-05-20T02:59:00+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 5,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 40,
+      "review_source_has_video": false,
+      "filtered_message": "만족만족!!\n중학생 아들 가슴, 등에 여드름처럼 막 올라와서 보기 싫었는데 아침 저녁으로 사용한지 4일만에 들어갔네요~ 아직은 살짝 흔적은 있는데 꾸준히 더 사용하연 쏵~~~ 들어갈거 같아요~\n기대하면서 설마 들어가겠어 하는 마음으로 구매했는데 진짜 여드름이 들어가는거 보니 잘샀다 싶어요~ 아들은 얼굴에 써도 되냐고 묻기까지 하네요ㅎ 전 팔에 모공각화 있는데 아직 아들만치 큰효과는 안보이는데 진정된거 처럼 보이긴해요~ 더 써봐야겠어요~ 씻고나면 뽀득한 느낌이 나요~ 제가 건성인데 막 땡기거나 가려움이 있진 않아요~! 확실한건 등드름은 들어간다는거~~~~!!\n\n\n\n\n\n(2026-05-19 14:47:29 에 등록된 네이버 페이 구매평)",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "1": [
+          "만족도",
+          "효과",
+          "사용감",
+          "트러블개선"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/04/88/44/image1/155d62fb32f514c8.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/04/88/44/image1/gallery_155d62fb32f514c8.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/04/88/44/image1/portrait_155d62fb32f514c8.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/04/88/44/image1/thumbnail_155d62fb32f514c8.webp",
+          "media_position": 1,
+          "orientation": 2
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 59177,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": null,
+      "user_display_name": "네이버 페이 구****",
+      "media_count": 1,
+      "product_code": "220",
+      "product_image_source_url": "//meditold.com/web/product/medium/202604/04e3c4eb9a02555a1b90b6800ee7d55f.jpg",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/11/45/image/extra_small_d2ff868598fd4810.webp",
+      "product_name": "[공구 특가] P헬멧X퍼시닌 바디워시 최대 할인! 무료배송",
+      "product_meta_reviews_count": 6695,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=220",
+      "created_at": "2026-09-07T03:03:53+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 5,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 40,
+      "review_source_has_video": false,
+      "filtered_message": "제가 먼저 써보고 좋으면 추천하는데..\n저녁에 샤워하고 아침에 외출복 갈아입고 잠옷 걸어놓고.. 나갔다와서 냄새를 맡아보면..\n옷에서 냄새 1도 안나고 섬유유연제 향머 나요.. 제가 후가에 예민해서 내몸에서 내옷에서 이런 냄새가 난다고?? 충격받고 아침저녁으로 씻었어요ㅠ 같이 사는 남편이나 딸들은 엄마 냄새안나~하는데 제 코에서 저만 맡으니 괴로웠어요ㅠ 예민한게 싫을정도로 스트레스였는데..\n퍼시닌쓰고 나서 옷에 땀냄새를 맡았는데 1도 안나서 충격받았어요.. 뭐.. 적당히 조금 사라지는거겠지..했는데 아니예요 좋아하는 옷을 주구장창입어서 진짜 한해입고 내년에 또 못입을정도로 옷에 베이는 저의 냄새가 싫었는데ㅠ 옷이 아니고 제몸의 냄새가 문제라고 했을때 충격ㅋ 이제 그 냄새가 안난다는건 더 충격!! 너무 행복해요ㅠ 몸도 건조함이 심해서 씻고 나와서 바로 바디를 안바르면 아플정도로 건조한몸뚱인데.. 바디를 깜빡할 정도로 괜찮아요ㅎ 이것또한 신기했어요!!ㅎ 그래서 여자친구 빨리 생기길 바라는 남동생도 하나ㅋ..그리고 아빠ㅋ 자기도 향기로운 할배가 되고 싶다고 달라셔서 하나ㅎㅎ 베개나 이불에서도 냄시가 안나서 너무 좋아요 저는 완전 대만족입니다♡\n\n\n\n\n\n(2026-09-06 16:29:00 에 등록된 네이버 페이 구매평)",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "효과",
+          "보습력"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/91/77/image1/18aef4d0c0a6c84f.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/91/77/image1/gallery_18aef4d0c0a6c84f.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/91/77/image1/portrait_18aef4d0c0a6c84f.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/91/77/image1/thumbnail_18aef4d0c0a6c84f.webp",
+          "media_position": 1,
+          "orientation": 2
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 50271,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": null,
+      "user_display_name": "네이버 페이 구****",
+      "media_count": 1,
+      "product_code": "220",
+      "product_image_source_url": "//meditold.com/web/product/medium/202604/04e3c4eb9a02555a1b90b6800ee7d55f.jpg",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/11/45/image/extra_small_d2ff868598fd4810.webp",
+      "product_name": "[공구 특가] P헬멧X퍼시닌 바디워시 최대 할인! 무료배송",
+      "product_meta_reviews_count": 6695,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=220",
+      "created_at": "2026-06-14T03:48:19+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 5,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 40,
+      "review_source_has_video": false,
+      "filtered_message": "솔직히 인스타 바이럴일거라 생각했어요\n예전에 바디로션 한번 써봤었는데 저한테는 효과가 잘 안나타나서 아쉬웠거든요ㅠㅠ\n\n근데 바디워시는 진짜 효과봤어요\n극건성에 피부가 거칠었는데 이거 쓰고 많이 정리됐어요\n모공각화증도 좀 있었는데 드라마틱한 효과는 아니지만 조금씩 개선되는게 눈에 보이네요!\n요즘 뭐가 문젠지 몸에 염증이 빨갛게 올라오고 있었는데 이거 쓴 이후로 많이 가라앉았어요\n완전 찐 내돈내산 후기입니다ㅋㅋㅋ\n원래 후기도 잘 안쓰거나 대충 쓰는데 이건 사람들이 더 알아줬으면 좋겠어욬ㅋㅋ\n\n\n\n\n\n(2026-06-13 22:47:19 에 등록된 네이버 페이 구매평)",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "효과",
+          "트러블개선"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/02/71/image1/5ee08a5c54461b28.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/02/71/image1/gallery_5ee08a5c54461b28.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/02/71/image1/portrait_5ee08a5c54461b28.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/02/71/image1/thumbnail_5ee08a5c54461b28.webp",
+          "media_position": 1,
+          "orientation": 2
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    }
+  ],
+  "review_sort": 80,
+  "has_minimum_reviews": true,
+  "total_product_media_reviews_count": 2650,
+  "has_media": true
+}

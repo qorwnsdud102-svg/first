@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0, user-scalable=yes"/>
+    <title>카페24</title>
+    <style>
+        html,body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family:"Noto Sans KR",'맑은 고딕',Dotum,"돋움",arial,verdana,sans-serif;
+        }
+        #header {
+            position: absolute;
+            top: 2px;
+            left: 24px;
+            z-index: 5;
+        }
+        #header img{
+            width: 112px;
+        }
+        #wrap {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100%;
+            background: #F4F9FF;
+        }
+
+        .mWarn h2 {margin: 32px 0 8px; font-size: 24px; font-style: normal; font-weight: 700; line-height: 34px;  color: #1B1E26;}
+        .mWarn .txtDesc {font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px; color: #1B1E26; margin: 0 0 32px; }
+        .mButton [class*=btn] { display: inline-block; height: 48px; line-height: 48px; font-size: 14px; font-weight: 700; padding: 0px 16px; border-radius: 4px;  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.08); box-sizing: border-box; text-decoration: none;  }
+        .mButton .btnNormal { background: #FFF; color: #2B2B2B; border: 1px solid #BDBDBD;  }
+        .mButton .btnEm { background: #1A54F5; color: #F2F2F2; border: 1px solid #0940D7;  }
+        .mWarn img {width: 132px;}
+
+        @media (min-width:768px) and (max-width:1079px) {
+            .mWarn h2 {margin: 20px 0 8px; font-size: 24px; line-height: 34px; color: #1B1E26;}
+        }
+        @media (max-width:767px) {
+            #header img{width: 78px;}
+            .mWarn img {width: 110px;}
+            .mWarn h2 {margin: 16px 0; font-size: 20px; line-height: 28px; color: #1B1E26;}
+            .mWarn .txtDesc {font-size: 13px; line-height: 20px; color: #1B1E26; margin: 0 0 24px; }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <h1><a href="https://www.cafe24.com"><img src="https://m-img.cafe24.com/images/template/ec/logo_cafe24_global_new.svg" alt="cafe24"></a></h1>
+        </div>
+        <div id="content">
+            <div class="mWarn">
+                <div class="inner">
+                    <img src="https://img.echosting.cafe24.com/ec/image_admin/img_404.png" alt="404">
+                    <h2 id="title"></h2>
+                    <p class="txtDesc" id="desc"></p>
+                    <div class="mButton">
+                        <a href="javascript:history.back();" class="btnNormal" id="back-btn"></a>
+                        <a href="/" class="btnEm" id="home-btn"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Google API 번역기 스크립트 -->
+    <script src="https://optimizer.poxo.com/jet-translator/main.js"></script>
+    
+    <script>
+        // 다국어 번역 텍스트 정의
+        const translations = {
+            'ko': {
+                title: '다시 한번 확인해주세요!',
+                description: '접근하신 주소의 페이지는<br>사라졌거나 다른 페이지로 변경되었어요.<br>주소를 다시 확인해주세요.',
+                backBtn: '이전 페이지로 가기',
+                homeBtn: '메인 페이지로 가기'
+            },
+            'en': {
+                title: 'Please check again.',
+                description: 'The page you are trying to access has been<br>removed or changed to a different page.<br>Please check the address again.',
+                backBtn: 'Return to Previous Page',
+                homeBtn: 'Go to Home Page'
+            },
+            'ja': {
+                title: '再度ご確認ください',
+                description: 'ページが削除または変更されたため<br>アクセスすることができません。<br>URLを確認してから再度お試しください。',
+                backBtn: '前のページに戻る',
+                homeBtn: 'トップページに戻る'
+            }
+        };
+
+        // 지원하는 언어 코드 목록
+        const supportedLanguages = [
+            'ar', 'bn', 'ca', 'zh-CN', 'zh-TW', 'cs', 'da', 'nl', 'en', 'fr', 'de', 'el', 'gu', 'he', 'hi', 'hu', 'id', 'it', 'ja', 'kn', 'ko', 'ms', 'no', 'ml', 'mr', 'my', 'ne', 'ps', 'fa', 'pl', 'pt', 'ro', 'ru', 'es', 'sv', 'sw', 'ta', 'te', 'th', 'tr', 'uk', 'ur', 'vi'
+        ];
+
+        // 브라우저 언어 감지
+        function getBrowserLanguage() {
+            let lang = navigator.language || navigator.userLanguage;
+            let langCode = lang.split('-')[0]; // 언어 코드만 추출 (예: 'ko-KR' -> 'ko')
+            
+            // 중국어의 경우 간체/번체 구분
+            if (lang.startsWith('zh-CN') || lang.startsWith('zh-Hans')) {
+                return 'zh-CN';
+            } else if (lang.startsWith('zh-TW') || lang.startsWith('zh-Hant')) {
+                return 'zh-TW';
+            }
+            
+            return langCode;
+        }
+
+        // 텍스트 변경 함수
+        function changeLanguage(langCode) {
+            const titleElement = document.getElementById('title');
+            const descElement = document.getElementById('desc');
+            const backBtnElement = document.getElementById('back-btn');
+            const homeBtnElement = document.getElementById('home-btn');
+
+            if (translations[langCode]) {
+                // 지정된 언어 (한국어, 영어, 일본어)
+                titleElement.textContent = translations[langCode].title;
+                descElement.innerHTML = translations[langCode].description;
+                backBtnElement.textContent = translations[langCode].backBtn;
+                homeBtnElement.textContent = translations[langCode].homeBtn;
+            } else {
+                // 그 외 언어는 우선 영어 텍스트로 표시
+                titleElement.textContent = translations['en'].title;
+                descElement.innerHTML = translations['en'].description;
+                backBtnElement.textContent = translations['en'].backBtn;
+                homeBtnElement.textContent = translations['en'].homeBtn;
+                
+                // 지원하는 언어면 JetTranslator로 번역
+                if (supportedLanguages.includes(langCode)) {
+                    if (typeof JetTranslator !== 'undefined') {
+                        JetTranslator.translate(langCode);
+                    }
+                }
+            }
+        }
+
+        // 페이지 로드 시 브라우저 언어에 따라 텍스트 변경
+        document.addEventListener('DOMContentLoaded', function() {
+            const browserLang = getBrowserLanguage();
+            changeLanguage(browserLang);
+        });
+    </script>
+</body>
+
+</html>

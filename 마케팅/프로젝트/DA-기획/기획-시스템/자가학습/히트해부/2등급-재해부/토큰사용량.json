@@ -1,0 +1,88 @@
+{
+  "as_of": "2026-10-14T08:17:37.479469+09:00",
+  "parent": {
+    "input_tokens": 11944474,
+    "cached_input_tokens": 11581824,
+    "output_tokens": 43731,
+    "reasoning_output_tokens": 11290,
+    "total_tokens": 11988205
+  },
+  "agents": {
+    "input_tokens": 25796279,
+    "cached_input_tokens": 24446208,
+    "output_tokens": 193319,
+    "reasoning_output_tokens": 21878,
+    "total_tokens": 25989598
+  },
+  "total": {
+    "input_tokens": 37740753,
+    "cached_input_tokens": 36028032,
+    "output_tokens": 237050,
+    "reasoning_output_tokens": 33168,
+    "total_tokens": 37977803
+  },
+  "uncached_input": 1712721,
+  "baseline": {
+    "timestamp": "2026-10-13T22:35:33.823Z",
+    "usage": {
+      "input_tokens": 444677389,
+      "cached_input_tokens": 423811072,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1777245,
+      "reasoning_output_tokens": 531131,
+      "total_tokens": 446756346
+    },
+    "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+  },
+  "snapshots": {
+    "01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc": {
+      "timestamp": "2026-10-13T23:16:57.121Z",
+      "usage": {
+        "input_tokens": 456621863,
+        "cached_input_tokens": 435392896,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1820976,
+        "reasoning_output_tokens": 542421,
+        "total_tokens": 458744551
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+    },
+    "01a13769-7136-78e1-b3f4-1c62c524b98c": {
+      "timestamp": "2026-10-13T23:15:09.184Z",
+      "usage": {
+        "input_tokens": 9230428,
+        "cached_input_tokens": 8719488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 66452,
+        "reasoning_output_tokens": 8529,
+        "total_tokens": 9296880
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T07-36-59-01a13769-7136-78e1-b3f4-1c62c524b98c.jsonl"
+    },
+    "01a13769-7280-72c3-ac3b-9e42c559434f": {
+      "timestamp": "2026-10-13T23:07:50.518Z",
+      "usage": {
+        "input_tokens": 7566202,
+        "cached_input_tokens": 7183360,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 56688,
+        "reasoning_output_tokens": 6310,
+        "total_tokens": 7622890
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T07-37-00-01a13769-7280-72c3-ac3b-9e42c559434f.jsonl"
+    },
+    "01a13769-74c9-70e0-aec3-56d3370bf65c": {
+      "timestamp": "2026-10-13T23:15:47.819Z",
+      "usage": {
+        "input_tokens": 8999649,
+        "cached_input_tokens": 8543360,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 70179,
+        "reasoning_output_tokens": 7039,
+        "total_tokens": 9069828
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T07-37-00-01a13769-74c9-70e0-aec3-56d3370bf65c.jsonl"
+    }
+  },
+  "limitations": "본체는 2등급 재해부 시작 뒤 차분. 전담 A/B/C 세션 누적1회 합산. 별도 역검증Dirac은 불포함. 본체에는 역검증 보강 조율·4개Meta조회 비용도 포함돼 재해부 단독 순수비용은 아님. 영상만의 분리 계량 아님. 캐시는 입력 부분집합·추론은 출력 부분집합. 계정 사용률은 다른 대화와 공유."
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "method": "GET",
+    "url": "https://static.alphwidget.com/script/Common-Script/PRODUCTION/alphacore_alpha_data.js?vs=20260205182309.1&client_id=tgHZp6LCG5KuklqvIYgrtB"
+  },
+  {
+    "method": "GET",
+    "url": "https://static.alphwidget.com/script/Review-Script/PRODUCTION/alpha-review-cafe24-initial.min.js?vs=20251124134351.1&client_id=tgHZp6LCG5KuklqvIYgrtB"
+  },
+  {
+    "method": "GET",
+    "url": "https://static.alphwidget.com/script/Review-Script/PRODUCTION/alpha_au.js?vs=20250725100552.1&client_id=tgHZp6LCG5KuklqvIYgrtB"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/api_widget/module/session?mall_id=eclmoi&shop_no=1&view=true&session=true"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/check?mall_id=eclmoi&shop_no=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/shop-designs?mall_id=eclmoi&shop_no=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/permission?mall_id=eclmoi&shop_no=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/module/widget/code?attr=write_button&mall_id=eclmoi&shop_no=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://static.alphwidget.com/script/Common-Script/PRODUCTION/alphacore_alpha_data.js?vs=20260205182309.1&client_id=tgHZp6LCG5KuklqvIYgrtB"
+  },
+  {
+    "method": "GET",
+    "url": "https://static.alphwidget.com/script/Review-Script/PRODUCTION/alpha-review-cafe24-initial.min.js?vs=20251124134351.1&client_id=tgHZp6LCG5KuklqvIYgrtB"
+  },
+  {
+    "method": "GET",
+    "url": "https://static.alphwidget.com/script/Review-Script/PRODUCTION/alpha_au.js?vs=20250725100552.1&client_id=tgHZp6LCG5KuklqvIYgrtB"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/api_widget/module/session?mall_id=eclmoi&shop_no=1&view=true&session=false"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/check?mall_id=eclmoi&shop_no=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/shop-designs?mall_id=eclmoi&shop_no=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/permission?mall_id=eclmoi&shop_no=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/sets?widget_set_code=b50fcd2e"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/sets?widget_set_code=3620e41e"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/sets?widget_set_code=70fb54bb"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/module/widget/code?attr=write_button&mall_id=eclmoi&shop_no=1"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/module/review/count?mall_id=eclmoi&shop_no=1&product_no=59"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/sets?widget_set_code=88228452"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/options?widget_code=c276af1c"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/options?widget_code=120e8f62"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget?page=1&page_size=4&sort=-like_count&media_only=false&product_no=59&widget_code=120e8f62&device=w"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/meta?page=1&page_size=4&sort=-like_count&media_only=false&product_no=59&widget_code=120e8f62&device=w"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/survey-filters?widget_code=120e8f62"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget?page=1&page_size=10&widget_code=c276af1c&product_no=59&device=w"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/reviews/badges?widget_code=120e8f62&review_ids=60833575%2C64690257%2C61026737%2C60468726&is_dummy=false"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/reviews/keywords?widget_code=120e8f62&review_ids=60833575%2C64690257%2C61026737%2C60468726&is_dummy=false"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/reviews/surveys?widget_code=120e8f62&review_ids=60833575%2C64690257%2C61026737%2C60468726&is_dummy=false"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/reviews/comments?widget_code=120e8f62&review_ids=60833575%2C64690257%2C61026737%2C60468726&is_dummy=false"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-widget.alphwidget.com/v2/api-widget/ai-summary?widget_code=120e8f62&product_no=59"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-media.alphwidget.com/media/review/video/thumbnail/2025/08/05/dadc6c4fed_e47bac.mov"
+  },
+  {
+    "method": "GET",
+    "url": "https://review-media.alphwidget.com/media/review/video/thumbnail/2025/08/05/dadc6c4fed_e47bac.mov"
+  }
+]

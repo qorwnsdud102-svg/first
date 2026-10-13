@@ -1,0 +1,71 @@
+[
+  {
+    "id": 46370255,
+    "ordered_media": [
+      {
+        "photo_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/large/2025/02/25/5c9a78f48b_e5ab6.jpg",
+        "photo_platform_url": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/upload/appfiles/tgHZp6LCG5KuklqvIYgrtB/96a0a6a0090a0f426acc5c9a2858233b.jpg",
+        "thumbnail_photo_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/thumbnail/2025/02/25/5c9a78f48b_e5ab6.jpg",
+        "thumbnail_photo_platform_url": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/upload/appfiles/tgHZp6LCG5KuklqvIYgrtB/bc9d3b353fffa5c0d2a4a0d4cd28ec26.jpg",
+        "video_url": null,
+        "compress_video_url": null,
+        "middle_video_url": null,
+        "thumbnail_video_url": null
+      }
+    ],
+    "login_provider": null,
+    "is_verified": false,
+    "content": "얇아서 그런가 밀착이 잘 되네요.\r\n두 세번에 나눠서 떼어내면 아프지 않게 떨어지고\r\n떼어낸 후에도 특유의 시원한 느낌이 오래 지속되어서\r\n하루종일 근육이 시원하게 풀리는 기분 느낄 수 있어요.",
+    "user_info": "임**",
+    "profile_image": "https://saladlab.s3.ap-northeast-2.amazonaws.com/media/profile_default.jpg",
+    "comment_count": 0,
+    "ratings": 5,
+    "created_at": "2025-02-09T00:00:00+09:00"
+  },
+  {
+    "id": 46370261,
+    "ordered_media": [
+      {
+        "photo_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/large/2025/02/25/9b35231e4a_e5ab6.jpg",
+        "photo_platform_url": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/upload/appfiles/tgHZp6LCG5KuklqvIYgrtB/d3858c88e03520b4da3a29e3b67c342d.jpg",
+        "thumbnail_photo_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/thumbnail/2025/02/25/9b35231e4a_e5ab6.jpg",
+        "thumbnail_photo_platform_url": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/upload/appfiles/tgHZp6LCG5KuklqvIYgrtB/e399b2d58133d67bf506b780f1c9753e.jpg",
+        "video_url": null,
+        "compress_video_url": null,
+        "middle_video_url": null,
+        "thumbnail_video_url": null
+      }
+    ],
+    "login_provider": null,
+    "is_verified": false,
+    "content": "남편과 통증 부위가 달라서 다행..\r\n사이즈가 여러개인데 전 큰거 두개 위주로 쓰고\r\n남편은 손가락이 자주 아프다고 동전 모양이랑\r\n길쭉한 손가락용 패치 위주로 써요 ㅋㅋ\r\n너무 다양하면 남는게 또 골치라 \r\n괜히 샀나 후회할 뻔 했는데 부위별로\r\n세세하게 케어할 수 있으니 오히려 좋네요!",
+    "user_info": "장**",
+    "profile_image": "https://saladlab.s3.ap-northeast-2.amazonaws.com/media/profile_default.jpg",
+    "comment_count": 0,
+    "ratings": 5,
+    "created_at": "2025-02-12T00:00:00+09:00"
+  },
+  {
+    "id": 46370256,
+    "ordered_media": [
+      {
+        "photo_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/large/2025/02/25/a877f86cee_e5ab6.jpg",
+        "photo_platform_url": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/upload/appfiles/tgHZp6LCG5KuklqvIYgrtB/27a918e2d69b437e28f9ec7eeba45890.jpg",
+        "thumbnail_photo_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/thumbnail/2025/02/25/a877f86cee_e5ab6.jpg",
+        "thumbnail_photo_platform_url": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/upload/appfiles/tgHZp6LCG5KuklqvIYgrtB/5dc831f60aa518cb74f18f5c368e3c67.jpg",
+        "video_url": null,
+        "compress_video_url": null,
+        "middle_video_url": null,
+        "thumbnail_video_url": null
+      }
+    ],
+    "login_provider": null,
+    "is_verified": false,
+    "content": "피부가 약한 편이라 피부저자극테스트 \r\n받았다는 내용 하나 믿고 구매했는데\r\n오.. 다른 파스보다 순한 것 같아요.\r\n효과가 강렬한 건 아닌데 \r\n은근한 열감이 5시간 넘게 지속돼요.\r\n안에 파우치가 있어 여행갈 때\r\n챙겨다닐 수 있고 지퍼백 같은 비닐 \r\n낭비 안해도 되니까 편하게 양심 챙기네요. ㅎㅎ.",
+    "user_info": "박**",
+    "profile_image": "https://saladlab.s3.ap-northeast-2.amazonaws.com/media/profile_default.jpg",
+    "comment_count": 0,
+    "ratings": 5,
+    "created_at": "2025-02-11T00:00:00+09:00"
+  }
+]

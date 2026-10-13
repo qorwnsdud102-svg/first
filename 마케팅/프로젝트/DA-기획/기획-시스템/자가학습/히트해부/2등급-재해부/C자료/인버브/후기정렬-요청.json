@@ -1,0 +1,8 @@
+[
+  "https://review-widget.alphwidget.com/v2/api-widget?page=1&page_size=3&sort=-created_at&media_only=false&product_no=49&widget_code=935ca2ac&device=w",
+  "https://review-widget.alphwidget.com/v2/api-widget?page=1&page_size=4&product_no=49&widget_code=e822abae&device=w",
+  "https://review-widget.alphwidget.com/v2/api-widget?page=2&page_size=4&product_no=49&widget_code=e822abae&device=w",
+  "https://review-widget.alphwidget.com/v2/api-widget?page=1&page_size=4&product_no=49&widget_code=bbe20790&device=w",
+  "https://review-widget.alphwidget.com/v2/api-widget?page=2&page_size=4&product_no=49&widget_code=bbe20790&device=w",
+  "https://review-widget.alphwidget.com/v2/api-widget?page=1&page_size=3&sort=-like_count&media_only=false&product_no=49&widget_code=935ca2ac&device=w"
+]

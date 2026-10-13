@@ -1,0 +1,89 @@
+{
+  "url": "https://review-widget.alphwidget.com/v2/api-widget?page=1&page_size=4&product_no=49&widget_code=e822abae&device=w",
+  "data": [
+    {
+      "id": 58815449,
+      "ordered_media": [
+        {
+          "photo_url": null,
+          "photo_platform_url": null,
+          "thumbnail_photo_url": null,
+          "thumbnail_photo_platform_url": null,
+          "video_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/video/compress/2025/07/05/ca95fdcbea_e5ab6.MOV",
+          "compress_video_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/video/compress/2025/07/05/ca95fdcbea_e5ab6.MOV",
+          "middle_video_url": null,
+          "thumbnail_video_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/video/thumbnail/2025/07/05/ca95fdcbea_e5ab6.MOV"
+        }
+      ],
+      "media_length": 2,
+      "platform_display": "알파리뷰",
+      "product": {
+        "detail_image": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/product/big/20260504/942e80d34276aa778e0a994dea594e81.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/product/tiny/20260504/5bef1edaa0cb0de8d72279e8d2c11a6e.jpg"
+      }
+    },
+    {
+      "id": 61333657,
+      "ordered_media": [
+        {
+          "photo_url": null,
+          "photo_platform_url": null,
+          "thumbnail_photo_url": null,
+          "thumbnail_photo_platform_url": null,
+          "video_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/video/compress/2025/08/08/90a2ee0e37_e5ab6.mp4",
+          "compress_video_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/video/compress/2025/08/08/90a2ee0e37_e5ab6.mp4",
+          "middle_video_url": null,
+          "thumbnail_video_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/video/thumbnail/2025/08/08/90a2ee0e37_e5ab6.mp4"
+        }
+      ],
+      "media_length": 2,
+      "platform_display": "알파리뷰",
+      "product": {
+        "detail_image": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/product/big/20260504/942e80d34276aa778e0a994dea594e81.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/product/tiny/20260504/5bef1edaa0cb0de8d72279e8d2c11a6e.jpg"
+      }
+    },
+    {
+      "id": 61216421,
+      "ordered_media": [
+        {
+          "photo_url": null,
+          "photo_platform_url": null,
+          "thumbnail_photo_url": null,
+          "thumbnail_photo_platform_url": null,
+          "video_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/video/compress/2025/08/06/d28de8580a_e5ab6.mp4",
+          "compress_video_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/video/compress/2025/08/06/d28de8580a_e5ab6.mp4",
+          "middle_video_url": null,
+          "thumbnail_video_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/video/thumbnail/2025/08/06/d28de8580a_e5ab6.mp4"
+        }
+      ],
+      "media_length": 3,
+      "platform_display": "알파리뷰",
+      "product": {
+        "detail_image": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/product/big/20260504/942e80d34276aa778e0a994dea594e81.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/product/tiny/20260504/5bef1edaa0cb0de8d72279e8d2c11a6e.jpg"
+      }
+    },
+    {
+      "id": 58317555,
+      "ordered_media": [
+        {
+          "photo_url": null,
+          "photo_platform_url": null,
+          "thumbnail_photo_url": null,
+          "thumbnail_photo_platform_url": null,
+          "video_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/video/compress/2025/07/01/94d658a82a_e5ab6.mp4",
+          "compress_video_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/video/compress/2025/07/01/94d658a82a_e5ab6.mp4",
+          "middle_video_url": null,
+          "thumbnail_video_url": "https://s3.ap-northeast-2.amazonaws.com/review.media/media/review/video/thumbnail/2025/07/01/94d658a82a_e5ab6.mp4"
+        }
+      ],
+      "media_length": 6,
+      "platform_display": "알파리뷰",
+      "product": {
+        "detail_image": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/product/big/20260504/942e80d34276aa778e0a994dea594e81.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg1254b63011955047/inverb/web/product/tiny/20260504/5bef1edaa0cb0de8d72279e8d2c11a6e.jpg"
+      }
+    }
+  ]
+}

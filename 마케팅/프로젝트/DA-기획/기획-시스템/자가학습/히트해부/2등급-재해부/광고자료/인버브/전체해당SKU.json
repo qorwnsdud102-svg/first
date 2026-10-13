@@ -1,0 +1,819 @@
+{
+  "ads": [
+    {
+      "id": "4324597854482927",
+      "query": "인버브",
+      "slice": "default",
+      "rank": 20,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-01-20",
+      "end_date": "2026-10-10",
+      "days_running": 263,
+      "collation_id": "1372645710754045",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "{{product.brand}}",
+      "title": "{{product.name}}",
+      "caption": "inverb.co.kr",
+      "link_description": "{{product.description}}",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260121_F_JY"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNrBaJfBbgWY4_oBmD9dJEYi_1vI7n4VEpWT9QO2nLAp-U4qeGsc4E4w8IBSbc0cQDGg5dKiZ2oAuCTlGbxJ8B1U9bULMEnVOM843KbEg.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=7_Um6osJeXUQ7kNvwG6GLY1&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjA1ODEyNjgwNDk3MjEwNCwiYXNzZXRfYWdlX2RheXMiOjI2NSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjU5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQP-EbdQ34ixGCDQP5p885GYBikYGO1ZatfnVanzWBwOqg&oe=6AD46B6A",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPM88mIlPdncmVOD0827nd1mBLU2TfBh-6TVVR6ysnLU4uuRKFAgj8ASi8y7_VrA9eTonVE7EEvXRuh-5WvyAnn7zgmlF_wOeIzx263RQ.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=I9nBh_cEPZAQ7kNvwGT1iMz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjI5NzcyOTA3NDA0NzAwNSwiYXNzZXRfYWdlX2RheXMiOjI2NSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjU5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQM9sQwh2a-VvP6gyYhTAgnvC2pJL54vkyFKiq6wSs9iHA&oe=6AD48711",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMoZRHCuLvdMSNK-5SuQkDFSpsdXsPmvfUdLqWVJui9bzmicOdMFoRoZ5tWy_yewkhzvl4s7AOGQRoF0hjlBTjIWNSLcrYHvX7G1IbyAw.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=XQ91QRKK4KEQ7kNvwGuHjNa&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQxMDk2NTI1NzE0NTA0MywiYXNzZXRfYWdlX2RheXMiOjI2NSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjU5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQMqb4lZ32OriKmhetR26q5kcOzt5n_5ySVfUZ0tqyCubA&oe=6AD4724C"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/618535358_1648228336340029_121273137751502130_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=C7Yono4PrisQ7kNvwGwhBoV&_nc_oc=Adqs3uBTpc5pCuupMifoA-xYTDSKPKhND3UExFXm3bjKypv1huBu8Jf6yqssklAJDiI&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQMdv-ESRUpZP_JccsNLddv1tQ-ikcFnGbNSto9Id6JZ7w&oe=6AD4815C",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/618237422_2747943022209374_7436878351176513840_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jtYP48BNuJcQ7kNvwGA5Yr8&_nc_oc=AdpZiK9t-l5w2BuvvCkV1B4zgxxpAEbbUmWr0jyIYqAimQeYv0VPShKMuYtdS5VwJAo&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQN7zshX44J1FPBcFdeZ5ALXJ08JfB0zPb8XH57z-dOZmQ&oe=6AD47F6A",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/618368777_858573890402924_7972076174691117826_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rctvDE-Q5jEQ7kNvwF87elU&_nc_oc=AdrHu7ystDvzuZuP01t5RrscJ_ZArJm20pKQW-r812WV4SluNPow2qVL-SKyltMTZ94&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQOWPPx4ctglNw4i0aFqpRS8lfGdWlL7DeFFyuTD4w0ncA&oe=6AD494BD",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/617022570_1172358845057658_3788651884175497064_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=dU3Nvi1UEV4Q7kNvwHm-oGT&_nc_oc=AdpxmRSUJjiWLe29NjdyZTUyLtZLvW0-4Cxeo-YyYtE6FrZP-aAnnGd9RXN0kDS2LBY&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQOzuWqb3RcC8WnYVb1rGQD46XnJ8oFzVmm1IWrihHOTHQ&oe=6AD48A4E"
+      ],
+      "cards": [
+        {
+          "title": "[1시간 깜짝특가!] 8️⃣5️⃣% 한정특가",
+          "body": "손가락 찌릿찌릿 불편하다면⚡\n참지 말고 패치로 간편하게  케어하세요🩹\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뭉친 손가락 근육 방치하면 굳어버려요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260121_F_JY"
+        },
+        {
+          "title": "[1시간 깜짝특가!] 8️⃣5️⃣% 한정특가",
+          "body": "손가락 찌릿찌릿 불편하다면⚡\n참지 말고 패치로 간편하게  케어하세요🩹\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뭉친 손가락 근육 방치하면 굳어버려요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260121_F_JY"
+        },
+        {
+          "title": "[1시간 깜짝특가!] 8️⃣5️⃣% 한정특가",
+          "body": "손가락 찌릿찌릿 불편하다면⚡\n참지 말고 패치로 간편하게  케어하세요🩹\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뭉친 손가락 근육 방치하면 굳어버려요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260121_F_JY"
+        },
+        {
+          "title": "[1시간 깜짝특가!] 8️⃣5️⃣% 한정특가",
+          "body": "손가락 찌릿찌릿 불편하다면⚡\n참지 말고 패치로 간편하게  케어하세요🩹\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뭉친 손가락 근육 방치하면 굳어버려요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260121_F_JY"
+        }
+      ]
+    },
+    {
+      "id": "1548297303674965",
+      "query": "inverb.co.kr",
+      "slice": "default",
+      "rank": 19,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-05-29",
+      "end_date": "2026-10-13",
+      "days_running": 137,
+      "collation_id": "1540902413884628",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "{{product.brand}}",
+      "title": "{{product.name}}",
+      "caption": "inverb.co.kr",
+      "link_description": "{{product.description}}",
+      "cta_text": "자세히 보기",
+      "cta_type": "SEE_DETAILS",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260106_F_YM"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNd0nE0G4q-bfuJ8PFXEU6wYp-KVT8NHlrrjUdW4rNuSD-kTViGoxAW7UJwDZ-vT4o0SYM2M9S7QSFlRiW6EeV1dACiePSpZmytUkAHRA.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=iKK9JtdzCXsQ7kNvwEuV5Xb&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6ODE0NDgwNzc4MjgzMzAyLCJhc3NldF9hZ2VfZGF5cyI6MjgwLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&_nc_zt=28&oh=00_AQN7qN3n3CCxN8jgkBcx8FN0W7sqHZvFVdEv6cqsBVseaQ&oe=6AD48FC4",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMllO0MwbJU4rFvfHJre74QaVvnX3cJlyebpiVy0yC6y9CdPqSO3ytenz-ZCMrLpHDK53LTULMj6f8P2QKuENe5T9U8hUi-2Ufs-QxWHA.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=ZmBvNruoB7gQ7kNvwFkWHTJ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQwNDA4MTYyNDcyNTM2NywiYXNzZXRfYWdlX2RheXMiOjI4MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQ4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&_nc_zt=28&oh=00_AQPS4w7OcHNCWO9vA_s_Wj45P1_WLuinYrKLXM19v59CbQ&oe=6AD46AB2",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMD_51b9pCp8-xJXyeeIlGaxGEremV4MawM6L3xNB-8PUocg6wVUABVJ3QOKCBxLRk7YfIT6sa7Vr7U25fxK0BRL_eysNCzuLs6mupRbA.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=jc8zaiWsGPoQ7kNvwHFPei5&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTgyNTk5MzMyODEyMTU3OSwiYXNzZXRfYWdlX2RheXMiOjI4MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQ4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&_nc_zt=28&oh=00_AQOsJ36luh0gZhQuV63bzNkaI0ztR7kBy8qub7xsX1HKjg&oe=6AD48F3A"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/709700857_5395117300714249_7021342120530091079_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=m4_xNa6qseAQ7kNvwEO15Je&_nc_oc=AdoNg4r2itTIqA3r2cB1SeH29AhOYoXDgT7YzT4AnA-q9KJK75ZP2PFqbA-UHqyAKc8&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQNuvjgAUqaJkM_dGJXDmbUyQjM3mAIS-Kksyf6z4PDbGA&oe=6AD47280",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/711480890_1326317089692831_2779030497492171521_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rM1e0JkuK2gQ7kNvwH2jT8A&_nc_oc=AdoH8gbu-oKeEEWE5JZtkzHAd1honpQ7Is7m8AEQKT-oR-gdlJcAD3TVsZZeF6Y9dgs&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQPOmQWCRh_4cs-xCkdc2r-xO5A4ZsfVoNvGqacM-yYGuA&oe=6AD4968E",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/708216816_1528323865677752_7415335762373592253_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=XD3pFLaPt-wQ7kNvwEk-Lig&_nc_oc=Adrf2FC1H0mu-yQM0UmNatuKOyfxXOzNkKiBdEcR5mvIGWb1LT2lXCxwnbbW8SMi0T8&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQNOczaRu9zn24XP-XKzDs9fR4zb9uZdtaEIlU3j_iHJFw&oe=6AD46CCD",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/707843850_1327867422619804_7046125581569275809_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=uZob_OzK8EoQ7kNvwHgGFfq&_nc_oc=Adp0ZFbpRVOy6iWUNwhh82sU3FX4Z9EzyLj5M6f5DmMYMzgAp7309RW2U0VnNcGweUo&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQO1bVL2xCmBHSxZ0M0ETI5JHy2AD-OwxdUUnt2fIBJYQw&oe=6AD47BA7"
+      ],
+      "cards": [
+        {
+          "title": "[3시간 뒤 종료!!] 8️⃣5️⃣% 한정특가",
+          "body": "찌릿찌릿 신경쓰이는 손가락⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뻐근하고 뭉친 손가락 그대로 두시면 굳어요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260106_F_YM"
+        },
+        {
+          "title": "[3시간 뒤 종료!!] 8️⃣5️⃣% 한정특가",
+          "body": "찌릿찌릿 신경쓰이는 손가락⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뻐근하고 뭉친 손가락 그대로 두시면 굳어요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260106_F_YM"
+        },
+        {
+          "title": "[3시간 뒤 종료!!] 8️⃣5️⃣% 한정특가",
+          "body": "찌릿찌릿 신경쓰이는 손가락⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뻐근하고 뭉친 손가락 그대로 두시면 굳어요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260106_F_YM"
+        },
+        {
+          "title": "[3시간 뒤 종료!!] 8️⃣5️⃣% 한정특가",
+          "body": "찌릿찌릿 신경쓰이는 손가락⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뻐근하고 뭉친 손가락 그대로 두시면 굳어요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260106_F_YM"
+        }
+      ]
+    },
+    {
+      "id": "954714050673175",
+      "query": "인버브",
+      "slice": "default",
+      "rank": 17,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-05-29",
+      "end_date": "2026-10-13",
+      "days_running": 137,
+      "collation_id": "1560646418472924",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "{{product.brand}}",
+      "title": "{{product.name}}",
+      "caption": "inverb.co.kr",
+      "link_description": "{{product.description}}",
+      "cta_text": "자세히 보기",
+      "cta_type": "SEE_DETAILS",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260106_F_YM"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMocQryi19tawQlKARErJsJtWAPiFBrzPWqgQNV9q9LdVyfDY_CoAcjgxWDghvzQTrw7se-YHL6OBs7mblDV0hun1jnd_gr0eMgctQCmw.mp4?_nc_cat=111&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=uFZxasAyMOgQ7kNvwG-mgOJ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6NzMwMjY0MDY5NzM1MTM4LCJhc3NldF9hZ2VfZGF5cyI6MjgwLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQPlwEa4d8ckQzyrtKUt4yjweTPq6ii3i9KaSNxVp_3D9Q&oe=6AD48C13",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQN2fhKrnf3R24nIoPuoax4QA2aH3_LIS4XG2b5cPsPkddA03flafqA84xI4W5wwg1_-mPx-MU4d2omNK2xYJ2W5ZgjDFLk0YcSalXRjog.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=C4dK4BQo6NcQ7kNvwE5zy2n&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTM2NTE4NjEwMjAzMTg4NCwiYXNzZXRfYWdlX2RheXMiOjI4MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjI5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQMyL6FHNNTqZF3r3-RM6r1u268LbGI7JkkawmLvERRJ2g&oe=6AD4917B",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNMFMj9o9vywo8xjtgPso46i8hq2k7sQW1Npn6D8Lp6I9yG-lGIPuFpmhcF271GaWMtmwl4OJdroWvd-QoOcuSlOFmsL21hKf8MH8E1hA.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=biSsqbRp-WUQ7kNvwG85THr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTIwNDAyMDYxNDU2MzA4NCwiYXNzZXRfYWdlX2RheXMiOjI4MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjI5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQN7xEi1NizpoTgaFy8BGAuZ8WhbTRcP9FY5JkglybfKMg&oe=6AD48DBE"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/710849032_1369235671723089_7208495765057257237_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EN4S7jFIFNAQ7kNvwGRtizW&_nc_oc=AdrQK7m-ai5LXPAWY2DEKnvF7MA4vDsB5wgj7i3HqIJjG_T9aNskUHivnpshPpLAzXE&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQPfLu__mXyRhl4bLYs4mQAirO76glBbhqyWjylHp9LBpQ&oe=6AD49407",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/710478866_2201742743981060_5572183441139502035_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=V36WWVFL1DsQ7kNvwESbZVW&_nc_oc=AdrA-haowjwD2S0lwer_sGxSyKtG4WUZm17Wo-b7N8EErv5HwChjHBLeacWY8rzdu8w&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQO0fM_iMla3c_gd7n7Ycpzvyv4IHRSjCDL5sDDdloeNVQ&oe=6AD499FC",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/710307509_2069489406969085_4243069909319833814_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=lvUvNyaHD2gQ7kNvwEAcphJ&_nc_oc=AdrATAc4j-iwAgbRgoJHtb7G7tQ1PTiUZoiIqDVat4yOmT2VR57NKq8bUKvBHlkzNxs&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQPDMUaF-hNB3QNE-mafEQOwxfnUseeNFWDDh0mtRwvDZg&oe=6AD47517",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/710687844_963322216469672_2344723323899879603_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=AQz62G0MqsYQ7kNvwF5UJnI&_nc_oc=Adqesf96ksYDF3RrqwZamYb89FmIRKDg0fsvOIW6e2WRwubvZ8FBvXP6bGdA1vRUBxM&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQNa0hBFkJAshJP0Zkg5VPQEp4K00bsy2fpACTrTqeb07g&oe=6AD49A8D"
+      ],
+      "cards": [
+        {
+          "title": "[3시간 뒤 종료!!] 8️⃣5️⃣% 한정특가",
+          "body": "찌릿찌릿 신경쓰이는 손가락⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뻐근하고 뭉친 손가락 그대로 두시면 굳어요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260106_F_YM"
+        },
+        {
+          "title": "[3시간 뒤 종료!!] 8️⃣5️⃣% 한정특가",
+          "body": "찌릿찌릿 신경쓰이는 손가락⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뻐근하고 뭉친 손가락 그대로 두시면 굳어요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260106_F_YM"
+        },
+        {
+          "title": "[3시간 뒤 종료!!] 8️⃣5️⃣% 한정특가",
+          "body": "찌릿찌릿 신경쓰이는 손가락⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뻐근하고 뭉친 손가락 그대로 두시면 굳어요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260106_F_YM"
+        },
+        {
+          "title": "[3시간 뒤 종료!!] 8️⃣5️⃣% 한정특가",
+          "body": "찌릿찌릿 신경쓰이는 손가락⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뻐근하고 뭉친 손가락 그대로 두시면 굳어요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260106_F_YM"
+        }
+      ]
+    },
+    {
+      "id": "2137749406768802",
+      "query": "inverb.co.kr",
+      "slice": "default",
+      "rank": 28,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-05-29",
+      "end_date": "2026-10-13",
+      "days_running": 137,
+      "collation_id": "1440737600976306",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "{{product.brand}}",
+      "title": "{{product.name}}",
+      "caption": "inverb.co.kr",
+      "link_description": "{{product.description}}",
+      "cta_text": "자세히 보기",
+      "cta_type": "SEE_DETAILS",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260121_F_JY"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOXsbG8MJNdfXnEfR5etFu2l36t-zTPVPH0phUv3WhRZyi9mS_-OXHiOHYSmNQhs9c7r3U8ox2-Bw5mEHUIrTnWHFVu1bTqf0_bODKe2Q.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=zGvaHdMJ9_QQ7kNvwG1vmZZ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6NDM2NTMzMDk3MDM1MjQyOSwiYXNzZXRfYWdlX2RheXMiOjI2NSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjUxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&_nc_zt=28&oh=00_AQM3VKUqwfhgU2gapNljj3ikkeIdE_J0yuq3SLxvRgFotA&oe=6AD47B0D",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMP8iN4yRmnNbc1ffDYCL330vvbTRf6MDayP4TePuLntUHKk6VRp2nSb1cy3bGyNZy7ZfYZEqeO0FLLYyaEb395_qQhlZeKuTHm20yjzw.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=5CwrIkvy9BsQ7kNvwGb4pLH&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE0NzgzMTU0NjAyNjgxNywiYXNzZXRfYWdlX2RheXMiOjI2NSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjUxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&_nc_zt=28&oh=00_AQMFDxQ1SMjmQHTjcud9NBgrLqp0qBVAb5RbPmuklPqeTg&oe=6AD46DAE",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMviiXiVF92x3Hwnn7i3oqwK8PHf3pJKbS2HwANhcFvixaBcmzQ14nnj2umGQTKEMdFGJnPG6Pzt0Bq9Ok142oD0uhXgJWqcGLcrDLEig.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=HIWOosBlYLkQ7kNvwG1TGEN&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjM5MjQ0NzgxMTIxNDUzMiwiYXNzZXRfYWdlX2RheXMiOjI2NSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjUxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&_nc_zt=28&oh=00_AQOYL-5doDyB8uHAzMaT7I9q9JPjr7yhW5s-Jl2ucvsFKg&oe=6AD4769A"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/707694147_1686840438998730_4593650195459722499_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-HZ1atlYb7oQ7kNvwEf0qV7&_nc_oc=AdoxirKYwuGI8PcMCVnUxiGTQfLiRvPBJY4cmokdaXk1bofcIMn9KJ2jKo4lKTmA_D4&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQNejooJsAthNK-q5u1-QHqpyyFoTXOfRuNmWdJCgIJZ9A&oe=6AD46D50",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/708102174_1460890325724747_6032749191410471269_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yXJeWdAxQuQQ7kNvwFUipMj&_nc_oc=AdpSEZrxnoxoDZNIBvhPjeoDMAc-WmIuzkWL8HR-769lTbatZONql-s6IuZH3qZhkHg&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQML46ESJB5BIPg860QUi6cg0g2bCvNs3hTwq0DYXEkCmA&oe=6AD46939",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/710746144_1339623528082571_3631210134149411577_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kW8TXqFBw8MQ7kNvwEt9oeN&_nc_oc=AdrD7O95u13ikaakC2vLLgh1c3e_bjMYqomrjujxbZMRDH8V7wqOnAZzHvvxtez8XW4&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQOwp-HLvRLhQIFJnyMFcQ-zKQVsANW7rzozP6CpMh3Sog&oe=6AD47D64",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/710059073_833149256182906_664868363329825951_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=oVbg3E6xE6YQ7kNvwGU5g9-&_nc_oc=AdpIo7gemXjIRDz84hNxYiqK87LLtw6_p43JiwkcgYDAuOPBFCR3Bv1wIJ7LrX7F9as&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQM_HkY5AeRDrU2s21Fdeil5h5ioSWCQi0VYDFjwa3XucA&oe=6AD49677"
+      ],
+      "cards": [
+        {
+          "title": "[1시간 깜짝특가!] 8️⃣5️⃣% 한정특가",
+          "body": "손가락 찌릿찌릿 불편하다면⚡\n참지 말고 패치로 간편하게  케어하세요🩹\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뭉친 손가락 근육 방치하면 굳어버려요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260121_F_JY"
+        },
+        {
+          "title": "[1시간 깜짝특가!] 8️⃣5️⃣% 한정특가",
+          "body": "손가락 찌릿찌릿 불편하다면⚡\n참지 말고 패치로 간편하게  케어하세요🩹\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뭉친 손가락 근육 방치하면 굳어버려요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260121_F_JY"
+        },
+        {
+          "title": "[1시간 깜짝특가!] 8️⃣5️⃣% 한정특가",
+          "body": "손가락 찌릿찌릿 불편하다면⚡\n참지 말고 패치로 간편하게  케어하세요🩹\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뭉친 손가락 근육 방치하면 굳어버려요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260121_F_JY"
+        },
+        {
+          "title": "[1시간 깜짝특가!] 8️⃣5️⃣% 한정특가",
+          "body": "손가락 찌릿찌릿 불편하다면⚡\n참지 말고 패치로 간편하게  케어하세요🩹\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뭉친 손가락 근육 방치하면 굳어버려요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&cafe_mkt=ue_FB_260121_F_JY"
+        }
+      ]
+    },
+    {
+      "id": "1079471045035299",
+      "query": "inverb.co.kr",
+      "slice": "default",
+      "rank": 5,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-07-23",
+      "end_date": "2026-10-13",
+      "days_running": 82,
+      "collation_id": "1760622681918450",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "{{product.brand}}",
+      "title": "{{product.name}}",
+      "caption": "inverb.co.kr",
+      "link_description": "{{product.description}}",
+      "cta_text": "지금 구매하기",
+      "cta_type": "SHOP_NOW",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_260723_f_09"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "WHATSAPP",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPx_O3tEHzlELTypMmzk8PzDihX2g_nuWkaAKMSdsFkEo1ru7CbQiV7B12609ZiB4nFRsGlFTPEZ_95MMPu_x4NLEGSKle3m9tK5M5tiw.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=INBSX_CVUFUQ7kNvwG7CJuA&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjM5Mjg4NTkwNzg0OTk5MiwiYXNzZXRfYWdlX2RheXMiOjE4MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjIyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&_nc_zt=28&oh=00_AQOSl_np8qqIFaw9wMnwdMh-aEs-mvQiCqnD9WH9gLNTyQ&oe=6AD490D7",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMXZBPTHWeUnxSqUg4_kuoE1xg-kuxtYQRYDIcS88T57c4Aj8xjbn8NDfoSLlmMhQm19gqa3XGGjPSZAQ-tsU5lCUiV4LU9PRKkIL_0-g.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=4X962I5_IkoQ7kNvwFvzDUw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6OTMwNjQ0MDU2Mzg4ODE1LCJhc3NldF9hZ2VfZGF5cyI6MTgwLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&_nc_zt=28&oh=00_AQOI8mN0dczmG538pW1yl9wxkDW6JOyRBZNkGPMTebUAuA&oe=6AD49BBF",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOSKxTtslim-RYSD8ViiorKYwgpvpZOXfRCAS-rLqy_exaeyWK-PWsqyuCsics6hz8ovPFJWOeO6gdRJOCBTOnJf1U8wtQjHtexMwPLnQ.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=n9VMmNYS8-4Q7kNvwG1uelF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTM0NjE3MzcwMDg3Nzc5NCwiYXNzZXRfYWdlX2RheXMiOjE4MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjIyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&_nc_zt=28&oh=00_AQPmI_cqCMVk1Tc76wEdeSu8QKvRMi0zWIYYGFSwf4ltRw&oe=6AD4864E"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/748665923_2218881292285976_7527491467262324344_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Ymtwytql-ewQ7kNvwGuHTu-&_nc_oc=AdoPQyE-Lj2IO8Od-jaULGsb-jxmMOb_-XCQ-FwBHTGPEpZiaN-g8m8DtHqFbVMLW38&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQOgcc3lRzBppQnriMNnlLo4S04_dDi7VLEQtwhGj3ofkQ&oe=6AD49561",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/752325884_1048439887664381_774799519072571566_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ZX1XXv2M6sYQ7kNvwEwG4AR&_nc_oc=AdrHyoji2-dB4TrxId-McZnPncRxSaZVprhh1KZTs-0fSMU2Jg4T16zXdCv4_wltGY8&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQP2d5CxGdNxQxwaQpJ5gBrRL4Qu5huFOPXdF1L2Zr2d5A&oe=6AD49384",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/749161660_2880271735677605_8044487745095321823_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=VBAgGmALYBAQ7kNvwEZNU38&_nc_oc=Ado0BWoz8DckiohcsovcPxyJtpqwhTCTUG5JKFWGsKcAGA4XJfbGGNtN2ZywkkcfWvg&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQO3WUM9PzwnHNvtcHjZPJ0eTZ9qx9F-lBvmzOue9xuglw&oe=6AD46A84",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/753557016_1790622875443759_5309873550931895293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=mmNM6Q4WqIsQ7kNvwF3RByu&_nc_oc=AdqkgqUDQEbwIIDX9L6oNwYu8Nr52ybeeKDcU8BzbXdJO8eZyhIylfK8ydM8x2Ee92g&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQN4NsDAiP8Sd-BMsAetfQ9ir6sGY2puFK5gLc5c-YT4WQ&oe=6AD47E99"
+      ],
+      "cards": [
+        {
+          "title": "[오직 하루!] 85% 한정특가",
+          "body": "뻐근한 손가락⚡\n전용 패치로 붙이고 싹— 편하게!\n\n✴️ 최대 85% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뭉친 손가락 그대로 두면 굳어요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_260723_f_09"
+        },
+        {
+          "title": "[오직 하루!] 85% 한정특가",
+          "body": "뻐근한 손가락⚡\n전용 패치로 붙이고 싹— 편하게!\n\n✴️ 최대 85% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뭉친 손가락 그대로 두면 굳어요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_260723_f_09"
+        },
+        {
+          "title": "[오직 하루!] 85% 한정특가",
+          "body": "뻐근한 손가락⚡\n전용 패치로 붙이고 싹— 편하게!\n\n✴️ 최대 85% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뭉친 손가락 그대로 두면 굳어요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_260723_f_09"
+        },
+        {
+          "title": "[오직 하루!] 85% 한정특가",
+          "body": "뻐근한 손가락⚡\n전용 패치로 붙이고 싹— 편하게!\n\n✴️ 최대 85% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+          "link_description": "뭉친 손가락 그대로 두면 굳어요😲",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_260723_f_09"
+        }
+      ]
+    },
+    {
+      "id": "1042604295165302",
+      "query": "inverb.co.kr",
+      "slice": "default",
+      "rank": 1,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-08-09",
+      "end_date": "2026-10-13",
+      "days_running": 65,
+      "collation_id": "873501598909501",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "{{product.brand}}",
+      "title": "{{product.name}}",
+      "caption": "inverb.co.kr",
+      "link_description": "{{product.description}}",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_260810_f_04"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMi1Zmed3roTJtw3RhKcHpK6sSLfjlbdbXjnaCrEMz6SvwOUkwPXCS27_9ABmVFbeMLT__k94CK7Q3wvGVUomSOZhAA5UMBAoG3UzKEPA.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=gHCQU-CbIPIQ7kNvwF9OkiS&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTI4NTQxMTg0OTY1NjAyMiwiYXNzZXRfYWdlX2RheXMiOjQwNSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjI4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&_nc_zt=28&oh=00_AQMoTbtfEFlH3FksTqtmJn1znl8IELYB0DyMXXeOn5Atxw&oe=6AD499E0",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNEz_lCnfsa2h4C8wJUd8evROYzTE3gOdqeluFxYcnEd84tWHt9m17CP4DDJfczN_LaqIaq97IpScTW1qxApgQaE-4Lt4NIACpL7MGqmw.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=LuYArVqvzusQ7kNvwEEZLSY&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTI5MzA2MDY0OTAyMzA1MywiYXNzZXRfYWdlX2RheXMiOjQwNSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjI4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&_nc_zt=28&oh=00_AQO5jZCiy__8Uj8x6QfsncmKke4TN15bt6fmlG8lKbg3bw&oe=6AD496A6",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNxt5GsQv_NZurPuMykgRGj5KQOmNgrwmvKOmBKGhvENOY-mEE1CtQQ2Pw_fnmaUM2RGWfVeZ20Foxupuyv2h2kOFKtvfnPwL2-EXetZQ.mp4?_nc_cat=105&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=mgY5JBfitW0Q7kNvwFS2p-Q&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTkyOTE3NTQ1MTI2MjA3MSwiYXNzZXRfYWdlX2RheXMiOjQwNSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjI4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&_nc_zt=28&oh=00_AQOGbowrMskbaWQFShtoMV4YIM2F50FBD8mxoRMjnmtXIg&oe=6AD49359"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/770363565_1246187254242402_5621676385019921417_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=nMmoUgzUV98Q7kNvwFo8YgL&_nc_oc=AdpVhLxIUWDI7MkNyTCJ-LTHDoB4qgF1m-IXojlOQVbW5qbcaAf7xgbNsYYMhDn2cXE&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQM95-OC8DeI5bqsNscM8hZ2QDuVTgOz_hJtn6-_Rk7R9Q&oe=6AD471CB",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/765898297_1760176168328734_5382482796622269672_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=tu20StgamvkQ7kNvwHtbLp5&_nc_oc=AdqxGtQS4yqPSVBkqHVyGeFYkm0ioD1HYIRpHuTKD-qjjM6WIa6KWI9HQflbifLl404&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQNs5Uio-GgT-Jl3LaTkL39A2Rg6oYXSAh4T_QQQJHu3qw&oe=6AD48C0F",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/768452963_1260412037158710_3583114251278055875_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5x8cv0rudCMQ7kNvwFw5A5U&_nc_oc=AdolSTc9QYy6zTPYOFx9X-Qwu0gcIN72amxAE1J4lOdctA4LhhKm2NHs-fzNpLOQIL8&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQMzwZIWp_yA1lTPUDTufJxa0H54hbhTdWPbbUC4kvTFlQ&oe=6AD492C2",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/769175297_1205493191766777_4649655887084550946_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=dOTSg9qu17kQ7kNvwFV1X1C&_nc_oc=AdrcJ9qYXWG-5zuda_8ZdcmEjCWB_dTen9t4IjvwdTEYU-X5Vaj1bLesBcW6929ileE&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=LxYcdoYTfgIfgFh8ff2ISw&_nc_ss=7f289&oh=00_AQMejCba6eJzSYIiFv45be7qKts696sL0f7OiadTi9ktTA&oe=6AD46A16"
+      ],
+      "cards": [
+        {
+          "title": "오늘만 85% 특가⚡",
+          "body": "온몸 구석구석, 단 하나로👌\n목부터 발끝까지 자유롭게 붙이는 맞춤형 케어✨\n\n✔ 4종 혼합형으로 원하는 부위 어디든\n✔ 얇고 유연해 움직임에도 편안\n✔ 일상 속 부담 없는 간편 리커버리",
+          "link_description": "목부터 발끝까지 원하는 부위에 착!👌",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_260810_f_04"
+        },
+        {
+          "title": "오늘만 85% 특가⚡",
+          "body": "온몸 구석구석, 단 하나로👌\n목부터 발끝까지 자유롭게 붙이는 맞춤형 케어✨\n\n✔ 4종 혼합형으로 원하는 부위 어디든\n✔ 얇고 유연해 움직임에도 편안\n✔ 일상 속 부담 없는 간편 리커버리",
+          "link_description": "목부터 발끝까지 원하는 부위에 착!👌",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_260810_f_04"
+        },
+        {
+          "title": "오늘만 85% 특가⚡",
+          "body": "온몸 구석구석, 단 하나로👌\n목부터 발끝까지 자유롭게 붙이는 맞춤형 케어✨\n\n✔ 4종 혼합형으로 원하는 부위 어디든\n✔ 얇고 유연해 움직임에도 편안\n✔ 일상 속 부담 없는 간편 리커버리",
+          "link_description": "목부터 발끝까지 원하는 부위에 착!👌",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_260810_f_04"
+        },
+        {
+          "title": "오늘만 85% 특가⚡",
+          "body": "온몸 구석구석, 단 하나로👌\n목부터 발끝까지 자유롭게 붙이는 맞춤형 케어✨\n\n✔ 4종 혼합형으로 원하는 부위 어디든\n✔ 얇고 유연해 움직임에도 편안\n✔ 일상 속 부담 없는 간편 리커버리",
+          "link_description": "목부터 발끝까지 원하는 부위에 착!👌",
+          "link_url": "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_260810_f_04"
+        }
+      ]
+    },
+    {
+      "id": "1571200971121528",
+      "query": "인버브",
+      "slice": "default",
+      "rank": 10,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-09-16",
+      "end_date": "2026-10-13",
+      "days_running": 27,
+      "collation_id": "3285801231604191",
+      "collation_count": 1,
+      "display_format": "IMAGE",
+      "body": "찌릿찌릿 신경쓰이는 관절⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+      "title": "[🚨이 링크에서만] 최대 할인 비밀 페이지",
+      "caption": "inverb.co.kr",
+      "link_description": "근육통 삭제 패치 최저가로 가져가세요😲",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_fp_rt_260916"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "WHATSAPP",
+        "THREADS"
+      ],
+      "video_urls": [],
+      "image_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/796332417_1042312745304742_4481453302358571687_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=c5Sk_NTQ2wcQ7kNvwH91nH0&_nc_oc=AdqBHMZt0C7bXZzHMwoznfK_8m8gjTTiQ7ver_Vr2Gv5YedRy11Og44mGfgatSMfGvE&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQPlf7ww74xrnpiiaKJhETX04BtyAP8iUXnx71kyhVvmRA&oe=6AD498AD"
+      ],
+      "video_preview_urls": [],
+      "cards": []
+    },
+    {
+      "id": "1734784351146146",
+      "query": "인버브",
+      "slice": "default",
+      "rank": 14,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-09-16",
+      "end_date": "2026-10-13",
+      "days_running": 27,
+      "collation_id": "1620346462779782",
+      "collation_count": 1,
+      "display_format": "IMAGE",
+      "body": "찌릿찌릿 신경쓰이는 관절⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+      "title": "[🚨이 링크에서만] 최대 할인 비밀 페이지",
+      "caption": "inverb.co.kr",
+      "link_description": "근육통 삭제 패치 최저가로 가져가세요😲",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_fp_rt_260916"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "WHATSAPP",
+        "THREADS"
+      ],
+      "video_urls": [],
+      "image_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/799972001_934550642568393_1845863167251339292_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7GJi2uTesAAQ7kNvwFcRFRt&_nc_oc=Adr5p4PMITD5LkzZ7iKqb51fHxE9N9pOSkAsWzo3RFffgKMeEf6jq_iH23QmnDZeHnw&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQNLixVcPN8q7YtUCWYpuC4fDgTqsj0eHZZaH3pdJhzRgA&oe=6AD49AB2"
+      ],
+      "video_preview_urls": [],
+      "cards": []
+    },
+    {
+      "id": "4155949531362503",
+      "query": "인버브",
+      "slice": "default",
+      "rank": 15,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-09-16",
+      "end_date": "2026-10-13",
+      "days_running": 27,
+      "collation_id": "1405945991710185",
+      "collation_count": 1,
+      "display_format": "VIDEO",
+      "body": "찌릿찌릿 신경쓰이는 관절⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+      "title": "[🚨이 링크에서만] 최대 할인 비밀 페이지",
+      "caption": "inverb.co.kr",
+      "link_description": "근육통 삭제 패치 최저가로 가져가세요😲",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_fp_rt_260916"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "WHATSAPP",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOU8YSRs71OIEzUQ3FZHmTL5mCFYwlCu4Us0wPLEc1SRwIwmI9FIN1bZusO0a8HfslRUB1uCs-aI0-zw5xaq4rrt7aYfGt9LlIKU4fjaw.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=UC3QCx7TndgQ7kNvwFuxiwq&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTIwMzMwMDYzNTM1MzQyNSwiYXNzZXRfYWdlX2RheXMiOjI3LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQMAZA-FTe3wo4QF57IYdK3gvIuAaqeyMY0R10a_8FQlRw&oe=6AD4755E"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/797698904_1413030847425944_8121489261706206547_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xrAlNwSSMAwQ7kNvwHhc-_H&_nc_oc=Ado7Ps6bFevpXgmnPstUkxd7B55AruqaAB5DucNXTSbZEKtwAVXa2ReGv4NDmwNuKeE&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQNmxdsEjqvvqZt-7ANOCtD2wd3h0ewg_n9S1MH2tregKg&oe=6AD498B2"
+      ],
+      "cards": []
+    },
+    {
+      "id": "2177949552815106",
+      "query": "인버브",
+      "slice": "default",
+      "rank": 19,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-09-16",
+      "end_date": "2026-10-13",
+      "days_running": 27,
+      "collation_id": "1106974441784059",
+      "collation_count": 1,
+      "display_format": "VIDEO",
+      "body": "찌릿찌릿 신경쓰이는 관절⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+      "title": "[🚨이 링크에서만] 최대 할인 비밀 페이지",
+      "caption": "inverb.co.kr",
+      "link_description": "근육통 삭제 패치 최저가로 가져가세요😲",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_fp_rt_260916"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "WHATSAPP",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQO9Rv2Du4fA0kg9GVFN63YRIYVnxP3g996SNIkgeC7tOxCdDLKaZ-uAhTrPtxF-1i_yzW_vP4Y5RIkV0rWqzRKal2Vu4Wr2iSjdapSOSw.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=ZEzsoiM1bbYQ7kNvwEfl9nL&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE1Mjc3MTc5MjI4OTA4NiwiYXNzZXRfYWdlX2RheXMiOjI3LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQPNYL8Bzv0sdYF_h6q3w7mumyTreNtfXk0yG0Yue46rQA&oe=6AD48CB0"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/799983554_1068638635773256_112090420415770057_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=dFZ-aPgYbVUQ7kNvwF8_uQP&_nc_oc=Adqs_sZm1T1tWW1DsjQZnKkvsFBdIvpsWqq_pJYPBEztO_gWrUMdx8y4bR26pESpVAU&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQM2qpwGkJYNWoFg0b4X0T-nKMUz1eNIZk4ShlARe4k6ug&oe=6AD49D1A"
+      ],
+      "cards": []
+    },
+    {
+      "id": "1772279030774748",
+      "query": "인버브",
+      "slice": "default",
+      "rank": 22,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-09-16",
+      "end_date": "2026-10-13",
+      "days_running": 27,
+      "collation_id": "3668874226600211",
+      "collation_count": 1,
+      "display_format": "IMAGE",
+      "body": "찌릿찌릿 신경쓰이는 관절⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+      "title": "[🚨이 링크에서만] 최대 할인 비밀 페이지",
+      "caption": "inverb.co.kr",
+      "link_description": "근육통 삭제 패치 최저가로 가져가세요😲",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_fp_rt_260916"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "WHATSAPP",
+        "THREADS"
+      ],
+      "video_urls": [],
+      "image_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/796466880_2224937618061026_6384997185518905795_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IZbYq4lUYnYQ7kNvwEChxY7&_nc_oc=Adrn_yStYhKQnRFE0t-6wLhWPxTRVA098C63zhCRC4QbpSkYWklwqZcr4OgajCtlhPk&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQP7HmxYFzsZeZrb9DbW4gr8hNh-aG1Oo0gDYX2Hj22OcA&oe=6AD49680"
+      ],
+      "video_preview_urls": [],
+      "cards": []
+    },
+    {
+      "id": "1095240463197536",
+      "query": "인버브",
+      "slice": "default",
+      "rank": 23,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-09-16",
+      "end_date": "2026-10-13",
+      "days_running": 27,
+      "collation_id": "1442797241057405",
+      "collation_count": 1,
+      "display_format": "VIDEO",
+      "body": "찌릿찌릿 신경쓰이는 관절⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+      "title": "[🚨이 링크에서만] 최대 할인 비밀 페이지",
+      "caption": "inverb.co.kr",
+      "link_description": "근육통 삭제 패치 최저가로 가져가세요😲",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_fp_rt_260916"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "WHATSAPP",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMdrpZkl7KitOTENXpIbX3zKz22xwXcMU_mCP7OtAewH7ykD_TA0UCdT8wQXOIEtyBuu-WHNXlFJ489JK0aTIPTmaUP9ok_KRl9cEmQ5A.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=S7W4Mk4_t4AQ7kNvwF9LU7W&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQwNTM2OTc5MTU2NTUxMCwiYXNzZXRfYWdlX2RheXMiOjI3LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQNgXJWD8ixL4HHkvaFGkt6FbKKdNRqcOO72LvdAo3uXDQ&oe=6AD469D7"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/812133948_2361409244668399_4753927071946594031_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BXxB0GJPnwMQ7kNvwHS0cPA&_nc_oc=AdrS9gKlXa7QL9nuAQgfg-c1Q8fcau-IB77e9SR8V8eXeQugoMkcOA7ieKpfnT7f9W4&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQM67IYJYodhTPJ_nu0h-OWSDBVKBicLTEyjEYD6EfGnNw&oe=6AD488FE"
+      ],
+      "cards": []
+    },
+    {
+      "id": "2968001860215285",
+      "query": "인버브",
+      "slice": "default",
+      "rank": 24,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-09-16",
+      "end_date": "2026-10-13",
+      "days_running": 27,
+      "collation_id": "1017365207984768",
+      "collation_count": 1,
+      "display_format": "VIDEO",
+      "body": "찌릿찌릿 신경쓰이는 관절⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+      "title": "[🚨이 링크에서만] 최대 할인 비밀 페이지",
+      "caption": "inverb.co.kr",
+      "link_description": "근육통 삭제 패치 최저가로 가져가세요😲",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_fp_rt_260916"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "WHATSAPP",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOVF3kQn3PdfKNNgAYps_sm_TZndGFDWCRskKYMYiAYVY8tmpeIkrH0SRRvPm8b8wEWfe8juBrNRgRKp5ssNN4MFlDB5kBrxxjiD5jXDg.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=RSJhM9Lg3MEQ7kNvwEUKZDt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6Mjc2MTYwMDQ2MTQ3NDA3MzgsImFzc2V0X2FnZV9kYXlzIjoyNywidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjMxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQN22YKReZxaKGcAKMpqYXQqe4l1Wyp8TmffjO1uZvIl1w&oe=6AD48874"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/813332772_1326955222668850_3560898905981621519_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=g9ah3FuEWCoQ7kNvwGmM1R7&_nc_oc=Adr3qxW1cFngvNwLRd0nINynX2DZBWINk7v_-kom4WvcJdtIphC0_Gfbq1SKxLzrZy8&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQMl6sMjF3r5-Uz9yOzHmlpmoxFz6aWSh6-0IQ8LoUbu-w&oe=6AD492B0"
+      ],
+      "cards": []
+    },
+    {
+      "id": "1798636871276930",
+      "query": "인버브",
+      "slice": "default",
+      "rank": 26,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-09-16",
+      "end_date": "2026-10-13",
+      "days_running": 27,
+      "collation_id": "1072840115714311",
+      "collation_count": 1,
+      "display_format": "VIDEO",
+      "body": "찌릿찌릿 신경쓰이는 관절⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+      "title": "[🚨이 링크에서만] 최대 할인 비밀 페이지",
+      "caption": "inverb.co.kr",
+      "link_description": "근육통 삭제 패치 최저가로 가져가세요😲",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_fp_rt_260916"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "WHATSAPP",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMPEdFAip-l67mUNS9VQN4qOpbA8NY0g4QfIdRofmnJDXe3LW0BA_5JyQ6-3KZwhfFpHrnWXsineTS-n1S4T3xZmGMkvrfghAOyupiYvQ.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=dzH4jhNkP_UQ7kNvwFBGGJt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ0MDMwMDQ4NDY1Mzg5NSwiYXNzZXRfYWdlX2RheXMiOjI3LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQOgTRlImGHVmHCl3CRiEE3tAdfs-bXPGyNVK-NIOBLhtA&oe=6AD4A06C"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/796709595_1740566817232699_7489978412868588910_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ZW8FQJfX65IQ7kNvwFwDI89&_nc_oc=AdrkF_9eq524tyRmeQdPfGf6Z0Jw1A8RHXVd8AkxwHRZEpCP7yKvK_0VYH5FyWNko8I&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQNtt_n2s-XZy44W7zg_BGavots6qckWPQuF0diuJ7hblA&oe=6AD4802C"
+      ],
+      "cards": []
+    },
+    {
+      "id": "3585423738300236",
+      "query": "인버브",
+      "slice": "default",
+      "rank": 28,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-09-16",
+      "end_date": "2026-10-13",
+      "days_running": 27,
+      "collation_id": "1430539765634685",
+      "collation_count": 1,
+      "display_format": "VIDEO",
+      "body": "찌릿찌릿 신경쓰이는 관절⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+      "title": "[🚨이 링크에서만] 최대 할인 비밀 페이지",
+      "caption": "inverb.co.kr",
+      "link_description": "근육통 삭제 패치 최저가로 가져가세요😲",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_fp_rt_260916"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "WHATSAPP",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNYdOdxPfZYRqDN2ygwJRHAm7-AOcK6ouTwWx-Yl4xm5KCCQ4KKlOUFNEeTRC_a3WwMvFgMX5Ouf2s4E0i218dQRlZxMGFYWTOE_j5sOA.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=8pcXNGPRw-kQ7kNvwHEw7W_&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjU5MDI4OTM4ODA3Njg4NiwiYXNzZXRfYWdlX2RheXMiOjI3LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MzgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQMgxPy5Y_h5fbFRrnSLpvuKSf2bGwwmffNSOaqHJh_U-w&oe=6AD491D7"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/795253823_1094412719713769_4826390241509148262_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=07c3PClmOV8Q7kNvwHQonIQ&_nc_oc=AdrgMgZFZbyEfZLVQL1d6KrYEo9lvV4oGYOpfIDh3GE1ePKP3t_y9LLPV0iRkTpifiM&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQN6cYNvJ2udlnCI0jc2EvyNN4dPwM1k9SuYmX4FlteZ7w&oe=6AD488E3"
+      ],
+      "cards": []
+    },
+    {
+      "id": "2526535117825682",
+      "query": "인버브",
+      "slice": "default",
+      "rank": 29,
+      "page_name": "건강ㅎŁ 생활습관",
+      "page_id": "802347306285166",
+      "page_like_count": 386,
+      "is_active": true,
+      "start_date": "2026-09-16",
+      "end_date": "2026-10-13",
+      "days_running": 27,
+      "collation_id": "2285165738687111",
+      "collation_count": 1,
+      "display_format": "VIDEO",
+      "body": "찌릿찌릿 신경쓰이는 관절⚡\n인버브 패치로 바로 관리하세요!\n\n✴️ 최대 86% 즉시 할인\n✴️ 원적외선 온열찜질 효과\n✴️ 피부 저자극 테스트 완료",
+      "title": "[🚨이 링크에서만] 최대 할인 비밀 페이지",
+      "caption": "inverb.co.kr",
+      "link_description": "근육통 삭제 패치 최저가로 가져가세요😲",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://inverb.co.kr/product/detail.html?product_no=49&utm_source=instagram&utm_medium=social&utm_campaign=fb_fp_rt_260916"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "WHATSAPP",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPU5TwZ5x73h6PWJxNa7hujiOwe3pbmO5fiJgBALvWoe31bU409Lr23NYgxBlbtOXV9My4oTo7uTQrIhLyb2raVHEIuxNBKF6WblDruFw.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=PNksWE0oQ0QQ7kNvwH5V-CB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjEwNjIxNjg3MzM0MDk0MiwiYXNzZXRfYWdlX2RheXMiOjI3LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&_nc_zt=28&oh=00_AQP1WD0NzD0waqZqj-lofraS-mZ9d49kBHvB0C8tfwxTxA&oe=6AD477EB"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/799972007_28309480452049568_4809657020137197480_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=F4gyhojtjdUQ7kNvwGDYp5F&_nc_oc=AdokUJJ8yPDgW8YjZWS-3l9HlWtT3hVv6oFbPcTkjxLB13iqs4jsW6PiLSvVbWgTIX8&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=ENJG08pWTXrHWTNpqDemcA&_nc_ss=7f289&oh=00_AQPFTVp9B8KHLeDwMVcHBjCKELwGYAr02qRpDc6b4R4ulA&oe=6AD48E61"
+      ],
+      "cards": []
+    }
+  ]
+}

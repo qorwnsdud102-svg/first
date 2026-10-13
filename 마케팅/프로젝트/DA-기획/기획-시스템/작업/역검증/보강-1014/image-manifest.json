@@ -1,0 +1,1372 @@
+[
+  {
+    "candidate_id": "L01",
+    "image_index": 0,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/u_shot900/20260616/pc/1.jpg",
+    "retrieved_at": "2026-10-14T07:40:15.473266+09:00",
+    "status": 200,
+    "path": "images/L01-0.jpg",
+    "sha256": "2e8fdd0413d973cc5312614d0fda06af26b0b0ca9b21fe4ed77ca6e09e712c7e",
+    "size": [
+      1200,
+      1137
+    ],
+    "previews": [
+      "previews/L01-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L01",
+    "image_index": 1,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/u_shot900/20260616/pc/5.jpg",
+    "retrieved_at": "2026-10-14T07:40:15.473784+09:00",
+    "status": 200,
+    "path": "images/L01-1.jpg",
+    "sha256": "67e67cb0dc4b0800e38590d5a63f19169463eb37534fd436a16d753ac9ebc91e",
+    "size": [
+      1200,
+      1236
+    ],
+    "previews": [
+      "previews/L01-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L01",
+    "image_index": 2,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/u_shot900/20260616/pc/11.jpg",
+    "retrieved_at": "2026-10-14T07:40:15.474306+09:00",
+    "status": 200,
+    "path": "images/L01-2.jpg",
+    "sha256": "c63cb97e6887e1fd302f8d8e5497236d805df80188bd634b9d4335cc9061702d",
+    "size": [
+      1200,
+      1497
+    ],
+    "previews": [
+      "previews/L01-2-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L02",
+    "image_index": 0,
+    "url": "https://cdn.imweb.me/upload/S202502137495a14090c99/498ed78ff70a3.png",
+    "retrieved_at": "2026-10-14T07:40:15.474682+09:00",
+    "status": 200,
+    "path": "images/L02-0.png",
+    "sha256": "7b7acbde9ab41dc309a6ad1b07dcdbea5011a51039188741b53c115adcb1015b",
+    "size": [
+      860,
+      1001
+    ],
+    "previews": [
+      "previews/L02-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L02",
+    "image_index": 1,
+    "url": "https://cdn.imweb.me/upload/S202502137495a14090c99/010205872fd94.png",
+    "retrieved_at": "2026-10-14T07:40:15.475076+09:00",
+    "status": 200,
+    "path": "images/L02-1.png",
+    "sha256": "02544620a2197b25ce207b4e46b9c465017307ed78ac80071f5c875ae2d8f617",
+    "size": [
+      860,
+      848
+    ],
+    "previews": [
+      "previews/L02-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L02",
+    "image_index": 2,
+    "url": "https://cdn.imweb.me/upload/S202502137495a14090c99/2f1d1ef193f54.png",
+    "retrieved_at": "2026-10-14T07:40:15.475421+09:00",
+    "status": 200,
+    "path": "images/L02-2.png",
+    "sha256": "d16f38362c045cf4a453fec90afecd5c5acee3505316d9064bae9e8eb8455e9c",
+    "size": [
+      860,
+      1612
+    ],
+    "previews": [
+      "previews/L02-2-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L05",
+    "image_index": 0,
+    "url": "https://gi.esmplus.com/ecobiotech/renovera/spray/secret/1-2.png",
+    "retrieved_at": "2026-10-14T07:40:15.824116+09:00",
+    "status": 200,
+    "path": "images/L05-0.png",
+    "sha256": "d4d3318359ba78e9f40c6b6174037236c8faf810a04379f2fba1c416019b67c3",
+    "size": [
+      900,
+      8330
+    ],
+    "previews": [
+      "previews/L05-0-0.jpg",
+      "previews/L05-0-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L05",
+    "image_index": 1,
+    "url": "https://gi.esmplus.com/ecobiotech/renovera/spray/secret/2-2.png",
+    "retrieved_at": "2026-10-14T07:40:15.849068+09:00",
+    "status": 200,
+    "path": "images/L05-1.png",
+    "sha256": "ab30c90a84a8074abbf0fc0a88de2b96268116877f95e1a33049c8e314408890",
+    "size": [
+      900,
+      13377
+    ],
+    "previews": [
+      "previews/L05-1-0.jpg",
+      "previews/L05-1-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L06",
+    "image_index": 0,
+    "url": "https://www.groominglab.co.kr/web/upload/NNEditor/20240714/0618_EAB7B8EBA3A8EBB08DEB9EA9-EC97BCEC8389ECA09C-EC8381EC84B8ED8E98EC9DB4ECA780_03.png",
+    "retrieved_at": "2026-10-14T07:40:15.852455+09:00",
+    "status": 200,
+    "path": "images/L06-0.png",
+    "sha256": "3f5a7e994e5c8d8b72428e2f513b29bcde8926b3c92056e82332c4539f35354e",
+    "size": [
+      860,
+      951
+    ],
+    "previews": [
+      "previews/L06-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L06",
+    "image_index": 1,
+    "url": "https://www.groominglab.co.kr/web/upload/NNEditor/20240714/0618_EAB7B8EBA3A8EBB08DEB9EA9-EC97BCEC8389ECA09C-EC8381EC84B8ED8E98EC9DB4ECA780_05.png",
+    "retrieved_at": "2026-10-14T07:40:15.862723+09:00",
+    "status": 200,
+    "path": "images/L06-1.png",
+    "sha256": "8af72950448928c288c20e0ba57b7547ad2e3030396911eec98e042571fe8d96",
+    "size": [
+      860,
+      169
+    ],
+    "previews": [
+      "previews/L06-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L06",
+    "image_index": 2,
+    "url": "https://www.groominglab.co.kr/web/upload/NNEditor/20240714/0618_EAB7B8EBA3A8EBB08DEB9EA9-EC97BCEC8389ECA09C-EC8381EC84B8ED8E98EC9DB4ECA780_06.png",
+    "retrieved_at": "2026-10-14T07:40:15.936452+09:00",
+    "status": 200,
+    "path": "images/L06-2.png",
+    "sha256": "e240d8f14c49af4eb0b4cd8d75692632ea9b87f486e91aca676b80e5bd953fd2",
+    "size": [
+      860,
+      1967
+    ],
+    "previews": [
+      "previews/L06-2-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L07",
+    "image_index": 0,
+    "url": "https://ecimg.cafe24img.com/pg198b83495816070/woo8425/web/upload/NNEditor/20260901/EAB3B5EC8B9D20EC9DB8ECA69D20EBB0B0EB8488.jpg",
+    "retrieved_at": "2026-10-14T07:40:15.984127+09:00",
+    "status": 200,
+    "path": "images/L07-0.jpg",
+    "sha256": "4364c42f39aeb45dc187be25a46e281f85725f314fbf66b4082012699e3fa7aa",
+    "size": [
+      1000,
+      442
+    ],
+    "previews": [
+      "previews/L07-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L07",
+    "image_index": 1,
+    "url": "https://ecimg.cafe24img.com/pg198b83495816070/woo8425/web/upload/NNEditor/20260518/260515_ED9598EC9794_EB94A5ED8AB8EBA6ADEC8AA420EC8381EC84B8ED8E98EC9DB4ECA78020EBA6ACEB89B4EC96BC2002.jpg",
+    "retrieved_at": "2026-10-14T07:40:16.109623+09:00",
+    "status": 200,
+    "path": "images/L07-1.jpg",
+    "sha256": "f498482b8e337a2fe338197c6bc63e6cf156d4689e2b8996101dc2f4fd0ca9d2",
+    "size": [
+      1000,
+      1908
+    ],
+    "previews": [
+      "previews/L07-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L07",
+    "image_index": 2,
+    "url": "https://ecimg.cafe24img.com/pg198b83495816070/woo8425/web/upload/NNEditor/20260518/260515_ED9598EC9794_EB94A5ED8AB8EBA6ADEC8AA420EC8381EC84B8ED8E98EC9DB4ECA78020EBA6ACEB89B4EC96BC2006.jpg",
+    "retrieved_at": "2026-10-14T07:40:16.167601+09:00",
+    "status": 200,
+    "path": "images/L07-2.jpg",
+    "sha256": "1e1c1f725ceceb752aa5ec76935c1f91b4ea51e9149327bc6aeec3b0e9966110",
+    "size": [
+      1000,
+      2610
+    ],
+    "previews": [
+      "previews/L07-2-0.jpg",
+      "previews/L07-2-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L08",
+    "image_index": 0,
+    "url": "https://yourvet.kr/Images/DT/Comm/Yourvet_Com_02_Doc.png",
+    "retrieved_at": "2026-10-14T07:40:16.234658+09:00",
+    "status": 200,
+    "path": "images/L08-0.png",
+    "sha256": "28afdcd055e8e722bd287e7db315f017b6931475de0a93b1e7c4110a752e4f0f",
+    "size": [
+      700,
+      1250
+    ],
+    "previews": [
+      "previews/L08-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L08",
+    "image_index": 1,
+    "url": "https://yourvet.kr/Images/DT/Den/Yourvet_Den_01.png",
+    "retrieved_at": "2026-10-14T07:40:16.372945+09:00",
+    "status": 200,
+    "path": "images/L08-1.png",
+    "sha256": "6c65bfe5b7eccaa4f3b6c8ccf9b927d5cf8c114963dd6d40993520ac2f28f14e",
+    "size": [
+      700,
+      1500
+    ],
+    "previews": [
+      "previews/L08-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L08",
+    "image_index": 2,
+    "url": "https://yourvet.kr/Images/DT/Den/Yourvet_Den_03_.png",
+    "retrieved_at": "2026-10-14T07:40:16.454703+09:00",
+    "status": 200,
+    "path": "images/L08-2.png",
+    "sha256": "560811b8b1025e1d22db991c1c540101644b38f0b40a89c38f46ba5bc486222b",
+    "size": [
+      700,
+      2800
+    ],
+    "previews": [
+      "previews/L08-2-0.jpg",
+      "previews/L08-2-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L09",
+    "image_index": 0,
+    "url": "https://sleepisol.com/web/upload/NNEditor/20251204/3490675e5f819cf7c189da854c725228.jpg",
+    "retrieved_at": "2026-10-14T07:40:16.673723+09:00",
+    "status": 200,
+    "path": "images/L09-0.jpg",
+    "sha256": "c64855711b3c3ef11b62b4abe42d7f4f87509ec6a399feaff17ddcef959ed3df",
+    "size": [
+      1000,
+      2363
+    ],
+    "previews": [
+      "previews/L09-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L09",
+    "image_index": 1,
+    "url": "https://sleepisol.com/web/upload/NNEditor/20251203/509695be6a4fcf40f12751f85ccbefbc.jpg",
+    "retrieved_at": "2026-10-14T07:40:16.688650+09:00",
+    "status": 200,
+    "path": "images/L09-1.jpg",
+    "sha256": "8873e93fb40a4a5be6c9b1e18258186f7e05791d055d77492865d65967efc83e",
+    "size": [
+      1000,
+      611
+    ],
+    "previews": [
+      "previews/L09-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L09",
+    "image_index": 2,
+    "url": "https://sleepisol.com/web/upload/NNEditor/20251023/43bf911a6cc34c96762b1b60c645bcc8.webp",
+    "retrieved_at": "2026-10-14T07:40:16.804090+09:00",
+    "status": 200,
+    "path": "images/L09-2.webp",
+    "sha256": "86fe8baab187be4f525d89441e4b234c5d590f2f1d44e7ee7bbb6c4107b27a25",
+    "size": [
+      860,
+      529
+    ],
+    "previews": [
+      "previews/L09-2-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L12",
+    "image_index": 0,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/2.jpg",
+    "retrieved_at": "2026-10-14T07:40:16.924667+09:00",
+    "status": 200,
+    "path": "images/L12-0.jpg",
+    "sha256": "a50926c837bb16dc62371d1b8d33abda0aabaf56edb621a6f177a5b47978bd17",
+    "size": [
+      1200,
+      2795
+    ],
+    "previews": [
+      "previews/L12-0-0.jpg",
+      "previews/L12-0-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L12",
+    "image_index": 1,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/5_5.jpg",
+    "retrieved_at": "2026-10-14T07:40:16.982604+09:00",
+    "status": 200,
+    "path": "images/L12-1.jpg",
+    "sha256": "83b72891b707ec0c46a5e5724850dcd1fb780c36955bed5743e6afaa30f260ae",
+    "size": [
+      1200,
+      349
+    ],
+    "previews": [
+      "previews/L12-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L12",
+    "image_index": 2,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/6.jpg",
+    "retrieved_at": "2026-10-14T07:40:17.109458+09:00",
+    "status": 200,
+    "path": "images/L12-2.jpg",
+    "sha256": "e87350199a2130ca6f0a72daf2f4818095e89b73867dd247103e21299e9616db",
+    "size": [
+      1200,
+      2499
+    ],
+    "previews": [
+      "previews/L12-2-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L13",
+    "image_index": 0,
+    "url": "https://hadanakorea.imghost.cafe24.com/admin/sharpener/0.real/3.P00000CP/2.jpg",
+    "retrieved_at": "2026-10-14T07:40:17.140839+09:00",
+    "status": 200,
+    "path": "images/L13-0.jpg",
+    "sha256": "2bf751b99a4d5ade5508bd898e93c723fc47af49bc97f20e46930c99dcf0e05b",
+    "size": [
+      860,
+      900
+    ],
+    "previews": [
+      "previews/L13-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L13",
+    "image_index": 1,
+    "url": "https://hadanakorea.imghost.cafe24.com/admin/sharpener/0.real/3.P00000CP/3.jpg",
+    "retrieved_at": "2026-10-14T07:40:17.388036+09:00",
+    "status": 200,
+    "path": "images/L13-1.jpg",
+    "sha256": "5b2308d3c8e15e2ee423043c4316116972f4ecc0bede4583f7ca263fc4d30239",
+    "size": [
+      860,
+      2894
+    ],
+    "previews": [
+      "previews/L13-1-0.jpg",
+      "previews/L13-1-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L13",
+    "image_index": 2,
+    "url": "https://hadanakorea.imghost.cafe24.com/admin/sharpener/0.real/3.P00000CP/5.jpg",
+    "retrieved_at": "2026-10-14T07:40:17.446533+09:00",
+    "status": 200,
+    "path": "images/L13-2.jpg",
+    "sha256": "d5c7bddbfbe545016c23830085fbaef82fdad44501ce9ca16e6f3e3a5074c29e",
+    "size": [
+      860,
+      2505
+    ],
+    "previews": [
+      "previews/L13-2-0.jpg",
+      "previews/L13-2-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L14",
+    "image_index": 0,
+    "url": "https://ecimg.cafe24img.com/pg2196b93075967065/hattke/web/upload/NNEditor/20260710/ce0c55ce3791c471136e8a532fd4145c.jpg",
+    "retrieved_at": "2026-10-14T07:40:17.524844+09:00",
+    "status": 200,
+    "path": "images/L14-0.jpg",
+    "sha256": "dbd30e7f84e61545557ddafccc260b7560a2fb5effa6e399715d539964eb280a",
+    "size": [
+      1000,
+      1980
+    ],
+    "previews": [
+      "previews/L14-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L14",
+    "image_index": 1,
+    "url": "https://ecimg.cafe24img.com/pg2196b93075967065/hattke/web/upload/NNEditor/20260710/69d9cc96fa31f98828772db17b72c2e3.jpg",
+    "retrieved_at": "2026-10-14T07:40:17.572772+09:00",
+    "status": 200,
+    "path": "images/L14-1.jpg",
+    "sha256": "a2156cd37e1cca87ccc4407005995fcf3116ed20690730890eae7433597f4002",
+    "size": [
+      1000,
+      470
+    ],
+    "previews": [
+      "previews/L14-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L14",
+    "image_index": 2,
+    "url": "https://ecimg.cafe24img.com/pg2196b93075967065/hattke/web/upload/NNEditor/20260710/148f9e8c9e2489e955a01a660442c868.jpg",
+    "retrieved_at": "2026-10-14T07:40:17.749567+09:00",
+    "status": 200,
+    "path": "images/L14-2.jpg",
+    "sha256": "62670910362d6c32151bdd6514d92f8fd87e414fe7effe7c0b23f878d454084c",
+    "size": [
+      1000,
+      2130
+    ],
+    "previews": [
+      "previews/L14-2-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 0,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/0933d857eb77a54bfc1994007d69e4c9.jpg",
+    "retrieved_at": "2026-10-14T07:40:17.753250+09:00",
+    "status": 200,
+    "path": "images/L15-0.jpg",
+    "sha256": "1c2893d16617e705c5b970d536210d3b86fb0b4446681a2fa1a5b30cd077ef97",
+    "size": [
+      1000,
+      580
+    ],
+    "previews": [
+      "previews/L15-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 1,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/db85f318e8d1e87143850aa7cbf06fae.jpg",
+    "retrieved_at": "2026-10-14T07:40:17.789697+09:00",
+    "status": 200,
+    "path": "images/L15-1.jpg",
+    "sha256": "9029f4028273658dc473eb141a014850ac7ba98027669ef7ed533263a02fde91",
+    "size": [
+      1000,
+      720
+    ],
+    "previews": [
+      "previews/L15-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 2,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/3c38c80596533a8632ddf3fbdc0c3b7f.jpg",
+    "retrieved_at": "2026-10-14T07:40:17.915817+09:00",
+    "status": 200,
+    "path": "images/L15-2.jpg",
+    "sha256": "1fb45c487c71501af4e41be0e3f6dbef02f79358c745bb208bf7a8bfccc63bc9",
+    "size": [
+      1000,
+      274
+    ],
+    "previews": [
+      "previews/L15-2-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L16",
+    "image_index": 0,
+    "url": "https://ecimg.cafe24img.com/pg2706b74512216008/bifidol/web/upload/NNEditor/20260417/E18487E185B5E18491E185B5E18483E185A9E186AF_E18480E185AEE18480E185A1E186BCE18489E185B3E18491E185B3E18485E185A6E1848BE185B5_E18489E185A1E186BCE18491E185A6_1_01.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.002589+09:00",
+    "status": 200,
+    "path": "images/L16-0.jpg",
+    "sha256": "34ea98f6019ad04bb297d4ee735ce2da4bde37a33560bf211a228f0068694236",
+    "size": [
+      800,
+      396
+    ],
+    "previews": [
+      "previews/L16-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L16",
+    "image_index": 1,
+    "url": "https://ecimg.cafe24img.com/pg2706b74512216008/bifidol/web/upload/NNEditor/20260715/E18487E185B5E18491E185B5E18483E185A9E186AF_E18480E185AEE18480E185A1E186BCE18489E185B3E18491E185B3E18485E185A6E1848BE185B5_E18489E185A1E186BCE18491E185A6_1-E18489E185AEE1848CE185A5E186BC_05.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.009996+09:00",
+    "status": 200,
+    "path": "images/L16-1.jpg",
+    "sha256": "ef90248e5186725b4070c05ea1a52ecf9cc96b300afc60ede915e09cfc5e39f1",
+    "size": [
+      800,
+      1382
+    ],
+    "previews": [
+      "previews/L16-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L16",
+    "image_index": 2,
+    "url": "https://ecimg.cafe24img.com/pg2706b74512216008/bifidol/web/upload/NNEditor/20260715/BrowserPreview_tmp_04.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.057222+09:00",
+    "status": 200,
+    "path": "images/L16-2.jpg",
+    "sha256": "e5f3c05232746c8a8b9c72e4312b0fe50f3639a42cbe4e6d6d2f16c53802b6a8",
+    "size": [
+      800,
+      3163
+    ],
+    "previews": [
+      "previews/L16-2-0.jpg",
+      "previews/L16-2-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L19",
+    "image_index": 0,
+    "url": "https://d1cnx04b8cgzcv.cloudfront.net/media/products/details/260430_%EC%83%81%EB%8B%A8%EB%B0%B0%EB%84%88_52606e5d9aa44ede882a53bdb76472c7.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.085577+09:00",
+    "status": 200,
+    "path": "images/L19-0.jpg",
+    "sha256": "441fdace96fac8f25beb2b2ea2a57f5dc0c22339698e28d1a77d638a72b23113",
+    "size": [
+      860,
+      1165
+    ],
+    "previews": [
+      "previews/L19-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L19",
+    "image_index": 1,
+    "url": "https://d1cnx04b8cgzcv.cloudfront.net/media/products/details/260430_%ED%94%84%EB%A1%9C%ED%8E%98%EC%85%94%EB%84%90%EB%A3%A8%ED%8A%B8%EC%95%A4%EC%8A%A4%EC%B9%BC%ED%94%84%EC%83%B4%ED%91%B8_01_6ab9a272be7f45fea8e4117e4c62c900.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.245932+09:00",
+    "status": 200,
+    "path": "images/L19-1.jpg",
+    "sha256": "ee6c692342c4861535f9d68e963e8ee38ba0c771f579dd62c268a51814107c0e",
+    "size": [
+      860,
+      3899
+    ],
+    "previews": [
+      "previews/L19-1-0.jpg",
+      "previews/L19-1-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L19",
+    "image_index": 2,
+    "url": "https://d1cnx04b8cgzcv.cloudfront.net/media/products/details/260430_%ED%94%84%EB%A1%9C%ED%8E%98%EC%85%94%EB%84%90%EB%A3%A8%ED%8A%B8%EC%95%A4%EC%8A%A4%EC%B9%BC%ED%94%84%EC%83%B4%ED%91%B8_%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_02_c97ed4a7c5dd4e51bb64dd8d15d3cec6.gif",
+    "retrieved_at": "2026-10-14T07:40:18.329944+09:00",
+    "status": 200,
+    "path": "images/L19-2.gif",
+    "sha256": "d897c9bf7860a3125003c14cc949ca486207b05fba3013eb5a958a8a93b62de1",
+    "size": [
+      860,
+      1173
+    ],
+    "previews": [
+      "previews/L19-2-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L19",
+    "image_index": 3,
+    "url": "https://d1cnx04b8cgzcv.cloudfront.net/media/products/details/260430_%ED%94%84%EB%A1%9C%ED%8E%98%EC%85%94%EB%84%90%EB%A3%A8%ED%8A%B8%EC%95%A4%EC%8A%A4%EC%B9%BC%ED%94%84%EC%83%B4%ED%91%B8_%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_03_02b89e0529b94e98a6f7d9d67a618583.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.494901+09:00",
+    "status": 200,
+    "path": "images/L19-3.jpg",
+    "sha256": "4d78aa813fd9ae6f7a6d1fa543d6c062ffea394c0c95ebffce33bc65a9a1a2fb",
+    "size": [
+      860,
+      891
+    ],
+    "previews": [
+      "previews/L19-3-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L20",
+    "image_index": 0,
+    "url": "https://www.arocell.co.kr/web/upload/NNEditor/20260917/welcome_event_032028229.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.552874+09:00",
+    "status": 200,
+    "path": "images/L20-0.jpg",
+    "sha256": "632757ca1c0dc289e1e433b4a288072b88590d412882e3a1c9d2bfcbcde9307e",
+    "size": [
+      860,
+      605
+    ],
+    "previews": [
+      "previews/L20-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L20",
+    "image_index": 1,
+    "url": "https://www.arocell.co.kr/web/upload/NNEditor/20260917/welcome_event_042028229.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.605931+09:00",
+    "status": 200,
+    "path": "images/L20-1.jpg",
+    "sha256": "618fae24055471b1395106e111ae9fff615500e439b65be0635d4e8b3562d50e",
+    "size": [
+      860,
+      1044
+    ],
+    "previews": [
+      "previews/L20-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP01",
+    "image_index": 0,
+    "url": "https://d1cnx04b8cgzcv.cloudfront.net/media/products/details/78c31177-0d75-46af-99f7-9e44d738a73f_1787899459300.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.616148+09:00",
+    "status": 200,
+    "path": "images/AP01-0.jpg",
+    "sha256": "5770afb7ebb9285816e8a0aff5ce5a9928e14dfc11dd294f627f97761c0733b3",
+    "size": [
+      860,
+      1148
+    ],
+    "previews": [
+      "previews/AP01-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP01",
+    "image_index": 1,
+    "url": "https://d1cnx04b8cgzcv.cloudfront.net/media/products/details/72da9bc1-5718-4489-9510-d14bd7d84672_1790916568970.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.688250+09:00",
+    "status": 200,
+    "path": "images/AP01-1.jpg",
+    "sha256": "ec52eeecfad66a934df15f6361570e1d905a9870c2531a13ad2768af7c388e8f",
+    "size": [
+      860,
+      6510
+    ],
+    "previews": [
+      "previews/AP01-1-0.jpg",
+      "previews/AP01-1-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP01",
+    "image_index": 2,
+    "url": "https://d1cnx04b8cgzcv.cloudfront.net/media/products/details/e6f900a0-f107-46db-b752-f5e849328d5d_1790916569278.gif",
+    "retrieved_at": "2026-10-14T07:40:18.781449+09:00",
+    "status": 200,
+    "path": "images/AP01-2.gif",
+    "sha256": "738448bcc7966212c56075a34954acf27c4da028fa75e7290e87ab80fcb8b6ae",
+    "size": [
+      860,
+      1100
+    ],
+    "previews": [
+      "previews/AP01-2-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP01",
+    "image_index": 3,
+    "url": "https://d1cnx04b8cgzcv.cloudfront.net/media/products/details/9861803b-63ee-41a8-9a34-c743143d802d_1790916571464.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.799249+09:00",
+    "status": 200,
+    "path": "images/AP01-3.jpg",
+    "sha256": "6fd65e905ae7d7ab2e5a80c6baf870d76e9a2e405bd0f4054112823d848f0577",
+    "size": [
+      860,
+      7848
+    ],
+    "previews": [
+      "previews/AP01-3-0.jpg",
+      "previews/AP01-3-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP02",
+    "image_index": 0,
+    "url": "https://ecimg.cafe24img.com/pg2242b49631414056/brisse2025/web/product/extra/small/20260420/4895be84dafe072e604db3c56592136e.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.899422+09:00",
+    "status": 200,
+    "path": "images/AP02-0.jpg",
+    "sha256": "f0d3cbb937eecc2a99e44f0ec868bfecc0e6275641717b8c3c05fe85fb3d0043",
+    "size": [
+      1000,
+      1000
+    ],
+    "previews": [
+      "previews/AP02-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP02",
+    "image_index": 1,
+    "url": "https://ecimg.cafe24img.com/pg2242b49631414056/brisse2025/web/product/extra/small/20260420/43d76c52be88b4da0ba3acb5a59eaf5c.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.900885+09:00",
+    "status": 200,
+    "path": "images/AP02-1.jpg",
+    "sha256": "38575ec841dfbe425f5920d98925a3e58d92fe02181971b1eff0ed8a8f28907d",
+    "size": [
+      1000,
+      1000
+    ],
+    "previews": [
+      "previews/AP02-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP02",
+    "image_index": 2,
+    "url": "https://ecimg.cafe24img.com/pg2242b49631414056/brisse2025/web/product/option_button/20260916/5b7c0afb2edd0417dad5d44c73c249f3.jpg",
+    "retrieved_at": "2026-10-14T07:40:18.989545+09:00",
+    "status": 200,
+    "path": "images/AP02-2.jpg",
+    "sha256": "ffcffb883fc937e65c2825ca72f32a58e1a5235fd6fa4cb3e9333634ce26df30",
+    "size": [
+      1000,
+      1000
+    ],
+    "previews": [
+      "previews/AP02-2-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP06",
+    "image_index": 0,
+    "url": "https://ecimg.cafe24img.com/pg1900b21516297034/plalink001/web/upload/NNEditor/20260518/copy-1779091100-260515_ECB9BCEC8A98ED81ACEBA6BC_EC8381EC84B8ED8E98EC9DB4ECA7801.jpg",
+    "retrieved_at": "2026-10-14T07:40:19.123888+09:00",
+    "status": 200,
+    "path": "images/AP06-0.jpg",
+    "sha256": "b8f795fbfbb09170cd65c3acb6b55c537eaa9b526a13d6b58117508d252aa673",
+    "size": [
+      860,
+      1911
+    ],
+    "previews": [
+      "previews/AP06-0-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP11",
+    "image_index": 0,
+    "url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/product/Heart%20Cheek%20Pack/003.png",
+    "retrieved_at": "2026-10-14T07:40:19.223489+09:00",
+    "status": 200,
+    "path": "images/AP11-0.png",
+    "sha256": "88eb9a4925c0ca9e7437ec37f216afac20c58d7f12b89b80af07b90d8151b618",
+    "size": [
+      1280,
+      2800
+    ],
+    "previews": [
+      "previews/AP11-0-0.jpg",
+      "previews/AP11-0-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP11",
+    "image_index": 1,
+    "url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/product/Heart%20Cheek%20Pack/004.png",
+    "retrieved_at": "2026-10-14T07:40:19.234761+09:00",
+    "status": 200,
+    "path": "images/AP11-1.png",
+    "sha256": "78ebb9bfccfbb436285a328b7223fa2989d5e413c433bb17405879df26185f00",
+    "size": [
+      1280,
+      2000
+    ],
+    "previews": [
+      "previews/AP11-1-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP11",
+    "image_index": 2,
+    "url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/product/Heart%20Cheek%20Pack/005.png",
+    "retrieved_at": "2026-10-14T07:40:19.247397+09:00",
+    "status": 200,
+    "path": "images/AP11-2.png",
+    "sha256": "20e8932e431075ae77f499f9f16c7a952297e63ad7d9778683c47fcff6482992",
+    "size": [
+      1280,
+      2600
+    ],
+    "previews": [
+      "previews/AP11-2-0.jpg",
+      "previews/AP11-2-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP12",
+    "image_index": 0,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/1.jpg",
+    "retrieved_at": "2026-10-14T07:40:19.291446+09:00",
+    "status": 200,
+    "path": "images/AP12-0.jpg",
+    "sha256": "10252bc8c091f38add94e1509e4b33beb8d905ceca65ed3332faa26795ad805a",
+    "size": [
+      1000,
+      2958
+    ],
+    "previews": [
+      "previews/AP12-0-0.jpg",
+      "previews/AP12-0-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP12",
+    "image_index": 1,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/3.jpg",
+    "retrieved_at": "2026-10-14T07:40:19.557651+09:00",
+    "status": 200,
+    "path": "images/AP12-1.jpg",
+    "sha256": "513610ccc4ac1bc067592157f66b2f68bd2b1e86153b60abf3506725ace8a656",
+    "size": [
+      1000,
+      2781
+    ],
+    "previews": [
+      "previews/AP12-1-0.jpg",
+      "previews/AP12-1-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP12",
+    "image_index": 2,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/4.jpg",
+    "retrieved_at": "2026-10-14T07:40:19.636759+09:00",
+    "status": 200,
+    "path": "images/AP12-2.jpg",
+    "sha256": "96abf2e1866dcd424ae9b1333245cf4df9c54ca64513449e284687a994928e9a",
+    "size": [
+      1200,
+      624
+    ],
+    "previews": [
+      "previews/AP12-2-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 10,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20240920/de41ff48173c8f5c0099be8878a55a6c.gif",
+    "retrieved_at": "2026-10-14T07:46:04.787571+09:00",
+    "status": 200,
+    "path": "images/L15-10.gif",
+    "sha256": "eda86ebdc1c2bbab6bd9610ee3b441d8fc8ee99b91dfe89f19000ebe72f05c1c",
+    "size": [
+      1000,
+      562
+    ],
+    "previews": [
+      "previews/L15-10-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 11,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20240920/e27d95d05c48cb7b7e28ed879639d36a.gif",
+    "retrieved_at": "2026-10-14T07:46:04.788548+09:00",
+    "status": 200,
+    "path": "images/L15-11.gif",
+    "sha256": "937a2d9590ec2bca710c88493f20d35988ef99bca02ff246dba4d81e6daba12b",
+    "size": [
+      1000,
+      562
+    ],
+    "previews": [
+      "previews/L15-11-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 12,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/0933d857eb77a54bfc1994007d69e4c9.jpg",
+    "retrieved_at": "2026-10-14T07:46:04.789393+09:00",
+    "status": 200,
+    "path": "images/L15-12.jpg",
+    "sha256": "1c2893d16617e705c5b970d536210d3b86fb0b4446681a2fa1a5b30cd077ef97",
+    "size": [
+      1000,
+      580
+    ],
+    "previews": [
+      "previews/L15-12-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 13,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/db85f318e8d1e87143850aa7cbf06fae.jpg",
+    "retrieved_at": "2026-10-14T07:46:04.789848+09:00",
+    "status": 200,
+    "path": "images/L15-13.jpg",
+    "sha256": "9029f4028273658dc473eb141a014850ac7ba98027669ef7ed533263a02fde91",
+    "size": [
+      1000,
+      720
+    ],
+    "previews": [
+      "previews/L15-13-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L17",
+    "image_index": 10,
+    "url": "https://ecimg.cafe24img.com/pg2360b09526856067/ataga/web/upload/NNEditor/20261012/copy-1791780543-E18489E185B3E18482E185A9E1848BE185AEE18489E185A5E186ABE18489E185A6E18485E185A5E186B7_E18489E185A1E186BCE18491E185A6-E1848BE185A9E186AFE1848BE185A7E186BCE1848FE185B2E18490E185A6E186AB1E1848BE185B1-E1848BE185B5E186ABE18490E185B3E18485E185A9.gif",
+    "retrieved_at": "2026-10-14T07:46:04.790237+09:00",
+    "status": 200,
+    "path": "images/L17-10.gif",
+    "sha256": "67fe2b4b7207fa3bee589d2976ca39c551bfa2f77f17723fb27ddb45495a5488",
+    "size": [
+      800,
+      2224
+    ],
+    "previews": [
+      "previews/L17-10-0.jpg",
+      "previews/L17-10-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L17",
+    "image_index": 11,
+    "url": "https://ecimg.cafe24img.com/pg2360b09526856067/ataga/web/upload/NNEditor/20260709/260708_E18489E185B3E18482E185A9E1848BE185AEE18489E185A5E186ABE18489E185A6E18485E185A5E186B7_E18489E185A5E186BCE1848BE185B2E18485E185B5_ppl_01.jpg",
+    "retrieved_at": "2026-10-14T07:46:04.790724+09:00",
+    "status": 200,
+    "path": "images/L17-11.jpg",
+    "sha256": "d32b74e59ee9dcf1ae3078021ecc5b1b69d7d9e03df9282a1181076629187835",
+    "size": [
+      800,
+      606
+    ],
+    "previews": [
+      "previews/L17-11-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP07",
+    "image_index": 10,
+    "url": "https://ecimg.cafe24img.com/pg2459b03284917087/juvelookskincare/web/upload/NNEditor/20260710/6e0d5f8d76cb8bc28dccbf8b91da71d6.webp",
+    "retrieved_at": "2026-10-14T07:46:05.246294+09:00",
+    "status": 200,
+    "path": "images/AP07-10.webp",
+    "sha256": "fa01d70c51f960eff35f9972a046eb6fc186e3a67607fa0b30e5ea5d972c8e99",
+    "size": [
+      900,
+      1762
+    ],
+    "previews": [
+      "previews/AP07-10-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP07",
+    "image_index": 11,
+    "url": "https://ecimg.cafe24img.com/pg2459b03284917087/juvelookskincare/web/upload/NNEditor/20260710/5302812c9686a543e8d3ff94c84f4d6f.webp",
+    "retrieved_at": "2026-10-14T07:46:05.248603+09:00",
+    "status": 200,
+    "path": "images/AP07-11.webp",
+    "sha256": "63881ec28b66108d9ac1c56d198d98d5b471152441af1232f17d1420449cccda",
+    "size": [
+      900,
+      2118
+    ],
+    "previews": [
+      "previews/AP07-11-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP08",
+    "image_index": 10,
+    "url": "https://ecimg.cafe24img.com/pg2459b03284917087/juvelookskincare/web/upload/NNEditor/20260716/97d213f40f9a95423749b13d91b96c6c.webp",
+    "retrieved_at": "2026-10-14T07:46:05.638518+09:00",
+    "status": 200,
+    "path": "images/AP08-10.webp",
+    "sha256": "33b8ac488e202fc04c32a18d953c1fe1449a0a88936323f345acb6e188beb377",
+    "size": [
+      900,
+      4438
+    ],
+    "previews": [
+      "previews/AP08-10-0.jpg",
+      "previews/AP08-10-1.jpg",
+      "previews/AP08-10-2.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP08",
+    "image_index": 11,
+    "url": "https://ecimg.cafe24img.com/pg2459b03284917087/juvelookskincare/web/upload/NNEditor/20260716/5d7cb8cb227bc65a61d58f30e8daee0b.webp",
+    "retrieved_at": "2026-10-14T07:46:05.699920+09:00",
+    "status": 200,
+    "path": "images/AP08-11.webp",
+    "sha256": "cc4c06a87a383d602109ec525c0daf2ddcde651ad0b3d79681a5a1866f19239c",
+    "size": [
+      900,
+      4377
+    ],
+    "previews": [
+      "previews/AP08-11-0.jpg",
+      "previews/AP08-11-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP09",
+    "image_index": 10,
+    "url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/copy-1736828587-36.jpg",
+    "retrieved_at": "2026-10-14T07:46:05.709629+09:00",
+    "status": 200,
+    "path": "images/AP09-10.jpg",
+    "sha256": "f2ea86d058a546781215c642c3ceb87c298877a83f7453ffca79fd3d1cebf6d8",
+    "size": [
+      1900,
+      1063
+    ],
+    "previews": [
+      "previews/AP09-10-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP09",
+    "image_index": 11,
+    "url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/copy-1736828595-38.jpg",
+    "retrieved_at": "2026-10-14T07:46:05.822750+09:00",
+    "status": 200,
+    "path": "images/AP09-11.jpg",
+    "sha256": "ee0f50bb56c480a3a394d858a3d56f966b541a4646c87fd9a79a61a5a475f5a7",
+    "size": [
+      1904,
+      1064
+    ],
+    "previews": [
+      "previews/AP09-11-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP10",
+    "image_index": 10,
+    "url": "https://ecimg.cafe24img.com/pg2459b03284917087/juvelookskincare/web/upload/NNEditor/20260710/7fb24b06fd5dfcc39a7924411cff1cce.webp",
+    "retrieved_at": "2026-10-14T07:46:05.976162+09:00",
+    "status": 200,
+    "path": "images/AP10-10.webp",
+    "sha256": "cc8e263d5e958a00f38ced8ca6bfe75da75aed5dab5bbf01c61eddaa9dbb6229",
+    "size": [
+      900,
+      5218
+    ],
+    "previews": [
+      "previews/AP10-10-0.jpg",
+      "previews/AP10-10-1.jpg",
+      "previews/AP10-10-2.jpg"
+    ]
+  },
+  {
+    "candidate_id": "AP10",
+    "image_index": 11,
+    "url": "https://ecimg.cafe24img.com/pg2459b03284917087/juvelookskincare/web/upload/NNEditor/20260710/4b62a412b158975f038a5e89da3d9e1f.webp",
+    "retrieved_at": "2026-10-14T07:46:06.068683+09:00",
+    "status": 200,
+    "path": "images/AP10-11.webp",
+    "sha256": "f9fb334ac99d5ace308c612db058f013a43743fb30e57413f1b44b4e5e1358ee",
+    "size": [
+      900,
+      7521
+    ],
+    "previews": [
+      "previews/AP10-11-0.jpg",
+      "previews/AP10-11-1.jpg",
+      "previews/AP10-11-2.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 37,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/f969bc1b43a0240387f843651c205f6d.gif",
+    "retrieved_at": "2026-10-14T07:47:52.044180+09:00",
+    "status": 200,
+    "path": "images/L15-37.gif",
+    "sha256": "e326668cfe87d4dccffb02eec5fc500fcb109b2292537226b661a11a2bfe3465",
+    "size": [
+      1000,
+      720
+    ],
+    "previews": [
+      "previews/L15-37-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 38,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/3c38c80596533a8632ddf3fbdc0c3b7f.jpg",
+    "retrieved_at": "2026-10-14T07:47:52.144911+09:00",
+    "status": 200,
+    "path": "images/L15-38.jpg",
+    "sha256": "1fb45c487c71501af4e41be0e3f6dbef02f79358c745bb208bf7a8bfccc63bc9",
+    "size": [
+      1000,
+      274
+    ],
+    "previews": [
+      "previews/L15-38-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 39,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/f68079a639b15bfed333849468918080.jpg",
+    "retrieved_at": "2026-10-14T07:47:52.146228+09:00",
+    "status": 200,
+    "path": "images/L15-39.jpg",
+    "sha256": "646d7e079d6f3a77841a27ab4060dedb5da2cf64c401bccc0bf56fd62d48aed8",
+    "size": [
+      1000,
+      582
+    ],
+    "previews": [
+      "previews/L15-39-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 40,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/d5a9c9bc109c20e220ef00bc6eea5b7d.jpg",
+    "retrieved_at": "2026-10-14T07:47:52.147295+09:00",
+    "status": 200,
+    "path": "images/L15-40.jpg",
+    "sha256": "b0b17c08958ef0ba1cf46e9f255ea5033efd9568d67e9a8e06d6666a0e0d57d6",
+    "size": [
+      1000,
+      720
+    ],
+    "previews": [
+      "previews/L15-40-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 41,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/eecc725201bd0749c20d22772473dad0.gif",
+    "retrieved_at": "2026-10-14T07:47:52.148224+09:00",
+    "status": 200,
+    "path": "images/L15-41.gif",
+    "sha256": "466fdce3ec14f3547f551687f6d38c829af10fbdce861c4dc58e85bc31b02c78",
+    "size": [
+      1000,
+      720
+    ],
+    "previews": [
+      "previews/L15-41-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 43,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/b5fb44424774d099a00642309d914088.jpg",
+    "retrieved_at": "2026-10-14T07:47:52.233832+09:00",
+    "status": 200,
+    "path": "images/L15-43.jpg",
+    "sha256": "15b0c39fcadb9d01c01bce6092ade821f37992f0f320c5aa5c4aadc31081e76f",
+    "size": [
+      1000,
+      478
+    ],
+    "previews": [
+      "previews/L15-43-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 44,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/8f3c51b91d8d7e4cb302a3d253c9117e.jpg",
+    "retrieved_at": "2026-10-14T07:47:52.260757+09:00",
+    "status": 200,
+    "path": "images/L15-44.jpg",
+    "sha256": "50c5b9c8f7c89de0b7b5d53e3a904b9aaade669bd32389f2a9f4cfc0fd9107c7",
+    "size": [
+      1000,
+      680
+    ],
+    "previews": [
+      "previews/L15-44-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 46,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/5638710fae44f958c757050ff3d489f9.jpg",
+    "retrieved_at": "2026-10-14T07:47:52.266823+09:00",
+    "status": 200,
+    "path": "images/L15-46.jpg",
+    "sha256": "823d678f23090cb3ff83a7f016e4f89f37062b96cc1bfa899c556c285aee9d33",
+    "size": [
+      1000,
+      680
+    ],
+    "previews": [
+      "previews/L15-46-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 48,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/c22f8563e81b0fa3722ad157c832d5f4.jpg",
+    "retrieved_at": "2026-10-14T07:47:52.365239+09:00",
+    "status": 200,
+    "path": "images/L15-48.jpg",
+    "sha256": "b1b1eba2a34da3d26d4cef9a43d37976ce0744bc3fda30156984b16885260fda",
+    "size": [
+      1000,
+      500
+    ],
+    "previews": [
+      "previews/L15-48-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L15",
+    "image_index": 50,
+    "url": "https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/7590cde9d5e3f95f62fe5a9886fa278f.jpg",
+    "retrieved_at": "2026-10-14T07:47:52.440711+09:00",
+    "status": 200,
+    "path": "images/L15-50.jpg",
+    "sha256": "824bc8d74dec953268d6ec9fbcc6f0a3d27b5f9e983e098b84433e7b5da0dc9c",
+    "size": [
+      1000,
+      984
+    ],
+    "previews": [
+      "previews/L15-50-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L12",
+    "image_index": 71,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/upload/NNEditor/20260728/copy-1785207022-1.jpg",
+    "retrieved_at": "2026-10-14T07:50:14.147585+09:00",
+    "status": 200,
+    "path": "images/L12-71.jpg",
+    "sha256": "79c71b341798ae5cb6b29f20ef843c952de36b36f396d4dccab9e7ab9c4669e1",
+    "size": [
+      1200,
+      2567
+    ],
+    "previews": [
+      "previews/L12-71-0.jpg",
+      "previews/L12-71-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L12",
+    "image_index": 75,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/5_1_20260615.jpg",
+    "retrieved_at": "2026-10-14T07:50:14.148179+09:00",
+    "status": 200,
+    "path": "images/L12-75.jpg",
+    "sha256": "5b6cbbe0b2148c05718bba0a39b29e1f0f1713a7f6e6d75b022c440a48764648",
+    "size": [
+      1200,
+      1068
+    ],
+    "previews": [
+      "previews/L12-75-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L12",
+    "image_index": 80,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/6.jpg",
+    "retrieved_at": "2026-10-14T07:50:14.148414+09:00",
+    "status": 200,
+    "path": "images/L12-80.jpg",
+    "sha256": "e87350199a2130ca6f0a72daf2f4818095e89b73867dd247103e21299e9616db",
+    "size": [
+      1200,
+      2499
+    ],
+    "previews": [
+      "previews/L12-80-0.jpg",
+      "previews/L12-80-1.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L12",
+    "image_index": 81,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/7.jpg",
+    "retrieved_at": "2026-10-14T07:50:14.148819+09:00",
+    "status": 200,
+    "path": "images/L12-81.jpg",
+    "sha256": "d35cfc66634b59d02d8509f80d9fc38c49506f48eb001c018979bea50c475ae6",
+    "size": [
+      1200,
+      1990
+    ],
+    "previews": [
+      "previews/L12-81-0.jpg"
+    ]
+  },
+  {
+    "candidate_id": "L12",
+    "image_index": 83,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/9.jpg",
+    "retrieved_at": "2026-10-14T07:50:14.149065+09:00",
+    "status": 200,
+    "path": "images/L12-83.jpg",
+    "sha256": "a54cb6ba4f3b73b0d0d73c8b9c3b9a01d028407019a7b3c071c5f91e116c3c2f",
+    "size": [
+      1200,
+      3424
+    ],
+    "previews": [
+      "previews/L12-83-0.jpg",
+      "previews/L12-83-1.jpg"
+    ]
+  }
+]

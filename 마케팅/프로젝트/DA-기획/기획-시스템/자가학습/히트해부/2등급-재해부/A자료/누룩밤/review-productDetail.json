@@ -1,0 +1,80 @@
+{
+  "activated": true,
+  "scriptNo": "1775783276957272",
+  "reviewCount": {
+    "all": 4,
+    "photoList": 4,
+    "photo": 4
+  },
+  "photoReviewLayout": {
+    "mobile": "photo",
+    "pc": "photo"
+  },
+  "photoReviewPreview": {
+    "mobile": "coverImage",
+    "pc": "coverImage"
+  },
+  "tabPriority": "photo",
+  "usePhotoReviewTypeOption": true,
+  "photoReviewTypePriority": {
+    "pc": "list",
+    "mobile": "list"
+  },
+  "usePinnedOption": false,
+  "useReviewWriteWidget": true,
+  "bestReviewTitle": null,
+  "showProduct": false,
+  "moveToReviewWidget": {
+    "activated": false,
+    "index": 0,
+    "querySelector": null
+  },
+  "showBestReview": true,
+  "showStatistics": true,
+  "hideWatermark": false,
+  "imageSectionType": "default",
+  "textSectionDefaultHeight": {
+    "pc": 120,
+    "mobile": 120
+  },
+  "imageSizeInAllTab": {
+    "mobile": {
+      "width": 112,
+      "height": 112
+    },
+    "pc": {
+      "width": 128,
+      "height": 128
+    }
+  },
+  "statisticsSectionLayout": "flex-col",
+  "useSearchKeyword": {
+    "activated": false,
+    "placeholder": "원하는 키워드로 검색해보세요!"
+  },
+  "filterLayout": "checkbox",
+  "photoReviewsWidget": {
+    "viewMore": {
+      "activated": true,
+      "mobile": "",
+      "pc": ""
+    },
+    "layout": {
+      "mobile": "2x3",
+      "pc": "5x1"
+    },
+    "preview": {
+      "mobile": "onlyImage",
+      "pc": "onlyImage"
+    }
+  },
+  "statisticsWidget": {
+    "goToReview": {
+      "activated": false,
+      "mobile": "",
+      "pc": ""
+    }
+  },
+  "bestReviewLayout": "photo",
+  "showPhotoReviewsWhenNoBestReview": false
+}

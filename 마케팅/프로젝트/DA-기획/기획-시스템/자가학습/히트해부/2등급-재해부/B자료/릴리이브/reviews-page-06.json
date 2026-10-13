@@ -1,0 +1,412 @@
+{
+  "pagy": {
+    "series": [
+      2,
+      3,
+      4,
+      5,
+      "6",
+      7,
+      8,
+      9,
+      10
+    ],
+    "prev": 5,
+    "next": 7,
+    "page": 6,
+    "items": 5
+  },
+  "reviews": [
+    {
+      "id": 50507,
+      "score": 5,
+      "store_name": null,
+      "media_count": 1,
+      "product_code": "35",
+      "product_image_source_url": "//lilyeve.kr/web/product/medium/202609/80c61e331267ea1d4186759af690a0dd.png",
+      "product_image_url": "https://assets1.cre.ma/p/lilyeve-kr/products/00/00/00/01/10/image/extra_small_8daa6b8309ce28b7.webp",
+      "product_name": "그로우턴 엑소좀 브러쉬 앰플",
+      "product_meta_reviews_count": 30560,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://lilyeve.kr/product/detail.html?cate_no=1&product_no=35",
+      "created_at": "2025-08-04T22:13:06+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [
+        {
+          "type": "show_pinned_to_top"
+        }
+      ],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 11,
+      "review_source_has_video": false,
+      "filtered_message": "진짜 머리가 나네요.\n남편이랑 엠자탈모가 조금씩 와서 사용하게 됐는데 엠자가 없어지고 있어요. 남편 안믿고 안 바르다가 저 난 거 보고 열심히 바르네요..ㅎㅎ\n그래서 군대 간 아들 주려고 시카앰플도 사려구요. 모자쓰고 더워서 그런지 두피에 뭐가 나서 어떻게 해야하나 했는데 아들이.고맙다고 할 생각하니 너무 기쁘네요.",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "트러블개선"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/05/07/image1/150d950880849654.webp",
+          "gallery_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/05/07/image1/gallery_150d950880849654.webp",
+          "portrait_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/05/07/image1/portrait_150d950880849654.webp",
+          "thumbnail_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/05/07/image1/thumbnail_150d950880849654.webp",
+          "media_position": 1,
+          "orientation": 1
+        }
+      ],
+      "product_options": [
+        {
+          "name": "수량",
+          "value": "[무료배송｜EVENT] 3+1개 (-40%)"
+        }
+      ],
+      "customer_properties": [
+        {
+          "name": "연령대",
+          "value": "40대 이상"
+        }
+      ],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 51461,
+      "score": 5,
+      "store_name": null,
+      "media_count": 2,
+      "product_code": "35",
+      "product_image_source_url": "//lilyeve.kr/web/product/medium/202609/80c61e331267ea1d4186759af690a0dd.png",
+      "product_image_url": "https://assets1.cre.ma/p/lilyeve-kr/products/00/00/00/01/10/image/extra_small_8daa6b8309ce28b7.webp",
+      "product_name": "그로우턴 엑소좀 브러쉬 앰플",
+      "product_meta_reviews_count": 30560,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://lilyeve.kr/product/detail.html?cate_no=1&product_no=35",
+      "created_at": "2025-08-12T10:11:21+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [
+        {
+          "type": "reorder_review"
+        },
+        {
+          "type": "show_pinned_to_top"
+        }
+      ],
+      "likes_count": 3,
+      "plus_likes_count": 3,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 11,
+      "review_source_has_video": false,
+      "filtered_message": "하루하루 달라지는 머리 일주일 바른 모습",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "0": [
+          "만족도"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/14/61/image1/240bc36d0885fb11.webp",
+          "gallery_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/14/61/image1/gallery_240bc36d0885fb11.webp",
+          "portrait_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/14/61/image1/portrait_240bc36d0885fb11.webp",
+          "thumbnail_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/14/61/image1/thumbnail_240bc36d0885fb11.webp",
+          "media_position": 1,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/14/61/image2/5c37551ba6a6e548.webp",
+          "gallery_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/14/61/image2/gallery_5c37551ba6a6e548.webp",
+          "portrait_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/14/61/image2/portrait_5c37551ba6a6e548.webp",
+          "thumbnail_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/14/61/image2/thumbnail_5c37551ba6a6e548.webp",
+          "media_position": 2,
+          "orientation": 2
+        }
+      ],
+      "product_options": [
+        {
+          "name": "수량",
+          "value": "[무료배송&쿠폰적용] 4개 + 2개(국소부위용 앰플X1 추가증정)(+110200)"
+        }
+      ],
+      "customer_properties": [
+        {
+          "name": "연령대",
+          "value": "40대 이상"
+        }
+      ],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 44885,
+      "score": 5,
+      "store_name": null,
+      "media_count": 2,
+      "product_code": "35",
+      "product_image_source_url": "//lilyeve.kr/web/product/medium/202609/80c61e331267ea1d4186759af690a0dd.png",
+      "product_image_url": "https://assets1.cre.ma/p/lilyeve-kr/products/00/00/00/01/10/image/extra_small_8daa6b8309ce28b7.webp",
+      "product_name": "그로우턴 엑소좀 브러쉬 앰플",
+      "product_meta_reviews_count": 30560,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://lilyeve.kr/product/detail.html?cate_no=1&product_no=35",
+      "created_at": "2025-05-04T09:53:31+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [
+        {
+          "type": "reorder_review"
+        },
+        {
+          "type": "show_pinned_to_top"
+        }
+      ],
+      "likes_count": 1,
+      "plus_likes_count": 1,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 30,
+      "review_source_has_video": false,
+      "filtered_message": "원래 머리카락이 얇고 힘이 없는 참머리카락이예요\n머릿결은  완전 좋은데  힘이없어서\n어떤스타일도  꽝 ㅠ\n40 넘어가니까 머리카락 빠지는것도 우수수 ㅠ\n이마가  점점 넓어지는느낌\n우연히  유투브 보다가 알게됐는데\n혹시나 했는데  이건 감동임\n이거 쓰고  4갠가 쓰고 몇년째 다니는 샵갔는데\n저보고 전보다  머리카락이 뚜꺼워지고\n잔머리가  마니 났다고 ㅎㅎ\n머하냐고 묻더라고요\n너무 좋아요 😍 \n주의에서도  정수리가 잘안보인다고ㅋㅋ\n저 리뷰 기찮아서 안쓰는데  이건 진짜 찐이예요",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "효과"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/04/48/85/image1/69669dace2ecb625.webp",
+          "gallery_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/04/48/85/image1/gallery_69669dace2ecb625.webp",
+          "portrait_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/04/48/85/image1/portrait_69669dace2ecb625.webp",
+          "thumbnail_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/04/48/85/image1/thumbnail_69669dace2ecb625.webp",
+          "media_position": 1,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/04/48/85/image2/2af6bb087d5a9449.webp",
+          "gallery_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/04/48/85/image2/gallery_2af6bb087d5a9449.webp",
+          "portrait_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/04/48/85/image2/portrait_2af6bb087d5a9449.webp",
+          "thumbnail_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/04/48/85/image2/thumbnail_2af6bb087d5a9449.webp",
+          "media_position": 2,
+          "orientation": 1
+        }
+      ],
+      "product_options": [
+        {
+          "name": "수량",
+          "value": "[쿠폰적용｜무료배송] 4개 + 2개(+119800)"
+        }
+      ],
+      "customer_properties": [
+        {
+          "name": "연령대",
+          "value": "40대 이상"
+        }
+      ],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 50573,
+      "score": 5,
+      "store_name": null,
+      "media_count": 1,
+      "product_code": "35",
+      "product_image_source_url": "//lilyeve.kr/web/product/medium/202609/80c61e331267ea1d4186759af690a0dd.png",
+      "product_image_url": "https://assets1.cre.ma/p/lilyeve-kr/products/00/00/00/01/10/image/extra_small_8daa6b8309ce28b7.webp",
+      "product_name": "그로우턴 엑소좀 브러쉬 앰플",
+      "product_meta_reviews_count": 30560,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://lilyeve.kr/product/detail.html?cate_no=1&product_no=35",
+      "created_at": "2025-08-05T16:41:22+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [
+        {
+          "type": "reorder_review"
+        },
+        {
+          "type": "show_pinned_to_top"
+        }
+      ],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 30,
+      "review_source_has_video": false,
+      "filtered_message": "재재구매할수밖에 없는 제품\n탈모 스트레스가 이 제품덕분에 덜게 되었음",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "효과"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/05/73/image1/26f197b5a40957d0.webp",
+          "gallery_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/05/73/image1/gallery_26f197b5a40957d0.webp",
+          "portrait_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/05/73/image1/portrait_26f197b5a40957d0.webp",
+          "thumbnail_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/05/73/image1/thumbnail_26f197b5a40957d0.webp",
+          "media_position": 1,
+          "orientation": 2
+        }
+      ],
+      "product_options": [
+        {
+          "name": "수량",
+          "value": "[무료배송&쿠폰적용] 4개 + 2개(국소부위용 앰플X1 추가증정)(+110200)"
+        }
+      ],
+      "customer_properties": [
+        {
+          "name": "연령대",
+          "value": "40대 이상"
+        }
+      ],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 50443,
+      "score": 5,
+      "store_name": null,
+      "media_count": 1,
+      "product_code": "35",
+      "product_image_source_url": "//lilyeve.kr/web/product/medium/202609/80c61e331267ea1d4186759af690a0dd.png",
+      "product_image_url": "https://assets1.cre.ma/p/lilyeve-kr/products/00/00/00/01/10/image/extra_small_8daa6b8309ce28b7.webp",
+      "product_name": "그로우턴 엑소좀 브러쉬 앰플",
+      "product_meta_reviews_count": 30560,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://lilyeve.kr/product/detail.html?cate_no=1&product_no=35",
+      "created_at": "2025-08-03T11:14:52+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [
+        {
+          "type": "show_pinned_to_top"
+        }
+      ],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 11,
+      "review_source_has_video": false,
+      "filtered_message": "탈모로 고생이었는데 \n머리가 진짜 나나네요 \n머리카락이 진짜 나오는 제품은 처음이예요\n@_@  노벨상 받아야함",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "효과"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/04/43/image1/64dd435d178cc65f.webp",
+          "gallery_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/04/43/image1/gallery_64dd435d178cc65f.webp",
+          "portrait_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/04/43/image1/portrait_64dd435d178cc65f.webp",
+          "thumbnail_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/04/43/image1/thumbnail_64dd435d178cc65f.webp",
+          "media_position": 1,
+          "orientation": 2
+        }
+      ],
+      "product_options": [
+        {
+          "name": "수량",
+          "value": "[무료배송｜EVENT] 4+2개 (-50%)"
+        }
+      ],
+      "customer_properties": [
+        {
+          "name": "연령대",
+          "value": "40대 이상"
+        }
+      ],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    }
+  ],
+  "review_sort": 80,
+  "has_minimum_reviews": true,
+  "total_product_media_reviews_count": 9700,
+  "has_media": true
+}

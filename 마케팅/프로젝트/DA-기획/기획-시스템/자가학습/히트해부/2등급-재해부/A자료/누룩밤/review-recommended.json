@@ -1,0 +1,8 @@
+{
+  "source_url": "https://api.reviewdoku.co.kr/api/wizardjoseon/1/reviews?pageNum=1&pageSize=30&productNo=29&reviewType=all&sort=reaction&sortDirection=desc&skipProduct=true&content=&tab=all&memberId=&encryptedMemberId=&index=0",
+  "data": {
+    "statusCode": 500,
+    "error": "Internal Server Error",
+    "message": "[\n  {\n    \"received\": \"all\",\n    \"code\": \"invalid_enum_value\",\n    \"options\": [\n      \"photo\",\n      \"text\"\n    ],\n    \"path\": [\n      \"reviewType\"\n    ],\n    \"message\": \"Invalid enum value. Expected 'photo' | 'text', received 'all'\"\n  }\n]"
+  }
+}

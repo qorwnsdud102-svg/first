@@ -1,0 +1,264 @@
+{
+  "pagy": {
+    "series": [
+      1,
+      "2",
+      3,
+      4,
+      5,
+      6
+    ],
+    "prev": 1,
+    "next": 3,
+    "page": 2,
+    "items": 3
+  },
+  "reviews": [
+    {
+      "id": 22992,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": 17,
+      "user_display_name": "정****",
+      "media_count": 3,
+      "product_code": "177",
+      "product_image_source_url": "//meditold.com/web/product/medium/202601/13e8d3aa521c228d012d24e0d848457f.png",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/10/90/image/extra_small_858bdde47a4a5a7d.webp",
+      "product_name": "[32차 완판] 백노노뇽X퍼시닌 바디워시 1+1 공구특가! 무료배송",
+      "product_meta_reviews_count": 7227,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=177",
+      "created_at": "2024-06-06T14:46:11+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 13,
+      "review_source_has_video": false,
+      "filtered_message": "처음 제품을 샤워볼에 짰을때 나는 상큼한 향을 맡으니 기분이 좋아요✨️\n\n제품명처럼 단감을 사용하여 만들었다는데 단감에 있는 성분이 악취 제거에 탁월하다고 하네요! 땀 많이 흘리는 무더운 여름에 특히 더 좋을거 같아요오.\n\n또한 피부가 건조한 편이라 자주 가려워 하는데 이 바디워시 사용하고 나서부터는 괜히 가려움도 덜한거 같고 피부가 좀 더 촉촉해진 기분??! 넘 좋아요 1+1으로 조금 더 저렴하게 판매하고 있는거 같은데 몇개 더 쟁여놓을거에요\n",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "향기",
+          "가격",
+          "사용감",
+          "보습력",
+          "성분"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/29/92/image1/71498246225a97ba.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/29/92/image1/gallery_71498246225a97ba.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/29/92/image1/portrait_71498246225a97ba.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/29/92/image1/thumbnail_71498246225a97ba.webp",
+          "media_position": 1,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/29/92/image2/9a2af8e2802cbdf0.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/29/92/image2/gallery_9a2af8e2802cbdf0.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/29/92/image2/portrait_9a2af8e2802cbdf0.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/29/92/image2/thumbnail_9a2af8e2802cbdf0.webp",
+          "media_position": 2,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/29/92/image3/40d9ba6ca143b127.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/29/92/image3/gallery_40d9ba6ca143b127.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/29/92/image3/portrait_40d9ba6ca143b127.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/29/92/image3/thumbnail_40d9ba6ca143b127.webp",
+          "media_position": 3,
+          "orientation": 2
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [
+        {
+          "name": "연령대",
+          "value": "20대"
+        },
+        {
+          "name": "성별",
+          "value": "여성"
+        }
+      ],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 24385,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": null,
+      "user_display_name": "네이버 페이 구****",
+      "media_count": 3,
+      "product_code": "177",
+      "product_image_source_url": "//meditold.com/web/product/medium/202601/13e8d3aa521c228d012d24e0d848457f.png",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/10/90/image/extra_small_858bdde47a4a5a7d.webp",
+      "product_name": "[32차 완판] 백노노뇽X퍼시닌 바디워시 1+1 공구특가! 무료배송",
+      "product_meta_reviews_count": 7227,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=177",
+      "created_at": "2025-09-27T04:05:04+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 1,
+      "plus_likes_count": 1,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 5,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 40,
+      "review_source_has_video": false,
+      "filtered_message": "우연히 유튜브보다가 제품 향이 외국여자분이 너무 좋았다해서 충동적 구매했어요 가격이 완전 가성비제품음 아니었지만 그냥 질렀습니다.\n제품은 포장상자와 크기가 같아서 내용용량 합격. 향이 지금까지 맡아본적 없는 향으러 잔향이 미친듯 풍부한건 아니어도 샤워 내내 불투명흰색 젤에서 아주 부두러움 거품이 나도 향도 온화하고 포긍한 현존하는 무스크 바닐라 그런게 아닌 향으로 씻고 나서도 전 뽀득뽀득한 느낌이 남자분이나 샤워 자주 하는 분 강추. 냄새 잡아주는 기능있다는데 전 아예 땀도 안나는 몸이라 잘 모르곘고향이나 질감이 너무 좋아 샤워 내내 즐거웠어요 양더 많도 향도 만족합니다. 두개 산거 하난 엄마랑 오빠에게 줄거에요.\n\n\n\n\n\n\n\n\n\n(2025-09-26 23:23:54 에 등록된 네이버 페이 구매평)",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "1": [
+          "만족도",
+          "효과",
+          "디자인"
+        ],
+        "2": [
+          "향기",
+          "발림성"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/43/85/image1/3b9e76a538c83b9c.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/43/85/image1/gallery_3b9e76a538c83b9c.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/43/85/image1/portrait_3b9e76a538c83b9c.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/43/85/image1/thumbnail_3b9e76a538c83b9c.webp",
+          "media_position": 1,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/43/85/image2/fa81fff6a6703d42.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/43/85/image2/gallery_fa81fff6a6703d42.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/43/85/image2/portrait_fa81fff6a6703d42.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/43/85/image2/thumbnail_fa81fff6a6703d42.webp",
+          "media_position": 2,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/43/85/image3/648b887fc7a240d6.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/43/85/image3/gallery_648b887fc7a240d6.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/43/85/image3/portrait_648b887fc7a240d6.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/43/85/image3/thumbnail_648b887fc7a240d6.webp",
+          "media_position": 3,
+          "orientation": 1
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 23033,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": null,
+      "user_display_name": "네이버 페이 구****",
+      "media_count": 2,
+      "product_code": "177",
+      "product_image_source_url": "//meditold.com/web/product/medium/202601/13e8d3aa521c228d012d24e0d848457f.png",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/10/90/image/extra_small_858bdde47a4a5a7d.webp",
+      "product_name": "[32차 완판] 백노노뇽X퍼시닌 바디워시 1+1 공구특가! 무료배송",
+      "product_meta_reviews_count": 7227,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=177",
+      "created_at": "2024-06-07T03:27:12+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 5,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 40,
+      "review_source_has_video": false,
+      "filtered_message": "지인 추천으로 구매해봤어요!\n요즘 날씨가 더워지면서 땀도 많이 흘리고 씻어도 괜히 냄새가 신경쓰이고 했는데 이걸로 씻고나면 너무 자극적이거나 진한 향이 아닌 은은하게 달달하면서 박하향이 나는데 그 향이 오래 남는거 같아요! 또 거품을 씻어낼때 되게 피부가 뽀득..!뽀득!!한 느낌이 나요!! 향때문에 샀는데 저 부분때문에 씻고나면 엄청 개운한 느낌이 들어서 너무 만족스러웠어요ㅎㅎ헬스장에 두고 쓰게 하나 더 사려구요 가격값 하는 거 같아서 아주 만족했어요ㅎㅎㅎ\n\n\n\n\n\n\n\n(2024-06-06 23:32:36 에 등록된 네이버 페이 구매평)",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도",
+          "사용감"
+        ],
+        "1": [
+          "향기",
+          "세정력",
+          "지속력"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/30/33/image1/723a5a157b06ce6d.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/30/33/image1/gallery_723a5a157b06ce6d.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/30/33/image1/portrait_723a5a157b06ce6d.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/30/33/image1/thumbnail_723a5a157b06ce6d.webp",
+          "media_position": 1,
+          "orientation": 1
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/30/33/image2/e359a02e6156d3d4.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/30/33/image2/gallery_e359a02e6156d3d4.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/30/33/image2/portrait_e359a02e6156d3d4.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/30/33/image2/thumbnail_e359a02e6156d3d4.webp",
+          "media_position": 2,
+          "orientation": 1
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    }
+  ],
+  "review_sort": 80,
+  "has_minimum_reviews": true,
+  "total_product_media_reviews_count": 2650,
+  "has_media": true
+}

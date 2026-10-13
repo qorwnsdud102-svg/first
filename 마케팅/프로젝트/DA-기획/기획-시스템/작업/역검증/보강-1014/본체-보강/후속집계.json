@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-10-14T08:15:30.819832+09:00",
+  "pool": 32,
+  "strictly_corroborated_subset": 12,
+  "ids": [
+    "L01",
+    "L03",
+    "L05",
+    "L07",
+    "L08",
+    "L09",
+    "L12",
+    "L13",
+    "L14",
+    "AP06",
+    "L17",
+    "L15"
+  ],
+  "unresolved": 20,
+  "excluded": 0,
+  "target": 30,
+  "remaining": 18,
+  "additions": {
+    "L17": "광고연결-보강.md",
+    "L15": "노일리-상징보강.md"
+  },
+  "not_a_new_hard_gate": "NICE 기업분류는 신규 필수조건이 아니며 미확인=부적격이 아니다",
+  "previous_snapshot_unchanged": true
+}

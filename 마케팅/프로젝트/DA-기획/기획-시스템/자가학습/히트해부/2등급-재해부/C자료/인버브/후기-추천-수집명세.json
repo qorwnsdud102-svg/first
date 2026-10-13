@@ -1,0 +1,42 @@
+[
+  {
+    "page": 1,
+    "url": "https://review-widget.alphwidget.com/v2/api-widget?page=1&page_size=3&sort=-like_count&media_only=false&product_no=49&widget_code=935ca2ac&device=w"
+  },
+  {
+    "page": 2,
+    "url": "https://review-widget.alphwidget.com/v2/api-widget?page=2&page_size=3&sort=-like_count&media_only=false&product_no=49&widget_code=935ca2ac&device=w"
+  },
+  {
+    "page": 3,
+    "url": "https://review-widget.alphwidget.com/v2/api-widget?page=3&page_size=3&sort=-like_count&media_only=false&product_no=49&widget_code=935ca2ac&device=w"
+  },
+  {
+    "page": 4,
+    "url": "https://review-widget.alphwidget.com/v2/api-widget?page=4&page_size=3&sort=-like_count&media_only=false&product_no=49&widget_code=935ca2ac&device=w"
+  },
+  {
+    "page": 5,
+    "url": "https://review-widget.alphwidget.com/v2/api-widget?page=5&page_size=3&sort=-like_count&media_only=false&product_no=49&widget_code=935ca2ac&device=w"
+  },
+  {
+    "page": 6,
+    "url": "https://review-widget.alphwidget.com/v2/api-widget?page=6&page_size=3&sort=-like_count&media_only=false&product_no=49&widget_code=935ca2ac&device=w"
+  },
+  {
+    "page": 7,
+    "url": "https://review-widget.alphwidget.com/v2/api-widget?page=7&page_size=3&sort=-like_count&media_only=false&product_no=49&widget_code=935ca2ac&device=w"
+  },
+  {
+    "page": 8,
+    "url": "https://review-widget.alphwidget.com/v2/api-widget?page=8&page_size=3&sort=-like_count&media_only=false&product_no=49&widget_code=935ca2ac&device=w"
+  },
+  {
+    "page": 9,
+    "url": "https://review-widget.alphwidget.com/v2/api-widget?page=9&page_size=3&sort=-like_count&media_only=false&product_no=49&widget_code=935ca2ac&device=w"
+  },
+  {
+    "page": 10,
+    "url": "https://review-widget.alphwidget.com/v2/api-widget?page=10&page_size=3&sort=-like_count&media_only=false&product_no=49&widget_code=935ca2ac&device=w"
+  }
+]

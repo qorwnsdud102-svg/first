@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-14",
+  "pdp_image_count": 88,
+  "image_piece_count": 148,
+  "gif_sampled_count": 30,
+  "review_original_count": 30,
+  "review_analysis_distinct_row_ids": 30,
+  "all_markdown_local_links_checked": 529,
+  "missing_links": [],
+  "bad_review_anchors": [],
+  "card_lines": 75,
+  "scope": "file/count/link validation; not scientific efficacy validation; video/GIF samples only",
+  "unique_review_ids": 30,
+  "distinct_texts": 30,
+  "recommended_and_default_order_identical": true,
+  "product_counts": {
+    "26": 8,
+    "66": 11,
+    "28": 11
+  },
+  "product_28_current_formula": "unconfirmed: PDP 404"
+}

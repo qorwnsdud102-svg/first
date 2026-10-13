@@ -1,0 +1,114 @@
+# 노일리 — 원본 URL·로컬 원문 목록
+
+- PDP 수집: 2026-10-14T07:38:23.013625+09:00
+- 공개 GET만 사용. UA Mozilla/5.0. 광고는 본체가 제공한 로컬 자료만 사용.
+- HTML 원문은 이미지 속 문장을 포함하지 않으므로 이미지 원본·조각·판독 문서를 함께 본다.
+- 상품 URL: https://noily.kr/surl/P/26
+- 요청 결과 URL: https://noily.kr/surl/P/26
+- [HTML 원문](P26-page.html) · [DOM 텍스트](P26-text.txt) · [렌더링 DOM](P26-rendered.html) · [상품 상단](P26-top.png)
+- [전체 이미지 매니페스트](images.json) · [시각판독 위치표](sheets/map.json) · [광고 원문](../../광고자료/노일리/_ads.json) · [선별기록](../../광고자료/노일리/선별.md)
+
+## 공개 상세 이미지 전체
+
+|순서|원본 URL|저장 이미지|판독 조각|
+|---|---|---|---|
+|001|https://noily.kr/img/detail_bnr/bnr_1.gif|[원본](images/P26-001.gif)|[P26-001-f000-y00000.jpg](pieces/P26-001-f000-y00000.jpg) · [P26-001-f018-y00000.jpg](pieces/P26-001-f018-y00000.jpg) · [P26-001-f035-y00000.jpg](pieces/P26-001-f035-y00000.jpg)|
+|002|https://noily.kr/img/detail_bnr/bnr_2.jpg|[원본](images/P26-002.jpg)|[P26-002-f000-y00000.jpg](pieces/P26-002-f000-y00000.jpg)|
+|003|https://noily.kr/img/detail_bnr/bnr_3.jpg|[원본](images/P26-003.jpg)|[P26-003-f000-y00000.jpg](pieces/P26-003-f000-y00000.jpg)|
+|004|https://noily.kr/img/detail_bnr/bnr_4_1.png|[원본](images/P26-004.png)|[P26-004-f000-y00000.jpg](pieces/P26-004-f000-y00000.jpg)|
+|005|https://noily.kr/img/detail_bnr/bnr_8.png|[원본](images/P26-005.png)|[P26-005-f000-y00000.jpg](pieces/P26-005-f000-y00000.jpg)|
+|006|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260918/672fc04039784dcf36c7d8bfe44be09c.jpg|[원본](images/P26-006.jpg)|[P26-006-f000-y00000.jpg](pieces/P26-006-f000-y00000.jpg)|
+|007|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/bb57e3594f632cfe05091234efa13ec5.gif|[원본](images/P26-007.gif)|[P26-007-f000-y00000.jpg](pieces/P26-007-f000-y00000.jpg) · [P26-007-f001-y00000.jpg](pieces/P26-007-f001-y00000.jpg)|
+|008|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260410/42d71f23b7fe92ebcc09bbf70ee10605.jpg|[원본](images/P26-008.jpg)|[P26-008-f000-y00000.jpg](pieces/P26-008-f000-y00000.jpg)|
+|009|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20240920/de41ff48173c8f5c0099be8878a55a6c.gif|[원본](images/P26-009.gif)|[P26-009-f000-y00000.jpg](pieces/P26-009-f000-y00000.jpg) · [P26-009-f025-y00000.jpg](pieces/P26-009-f025-y00000.jpg) · [P26-009-f049-y00000.jpg](pieces/P26-009-f049-y00000.jpg)|
+|010|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20240920/e27d95d05c48cb7b7e28ed879639d36a.gif|[원본](images/P26-010.gif)|[P26-010-f000-y00000.jpg](pieces/P26-010-f000-y00000.jpg) · [P26-010-f025-y00000.jpg](pieces/P26-010-f025-y00000.jpg) · [P26-010-f049-y00000.jpg](pieces/P26-010-f049-y00000.jpg)|
+|011|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/0933d857eb77a54bfc1994007d69e4c9.jpg|[원본](images/P26-011.jpg)|[P26-011-f000-y00000.jpg](pieces/P26-011-f000-y00000.jpg)|
+|012|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/db85f318e8d1e87143850aa7cbf06fae.jpg|[원본](images/P26-012.jpg)|[P26-012-f000-y00000.jpg](pieces/P26-012-f000-y00000.jpg)|
+|013|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/f969bc1b43a0240387f843651c205f6d.gif|[원본](images/P26-013.gif)|[P26-013-f000-y00000.jpg](pieces/P26-013-f000-y00000.jpg) · [P26-013-f022-y00000.jpg](pieces/P26-013-f022-y00000.jpg) · [P26-013-f043-y00000.jpg](pieces/P26-013-f043-y00000.jpg)|
+|014|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/3c38c80596533a8632ddf3fbdc0c3b7f.jpg|[원본](images/P26-014.jpg)|[P26-014-f000-y00000.jpg](pieces/P26-014-f000-y00000.jpg)|
+|015|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/f68079a639b15bfed333849468918080.jpg|[원본](images/P26-015.jpg)|[P26-015-f000-y00000.jpg](pieces/P26-015-f000-y00000.jpg)|
+|016|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/d5a9c9bc109c20e220ef00bc6eea5b7d.jpg|[원본](images/P26-016.jpg)|[P26-016-f000-y00000.jpg](pieces/P26-016-f000-y00000.jpg)|
+|017|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/eecc725201bd0749c20d22772473dad0.gif|[원본](images/P26-017.gif)|[P26-017-f000-y00000.jpg](pieces/P26-017-f000-y00000.jpg) · [P26-017-f017-y00000.jpg](pieces/P26-017-f017-y00000.jpg) · [P26-017-f033-y00000.jpg](pieces/P26-017-f033-y00000.jpg)|
+|018|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260918/06071ffc4b8c6db66eec1678c6407641.jpg|[원본](images/P26-018.jpg)|[P26-018-f000-y00000.jpg](pieces/P26-018-f000-y00000.jpg)|
+|019|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/b5fb44424774d099a00642309d914088.jpg|[원본](images/P26-019.jpg)|[P26-019-f000-y00000.jpg](pieces/P26-019-f000-y00000.jpg)|
+|020|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/8f3c51b91d8d7e4cb302a3d253c9117e.jpg|[원본](images/P26-020.jpg)|[P26-020-f000-y00000.jpg](pieces/P26-020-f000-y00000.jpg)|
+|021|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/9db43e97e8f42430c1414bbe5ebcc6e0.gif|[원본](images/P26-021.gif)|[P26-021-f000-y00000.jpg](pieces/P26-021-f000-y00000.jpg) · [P26-021-f018-y00000.jpg](pieces/P26-021-f018-y00000.jpg) · [P26-021-f035-y00000.jpg](pieces/P26-021-f035-y00000.jpg)|
+|022|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/5638710fae44f958c757050ff3d489f9.jpg|[원본](images/P26-022.jpg)|[P26-022-f000-y00000.jpg](pieces/P26-022-f000-y00000.jpg)|
+|023|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/faf888b2b414aac52103bed8261490b7.gif|[원본](images/P26-023.gif)|[P26-023-f000-y00000.jpg](pieces/P26-023-f000-y00000.jpg) · [P26-023-f020-y00000.jpg](pieces/P26-023-f020-y00000.jpg) · [P26-023-f040-y00000.jpg](pieces/P26-023-f040-y00000.jpg)|
+|024|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/c22f8563e81b0fa3722ad157c832d5f4.jpg|[원본](images/P26-024.jpg)|[P26-024-f000-y00000.jpg](pieces/P26-024-f000-y00000.jpg)|
+|025|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260922/711784f942ea5cf708503bebde0e9f91.jpg|[원본](images/P26-025.jpg)|[P26-025-f000-y00000.jpg](pieces/P26-025-f000-y00000.jpg) · [P26-025-f000-y01600.jpg](pieces/P26-025-f000-y01600.jpg)|
+|026|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/7590cde9d5e3f95f62fe5a9886fa278f.jpg|[원본](images/P26-026.jpg)|[P26-026-f000-y00000.jpg](pieces/P26-026-f000-y00000.jpg)|
+|027|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/684431eee48c26b1fb7f00b2da54f298.gif|[원본](images/P26-027.gif)|[P26-027-f000-y00000.jpg](pieces/P26-027-f000-y00000.jpg) · [P26-027-f018-y00000.jpg](pieces/P26-027-f018-y00000.jpg) · [P26-027-f036-y00000.jpg](pieces/P26-027-f036-y00000.jpg)|
+|028|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/eeea775325b0e87a2654878a49b62e88.jpg|[원본](images/P26-028.jpg)|[P26-028-f000-y00000.jpg](pieces/P26-028-f000-y00000.jpg)|
+|029|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/f42a9743e8ee646dbfa68e38f8178e1f.gif|[원본](images/P26-029.gif)|[P26-029-f000-y00000.jpg](pieces/P26-029-f000-y00000.jpg) · [P26-029-f021-y00000.jpg](pieces/P26-029-f021-y00000.jpg) · [P26-029-f041-y00000.jpg](pieces/P26-029-f041-y00000.jpg)|
+|030|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/1d29844fd41db942c9656c2c35200081.jpg|[원본](images/P26-030.jpg)|[P26-030-f000-y00000.jpg](pieces/P26-030-f000-y00000.jpg)|
+|031|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/5371a377841540cd441ec6c61cd86c08.jpg|[원본](images/P26-031.jpg)|[P26-031-f000-y00000.jpg](pieces/P26-031-f000-y00000.jpg)|
+|032|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/5d83462d101807801f5fc9ca8d0e94c5.gif|[원본](images/P26-032.gif)|[P26-032-f000-y00000.jpg](pieces/P26-032-f000-y00000.jpg) · [P26-032-f001-y00000.jpg](pieces/P26-032-f001-y00000.jpg)|
+|033|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/33c9a2964aa739afe3386d25cc8eb2d2.jpg|[원본](images/P26-033.jpg)|[P26-033-f000-y00000.jpg](pieces/P26-033-f000-y00000.jpg)|
+|034|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/c1c3f5563d1bceb2d14f50841a4e743c.gif|[원본](images/P26-034.gif)|[P26-034-f000-y00000.jpg](pieces/P26-034-f000-y00000.jpg) · [P26-034-f001-y00000.jpg](pieces/P26-034-f001-y00000.jpg) · [P26-034-f002-y00000.jpg](pieces/P26-034-f002-y00000.jpg)|
+|035|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/25999352bf4d6c5fafd4122167771066.jpg|[원본](images/P26-035.jpg)|[P26-035-f000-y00000.jpg](pieces/P26-035-f000-y00000.jpg)|
+|036|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/f1001a8ee8f764fd63619913d22d8278.gif|[원본](images/P26-036.gif)|[P26-036-f000-y00000.jpg](pieces/P26-036-f000-y00000.jpg) · [P26-036-f012-y00000.jpg](pieces/P26-036-f012-y00000.jpg) · [P26-036-f024-y00000.jpg](pieces/P26-036-f024-y00000.jpg)|
+|037|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/18497caa1d6cba28207ab0a12e2ba4df.jpg|[원본](images/P26-037.jpg)|[P26-037-f000-y00000.jpg](pieces/P26-037-f000-y00000.jpg)|
+|038|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/28b3e30f59fe7ca5d0f5708e6849d3be.gif|[원본](images/P26-038.gif)|[P26-038-f000-y00000.jpg](pieces/P26-038-f000-y00000.jpg) · [P26-038-f002-y00000.jpg](pieces/P26-038-f002-y00000.jpg) · [P26-038-f003-y00000.jpg](pieces/P26-038-f003-y00000.jpg)|
+|039|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260918/cf801f6811c30139374cf14307a371de.jpg|[원본](images/P26-039.jpg)|[P26-039-f000-y00000.jpg](pieces/P26-039-f000-y00000.jpg)|
+|040|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/286dc7edefe605da4e5cbd3248500951.jpg|[원본](images/P26-040.jpg)|[P26-040-f000-y00000.jpg](pieces/P26-040-f000-y00000.jpg)|
+|041|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/b9751c680583eaa62c3be2fa0da15189.jpg|[원본](images/P26-041.jpg)|[P26-041-f000-y00000.jpg](pieces/P26-041-f000-y00000.jpg)|
+|042|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/2268b1fd58ad230d6adf55207c04485f.gif|[원본](images/P26-042.gif)|[P26-042-f000-y00000.jpg](pieces/P26-042-f000-y00000.jpg) · [P26-042-f016-y00000.jpg](pieces/P26-042-f016-y00000.jpg) · [P26-042-f031-y00000.jpg](pieces/P26-042-f031-y00000.jpg)|
+|043|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/b6857e8a293f1bc789d373757bad2fb2.jpg|[원본](images/P26-043.jpg)|[P26-043-f000-y00000.jpg](pieces/P26-043-f000-y00000.jpg)|
+|044|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/51b1ce285f57125da4e16ac17f11474d.gif|[원본](images/P26-044.gif)|[P26-044-f000-y00000.jpg](pieces/P26-044-f000-y00000.jpg) · [P26-044-f024-y00000.jpg](pieces/P26-044-f024-y00000.jpg) · [P26-044-f047-y00000.jpg](pieces/P26-044-f047-y00000.jpg)|
+|045|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/8c5cc71c5595eeb6d437d045f1efca56.jpg|[원본](images/P26-045.jpg)|[P26-045-f000-y00000.jpg](pieces/P26-045-f000-y00000.jpg)|
+|046|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/1e729bc4960974ab039a29a4c0fe0790.gif|[원본](images/P26-046.gif)|[P26-046-f000-y00000.jpg](pieces/P26-046-f000-y00000.jpg) · [P26-046-f016-y00000.jpg](pieces/P26-046-f016-y00000.jpg) · [P26-046-f031-y00000.jpg](pieces/P26-046-f031-y00000.jpg)|
+|047|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/e4b1585aa89c969f694f6e16541564b5.jpg|[원본](images/P26-047.jpg)|[P26-047-f000-y00000.jpg](pieces/P26-047-f000-y00000.jpg)|
+|048|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/cf748a74a4f300c0ca8f65f44d680d05.gif|[원본](images/P26-048.gif)|[P26-048-f000-y00000.jpg](pieces/P26-048-f000-y00000.jpg) · [P26-048-f017-y00000.jpg](pieces/P26-048-f017-y00000.jpg) · [P26-048-f034-y00000.jpg](pieces/P26-048-f034-y00000.jpg)|
+|049|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/a9be8e4fcda5e0291639bd48c551d09c.jpg|[원본](images/P26-049.jpg)|[P26-049-f000-y00000.jpg](pieces/P26-049-f000-y00000.jpg)|
+|050|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/dc0589f61bf497d65d7d9941589c4d3c.jpg|[원본](images/P26-050.jpg)|[P26-050-f000-y00000.jpg](pieces/P26-050-f000-y00000.jpg)|
+|051|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/d0c3f04492fcc33f325a07b64bb7a0e1.jpg|[원본](images/P26-051.jpg)|[P26-051-f000-y00000.jpg](pieces/P26-051-f000-y00000.jpg)|
+|052|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/f0fbe1c8a853ca0ce271e1f602b7f947.gif|[원본](images/P26-052.gif)|[P26-052-f000-y00000.jpg](pieces/P26-052-f000-y00000.jpg) · [P26-052-f025-y00000.jpg](pieces/P26-052-f025-y00000.jpg) · [P26-052-f049-y00000.jpg](pieces/P26-052-f049-y00000.jpg)|
+|053|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260922/f7575ae99e333365170a9f6bf5e60065.jpg|[원본](images/P26-053.jpg)|[P26-053-f000-y00000.jpg](pieces/P26-053-f000-y00000.jpg)|
+|054|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/5e2918832ee7bc16e607fb35e27eb68e.jpg|[원본](images/P26-054.jpg)|[P26-054-f000-y00000.jpg](pieces/P26-054-f000-y00000.jpg)|
+|055|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/66d4e8b747d9505bad5ec2097afa9703.jpg|[원본](images/P26-055.jpg)|[P26-055-f000-y00000.jpg](pieces/P26-055-f000-y00000.jpg)|
+|056|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/00dadad6073708be783e03f417b16b89.gif|[원본](images/P26-056.gif)|[P26-056-f000-y00000.jpg](pieces/P26-056-f000-y00000.jpg) · [P26-056-f012-y00000.jpg](pieces/P26-056-f012-y00000.jpg) · [P26-056-f024-y00000.jpg](pieces/P26-056-f024-y00000.jpg)|
+|057|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/2aca80a70a87ce4c70731161f70bb190.jpg|[원본](images/P26-057.jpg)|[P26-057-f000-y00000.jpg](pieces/P26-057-f000-y00000.jpg)|
+|058|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/839116cc639dcf15c6664e57d34c584b.gif|[원본](images/P26-058.gif)|[P26-058-f000-y00000.jpg](pieces/P26-058-f000-y00000.jpg) · [P26-058-f010-y00000.jpg](pieces/P26-058-f010-y00000.jpg) · [P26-058-f020-y00000.jpg](pieces/P26-058-f020-y00000.jpg)|
+|059|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/8d53294cb38eb5451631b1a4c17128ff.jpg|[원본](images/P26-059.jpg)|[P26-059-f000-y00000.jpg](pieces/P26-059-f000-y00000.jpg)|
+|060|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/2b4ed7ce4b92184067f449987d615733.jpg|[원본](images/P26-060.jpg)|[P26-060-f000-y00000.jpg](pieces/P26-060-f000-y00000.jpg)|
+|061|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/3235fde77e13f42ebf533ab5a7298671.gif|[원본](images/P26-061.gif)|[P26-061-f000-y00000.jpg](pieces/P26-061-f000-y00000.jpg) · [P26-061-f020-y00000.jpg](pieces/P26-061-f020-y00000.jpg) · [P26-061-f040-y00000.jpg](pieces/P26-061-f040-y00000.jpg)|
+|062|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/c5c2ed7ad3ee74e86b2345437af88d28.jpg|[원본](images/P26-062.jpg)|[P26-062-f000-y00000.jpg](pieces/P26-062-f000-y00000.jpg)|
+|063|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/6d986d37329ac38b8d41ceecc114d570.gif|[원본](images/P26-063.gif)|[P26-063-f000-y00000.jpg](pieces/P26-063-f000-y00000.jpg) · [P26-063-f024-y00000.jpg](pieces/P26-063-f024-y00000.jpg) · [P26-063-f047-y00000.jpg](pieces/P26-063-f047-y00000.jpg)|
+|064|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/5d2fa56ce903b3eccb2fc1ab54abea06.jpg|[원본](images/P26-064.jpg)|[P26-064-f000-y00000.jpg](pieces/P26-064-f000-y00000.jpg)|
+|065|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/536d5a5d5f7c1f617cb1907b1a6c20c4.gif|[원본](images/P26-065.gif)|[P26-065-f000-y00000.jpg](pieces/P26-065-f000-y00000.jpg) · [P26-065-f018-y00000.jpg](pieces/P26-065-f018-y00000.jpg) · [P26-065-f036-y00000.jpg](pieces/P26-065-f036-y00000.jpg)|
+|066|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260922/cec2cef7e662b09a7ff4fc124d2bb2bb.jpg|[원본](images/P26-066.jpg)|[P26-066-f000-y00000.jpg](pieces/P26-066-f000-y00000.jpg)|
+|067|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260922/0b3a1e8accd5bfc6d53b4f0d4fa95767.jpg|[원본](images/P26-067.jpg)|[P26-067-f000-y00000.jpg](pieces/P26-067-f000-y00000.jpg)|
+|068|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/6bde6e0221c4b0c261912e62e2f8f137.gif|[원본](images/P26-068.gif)|[P26-068-f000-y00000.jpg](pieces/P26-068-f000-y00000.jpg) · [P26-068-f008-y00000.jpg](pieces/P26-068-f008-y00000.jpg) · [P26-068-f015-y00000.jpg](pieces/P26-068-f015-y00000.jpg)|
+|069|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260922/1e7a1f7e832d04658593771f94928f22.jpg|[원본](images/P26-069.jpg)|[P26-069-f000-y00000.jpg](pieces/P26-069-f000-y00000.jpg)|
+|070|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260922/fc39d83a13459551dbace6095526409c.jpg|[원본](images/P26-070.jpg)|[P26-070-f000-y00000.jpg](pieces/P26-070-f000-y00000.jpg)|
+|071|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/d46fcd8f7e613383f9e62d7be0d9b312.gif|[원본](images/P26-071.gif)|[P26-071-f000-y00000.jpg](pieces/P26-071-f000-y00000.jpg) · [P26-071-f008-y00000.jpg](pieces/P26-071-f008-y00000.jpg) · [P26-071-f015-y00000.jpg](pieces/P26-071-f015-y00000.jpg)|
+|072|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260922/1d3bf875f449b201b945e17bec4db8f0.jpg|[원본](images/P26-072.jpg)|[P26-072-f000-y00000.jpg](pieces/P26-072-f000-y00000.jpg)|
+|073|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/373506652f118b1a4cdf6f30dd800481.jpg|[원본](images/P26-073.jpg)|[P26-073-f000-y00000.jpg](pieces/P26-073-f000-y00000.jpg)|
+|074|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/e42521b443b0e614ca3046ca5295b85a.jpg|[원본](images/P26-074.jpg)|[P26-074-f000-y00000.jpg](pieces/P26-074-f000-y00000.jpg)|
+|075|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/cc47238ea2a4e0f16c577b73d08ec411.gif|[원본](images/P26-075.gif)|[P26-075-f000-y00000.jpg](pieces/P26-075-f000-y00000.jpg) · [P26-075-f013-y00000.jpg](pieces/P26-075-f013-y00000.jpg) · [P26-075-f025-y00000.jpg](pieces/P26-075-f025-y00000.jpg)|
+|076|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/852cefc9f89693d2210596ccc3fb993e.jpg|[원본](images/P26-076.jpg)|[P26-076-f000-y00000.jpg](pieces/P26-076-f000-y00000.jpg)|
+|077|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260918/581f23a4b0a1e8f172e5ee152f5949d7.jpg|[원본](images/P26-077.jpg)|[P26-077-f000-y00000.jpg](pieces/P26-077-f000-y00000.jpg)|
+|078|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/98ca9c856d6910b130a7374452839991.jpg|[원본](images/P26-078.jpg)|[P26-078-f000-y00000.jpg](pieces/P26-078-f000-y00000.jpg)|
+|079|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/f44e0ef6f08ab907d475d49e35d006cb.gif|[원본](images/P26-079.gif)|[P26-079-f000-y00000.jpg](pieces/P26-079-f000-y00000.jpg) · [P26-079-f039-y00000.jpg](pieces/P26-079-f039-y00000.jpg) · [P26-079-f077-y00000.jpg](pieces/P26-079-f077-y00000.jpg)|
+|080|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/5d0cd0b4825c4fa40859d9478a62551f.jpg|[원본](images/P26-080.jpg)|[P26-080-f000-y00000.jpg](pieces/P26-080-f000-y00000.jpg)|
+|081|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/68b828cefd85dcc3617739a109751a67.jpg|[원본](images/P26-081.jpg)|[P26-081-f000-y00000.jpg](pieces/P26-081-f000-y00000.jpg)|
+|082|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/57f26714087396ece9fbe03ec481224c.gif|[원본](images/P26-082.gif)|[P26-082-f000-y00000.jpg](pieces/P26-082-f000-y00000.jpg) · [P26-082-f020-y00000.jpg](pieces/P26-082-f020-y00000.jpg) · [P26-082-f039-y00000.jpg](pieces/P26-082-f039-y00000.jpg)|
+|083|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/4ba169b81a95bd0bf98fa64d1fe015e9.jpg|[원본](images/P26-083.jpg)|[P26-083-f000-y00000.jpg](pieces/P26-083-f000-y00000.jpg)|
+|084|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/f84e7cedec08b8d8ff79a114554e3e7c.jpg|[원본](images/P26-084.jpg)|[P26-084-f000-y00000.jpg](pieces/P26-084-f000-y00000.jpg)|
+|085|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260928/b5c38e805e00199f437c87eb1c1e0d14.gif|[원본](images/P26-085.gif)|[P26-085-f000-y00000.jpg](pieces/P26-085-f000-y00000.jpg) · [P26-085-f028-y00000.jpg](pieces/P26-085-f028-y00000.jpg) · [P26-085-f056-y00000.jpg](pieces/P26-085-f056-y00000.jpg)|
+|086|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260922/dea8c02fd3bb62e4a4f09195e6b7f60f.jpg|[원본](images/P26-086.jpg)|[P26-086-f000-y00000.jpg](pieces/P26-086-f000-y00000.jpg) · [P26-086-f000-y01600.jpg](pieces/P26-086-f000-y01600.jpg)|
+|087|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260922/4661bd092155f007fbccade10f045a7e.jpg|[원본](images/P26-087.jpg)|[P26-087-f000-y00000.jpg](pieces/P26-087-f000-y00000.jpg)|
+|088|https://ecimg.cafe24img.com/pg945b72584525086/noily/web/upload/NNEditor/20260911/1a9238a6903b438d92b2d4e9a526bd79.jpg|[원본](images/P26-088.jpg)|[P26-088-f000-y00000.jpg](pieces/P26-088-f000-y00000.jpg)|
+
+## 후기·SKU 대조
+
+- P111은 구성과 전성분 대조에만 사용: https://noily.kr/surl/P/111
+- 통합 후기 연결: https://noily.kr/surl/P/66 · https://noily.kr/surl/P/28 (현재404)
+- 위젯셋: https://review-widget.alphwidget.com/v2/api-widget/sets?widget_set_code=e48d73a7
+- 위젯설정: https://review-widget.alphwidget.com/v2/api-widget/options?widget_code=8ebb8640
+- 추천순30: https://review-widget.alphwidget.com/v2/api-widget?widget_code=8ebb8640&product_no=26&device=w&page=1&page_size=30&sort=-like_count
+- 기본순30: https://review-widget.alphwidget.com/v2/api-widget?widget_code=8ebb8640&product_no=26&device=w&page=1&page_size=30&sort=-ratings
+- 상세30개 원본 URL은 [review-details30.json](review-details30.json)의 각 url 필드.
+- [후기30 원문](후기30-원문.md) · [판매페이지 대조](review-sku-comparison.json)
+- 후기창 초기 미표시/이전 잘못된 widget_code 요청404는 수집 시행 기록. 현재 실제 위젯코드 8ebb8640의200 응답으로 대체했다.

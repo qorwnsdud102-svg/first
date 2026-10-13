@@ -1,0 +1,6 @@
+[
+  {
+    "url": "https://api.reviewdoku.co.kr/api/wizardjoseon/1/reviews?pageNum=1&pageSize=4&productNo=29&reviewType=photo&sort=latest&sortDirection=desc&skipProduct=true&content=&tab=photo&memberId=&encryptedMemberId=&index=0",
+    "status": 200
+  }
+]

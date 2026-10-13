@@ -1,0 +1,381 @@
+{
+  "pagy": {
+    "series": [
+      1,
+      2,
+      "3",
+      4,
+      5,
+      6,
+      7
+    ],
+    "prev": 2,
+    "next": 4,
+    "page": 3,
+    "items": 5
+  },
+  "reviews": [
+    {
+      "id": 56558,
+      "score": 5,
+      "store_name": null,
+      "media_count": 1,
+      "product_code": "35",
+      "product_image_source_url": "//lilyeve.kr/web/product/medium/202609/80c61e331267ea1d4186759af690a0dd.png",
+      "product_image_url": "https://assets1.cre.ma/p/lilyeve-kr/products/00/00/00/01/10/image/extra_small_8daa6b8309ce28b7.webp",
+      "product_name": "그로우턴 엑소좀 브러쉬 앰플",
+      "product_meta_reviews_count": 30560,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://lilyeve.kr/product/detail.html?cate_no=1&product_no=35",
+      "created_at": "2025-09-29T07:12:03+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [
+        {
+          "type": "reorder_review"
+        },
+        {
+          "type": "show_pinned_to_top"
+        }
+      ],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 11,
+      "review_source_has_video": false,
+      "filtered_message": "이거 진짜 효과있어요 오늘 고데기를 했는데 머리가 하도 안가라앉고 부시시해서 대체 왜이러는지 봤더니 잔머리가 엄청 나고 있는거였음........ 대박조짐...... 5개월 이상 쓰고있어요 장기적으로 써야 효과봅니다 거의 매일 써요",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "효과"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/65/58/image1/ff4106edc2ac06e8.webp",
+          "gallery_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/65/58/image1/gallery_ff4106edc2ac06e8.webp",
+          "portrait_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/65/58/image1/portrait_ff4106edc2ac06e8.webp",
+          "thumbnail_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/65/58/image1/thumbnail_ff4106edc2ac06e8.webp",
+          "media_position": 1,
+          "orientation": 2
+        }
+      ],
+      "product_options": [
+        {
+          "name": "수량",
+          "value": "[무료배송] 3개 + 1개(국소부위용 앰플X1 추가증정)(+71000)"
+        }
+      ],
+      "customer_properties": [
+        {
+          "name": "연령대",
+          "value": "30대"
+        }
+      ],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 54434,
+      "score": 5,
+      "store_name": null,
+      "media_count": 0,
+      "product_code": "35",
+      "product_image_source_url": "//lilyeve.kr/web/product/medium/202609/80c61e331267ea1d4186759af690a0dd.png",
+      "product_image_url": "https://assets1.cre.ma/p/lilyeve-kr/products/00/00/00/01/10/image/extra_small_8daa6b8309ce28b7.webp",
+      "product_name": "그로우턴 엑소좀 브러쉬 앰플",
+      "product_meta_reviews_count": 30560,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://lilyeve.kr/product/detail.html?cate_no=1&product_no=35",
+      "created_at": "2025-09-05T12:59:36+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [
+        {
+          "type": "reorder_review"
+        },
+        {
+          "type": "show_pinned_to_top"
+        }
+      ],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 15,
+      "review_source_has_video": false,
+      "filtered_message": "진짜..진짜... 이거 꼭 사세요!!\n광고 이런거 절대 아니고 평범한 대학생인데 제가 워낙 어렸을때부터 머리카락이 얇아서 볼륨도 없어보이고 점점 머리카락이 빠지면서 비어보이더라고요.... 올해 너무 스트레스 받아서 타사 제품이랑 샴푸랑 다 바꾸고 했었는데 탈모 앰플은 이게 짱이에요!! 저도 처음에 한통만 썼을때는 그렇게 효과를 못봐서 관리한다는 생각으로만 열심히 썼고 지금 세통째 쓰고 네통째 구매중인데 세통째 쓰면서 엠자에 머리카락이 채워지더라고여.!!!\n꼭 세 네통 쓰셔야 효과보기 시작합니다. 제 동생이 보고 진짜 신기해하면서 볼륨도 풍성해지고 머리도 채워졌다면서 잘 샀다고 하더라고요ㅠㅠ 이거 쓸때랑 안 쓸때랑 많이 달라요.. 그래서 계속 재구매하게 돼요 ㅎㅎ 특히 여름에 기름기가 더 빨리 올라오는데 이거 쓸때는 확실히 덜 기름지고 열감도 많이 내려가요\n전 솔직히 볼륨을 더 중요시하는 편인데 저녁에 요거 쓰고 1,2분있다가 찬바람으로 드라이기 말려주면 볼륨 왕 풍성,,,,\n아침에 일어나도 안 눌러져있고 다음날도 고데기 안쓰고 다닐정도로 볼륨이 살아나집니다🥹 드디어 탈모엠플 정착할 수 있는 제품을 찾아서 너어무 만족합니다ㅜㅜ",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "효과",
+          "사용감",
+          "지속력"
+        ]
+      },
+      "videos": [],
+      "images": [],
+      "product_options": [
+        {
+          "name": "수량",
+          "value": "1개"
+        }
+      ],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 55922,
+      "score": 5,
+      "store_name": null,
+      "media_count": 1,
+      "product_code": "35",
+      "product_image_source_url": "//lilyeve.kr/web/product/medium/202609/80c61e331267ea1d4186759af690a0dd.png",
+      "product_image_url": "https://assets1.cre.ma/p/lilyeve-kr/products/00/00/00/01/10/image/extra_small_8daa6b8309ce28b7.webp",
+      "product_name": "그로우턴 엑소좀 브러쉬 앰플",
+      "product_meta_reviews_count": 30560,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://lilyeve.kr/product/detail.html?cate_no=1&product_no=35",
+      "created_at": "2025-09-24T20:43:01+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [
+        {
+          "type": "show_pinned_to_top"
+        }
+      ],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 15,
+      "review_source_has_video": false,
+      "filtered_message": "내돈 내산 \n10년동안 좋다는 샴푸 앰플 한약제 다 써봤지만 그로우턴이 최고임\n다니는 미용실 쌤이 처음왔을 때랑 6개월 후가 다르다고 할정도로 효과짱",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도",
+          "효과"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/59/22/image1/b19d6e6a78b9a8c4.webp",
+          "gallery_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/59/22/image1/gallery_b19d6e6a78b9a8c4.webp",
+          "portrait_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/59/22/image1/portrait_b19d6e6a78b9a8c4.webp",
+          "thumbnail_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/59/22/image1/thumbnail_b19d6e6a78b9a8c4.webp",
+          "media_position": 1,
+          "orientation": 2
+        }
+      ],
+      "product_options": [
+        {
+          "name": "수량",
+          "value": "[무료배송｜EVENT] 4+2개 (-50%)"
+        }
+      ],
+      "customer_properties": [
+        {
+          "name": "연령대",
+          "value": "40대 이상"
+        }
+      ],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 54194,
+      "score": 5,
+      "store_name": null,
+      "media_count": 2,
+      "product_code": "35",
+      "product_image_source_url": "//lilyeve.kr/web/product/medium/202609/80c61e331267ea1d4186759af690a0dd.png",
+      "product_image_url": "https://assets1.cre.ma/p/lilyeve-kr/products/00/00/00/01/10/image/extra_small_8daa6b8309ce28b7.webp",
+      "product_name": "그로우턴 엑소좀 브러쉬 앰플",
+      "product_meta_reviews_count": 30560,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://lilyeve.kr/product/detail.html?cate_no=1&product_no=35",
+      "created_at": "2025-09-01T20:58:49+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [
+        {
+          "type": "show_pinned_to_top"
+        }
+      ],
+      "likes_count": 1,
+      "plus_likes_count": 1,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 11,
+      "review_source_has_video": false,
+      "filtered_message": "저는 저녁에 샴푸후 1회씩 꾸준히 머리에 발라왔고,\n이걸 바른 날과 바르지 않은 날에 머리카락 탈락되는게 확연히 차이가 나서 효과를 봤습니다.\n저는 원래 샴푸를 한번 할 때마다 욕조 배수구망이 막힐 정도로 머리가 많이 빠졌었는데, 이걸 바른 이후로는 샴푸 후 3-5번 후에 배수구망을 비우게 됐어요.\n사진으로 올린 건 이걸 바른 날과 안바른 날에 샴푸후 빗질했을 때 나오는 머리카락의 차이입니다. \n탈모인들에게 적극적으로 추천해요~^^",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "1": [
+          "만족도",
+          "효과"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/41/94/image1/65681f68716223ca.webp",
+          "gallery_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/41/94/image1/gallery_65681f68716223ca.webp",
+          "portrait_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/41/94/image1/portrait_65681f68716223ca.webp",
+          "thumbnail_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/41/94/image1/thumbnail_65681f68716223ca.webp",
+          "media_position": 1,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/41/94/image2/a2bdc5dcd6383e48.webp",
+          "gallery_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/41/94/image2/gallery_a2bdc5dcd6383e48.webp",
+          "portrait_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/41/94/image2/portrait_a2bdc5dcd6383e48.webp",
+          "thumbnail_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/41/94/image2/thumbnail_a2bdc5dcd6383e48.webp",
+          "media_position": 2,
+          "orientation": 2
+        }
+      ],
+      "product_options": [
+        {
+          "name": "수량",
+          "value": "[무료배송｜EVENT] 4+2개 (-50%)"
+        }
+      ],
+      "customer_properties": [
+        {
+          "name": "연령대",
+          "value": "20대"
+        }
+      ],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 53357,
+      "score": 5,
+      "store_name": null,
+      "media_count": 1,
+      "product_code": "35",
+      "product_image_source_url": "//lilyeve.kr/web/product/medium/202609/80c61e331267ea1d4186759af690a0dd.png",
+      "product_image_url": "https://assets1.cre.ma/p/lilyeve-kr/products/00/00/00/01/10/image/extra_small_8daa6b8309ce28b7.webp",
+      "product_name": "그로우턴 엑소좀 브러쉬 앰플",
+      "product_meta_reviews_count": 30560,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://lilyeve.kr/product/detail.html?cate_no=1&product_no=35",
+      "created_at": "2025-08-20T16:54:06+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [
+        {
+          "type": "show_pinned_to_top"
+        }
+      ],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 11,
+      "review_source_has_video": false,
+      "filtered_message": "원래 머리가 잘빠지고 잘 나서 항상 더듬이 잔머리를 달고살았습니다. 어느순간 부터 더듬이가 안보이기 시작했지만 나름 스트레스였어서 오히려 좋다~~하고 크게 신경쓰고있지않았는데 어느순간 좀 위에서 찍은 사진을 보니 가르마가 휑하더라구요..헉.. 나름 머리숱많다고 자부했는데.. \n출산과 나이앞에는 장사가 없나봅니다..\n급하게 검색하고 이것저것 써보다가 정착한 앰플입니다\n사진은 작년사진이구요. 효과를 확신하고 난 담부터는 사진을 찍지않아서 작년사진뿐이네요~\n확실히 머리빠짐덜하고 잔머리도 나기시작해서 다시 잔머리부자가 되었어요. 잔머리들이 빠지지않고 잘길어야하니\n쭉 재구매하고있습니다~~~~",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "효과"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/33/57/image1/792edbc70a7eb4e2.webp",
+          "gallery_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/33/57/image1/gallery_792edbc70a7eb4e2.webp",
+          "portrait_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/33/57/image1/portrait_792edbc70a7eb4e2.webp",
+          "thumbnail_url": "https://assets1.cre.ma/p/lilyeve-kr/reviews/00/00/05/33/57/image1/thumbnail_792edbc70a7eb4e2.webp",
+          "media_position": 1,
+          "orientation": 1
+        }
+      ],
+      "product_options": [
+        {
+          "name": "수량",
+          "value": "[무료배송｜EVENT] 3+1개 (-40%)"
+        }
+      ],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    }
+  ],
+  "review_sort": 80,
+  "has_minimum_reviews": true,
+  "total_product_media_reviews_count": 9700,
+  "has_media": true
+}

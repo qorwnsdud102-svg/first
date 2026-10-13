@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-10-14T08:03:55.127241+09:00",
+  "timestamp": "2026-10-13T23:02:46.667Z",
+  "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T07-34-54-01a13767-8727-7eb1-99bd-9f6507e1e303.jsonl",
+  "usage": {
+    "input_tokens": 7793230,
+    "cached_input_tokens": 7394944,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 51722,
+    "reasoning_output_tokens": 11579,
+    "total_tokens": 7844952
+  },
+  "scope": "역검증32후보 보강 조사자Dirac만. 본체의지시·통합·4개Meta조회는2등급재해부본체차분에포함돼여기에는중복합산하지않음."
+}

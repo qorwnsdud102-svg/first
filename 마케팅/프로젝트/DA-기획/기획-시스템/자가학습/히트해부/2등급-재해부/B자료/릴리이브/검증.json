@@ -1,0 +1,20 @@
+{
+  "verified_at": "2026-10-14T08:07:25.508127+09:00",
+  "public_pdp_image_counts": {
+    "235": 65,
+    "223": 67
+  },
+  "image_missing_files": 0,
+  "review_rows": 30,
+  "review_unique_ids": 30,
+  "review_exact_unique_bodies": 30,
+  "review_analysis_rows": 30,
+  "local_markdown_references_checked_across_B": 585,
+  "broken_local_references": 0,
+  "card_lines": 75,
+  "ad_videos_read": 5,
+  "ad_reading_scope": "전체 ASR 텍스트 + 시작0.2초 + 앞/뒤 표본(24초초과만 뒤) + 끝0.5초전. 직접청취·연속시청 아님.",
+  "review_scope": "AI추천순 sort80·판매자고정30·코드35. 현235 동일구매/제형 미확인.",
+  "scientific_validation": false,
+  "new_meta_queries": 0
+}

@@ -1,0 +1,8 @@
+https://review-widget.alphwidget.com/v2/api-widget?page=1&page_size=4&sort=-like_count&media_only=false&product_no=59&widget_code=120e8f62&device=w
+https://review-widget.alphwidget.com/v2/api-widget?page=2&page_size=4&sort=-like_count&media_only=false&product_no=59&widget_code=120e8f62&device=w
+https://review-widget.alphwidget.com/v2/api-widget?page=3&page_size=4&sort=-like_count&media_only=false&product_no=59&widget_code=120e8f62&device=w
+https://review-widget.alphwidget.com/v2/api-widget?page=4&page_size=4&sort=-like_count&media_only=false&product_no=59&widget_code=120e8f62&device=w
+https://review-widget.alphwidget.com/v2/api-widget?page=5&page_size=4&sort=-like_count&media_only=false&product_no=59&widget_code=120e8f62&device=w
+https://review-widget.alphwidget.com/v2/api-widget?page=6&page_size=4&sort=-like_count&media_only=false&product_no=59&widget_code=120e8f62&device=w
+https://review-widget.alphwidget.com/v2/api-widget?page=7&page_size=4&sort=-like_count&media_only=false&product_no=59&widget_code=120e8f62&device=w
+https://review-widget.alphwidget.com/v2/api-widget?page=8&page_size=4&sort=-like_count&media_only=false&product_no=59&widget_code=120e8f62&device=w

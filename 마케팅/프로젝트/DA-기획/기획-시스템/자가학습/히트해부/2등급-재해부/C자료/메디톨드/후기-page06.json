@@ -1,0 +1,249 @@
+{
+  "pagy": {
+    "series": [
+      2,
+      3,
+      4,
+      5,
+      "6",
+      7,
+      8,
+      9,
+      10
+    ],
+    "prev": 5,
+    "next": 7,
+    "page": 6,
+    "items": 3
+  },
+  "reviews": [
+    {
+      "id": 23200,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": 3804,
+      "user_display_name": "현****",
+      "media_count": 4,
+      "product_code": "177",
+      "product_image_source_url": "//meditold.com/web/product/medium/202601/13e8d3aa521c228d012d24e0d848457f.png",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/10/90/image/extra_small_858bdde47a4a5a7d.webp",
+      "product_name": "[32차 완판] 백노노뇽X퍼시닌 바디워시 1+1 공구특가! 무료배송",
+      "product_meta_reviews_count": 7227,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=177",
+      "created_at": "2024-06-11T10:28:55+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 10,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 22,
+      "review_source_has_video": false,
+      "filtered_message": "구입해서 쓰고있는데요 피부 가려움과 따가움에도 탁월한것 같아요 아주 좋습니다!\n\n씻고나서 물기 제거 후에도 은은하게 향기가 나는데 바디로션 바르기 전에도 부들부들해서 안발라도 되겠다 생각이 들 정돕니다!! 냄새가 호불호 없는 고급진? 냄새라서 추천이요! ",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "향기",
+          "사용감",
+          "품질"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image1/fc1a346bc6ca0305.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image1/gallery_fc1a346bc6ca0305.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image1/portrait_fc1a346bc6ca0305.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image1/thumbnail_fc1a346bc6ca0305.webp",
+          "media_position": 1,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image2/72a9c5e2ab92526f.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image2/gallery_72a9c5e2ab92526f.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image2/portrait_72a9c5e2ab92526f.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image2/thumbnail_72a9c5e2ab92526f.webp",
+          "media_position": 2,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image3/eac63bee03225da9.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image3/gallery_eac63bee03225da9.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image3/portrait_eac63bee03225da9.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image3/thumbnail_eac63bee03225da9.webp",
+          "media_position": 3,
+          "orientation": 2
+        },
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image4/5e1c667f03ad66df.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image4/gallery_5e1c667f03ad66df.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image4/portrait_5e1c667f03ad66df.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/02/32/00/image4/thumbnail_5e1c667f03ad66df.webp",
+          "media_position": 4,
+          "orientation": 2
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [
+        {
+          "name": "연령대",
+          "value": "40대 이상"
+        },
+        {
+          "name": "성별",
+          "value": "여성"
+        }
+      ],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 57401,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": null,
+      "user_display_name": "네이버 페이 구****",
+      "media_count": 1,
+      "product_code": "220",
+      "product_image_source_url": "//meditold.com/web/product/medium/202604/04e3c4eb9a02555a1b90b6800ee7d55f.jpg",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/11/45/image/extra_small_d2ff868598fd4810.webp",
+      "product_name": "[공구 특가] P헬멧X퍼시닌 바디워시 최대 할인! 무료배송",
+      "product_meta_reviews_count": 6695,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=220",
+      "created_at": "2026-08-24T03:07:42+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 5,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 40,
+      "review_source_has_video": false,
+      "filtered_message": "몸에 여드름이랑 모공각화증이 있어서 관련 제품을 찾다가 구매했어요. 아직 사용한 지 한 달이 채 되지 않아서 눈에 띄게 드라마틱한 변화가 생겼다고 말하기는 어렵지만, 꾸준히 사용하면서 조금씩 괜찮아지고 있는 것 같아서 일단 만족하면서 사용 중입니다.\n\n일단 사용감이 정말 마음에 들었어요. 거품이 생각보다 풍성하게 잘 나서 몸 전체에 부드럽게 사용하기 좋고, 씻고 나면 피부가 미끌거리거나 뭔가 잔여감이 남는 느낌 없이 뽀득하게 씻긴 느낌이 들어서 좋았습니다. 그렇다고 너무 과하게 피부가 당기거나 자극적인 느낌도 없어서 샤워할 때 부담 없이 손이 가는 제품이에요.\n\n그리고 개인적으로 향에 예민한 편이라 인공적인 향이나 화학적인 향이 강한 제품은 별로 좋아하지 않는데, 이 제품은 그런 냄새가 거의 없어서 마음에 들었어요. 거의 무향에 가까운 느낌이고, 은은하게 나는 향도 크게 거슬리지 않아서 좋았습니다. 샤워 후에도 향이 몸에 진하게 남는 타입이 아니라서 오히려 더 깔끔하게 느껴졌어요.\n\n무엇보다 아직 한 달도 안 썼는데 기존에 있던 빨간 여드름들이 조금씩 가라앉는 게 보이고, 사용하면서 새로운 여드름이 계속 올라오는 느낌도 없어서 어느 정도 효과가 있는 것 같다는 생각이 들었습니다. 물론 단기간에 확실한 효과를 기대하기보다는 꾸준히 사용하면서 지켜봐야 할 것 같아요.\n\n아직 장기간 사용한 건 아니라서 모공각화증까지 확실하게 좋아졌다고 단정할 수는 없지만, 적어도 거품이나 세정력, 향, 사용감은 전반적으로 만족스럽습니다. 일단 지금까지 사용해본 느낌으로는 자극적인 느낌 없이 깔끔하게 씻을 수 있고 피부 상태도 조금씩 괜찮아지는 것 같아서 계속 꾸준히 사용해보려고 해요.\n\n\n\n\n\n(2026-08-23 15:02:18 에 등록된 네이버 페이 구매평)",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "1": [
+          "만족도",
+          "향기",
+          "효과",
+          "세정력"
+        ],
+        "2": [
+          "사용감"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/74/01/image1/e4aabcd127d19748.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/74/01/image1/gallery_e4aabcd127d19748.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/74/01/image1/portrait_e4aabcd127d19748.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/74/01/image1/thumbnail_e4aabcd127d19748.webp",
+          "media_position": 1,
+          "orientation": 1
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    },
+    {
+      "id": 51486,
+      "score": 5,
+      "store_name": null,
+      "brand_user_id": null,
+      "user_display_name": "네이버 페이 구****",
+      "media_count": 1,
+      "product_code": "233",
+      "product_image_source_url": "//meditold.com/web/product/medium/202605/20a81e145fe307b98dc23fd7a53c408a.jpg",
+      "product_image_url": "https://assets8.cre.ma/p/meditold-com/products/00/00/00/11/58/image/extra_small_5b92be565292774b.webp",
+      "product_name": "[2차 협업 기념] 갓핑키X퍼시닌 바디워시 1+1 비밀특가! 무료배송",
+      "product_meta_reviews_count": 4902,
+      "product_meta_score": 4.8,
+      "social_media_type": 0,
+      "product_url": "http://www.meditold.com/product/detail.html?cate_no=1&product_no=233",
+      "created_at": "2026-07-01T03:36:40+09:00",
+      "editable": false,
+      "deletable": false,
+      "tags": [],
+      "likes_count": 0,
+      "plus_likes_count": 0,
+      "reported": false,
+      "my_review": false,
+      "author_grade": 5,
+      "like_score": 0,
+      "comments_count": 0,
+      "review_vendor": null,
+      "external_platform_type": null,
+      "review_source": 40,
+      "review_source_has_video": false,
+      "filtered_message": "크게 기대 안했는데 피부가 전반적으로 매끈해졌습니다. 팔꿈치에도 약간 오돌토돌하던게 확실히 매끈하게 줄어들었습니다 몸쪽에 울긋불긋 올라오던 것들도 매끈하게 줄어들어 뽀득뽀득 잘 씻기는 느낌이구요 피부가 좀 예민한 편인데도 이상없이 잘 씻깁니다. 냄새는 호불호가 갈린대서 긴장했는데 전 괜찮았습니다 약간 세제향 비슷한가 같긴한데 걍 상쾌합니다 굿굿\n\n\n\n\n\n(2026-06-30 20:35:16 에 등록된 네이버 페이 구매평)",
+      "content_type": 0,
+      "review_source_url": null,
+      "verified_buyer_badge_image_url": null,
+      "ai_summary": {
+        "2": [
+          "만족도"
+        ],
+        "1": [
+          "향기",
+          "효과",
+          "세정력",
+          "트러블개선"
+        ]
+      },
+      "videos": [],
+      "images": [
+        {
+          "url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/14/86/image1/a97138e1110b70d8.webp",
+          "gallery_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/14/86/image1/gallery_a97138e1110b70d8.webp",
+          "portrait_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/14/86/image1/portrait_a97138e1110b70d8.webp",
+          "thumbnail_url": "https://assets8.cre.ma/p/meditold-com/reviews/00/00/05/14/86/image1/thumbnail_a97138e1110b70d8.webp",
+          "media_position": 1,
+          "orientation": 2
+        }
+      ],
+      "product_options": [],
+      "customer_properties": [],
+      "evaluation_properties": [],
+      "brand_author_type": null,
+      "parent_likes_count": 0,
+      "parent_plus_likes_count": 0,
+      "parent_reviews": []
+    }
+  ],
+  "review_sort": 80,
+  "has_minimum_reviews": true,
+  "total_product_media_reviews_count": 2650,
+  "has_media": true
+}

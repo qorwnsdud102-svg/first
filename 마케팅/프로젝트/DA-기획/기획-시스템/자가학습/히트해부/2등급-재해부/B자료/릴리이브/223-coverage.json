@@ -1,0 +1,88 @@
+{
+  "height": 19237,
+  "images": [
+    {
+      "n": 5,
+      "y": 0,
+      "height": 270
+    },
+    {
+      "n": 6,
+      "y": 270,
+      "height": 945
+    },
+    {
+      "n": 7,
+      "y": 1215,
+      "height": 1863
+    },
+    {
+      "n": 10,
+      "y": 3078,
+      "height": 1314
+    },
+    {
+      "n": 13,
+      "y": 4392,
+      "height": 1465
+    },
+    {
+      "n": 14,
+      "y": 5857,
+      "height": 1447
+    },
+    {
+      "n": 24,
+      "y": 7304,
+      "height": 861
+    },
+    {
+      "n": 28,
+      "y": 8165,
+      "height": 318
+    },
+    {
+      "n": 29,
+      "y": 8483,
+      "height": 1545
+    },
+    {
+      "n": 32,
+      "y": 10028,
+      "height": 1077
+    },
+    {
+      "n": 36,
+      "y": 11105,
+      "height": 2326
+    },
+    {
+      "n": 37,
+      "y": 13431,
+      "height": 2091
+    },
+    {
+      "n": 65,
+      "y": 15522,
+      "height": 2198
+    },
+    {
+      "n": 66,
+      "y": 17720,
+      "height": 559
+    },
+    {
+      "n": 67,
+      "y": 18279,
+      "height": 958
+    }
+  ],
+  "sheets": [
+    "223-sheet-01.jpg",
+    "223-sheet-02.jpg",
+    "223-sheet-03.jpg",
+    "223-sheet-04.jpg"
+  ],
+  "animations": [],
+  "note": "223 shared images reference 235; animation first/middle/last samples"
+}

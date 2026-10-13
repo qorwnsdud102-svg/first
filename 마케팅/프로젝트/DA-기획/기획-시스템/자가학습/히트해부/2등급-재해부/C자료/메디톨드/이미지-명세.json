@@ -1,0 +1,119 @@
+[
+  {
+    "id": "D01",
+    "url": "https://meditold.com/web/upload/NNEditor/20260929/copy-1790665195-EAB080EAB2A9EBB0B0EB8488_37900.jpg",
+    "file": "이미지원본\\D01.jpg",
+    "size": [
+      1000,
+      920
+    ],
+    "frames": 1,
+    "pieces": [
+      "D01-f000-y00000.jpg"
+    ]
+  },
+  {
+    "id": "D02",
+    "url": "https://kickthe.cafe24.com/meditold/bann/bann_persinine_wash_trend_no1.gif",
+    "file": "이미지원본\\D02.gif",
+    "size": [
+      1000,
+      484
+    ],
+    "frames": 77,
+    "pieces": [
+      "D02-f000-y00000.jpg",
+      "D02-f038-y00000.jpg",
+      "D02-f076-y00000.jpg"
+    ]
+  },
+  {
+    "id": "D03",
+    "url": "https://kickthe.cafe24.com/meditold/bann/bann_persinine_wash_trend_no1.jpg",
+    "file": "이미지원본\\D03.jpg",
+    "size": [
+      1000,
+      1583
+    ],
+    "frames": 1,
+    "pieces": [
+      "D03-f000-y00000.jpg",
+      "D03-f000-y01500.jpg"
+    ]
+  },
+  {
+    "id": "D04",
+    "url": "https://meditold.com/web/upload/NNEditor/20260716/copy-1784164131-EBA994EB9494ED86A8EB939C_ED9998EBB688EBB3B4EC9EA5EBB0B0EB8488.jpg",
+    "file": "이미지원본\\D04.jpg",
+    "size": [
+      1000,
+      1655
+    ],
+    "frames": 1,
+    "pieces": [
+      "D04-f000-y00000.jpg",
+      "D04-f000-y01500.jpg"
+    ]
+  },
+  {
+    "id": "D05",
+    "url": "https://meditold.com/web/upload/NNEditor/20260319/56196bcc3168ce87f4ead239c4c2ed1d.jpg",
+    "file": "이미지원본\\D05.jpg",
+    "size": [
+      800,
+      3206
+    ],
+    "frames": 1,
+    "pieces": [
+      "D05-f000-y00000.jpg",
+      "D05-f000-y01500.jpg",
+      "D05-f000-y03000.jpg"
+    ]
+  },
+  {
+    "id": "D06",
+    "url": "https://meditold.com/web/upload/NNEditor/20260324/4b880d1269725ea33610c73a042c953e.jpg",
+    "file": "이미지원본\\D06.jpg",
+    "size": [
+      800,
+      6336
+    ],
+    "frames": 1,
+    "pieces": [
+      "D06-f000-y00000.jpg",
+      "D06-f000-y01500.jpg",
+      "D06-f000-y03000.jpg",
+      "D06-f000-y04500.jpg",
+      "D06-f000-y06000.jpg"
+    ]
+  },
+  {
+    "id": "D07",
+    "url": "https://meditold.com/web/upload/NNEditor/20260319/copy-1773886054-260319_EC8381EC84B8ED8E98EC9DB4ECA780_ED8DBCEC8B9CEB8B8CEBB094EB9494EC9B8CEC8B9C_ED94BCECA780EC84B8ECA09528EC9B8CEB94A9EC8898ECA09529_032028129.png",
+    "file": "이미지원본\\D07.png",
+    "size": [
+      800,
+      5370
+    ],
+    "frames": 1,
+    "pieces": [
+      "D07-f000-y00000.jpg",
+      "D07-f000-y01500.jpg",
+      "D07-f000-y03000.jpg",
+      "D07-f000-y04500.jpg"
+    ]
+  },
+  {
+    "id": "D08",
+    "url": "https://meditold.com/web/upload/NNEditor/20260730/260728_EAB5ACEBA7A4ECA09CED959C_EC9588EB82B4EBB0B0EB848828EBA994EB9494ED86A8EB939C292028129.jpg",
+    "file": "이미지원본\\D08.jpg",
+    "size": [
+      1000,
+      1013
+    ],
+    "frames": 1,
+    "pieces": [
+      "D08-f000-y00000.jpg"
+    ]
+  }
+]

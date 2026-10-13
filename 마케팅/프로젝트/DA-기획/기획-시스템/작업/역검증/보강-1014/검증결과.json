@@ -1,0 +1,120 @@
+{
+  "verified_at": "2026-10-14T08:01:18.177460+09:00",
+  "checks": {
+    "exactly32": true,
+    "pool20plus12": true,
+    "unique_candidate_ids": true,
+    "unique_product_keys": true,
+    "status_counts": true,
+    "eligible_all_gates_P": true,
+    "eligible_60days_exact_ad": true,
+    "company_U_not_excluded": true,
+    "new5_outside_counts": true,
+    "remaining20": true,
+    "all_U_has_reason": true,
+    "metadata_requests4": true,
+    "protected_inputs_unchanged": true,
+    "saved_evidence_hashes_match": true,
+    "markdown_local_links_exist": true,
+    "viewed_previews_exist": true,
+    "report_has32_candidate_sections": true,
+    "report_new5_last_section": true
+  },
+  "all_passed": true,
+  "protected_inputs": [
+    {
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\_대상근거.json",
+      "before": "35281825ad2258dc1a9d90243d471a074bf5911f56816f6c9236ab83865fe7bb",
+      "after": "35281825ad2258dc1a9d90243d471a074bf5911f56816f6c9236ab83865fe7bb",
+      "unchanged": true
+    },
+    {
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\_대상검토.md",
+      "before": "0e60f42c01edf2a74984893b40aff6322008d9b05ab550f1bfe0e13a73567b32",
+      "after": "0e60f42c01edf2a74984893b40aff6322008d9b05ab550f1bfe0e13a73567b32",
+      "unchanged": true
+    },
+    {
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\_추가풀.json",
+      "before": "5d8ff45b692ff2eee887324aa9a3b8b6be7a170f4ce551e7b2c5aa5ca3ab3ac2",
+      "after": "5d8ff45b692ff2eee887324aa9a3b8b6be7a170f4ce551e7b2c5aa5ca3ab3ac2",
+      "unchanged": true
+    },
+    {
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\_통합판정.json",
+      "before": "9e2412a386dca47b1d078613f6c5ba5d44c4f2def86e987625576df573100209",
+      "after": "9e2412a386dca47b1d078613f6c5ba5d44c4f2def86e987625576df573100209",
+      "unchanged": true
+    },
+    {
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\제품별.md",
+      "before": "229dd1d21cbdf4c80d21b8795d0b28698a012b14b90147216f90301493c54ebd",
+      "after": "229dd1d21cbdf4c80d21b8795d0b28698a012b14b90147216f90301493c54ebd",
+      "unchanged": true
+    },
+    {
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\규칙별-누적.md",
+      "before": "5df2340523451009eadaa8bad1e099ca2ea8b4454f6ba5162dccefec27e29ccc",
+      "after": "5df2340523451009eadaa8bad1e099ca2ea8b4454f6ba5162dccefec27e29ccc",
+      "unchanged": true
+    },
+    {
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\작업기록.md",
+      "before": "eae6f9d66bea2b2aacbd1f725551776b69a78a568106d72dabcf8c7eb1a1517a",
+      "after": "eae6f9d66bea2b2aacbd1f725551776b69a78a568106d72dabcf8c7eb1a1517a",
+      "unchanged": true
+    },
+    {
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+      "before": "4173df168aff2e2f23ef588d8280c7f516a9915f8ac52bb9e7cee7960aab2d2e",
+      "after": "4173df168aff2e2f23ef588d8280c7f516a9915f8ac52bb9e7cee7960aab2d2e",
+      "unchanged": true
+    }
+  ],
+  "source_files_checked": 134,
+  "source_errors": [],
+  "missing_local_links": [],
+  "counts": {
+    "eligible_sample_target": 30,
+    "advertisement_age_minimum_days": 60,
+    "reviewed_pool_count": 32,
+    "confirmed_eligible": 10,
+    "unconfirmed": 22,
+    "confirmed_excluded": 0,
+    "remaining_to30": 20,
+    "by_pool": {
+      "기존20": {
+        "적격": 9,
+        "미확인": 11,
+        "제외": 0
+      },
+      "추가12": {
+        "적격": 1,
+        "미확인": 11,
+        "제외": 0
+      }
+    },
+    "eligible_ids": [
+      "L01",
+      "L03",
+      "L05",
+      "L07",
+      "L08",
+      "L09",
+      "L12",
+      "L13",
+      "L14",
+      "AP06"
+    ],
+    "newly_supplied_candidates_outside32": 5,
+    "newly_supplied_candidates_added_to_eligible": 0,
+    "note": "후보 확보 수·장기 광고 수·실제 적격 수는 다르다. 기존20을 기확정20으로 간주하지 않음."
+  },
+  "output_sha256": {
+    "보강결과.md": "fcc09cf17bbc16c73be3e00706ce797db71843b590fbcbe7069f4876b19e8402",
+    "적격성.json": "86f80c3bd959d0a051fe702557c5d5b95e17bf1ed6c604fd25888f7e1eac7341"
+  },
+  "scope_note": "검증은 저장된 증거·형식·집계·보호 입력의 무변경을 확인한다. 사업자 법정규모·상품 효능·매출 인증은 아니다.",
+  "missing_viewed_previews": [],
+  "validation_order_note": "검증결과.json 자기 링크는 파일 생성 후 재확인했다."
+}
