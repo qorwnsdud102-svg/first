@@ -1,0 +1,322 @@
+{
+  "brand": "헥사큐",
+  "ads": [
+    {
+      "id": "930057146814374",
+      "query": "hexaq.kr",
+      "slice": "default",
+      "rank": 1,
+      "page_name": "Healthy100",
+      "page_id": "1208206365705787",
+      "page_like_count": 3,
+      "is_active": true,
+      "start_date": "2026-08-25",
+      "end_date": "2026-10-13",
+      "days_running": 49,
+      "collation_id": "1414102780653523",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+      "title": "호주 헥사큐 아쿠아메딘",
+      "caption": "https://hexaq.kr/",
+      "link_description": "",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://hexaq.kr/surl/P/28"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQN2EqMK9hYq6ECC7lOhC-oln2eHkujeC869PDqwoEj5nf2LTs_bpOU2wkTxB5my7VUclR2Vbt7QXEZpHVmgIsdgxuQlBReZgaMu_FSl8g.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=aFkDmUYGnXAQ7kNvwGorEL8&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTUwMjcwMjI4NDg2NDYyMSwiYXNzZXRfYWdlX2RheXMiOjcyLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQPOPNYU78oBJJVsggA2fC-baZt7FRZRYwrxtLHyOBmriA&oe=6AD4043E",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNe7eclXFoJck_jLMlGjYx1KlmD6lLbeHej4hqA1L7s_CmuEpMcVLEMbDsbg0X-YgraWHFiuLjXATb1J_AZaHGKGJSSoPdOGBFNN81Qsg.mp4?_nc_cat=110&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=lBlHysS4DNMQ7kNvwF3UPbo&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6Mjc2NTUxNzQ2MDA4MDkyOTcsImFzc2V0X2FnZV9kYXlzIjo3MiwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjU3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQNRjOcD_BV1Tj-hqtDx9fCiwfVyiRsWtq0P_fPh1OQUkg&oe=6AD415FC"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/786134665_1385212090367160_3716443500056029608_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-X8QA3n7ongQ7kNvwGb3d2D&_nc_oc=Adrcq8jf-9kKW51MXrruiLooapRh3wDXTAdlqlDcpjWlkRV5I1u2yx-UyffW_4q4-Y0&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&oh=00_AQMJxBwJSL_maJ1Uh8olaHIgopVZs7P8tEY0RA0Y3R0XsA&oe=6AD42059",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/786743667_2109210939989403_130761042545410894_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=T2hkkJN0NU8Q7kNvwEU1OFO&_nc_oc=AdpiHS3iVZ3t8y1d7DVYSAn5LfVVxz7AsbrXFUYJLDOcOSQPWx71wQCDzi1lX5m-LmQ&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&oh=00_AQP5WPUmXfiMz2mxBXSyB-xamNERfeqlod1l-TRW_Al59w&oe=6AD405AF"
+      ],
+      "cards": [
+        {
+          "title": "호주 헥사큐 아쿠아메딘",
+          "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+          "link_description": "",
+          "link_url": "https://hexaq.kr/surl/P/28"
+        },
+        {
+          "title": "호주 헥사큐 아쿠아메딘",
+          "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+          "link_description": "",
+          "link_url": "https://hexaq.kr/surl/P/28"
+        }
+      ]
+    },
+    {
+      "id": "28415938788093249",
+      "query": "hexaq.kr",
+      "slice": "default",
+      "rank": 2,
+      "page_name": "Healthy100",
+      "page_id": "1208206365705787",
+      "page_like_count": 3,
+      "is_active": true,
+      "start_date": "2026-08-25",
+      "end_date": "2026-10-13",
+      "days_running": 49,
+      "collation_id": "1312565835265724",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+      "title": "호주 헥사큐 아쿠아메딘",
+      "caption": "https://hexaq.kr/",
+      "link_description": "",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://hexaq.kr/surl/P/28"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPG2U0ZZLDehGrOoLNq7wQMJEKdVwT69wjo61rldNtgxAhxYbUORRo80VKhT276YK1ARTTyb5I0bTBrSsQ5FltlVo89FxVHXHuN3PQnxQ.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=iDRdJy0mWz4Q7kNvwFdYv8m&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjU1ODI3OTQ2NDYyMDg0NCwiYXNzZXRfYWdlX2RheXMiOjU4LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQOCFKXoXlNQoy00M5Mh_o58_HJv_kTVA7gdgCoWBbPbSQ&oe=6AD42D34",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNrku97h0vcBh0WDiIjUZmyQBjmRYLIDc8R4fCh2e2MMgZ101MGDdi2d6_VobPi3Z5QWqMS7mNx9SIGv882UlhA0ggX88_Uhj9qoCqoTg.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=GYl9GnHmFfsQ7kNvwF0lnif&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTIzMTM4NDE2NTc5ODQ0MiwiYXNzZXRfYWdlX2RheXMiOjU4LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQOT6smTGiwzXSBE6MvEKlk6APH7kZexlIUiNJsc2w6LIg&oe=6AD42154"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/787406088_1369771494785078_4454222423386859066_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Qc-PtKZCh8wQ7kNvwE-kfas&_nc_oc=Adq7gvbj4j9oQE11oHX_RAzPfzQhIayroMb2PBlJkVgqzJLjV2mBqeSd7htbevvnApo&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&oh=00_AQNFdPkJzW3j4c3ZYibUy2iSZspZ-9l3Q-77hFPqUTbr0w&oe=6AD434DB",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/786744299_3718775974931930_2872176779497629626_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ZgPhmXXwzGwQ7kNvwFVsN0i&_nc_oc=Adp5jvtNcOfhiBnbbIhR7pkb4ZtGc8IDunxS2KMRjWjnwrWn7IKFEF0VyuWjhM13SeQ&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&oh=00_AQMPsaB5EmOi8WdboqKXg9qsAmR0FoY9TH1o6PDU7XDSNw&oe=6AD4224C"
+      ],
+      "cards": [
+        {
+          "title": "호주 헥사큐 아쿠아메딘",
+          "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+          "link_description": "",
+          "link_url": "https://hexaq.kr/surl/P/28"
+        },
+        {
+          "title": "호주 헥사큐 아쿠아메딘",
+          "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+          "link_description": "",
+          "link_url": "https://hexaq.kr/surl/P/28"
+        }
+      ]
+    },
+    {
+      "id": "2180035326061299",
+      "query": "hexaq.kr",
+      "slice": "default",
+      "rank": 6,
+      "page_name": "Healthy100",
+      "page_id": "1208206365705787",
+      "page_like_count": 3,
+      "is_active": true,
+      "start_date": "2026-09-20",
+      "end_date": "2026-10-13",
+      "days_running": 23,
+      "collation_id": "1422574763343469",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+      "title": "호주 헥사큐 아쿠아메딘",
+      "caption": "https://hexaq.kr/",
+      "link_description": "",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://hexaq.kr/surl/P/28"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMS5tW04a_D9rW8hJ66ch8m5NGvhtSMfGPL4Jz1_szbdAMl3xHvE2lfaRbVEOUz6gCcDcb50-LLNpFWNAPRen0Rw9XBR6xakzp1udPXZA.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=cbct43F7Z3MQ7kNvwGTit3b&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6OTM0MjkxMzU5MjcyMDE5LCJhc3NldF9hZ2VfZGF5cyI6MjMsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjozOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQOimOsOMLXR8lh8WNg_NGhae1HaEpo-ilQerg7BKfRyUQ&oe=6AD419E4",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMPU86XiaQkfM3kXfcnbdGZukxxsFYpYQYcEeeal0OrSAD2Ykf4APAMNse7ukkkWoPHkBIXuaCB8E2ZyfjsR1hOuQf6QcbwJ4ZkSP0aGw.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=wRBDRpB_0-cQ7kNvwHXxtkD&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjU5OTU3MTc5MzgyNzE5MCwiYXNzZXRfYWdlX2RheXMiOjIzLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MzksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQOn-th3LKgCl2hEnxiexaoxJoutX9FSE5CZ0mrAz_jVYw&oe=6AD41D6C"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/818365307_1787197239124688_1894698544973990621_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=FYrxpIqk-oUQ7kNvwHpuW3N&_nc_oc=Adrr4BVPQz2rpYqJUyxRyotauxGq_E8bzxu65xU7BbwVX7KUzExR8Xps7_bUrI9Abjo&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&oh=00_AQOsiYza-eLJcMPTjLzxF5ABmEMn1MtJQJkNqBK49SEK2Q&oe=6AD3FF7E",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/818365635_2148061723259382_6800712587638984636_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=KIu827_OwD0Q7kNvwFnJiPt&_nc_oc=AdotE2WLjzjxAAceO1twkuP8EUIgM_sr-tYLcY59DOwrkrHJyEoZtmQ1boevQ0suOAY&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&oh=00_AQPocjdq50VTq-i7w2KKD7ktY4vFoqSz2FKJb0P_csQPHw&oe=6AD41BA0"
+      ],
+      "cards": [
+        {
+          "title": "호주 헥사큐 아쿠아메딘",
+          "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+          "link_description": "",
+          "link_url": "https://hexaq.kr/surl/P/28"
+        },
+        {
+          "title": "호주 헥사큐 아쿠아메딘",
+          "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+          "link_description": "",
+          "link_url": "https://hexaq.kr/surl/P/28"
+        }
+      ]
+    },
+    {
+      "id": "1044842415032890",
+      "query": "hexaq.kr",
+      "slice": "default",
+      "rank": 3,
+      "page_name": "Healthy100",
+      "page_id": "1208206365705787",
+      "page_like_count": 3,
+      "is_active": true,
+      "start_date": "2026-09-21",
+      "end_date": "2026-10-13",
+      "days_running": 22,
+      "collation_id": "1134336172890087",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+      "title": "호주 헥사큐 아쿠아메딘",
+      "caption": "https://hexaq.kr/",
+      "link_description": "",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://hexaq.kr/surl/P/28"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQO68BQbkijHbU-nOX7k_PgN1IAf_bij5IgjZJgGtCFD5UNs28B5lYseDgSJgyccGMdVA5Y9c9OEzp99goZUUC3i00AxD2944XJWS1jdbQ.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=TWn8yVUVqmEQ7kNvwFLZ6px&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTEyMzEzMDgxNjg1ODcxNywiYXNzZXRfYWdlX2RheXMiOjIzLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MzgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQP4Jw49QVk3PIR425PkVtDeW__CkXmbyIm16Qr5n_x67Q&oe=6AD4229F",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQO4pivKjvDe7SeOB9C2TNHjvHoop-uziIl19QYIAnaR-pqCk5KRUE7GKOadJ2QSKvpQyomzU4Fqly3iqdnC_79JdgiOzpzAQaV1Qjzd0A.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=sF6rkaHnQvUQ7kNvwEeY6SA&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjMxMTE2ODE4MzA1ODkyNSwiYXNzZXRfYWdlX2RheXMiOjIzLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MzgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQPfDawakK1B3w4gwYOrNd_YY8GPB5U4-dhK672YBtH_tw&oe=6AD4233E"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/818365368_2095662334653284_4384960432659668472_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BlPtTsqaXz8Q7kNvwGukg4d&_nc_oc=AdplmzICIEa_Fso1ET_tk3RYZ6KEoQAySC6F_ispTMSig6awkLk6EJnbLZtWLSX6tvs&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&oh=00_AQPBIhTGQaTs4ybblwucHKvjmm4aVuEiUYpn_487iPoX4g&oe=6AD42AD7",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/818365662_955676940261418_4407105500107278598_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=StPTUQjQ8jsQ7kNvwGH4rxl&_nc_oc=AdpfKwRHXfquFiDwPJwlzwGx28p106CJuqmYTpPbZgao2sqJvaXCeNcjxkMwQGjYNmg&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&oh=00_AQN1liARpe102UjeYQHJkio4ieDke3DbD8PZPwJKz0jm-Q&oe=6AD40EAF"
+      ],
+      "cards": [
+        {
+          "title": "호주 헥사큐 아쿠아메딘",
+          "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+          "link_description": "",
+          "link_url": "https://hexaq.kr/surl/P/28"
+        },
+        {
+          "title": "호주 헥사큐 아쿠아메딘",
+          "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+          "link_description": "",
+          "link_url": "https://hexaq.kr/surl/P/28"
+        }
+      ]
+    },
+    {
+      "id": "1411999934228573",
+      "query": "hexaq.kr",
+      "slice": "default",
+      "rank": 9,
+      "page_name": "Healthy100",
+      "page_id": "1208206365705787",
+      "page_like_count": 3,
+      "is_active": true,
+      "start_date": "2026-09-25",
+      "end_date": "2026-10-13",
+      "days_running": 18,
+      "collation_id": "1138495695520121",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+      "title": "호주 헥사큐 아쿠아메딘",
+      "caption": "https://hexaq.kr/",
+      "link_description": "",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://hexaq.kr/surl/P/28"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNpCENHNpRMMZbKeZmQZEmDFvKu2naS6LZ9PAX4ukaMcpr1vG4GJIG0Ts2sHNmgJU-b98TUaM-A7us1ZUkXhUzTnzht4V4YEk4ziarLxQ.mp4?_nc_cat=111&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=xmMdrsFtGtQQ7kNvwHxchvz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTczNjQ4MjgxNzk5NDU5MSwiYXNzZXRfYWdlX2RheXMiOjE4LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQM2apYjTFj3RC9WjxHHXJ1_6r-NkwAnZqanjc-Q3PxLyg&oe=6AD41DFB",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMxIC3nDA5YLNkanDd_HWFyfBfpGcogINNUhgDVCvgRxLAEScNx9NWrKo98R2dN730GH7zkrX1_HV8UtwpEuRqttmd62udEtC1LDlUjdw.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=IcYtN8bD8x0Q7kNvwFtS37P&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTEwOTkwMjM2NDg4NjQwNiwiYXNzZXRfYWdlX2RheXMiOjE4LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQO4ohEOk9HLiFJaAfjOXoiyJYcPprEiw4k8wbvj_JX2tQ&oe=6AD4365A"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/822134088_1879888119654282_1428247421379512305_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8XeRC1ICU-oQ7kNvwGzJHFG&_nc_oc=AdoBu3KuENHzEbe5cYuBPUhFLFWM1lH_X44d01uV_hc249PRYhpubA1RDg5B6MPGvGo&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&oh=00_AQP89oTnRunhIIrvLWPKIkOfwTyxOnC-_SsbJ0kJSHB-_w&oe=6AD42E8D",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/822667636_1429888092612230_6252064767106740684_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rLF61bjlxA8Q7kNvwEgTIFk&_nc_oc=AdpyR4cPsa8OlOBwe6GTzwannIy1MxFWGUuE3vGAtSAnKvckbdyskQ1N2ei--DzWZaU&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&oh=00_AQOAUPBIZn5E3LXxnT9rdz_4hSXlEom862gGtUsTH-WOcw&oe=6AD40A24"
+      ],
+      "cards": [
+        {
+          "title": "호주 헥사큐 아쿠아메딘",
+          "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+          "link_description": "",
+          "link_url": "https://hexaq.kr/surl/P/28"
+        },
+        {
+          "title": "호주 헥사큐 아쿠아메딘",
+          "body": "하루 딱 한 포면, 잇몸을 시리지 않고 탄탄하게 만들어 줍니다. 헥사큐 아쿠아메딘!",
+          "link_description": "",
+          "link_url": "https://hexaq.kr/surl/P/28"
+        }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQN2EqMK9hYq6ECC7lOhC-oln2eHkujeC869PDqwoEj5nf2LTs_bpOU2wkTxB5my7VUclR2Vbt7QXEZpHVmgIsdgxuQlBReZgaMu_FSl8g.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=aFkDmUYGnXAQ7kNvwGorEL8&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTUwMjcwMjI4NDg2NDYyMSwiYXNzZXRfYWdlX2RheXMiOjcyLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQPOPNYU78oBJJVsggA2fC-baZt7FRZRYwrxtLHyOBmriA&oe=6AD4043E",
+      "file": "videos/930057146814374_1.mp4",
+      "ad_id": "930057146814374",
+      "bytes": 1643171,
+      "downloaded": true,
+      "sha256": "4d704d57f2d8a35018c3e3a16a5640a8d9037aa0a80fbefe38c7fad7b87c6071"
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPG2U0ZZLDehGrOoLNq7wQMJEKdVwT69wjo61rldNtgxAhxYbUORRo80VKhT276YK1ARTTyb5I0bTBrSsQ5FltlVo89FxVHXHuN3PQnxQ.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=iDRdJy0mWz4Q7kNvwFdYv8m&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjU1ODI3OTQ2NDYyMDg0NCwiYXNzZXRfYWdlX2RheXMiOjU4LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQOCFKXoXlNQoy00M5Mh_o58_HJv_kTVA7gdgCoWBbPbSQ&oe=6AD42D34",
+      "file": "videos/28415938788093249_1.mp4",
+      "ad_id": "28415938788093249",
+      "bytes": 1774161,
+      "downloaded": true,
+      "sha256": "0dd9f21d0724a39f2fa43f5bfdfa3b1d04bf0409a073abfbfddad56acbc78502"
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMS5tW04a_D9rW8hJ66ch8m5NGvhtSMfGPL4Jz1_szbdAMl3xHvE2lfaRbVEOUz6gCcDcb50-LLNpFWNAPRen0Rw9XBR6xakzp1udPXZA.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=cbct43F7Z3MQ7kNvwGTit3b&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6OTM0MjkxMzU5MjcyMDE5LCJhc3NldF9hZ2VfZGF5cyI6MjMsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjozOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQOimOsOMLXR8lh8WNg_NGhae1HaEpo-ilQerg7BKfRyUQ&oe=6AD419E4",
+      "file": "videos/2180035326061299_1.mp4",
+      "ad_id": "2180035326061299",
+      "bytes": 1356513,
+      "downloaded": true,
+      "sha256": "419b5a9401bb0be0f8316a45cfdd4646e572c7db54069b4854a21ef717322f3f"
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQO68BQbkijHbU-nOX7k_PgN1IAf_bij5IgjZJgGtCFD5UNs28B5lYseDgSJgyccGMdVA5Y9c9OEzp99goZUUC3i00AxD2944XJWS1jdbQ.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=TWn8yVUVqmEQ7kNvwFLZ6px&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTEyMzEzMDgxNjg1ODcxNywiYXNzZXRfYWdlX2RheXMiOjIzLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MzgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQP4Jw49QVk3PIR425PkVtDeW__CkXmbyIm16Qr5n_x67Q&oe=6AD4229F",
+      "file": "videos/1044842415032890_1.mp4",
+      "ad_id": "1044842415032890",
+      "bytes": 1385619,
+      "downloaded": true,
+      "sha256": "5a890cdf35980b83b02ea2a556c5de7f505614a36ed7e9a403e533dea170bed0"
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNpCENHNpRMMZbKeZmQZEmDFvKu2naS6LZ9PAX4ukaMcpr1vG4GJIG0Ts2sHNmgJU-b98TUaM-A7us1ZUkXhUzTnzht4V4YEk4ziarLxQ.mp4?_nc_cat=111&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=xmMdrsFtGtQQ7kNvwHxchvz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTczNjQ4MjgxNzk5NDU5MSwiYXNzZXRfYWdlX2RheXMiOjE4LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=-nzQysTAOecG-jkINW-Ouw&_nc_ss=7f289&_nc_zt=28&oh=00_AQM2apYjTFj3RC9WjxHHXJ1_6r-NkwAnZqanjc-Q3PxLyg&oe=6AD41DFB",
+      "file": "videos/1411999934228573_1.mp4",
+      "ad_id": "1411999934228573",
+      "bytes": 1545405,
+      "downloaded": true,
+      "sha256": "483a7bbed0fbc63d30c9983c40489a7347dd222a97ae878942e83b02dfd977b0"
+    }
+  ],
+  "all_sku_ads": 30,
+  "body_groups": 1,
+  "selection": "oldest distinct media SHA256, not body text",
+  "duplicates": [],
+  "as_of": "2026-10-14T00:40:45.872603"
+}

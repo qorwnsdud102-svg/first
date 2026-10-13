@@ -1,0 +1,37 @@
+{
+  "status": "partial_closed",
+  "checks": [
+    {
+      "file": "후보-I.md",
+      "exists": true,
+      "bytes": 10436,
+      "replacement_chars": 0
+    },
+    {
+      "file": "I자료/젠엘-광고3.md",
+      "exists": true,
+      "bytes": 14218,
+      "replacement_chars": 0
+    },
+    {
+      "file": "I자료/후보선정.json",
+      "exists": true,
+      "bytes": 3070,
+      "replacement_chars": 0
+    },
+    {
+      "file": "I자료/본체-기존검색-참고.json",
+      "exists": true,
+      "bytes": 31487,
+      "replacement_chars": 0
+    }
+  ],
+  "ad_report_local_link_count": 16,
+  "missing_local_links": [],
+  "asr_read": 3,
+  "images_viewed": 9,
+  "pdp_full_read": false,
+  "recommended_reviews_30_complete": false,
+  "new_meta_queries": 0,
+  "browser_asset_download_after_stop": 0
+}

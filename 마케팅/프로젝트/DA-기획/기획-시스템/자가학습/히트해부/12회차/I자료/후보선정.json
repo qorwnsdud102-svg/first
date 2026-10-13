@@ -1,0 +1,63 @@
+{
+  "round": 12,
+  "zone": "I 여성·남성",
+  "status": "상세 원본77개 직접 판독 완료; 각30 추천/고정후기 확보·분석 작성 중",
+  "candidates": [
+    {
+      "priority": 1,
+      "brand": "닥터레이디",
+      "product_name": "닥터레이디 PDRN 리쥬톡스 이너앰플",
+      "official_url": "https://dr-lady.shop/",
+      "product_url": "https://dr-lady.shop/product/detail.html?product_no=11",
+      "product_no": "11",
+      "business_name": "바른연구소",
+      "business_registration_number": "779-13-01537",
+      "evidence": "2026-10-13 현재 공식 PDP 브라우저 제목·상품명·요약성분·푸터 직접 확인",
+      "symbol_evidence": "리쥬톡스라는 이름 + PDRN + 3GF + 보르피린을 공식 상품요약에 명시",
+      "caution": "동일 URL의 과거 검색 캐시에 락토 밸런스 컨디셔너 존재. 과거 광고/후기의 리뉴얼 SKU 일치 별도 확인 필요. 소기업 규모 및 성과 미확정.",
+      "meta_search_by_main_only": [
+        "닥터레이디",
+        "dr-lady.shop",
+        "리쥬톡스"
+      ],
+      "review_status": "30건 원문 확보·직접 읽음: 하단 공개 설정 sort=-like_count, 고정배치10+추천수20; 상단 기본순 표본 별도",
+      "pdp_status": "전체 이미지 직접 판독 완료: 19개/20strip/7sheet"
+    },
+    {
+      "priority": 2,
+      "brand": "젠엘 JE:NL",
+      "product_name": "젠엘 퍼스트데이트 이너 세럼",
+      "official_url": "https://jenl.store/",
+      "product_url": "https://jenl.store/product/detail.html?cate_no=1&display_group=2&product_no=12",
+      "product_no": "12",
+      "business_name": "주식회사 제나셀",
+      "business_registration_number": "119-87-07889",
+      "evidence": "공식 홈페이지 상품 카드와 푸터 확인",
+      "symbol_evidence": "LACTO-PDRN 2,000ppm 공식 홈페이지 표기. 시술 별명/상징의 직접 구현 여부는 상세 판독 전 미확정.",
+      "caution": "소기업 규모 미확정. 후보 2로만 등록, 상세·후기 판독 전.",
+      "meta_search_by_main_only": [
+        "젠엘",
+        "jenl.store",
+        "제나셀",
+        "퍼스트데이트"
+      ],
+      "observed_ad_product_url": "https://jenl.co.kr/product/detail.html?product_no=12&cate_no=43&display_group=1",
+      "ad_ids": [
+        "1643419437154537",
+        "998367466615969",
+        "971275725345168"
+      ],
+      "review_status": "30건 원문 확보·직접 읽음: 공개위젯 RECOMMEND 3페이지; 실제 추천1건만1표,29건0표",
+      "pdp_status": "전체 이미지 직접 판독 완료: 58개/111strip/37sheet; GIF각0/중간/끝표본",
+      "domain_caution": "jenl.store와 광고 랜딩 jenl.co.kr의 관계는 실시간 재검증하지 않음"
+    }
+  ],
+  "excluded_previous": [
+    "포벡스 X존 세럼",
+    "산타시트",
+    "벨택 페니톡스",
+    "메디온"
+  ],
+  "meta_access": 0,
+  "advertising_analysis": "I자료/젠엘-광고3.md: ASR3개·이미지9개 판독. 직접청취 미실시."
+}

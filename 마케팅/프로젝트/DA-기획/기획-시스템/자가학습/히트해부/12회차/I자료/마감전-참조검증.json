@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "닥터레이디": {
+      "image_count": 19,
+      "originals_exist": true,
+      "all_http_200": true,
+      "strip_count": 20,
+      "strips_exist": true,
+      "source_indices_covered": 19,
+      "reviews": 30,
+      "unique_id": 30,
+      "unique_content": 30
+    },
+    "젠엘": {
+      "image_count": 58,
+      "originals_exist": true,
+      "all_http_200": true,
+      "strip_count": 111,
+      "strips_exist": true,
+      "source_indices_covered": 58,
+      "reviews": 30,
+      "unique_id": 30,
+      "unique_content": 30
+    }
+  },
+  "markdown_local_links": 325,
+  "missing": []
+}

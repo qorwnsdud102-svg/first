@@ -1,0 +1,20 @@
+{
+  "time": "2026-10-14T01:15:24.644118+09:00",
+  "local_links": 38,
+  "missing_links": [],
+  "usage_sum_gap": 0,
+  "required_files": {
+    "후보-H.md": true,
+    "후보-F.md": true,
+    "후보-I.md": true,
+    "결과.md": true,
+    "구역-기록.md": true,
+    "토큰사용량.md": true,
+    "토큰사용량.json": true,
+    "작업기록.md": true,
+    "매체-검증.json": true,
+    "브리지-마감.txt": true,
+    "전체-작업인계.md": true,
+    "전체-브리지인계.txt": true
+  }
+}

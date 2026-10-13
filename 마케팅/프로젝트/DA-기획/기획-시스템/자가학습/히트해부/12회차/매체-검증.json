@@ -1,0 +1,157 @@
+{
+  "selected": 20,
+  "video": 11,
+  "image": 9,
+  "errors": [],
+  "media": [
+    {
+      "brand": "비전넥신",
+      "id": "1095431446674288",
+      "type": "video",
+      "exists": true,
+      "sha256": "ec84bde3b7eb2ef309f18474051856c87938f7cda18a8c53651e107881660262"
+    },
+    {
+      "brand": "비전넥신",
+      "id": "4620407834866865",
+      "type": "video",
+      "exists": true,
+      "sha256": "3b0f232da1792886f8f260418213e30aa5cf6b69ab2134977fc69b2de8c26fa6"
+    },
+    {
+      "brand": "오르비전",
+      "id": "1071691909053582",
+      "type": "video",
+      "exists": true,
+      "sha256": "2338ef3c5e5484614df8c90369c73d00affda574f9ad348f97697faa9e674968"
+    },
+    {
+      "brand": "오르비전",
+      "id": "2228708777984072",
+      "type": "image",
+      "exists": true,
+      "sha256": "2ec0b7c63c09aec5ff9f907a45f09ba634880b77054b1b5f49f2d5798400eef6"
+    },
+    {
+      "brand": "오르비전",
+      "id": "1078160088298624",
+      "type": "image",
+      "exists": true,
+      "sha256": "602bca4843dea7a09de4237ab5277145b3403b0a7cbfe35c917dd2da29f70d91"
+    },
+    {
+      "brand": "오르비전",
+      "id": "1476035744462679",
+      "type": "image",
+      "exists": true,
+      "sha256": "28d59550290131ff178ba0ee0bf3395f32e78e165440a513add1018afdba94ef"
+    },
+    {
+      "brand": "오르비전",
+      "id": "3247258458807451",
+      "type": "image",
+      "exists": true,
+      "sha256": "590d0dd5409c1bcbd4e3950688e84fafff402a01645649f491befcc789f1b22e"
+    },
+    {
+      "brand": "젠엘",
+      "id": "1643419437154537",
+      "type": "video",
+      "exists": true,
+      "sha256": "43d7cd9f4285795722aa40f90ae45a359193a36906026ad7bea449ea27804a09"
+    },
+    {
+      "brand": "젠엘",
+      "id": "998367466615969",
+      "type": "video",
+      "exists": true,
+      "sha256": "256b3549f213dd1beb1719f0489017c7de27ed009b6bcdd67ab5fd0ecec61bd6"
+    },
+    {
+      "brand": "젠엘",
+      "id": "971275725345168",
+      "type": "video",
+      "exists": true,
+      "sha256": "5515ce8be26e0a6357820898f1c81889dd8cd5fca1ed182b20846ea60c300c1e"
+    },
+    {
+      "brand": "퓨리븐",
+      "id": "1311462927616986",
+      "type": "image",
+      "exists": true,
+      "sha256": "765d7e76026a1103b9d81360a78b4ca2c43432719a25868d6c994a4e746bcaef"
+    },
+    {
+      "brand": "퓨리븐",
+      "id": "1333668975239014",
+      "type": "image",
+      "exists": true,
+      "sha256": "27594b98324adce84c12f49f80c26c9840a0420766400c67e1652b849a0be882"
+    },
+    {
+      "brand": "퓨리븐",
+      "id": "1657963575208027",
+      "type": "image",
+      "exists": true,
+      "sha256": "9049c83cd4d586564c6c56ec520e44dbdbb20cfc3d3e155544951da102c34c10"
+    },
+    {
+      "brand": "퓨리븐",
+      "id": "2144474872995682",
+      "type": "image",
+      "exists": true,
+      "sha256": "418405a009dc65460cdae6f08fba2fc7fa0a2cf076833079964617899f523c2c"
+    },
+    {
+      "brand": "퓨리븐",
+      "id": "1287727123286891",
+      "type": "image",
+      "exists": true,
+      "sha256": "7f0413e52eed935ae50762bf82ad29059a0c31eeecab8d47da83ccef5214d50c"
+    },
+    {
+      "brand": "헥사큐",
+      "id": "930057146814374",
+      "type": "video",
+      "exists": true,
+      "sha256": "4d704d57f2d8a35018c3e3a16a5640a8d9037aa0a80fbefe38c7fad7b87c6071"
+    },
+    {
+      "brand": "헥사큐",
+      "id": "28415938788093249",
+      "type": "video",
+      "exists": true,
+      "sha256": "0dd9f21d0724a39f2fa43f5bfdfa3b1d04bf0409a073abfbfddad56acbc78502"
+    },
+    {
+      "brand": "헥사큐",
+      "id": "2180035326061299",
+      "type": "video",
+      "exists": true,
+      "sha256": "419b5a9401bb0be0f8316a45cfdd4646e572c7db54069b4854a21ef717322f3f"
+    },
+    {
+      "brand": "헥사큐",
+      "id": "1044842415032890",
+      "type": "video",
+      "exists": true,
+      "sha256": "5a890cdf35980b83b02ea2a556c5de7f505614a36ed7e9a403e533dea170bed0"
+    },
+    {
+      "brand": "헥사큐",
+      "id": "1411999934228573",
+      "type": "video",
+      "exists": true,
+      "sha256": "483a7bbed0fbc63d30c9983c40489a7347dd222a97ae878942e83b02dfd977b0"
+    }
+  ],
+  "note": "규정선별20소재. 오르비전 추가2소재는 별도 카드/원본에 보존. 검증은 파일무결성이며 판독을 대신하지 않음.",
+  "analysis_artifacts": {
+    "selected_videos": 11,
+    "additional_video": 1,
+    "total_videos": 12,
+    "extra_creatives": 2,
+    "total_creatives": 22,
+    "missing": []
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "brand": "퓨리븐",
+  "ads": [
+    {
+      "id": "1311462927616986",
+      "query": "puriven.co.kr",
+      "slice": "default",
+      "rank": 1,
+      "page_name": "오늘의생활정보",
+      "page_id": "715338061653997",
+      "page_like_count": 6,
+      "is_active": true,
+      "start_date": "2026-04-09",
+      "end_date": "2026-10-13",
+      "days_running": 187,
+      "collation_id": null,
+      "collation_count": null,
+      "display_format": "IMAGE",
+      "body": "[1+1] 오늘자정 퓨리븐 가루치약 할인 종료됩니다! 주문을 서두르세요!",
+      "title": "효과 없으면 100% 환불",
+      "caption": "puriven.co.kr",
+      "link_description": "새로고침 (F5)버튼을 눌러 다시 시도하거나,현재 창을 닫은 후 새로운 창을 열어 접속해주세요.동일한 현상이 지속된다면 고객지원으로 문의해 주세요.",
+      "cta_text": "지금 구매하기",
+      "cta_type": "SHOP_NOW",
+      "link_urls": [
+        "https://bit.ly/3QsbxuL"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [],
+      "image_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/668897131_1823097378358476_2546519970288872494_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2TfZDbPIBacQ7kNvwHMMxSg&_nc_oc=AdpZC3X3JVKesm3meJluvEHd_lyrOEi998onxT5aeT2RwdPuEnuiCYYqEY5Px7AVUnM&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=8F7hcPIBP3o8d3q1nIfJoQ&_nc_ss=7f289&oh=00_AQNndLzh8eAI0HhXrdcWjaYAnc-JAbJ5jCV_Kct_QpxyaA&oe=6AD41816"
+      ],
+      "video_preview_urls": [],
+      "cards": []
+    },
+    {
+      "id": "1333668975239014",
+      "query": "puriven.co.kr",
+      "slice": "default",
+      "rank": 10,
+      "page_name": "오늘의생활정보",
+      "page_id": "715338061653997",
+      "page_like_count": 6,
+      "is_active": true,
+      "start_date": "2026-04-11",
+      "end_date": "2026-10-13",
+      "days_running": 185,
+      "collation_id": null,
+      "collation_count": null,
+      "display_format": "IMAGE",
+      "body": "안사고 버틴 보람이 있네요 ㅋㅋ 오늘만 누런니 전용 치약 1+1 한대요!!",
+      "title": "효과 없으면 100% 환불",
+      "caption": "puriven.co.kr",
+      "link_description": "퓨리븐 퍼플 가루 치약으로 자연스럽고 건강한 미소를. 혁신적인 보색 코렉팅 기술로 착색을 줄이고 환하게. 일상에 자신감을 더하세요.",
+      "cta_text": "지금 구매하기",
+      "cta_type": "SHOP_NOW",
+      "link_urls": [
+        "https://bit.ly/4tBRSad"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [],
+      "image_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/666048842_928635253425193_4243623178615615528_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=qAM1S7uLTbcQ7kNvwFiSpg_&_nc_oc=AdoQmQ_DmLHbZPmAN3_rX3IfUo1irYT15NbyItvsTQC0W0VctzGh1rZ8hoed8o0_21I&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=8F7hcPIBP3o8d3q1nIfJoQ&_nc_ss=7f289&oh=00_AQP2a_3OKX90L5oCorTs5i4JqkS2s-ejq3cRbonqu-0DVQ&oe=6AD43401"
+      ],
+      "video_preview_urls": [],
+      "cards": []
+    },
+    {
+      "id": "1657963575208027",
+      "query": "퓨리븐",
+      "slice": "default",
+      "rank": 16,
+      "page_name": "오늘의생활정보",
+      "page_id": "715338061653997",
+      "page_like_count": 6,
+      "is_active": true,
+      "start_date": "2026-04-08",
+      "end_date": "2026-10-10",
+      "days_running": 185,
+      "collation_id": null,
+      "collation_count": null,
+      "display_format": "IMAGE",
+      "body": "누렁니 표백치약 여기 링크가 제일 싸네요",
+      "title": "효과 없으면 100% 환불",
+      "caption": "puriven.co.kr",
+      "link_description": "퓨리븐 퍼플 가루 치약으로 자연스럽고 건강한 미소를. 혁신적인 보색 코렉팅 기술로 착색을 줄이고 환하게. 일상에 자신감을 더하세요.",
+      "cta_text": "지금 구매하기",
+      "cta_type": "SHOP_NOW",
+      "link_urls": [
+        "https://bit.ly/48hx1Re"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [],
+      "image_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/668860026_1651099145777599_5919226746545392378_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=e_ngLEVzpqoQ7kNvwGXKf-k&_nc_oc=AdrqdDZE8SXC0v4b0Zkfyf1XheiAJX_SrT3N1sOYeKTRiOgfiHcRZtT6DmniPdnchc0&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=H2nAXlyw5nTUlt6CFXA8fw&_nc_ss=7f289&oh=00_AQM8XGDTNHCo8729cA7iyXrYChh10eRipWmRF6Oq2seo0A&oe=6AD421D3"
+      ],
+      "video_preview_urls": [],
+      "cards": []
+    },
+    {
+      "id": "2144474872995682",
+      "query": "퓨리븐",
+      "slice": "default",
+      "rank": 15,
+      "page_name": "오늘의생활정보",
+      "page_id": "715338061653997",
+      "page_like_count": 6,
+      "is_active": true,
+      "start_date": "2026-04-08",
+      "end_date": "2026-10-09",
+      "days_running": 184,
+      "collation_id": null,
+      "collation_count": null,
+      "display_format": "IMAGE",
+      "body": "치과 품절대란 누렁니 전용치약 1+1",
+      "title": "효과 없으면 100% 환불",
+      "caption": "puriven.co.kr",
+      "link_description": "퓨리븐 퍼플 가루 치약으로 자연스럽고 건강한 미소를. 혁신적인 보색 코렉팅 기술로 착색을 줄이고 환하게. 일상에 자신감을 더하세요.",
+      "cta_text": "지금 구매하기",
+      "cta_type": "SHOP_NOW",
+      "link_urls": [
+        "https://bit.ly/4cxI5w0"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [],
+      "image_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/667762102_988715150508711_1321492115457556483_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Xi44c7_OzsgQ7kNvwEExQ8x&_nc_oc=AdoITpeDLzWszWhhKWqXW6RsVlQ_s0gik6jv_z_3kdvh1YUU6GXaBLsESBEbYfle8K8&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=H2nAXlyw5nTUlt6CFXA8fw&_nc_ss=7f289&oh=00_AQPh1gRgwmJfSedCU7jhUn_1LguZIbCV5NwADTng_CKh8w&oe=6AD40745"
+      ],
+      "video_preview_urls": [],
+      "cards": []
+    },
+    {
+      "id": "1287727123286891",
+      "query": "퓨리븐",
+      "slice": "default",
+      "rank": 19,
+      "page_name": "오늘의생활정보",
+      "page_id": "715338061653997",
+      "page_like_count": 6,
+      "is_active": true,
+      "start_date": "2026-04-09",
+      "end_date": "2026-10-10",
+      "days_running": 184,
+      "collation_id": null,
+      "collation_count": null,
+      "display_format": "IMAGE",
+      "body": "연예인들의 치아가 환한 이유가 다 이거 때문이래요ㄷㄷ",
+      "title": "효과 없으면 100% 환불",
+      "caption": "puriven.co.kr",
+      "link_description": "퓨리븐 퍼플 가루 치약으로 자연스럽고 건강한 미소를. 혁신적인 보색 코렉팅 기술로 착색을 줄이고 환하게. 일상에 자신감을 더하세요.",
+      "cta_text": "지금 구매하기",
+      "cta_type": "SHOP_NOW",
+      "link_urls": [
+        "https://bit.ly/4smEUvQ"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [],
+      "image_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/668597994_1280386856760796_4467979711357314815_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Mf8exPLWEwQQ7kNvwEcxcI8&_nc_oc=AdpNmhCXCIBwID4OOeegQn3hKjm2OILYVjfZ_3qt8qrb83kEuI0_iz8wTM_orClw1T4&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=H2nAXlyw5nTUlt6CFXA8fw&_nc_ss=7f289&oh=00_AQPLtnPW9LvkGaq9Bg7-Q0uXSmoUNJwFg3LYwOugs4-vuQ&oe=6AD427D9"
+      ],
+      "video_preview_urls": [],
+      "cards": []
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/668897131_1823097378358476_2546519970288872494_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2TfZDbPIBacQ7kNvwHMMxSg&_nc_oc=AdpZC3X3JVKesm3meJluvEHd_lyrOEi998onxT5aeT2RwdPuEnuiCYYqEY5Px7AVUnM&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=8F7hcPIBP3o8d3q1nIfJoQ&_nc_ss=7f289&oh=00_AQNndLzh8eAI0HhXrdcWjaYAnc-JAbJ5jCV_Kct_QpxyaA&oe=6AD41816",
+      "file": "images/1311462927616986.jpg",
+      "ad_id": "1311462927616986",
+      "bytes": 2559752,
+      "downloaded": true,
+      "sha256": "765d7e76026a1103b9d81360a78b4ca2c43432719a25868d6c994a4e746bcaef"
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/666048842_928635253425193_4243623178615615528_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=qAM1S7uLTbcQ7kNvwFiSpg_&_nc_oc=AdoQmQ_DmLHbZPmAN3_rX3IfUo1irYT15NbyItvsTQC0W0VctzGh1rZ8hoed8o0_21I&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=8F7hcPIBP3o8d3q1nIfJoQ&_nc_ss=7f289&oh=00_AQP2a_3OKX90L5oCorTs5i4JqkS2s-ejq3cRbonqu-0DVQ&oe=6AD43401",
+      "file": "images/1333668975239014.jpg",
+      "ad_id": "1333668975239014",
+      "bytes": 2575257,
+      "downloaded": true,
+      "sha256": "27594b98324adce84c12f49f80c26c9840a0420766400c67e1652b849a0be882"
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/668860026_1651099145777599_5919226746545392378_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=e_ngLEVzpqoQ7kNvwGXKf-k&_nc_oc=AdrqdDZE8SXC0v4b0Zkfyf1XheiAJX_SrT3N1sOYeKTRiOgfiHcRZtT6DmniPdnchc0&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=H2nAXlyw5nTUlt6CFXA8fw&_nc_ss=7f289&oh=00_AQM8XGDTNHCo8729cA7iyXrYChh10eRipWmRF6Oq2seo0A&oe=6AD421D3",
+      "file": "images/1657963575208027.jpg",
+      "ad_id": "1657963575208027",
+      "bytes": 2754684,
+      "downloaded": true,
+      "sha256": "9049c83cd4d586564c6c56ec520e44dbdbb20cfc3d3e155544951da102c34c10"
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/667762102_988715150508711_1321492115457556483_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Xi44c7_OzsgQ7kNvwEExQ8x&_nc_oc=AdoITpeDLzWszWhhKWqXW6RsVlQ_s0gik6jv_z_3kdvh1YUU6GXaBLsESBEbYfle8K8&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=H2nAXlyw5nTUlt6CFXA8fw&_nc_ss=7f289&oh=00_AQPh1gRgwmJfSedCU7jhUn_1LguZIbCV5NwADTng_CKh8w&oe=6AD40745",
+      "file": "images/2144474872995682.jpg",
+      "ad_id": "2144474872995682",
+      "bytes": 2497354,
+      "downloaded": true,
+      "sha256": "418405a009dc65460cdae6f08fba2fc7fa0a2cf076833079964617899f523c2c"
+    },
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/668597994_1280386856760796_4467979711357314815_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Mf8exPLWEwQQ7kNvwEcxcI8&_nc_oc=AdpNmhCXCIBwID4OOeegQn3hKjm2OILYVjfZ_3qt8qrb83kEuI0_iz8wTM_orClw1T4&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=H2nAXlyw5nTUlt6CFXA8fw&_nc_ss=7f289&oh=00_AQPLtnPW9LvkGaq9Bg7-Q0uXSmoUNJwFg3LYwOugs4-vuQ&oe=6AD427D9",
+      "file": "images/1287727123286891.jpg",
+      "ad_id": "1287727123286891",
+      "bytes": 2038070,
+      "downloaded": true,
+      "sha256": "7f0413e52eed935ae50762bf82ad29059a0c31eeecab8d47da83ccef5214d50c"
+    }
+  ],
+  "all_sku_ads": 42,
+  "body_groups": 35,
+  "selection": "oldest distinct media SHA256, not body text",
+  "duplicates": [
+    {
+      "id": "1463919728809057",
+      "sha256": "27594b98324adce84c12f49f80c26c9840a0420766400c67e1652b849a0be882"
+    }
+  ],
+  "as_of": "2026-10-14T00:40:49.566733"
+}

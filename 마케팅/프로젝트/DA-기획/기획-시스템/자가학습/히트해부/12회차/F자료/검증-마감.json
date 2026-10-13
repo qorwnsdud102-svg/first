@@ -1,0 +1,40 @@
+{
+  "H28": {
+    "base_images": 33,
+    "comparison_images": 57,
+    "same_file_bytes": 14,
+    "all_files_exist": true
+  },
+  "P33": {
+    "base_images": 28,
+    "comparison_images": 29,
+    "same_file_bytes": 26,
+    "all_files_exist": true
+  },
+  "Previews": {
+    "records": 15,
+    "unique_ids": 15,
+    "unique_bodies": 13,
+    "ratings": {
+      "5.0": 14,
+      "4.0": 1
+    }
+  },
+  "P33reviews": {
+    "records": 30,
+    "unique_ids": 30,
+    "unique_bodies": 25,
+    "ratings": {
+      "5.0": 22,
+      "4.0": 1,
+      "1.0": 3,
+      "3.0": 3,
+      "2.0": 1
+    }
+  },
+  "H_review_positions": 32,
+  "broken_local_links": [],
+  "ad_file_exists": true,
+  "obsolete_one_material_word": false,
+  "scope": "검증 파일은 F자료/검증-마감.json; 후보-F.md 및 F자료 외 쓰기 없음"
+}

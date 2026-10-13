@@ -1,0 +1,80 @@
+{
+  "round": 12,
+  "zone": "F 구강",
+  "observed_date": "2026-10-13",
+  "status": "기존 2후보 PDP 판독 마감; 헥사큐 추천순 32위치, 퓨리븐 기본순30 및 추천순 누락 명시",
+  "meta_collection": "본체 담당. 이 조사에서는 수행하지 않음",
+  "candidates": [
+    {
+      "priority": 1,
+      "brand": "헥사큐",
+      "product_name_verbatim": "헥사큐 아쿠아메딘 1박스",
+      "product_url": "https://hexaq.kr/surl/P/24",
+      "domain": "hexaq.kr",
+      "seller_company": "주식회사 어베일",
+      "company_source": "https://hexaq.kr/",
+      "hook_observed_text": "국내 최초 잇몸 수분 충전 / 호주 특허 원료 / 하이알루로닉·브로멜라인·프로폴리스",
+      "hook_status": "판매자 주장. 성분 관련 특허 문헌 고지는 완제품/원료 특허 보유·적용을 뜻하지 않는다고 명시. 일반식품",
+      "prior_status": "8회차 광고만 본 예비후보. 상세 해부는 미실시",
+      "large_company_check": "공식몰 법인명 확인. 대기업 계열 여부는 별도 미확정",
+      "depth": "24 상세33개·28 상세57개 전체 이미지 확인; 애니메이션은 표본 프레임",
+      "ad_product_url": "https://hexaq.kr/surl/P/28",
+      "review_status": {
+        "sort": "추천순",
+        "positions_read": 32,
+        "distinct_bodies": 31,
+        "duplicate_excess": 1,
+        "target_30_distinct_met": true,
+        "review_ids_verified": false
+      },
+      "capacity": "2g×20포(40g/152kcal)",
+      "identity": "24/28 제품명·규격·원재료표시 일치; 동일 규격 제품의 판매랜딩. 제조로트·배합비 미검증"
+    },
+    {
+      "priority": 2,
+      "brand": "퓨리븐",
+      "product_name_verbatim": "퓨리븐 퍼플 가루치약 [단품]",
+      "product_url": "https://puriven.co.kr/product/detail.html?product_no=31",
+      "domain": "puriven.co.kr",
+      "seller_company": "주식회사 온리비앤코",
+      "company_source": "https://puriven.co.kr/",
+      "hook_observed_text": "퍼플 컬러·가루 제형·보색 브라이트닝",
+      "hook_status": "보색 코렉팅·HAP·가루 제형·인물 미소를 직접 확인. 판매자 효능 주장은 미검증",
+      "prior_status": "구역 장부와 기존 해부 중복 검색에서 이전 상세 해부를 찾지 못함",
+      "large_company_check": "공식몰 법인명 확인. 올리브영 입점은 확인되나 대기업·상위 고정 브랜드 여부는 미확정",
+      "depth": "31 상세28개·33 상세29개 전체 이미지 확인; 동일원본26개 대조, 33 변경3개 직접보기",
+      "ad_product_url": "https://puriven.co.kr/product/detail.html?product_no=33",
+      "review_status": {
+        "recommended_or_pinned_read": 0,
+        "recommended_shortfall": 30,
+        "set33_basic_records": 30,
+        "set33_unique_ids": 30,
+        "set33_distinct_bodies": 25,
+        "set33_duplicate_excess": 5,
+        "unit31_supplement_records": 15,
+        "unit31_distinct_bodies": 13,
+        "unit31_duplicate_excess": 2
+      },
+      "capacity": "1통40g",
+      "identity": "31 단품/33 1+1·2+2 세트. 제품정보·용기·가루색 동일. 레드폼 제외"
+    }
+  ],
+  "excluded_preliminary": [
+    {
+      "brand": "와카바",
+      "reason": "8회차 기록의 상품은 엠보싱 스케일링 칫솔. 이번 치약/잇몸제품 범위 밖"
+    },
+    {
+      "brands": [
+        "파로덱스",
+        "뉴로덴트",
+        "고유지",
+        "유어벳"
+      ],
+      "reason": "기존 해부 SKU 중복 제외"
+    }
+  ],
+  "updated_date": "2026-10-14",
+  "ad_analysis_source": "../F-광고해부.md",
+  "identity_comparison": "라벨-용량-색상-대조.md"
+}

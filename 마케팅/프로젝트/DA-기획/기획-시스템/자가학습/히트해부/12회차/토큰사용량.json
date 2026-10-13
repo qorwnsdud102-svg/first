@@ -1,0 +1,76 @@
+{
+  "as_of": "2026-10-14T01:14:00.489650+09:00",
+  "parent": {
+    "input_tokens": 23962545,
+    "cached_input_tokens": 23230848,
+    "output_tokens": 72504,
+    "reasoning_output_tokens": 13051,
+    "total_tokens": 24035049
+  },
+  "agents": {
+    "input_tokens": 21600086,
+    "cached_input_tokens": 20483328,
+    "output_tokens": 102183,
+    "reasoning_output_tokens": 13493,
+    "total_tokens": 21702269
+  },
+  "total": {
+    "input_tokens": 45562631,
+    "cached_input_tokens": 43714176,
+    "output_tokens": 174687,
+    "reasoning_output_tokens": 26544,
+    "total_tokens": 45737318
+  },
+  "uncached_input": 1848455,
+  "baseline": {
+    "timestamp": "2026-10-13T14:50:50.479Z",
+    "usage": {
+      "input_tokens": 418582625,
+      "cached_input_tokens": 398669184,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1696796,
+      "reasoning_output_tokens": 515907,
+      "total_tokens": 420581133
+    },
+    "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+  },
+  "snapshots": {
+    "01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc": {
+      "timestamp": "2026-10-13T16:13:26.899Z",
+      "usage": {
+        "input_tokens": 442545170,
+        "cached_input_tokens": 421900032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1769300,
+        "reasoning_output_tokens": 528958,
+        "total_tokens": 444616182
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+    },
+    "01a135c2-99e8-7cb2-b53d-10754c14ed51": {
+      "timestamp": "2026-10-13T15:58:25.433Z",
+      "usage": {
+        "input_tokens": 11460871,
+        "cached_input_tokens": 10924800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 37958,
+        "reasoning_output_tokens": 7051,
+        "total_tokens": 11498829
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T23-55-08-01a135c2-99e8-7cb2-b53d-10754c14ed51.jsonl"
+    },
+    "01a135c2-9b3b-78b0-bed5-56954f073586": {
+      "timestamp": "2026-10-13T16:12:44.568Z",
+      "usage": {
+        "input_tokens": 10139215,
+        "cached_input_tokens": 9558528,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 64225,
+        "reasoning_output_tokens": 6442,
+        "total_tokens": 10203440
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T23-55-08-01a135c2-9b3b-78b0-bed5-56954f073586.jsonl"
+    }
+  },
+  "limitations": "본체는 드릴5 마감 뒤 차분. 전담 F/I 세션 누적1회 합산. 영상만의 분리 계량 아님. 캐시는 입력 부분집합·추론은 출력 부분집합. 계정 사용률은 다른 대화와 공유."
+}

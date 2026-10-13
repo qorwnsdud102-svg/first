@@ -1,0 +1,572 @@
+[
+  {
+    "n": 1,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20261010/ff88e58693e489d9ed81abc3737dc59b.jpg",
+    "file": "H28-01.jpg",
+    "size": [
+      1000,
+      1618
+    ],
+    "frames": 1
+  },
+  {
+    "n": 2,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20261010/0c05928681a18e46a8c989f26090d7f5.webp",
+    "file": "H28-02.webp",
+    "size": [
+      971,
+      1619
+    ],
+    "frames": 24
+  },
+  {
+    "n": 3,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20261010/3dac7229455e1f73f4f0f5bede0f52c4.jpg",
+    "file": "H28-03.jpg",
+    "size": [
+      1000,
+      1500
+    ],
+    "frames": 1
+  },
+  {
+    "n": 4,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20261010/dd4d5ff02faae07e021d2e723f607742.jpg",
+    "file": "H28-04.jpg",
+    "size": [
+      1000,
+      1598
+    ],
+    "frames": 1
+  },
+  {
+    "n": 5,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260808/4fccd36941788c62cc29402ea6e0b789.jpg",
+    "file": "H28-05.jpg",
+    "size": [
+      1000,
+      1000
+    ],
+    "frames": 1
+  },
+  {
+    "n": 6,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20261010/afab98af01ef7aa43f217172fef45159.gif",
+    "file": "H28-06.gif",
+    "size": [
+      1000,
+      1000
+    ],
+    "frames": 2
+  },
+  {
+    "n": 7,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260708/605742cc66feb50d2a73057daff426e6.jpg",
+    "file": "H28-07.jpg",
+    "size": [
+      1000,
+      494
+    ],
+    "frames": 1
+  },
+  {
+    "n": 8,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260706/c49318e118c46863cc2755aa5a14f79b.jpg",
+    "file": "H28-08.jpg",
+    "size": [
+      1000,
+      298
+    ],
+    "frames": 1
+  },
+  {
+    "n": 9,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260707/4816e5b89e2323c9825cc8b0d1256262.jpg",
+    "file": "H28-09.jpg",
+    "size": [
+      1000,
+      1776
+    ],
+    "frames": 1
+  },
+  {
+    "n": 10,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260718/4d827155fae9a508e510907f008f4ff8.jpg",
+    "file": "H28-10.jpg",
+    "size": [
+      1000,
+      2192
+    ],
+    "frames": 1
+  },
+  {
+    "n": 11,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260707/27836500f666030af420a9b922eafc48.jpg",
+    "file": "H28-11.jpg",
+    "size": [
+      1000,
+      2016
+    ],
+    "frames": 1
+  },
+  {
+    "n": 12,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260614/1654d8aa98bc40dc8ad45ad6a90b5c40.jpg",
+    "file": "H28-12.jpg",
+    "size": [
+      1000,
+      500
+    ],
+    "frames": 1
+  },
+  {
+    "n": 13,
+    "url": "https://hexaq.kr/video/hoju_1000w_1.webp",
+    "file": "H28-13.webp",
+    "size": [
+      1000,
+      562
+    ],
+    "frames": 154
+  },
+  {
+    "n": 14,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260706/5ae76b10ce6f3722e1578a1e539adfed.jpg",
+    "file": "H28-14.jpg",
+    "size": [
+      1000,
+      628
+    ],
+    "frames": 1
+  },
+  {
+    "n": 15,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260705/e5ed6dfec11a8427749f56849c8b5a95.jpg",
+    "file": "H28-15.jpg",
+    "size": [
+      1000,
+      1198
+    ],
+    "frames": 1
+  },
+  {
+    "n": 16,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260708/c53a794f56590c8a54e91ae05cc9beb6.webp",
+    "file": "H28-16.webp",
+    "size": [
+      1000,
+      1198
+    ],
+    "frames": 23
+  },
+  {
+    "n": 17,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260815/38b3dd7505be27b6e60f3fe151320a04.jpg",
+    "file": "H28-17.jpg",
+    "size": [
+      1000,
+      532
+    ],
+    "frames": 1
+  },
+  {
+    "n": 18,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260626/9dda42fa503b027b31c8c3efa26465cd.jpg",
+    "file": "H28-18.jpg",
+    "size": [
+      1000,
+      1500
+    ],
+    "frames": 1
+  },
+  {
+    "n": 19,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260708/dd6c46379243fdb2c4ba6ce2a58749ab.jpg",
+    "file": "H28-19.jpg",
+    "size": [
+      1000,
+      1360
+    ],
+    "frames": 1
+  },
+  {
+    "n": 20,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260710/56b6592aaf1db63442b3c0bf04caf4ba.jpg",
+    "file": "H28-20.jpg",
+    "size": [
+      1000,
+      1500
+    ],
+    "frames": 1
+  },
+  {
+    "n": 21,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260710/a597b5591f40397b04cd20949dd1deac.jpg",
+    "file": "H28-21.jpg",
+    "size": [
+      1000,
+      1332
+    ],
+    "frames": 1
+  },
+  {
+    "n": 22,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260723/712792669adc63adb6298075270c5904.jpg",
+    "file": "H28-22.jpg",
+    "size": [
+      1000,
+      1274
+    ],
+    "frames": 1
+  },
+  {
+    "n": 23,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20261010/8a0334d263c3dbc439ff8ae25f7a7263.webp",
+    "file": "H28-23.webp",
+    "size": [
+      1000,
+      1333
+    ],
+    "frames": 34
+  },
+  {
+    "n": 24,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260710/588905de6866c2e052e72856156ccca0.jpg",
+    "file": "H28-24.jpg",
+    "size": [
+      1000,
+      1598
+    ],
+    "frames": 1
+  },
+  {
+    "n": 25,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260711/4ae868d38b19564641574343a134c430.jpg",
+    "file": "H28-25.jpg",
+    "size": [
+      1000,
+      2000
+    ],
+    "frames": 1
+  },
+  {
+    "n": 26,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/257aeb08532b550180ad8a3762f85111.jpg",
+    "file": "H28-26.jpg",
+    "size": [
+      1000,
+      606
+    ],
+    "frames": 1
+  },
+  {
+    "n": 27,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260617/1cbb3dd325fef81d567f64f77bdc83b9.jpg",
+    "file": "H28-27.jpg",
+    "size": [
+      1000,
+      562
+    ],
+    "frames": 1
+  },
+  {
+    "n": 28,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260708/43996b800ee178ce908e70ecf62c52aa.webp",
+    "file": "H28-28.webp",
+    "size": [
+      1000,
+      563
+    ],
+    "frames": 38
+  },
+  {
+    "n": 29,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/4a0f9feea3ba96030c129422188eddbc.jpg",
+    "file": "H28-29.jpg",
+    "size": [
+      1000,
+      462
+    ],
+    "frames": 1
+  },
+  {
+    "n": 30,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/6c493fa597b9d430b44e26871f3d0696.jpg",
+    "file": "H28-30.jpg",
+    "size": [
+      1000,
+      786
+    ],
+    "frames": 1
+  },
+  {
+    "n": 31,
+    "url": "https://hexaq.kr/video/hexaq_product_1.webp",
+    "file": "H28-31.webp",
+    "size": [
+      1000,
+      564
+    ],
+    "frames": 91
+  },
+  {
+    "n": 32,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/048ba446fc4103c23daf35dcc1a86a7a.jpg",
+    "file": "H28-32.jpg",
+    "size": [
+      1000,
+      268
+    ],
+    "frames": 1
+  },
+  {
+    "n": 33,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260815/31010206b30fbf58debe399f52f37812.jpg",
+    "file": "H28-33.jpg",
+    "size": [
+      1000,
+      1626
+    ],
+    "frames": 1
+  },
+  {
+    "n": 34,
+    "url": "https://hexaq.kr/video/ha.webp",
+    "file": "H28-34.webp",
+    "size": [
+      1000,
+      1738
+    ],
+    "frames": 120
+  },
+  {
+    "n": 35,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/8e3874dc453a2fe4614b188ef53ba2c8.jpg",
+    "file": "H28-35.jpg",
+    "size": [
+      1000,
+      568
+    ],
+    "frames": 1
+  },
+  {
+    "n": 36,
+    "url": "https://hexaq.kr/video/tuna_bna.webp",
+    "file": "H28-36.webp",
+    "size": [
+      1000,
+      562
+    ],
+    "frames": 120
+  },
+  {
+    "n": 37,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/7c3d73b7af72b97c31cecef6d57cf5da.jpg",
+    "file": "H28-37.jpg",
+    "size": [
+      1000,
+      428
+    ],
+    "frames": 1
+  },
+  {
+    "n": 38,
+    "url": "https://hexaq.kr/video/bm.webp",
+    "file": "H28-38.webp",
+    "size": [
+      1000,
+      1738
+    ],
+    "frames": 120
+  },
+  {
+    "n": 39,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/a6dc7fbb1e3299c42405c520346f33d2.jpg",
+    "file": "H28-39.jpg",
+    "size": [
+      1000,
+      320
+    ],
+    "frames": 1
+  },
+  {
+    "n": 40,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/11d7188c00f929c324e6702336c9c1ef.jpg",
+    "file": "H28-40.jpg",
+    "size": [
+      1000,
+      704
+    ],
+    "frames": 1
+  },
+  {
+    "n": 41,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260708/b3f5cdd1a4ac9761496843f89a174f89.webp",
+    "file": "H28-41.webp",
+    "size": [
+      1536,
+      1083
+    ],
+    "frames": 23
+  },
+  {
+    "n": 42,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/609f74e7c74d78e77ad812030605c9b5.jpg",
+    "file": "H28-42.jpg",
+    "size": [
+      1000,
+      28
+    ],
+    "frames": 1
+  },
+  {
+    "n": 43,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/35c6128cbb1f503b4a87f4c0d05949f7.jpg",
+    "file": "H28-43.jpg",
+    "size": [
+      1000,
+      674
+    ],
+    "frames": 1
+  },
+  {
+    "n": 44,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260708/4d08548d8b7c5b40aa10135a06cb8603.webp",
+    "file": "H28-44.webp",
+    "size": [
+      1536,
+      1037
+    ],
+    "frames": 25
+  },
+  {
+    "n": 45,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/7be5459e5ace8776e38888b1ae4ba021.jpg",
+    "file": "H28-45.jpg",
+    "size": [
+      1000,
+      38
+    ],
+    "frames": 1
+  },
+  {
+    "n": 46,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/86881aac01d3047875c248a296a1de36.jpg",
+    "file": "H28-46.jpg",
+    "size": [
+      1000,
+      1568
+    ],
+    "frames": 1
+  },
+  {
+    "n": 47,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260627/2ed08fceaccd4056337eb9bf9ede3305.jpg",
+    "file": "H28-47.jpg",
+    "size": [
+      1000,
+      1760
+    ],
+    "frames": 1
+  },
+  {
+    "n": 48,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260627/91b5dbb25790cb948f5fbf5f0928e45b.jpg",
+    "file": "H28-48.jpg",
+    "size": [
+      1000,
+      1756
+    ],
+    "frames": 1
+  },
+  {
+    "n": 49,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260708/2526487788e0584f4f74f89421e6df6a.jpg",
+    "file": "H28-49.jpg",
+    "size": [
+      1000,
+      1498
+    ],
+    "frames": 1
+  },
+  {
+    "n": 50,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260614/809f16d4daef2a9f42b2f0b3c50f1ee0.jpg",
+    "file": "H28-50.jpg",
+    "size": [
+      1000,
+      1686
+    ],
+    "frames": 1
+  },
+  {
+    "n": 51,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260614/f806cda1c9887557fa8561e98965b23f.jpg",
+    "file": "H28-51.jpg",
+    "size": [
+      1000,
+      1462
+    ],
+    "frames": 1
+  },
+  {
+    "n": 52,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260627/65ed8393b88b67978aa2e3561fa51918.jpg",
+    "file": "H28-52.jpg",
+    "size": [
+      1000,
+      1728
+    ],
+    "frames": 1
+  },
+  {
+    "n": 53,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260614/fdcbc098db2962d368a045538bdee1e5.jpg",
+    "file": "H28-53.jpg",
+    "size": [
+      1000,
+      2360
+    ],
+    "frames": 1
+  },
+  {
+    "n": 54,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/de516841455ff5cdc740473e0750e304.jpg",
+    "file": "H28-54.jpg",
+    "size": [
+      1000,
+      746
+    ],
+    "frames": 1
+  },
+  {
+    "n": 55,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260616/b259b7dfe34f7f6937fd207576273b99.jpg",
+    "file": "H28-55.jpg",
+    "size": [
+      1000,
+      1576
+    ],
+    "frames": 1
+  },
+  {
+    "n": 56,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260614/ed200c3ae7adb8f90bbc53841642c9be.jpg",
+    "file": "H28-56.jpg",
+    "size": [
+      1000,
+      2000
+    ],
+    "frames": 1
+  },
+  {
+    "n": 57,
+    "url": "https://hexaq.kr/web/upload/NNEditor/20260708/2273c6ebb66538d6bec22aa1c6a7ab46.jpg",
+    "file": "H28-57.jpg",
+    "size": [
+      1000,
+      1449
+    ],
+    "frames": 1
+  }
+]

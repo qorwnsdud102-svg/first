@@ -1,0 +1,890 @@
+[
+  {
+    "strip": "strip-001.jpg",
+    "detail_index": 1,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-002.jpg",
+    "detail_index": 1,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 394
+  },
+  {
+    "strip": "strip-003.jpg",
+    "detail_index": 2,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 304
+  },
+  {
+    "strip": "strip-004.jpg",
+    "detail_index": 3,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 353
+  },
+  {
+    "strip": "strip-005.jpg",
+    "detail_index": 3,
+    "frame": 31,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 353
+  },
+  {
+    "strip": "strip-006.jpg",
+    "detail_index": 3,
+    "frame": 61,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 353
+  },
+  {
+    "strip": "strip-007.jpg",
+    "detail_index": 4,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-008.jpg",
+    "detail_index": 4,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 812
+  },
+  {
+    "strip": "strip-009.jpg",
+    "detail_index": 5,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 304
+  },
+  {
+    "strip": "strip-010.jpg",
+    "detail_index": 6,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 353
+  },
+  {
+    "strip": "strip-011.jpg",
+    "detail_index": 6,
+    "frame": 74,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 353
+  },
+  {
+    "strip": "strip-012.jpg",
+    "detail_index": 6,
+    "frame": 147,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 353
+  },
+  {
+    "strip": "strip-013.jpg",
+    "detail_index": 7,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-014.jpg",
+    "detail_index": 7,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 16
+  },
+  {
+    "strip": "strip-015.jpg",
+    "detail_index": 8,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 418
+  },
+  {
+    "strip": "strip-016.jpg",
+    "detail_index": 9,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-017.jpg",
+    "detail_index": 9,
+    "frame": 23,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-018.jpg",
+    "detail_index": 9,
+    "frame": 45,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-019.jpg",
+    "detail_index": 10,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-020.jpg",
+    "detail_index": 10,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 1115
+  },
+  {
+    "strip": "strip-021.jpg",
+    "detail_index": 11,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 331
+  },
+  {
+    "strip": "strip-022.jpg",
+    "detail_index": 12,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 380
+  },
+  {
+    "strip": "strip-023.jpg",
+    "detail_index": 12,
+    "frame": 44,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 380
+  },
+  {
+    "strip": "strip-024.jpg",
+    "detail_index": 12,
+    "frame": 88,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 380
+  },
+  {
+    "strip": "strip-025.jpg",
+    "detail_index": 13,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 418
+  },
+  {
+    "strip": "strip-026.jpg",
+    "detail_index": 14,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-027.jpg",
+    "detail_index": 14,
+    "frame": 16,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-028.jpg",
+    "detail_index": 14,
+    "frame": 31,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-029.jpg",
+    "detail_index": 15,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1154
+  },
+  {
+    "strip": "strip-030.jpg",
+    "detail_index": 16,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-031.jpg",
+    "detail_index": 16,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 818
+  },
+  {
+    "strip": "strip-032.jpg",
+    "detail_index": 17,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 418
+  },
+  {
+    "strip": "strip-033.jpg",
+    "detail_index": 18,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-034.jpg",
+    "detail_index": 18,
+    "frame": 33,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-035.jpg",
+    "detail_index": 18,
+    "frame": 65,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-036.jpg",
+    "detail_index": 19,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-037.jpg",
+    "detail_index": 19,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 1112
+  },
+  {
+    "strip": "strip-038.jpg",
+    "detail_index": 20,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 654
+  },
+  {
+    "strip": "strip-039.jpg",
+    "detail_index": 21,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 760
+  },
+  {
+    "strip": "strip-040.jpg",
+    "detail_index": 21,
+    "frame": 16,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 760
+  },
+  {
+    "strip": "strip-041.jpg",
+    "detail_index": 21,
+    "frame": 31,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 760
+  },
+  {
+    "strip": "strip-042.jpg",
+    "detail_index": 22,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-043.jpg",
+    "detail_index": 22,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 484
+  },
+  {
+    "strip": "strip-044.jpg",
+    "detail_index": 23,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 654
+  },
+  {
+    "strip": "strip-045.jpg",
+    "detail_index": 24,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 760
+  },
+  {
+    "strip": "strip-046.jpg",
+    "detail_index": 24,
+    "frame": 20,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 760
+  },
+  {
+    "strip": "strip-047.jpg",
+    "detail_index": 24,
+    "frame": 39,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 760
+  },
+  {
+    "strip": "strip-048.jpg",
+    "detail_index": 25,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-049.jpg",
+    "detail_index": 25,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-050.jpg",
+    "detail_index": 25,
+    "frame": 0,
+    "resized_y": 3200,
+    "resized_width": 760,
+    "height": 179
+  },
+  {
+    "strip": "strip-051.jpg",
+    "detail_index": 26,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1566
+  },
+  {
+    "strip": "strip-052.jpg",
+    "detail_index": 27,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1386
+  },
+  {
+    "strip": "strip-053.jpg",
+    "detail_index": 28,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1573
+  },
+  {
+    "strip": "strip-054.jpg",
+    "detail_index": 29,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 418
+  },
+  {
+    "strip": "strip-055.jpg",
+    "detail_index": 30,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-056.jpg",
+    "detail_index": 30,
+    "frame": 32,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-057.jpg",
+    "detail_index": 30,
+    "frame": 64,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-058.jpg",
+    "detail_index": 31,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-059.jpg",
+    "detail_index": 31,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 87
+  },
+  {
+    "strip": "strip-060.jpg",
+    "detail_index": 32,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-061.jpg",
+    "detail_index": 32,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-062.jpg",
+    "detail_index": 32,
+    "frame": 0,
+    "resized_y": 3200,
+    "resized_width": 760,
+    "height": 422
+  },
+  {
+    "strip": "strip-063.jpg",
+    "detail_index": 33,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1062
+  },
+  {
+    "strip": "strip-064.jpg",
+    "detail_index": 34,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-065.jpg",
+    "detail_index": 34,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 64
+  },
+  {
+    "strip": "strip-066.jpg",
+    "detail_index": 35,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-067.jpg",
+    "detail_index": 35,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 235
+  },
+  {
+    "strip": "strip-068.jpg",
+    "detail_index": 36,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1201
+  },
+  {
+    "strip": "strip-069.jpg",
+    "detail_index": 37,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1192
+  },
+  {
+    "strip": "strip-070.jpg",
+    "detail_index": 38,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-071.jpg",
+    "detail_index": 38,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 435
+  },
+  {
+    "strip": "strip-072.jpg",
+    "detail_index": 39,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-073.jpg",
+    "detail_index": 39,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 767
+  },
+  {
+    "strip": "strip-074.jpg",
+    "detail_index": 39,
+    "frame": 64,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-075.jpg",
+    "detail_index": 39,
+    "frame": 64,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 767
+  },
+  {
+    "strip": "strip-076.jpg",
+    "detail_index": 39,
+    "frame": 127,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-077.jpg",
+    "detail_index": 39,
+    "frame": 127,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 767
+  },
+  {
+    "strip": "strip-078.jpg",
+    "detail_index": 40,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1119
+  },
+  {
+    "strip": "strip-079.jpg",
+    "detail_index": 41,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1301
+  },
+  {
+    "strip": "strip-080.jpg",
+    "detail_index": 41,
+    "frame": 66,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1301
+  },
+  {
+    "strip": "strip-081.jpg",
+    "detail_index": 41,
+    "frame": 132,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1301
+  },
+  {
+    "strip": "strip-082.jpg",
+    "detail_index": 42,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1301
+  },
+  {
+    "strip": "strip-083.jpg",
+    "detail_index": 43,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 418
+  },
+  {
+    "strip": "strip-084.jpg",
+    "detail_index": 44,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-085.jpg",
+    "detail_index": 44,
+    "frame": 37,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-086.jpg",
+    "detail_index": 44,
+    "frame": 74,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 486
+  },
+  {
+    "strip": "strip-087.jpg",
+    "detail_index": 45,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-088.jpg",
+    "detail_index": 45,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 618
+  },
+  {
+    "strip": "strip-089.jpg",
+    "detail_index": 46,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1058
+  },
+  {
+    "strip": "strip-090.jpg",
+    "detail_index": 47,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 380
+  },
+  {
+    "strip": "strip-091.jpg",
+    "detail_index": 48,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 442
+  },
+  {
+    "strip": "strip-092.jpg",
+    "detail_index": 48,
+    "frame": 47,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 442
+  },
+  {
+    "strip": "strip-093.jpg",
+    "detail_index": 48,
+    "frame": 94,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 442
+  },
+  {
+    "strip": "strip-094.jpg",
+    "detail_index": 49,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-095.jpg",
+    "detail_index": 49,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 115
+  },
+  {
+    "strip": "strip-096.jpg",
+    "detail_index": 50,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1032
+  },
+  {
+    "strip": "strip-097.jpg",
+    "detail_index": 51,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1541
+  },
+  {
+    "strip": "strip-098.jpg",
+    "detail_index": 52,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-099.jpg",
+    "detail_index": 52,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-100.jpg",
+    "detail_index": 52,
+    "frame": 0,
+    "resized_y": 3200,
+    "resized_width": 760,
+    "height": 320
+  },
+  {
+    "strip": "strip-101.jpg",
+    "detail_index": 53,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-102.jpg",
+    "detail_index": 53,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 709
+  },
+  {
+    "strip": "strip-103.jpg",
+    "detail_index": 54,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-104.jpg",
+    "detail_index": 54,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 476
+  },
+  {
+    "strip": "strip-105.jpg",
+    "detail_index": 55,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-106.jpg",
+    "detail_index": 55,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 416
+  },
+  {
+    "strip": "strip-107.jpg",
+    "detail_index": 56,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-108.jpg",
+    "detail_index": 56,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 788
+  },
+  {
+    "strip": "strip-109.jpg",
+    "detail_index": 57,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 1600
+  },
+  {
+    "strip": "strip-110.jpg",
+    "detail_index": 57,
+    "frame": 0,
+    "resized_y": 1600,
+    "resized_width": 760,
+    "height": 1288
+  },
+  {
+    "strip": "strip-111.jpg",
+    "detail_index": 58,
+    "frame": 0,
+    "resized_y": 0,
+    "resized_width": 760,
+    "height": 859
+  }
+]
