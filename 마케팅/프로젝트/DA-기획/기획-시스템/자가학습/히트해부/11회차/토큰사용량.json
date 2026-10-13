@@ -1,0 +1,75 @@
+{
+  "as_of": "2026-10-13T22:59:56.904740+09:00",
+  "parent": {
+    "input_tokens": 14793814,
+    "cached_input_tokens": 14289536,
+    "output_tokens": 42001,
+    "reasoning_output_tokens": 6398,
+    "total_tokens": 14835815
+  },
+  "agents": {
+    "input_tokens": 18424764,
+    "cached_input_tokens": 17595776,
+    "output_tokens": 88121,
+    "reasoning_output_tokens": 15571,
+    "total_tokens": 18512885
+  },
+  "total": {
+    "input_tokens": 33218578,
+    "cached_input_tokens": 31885312,
+    "output_tokens": 130122,
+    "reasoning_output_tokens": 21969,
+    "total_tokens": 33348700
+  },
+  "uncached_input": 1333266,
+  "snapshots": {
+    "01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc": {
+      "timestamp": "2026-10-13T13:56:06.765Z",
+      "usage": {
+        "input_tokens": 406610922,
+        "cached_input_tokens": 387120640,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1633747,
+        "reasoning_output_tokens": 497949,
+        "total_tokens": 408546381
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+    },
+    "01a13562-cd91-7401-bbb3-d08c78a81417": {
+      "timestamp": "2026-10-13T13:58:54.078Z",
+      "usage": {
+        "input_tokens": 11379831,
+        "cached_input_tokens": 10950016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 45838,
+        "reasoning_output_tokens": 8060,
+        "total_tokens": 11425669
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T22-10-30-01a13562-cd91-7401-bbb3-d08c78a81417.jsonl"
+    },
+    "01a13562-cf6d-7781-b2c0-24313a12a1b0": {
+      "timestamp": "2026-10-13T13:44:38.999Z",
+      "usage": {
+        "input_tokens": 7044933,
+        "cached_input_tokens": 6645760,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 42283,
+        "reasoning_output_tokens": 7511,
+        "total_tokens": 7087216
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T22-10-31-01a13562-cf6d-7781-b2c0-24313a12a1b0.jsonl"
+    }
+  },
+  "baseline": {
+    "timestamp": "2026-10-13T13:10:31.309Z",
+    "usage": {
+      "input_tokens": 391817108,
+      "cached_input_tokens": 372831104,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1591746,
+      "reasoning_output_tokens": 491551,
+      "total_tokens": 393710566
+    }
+  },
+  "limitations": "본체는 저장된 마감기준까지, 전담 에이전트는 최종 원장 전체. 회고 준비와 H11 마지막 보강의 본체 소량은 다음 구간과 공유. 일부 에이전트 시작이 이전 회차 마감과 겹쳤으므로 회차끼리 정확합산 금지. 캐시는 입력 부분집합, reasoning은 출력 부분집합. 영상만의 비용 아님. 계정공용사용률과 선형환산 불가."
+}

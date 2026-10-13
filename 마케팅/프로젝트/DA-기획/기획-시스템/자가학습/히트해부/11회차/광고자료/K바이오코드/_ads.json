@@ -1,0 +1,56 @@
+{
+  "brand": "K바이오코드",
+  "ads": [
+    {
+      "id": "1143212308137205",
+      "query": "kbiocode",
+      "slice": "default",
+      "rank": 1,
+      "page_name": "K B I O C O D E",
+      "page_id": "1333110326556627",
+      "page_like_count": 1,
+      "is_active": true,
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-13",
+      "days_running": 1,
+      "collation_id": null,
+      "collation_count": null,
+      "display_format": "IMAGE",
+      "body": "수면 약 의존하는 분들..? 이거 하나면 끝 ㄷㄷ",
+      "title": "GABA 생성 특허유산균! KAIST 연구진 개발",
+      "caption": "kbiocode.com",
+      "link_description": "[드림포뮬러] 차세대 멜라토닌",
+      "cta_text": "자세히 보기",
+      "cta_type": "SEE_DETAILS",
+      "link_urls": [
+        "https://kbiocode.com/surl/P/18"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "WHATSAPP",
+        "THREADS"
+      ],
+      "video_urls": [],
+      "image_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/839934704_1670124497954286_8392178322808665044_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=dSQOhIwd3KkQ7kNvwG8wNEA&_nc_oc=AdripeLLa2fRVlMLQigPYmWMjA5MbU9_yjozzOuKTy-8aPr2t2umOXiVSSsod52DI4M&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=0J-XM2b3l4BPw_YvPc_yWA&_nc_ss=7f289&oh=00_AQNqcYxijt0JVPY48QPnRw7cT88RGBvb6JjEJUU5xHaSZg&oe=6AD4184F"
+      ],
+      "video_preview_urls": [],
+      "cards": []
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/839934704_1670124497954286_8392178322808665044_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=dSQOhIwd3KkQ7kNvwG8wNEA&_nc_oc=AdripeLLa2fRVlMLQigPYmWMjA5MbU9_yjozzOuKTy-8aPr2t2umOXiVSSsod52DI4M&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=0J-XM2b3l4BPw_YvPc_yWA&_nc_ss=7f289&oh=00_AQNqcYxijt0JVPY48QPnRw7cT88RGBvb6JjEJUU5xHaSZg&oe=6AD4184F",
+      "file": "images/1143212308137205.jpg",
+      "ad_id": "1143212308137205",
+      "bytes": 280635,
+      "downloaded": true
+    }
+  ],
+  "all_sku_ads": 3,
+  "body_groups": 1,
+  "as_of": "2026-10-13T22:45:16.319246"
+}

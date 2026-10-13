@@ -1,0 +1,594 @@
+{
+  "checked_at": "2026-10-13T22:37:08.462533+09:00",
+  "method": "Existing local files only. No external requests. Existing contact-sheet sampling filter replayed in memory; source frame checksums matched to output samples before scaling. Times are approximate sampling points, not scene-boundary annotations.",
+  "source_snapshot": {
+    "brand": "악타로스",
+    "all_sku_ads": 18,
+    "body_groups": 15,
+    "as_of": "2026-10-13T22:25:02.938497"
+  },
+  "rows": [
+    {
+      "body_group": 1,
+      "ad_id": "2916387422034452",
+      "days_running": 71,
+      "link_urls": [
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "card_links": [
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "declared_video_urls": 3,
+      "saved_media_count": 1,
+      "file": "광고자료/악타로스/videos/2916387422034452_1.mp4",
+      "bytes": 1722268,
+      "sha256": "63f334a0d33b43fceefbb281b47528dcb24b97152f7528e3ca29bc6f109e9352",
+      "duration_sec": 42.65,
+      "audio_stream_present": true,
+      "sheets": [
+        {
+          "file": "영상판독/악타로스/소재1-영상1-앞.jpg",
+          "bytes": 62814,
+          "sha256": "ae87874da848362f9dee0c53cad4451f2c4588c73a2c98aebe179340c1437701",
+          "start_sec": 0.5,
+          "span_sec": 18.0,
+          "samples": [
+            {
+              "tile": 1,
+              "matching_source_sec": [
+                1.969
+              ],
+              "output_grid_sec": 0.5
+            },
+            {
+              "tile": 2,
+              "matching_source_sec": [
+                4.972
+              ],
+              "output_grid_sec": 3.5
+            },
+            {
+              "tile": 3,
+              "matching_source_sec": [
+                7.975
+              ],
+              "output_grid_sec": 6.5
+            },
+            {
+              "tile": 4,
+              "matching_source_sec": [
+                10.978
+              ],
+              "output_grid_sec": 9.5
+            },
+            {
+              "tile": 5,
+              "matching_source_sec": [
+                13.981
+              ],
+              "output_grid_sec": 12.5
+            },
+            {
+              "tile": 6,
+              "matching_source_sec": [
+                16.984
+              ],
+              "output_grid_sec": 15.5
+            }
+          ]
+        },
+        {
+          "file": "영상판독/악타로스/소재1-영상1-뒤.jpg",
+          "bytes": 74627,
+          "sha256": "a067ffbd13b90d27fbc80a185ac398f6b08a873bfaa18ee0705aa9b13006b987",
+          "start_sec": 18,
+          "span_sec": 24.1,
+          "samples": [
+            {
+              "tile": 1,
+              "matching_source_sec": [
+                19.987
+              ],
+              "output_grid_sec": 18.0
+            },
+            {
+              "tile": 2,
+              "matching_source_sec": [
+                24.024
+              ],
+              "output_grid_sec": 22.017
+            },
+            {
+              "tile": 3,
+              "matching_source_sec": [
+                28.028
+              ],
+              "output_grid_sec": 26.033
+            },
+            {
+              "tile": 4,
+              "matching_source_sec": [
+                32.032
+              ],
+              "output_grid_sec": 30.05
+            },
+            {
+              "tile": 5,
+              "matching_source_sec": [
+                36.069
+              ],
+              "output_grid_sec": 34.067
+            },
+            {
+              "tile": 6,
+              "matching_source_sec": [
+                40.073
+              ],
+              "output_grid_sec": 38.083
+            }
+          ]
+        }
+      ],
+      "asr": {
+        "file": "영상판독/악타로스/소재1-영상1-음성.txt",
+        "sha256": "9c1378f7ae503d7dca93e31910bb37d16dc40404be56ff302f3ef5c9388ad020",
+        "line_count": 30,
+        "timestamp_count": 30,
+        "last_segment_start_sec": 41.8,
+        "no_recognized_speech_marker": false,
+        "read_entire_file": true,
+        "listened_entire_audio": false
+      }
+    },
+    {
+      "body_group": 2,
+      "ad_id": "1180414208043422",
+      "days_running": 54,
+      "link_urls": [
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "card_links": [
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "declared_video_urls": 3,
+      "saved_media_count": 1,
+      "file": "광고자료/악타로스/videos/1180414208043422_1.mp4",
+      "bytes": 1328855,
+      "sha256": "bca132a734a00584b4cf40cbf234268040edd1398e223624c458632520579855",
+      "duration_sec": 42.41,
+      "audio_stream_present": true,
+      "sheets": [
+        {
+          "file": "영상판독/악타로스/소재2-영상1-앞.jpg",
+          "bytes": 63374,
+          "sha256": "f2ed98a310bbc8bc41916d324de35e576fc88f09d063de07a9d5d2ab81e1fed6",
+          "start_sec": 0.5,
+          "span_sec": 18.0,
+          "samples": [
+            {
+              "tile": 1,
+              "matching_source_sec": [
+                1.969
+              ],
+              "output_grid_sec": 0.5
+            },
+            {
+              "tile": 2,
+              "matching_source_sec": [
+                4.972
+              ],
+              "output_grid_sec": 3.5
+            },
+            {
+              "tile": 3,
+              "matching_source_sec": [
+                7.975
+              ],
+              "output_grid_sec": 6.5
+            },
+            {
+              "tile": 4,
+              "matching_source_sec": [
+                10.978
+              ],
+              "output_grid_sec": 9.5
+            },
+            {
+              "tile": 5,
+              "matching_source_sec": [
+                13.981
+              ],
+              "output_grid_sec": 12.5
+            },
+            {
+              "tile": 6,
+              "matching_source_sec": [
+                16.984
+              ],
+              "output_grid_sec": 15.5
+            }
+          ]
+        },
+        {
+          "file": "영상판독/악타로스/소재2-영상1-뒤.jpg",
+          "bytes": 74119,
+          "sha256": "3033420e959cf5f5fe56f4f73f3d10a121ec4284d59a77e75cde27a475474e53",
+          "start_sec": 18,
+          "span_sec": 23.9,
+          "samples": [
+            {
+              "tile": 1,
+              "matching_source_sec": [
+                19.987
+              ],
+              "output_grid_sec": 18.0
+            },
+            {
+              "tile": 2,
+              "matching_source_sec": [
+                23.957
+              ],
+              "output_grid_sec": 21.983
+            },
+            {
+              "tile": 3,
+              "matching_source_sec": [
+                27.928
+              ],
+              "output_grid_sec": 25.967
+            },
+            {
+              "tile": 4,
+              "matching_source_sec": [
+                31.932
+              ],
+              "output_grid_sec": 29.95
+            },
+            {
+              "tile": 5,
+              "matching_source_sec": [
+                35.903
+              ],
+              "output_grid_sec": 33.933
+            },
+            {
+              "tile": 6,
+              "matching_source_sec": [
+                39.907
+              ],
+              "output_grid_sec": 37.917
+            }
+          ]
+        }
+      ],
+      "asr": {
+        "file": "영상판독/악타로스/소재2-영상1-음성.txt",
+        "sha256": "c7ceefa88e46c76e13dd906c58bf869d2fbf5d8bf16652519b690b823e3a7bc6",
+        "line_count": 25,
+        "timestamp_count": 25,
+        "last_segment_start_sec": 29.5,
+        "no_recognized_speech_marker": false,
+        "read_entire_file": true,
+        "listened_entire_audio": false
+      }
+    },
+    {
+      "body_group": 3,
+      "ad_id": "1061584816734907",
+      "days_running": 54,
+      "link_urls": [
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "card_links": [
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "declared_video_urls": 3,
+      "saved_media_count": 1,
+      "file": "광고자료/악타로스/videos/1061584816734907_1.mp4",
+      "bytes": 549729,
+      "sha256": "881f0c82bc4df4bcd5bbb317245d4d4662668c07ae57a78d7ba028018f29adff",
+      "duration_sec": 18.16,
+      "audio_stream_present": true,
+      "sheets": [
+        {
+          "file": "영상판독/악타로스/소재3-영상1-앞.jpg",
+          "bytes": 129638,
+          "sha256": "93d157c83793901abd001179b0c74da77219772564b2cd475f3b9b831d869553",
+          "start_sec": 0.5,
+          "span_sec": 17.7,
+          "samples": [
+            {
+              "tile": 1,
+              "matching_source_sec": [
+                1.969
+              ],
+              "output_grid_sec": 0.5
+            },
+            {
+              "tile": 2,
+              "matching_source_sec": [
+                4.905
+              ],
+              "output_grid_sec": 3.45
+            },
+            {
+              "tile": 3,
+              "matching_source_sec": [
+                7.841,
+                7.875
+              ],
+              "output_grid_sec": 6.4
+            },
+            {
+              "tile": 4,
+              "matching_source_sec": [
+                10.811
+              ],
+              "output_grid_sec": 9.35
+            },
+            {
+              "tile": 5,
+              "matching_source_sec": [
+                13.747
+              ],
+              "output_grid_sec": 12.3
+            },
+            {
+              "tile": 6,
+              "matching_source_sec": [
+                16.717
+              ],
+              "output_grid_sec": 15.25
+            }
+          ]
+        }
+      ],
+      "asr": {
+        "file": "영상판독/악타로스/소재3-영상1-음성.txt",
+        "sha256": "d4560d72033c565471bfaa7474fb20e3c8f466585faffd65ff9c8742319d7d3c",
+        "line_count": 1,
+        "timestamp_count": 0,
+        "last_segment_start_sec": null,
+        "no_recognized_speech_marker": true,
+        "read_entire_file": true,
+        "listened_entire_audio": false
+      }
+    },
+    {
+      "body_group": 4,
+      "ad_id": "1595928245466934",
+      "days_running": 54,
+      "link_urls": [
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "card_links": [
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "declared_video_urls": 3,
+      "saved_media_count": 1,
+      "file": "광고자료/악타로스/videos/1595928245466934_1.mp4",
+      "bytes": 658849,
+      "sha256": "2f064b4d52c867d971b4d23a4eabc93ffcf41cd4056dac91d9ac95495cfcb87a",
+      "duration_sec": 20.03,
+      "audio_stream_present": true,
+      "sheets": [
+        {
+          "file": "영상판독/악타로스/소재4-영상1-앞.jpg",
+          "bytes": 122584,
+          "sha256": "1599500b4ac25b7c33160d5834d684a5861194a5409d4446241b7fdb9c7f1a58",
+          "start_sec": 0.5,
+          "span_sec": 18.0,
+          "samples": [
+            {
+              "tile": 1,
+              "matching_source_sec": [
+                1.969
+              ],
+              "output_grid_sec": 0.5
+            },
+            {
+              "tile": 2,
+              "matching_source_sec": [
+                4.972
+              ],
+              "output_grid_sec": 3.5
+            },
+            {
+              "tile": 3,
+              "matching_source_sec": [
+                7.975
+              ],
+              "output_grid_sec": 6.5
+            },
+            {
+              "tile": 4,
+              "matching_source_sec": [
+                10.978
+              ],
+              "output_grid_sec": 9.5
+            },
+            {
+              "tile": 5,
+              "matching_source_sec": [
+                13.981
+              ],
+              "output_grid_sec": 12.5
+            },
+            {
+              "tile": 6,
+              "matching_source_sec": [
+                16.984
+              ],
+              "output_grid_sec": 15.5
+            }
+          ]
+        }
+      ],
+      "asr": {
+        "file": "영상판독/악타로스/소재4-영상1-음성.txt",
+        "sha256": "d4560d72033c565471bfaa7474fb20e3c8f466585faffd65ff9c8742319d7d3c",
+        "line_count": 1,
+        "timestamp_count": 0,
+        "last_segment_start_sec": null,
+        "no_recognized_speech_marker": true,
+        "read_entire_file": true,
+        "listened_entire_audio": false
+      }
+    },
+    {
+      "body_group": 5,
+      "ad_id": "2937534316416734",
+      "days_running": 53,
+      "link_urls": [
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "card_links": [
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42",
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "declared_video_urls": 3,
+      "saved_media_count": 1,
+      "file": "광고자료/악타로스/videos/2937534316416734_1.mp4",
+      "bytes": 1585978,
+      "sha256": "40601569d333055d1d8bedde70b4def73a8d097dfc0b55c80881435dccdc5012",
+      "duration_sec": 43.95,
+      "audio_stream_present": true,
+      "sheets": [
+        {
+          "file": "영상판독/악타로스/소재5-영상1-앞.jpg",
+          "bytes": 83017,
+          "sha256": "392ab8a02533e9f5f438c16e3cf1537eae3454e99e3cfd052807425ed43ff3a2",
+          "start_sec": 0.5,
+          "span_sec": 18.0,
+          "samples": [
+            {
+              "tile": 1,
+              "matching_source_sec": [
+                1.969
+              ],
+              "output_grid_sec": 0.5
+            },
+            {
+              "tile": 2,
+              "matching_source_sec": [
+                4.972
+              ],
+              "output_grid_sec": 3.5
+            },
+            {
+              "tile": 3,
+              "matching_source_sec": [
+                7.975
+              ],
+              "output_grid_sec": 6.5
+            },
+            {
+              "tile": 4,
+              "matching_source_sec": [
+                10.978
+              ],
+              "output_grid_sec": 9.5
+            },
+            {
+              "tile": 5,
+              "matching_source_sec": [
+                13.981
+              ],
+              "output_grid_sec": 12.5
+            },
+            {
+              "tile": 6,
+              "matching_source_sec": [
+                16.984
+              ],
+              "output_grid_sec": 15.5
+            }
+          ]
+        },
+        {
+          "file": "영상판독/악타로스/소재5-영상1-뒤.jpg",
+          "bytes": 80897,
+          "sha256": "9fe5dad9a6decc3db2b2d2c6541f9492e3df69b896a6ecd84dbb55ec4649aff4",
+          "start_sec": 18,
+          "span_sec": 25.5,
+          "samples": [
+            {
+              "tile": 1,
+              "matching_source_sec": [
+                20.12
+              ],
+              "output_grid_sec": 18.0
+            },
+            {
+              "tile": 2,
+              "matching_source_sec": [
+                24.358
+              ],
+              "output_grid_sec": 22.25
+            },
+            {
+              "tile": 3,
+              "matching_source_sec": [
+                28.595
+              ],
+              "output_grid_sec": 26.5
+            },
+            {
+              "tile": 4,
+              "matching_source_sec": [
+                32.866
+              ],
+              "output_grid_sec": 30.75
+            },
+            {
+              "tile": 5,
+              "matching_source_sec": [
+                37.104
+              ],
+              "output_grid_sec": 35.0
+            },
+            {
+              "tile": 6,
+              "matching_source_sec": [
+                41.375
+              ],
+              "output_grid_sec": 39.25
+            }
+          ]
+        }
+      ],
+      "asr": {
+        "file": "영상판독/악타로스/소재5-영상1-음성.txt",
+        "sha256": "f628dd17763250694c3300add63f116a6eef00c291a03a410d610a5c39714a82",
+        "line_count": 25,
+        "timestamp_count": 25,
+        "last_segment_start_sec": 28.9,
+        "no_recognized_speech_marker": false,
+        "read_entire_file": true,
+        "listened_entire_audio": false
+      }
+    }
+  ],
+  "totals": {
+    "body_groups_reviewed": 5,
+    "saved_mp4": 5,
+    "contact_sheets": 8,
+    "sampled_frames": 48,
+    "asr_files": 5,
+    "byte_identical_video_duplicates": 0
+  }
+}

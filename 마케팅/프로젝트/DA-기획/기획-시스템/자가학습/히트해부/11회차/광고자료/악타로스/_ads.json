@@ -1,0 +1,395 @@
+{
+  "brand": "악타로스",
+  "ads": [
+    {
+      "id": "2916387422034452",
+      "query": "tetracure",
+      "slice": "default",
+      "rank": 5,
+      "page_name": "꿀팁받아가",
+      "page_id": "1100598809799847",
+      "page_like_count": 1,
+      "is_active": true,
+      "start_date": "2026-08-03",
+      "end_date": "2026-10-13",
+      "days_running": 71,
+      "collation_id": "1597339118620209",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "{{product.brand}}",
+      "title": "{{product.name}}",
+      "caption": "https://tetracure.kr",
+      "link_description": "{{product.description}}",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNe6QdgQEsPcjQu0OHM7F28vS6ic5EJfIVRCctU2bPOx3dCOjmCeQUifzY4fpN660GfS9zMRgfGGuIuLYP1oXJbnn6-nAv96SgvVVlDqQ.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=rY6Op8nOYrcQ7kNvwG3Zbru&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjExMjgyMDU5OTU5MDgxOCwiYXNzZXRfYWdlX2RheXMiOjcxLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQMUYtjTPPYxZ3sXxMq7sfe2nd6y9VRF2U8GbS76U5o2Nw&oe=6AD3E6D0",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPISkHKzQb4fSig5aIccUFgeVocCEb6TQDXY9j3p8x6-P0j5f-FEWI4GzhkEC64OKME8uBWPBwyBXNzn8R4Cpf3kvkexY7aeHemp_uTUg.mp4?_nc_cat=110&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=vspTvIopvaIQ7kNvwGTHphf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTM1NTE5NDk3MDE0NzQ4OSwiYXNzZXRfYWdlX2RheXMiOjcxLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQNR-V9ct5jl3VzcINuWnfapR_ALtE0qPL9UK2NpcD7h-A&oe=6AD41048",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPp5zMSIXMC4Pxb5IAgPgZ6j6TZDvE2XmIT0OZ1X1jjBQBKW0THv-jXOPUCARB48uOKEKFSO5zI44z9cS91gEkm2zb6geI6lJvp01lAyw.mp4?_nc_cat=110&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=CGopSrUAd2wQ7kNvwFmWbeL&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNjQwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE3NjQ1MzE3NjU0NjEzOCwiYXNzZXRfYWdlX2RheXMiOjcxLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQPl_OSbRumVt3VK075exw2L1gjgG9d0hm6W4RsF9PFLhg&oe=6AD41404"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/764661320_1624661535980100_6432317636410243842_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=KAsG3ZwOCt0Q7kNvwGczgDb&_nc_oc=Adpxw3M1WjXR_no8mtmZa4gnlVBS7sKOROiFOIaZUq6cOlvPT4f-9j62O56mae8LBmc&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQPy2QE_htyKd1vSDNvW85qIBzmkq7baGbVCDDf8WU-xIA&oe=6AD3EB70",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/761596668_1603234631224676_799048670263685448_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ttIizk_5EvQQ7kNvwHvtWi-&_nc_oc=AdpzVAc7ZOdsDGVm-qCOVVMNWshm0ActwLeaXUpF7AY9E_A_NGO2RXNS1N4xUYNh968&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQNrwb1OvKnKtLMlmtD80Y4h648BPO1Rj4Csvqln_u97dA&oe=6AD4038A",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/762629804_1153119817895597_8599835012246051377_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=nKFZQW7RSysQ7kNvwE0zYfH&_nc_oc=Adqk5HwFTheVfO5QCDt7C5MYRkop363EIUSICosCK4ZJIs0aBWuJRLypilwqyyuiX10&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQNhZB2L0oFUe4SJmT7B1CtUzoaskxSERCzIgrYUZH1k9w&oe=6AD402A7"
+      ],
+      "cards": [
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        }
+      ]
+    },
+    {
+      "id": "1180414208043422",
+      "query": "tetracure",
+      "slice": "default",
+      "rank": 4,
+      "page_name": "꿀팁받아가",
+      "page_id": "1100598809799847",
+      "page_like_count": 1,
+      "is_active": true,
+      "start_date": "2026-08-20",
+      "end_date": "2026-10-13",
+      "days_running": 54,
+      "collation_id": "4024527991185682",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "\"대한외국인들이\n입 모아 칭찬하는\nK-쾌변템.. 심지어 57% 할인중\"",
+      "title": "화장실 10분 → 1분컷🥝",
+      "caption": "https://tetracure.kr",
+      "link_description": "",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOkzaU7cArbeMyz4COEPpsvWcCOmHLBAVlbsTL8VQ6yAFellh2VUxyRCK1rueaE5K4XFjWAmSL-Fgg9hr1HhLWsuYVjn-BIjKsphF6-ig.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=Dz4PPGrsfjAQ7kNvwGKoqWm&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA5NDk1MTc2NjUzMTQyMywiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQM24NPytCk5MTyVn4G3KpZIXE711ER2G3dxnS0mABZLLw&oe=6AD3EA2A",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOmlwLew8SmsmFrh1ju8fyJnsJpP4JpwHa_KRPsTNb7BwFaKdWDxYcK9y0S4Z3oijqia8BY1edyyxasm90Vj-Nx6HZ_ytmyTj2HZa_jLw.mp4?_nc_cat=109&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=IuKnO1mvbsMQ7kNvwHUBxWN&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6NDY1Njg5MzI3NDU5Mzc4OSwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQMfftDfsSb0yErMGm2T3_5lzq_2OTtvA635kyu0A2SC9w&oe=6AD3FAA1",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNRzgDyBwcAXqmB1xsl1xrRRSQfoSMBugTLrnd9nXGzulaEzEM3_dTj7nyq2bNI-m5t7w1ODeV5hShU7W6zyV7yZHLlZmcTaUFES_dYpA.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=vasbT3epzHQQ7kNvwH8M9Ro&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNjQwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA2MTQ5ODY5NjQxNDc0NCwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQOsznJsPZj6c86arRLpV2nva1SvqtaDynzCIKMMRb26hA&oe=6AD405AE"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/778973364_1701347131136015_1240000924926498688_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xMNH75XvFj0Q7kNvwENRpZd&_nc_oc=AdrJ9C8l2vknn8CxB6vXBTLIs3mi7EqiEGmx09nnm95tu4jXTBdw3P2lHl967rZ6iss&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQNMaVBGNoDKu2kpep8vAGLpL2UgrjihV9PvQDyUVX5bQQ&oe=6AD3FFC1",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/780593806_1074995175392206_4768375965760009285_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Pp6d-GBvrZkQ7kNvwHoFoL0&_nc_oc=AdowXCHFOSWPvTZ7R7mgqVkFprtvAfzRMMn9oOm9e6wZbRctDhS5AgqRPYTRjyeoumk&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQM1hGMO5X2YBwclJof3VoZe4yOrKUIHGss5t9pOmt2wPw&oe=6AD40420",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/779816504_2432354987249481_1396021480799904256_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=XhVVi2-1s7sQ7kNvwETw-Q1&_nc_oc=AdqHbRKDz1TRJaBctPi8vBklrcW270xI-aXu96QqSyQCStCF-w0iADhZYyhfQbFob7s&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQNgSFc7PtxI3L-jE1zym4P2ewhVOy3HnGuxsppEuqXjlw&oe=6AD3FAE4"
+      ],
+      "cards": [
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        }
+      ]
+    },
+    {
+      "id": "1061584816734907",
+      "query": "tetracure",
+      "slice": "default",
+      "rank": 10,
+      "page_name": "꿀팁받아가",
+      "page_id": "1100598809799847",
+      "page_like_count": 1,
+      "is_active": true,
+      "start_date": "2026-08-20",
+      "end_date": "2026-10-13",
+      "days_running": 54,
+      "collation_id": "1050242981324592",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "\"키위 약 30개를 통째로 담은 악타로스\n론칭특가 한박스에 2만원대로 가져가세요!\"",
+      "title": "화장실 10분 → 1분컷🥝",
+      "caption": "https://tetracure.kr",
+      "link_description": "",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNbs_R7QuI7IoFsQW0VEwHDKrUqM5f_O4rfxlEkxZf4EKUcMglQZErXZyzJvLOBsoA-Wv8mn8OvVYzltUZ3kl7Jqqip5187J0OGX6FKBA.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=vAcWa6RzYUUQ7kNvwFyULVW&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjEwMTEyOTYyNDYxNTYwNiwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQNUJE3RACuNTX6-66jDGAovXlN-hNTgf8yOg2wFNbzStA&oe=6AD3E5B3",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNjSYOSJDVO93vq9YIBOH1acjPnCkYzzXrllJaEHhc8VBqN7Nki4l-GQuZTgFe1gZO3foaygqHMplFzdd7wneRBuG3eAL7eO1kJUe-qrg.mp4?_nc_cat=110&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=rYXPmbbLrDAQ7kNvwGxgsCN&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTkxOTA1ODEwOTA2OTU4MiwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQN5Uun82V4nDyjlwThkmBL2qbQyNq6CtikjHfSThFldWQ&oe=6AD3ED3C",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQO5x1wDaWeUg2dXC5OEg_bRBDG_qKs8JZFQO0-lpsFCCzYknh-8qmWHhM6SAI-yoHIhGGBdWQiu-By2yhdHiFpno3lQm5VLbCH1ErzMLQ.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=264MqSFVTdAQ7kNvwHFRVsv&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNjQwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA1ODAwMDMzNjg3NTgwNSwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQNkQfAG2kxiBnzBiCUgZlAJi4ACmWMgADV5Ee0ykscOpQ&oe=6AD3F98B"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/778767457_3584403705052842_7830449271264260985_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yNP6hIEEYnkQ7kNvwFBC5ZD&_nc_oc=Adr_FbcZj_DLGXGSBI4qDEBY-VC95DdbqQkaIyln2TWUdEtUtGHp2T0wxuoHZ7wxb8M&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQMtX-1q-4IWazycVO73QO4jg58hi1Y0NHYUDr2vTmiWMw&oe=6AD3FA47",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/779084875_27948197441530360_1451205063183515429_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yKRri1_3jboQ7kNvwEROCMX&_nc_oc=AdplonJITeK40EsC74OXU9GXJ8doffkF-uo-omGoNeL4jNIdgC2Sbf-D-qYq27f78FI&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQP0vV0MYjELoaTQCz9YoRbqS3MC4KynH5mf7GPO6lyQfA&oe=6AD41938",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/781869437_1834207357988978_1968054618449552128_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IfK1bjCHxlAQ7kNvwE95xkR&_nc_oc=AdqgLzqXPAR7nAYXAeWo8IvV5ErOj6DMrj7Se0GF8hpdqfiRLsBub5UNgsCpYCuYoJs&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQO8tngUtN7XPdnzE_nC4iFHPQvXmbXha8O3XMkKC-V_PQ&oe=6AD412FA"
+      ],
+      "cards": [
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        }
+      ]
+    },
+    {
+      "id": "1595928245466934",
+      "query": "tetracure",
+      "slice": "default",
+      "rank": 29,
+      "page_name": "꿀팁받아가",
+      "page_id": "1100598809799847",
+      "page_like_count": 1,
+      "is_active": true,
+      "start_date": "2026-08-20",
+      "end_date": "2026-10-13",
+      "days_running": 54,
+      "collation_id": "1457874503042290",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "\"여름이 곧 끝나가요\n악타로스 할인도 곧 끝나가요\"",
+      "title": "화장실 10분 → 1분컷🥝",
+      "caption": "https://tetracure.kr",
+      "link_description": "",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOSx0sgDcP_rrxZSuTpGJKA5SPdO7hAa0f_Nux0CdkdArDaXgfcbN5XdjJ12THMFq4AzF3xzot65uNhZoC2RjirELW6SL6TaIqP-SAazQ.mp4?_nc_cat=109&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=mdjlUX_9gYEQ7kNvwG4C-gH&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA1NjcyOTg3NzE4NDQ1NSwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQP6Kg579nFTRPbGKOBNFVupzXLZlE1ad5eZa5uwsIwSqQ&oe=6AD3FC51",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPSoA275UvVP1zb2mcSITsdhJLO1t3pLrHQo_4jyKMSeIWzTBetSiwEeSAliwTpYYV72KQoF2Y3AGVvjMfEaZYF3_HD2X8fMG5-6CsJwA.mp4?_nc_cat=111&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=CESklC8nUfUQ7kNvwFKPPsr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA4NTU3NDU5NDAwMjM5OSwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQMmELHgLgldgqGX2tqhL2CV3e9WhdjmhocsSF9W_AMYlw&oe=6AD3EB93",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNAB4b1aeAKhcb2vkRe7N2QumleykLTPI-Zc5VeZ8yLO_DZDVSE1zqBDP171m3tx661hh_ken17RLMVn-NjvwnRk2OOc1uRZfoYOaTdrg.mp4?_nc_cat=105&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=_MJwhtaAcfQQ7kNvwFsqn2e&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNjQwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTcxMDQ1NzAzMDA2NjcxNCwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQMiM4R8Bl5crcGUZ_yUn2MTEJQ8KwAgxESc0EEz5QTwEg&oe=6AD3FC39"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/781005669_1968405423820801_2754039781086783367_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=VFUVvPw_HscQ7kNvwHrl7Mg&_nc_oc=Ado2mWv5glL1rV_UzozJnJ3p0x8uFrGTik58DH6ouLYreTamt3m_RCMMZKaIh3yUa4k&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQNUG9cP_jPRBqZqR0sm6u1sFJ8Kfv0STKSJmd41LiQanQ&oe=6AD3EC2F",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/778543718_1040090188782597_5446407421214399067_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bylu521NYJcQ7kNvwGaI3Il&_nc_oc=AdroMqdbGQc4PbOHkGn5d_cOGD2Xu7Q436UdGSwxRiLVbASUIHlc9kyBAHevQVjMyGc&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQOGCdTcq_iPb66cFzpq34nTS7ZX5BROjbrGZCbw362EXw&oe=6AD3FD98",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/780323187_1014879488219706_5500099237441582969_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_NFjHx-1KH4Q7kNvwHTNeAX&_nc_oc=AdqsW0blsTwgzivUrutbYIPyC7JP17tvbj6mvHeBShxNwMHVx6xcP8EA00UuJ-nrpMk&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQMNH7nHc5GH3FgqBnTaU_1uBdpVrASg-pymbHXAZCrKdw&oe=6AD3ED0C"
+      ],
+      "cards": [
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        }
+      ]
+    },
+    {
+      "id": "2937534316416734",
+      "query": "tetracure",
+      "slice": "default",
+      "rank": 26,
+      "page_name": "꿀팁받아가",
+      "page_id": "1100598809799847",
+      "page_like_count": 1,
+      "is_active": true,
+      "start_date": "2026-08-20",
+      "end_date": "2026-10-12",
+      "days_running": 53,
+      "collation_id": "1381047690886969",
+      "collation_count": 1,
+      "display_format": "DCO",
+      "body": "\"내한 배우가 완전 빠진\n한국의 쾌변템...\n57% 런칭 할인 이번 주 끝!\"",
+      "title": "화장실 10분 → 1분컷🥝",
+      "caption": "https://tetracure.kr",
+      "link_description": "",
+      "cta_text": "더 알아보기",
+      "cta_type": "LEARN_MORE",
+      "link_urls": [
+        "https://tetracure.kr/surl/P/42"
+      ],
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "video_urls": [
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMGPiu-gWPhM9iONMjYMPetzQvFs9F0JrG_sQuRdRIJEEBLWRsDtk5lcB_CUB_1PSpMKE0WjdDSGhKyP4etTsMWydPpM-NkMMKJRyYv_Q.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=2mt5xeEHxSwQ7kNvwEsu8dL&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTMwMzY5OTg0NDk5NzQ5MiwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQPQ-6-FvlhoaczKPSQ-OeXxXp6I3nzOxSGlEVbFeXly0Q&oe=6AD4156F",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOW2FYluVy1_YbdbDipyrM0-y5eGCnMiRNAFBuD-w-RUzx5Ws-IVB48wLTECnbGw8S3XK4YeX9ZxES0R4ZqdydJmKvDPcDV4VVccOe36Q.mp4?_nc_cat=110&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=3VtxYdUKNgcQ7kNvwGanLIB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTU2NjY4MzA1ODQzMTU0NywiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQPdyArV53O8BOVNMByWsiICBNtcWC0qpp7ci3GEugMs9w&oe=6AD41850",
+        "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPHwqO2wK2LONXHk7lFVzY61KZKurMTAG4WKWx5xVl0AfS0yFgqsiXd2YLJtObi4Vfku9eJ28RezcWeIpyztDPSgBEP1Th1aN8Gw5VWVg.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=TnGM74c0ZKYQ7kNvwHNppCP&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNjQwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjEyMDc0MDYzNTQ2NDgxNCwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQONII4I_u7ZG1gcoVzq6-3ssZKeW3fLoBazfZPcHoOn8A&oe=6AD3E57A"
+      ],
+      "image_urls": [],
+      "video_preview_urls": [
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/780104400_4685566641767477_3182561595452997499_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=zRPYCswRdBQQ7kNvwFpaNy4&_nc_oc=Adq5pWsUfMPqhGKdx3n6Q2cRpXcHxvkxvXa-qyyLrG2vxQScpCcKKU2ivmZFjICVhQk&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQP_vfkaoAtXKwj0zEx4PcIDv1-mxCZ5Bttf3yNSXxJImA&oe=6AD3EEB4",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/777331940_1683375009394916_245220686633930739_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yhuNuF1D5fwQ7kNvwG_m8v4&_nc_oc=Adq1P6oHcPa6W6FULmCMFrhn7nbXXOzpe6992s7jNajUn4RpsPrUT3_Yybg0wHBRWJA&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQMCZyGMe9vxgKqneYaCB4KwP_uTxxpi_nyImZtz1Bd0AQ&oe=6AD41A07",
+        "https://scontent-icn2-1.xx.fbcdn.net/v/t39.35426-6/779019203_2133682533846950_7895332655890757252_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xIl_8_fePfAQ7kNvwE8HCcE&_nc_oc=Adq5qccirEX1Wh-3Is8zltiJAwk76nQ4_NyEjZTNV7v4hJrg_9tkF4ac6ca5tbKqXbI&_nc_zt=14&_nc_ht=scontent-icn2-1.xx&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&oh=00_AQMv7vzgSfhFEpc9PYRSR2ip24Q8sppForZ19I29iqRKCg&oe=6AD3F694"
+      ],
+      "cards": [
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        },
+        {
+          "title": "화장실 10분 → 1분컷🥝",
+          "body": "",
+          "link_description": "　",
+          "link_url": "https://tetracure.kr/surl/P/42"
+        }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNe6QdgQEsPcjQu0OHM7F28vS6ic5EJfIVRCctU2bPOx3dCOjmCeQUifzY4fpN660GfS9zMRgfGGuIuLYP1oXJbnn6-nAv96SgvVVlDqQ.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=rY6Op8nOYrcQ7kNvwG3Zbru&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjExMjgyMDU5OTU5MDgxOCwiYXNzZXRfYWdlX2RheXMiOjcxLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQMUYtjTPPYxZ3sXxMq7sfe2nd6y9VRF2U8GbS76U5o2Nw&oe=6AD3E6D0",
+      "file": "videos/2916387422034452_1.mp4",
+      "ad_id": "2916387422034452",
+      "bytes": 1722268,
+      "downloaded": true
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOkzaU7cArbeMyz4COEPpsvWcCOmHLBAVlbsTL8VQ6yAFellh2VUxyRCK1rueaE5K4XFjWAmSL-Fgg9hr1HhLWsuYVjn-BIjKsphF6-ig.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=Dz4PPGrsfjAQ7kNvwGKoqWm&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA5NDk1MTc2NjUzMTQyMywiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQM24NPytCk5MTyVn4G3KpZIXE711ER2G3dxnS0mABZLLw&oe=6AD3EA2A",
+      "file": "videos/1180414208043422_1.mp4",
+      "ad_id": "1180414208043422",
+      "bytes": 1328855,
+      "downloaded": true
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNbs_R7QuI7IoFsQW0VEwHDKrUqM5f_O4rfxlEkxZf4EKUcMglQZErXZyzJvLOBsoA-Wv8mn8OvVYzltUZ3kl7Jqqip5187J0OGX6FKBA.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=vAcWa6RzYUUQ7kNvwFyULVW&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjEwMTEyOTYyNDYxNTYwNiwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQNUJE3RACuNTX6-66jDGAovXlN-hNTgf8yOg2wFNbzStA&oe=6AD3E5B3",
+      "file": "videos/1061584816734907_1.mp4",
+      "ad_id": "1061584816734907",
+      "bytes": 549729,
+      "downloaded": true
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOSx0sgDcP_rrxZSuTpGJKA5SPdO7hAa0f_Nux0CdkdArDaXgfcbN5XdjJ12THMFq4AzF3xzot65uNhZoC2RjirELW6SL6TaIqP-SAazQ.mp4?_nc_cat=109&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=mdjlUX_9gYEQ7kNvwG4C-gH&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA1NjcyOTg3NzE4NDQ1NSwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQP6Kg579nFTRPbGKOBNFVupzXLZlE1ad5eZa5uwsIwSqQ&oe=6AD3FC51",
+      "file": "videos/1595928245466934_1.mp4",
+      "ad_id": "1595928245466934",
+      "bytes": 658849,
+      "downloaded": true
+    },
+    {
+      "type": "video",
+      "url": "https://video-icn2-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMGPiu-gWPhM9iONMjYMPetzQvFs9F0JrG_sQuRdRIJEEBLWRsDtk5lcB_CUB_1PSpMKE0WjdDSGhKyP4etTsMWydPpM-NkMMKJRyYv_Q.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-icn2-1.xx.fbcdn.net&_nc_ohc=2mt5xeEHxSwQ7kNvwEsu8dL&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTMwMzY5OTg0NDk5NzQ5MiwiYXNzZXRfYWdlX2RheXMiOjU0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=EZzZfdcAiMAUcUABy-VAjg&_nc_ss=7f289&_nc_zt=28&oh=00_AQPQ-6-FvlhoaczKPSQ-OeXxXp6I3nzOxSGlEVbFeXly0Q&oe=6AD4156F",
+      "file": "videos/2937534316416734_1.mp4",
+      "ad_id": "2937534316416734",
+      "bytes": 1585978,
+      "downloaded": true
+    }
+  ],
+  "all_sku_ads": 18,
+  "body_groups": 15,
+  "as_of": "2026-10-13T22:25:02.938497"
+}

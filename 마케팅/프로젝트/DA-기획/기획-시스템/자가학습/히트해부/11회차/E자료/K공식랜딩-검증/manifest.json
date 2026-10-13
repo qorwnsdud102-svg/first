@@ -1,0 +1,389 @@
+[
+  {
+    "group": "detail",
+    "i": 1,
+    "url": "https://ecimg.cafe24img.com/pg3048b71144819094/meistream/%EB%93%9C%EB%A6%BC%ED%8F%AC%EB%AE%AC%EB%9F%AC/%ED%9E%88%EB%93%A0%EA%B0%80%EA%B2%A91.gif",
+    "status": 200,
+    "file": "detail-01.gif",
+    "sha256": "f02d0765accd86cb78f17b71d7935da3b3a6dcbb4760dad3f7be83fd55086e1b",
+    "frames": 54
+  },
+  {
+    "group": "detail",
+    "i": 2,
+    "url": "https://ecimg.cafe24img.com/pg3048b71144819094/meistream/web/upload/NNEditor/20261012/175627.jpg",
+    "status": 200,
+    "file": "detail-02.jpg",
+    "sha256": "7ce4fe881190bfd340a49da109efc8b8872e16bb3678f32a0751345d38bc2594",
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 3,
+    "url": "https://ecimg.cafe24img.com/pg3048b71144819094/meistream/web/upload/NNEditor/20261007/1791347581742.jpeg",
+    "status": 200,
+    "file": "detail-03.jpeg",
+    "sha256": "1efdf2afafe38422d3da42c0477d11c70d45425db21f98fc83bdaa7eb414c6ee",
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 4,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/03.gif",
+    "status": 200,
+    "file": "detail-04.gif",
+    "sha256": "6fbb95a41a445b360441bb9d68babb9bbdd88753cdd65acee40fd58e7f1b807c",
+    "auction_file": "../K-03-03.gif",
+    "identical_to_auction": true,
+    "frames": 65
+  },
+  {
+    "group": "detail",
+    "i": 5,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/04.jpg",
+    "status": 200,
+    "file": "detail-05.jpg",
+    "sha256": "90e6e3c606995ded985dbf5691c0e8d4a2c6f128750bb1ab7deda325aa48ca63",
+    "auction_file": "../K-04-04.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 6,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/05.gif",
+    "status": 200,
+    "file": "detail-06.gif",
+    "sha256": "895f7c6bd04bbe30b8b266cfb170daacdc314d44bfb4bd7268ca28d35d8bc494",
+    "auction_file": "../K-05-05.gif",
+    "identical_to_auction": true,
+    "frames": 88
+  },
+  {
+    "group": "detail",
+    "i": 7,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/07.jpg",
+    "status": 200,
+    "file": "detail-07.jpg",
+    "sha256": "875e98b4f66f6754807780f15ddecb4f9401edccaacc7a6260f3de7949001d11",
+    "auction_file": "../K-06-07.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 8,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/30.gif",
+    "status": 200,
+    "file": "detail-08.gif",
+    "sha256": "51896972c6cc9abb20c96288ab6dd2a856b6a7b2c00fc96541d7ca6ccddcc2d3",
+    "auction_file": "../K-07-30.gif",
+    "identical_to_auction": true,
+    "frames": 113
+  },
+  {
+    "group": "detail",
+    "i": 9,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/08.jpg",
+    "status": 200,
+    "file": "detail-09.jpg",
+    "sha256": "b603faa2c3769ad812089826dda46f0bb096376a92a625f931d4cc46941c0b9c",
+    "auction_file": "../K-08-08.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 10,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/09.jpg",
+    "status": 200,
+    "file": "detail-10.jpg",
+    "sha256": "e2ff78075c3e42b14c12ef7d32077c95e28ebebad44375751350ff81b1365da5",
+    "auction_file": "../K-09-09.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 11,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/10.gif",
+    "status": 200,
+    "file": "detail-11.gif",
+    "sha256": "7a7eb6bf47d771d42b6f07bbe77b32229fbdd58816187e6a6a05660afeca2f01",
+    "auction_file": "../K-10-10.gif",
+    "identical_to_auction": true,
+    "frames": 98
+  },
+  {
+    "group": "detail",
+    "i": 12,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/11.jpg",
+    "status": 200,
+    "file": "detail-12.jpg",
+    "sha256": "bf1f133131d91d6cc9f76b5e9c47cfb6a60f657eed423aee67e1c31cd7dedec7",
+    "auction_file": "../K-11-11.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 13,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/12.jpg",
+    "status": 200,
+    "file": "detail-13.jpg",
+    "sha256": "ac85310137d1595e11ed62506beda10cd8cff4625691a76f82aa270f09865b00",
+    "auction_file": "../K-12-12.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 14,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/13.jpg",
+    "status": 200,
+    "file": "detail-14.jpg",
+    "sha256": "f125093ccd3d055c7fb7c250d3d5550da1602513d4e9bbf97a5c6ca1d526d484",
+    "auction_file": "../K-13-13.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 15,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/14.gif",
+    "status": 200,
+    "file": "detail-15.gif",
+    "sha256": "60d217222ca99ddd925c31bf7dd65cfa99feddf648a62318c8637a149002c50f",
+    "auction_file": "../K-14-14.gif",
+    "identical_to_auction": true,
+    "frames": 25
+  },
+  {
+    "group": "detail",
+    "i": 16,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/15.jpg",
+    "status": 200,
+    "file": "detail-16.jpg",
+    "sha256": "b79d21b8b64d448f9156dde44276fbde4c82aff6bd86025a15e86a92297ee566",
+    "auction_file": "../K-15-15.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 17,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/16.gif",
+    "status": 200,
+    "file": "detail-17.gif",
+    "sha256": "aeaabdfcdc48bc40bd544a3babf01508e8924ff88de7a8098562023c8c9c8384",
+    "auction_file": "../K-16-16.gif",
+    "identical_to_auction": true,
+    "frames": 115
+  },
+  {
+    "group": "detail",
+    "i": 18,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/17.gif",
+    "status": 200,
+    "file": "detail-18.gif",
+    "sha256": "27337ff7adafa2ca4cf86a944aa111c5bc5ee9a31dfb9c3e8e21c001b3295ecc",
+    "auction_file": "../K-17-17.gif",
+    "identical_to_auction": true,
+    "frames": 99
+  },
+  {
+    "group": "detail",
+    "i": 19,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/18.jpg",
+    "status": 200,
+    "file": "detail-19.jpg",
+    "sha256": "fe2ccc3d991c8cc68699d7f0242ff7322a191e386083206d2440b1642eb36a34",
+    "auction_file": "../K-18-18.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 20,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/19.gif",
+    "status": 200,
+    "file": "detail-20.gif",
+    "sha256": "b80ab1ae3b2051ebb9dcc8dd69519e9e91a44b9a1c5980a92ff687b75adc1611",
+    "auction_file": "../K-19-19.gif",
+    "identical_to_auction": true,
+    "frames": 96
+  },
+  {
+    "group": "detail",
+    "i": 21,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/20.jpg",
+    "status": 200,
+    "file": "detail-21.jpg",
+    "sha256": "86a6f4a83d905fd9dc9276a2897feacec22be7de07f4eca6d0decfcb12191b47",
+    "auction_file": "../K-20-20.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 22,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/21.jpg",
+    "status": 200,
+    "file": "detail-22.jpg",
+    "sha256": "b52dfa52f268dd3bf18490c4f710e5fb18d1c0f952342ca6bea8a60216a9188a",
+    "auction_file": "../K-21-21.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 23,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/22.gif",
+    "status": 200,
+    "file": "detail-23.gif",
+    "sha256": "a4b75df35089ee227b12fdf4c2994d867638570159a72c527cd57360a9dbfd28",
+    "auction_file": "../K-22-22.gif",
+    "identical_to_auction": true,
+    "frames": 101
+  },
+  {
+    "group": "detail",
+    "i": 24,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/23.jpg",
+    "status": 200,
+    "file": "detail-24.jpg",
+    "sha256": "2aedf68100af037b172883256124a4b0da1d8ae8a8057eba1c89dd3fb7015636",
+    "auction_file": "../K-23-23.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 25,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/24.jpg",
+    "status": 200,
+    "file": "detail-25.jpg",
+    "sha256": "7b9acd34a6b552c310fd841e0bb847d42438c02734cd5b03f5d86197d3e26ec7",
+    "auction_file": "../K-24-24.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 26,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/25.jpg",
+    "status": 200,
+    "file": "detail-26.jpg",
+    "sha256": "8376a01a32a05a00057b0307cf11195bf13db0971f4b12e60376fa6234b3fc61",
+    "auction_file": "../K-25-25.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 27,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/26.gif",
+    "status": 200,
+    "file": "detail-27.gif",
+    "sha256": "cd24405c3ccba1cd13a64ddb4c7038f616a4da97abe0db86b2d81dd2af517693",
+    "auction_file": "../K-26-26.gif",
+    "identical_to_auction": true,
+    "frames": 115
+  },
+  {
+    "group": "detail",
+    "i": 28,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/27.jpg",
+    "status": 200,
+    "file": "detail-28.jpg",
+    "sha256": "9cc5c32fb5d445221c1f0af7c380101388f9e5d84a8936cf0309c8188b4f69f3",
+    "auction_file": "../K-27-27.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 29,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/28.jpg",
+    "status": 200,
+    "file": "detail-29.jpg",
+    "sha256": "91648cfebaebd71a7121c81e5203365370976a94aa25aa75d5941c736b4d6dc9",
+    "auction_file": "../K-28-28.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "detail",
+    "i": 30,
+    "url": "https://gi.esmplus.com/meistream/dream_formula/detail/detail1080/29.jpg",
+    "status": 200,
+    "file": "detail-30.jpg",
+    "sha256": "c33cdb713f39bb780f68506b835261d83e11027ad7487e6e9ddf44b2152061ac",
+    "auction_file": "../K-29-29.jpg",
+    "identical_to_auction": true,
+    "frames": 1
+  },
+  {
+    "group": "thumbnail",
+    "i": 1,
+    "url": "https://ecimg.cafe24img.com/pg3048b71144819094/meistream/web/product/big/20260921/e2028e2ac76a800a957c4ae6e2c14e7b.png",
+    "status": 200,
+    "file": "thumbnail-01.png",
+    "sha256": "3a1bbffa5ab0b168abe937406b6d6c8b14a57efb69ec281fb6e9a2ca819e8a13",
+    "frames": 1
+  },
+  {
+    "group": "thumbnail",
+    "i": 2,
+    "url": "https://ecimg.cafe24img.com/pg3048b71144819094/meistream/web/product/extra/big/20260921/c950d164c985b51fa695ff52d03d845c.jpg",
+    "status": 200,
+    "file": "thumbnail-02.jpg",
+    "sha256": "1f154903c396bff4277cc1465920e7e2f4ed6078f1a60d4198448e4aa17e036b",
+    "frames": 1
+  },
+  {
+    "group": "thumbnail",
+    "i": 3,
+    "url": "https://ecimg.cafe24img.com/pg3048b71144819094/meistream/web/product/extra/big/20260827/2d4ae11eb4c29412b1a91155e3851693.png",
+    "status": 200,
+    "file": "thumbnail-03.png",
+    "sha256": "dc5080518303fa87ed88a5b6b8b67a6c48b28984456c578f8fbc4b2038632301",
+    "frames": 1
+  },
+  {
+    "group": "thumbnail",
+    "i": 4,
+    "url": "https://ecimg.cafe24img.com/pg3048b71144819094/meistream/web/product/extra/big/20260827/cb7a424858668197efe088f5e9f30e9a.png",
+    "status": 200,
+    "file": "thumbnail-04.png",
+    "sha256": "fc89dbdc20baad1e83336a3cb8dc342dbeebbadccd5b2f397f471082fd9af540",
+    "frames": 1
+  },
+  {
+    "group": "thumbnail",
+    "i": 5,
+    "url": "https://ecimg.cafe24img.com/pg3048b71144819094/meistream/web/product/extra/big/20260827/d86af1784f01b96bd3b2daad422a7373.png",
+    "status": 200,
+    "file": "thumbnail-05.png",
+    "sha256": "109868f91a19c8bb5ddb24de4c1b50c4b93c9e254e022b91435558f7490f0ec6",
+    "frames": 1
+  },
+  {
+    "group": "thumbnail",
+    "i": 6,
+    "url": "https://ecimg.cafe24img.com/pg3048b71144819094/meistream/web/product/extra/big/20260827/b51a5fed3fd8ac4d47d5df6e46602c24.png",
+    "status": 200,
+    "file": "thumbnail-06.png",
+    "sha256": "77610671a7ffe0742729b518f99f576f9816578425b828ebc2818dde54b4110c",
+    "frames": 1
+  },
+  {
+    "group": "thumbnail",
+    "i": 7,
+    "url": "https://ecimg.cafe24img.com/pg3048b71144819094/meistream/web/product/extra/big/20260827/d9e5cdb4f4f72dce0494d929dac3f556.png",
+    "status": 200,
+    "file": "thumbnail-07.png",
+    "sha256": "37974cf184ac78b7ac5ad6676e1d9d66251a2d67f5a9c75386e565d7cda9539e",
+    "frames": 1
+  }
+]
