@@ -1,0 +1,1695 @@
+[
+  {
+    "id": "CROSS-01",
+    "symbol": "프락셀",
+    "keyword": "프락셀",
+    "mechanism_feel": "찔러 다시 채움",
+    "pairs": [
+      {
+        "state": "손상된 무좀 발톱",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "거칠어진 튼살",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "피부 열손상과 발톱 재생은 실제 작동이 다름. 발톱 짝은 P6354·P6361로 드릴 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 12370,
+    "source_url": "https://ca.fraxel.com/hcp/",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "프락셀",
+      "pc": 2270,
+      "mobile": 10100,
+      "total": 12370,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "프락셀",
+        "프락셀 효과",
+        "프락셀 가격",
+        "피코프락셀",
+        "프락셀 통증",
+        "프락셀 후 관리",
+        "피코프락셀 후기",
+        "코 프락셀",
+        "피코프락셀 효과",
+        "co2 프락셀"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-02",
+    "symbol": "리쥬란",
+    "keyword": "리쥬란",
+    "mechanism_feel": "재생해 차오름",
+    "pairs": [
+      {
+        "state": "내려앉은 잇몸",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "손상된 발톱",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "PN 시술과 PDRN 함유 제품을 같은 원료·효과로 단정 금지. 잇몸 짝 P6384 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 63600,
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4248006/",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "리쥬란",
+      "pc": 11400,
+      "mobile": 52200,
+      "total": 63600,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "리쥬란",
+        "리쥬란 효과",
+        "리쥬란힐러",
+        "리쥬란 가격",
+        "리쥬란 앰플",
+        "리쥬란 후기",
+        "리쥬란 통증",
+        "리쥬란hb",
+        "리쥬란 부작용",
+        "리쥬란 주기"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-03",
+    "symbol": "치아교정",
+    "keyword": "치아교정",
+    "mechanism_feel": "서서히 바로잡음",
+    "pairs": [
+      {
+        "state": "파고드는 내성발톱",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "휘어진 엄지발가락",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "치아이동과 발가락 지지는 다름. 영구교정 주장 불가. 내성발톱 P6381 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 8430,
+    "source_url": "https://www.nhs.uk/tests-and-treatments/orthodontics/",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "치아교정",
+      "pc": 1250,
+      "mobile": 7180,
+      "total": 8430,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "치아교정",
+        "남양주치아교정",
+        "치아교정고통",
+        "군대치아교정",
+        "치아교정두통",
+        "치아교정양치질",
+        "치아교정비용",
+        "김연아치아교정"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-04",
+    "symbol": "냉동치료",
+    "keyword": "냉동치료",
+    "mechanism_feel": "얼려 떨어뜨림",
+    "pairs": [
+      {
+        "state": "쥐젖",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "튀어나온 작은 병변",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "시원한 감각만으로 조직 제거가 되는 것은 아님. 쥐젖 기존 정답 짝 제외 / 이름 정확검색량 1,000 미만—인지도 약점 후보(탈락선 아님)",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 710,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "냉동치료",
+      "pc": 80,
+      "mobile": 630,
+      "total": 710,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "사마귀 냉동치료",
+        "사마귀 냉동치료 후기",
+        "사마귀 냉동치료 물집",
+        "냉동치료",
+        "티눈 냉동치료",
+        "티눈 냉동치료 후기",
+        "사마귀 냉동치료 가격",
+        "비염 냉동치료",
+        "사마귀 냉동치료 통증",
+        "티눈 냉동치료 통증"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-05",
+    "symbol": "울쎄라",
+    "keyword": "울쎄라",
+    "mechanism_feel": "깊이 데워 당김",
+    "pairs": [
+      {
+        "state": "처진 눈밑",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "늘어진 복부 피부",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "미세열감과 집속초음파는 다름. 기존 피부 짝 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 44280,
+    "source_url": "https://ultherapy.com/physicians/optimized-neocollagenesis?board=8",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "울쎄라",
+      "pc": 7580,
+      "mobile": 36700,
+      "total": 44280,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "울쎄라",
+        "울쎄라 효과",
+        "울쎄라 가격",
+        "울쎄라 300샷",
+        "울쎄라 통증",
+        "울쎄라 써마지",
+        "울쎄라 후기",
+        "울쎄라 붓기",
+        "울쎄라 부작용",
+        "울쎄라피"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-06",
+    "symbol": "써마지",
+    "keyword": "써마지",
+    "mechanism_feel": "열로 조임",
+    "pairs": [
+      {
+        "state": "목주름",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "늘어진 손등 피부",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "표면 온감만으로 진피 콜라겐 효과를 단정 못함. 기존 주름 짝 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 30140,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "써마지",
+      "pc": 6040,
+      "mobile": 24100,
+      "total": 30140,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "써마지 효과",
+        "써마지",
+        "써마지 600샷 가격",
+        "써마지 가격",
+        "써마지 통증",
+        "써마지 후기",
+        "써마지 부작용",
+        "써마지 울쎄라",
+        "아이써마지",
+        "울쎄라써마지"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-07",
+    "symbol": "보톡스",
+    "keyword": "보톡스",
+    "mechanism_feel": "과한 힘을 풀음",
+    "pairs": [
+      {
+        "state": "뻣뻣하게 뭉친 승모근",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "턱을 꽉 무는 상태",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "근육 이완 약물과 마사지·화장품은 다름. 정상근력 저하 부정 연상",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 23150,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "보톡스",
+      "pc": 2550,
+      "mobile": 20600,
+      "total": 23150,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "보톡스",
+        "보톡스전후",
+        "보톡스가격",
+        "보톡스회사",
+        "이마보톡스",
+        "보톡스필러차이",
+        "얼굴보톡스",
+        "턱끝보톡스"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-08",
+    "symbol": "스컬트라",
+    "keyword": "스컬트라",
+    "mechanism_feel": "안에서 채워짐",
+    "pairs": [
+      {
+        "state": "꺼진 손등",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "볼륨이 빠진 입술 주변",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "PLLA 주입과 도포 구분. 실제 차오름 근거 별도. 기존 꺼짐 기획 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 22030,
+    "source_url": "https://www.sculptrausa.com/sculptra-science",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "스컬트라",
+      "pc": 3830,
+      "mobile": 18200,
+      "total": 22030,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "스컬트라",
+        "볼스컬트라",
+        "스컬트라효과",
+        "스컬트라이마",
+        "스컬트라후기",
+        "눈밑스컬트라"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-09",
+    "symbol": "스케일링",
+    "keyword": "스케일링",
+    "mechanism_feel": "딱딱한 때 제거",
+    "pairs": [
+      {
+        "state": "쌓인 두피 각질",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "발톱 틈 묵은 때",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "치석·각질·진균은 다른 대상. 문지르기만으로 같은 결과 아님",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 9640,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "스케일링",
+      "pc": 1430,
+      "mobile": 8210,
+      "total": 9640,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "스케일링 비용",
+        "스케일링 보험",
+        "스케일링 후 식사",
+        "스케일링",
+        "스케일링 무료",
+        "스케일링 통증",
+        "스케일링 주기",
+        "두피 스케일링",
+        "업스케일링",
+        "스케일링 시간"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-10",
+    "symbol": "임플란트",
+    "keyword": "임플란트",
+    "mechanism_feel": "빈자리에 심음",
+    "pairs": [
+      {
+        "state": "비어 보이는 정수리",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "뜯겨 빈 손톱",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "심는 동작 없는 바르는 제품이면 이식 실패. 고통·이물감",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 21990,
+    "source_url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-treatments/",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "임플란트",
+      "pc": 3690,
+      "mobile": 18300,
+      "total": 21990,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "임플란트",
+        "임플란트종류",
+        "임플란트기간",
+        "임플란트수술",
+        "임플란트회사",
+        "건강보험임플란트",
+        "20대임플란트",
+        "65세이상임플란트"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-11",
+    "symbol": "라식",
+    "keyword": "라식",
+    "mechanism_feel": "흐림을 선명하게",
+    "pairs": [
+      {
+        "state": "칙칙하게 가려진 피부",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "뿌연 손발톱",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "핵심은 각막 굴절 교정이라 다른 부위는 결과만 닮을 가능성 큼. 보류 후보",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 7800,
+    "source_url": "https://www.fda.gov/medical-devices/lasik/what-lasik",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "라식",
+      "pc": 1250,
+      "mobile": 6550,
+      "total": 7800,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "라식",
+        "강남역라식",
+        "라식수술후관리",
+        "라식비용",
+        "라식나이",
+        "라식라섹",
+        "스마일라식",
+        "라섹스마일라식"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-12",
+    "symbol": "양압기",
+    "keyword": "양압기",
+    "mechanism_feel": "압력으로 열어둠",
+    "pairs": [
+      {
+        "state": "눌려 막히는 콧길",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "자꾸 접히는 피부 주름",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "기도와 표면 주름은 대상이 다름. 후자는 비유 이상 구현 필요",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 45210,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "양압기",
+      "pc": 6710,
+      "mobile": 38500,
+      "total": 45210,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "양압기",
+        "양압기직구",
+        "양압기부작용",
+        "양압기대여",
+        "양압기렌탈",
+        "코골이양압기",
+        "수면무호흡증양압기",
+        "수면양압기"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-13",
+    "symbol": "노이즈캔슬링",
+    "keyword": "노이즈캔슬링",
+    "mechanism_feel": "거슬림을 상쇄",
+    "pairs": [
+      {
+        "state": "외부 소음으로 잠 못 듦",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "이명으로 집중 방해",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "이명은 내부 지각이라 반대 음파로 제거한다고 못함. 이명 P6378 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 9290,
+    "source_url": "https://www.bose.com/stories/what-is-active-noise-cancellation",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "노이즈캔슬링",
+      "pc": 960,
+      "mobile": 8330,
+      "total": 9290,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "노이즈캔슬링 이어폰",
+        "노이즈캔슬링 헤드셋",
+        "노이즈캔슬링 뜻",
+        "에어팟 노이즈캔슬링 설정",
+        "에어팟 노이즈캔슬링",
+        "액티브 노이즈 캔슬링",
+        "보스 노이즈캔슬링 유선",
+        "노이즈 캔슬링",
+        "에어팟5 노이즈캔슬링",
+        "버즈 노이즈캔슬링"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-14",
+    "symbol": "인공눈물",
+    "keyword": "인공눈물",
+    "mechanism_feel": "마른 곳을 적심",
+    "pairs": [
+      {
+        "state": "말라 붙는 입안",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "건조한 코 입구",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "점안과 구강·비강 제형 안전성 별도. 입안은 드릴2 이미 출제",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 25680,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "인공눈물",
+      "pc": 3380,
+      "mobile": 22300,
+      "total": 25680,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체.txt",
+      "autocomplete": [
+        "인공눈물",
+        "인공눈물 추천",
+        "아이드롭 인공눈물",
+        "인공눈물 파는곳",
+        "인공눈물 유통기한",
+        "인공눈물 가격",
+        "인공눈물 약국",
+        "인공눈물 처방",
+        "로토 인공눈물",
+        "편의점 인공눈물"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-15",
+    "symbol": "듀오덤",
+    "keyword": "듀오덤",
+    "mechanism_feel": "덮어 촉촉히 회복",
+    "pairs": [
+      {
+        "state": "갈라진 손끝",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "신발 마찰로 벗겨진 뒤꿈치",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "마개·습윤만으로 감염 치료 아님. 일부 상처는 밀폐 부적합",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 24860,
+    "source_url": "https://www.convatec.com/en-au/products/advanced-wound-care/wound-type/pc-wound-burns/duoderm-cgf-sterile-dressing/",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "듀오덤",
+      "pc": 3660,
+      "mobile": 21200,
+      "total": 24860,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:04 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체.txt",
+      "autocomplete": [
+        "듀오덤",
+        "듀오덤 엑스트라씬",
+        "듀오덤 스팟패치",
+        "듀오덤 교체시기",
+        "듀오덤 메디폼",
+        "듀오덤 사용법",
+        "듀오덤 밴드",
+        "듀오덤겔",
+        "듀오덤 가격",
+        "화상 듀오덤"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-16",
+    "symbol": "메피폼",
+    "keyword": "메피폼",
+    "mechanism_feel": "흉터를 부드럽게",
+    "pairs": [
+      {
+        "state": "당기는 수술 흉터",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "갈라져 딱딱한 뒤꿈치",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "흉터와 각질의 원인 다름. 목주름 전용성 기각 판례 참고",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 12640,
+    "source_url": "https://www.molnlycke.com/en-kr/products/wound-care/scar-management/mepiform?variantId=293600",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "메피폼",
+      "pc": 1540,
+      "mobile": 11100,
+      "total": 12640,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "메피폼",
+        "메피폼 직구",
+        "메피폼 사용법",
+        "제왕절개 메피폼",
+        "메피폼 10x18",
+        "메피폼 효과",
+        "메피폼 약국",
+        "메피폼 시카케어",
+        "멘리케 메피폼",
+        "메피폼 아마존"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-17",
+    "symbol": "체외충격파",
+    "keyword": "체외충격파",
+    "mechanism_feel": "집중 타격해 풀음",
+    "pairs": [
+      {
+        "state": "만성 뒤꿈치 통증",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "딱딱하게 굳은 어깨",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "마사지 타격과 충격파 에너지 다름. 족저근막 드릴 P6380 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 8200,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "체외충격파",
+      "pc": 1820,
+      "mobile": 6380,
+      "total": 8200,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "체외충격파 실비",
+        "체외충격파치료",
+        "체외충격파 가격",
+        "체외충격파 효과",
+        "체외충격파 기계",
+        "체외충격파 통증",
+        "체외충격파 원리",
+        "가정용 체외충격파",
+        "체외충격파쇄석술",
+        "체외충격파치료 실비"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-18",
+    "symbol": "신경차단술",
+    "keyword": "신경차단술",
+    "mechanism_feel": "통증 길목 차단",
+    "pairs": [
+      {
+        "state": "손목의 찌릿함",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "허리에서 내려가는 방사통",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "표면 따끔함으로 신경차단 흉내 불가. 의약품·시술 실제 범위와 분리",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 7760,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "신경차단술",
+      "pc": 1080,
+      "mobile": 6680,
+      "total": 7760,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "신경차단술 주사",
+        "신경차단술",
+        "신경차단술 부작용",
+        "허리 신경차단술",
+        "신경차단술 비용",
+        "신경차단술 효과",
+        "성상신경차단술",
+        "경막외신경차단술",
+        "목 신경차단술",
+        "척추신경차단술"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-19",
+    "symbol": "뜸",
+    "keyword": "뜸",
+    "mechanism_feel": "혈자리 따뜻하게",
+    "pairs": [
+      {
+        "state": "차고 뻣뻣한 손마디",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "차게 느껴지는 아랫배",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "열감과 질환 치료 구분. 기존 한의비책·관절통 정답 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 2560,
+    "source_url": "https://www.cancer.gov/about-cancer/treatment/cam/hp/acupuncture-pdq",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "뜸",
+      "pc": 260,
+      "mobile": 2300,
+      "total": 2560,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "뜸 효과",
+        "뜸 행궁",
+        "뜸",
+        "뜸부기",
+        "뜸북새",
+        "뜸들이다",
+        "행궁동 뜸",
+        "쑥뜸기",
+        "뜸하다",
+        "뜸사랑"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-20",
+    "symbol": "부항",
+    "keyword": "부항",
+    "mechanism_feel": "빨아 당겨 풀음",
+    "pairs": [
+      {
+        "state": "뭉친 승모근",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "당기는 종아리",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "멍·피·독소배출 오해. 관절 뼈 직접 흡입은 결이 약함",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 6630,
+    "source_url": "https://files.nccih.nih.gov/s3fs-public/Traditional_Chinese_Medicine_08-03-2015.pdf",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "부항",
+      "pc": 860,
+      "mobile": 5770,
+      "total": 6630,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "부항 효과",
+        "부항",
+        "부항기",
+        "부항 부황",
+        "부항 원리",
+        "부항마사지기",
+        "소피부하이",
+        "불부항",
+        "사혈부항",
+        "김천 부항댐"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-21",
+    "symbol": "침치료",
+    "keyword": "침치료",
+    "mechanism_feel": "점으로 찔러 풀음",
+    "pairs": [
+      {
+        "state": "한곳 뻣뻣한 근육",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "손끝의 긴장",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "전문가 손기술 의존·찌름 거부감. 셀프 시술 제품 제안 아님 / 이름 정확검색량 1,000 미만—인지도 약점 후보(탈락선 아님)",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 400,
+    "source_url": "https://www.nccih.nih.gov/health/acupuncture-effectiveness-and-safety",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "침치료",
+      "pc": 50,
+      "mobile": 350,
+      "total": 400,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "침치료",
+        "강아지 침치료",
+        "침치료 효과",
+        "비염 침치료",
+        "임산부 침치료",
+        "족저근막염 침치료",
+        "한의원 침치료",
+        "침치료 가격",
+        "부평동 침치료",
+        "허리디스크 침치료"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-22",
+    "symbol": "추나요법",
+    "keyword": "추나요법",
+    "mechanism_feel": "정렬을 맞춤",
+    "pairs": [
+      {
+        "state": "비뚤게 느껴지는 목",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "기울어진 골반",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "④-17 손기술 핵심이라 제품 이식 곤란. 사전 기록용·현재 드릴 보류",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 6960,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "추나요법",
+      "pc": 910,
+      "mobile": 6050,
+      "total": 6960,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "추나요법",
+        "허리디스크추나요법",
+        "추나요법한의원",
+        "한의원추나요법",
+        "추나요법가격",
+        "추나요법실비",
+        "추나요법비용",
+        "허리추나요법"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-23",
+    "symbol": "온천",
+    "keyword": "온천",
+    "mechanism_feel": "따뜻하게 이완",
+    "pairs": [
+      {
+        "state": "쑤시는 관절 주변",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "당기는 허리 근육",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "물·온열의 휴식 이미지와 치료효과 구분. 히토 등 정답 짝 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 31490,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "온천",
+      "pc": 3190,
+      "mobile": 28300,
+      "total": 31490,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "국내 온천 여행",
+        "온천",
+        "덕구온천",
+        "온천 워터파크",
+        "온양온천",
+        "수안보온천",
+        "온천 리조트",
+        "온처니",
+        "온양온천랜드",
+        "도고온천"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-24",
+    "symbol": "사우나",
+    "keyword": "사우나",
+    "mechanism_feel": "데워 부드럽게",
+    "pairs": [
+      {
+        "state": "막힌 피지·털 주변 각질",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "뻣뻣한 두피 각질",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "모공이 문처럼 열리는 것은 비유. 속모증 쏘모카 정답 짝 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 114350,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "사우나",
+      "pc": 4650,
+      "mobile": 109700,
+      "total": 114350,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:49 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-결핍2-상징.txt",
+      "autocomplete": [
+        "사우나",
+        "사우나 고온",
+        "근처 사우나",
+        "1인 사우나",
+        "용인 사우나 고온",
+        "프라이빗 사우나",
+        "24시사우나",
+        "사우나 모자",
+        "사우나 효능",
+        "사우나 용품"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-25",
+    "symbol": "치과레진",
+    "keyword": "치과레진",
+    "mechanism_feel": "빈틈을 메움",
+    "pairs": [
+      {
+        "state": "패인 손톱 표면",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "갈라진 뒤꿈치 표면",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "경화 레진과 유연 보호막 다름. 틈의 표면 봉합이 원인치료는 아님",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 1710,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "치과레진",
+      "pc": 290,
+      "mobile": 1420,
+      "total": 1710,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+      "autocomplete": [
+        "치과 레진 비용",
+        "치과 레진 뜻",
+        "치과 레진",
+        "치과 레진치료",
+        "치과 레진 보험",
+        "치과 레진 실비",
+        "치과 레진 종류",
+        "치과 레진 가격",
+        "치과 레진 인레이",
+        "치과 레진 비용 앞니"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-26",
+    "symbol": "연골주사",
+    "keyword": "연골주사",
+    "mechanism_feel": "뻑뻑함 윤활",
+    "pairs": [
+      {
+        "state": "마찰되는 손마디 느낌",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "건조해 당기는 피부",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "관절 안 주사와 도포·섭취 도달 경로 차이. HA는 보습성분 인식이 더 강함",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 1550,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "연골주사",
+      "pc": 260,
+      "mobile": 1290,
+      "total": 1550,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+      "autocomplete": [
+        "무릎연골주사",
+        "무릎연골주사효과",
+        "무릎연골주사 부작용",
+        "연골주사",
+        "무릎연골주사비용",
+        "무릎연골주사 종류",
+        "무릎연골주사가격",
+        "무릅연골주사약",
+        "어깨 연골주사",
+        "연골주사 실비"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-27",
+    "symbol": "크라이오테라피",
+    "keyword": "크라이오테라피",
+    "mechanism_feel": "열을 급히 식힘",
+    "pairs": [
+      {
+        "state": "갱년기 열감",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "달아오른 두피",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "전신 냉기와 피부 쿨링, 호르몬 원인 구분. 홍조는 드릴2 이미 출제",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 1590,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "크라이오테라피",
+      "pc": 320,
+      "mobile": 1270,
+      "total": 1590,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-HIB.txt",
+      "autocomplete": [
+        "크라이오테라피",
+        "크라이오테라피 가격",
+        "크라이오테라피 인천",
+        "크라이오테라피 기계",
+        "크라이오테라피 서울",
+        "크라이오테라피 부산",
+        "크라이오테라피 기계 가격",
+        "크라이오테라피 다이어트",
+        "크라이오테라피 기계 구매",
+        "크라이오테라피 부천"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-28",
+    "symbol": "물광주사",
+    "keyword": "물광주사",
+    "mechanism_feel": "안쪽 수분 채움",
+    "pairs": [
+      {
+        "state": "질 건조감",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "건조한 입술",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "외부 피부 시술과 점막은 다름. 질건조 드릴2 이미 출제",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 8200,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "물광주사",
+      "pc": 1150,
+      "mobile": 7050,
+      "total": 8200,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-HIB.txt",
+      "autocomplete": [
+        "물광주사",
+        "물광주사효과",
+        "물광주사가격",
+        "물광주사통증",
+        "물광주사비용",
+        "피부물광주사",
+        "부산물광주사"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-29",
+    "symbol": "욕창매트리스",
+    "keyword": "욕창매트리스",
+    "mechanism_feel": "눌림을 나눔",
+    "pairs": [
+      {
+        "state": "앉을 때 치질 부위 눌림",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "신발 안 발바닥 압박",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "압력 분산은 지지이고 질환 원인 제거 아님. 치질 드릴2 출제 / 이름 정확검색량 1,000 미만—인지도 약점 후보(탈락선 아님)",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 660,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "욕창매트리스",
+      "pc": 130,
+      "mobile": 530,
+      "total": 660,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:20 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-DG.txt",
+      "autocomplete": [
+        "욕창매트리스",
+        "욕창 매트리스 추천",
+        "욕창 매트리스 대여",
+        "욕창 매트리스 커버",
+        "욕창 매트리스 가격",
+        "욕창매트리스 폐기방법",
+        "욕창 매트리스 사용방법",
+        "욕창 매트리스 방수커버",
+        "욕창 매트리스 설치방법",
+        "욕창 매트리스 pvc 와 tpu 비교"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-30",
+    "symbol": "니조랄",
+    "keyword": "니조랄",
+    "mechanism_feel": "곰팡이 균 억제",
+    "pairs": [
+      {
+        "state": "비듬 두피",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "습하고 가려운 피부",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "케토코나졸 약과 허브·향으로 대체 못함. 비듬은 본래용도·드릴2 출제",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 10480,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "니조랄",
+      "pc": 1730,
+      "mobile": 8750,
+      "total": 10480,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:14 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-HIB.txt",
+      "autocomplete": [
+        "니조랄 샴푸",
+        "니조랄",
+        "니조랄 2%",
+        "니조랄 가격",
+        "니조랄 등드름",
+        "니조랄 사용법",
+        "니조랄 약국",
+        "니조랄액",
+        "니조랄 크림",
+        "약국 니조랄"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-31",
+    "symbol": "헤파필터",
+    "keyword": "헤파필터",
+    "mechanism_feel": "작은 입자 걸러냄",
+    "pairs": [
+      {
+        "state": "먼지로 예민한 코",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "실내 알레르기 노출",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "외부 공기 여과만 가능. 몸속 원인 걸러낸다는 비유 금지. 콧속필터 P6377 출제",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 2560,
+    "source_url": "https://www.epa.gov/indoor-air-quality-iaq/what-hepa-filter",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "헤파필터",
+      "pc": 1230,
+      "mobile": 1330,
+      "total": 2560,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+      "autocomplete": [
+        "헤파필터",
+        "헤파필터 청소기",
+        "헤파필터 공기청정기",
+        "브레짜 헤파필터",
+        "공기청정기 헤파필터",
+        "테슬라 헤파필터",
+        "다이슨 헤파필터",
+        "암웨이 헤파 필터",
+        "청소기 헤파필터",
+        "밀레 헤파필터"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-32",
+    "symbol": "에어서스펜션",
+    "keyword": "에어서스펜션",
+    "mechanism_feel": "충격을 부드럽게",
+    "pairs": [
+      {
+        "state": "걸을 때 뒤꿈치 충격",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "앉을 때 꼬리뼈 압박",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "자동차 부품명이 타겟에 낯설 수 있음. 단순 푹신함과 능동 감쇠 구분",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 2600,
+    "source_url": "https://media.mercedes-benz.com/article/8af2ef8e-c8bc-43d3-87d5-1d8706fd10a5?legal=5",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "에어서스펜션",
+      "pc": 370,
+      "mobile": 2230,
+      "total": 2600,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:10 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\2회차\\네이버-본체2.txt",
+      "autocomplete": [
+        "에어서스펜션",
+        "벤츠 에어서스펜션",
+        "gv80 에어서스펜션",
+        "g90 에어서스펜션",
+        "에어서스펜션 튜닝",
+        "에어서스펜션쿠션",
+        "bmw 에어서스펜션",
+        "에어서스펜션 suv",
+        "에어서스펜션 고장",
+        "에어서스펜션 수리비"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-33",
+    "symbol": "템퍼",
+    "keyword": "템퍼",
+    "mechanism_feel": "몸에 맞춰 분산",
+    "pairs": [
+      {
+        "state": "자는 동안 목 압박",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "팔꿈치 기대기 통증",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "브랜드 전체 인지도와 특정 제품 구분. 일반 메모리폼과 차별 약함",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 26680,
+    "source_url": "https://uk.tempur.com/brand-page.html",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "템퍼",
+      "pc": 4980,
+      "mobile": 21700,
+      "total": 26680,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+      "autocomplete": [
+        "템퍼 베개",
+        "템퍼 매트리스",
+        "템퍼",
+        "템퍼 침대",
+        "템퍼 모션베드",
+        "템퍼 토퍼",
+        "템퍼시네마",
+        "템퍼 매장",
+        "템퍼스ai",
+        "템퍼링 뜻"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-34",
+    "symbol": "스팀청소기",
+    "keyword": "스팀청소기",
+    "mechanism_feel": "묵은 때 불려 씻음",
+    "pairs": [
+      {
+        "state": "딱딱한 두피 각질",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "손발톱 틈 오염",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "주방 오염과 인체는 다름. 뜨거운 증기 직접 적용·세균 박멸 주장은 불가",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 58340,
+    "source_url": "https://www.karcher.com/gb/en/home-and-garden/products/steam-cleaners-c6869",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "스팀청소기",
+      "pc": 8940,
+      "mobile": 49400,
+      "total": 58340,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+      "autocomplete": [
+        "스팀청소기",
+        "비쎌 스팀청소기",
+        "고압스팀청소기",
+        "한경희 스팀청소기",
+        "핸디스팀청소기",
+        "스팀청소기 대여",
+        "스팀청소기 추천",
+        "카처 스팀청소기",
+        "홈앤아트 스팀청소기",
+        "비셀 스팀청소기"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-35",
+    "symbol": "압박스타킹",
+    "keyword": "압박스타킹",
+    "mechanism_feel": "아래서 위로 받침",
+    "pairs": [
+      {
+        "state": "오래 서서 무거운 종아리",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "손등이 붓는 느낌",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "압박을 다른 부위에 단순 이식 못함. 흔한 같은 층 제품 약점",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 29540,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "압박스타킹",
+      "pc": 3640,
+      "mobile": 25900,
+      "total": 29540,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+      "autocomplete": [
+        "압박스타킹",
+        "압박스타킹효과",
+        "잘때압박스타킹",
+        "압박스타킹후기",
+        "임산부압박스타킹",
+        "편의점압박스타킹",
+        "압박스타킹추천",
+        "압박스타킹일본"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-36",
+    "symbol": "케겔운동",
+    "keyword": "케겔운동",
+    "mechanism_feel": "안쪽 힘 조임",
+    "pairs": [
+      {
+        "state": "새는 느낌의 요실금",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "힘없는 골반저",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "성·질환 광고 제약, 이미 흔한 상징. P6383 요실금 드릴 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 11790,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "케겔운동",
+      "pc": 1390,
+      "mobile": 10400,
+      "total": 11790,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+      "autocomplete": [
+        "케겔운동",
+        "케겔운동기구",
+        "남자 케겔운동",
+        "케겔운동 방법",
+        "케겔운동 효과",
+        "케겔운동 뜻",
+        "여자 케겔운동",
+        "케겔운동기",
+        "치질 케겔운동",
+        "임산부 케겔운동"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-37",
+    "symbol": "실리프팅",
+    "keyword": "실리프팅",
+    "mechanism_feel": "실로 걸어 당김",
+    "pairs": [
+      {
+        "state": "처진 볼",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "늘어져 접히는 목 피부",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "실을 걸어 고정하는 것과 제형 늘어남 다름. 메라블 해부 정답 제외",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 10680,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "실리프팅",
+      "pc": 1760,
+      "mobile": 8920,
+      "total": 10680,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+      "autocomplete": [
+        "실리프팅",
+        "얼굴실리프팅",
+        "실리프팅멍",
+        "실리프팅후붓기",
+        "실리프팅비용",
+        "실리프팅후기"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-38",
+    "symbol": "고압산소치료",
+    "keyword": "고압산소치료",
+    "mechanism_feel": "산소를 깊게 보냄",
+    "pairs": [
+      {
+        "state": "회복 더딘 손상 피부",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "피로해 축 처지는 느낌",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "산소방울 화장품과 압력 챔버 완전히 다름. 피로 일반치료 아님, 강한 보류",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 9820,
+    "source_url": "https://www.fda.gov/medical-devices/letters-health-care-providers/follow-instructions-safe-use-hyperbaric-oxygen-therapy-devices-letter-health-care-providers",
+    "source_file": null,
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "고압산소치료",
+      "pc": 1090,
+      "mobile": 8730,
+      "total": 9820,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+      "autocomplete": [
+        "고압산소치료 효과",
+        "고압산소치료",
+        "고압산소치료 비용",
+        "고압산소치료 병원",
+        "고압산소치료기",
+        "고압산소치료 부작용",
+        "부산 고압산소치료",
+        "고압산소치료 가격",
+        "대구 고압산소치료",
+        "고압산소치료 실비"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-39",
+    "symbol": "브이빔",
+    "keyword": "브이빔",
+    "mechanism_feel": "붉은 혈관 타깃",
+    "pairs": [
+      {
+        "state": "붉은 얼굴",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "면도 뒤 붉은 자국",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "PDL 혈관 표적과 냉감·붉은 색 용기 다름. 후자 질환 원인이 달라 보류",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 1980,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "브이빔",
+      "pc": 440,
+      "mobile": 1540,
+      "total": 1980,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+      "autocomplete": [
+        "브이빔 레이저",
+        "브이빔 퍼펙타",
+        "브이빔 효과",
+        "브이빔",
+        "브이빔 가격",
+        "브이빔 후기",
+        "브이빔 프리마",
+        "인천 브이빔",
+        "부산 브이빔",
+        "브이빔 레이저 가격"
+      ]
+    }
+  },
+  {
+    "id": "CROSS-40",
+    "symbol": "지방흡입",
+    "keyword": "지방흡입",
+    "mechanism_feel": "지방을 빼냄",
+    "pairs": [
+      {
+        "state": "튀어나온 국소 군살",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      },
+      {
+        "state": "불룩한 턱 아래",
+        "status": "미검증 연결 후보—기존 판정·출제 여부는 걸림 참조"
+      }
+    ],
+    "risk": "흡착 마사지·땀과 지방 제거 다름. 처짐이나 붓기를 지방이라고 단정 금지",
+    "status": "조사 풀—새 기획 통과 아님",
+    "monthly_search_volume": 7910,
+    "source_url": null,
+    "source_file": "마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+    "evidence_note": "낫게 하는 느낌과 짝은 AI 해석. 치료 효능 검증 또는 소비자 발화가 아님. 출처 없는 상징의 실제 방식은 결핍별 사전에서 추가 연결.",
+    "measurement": {
+      "keyword": "지방흡입",
+      "pc": 1380,
+      "mobile": 6530,
+      "total": 7910,
+      "status": "실측",
+      "measured": "# 측정: 2026-10-13 18:50 · 네이버 검색광고 keywordstool · 월간 PC/MO",
+      "file": "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징원-사전\\네이버-확장-추가상징.txt",
+      "autocomplete": [
+        "지방흡입",
+        "허벅지안쪽지방흡입",
+        "지방흡입수술방법",
+        "다리지방흡입",
+        "연예인지방흡입",
+        "지방흡입실밥",
+        "지방흡입지방세포",
+        "지방흡입붓기"
+      ]
+    }
+  }
+]

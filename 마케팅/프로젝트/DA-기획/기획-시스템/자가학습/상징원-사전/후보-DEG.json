@@ -1,0 +1,1426 @@
+[
+  {
+    "id": "DIC-D01",
+    "zone": "D",
+    "need": "오십견",
+    "need_keyword": [
+      "오십견"
+    ],
+    "monthly_search_volume": null,
+    "belief": "어깨가 굳어 붙어서 팔이 안 올라간다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "스테로이드주사",
+        "keyword": [
+          "스테로이드주사"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "관절 주변 염증·통증을 줄이려 약물을 주입하는 치료; 굳은 조직을 물리적으로 떼는 방식은 아니다.",
+        "memory_scene": "AI 가설: 어깨에 주사를 맞고 팔을 조심스럽게 들어 보는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "증상 완화와 관절 운동범위 회복은 구분해야 함",
+          "주사 공포·일시적 악화가 연상될 수 있음",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/conditions/frozen-shoulder/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "수압팽창술",
+        "keyword": [
+          "수압팽창술",
+          "관절낭팽창술"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "영상으로 위치를 확인하며 관절 안에 액체를 넣어 굳은 관절낭을 늘리는 시술.",
+        "memory_scene": "AI 가설: 어깨 속이 팽팽해지는 시술을 받고 팔을 움직여 보는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "명칭이 낯설어 대명사성 약함",
+          "부풀리는 느낌을 몸속 임의 압력 증가로 옮기면 위험; 효과 개인차",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.pah.nhs.uk/resources/shoulder-hydrodilatation/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "관절내시경",
+        "keyword": [
+          "관절내시경"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "오십견에서는 내시경 수술로 뻣뻣해진 관절낭을 절개해 움직임을 확보하는 방법이 있다.",
+        "memory_scene": "AI 가설: 어깨의 작은 수술 자국과 이어지는 팔 재활 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "관절내시경 전체가 오십견 치료를 뜻하지 않음; 관절낭 유리술로 범위 한정",
+          "마취·수술·재활의 부담; 바로 완치되는 장면은 과장",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://roh.nhs.uk/services-information/shoulder-and-elbow/shoulder-mua"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-D02",
+    "zone": "D",
+    "need": "무릎관절염",
+    "need_keyword": [
+      "무릎관절염"
+    ],
+    "monthly_search_volume": null,
+    "belief": "연골이 닳아 무릎뼈끼리 부딪힌다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "무릎연골주사",
+        "keyword": [
+          "무릎연골주사",
+          "히알루론산주사"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "히알루론산을 관절 안에 넣어 윤활·완충을 보완하려는 주사; 연골을 다시 만드는 치료는 아니다.",
+        "memory_scene": "AI 가설: 무릎 관절에 주사 맞고 뻣뻣함이 덜하기를 기대하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "AAOS는 통증·기능 개선 효과가 명확하지 않다고 설명",
+          "히알루론산은 다른 분야에서 흔한 보습 원료라 상위 상징이 약해질 수 있음",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.orthoinfo.org/treatment/viscosupplementation-treatment-for-knee-arthritis?webid=24DCE756"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+          "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/상징짝-드릴/1회차/카드.json"
+        ],
+        "drill_exclude": true,
+        "drill_exclude_reason": "정본 ⑤-04 무릎·히알루론산주사, 1회차 무릎연골·히알루론산주사와 동일·인접 결핍의 기존 짝."
+      },
+      {
+        "name": "인공관절수술",
+        "keyword": [
+          "인공관절수술",
+          "무릎인공관절"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "손상된 관절면을 제거하고 금속·플라스틱 부품으로 관절면을 대체한다.",
+        "memory_scene": "AI 가설: 수술 뒤 보행기를 잡고 다시 걷는 연습을 하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "관절이 자연 재생되는 방식이 아님",
+          "큰 수술·통증·재활이라는 부정 장면도 강함",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.orthoinfo.org/diseases--conditions/arthritis-of-the-knee/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "스테로이드주사",
+        "keyword": [
+          "스테로이드주사"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "관절 안 염증과 통증을 일시적으로 낮추려 약물을 주입한다.",
+        "memory_scene": "AI 가설: 붓고 아픈 무릎에 주사를 맞고 움직임을 확인하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "닳은 연골 복원과 다름",
+          "반복 사용의 한계가 있으며 효과 지속을 보장할 수 없음",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.orthoinfo.org/diseases--conditions/arthritis-of-the-knee/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-D03",
+    "zone": "D",
+    "need": "테니스엘보",
+    "need_keyword": [
+      "테니스엘보"
+    ],
+    "monthly_search_volume": null,
+    "belief": "팔꿈치 힘줄을 너무 써서 손상됐다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "체외충격파",
+        "keyword": [
+          "체외충격파"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "기기로 음향 에너지를 피부 너머 아픈 힘줄 부위에 전달하는 치료.",
+        "memory_scene": "AI 가설: 팔꿈치에 기기를 대고 반복해서 두드리는 듯한 자극을 받는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "테니스엘보 효과 근거와 장기 결과는 제한적; 재생 확정 금지",
+          "통증을 부수어 없앤다는 해석은 잘못된 기전",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.homerton.nhs.uk/shockwave-therapy",
+          "https://www.lancsteachinghospitals.nhs.uk/media/.leaflets/65d4e0481a85e2.72135308.pdf"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "스테로이드주사",
+        "keyword": [
+          "스테로이드주사"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "팔꿈치 통증을 단기간 줄이려 국소에 스테로이드를 주입하는 방식.",
+        "memory_scene": "AI 가설: 아픈 팔꿈치의 한 지점에 주사를 맞는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "강한 약점: 인용 NHS 자료는 이후 통증 재발·악화 가능성 때문에 권장하지 않음",
+          "단기 완화 이미지로 장기 회복을 약속하면 왜곡",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.lancsteachinghospitals.nhs.uk/media/.leaflets/65d4e0481a85e2.72135308.pdf"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "PRP주사",
+        "keyword": [
+          "PRP주사",
+          "자가혈주사"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "본인 혈액에서 혈소판을 농축해 손상 부위에 주입하는 방식; 회복 촉진은 치료 목적이다.",
+        "memory_scene": "AI 가설: 피를 뽑아 분리한 뒤 팔꿈치에 다시 주사하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "장기 효과 설명이 기관별로 다름: AAOS는 긍정적, 인용 NHS는 근거 부족",
+          "자가혈은 주입 원료의 출처이지 확실한 재생·무위험의 증거가 아님",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.orthoinfo.org/treatment/platelet-rich-plasma-prp?webid=24DCE756",
+          "https://www.lancsteachinghospitals.nhs.uk/media/.leaflets/65d4e0481a85e2.72135308.pdf"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-D04",
+    "zone": "D",
+    "need": "손목터널증후군",
+    "need_keyword": [
+      "손목터널증후군"
+    ],
+    "monthly_search_volume": null,
+    "belief": "좁아진 손목 안에서 신경이 눌린다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "손목보조기",
+        "keyword": [
+          "손목보조기",
+          "손목스플린트"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "손목이 과하게 굽지 않도록 중립 위치를 유지해 신경에 가해지는 압박을 덜도록 돕는다.",
+        "memory_scene": "AI 가설: 잠잘 때 손목을 곧게 잡아 주는 부목을 착용하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "흔한 보호대와 같은 층으로 보이기 쉬워 상위 상징 약함",
+          "신경을 풀어 주거나 터널을 수술처럼 넓히는 장치는 아님",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/conditions/carpal-tunnel-syndrome/",
+          "https://www.asph.nhs.uk/hand-therapy-carpal-tunnel"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "스테로이드주사",
+        "keyword": [
+          "스테로이드주사"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "손목터널의 부종과 증상을 줄이려 약물을 주입하는 치료.",
+        "memory_scene": "AI 가설: 손목에 주사를 맞고 손끝 저림의 변화를 살피는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "효과가 일시적일 수 있고 구조적 압박이 지속될 수 있음",
+          "손끝 감각을 없애는 마취 이미지와 혼동하기 쉬움",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/conditions/carpal-tunnel-syndrome/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "손목터널수술",
+        "keyword": [
+          "손목터널수술"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "터널 지붕을 이루는 인대를 절개해 정중신경이 받는 압박을 줄인다.",
+        "memory_scene": "AI 가설: 손바닥 쪽 수술 자국과 회복하며 손을 쓰는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "절개·회복 부담; 감각 회복을 즉시 보장할 수 없음",
+          "통로를 넓힘의 느낌과 혈관을 뚫음은 다른 기전",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/conditions/carpal-tunnel-syndrome/",
+          "https://www.asph.nhs.uk/hand-therapy-carpal-tunnel"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-D05",
+    "zone": "D",
+    "need": "허리디스크",
+    "need_keyword": [
+      "허리디스크"
+    ],
+    "monthly_search_volume": null,
+    "belief": "튀어나온 디스크가 신경을 눌러 아프다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "신경차단술",
+        "keyword": [
+          "신경차단술"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "영상 유도하에 신경 주변으로 약물을 전달해 염증·통증을 줄이려는 시술.",
+        "memory_scene": "AI 가설: 허리의 목표 부위를 영상으로 보면서 주사를 맞는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "디스크를 집어넣거나 신경을 제거하는 시술이 아님",
+          "정본의 핵심은 깊은 표적에 직접 전달하는 방식; 바깥 체감과 동일시 불가",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.uhb.nhs.uk/media/d3glj5k2/pi-spinal-surgery-lumbar-decompressive-surgery.pdf"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/wiki/syntheses/DA 기획 단계별 규칙.md"
+        ],
+        "drill_exclude": true,
+        "drill_exclude_reason": "정본 ④-53에 척추 특정 지점에 약물을 전달하는 신경차단술 예시가 이미 있어 제외; 정본 문구에 허리디스크가 직접 병기된 것은 아님."
+      },
+      {
+        "name": "미세현미경디스크수술",
+        "keyword": [
+          "미세현미경디스크수술",
+          "미세현미경디스크제거술"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "신경을 누르는 돌출 디스크 일부를 현미경을 이용해 제거한다.",
+        "memory_scene": "AI 가설: 작은 허리 수술 자국을 보고 다리 저림의 변화를 확인하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "디스크 전체를 새것으로 바꾸는 치료가 아님",
+          "수술 대상 선별·회복이 필요; 통증·저림 소실을 보장하지 않음",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/single-level-lumbar-microdiscectomy"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "도수치료",
+        "keyword": [
+          "도수치료"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "치료사의 손으로 근육·관절의 움직임과 긴장을 다루는 수기치료; 디스크를 제자리로 밀어 넣는다는 뜻은 아니다.",
+        "memory_scene": "AI 가설: 치료사가 허리 주변을 손으로 누르고 움직임을 도와주는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "강한 약점: 인용 NHS 자료는 일반 수기요법 설명이며 한국 도수치료의 디스크별 효과를 입증하지 않음",
+          "정본 ④-17: 치료사의 기술·힘이 핵심이라 단순 재료로 차용하기 어려움",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/tests-and-treatments/herbal-medicines-and-complementary-therapies/"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/wiki/syntheses/DA 기획 단계별 규칙.md"
+        ],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-D06",
+    "zone": "D",
+    "need": "거북목",
+    "need_keyword": [
+      "거북목"
+    ],
+    "monthly_search_volume": null,
+    "belief": "목이 앞으로 빠져 목과 어깨가 계속 버틴다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "도수치료",
+        "keyword": [
+          "도수치료"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "손을 이용해 목·어깨의 움직임과 긴장을 다루는 수기치료; 자세 운동과 구별해 볼 필요가 있다.",
+        "memory_scene": "AI 가설: 치료사가 굳은 목과 어깨를 손으로 풀며 자세를 살피는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "거북목을 영구 교정한다는 근거는 이번 자료에서 미확인",
+          "수기요법 일반 설명을 국내 특정 도수치료의 효능으로 확장하면 안 됨",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/tests-and-treatments/herbal-medicines-and-complementary-therapies/",
+          "https://mind.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31866"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/wiki/syntheses/DA 기획 단계별 규칙.md"
+        ],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "경추견인치료",
+        "keyword": [
+          "경추견인치료",
+          "목견인기"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "머리를 부드럽게 당겨 경추 사이의 공간과 목의 압박·긴장에 영향을 주는 치료.",
+        "memory_scene": "AI 가설: 누운 채 머리가 길게 당겨지는 느낌을 떠올리는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "거북목 자세의 영구 교정과 통증 완화는 다름",
+          "일부 질환에서는 부적합할 수 있어 임의로 세게 당기는 구현은 위험",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://my.clevelandclinic.org/health/treatments/23093-cervical-traction"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "넥필",
+        "keyword": [
+          "넥필"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "제조사가 목을 받치고 늘리는 홈케어 기기로 설명하는 상품; 임상 교정효과는 이번 조사에서 미확인.",
+        "memory_scene": "AI 가설: 목 아래 기기를 대고 누워 목이 펴지기를 기대하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "같은 층의 소비자 기기라 상위 상징으로는 약함",
+          "제조사 설명은 독립 임상 근거가 아님",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://mediness.kr/"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/방법정답지.md"
+        ],
+        "drill_exclude": true,
+        "drill_exclude_reason": "방법정답지의 거북목·목디스크 대응 넥필이 이미 알려진 짝."
+      }
+    ]
+  },
+  {
+    "id": "DIC-D07",
+    "zone": "D",
+    "need": "하지정맥류",
+    "need_keyword": [
+      "하지정맥류"
+    ],
+    "monthly_search_volume": null,
+    "belief": "다리의 피가 위로 못 올라가 고인다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "하지정맥류레이저",
+        "keyword": [
+          "하지정맥류레이저"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "혈관 안에서 열을 가해 문제가 있는 정맥을 닫는 치료.",
+        "memory_scene": "AI 가설: 다리 혈관 안에 가는 기구가 들어가 치료받는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "혈관을 뚫거나 혈전을 씻어 내는 방식과 반대",
+          "혈관 속 열치료를 피부 표면 온열의 효능으로 바꿀 수 없음",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.england.nhs.uk/wp-content/uploads/2023/11/Decision-support-tool-making-a-decision-about-treatment-for-varicose-veins.pdf"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "베나실",
+        "keyword": [
+          "베나실"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "의료용 접착제로 문제가 있는 정맥을 폐쇄하는 시술.",
+        "memory_scene": "AI 가설: 다리의 문제 혈관을 접착제로 붙여 닫는다고 설명 듣는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "접착제·이물질·알레르기라는 부정 연상 가능",
+          "닫는 방식이며 순환관 전체를 접착·차단한다는 의미가 아님",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.medtronic.com/en-us/healthcare-professionals/products/cardiovascular/superficial-vein/venaseal-closure-system.html",
+          "https://www.england.nhs.uk/wp-content/uploads/2023/11/Decision-support-tool-making-a-decision-about-treatment-for-varicose-veins.pdf"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "혈관경화요법",
+        "keyword": [
+          "혈관경화요법",
+          "하지정맥류경화요법"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "약물을 주입해 정맥 벽에 반응을 일으키고 해당 혈관이 닫히도록 하는 치료.",
+        "memory_scene": "AI 가설: 도드라진 다리 혈관에 주사를 맞는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "혈액을 묽게 하거나 혈관을 깨끗이 씻는 기전이 아님",
+          "주사·피부 변색 등 부정 이미지; 다른 혈관에 임의 적용 위험",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.england.nhs.uk/wp-content/uploads/2023/11/Decision-support-tool-making-a-decision-about-treatment-for-varicose-veins.pdf"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-E01",
+    "zone": "E",
+    "need": "불면증",
+    "need_keyword": [
+      "불면증"
+    ],
+    "monthly_search_volume": null,
+    "belief": "잠드는 신호가 약하고 머리가 계속 깨어 있다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "졸피뎀",
+        "keyword": [
+          "졸피뎀"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "뇌의 억제성 신호인 GABA 작용을 높여 잠드는 것을 돕는 수면제.",
+        "memory_scene": "AI 가설: 잠들기 전 알약을 먹고 불을 끄는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "의존·내성·다음 날 졸림 등이 걸림",
+          "깊은 숙면·자연 수면 회복을 보장하는 상징으로 쓰면 과장",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/medicines/zolpidem/about-zolpidem/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "멜라토닌",
+        "keyword": [
+          "멜라토닌"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "수면·각성 주기에 관여하는 호르몬 신호를 보충해 잠드는 시점을 돕는 약물.",
+        "memory_scene": "AI 가설: 취침 시간에 맞춰 한 알을 먹으며 수면 신호를 기다리는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "모든 불면증이 멜라토닌 부족 때문은 아님",
+          "널리 팔리는 원료 이미지로 같은 층 제품이 되기 쉬움",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/medicines/melatonin/common-questions-about-melatonin/"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/wiki/syntheses/DA 기획 단계별 규칙.md"
+        ],
+        "drill_exclude": true,
+        "drill_exclude_reason": "정본 ③-15·③-16에 불면·수면호르몬/멜라토닌 예시가 있어 기존 짝으로 제외."
+      },
+      {
+        "name": "불면증인지행동치료",
+        "keyword": [
+          "불면증인지행동치료",
+          "CBT-I"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "수면을 방해하는 생각·행동과 수면 습관을 조정하는 치료.",
+        "memory_scene": "AI 가설: 수면 기록을 보며 취침 습관을 치료사와 조정하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "이름이 길고 대중적 상징·즉각적 감각은 약함",
+          "상담·행동 변화의 과정이라 한 번의 자극으로 옮기기 어려움",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/conditions/insomnia/",
+          "https://nhssomerset.nhs.uk/news/document/ncmh-sleep-booklet-a5-leaflet-web/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-E02",
+    "zone": "E",
+    "need": "코골이",
+    "need_keyword": [
+      "코골이"
+    ],
+    "monthly_search_volume": null,
+    "belief": "자는 동안 숨길이 좁아져 목에서 소리가 난다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "양압기",
+        "keyword": [
+          "양압기"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "마스크로 공기압을 보내 수면 중 상기도가 좁아지지 않도록 지지하는 기기.",
+        "memory_scene": "AI 가설: 코나 입의 마스크와 호스를 연결하고 바람을 느끼며 눕는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "단순 코골이 전부의 적응증으로 일반화할 수 없음; 수면무호흡 동반 여부 구분",
+          "마스크 답답함·적응 부담의 연상이 강함",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhlbi.nih.gov/health/sleep-apnea/treatment",
+          "https://www.nhs.uk/symptoms/snoring/"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/상징짝-드릴/1회차/카드.json"
+        ],
+        "drill_exclude": true,
+        "drill_exclude_reason": "1회차 카드 D1-01 코골이·양압기가 기존 짝."
+      },
+      {
+        "name": "코골이구강장치",
+        "keyword": [
+          "코골이구강장치",
+          "하악전진장치"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "아래턱을 앞으로 유지해 수면 중 숨길이 좁아지는 것을 줄이려는 장치.",
+        "memory_scene": "AI 가설: 치아에 맞춘 장치를 물고 턱 위치가 달라진 채 자는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "모든 코골이 원인을 해결하지 않으며 맞춤·치과 평가가 중요",
+          "턱 불편·이물감; 시중 일반 마우스피스와 혼동하기 쉬움",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/symptoms/snoring/",
+          "https://www.nhlbi.nih.gov/health/sleep-apnea/treatment"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "코골이수술",
+        "keyword": [
+          "코골이수술",
+          "구개수구개인두성형술"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "선별된 경우 연구개·목젖 주변 조직을 줄이거나 형태를 바꿔 진동·폐쇄에 대응한다.",
+        "memory_scene": "AI 가설: 목 안쪽 수술을 받고 삼킬 때 불편함을 떠올리는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "수술법마다 대상·방식이 달라 단일 기전으로 묶기 어려움",
+          "코골이 재발·효과 불확실성; 조직 제거를 다른 장기에 차용하면 위험",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/symptoms/snoring/",
+          "https://www.centraleast.icb.nhs.uk/documents/snoring-surgery-for-adults-in-the-absence-of-sleep-apnoea/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-E03",
+    "zone": "E",
+    "need": "수면무호흡증",
+    "need_keyword": [
+      "수면무호흡증"
+    ],
+    "monthly_search_volume": null,
+    "belief": "잠들면 숨길이 막혀 숨이 멎는 것 같다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "양압기",
+        "keyword": [
+          "양압기"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "폐쇄성 수면무호흡에서 지속적인 공기압으로 상기도가 닫히지 않도록 지지한다.",
+        "memory_scene": "AI 가설: 밤마다 마스크를 쓰고 호스로 들어오는 바람에 적응하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "이 설명은 폐쇄성 중심이며 모든 수면무호흡 유형을 포괄하지 않음",
+          "기기를 쓸 때 작동하는 지지와 영구적 구조 교정은 다름",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhlbi.nih.gov/health/sleep-apnea/treatment"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/상징짝-드릴/1회차/카드.json"
+        ],
+        "drill_exclude": true,
+        "drill_exclude_reason": "1회차의 코골이·양압기와 인접 결핍의 사실상 같은 상징 사용이므로 보수적으로 제외; 정확히 같은 need였다는 뜻은 아님."
+      },
+      {
+        "name": "수면무호흡구강장치",
+        "keyword": [
+          "수면무호흡구강장치",
+          "하악전진장치"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "아래턱을 앞으로 잡아 혀·연조직이 뒤로 밀려 숨길을 막는 것을 줄이도록 돕는다.",
+        "memory_scene": "AI 가설: 맞춤 치아 장치를 끼고 자며 턱 위치를 유지하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "대상·중증도에 따라 적합성이 다르고 양압기와 동일 효과를 보장하지 않음",
+          "코골이 후보와 동일 장치군; 최종 통합 시 중복 주의",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhlbi.nih.gov/health/sleep-apnea/treatment"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "설하신경자극술",
+        "keyword": [
+          "설하신경자극술"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "삽입한 장치가 혀의 움직임에 관여하는 신경을 자극해 상기도를 열어 두도록 돕는다.",
+        "memory_scene": "AI 가설: 몸속 기기가 잠자는 동안 혀의 위치를 돕는다고 설명 듣는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "강한 약점: 침습적이고 적용 대상이 제한됨",
+          "국내 대명사성 미확인; 표면 전기자극을 같은 효과로 등치하면 안 됨",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhlbi.nih.gov/health/sleep-apnea/treatment"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-E04",
+    "zone": "E",
+    "need": "만성피로",
+    "need_keyword": [
+      "만성피로"
+    ],
+    "monthly_search_volume": null,
+    "belief": "쉬어도 몸의 기운과 영양이 채워지지 않는다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "마늘주사",
+        "keyword": [
+          "마늘주사"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "의료기관이 비타민 B1 계열 성분을 사용하는 수액으로 설명하는 통칭; 실제 마늘을 주입하는 뜻은 아니다.",
+        "memory_scene": "AI 가설: 수액을 맞으며 마늘 비슷한 냄새가 난다고 상상하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "의료기관 홍보 설명 수준이며 원인불명 만성피로 개선효과를 입증하지 않음",
+          "성분·배합이 기관마다 달라 통칭만으로 특정 효능 확정 불가",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://fullfaceclinic.co.kr/skinantiaging/fluid/garlic.php"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/상징짝-드릴/1회차/카드.json"
+        ],
+        "drill_exclude": true,
+        "drill_exclude_reason": "1회차 카드 D1-09 만성피로·마늘주사가 기존 짝."
+      },
+      {
+        "name": "비타민B12주사",
+        "keyword": [
+          "비타민B12주사"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "B12가 부족한 사람에게 비타민을 보충해 결핍 상태를 교정하는 주사.",
+        "memory_scene": "AI 가설: 결핍 확인 뒤 팔에 비타민 주사를 맞는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "B12 결핍과 관련 없는 피로까지 해결한다고 확장할 수 없음",
+          "만성피로증후군 치료와 동일하지 않으며 에너지 즉시 충전 이미지가 과장되기 쉬움",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/medicines/hydroxocobalamin/about-hydroxocobalamin/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "공진단",
+        "keyword": [
+          "공진단"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "제조사가 만성피로·무력감 등에 쓰는 복합 생약제로 설명하는 환제; 단일 생물학적 작동기전은 이번 자료로 확정하지 못함.",
+        "memory_scene": "AI 가설: 포장된 한 알을 꺼내 씹어 먹는 보양 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "제조사 설명·홍보는 독립 임상 검증이 아님",
+          "처방·제품별 구성 차이; 보양 이미지로 모든 피로 원인을 설명할 수 없음",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.iksu.co.kr/bbs/board.php?bo_table=m04_01&page=4&wr_id=133",
+          "https://www.kongjindan.com/bbs/faq.php?fm_id=2"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-G01",
+    "zone": "G",
+    "need": "변비",
+    "need_keyword": [
+      "변비"
+    ],
+    "monthly_search_volume": null,
+    "belief": "변이 딱딱하고 장이 잘 밀어내지 못한다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "푸룬주스",
+        "keyword": [
+          "푸룬주스"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "제조사는 소르비톨과 식이섬유 등이 배변을 돕는 방식으로 설명한다.",
+        "memory_scene": "AI 가설: 진한 주스를 마시고 화장실 신호를 기다리는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "식품이어서 같은 층 제품일 수 있음",
+          "제조사 설명 수준; 마시면 바로 비워진다는 체험을 보장할 수 없음",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.sunsweet.com/articles/why-prune-juice-works"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/wiki/syntheses/DA 기획 단계별 규칙.md"
+        ],
+        "drill_exclude": true,
+        "drill_exclude_reason": "정본 ④-64에 변비·푸룬주스가 대명사 예시로 이미 제시됨."
+      },
+      {
+        "name": "둘코락스",
+        "keyword": [
+          "둘코락스"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "비사코딜 제제는 장의 움직임을 자극해 배변을 돕는 자극성 완하제.",
+        "memory_scene": "AI 가설: 잠들기 전 약을 먹고 다음 화장실 방문을 의식하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "동일 브랜드의 제형·성분을 확인해야 하며 여기서는 비사코딜 기준",
+          "배가 꼬이거나 급하게 비우는 부정 이미지; 독소를 빼는 뜻은 아님",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/medicines/bisacodyl/about-bisacodyl/",
+          "https://www.nhs.uk/medicines/laxatives/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "듀파락",
+        "keyword": [
+          "듀파락",
+          "듀파락이지"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "락툴로오스가 장 안에 수분을 머물게 해 변을 부드럽게 만드는 삼투성 완하제.",
+        "memory_scene": "AI 가설: 달고 걸쭉한 약을 먹으며 변이 부드러워지기를 기다리는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "즉시 장을 씻어 내는 치료가 아니며 가스·복부 불편이 있을 수 있음",
+          "브랜드 연결은 제조사 첨부문서 재게시본으로 확인; 최신 제형 전체는 미확인",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/medicines/lactulose/",
+          "https://common.health.kr/shared/images/insert_pdf/IN_2013010200015_00.pdf"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-G02",
+    "zone": "G",
+    "need": "과민성대장증후군",
+    "need_keyword": [
+      "과민성대장증후군"
+    ],
+    "monthly_search_volume": null,
+    "belief": "스트레스를 받으면 장이 예민해져 꼬이거나 급해진다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "부스코판",
+        "keyword": [
+          "부스코판"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "장 등 소화관 평활근의 경련을 줄여 쥐어짜는 복통을 덜도록 돕는 진경제.",
+        "memory_scene": "AI 가설: 장이 꼬이는 듯한 배 아픔에 약을 꺼내 먹는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "IBS의 모든 원인·증상을 치료하는 약이 아님",
+          "부교감신경 차단 작용과 마음의 긴장 완화를 혼동하면 안 됨",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/medicines/buscopan-hyoscine-butylbromide/about-buscopan/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "로페라미드",
+        "keyword": [
+          "로페라미드"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "장 내용물이 지나가는 속도를 늦춰 수분 흡수 시간을 늘리고 설사를 줄이는 약.",
+        "memory_scene": "AI 가설: 잦은 화장실 신호가 멎기를 바라며 지사제를 먹는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "설사형 증상에 한정; 변비형 IBS에는 맞지 않을 수 있음",
+          "장에 갇히는 느낌·변비 연상; 장을 정화하거나 원인을 제거하는 약이 아님",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/medicines/loperamide/about-loperamide/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "Colpermin",
+        "keyword": [
+          "Colpermin"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "페퍼민트오일 의약품으로 장 근육의 경련을 줄이는 데 쓰이는 캡슐.",
+        "memory_scene": "AI 가설: 민트 성분 캡슐을 삼키며 꼬이는 배가 풀리기를 기대하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "강한 약점: 국내 대명사성·한국어 통용 표기 미확인; 조회명은 NHS에 실린 영문 브랜드명만 유지",
+          "향료·아로마와 다르며 속쓰림·역류 연상이 걸릴 수 있음",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/medicines/peppermint-oil/about-peppermint-oil/"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-G03",
+    "zone": "G",
+    "need": "역류성식도염",
+    "need_keyword": [
+      "역류성식도염"
+    ],
+    "monthly_search_volume": null,
+    "belief": "위 입구가 잘 안 닫혀 신물이 올라온다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "개비스콘",
+        "keyword": [
+          "개비스콘"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "위 내용물 위에 보호층을 형성해 역류를 억제하도록 돕고, 제산 성분은 위산을 중화한다.",
+        "memory_scene": "AI 가설: 걸쭉한 약을 먹고 위 내용물 위에 층이 뜬다고 상상하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "위 입구를 실제 뚜껑처럼 영구 봉합하는 방식은 아님",
+          "보호층이 목·식도 어디에나 유지된다고 일반화하면 안 됨",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/medicines/gaviscon/about-gaviscon/"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/wiki/syntheses/DA 기획 단계별 규칙.md"
+        ],
+        "drill_exclude": true,
+        "drill_exclude_reason": "정본 ④-05 개비스콘·뚜껑 표현이 이미 나온 역류 관련 짝."
+      },
+      {
+        "name": "오메프라졸",
+        "keyword": [
+          "오메프라졸"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "위산을 만드는 양성자 펌프의 작용을 억제해 위산 분비를 줄이는 약.",
+        "memory_scene": "AI 가설: 정해진 때 알약을 먹고 신물·쓰림의 변화를 보는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "산을 덜 만드는 것과 역류 자체를 물리적으로 막는 것은 다름",
+          "성분명이라 국내 대중 상징성이 약할 수 있음",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/medicines/omeprazole/",
+          "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/treatment"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "위저부주름술",
+        "keyword": [
+          "위저부주름술",
+          "위저부성형술"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "위 윗부분을 식도 아래쪽 둘레로 감싸 역류 방어 구조를 강화하는 수술.",
+        "memory_scene": "AI 가설: 위 입구 주변을 감싸 조여 준다는 수술 설명을 듣는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "명칭이 낯설어 대명사성 약함",
+          "수술·삼킴 불편 등 부담; 임의로 위 입구를 막는 구현은 위험",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/treatment"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-G04",
+    "zone": "G",
+    "need": "위염",
+    "need_keyword": [
+      "위염"
+    ],
+    "monthly_search_volume": null,
+    "belief": "위 안쪽이 헐어 음식이나 위산이 닿으면 쓰리다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "알마겔",
+        "keyword": [
+          "알마겔"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "알마게이트가 위산을 중화해 위염 등에 동반되는 산 관련 증상을 덜도록 하는 제산제.",
+        "memory_scene": "AI 가설: 흰색 현탁액을 먹으며 쓰린 속이 잦아들기를 기다리는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "위염의 원인을 모두 제거하거나 헐은 점막을 즉시 복원하는 약은 아님",
+          "색·점도를 실제 보호막 형성과 동일시하지 않음",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://yuhan.co.kr/Mobile/Products/List/?YPRD_IDX=1789&cid=177&mode=view"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "넥시움",
+        "keyword": [
+          "넥시움",
+          "에스오메프라졸"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "에스오메프라졸이 위산 분비 펌프를 억제해 산이 만들어지는 양을 줄인다.",
+        "memory_scene": "AI 가설: 속쓰림 때문에 처방받은 약을 규칙적으로 먹는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "강한 약점: 위염 전반의 대표 치료라는 연결은 이번 공식 자료로 충분히 확인하지 못함",
+          "원인별 치료와 구분; 오메프라졸과 같은 PPI 계열이라 통합 시 중복",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.nhs.uk/medicines/esomeprazole/common-questions-about-esomeprazole/",
+          "https://www.niddk.nih.gov/health-information/digestive-diseases/gastritis-gastropathy/treatment"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "헬리코박터제균치료",
+        "keyword": [
+          "헬리코박터제균치료",
+          "헬리코박터제균"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "헬리코박터 감염이 원인일 때 항생제와 위산 억제제 등을 함께 써 균을 제거한다.",
+        "memory_scene": "AI 가설: 여러 알을 정해진 기간 먹고 제균 여부를 확인하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "감염과 무관한 위염에 일반화할 수 없음",
+          "항생제를 통한 특정 감염 치료이며 위를 소독·살균하는 일상행동으로 옮기면 위험",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.niddk.nih.gov/health-information/digestive-diseases/gastritis-gastropathy/treatment"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-G05",
+    "zone": "G",
+    "need": "치질",
+    "need_keyword": [
+      "치질"
+    ],
+    "monthly_search_volume": null,
+    "belief": "항문 혈관이 부풀어 아프고 피가 난다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "치센",
+        "keyword": [
+          "치센"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "디오스민 경구약으로 치질 관련 징후 완화에 쓰임; 세부 작동기전은 인용 제조사 페이지에서 별도 확인하지 못함.",
+        "memory_scene": "AI 가설: 바르는 대신 약을 삼켜 치질을 관리한다고 떠올리는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "약으로 모든 치핵을 제거한다는 의미가 아님",
+          "제조사 표시 효능과 분자기전을 구분; 캡슐·정제 제품 차이 확인 필요",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.dkpharm.co.kr/m/product/view.php?idx=291"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "고무밴드결찰술",
+        "keyword": [
+          "고무밴드결찰술",
+          "치핵결찰술"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "의사가 내치핵에 밴드를 적용해 혈류를 차단하고 해당 조직이 줄어들도록 하는 치료.",
+        "memory_scene": "AI 가설: 치핵을 묶어 줄어들게 한다는 설명을 듣는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "내치핵 등 적용 대상이 제한됨",
+          "강한 약점: 묶어 말림을 정상 조직에 옮기면 손상 위험; 자가처치 재료로 사용 불가",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.niddk.nih.gov/health-information/digestive-diseases/hemorrhoids/treatment"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      },
+      {
+        "name": "치핵절제술",
+        "keyword": [
+          "치핵절제술",
+          "치질수술"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "큰 외치핵이나 탈출한 내치핵 등을 수술로 제거하는 치료.",
+        "memory_scene": "AI 가설: 수술 뒤 앉거나 배변할 때 회복을 의식하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "수술·통증·회복의 부정 이미지가 강함",
+          "혹을 없앤다는 느낌만으로 다른 원인의 결핍에 절제 기전을 적용할 수 없음",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.niddk.nih.gov/health-information/digestive-diseases/hemorrhoids/treatment"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  },
+  {
+    "id": "DIC-G06",
+    "zone": "G",
+    "need": "비만",
+    "need_keyword": [
+      "비만"
+    ],
+    "monthly_search_volume": null,
+    "belief": "식욕이 계속 당겨 필요보다 많이 먹고 지방이 쌓인다.",
+    "belief_status": "AI 가설 — 소비자 당사자 발화 미확인; 의학적 원인 확정 아님",
+    "belief_source": [],
+    "symbols": [
+      {
+        "name": "위고비",
+        "keyword": [
+          "위고비"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "세마글루타이드가 GLP-1 수용체에 작용해 식욕과 섭취량 조절에 영향을 주는 약.",
+        "memory_scene": "AI 가설: 주사제 기준으로 펜을 사용하고 식욕의 변화를 기다리는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "지방을 직접 녹이거나 위를 물리적으로 줄이는 방식이 아님",
+          "오심 등 불편과 지속 관리 부담; 제형별 장면 구분 필요",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.wegovy.com/obesity/starting-wegovy/faq.html"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/wiki/syntheses/DA 기획 단계별 규칙.md",
+          "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/방법정답지.md"
+        ],
+        "drill_exclude": true,
+        "drill_exclude_reason": "정본 ④-50·⑤-01의 비만/살빼기·위고비/GLP-1 예시와 방법정답지 GLP-1 계열 기존 답에 해당."
+      },
+      {
+        "name": "마운자로",
+        "keyword": [
+          "마운자로",
+          "티르제파타이드"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "티르제파타이드가 GIP·GLP-1 수용체에 작용해 대사와 식욕 조절에 영향을 주는 약.",
+        "memory_scene": "AI 가설: 펜 주사를 쓰며 식사량 변화를 의식하는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "미국 Mounjaro 자료는 당뇨병 브랜드 기준; 비만은 동일 성분 Zepbound 자료로 구분 확인",
+          "위고비와 이미지·기전 계열이 가까워 새 상징으로서 차별 약함",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://mounjaro.lilly.com/hcp/how-mounjaro-works",
+          "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/217806s000lbl.pdf"
+        ],
+        "source_file": [
+          "C:/claude/LLM-WIKI/마케팅/wiki/syntheses/DA 기획 단계별 규칙.md"
+        ],
+        "drill_exclude": true,
+        "drill_exclude_reason": "정본의 비만·GLP-1 예시와 동일 계열 차용이라 보수적으로 제외; 마운자로라는 이름이 정본에 직접 있었다는 뜻은 아님."
+      },
+      {
+        "name": "위소매절제술",
+        "keyword": [
+          "위소매절제술"
+        ],
+        "monthly_search_volume": null,
+        "autocomplete": null,
+        "mechanism": "위의 큰 부분을 제거해 위 용적을 줄이고 식욕·대사에도 영향을 주는 비만 수술.",
+        "memory_scene": "AI 가설: 수술 뒤 작은 양의 식사를 나누어 먹는 장면.",
+        "memory_status": "AI 가설 — 공식 설명을 바탕으로 구성; 실제 체험자 발화 미확인",
+        "weaknesses": [
+          "되돌리기 어려운 수술이며 영양·회복 관리가 따름",
+          "위가 작아짐과 단순히 덜 먹고 싶은 감각은 같은 기전이 아님",
+          "국내 대중 인지도·검색량·연관어는 본체 중앙조회 전 미확인"
+        ],
+        "source_url": [
+          "https://www.niddk.nih.gov/health-information/weight-management/bariatric-surgery/types"
+        ],
+        "source_file": [],
+        "drill_exclude": false,
+        "drill_exclude_reason": "현재 확인한 정본·방법정답지·1회차에서 이 짝 미발견; 최종 정본점검 후 재대조 필요."
+      }
+    ]
+  }
+]
+

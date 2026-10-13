@@ -1,0 +1,74 @@
+{
+  "agent_baselines": [
+    {
+      "id": "01a1347f-69cc-75e3-b0f0-337ba01370c5",
+      "path": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T18-02-07-01a1347f-69cc-75e3-b0f0-337ba01370c5.jsonl",
+      "timestamp": "2026-10-13T09:16:12.650Z",
+      "info": {
+        "input_tokens": 1027888,
+        "cached_input_tokens": 941952,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 17249,
+        "reasoning_output_tokens": 9597,
+        "total_tokens": 1045137
+      }
+    },
+    {
+      "id": "01a1347f-6aea-7a90-a196-228218240234",
+      "path": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T18-02-08-01a1347f-6aea-7a90-a196-228218240234.jsonl",
+      "timestamp": "2026-10-13T09:13:56.507Z",
+      "info": {
+        "input_tokens": 1242647,
+        "cached_input_tokens": 1152128,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 14307,
+        "reasoning_output_tokens": 6622,
+        "total_tokens": 1256954
+      }
+    }
+  ],
+  "parent_baseline": "정본점검 종료 시각에 분리 측정 예정",
+  "account_start_7day": 55,
+  "account_5hour": null,
+  "parent_session": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl",
+  "baseline": {
+    "timestamp": "2026-10-13T09:46:49.996Z",
+    "info": {
+      "input_tokens": 331164028,
+      "cached_input_tokens": 314112640,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1377395,
+      "reasoning_output_tokens": 427193,
+      "total_tokens": 332843135
+    }
+  },
+  "audit_agents_baseline": [
+    {
+      "id": "01a13494-e493-7b30-9f2f-0abe9859c535",
+      "path": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T18-25-35-01a13494-e493-7b30-9f2f-0abe9859c535.jsonl",
+      "timestamp": "2026-10-13T09:38:10.710Z",
+      "info": {
+        "input_tokens": 2192787,
+        "cached_input_tokens": 2034432,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 16771,
+        "reasoning_output_tokens": 6205,
+        "total_tokens": 2209558
+      }
+    },
+    {
+      "id": "01a13494-e59b-7030-8023-89a88132c2f8",
+      "path": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T18-25-35-01a13494-e59b-7030-8023-89a88132c2f8.jsonl",
+      "timestamp": "2026-10-13T09:38:47.485Z",
+      "info": {
+        "input_tokens": 2382824,
+        "cached_input_tokens": 2214144,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 18859,
+        "reasoning_output_tokens": 5037,
+        "total_tokens": 2401683
+      }
+    }
+  ],
+  "start_account_7day": 62
+}
