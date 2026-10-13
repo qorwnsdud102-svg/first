@@ -1,0 +1,158 @@
+{
+  "request_id": "f5d3edd5-f94a-4d17-850c-1b3017436418",
+  "state": "complete_drafts",
+  "date": "2026-10-13",
+  "classification": "5개초기기획/5개자가경고;형식0은기획승인아님",
+  "products": [
+    {
+      "folder": "01-지루성두피염",
+      "name": "스칼비아 듀얼워시",
+      "card_chars": 791,
+      "format_check_violations": 0,
+      "format_check_runs": 1,
+      "core_verdict": "첫 경고,수정없음",
+      "voice_units": 2830,
+      "voice_sample_chars": 77490,
+      "timing": {
+        "start_kst": "08:39(분단위)",
+        "end_kst": "08:48:02",
+        "wall_elapsed": "약9분02초",
+        "note": "벽시계경과,대화대기포함.순수연산시간미측정"
+      },
+      "files": [
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/01-지루성두피염/목소리사전.json",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/01-지루성두피염/목소리-비중표.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/01-지루성두피염/시장카드.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/01-지루성두피염/2-출발점.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/01-지루성두피염/3-결핍카드.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/01-지루성두피염/4-상징설계.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/01-지루성두피염/5-참신함.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/01-지루성두피염/6-사업메모.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/01-지루성두피염/기획서.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/01-지루성두피염/반응예측-GPT.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/01-지루성두피염/핵심옮김-자가검사.md"
+      ]
+    },
+    {
+      "folder": "02-좁쌀여드름",
+      "name": "포어리셋 LHA 젤",
+      "card_chars": 815,
+      "format_check_violations": 0,
+      "format_check_runs": 1,
+      "core_verdict": "첫 경고,수정없음",
+      "voice_units": 2983,
+      "voice_sample_chars": 86269,
+      "timing": {
+        "start_kst": "08:48(분단위)",
+        "end_kst": "08:57:09",
+        "wall_elapsed": "약9분09초",
+        "note": "벽시계경과,대화대기포함.순수연산시간미측정"
+      },
+      "files": [
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/02-좁쌀여드름/목소리사전.json",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/02-좁쌀여드름/목소리-비중표.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/02-좁쌀여드름/시장카드.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/02-좁쌀여드름/2-출발점.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/02-좁쌀여드름/3-결핍카드.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/02-좁쌀여드름/4-상징설계.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/02-좁쌀여드름/5-참신함.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/02-좁쌀여드름/6-사업메모.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/02-좁쌀여드름/기획서.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/02-좁쌀여드름/반응예측-GPT.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/02-좁쌀여드름/핵심옮김-자가검사.md"
+      ]
+    },
+    {
+      "folder": "03-비염",
+      "name": "룸노즈 실드",
+      "card_chars": 842,
+      "format_check_violations": 0,
+      "format_check_runs": 2,
+      "core_verdict": "첫 탈락(구매 이유) → 2매가격으로1회수정 → 경고·보류",
+      "voice_units": 2391,
+      "voice_sample_chars": 74834,
+      "timing": {
+        "start_kst": "08:57(분단위)",
+        "end_kst": "09:16:13",
+        "wall_elapsed": "약19분13초",
+        "note": "벽시계경과,대화대기포함.순수연산시간미측정"
+      },
+      "files": [
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/03-비염/목소리사전.json",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/03-비염/목소리-비중표.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/03-비염/시장카드.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/03-비염/2-출발점.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/03-비염/3-결핍카드.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/03-비염/4-상징설계.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/03-비염/5-참신함.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/03-비염/6-사업메모.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/03-비염/기획서.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/03-비염/반응예측-GPT.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/03-비염/핵심옮김-자가검사.md"
+      ]
+    },
+    {
+      "folder": "04-입냄새제거",
+      "name": "자이덴트 브레스정",
+      "card_chars": 837,
+      "format_check_violations": 0,
+      "format_check_runs": 1,
+      "core_verdict": "첫 경고,수정없음",
+      "voice_units": 2093,
+      "voice_sample_chars": 64026,
+      "timing": {
+        "start_kst": "09:16:13",
+        "end_kst": "09:48:58",
+        "wall_elapsed": "32분45초",
+        "note": "벽시계경과,대화대기포함.순수연산시간미측정"
+      },
+      "files": [
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/04-입냄새제거/목소리사전.json",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/04-입냄새제거/목소리-비중표.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/04-입냄새제거/시장카드.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/04-입냄새제거/2-출발점.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/04-입냄새제거/3-결핍카드.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/04-입냄새제거/4-상징설계.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/04-입냄새제거/5-참신함.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/04-입냄새제거/6-사업메모.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/04-입냄새제거/기획서.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/04-입냄새제거/반응예측-GPT.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/04-입냄새제거/핵심옮김-자가검사.md"
+      ]
+    },
+    {
+      "folder": "05-튼살크림",
+      "name": "시카트렌치 TECA 크림",
+      "card_chars": 839,
+      "format_check_violations": 0,
+      "format_check_runs": 2,
+      "core_verdict": "첫 탈락(원본 고유방식 없음) → TECA원료로1회교체 → 경고·보류",
+      "voice_units": 2131,
+      "voice_sample_chars": 74284,
+      "timing": {
+        "start_kst": "09:48:58",
+        "end_kst": "11:21:36",
+        "wall_elapsed": "1시간32분38초",
+        "note": "벽시계경과,대화대기포함.순수연산시간미측정"
+      },
+      "files": [
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/05-튼살크림/목소리사전.json",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/05-튼살크림/목소리-비중표.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/05-튼살크림/시장카드.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/05-튼살크림/2-출발점.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/05-튼살크림/3-결핍카드.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/05-튼살크림/4-상징설계.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/05-튼살크림/5-참신함.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/05-튼살크림/6-사업메모.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/05-튼살크림/기획서.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/05-튼살크림/반응예측-GPT.md",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-GPT-2회차-2026-10-13/05-튼살크림/핵심옮김-자가검사.md"
+      ]
+    }
+  ],
+  "usage": {
+    "account_7day_used_percent_final": 23,
+    "first_product_end": 20,
+    "note": "계정공유지표.작업단독토큰수·5시간윈도우는제공되지않음"
+  }
+}
