@@ -1,0 +1,62 @@
+[
+  {
+    "id": "T01",
+    "original_id": "D4-28",
+    "score": 1
+  },
+  {
+    "id": "T02",
+    "original_id": "D4-20",
+    "score": 1
+  },
+  {
+    "id": "T03",
+    "original_id": "H10-01",
+    "score": 8
+  },
+  {
+    "id": "T04",
+    "original_id": "D4-05",
+    "score": 5
+  },
+  {
+    "id": "T05",
+    "original_id": "D4-08",
+    "score": 6
+  },
+  {
+    "id": "T06",
+    "original_id": "D4-25",
+    "score": 1
+  },
+  {
+    "id": "T07",
+    "original_id": "H10-02",
+    "score": 10
+  },
+  {
+    "id": "T08",
+    "original_id": "D4-22",
+    "score": 6
+  },
+  {
+    "id": "T09",
+    "original_id": "D4-03",
+    "score": 1
+  },
+  {
+    "id": "T10",
+    "original_id": "D4-07",
+    "score": 5
+  },
+  {
+    "id": "T11",
+    "original_id": "D4-14",
+    "score": 1
+  },
+  {
+    "id": "T12",
+    "original_id": "D4-23",
+    "score": 4
+  }
+]

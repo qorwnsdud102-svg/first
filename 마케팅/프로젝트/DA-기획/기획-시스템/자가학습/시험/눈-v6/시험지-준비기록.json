@@ -1,0 +1,6 @@
+{
+  "test_sha256": "49c104b25c67819920e8b2f11b59cc0e9ed8d3efd1a2e792600dafcd983b8519",
+  "n": 12,
+  "normalization": "D4는 기존 카드의 need/symbol/line/gap/borrow/product/risk만 보존. 선택자예측·판정·근거P-ID 제거. H10은 판정 전 조사기록의 관찰을 같은 7칸으로 요약했으며 원카드 형식과 차이가 있어 시험 한계다. 부모는 정답을 알지만 시험평가자는 이 시험지+동결프롬프트만 읽는다.",
+  "tie_policy": "실제점수 내림차순, 동점은 original_id 오름차순의 엄격Top3 및 3위동점허용Top3를 모두 보고. 통과는 엄격Top3 2개 이상+MAE<=2.0. 사후 기준변경 금지."
+}
