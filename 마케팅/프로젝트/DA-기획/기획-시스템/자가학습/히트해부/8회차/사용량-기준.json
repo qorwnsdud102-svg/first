@@ -1,0 +1,25 @@
+{
+  "request_id": "3f45fc8e-1377-4545-bae1-0db85594704a",
+  "parent_session": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl",
+  "agent_ids": [
+    "01a13411-b614-74a0-aa7c-18f6c4ff5a0e",
+    "01a13411-b74e-7151-95df-030c67652172"
+  ],
+  "baseline": {
+    "timestamp": "2026-10-13T06:16:25.583Z",
+    "info": {
+      "input_tokens": 296835392,
+      "cached_input_tokens": 280972160,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1275580,
+      "reasoning_output_tokens": 397848,
+      "total_tokens": 298412684
+    }
+  },
+  "request_timestamp": "2026-10-13T06:54:59.344Z",
+  "account_start": {
+    "seven_day_used_percent": 29,
+    "five_hour": null
+  },
+  "method": "parent token_count delta from immediately before new round8 notification; only named task agents; cached input included in input; reasoning included in output"
+}

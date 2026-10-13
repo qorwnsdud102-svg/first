@@ -1,0 +1,116 @@
+{
+  "request_id": "3f45fc8e-1377-4545-bae1-0db85594704a",
+  "request_start": "2026-10-13T06:54:59.344Z",
+  "measurement_cutoff": "2026-10-13T07:59:38.498Z",
+  "baseline": {
+    "request_id": "3f45fc8e-1377-4545-bae1-0db85594704a",
+    "parent_session": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl",
+    "agent_ids": [
+      "01a13411-b614-74a0-aa7c-18f6c4ff5a0e",
+      "01a13411-b74e-7151-95df-030c67652172"
+    ],
+    "baseline": {
+      "timestamp": "2026-10-13T06:16:25.583Z",
+      "info": {
+        "input_tokens": 296835392,
+        "cached_input_tokens": 280972160,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1275580,
+        "reasoning_output_tokens": 397848,
+        "total_tokens": 298412684
+      }
+    },
+    "request_timestamp": "2026-10-13T06:54:59.344Z",
+    "account_start": {
+      "seven_day_used_percent": 29,
+      "five_hour": null
+    },
+    "method": "parent token_count delta from immediately before new round8 notification; only named task agents; cached input included in input; reasoning included in output"
+  },
+  "observed_end": {
+    "parent": {
+      "timestamp": "2026-10-13T07:59:38.498Z",
+      "usage": {
+        "input_tokens": 317498088,
+        "cached_input_tokens": 300914432,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1326136,
+        "reasoning_output_tokens": 412556,
+        "total_tokens": 319125936
+      }
+    },
+    "Hypatia": {
+      "timestamp": "2026-10-13T07:48:25.546Z",
+      "usage": {
+        "input_tokens": 9773125,
+        "cached_input_tokens": 9196032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 36901,
+        "reasoning_output_tokens": 3460,
+        "total_tokens": 9810026
+      }
+    },
+    "Mendel": {
+      "timestamp": "2026-10-13T07:51:02.790Z",
+      "usage": {
+        "input_tokens": 14699935,
+        "cached_input_tokens": 13939712,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 38659,
+        "reasoning_output_tokens": 4321,
+        "total_tokens": 14738594
+      }
+    }
+  },
+  "task_usage": {
+    "parent": {
+      "input_tokens": 20662696,
+      "cached_input_tokens": 19942272,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 50556,
+      "reasoning_output_tokens": 14708,
+      "total_tokens": 20713252,
+      "uncached_input_tokens": 720424
+    },
+    "Hypatia": {
+      "input_tokens": 9773125,
+      "cached_input_tokens": 9196032,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 36901,
+      "reasoning_output_tokens": 3460,
+      "total_tokens": 9810026,
+      "uncached_input_tokens": 577093
+    },
+    "Mendel": {
+      "input_tokens": 14699935,
+      "cached_input_tokens": 13939712,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 38659,
+      "reasoning_output_tokens": 4321,
+      "total_tokens": 14738594,
+      "uncached_input_tokens": 760223
+    }
+  },
+  "total_task_usage": {
+    "input_tokens": 45135756,
+    "cached_input_tokens": 43078016,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 126116,
+    "reasoning_output_tokens": 22489,
+    "total_tokens": 45261872,
+    "uncached_input_tokens": 2057740
+  },
+  "account_usage": {
+    "start_7day_used_percent": 29,
+    "end_7day_used_percent": 51,
+    "difference_percentage_points": 22,
+    "five_hour": null,
+    "attribution": "account shared, difference not attributable solely to this request"
+  },
+  "limitations": [
+    "Cached input is a subset of input. Reasoning is a subset of output. Do not add twice.",
+    "Parent delta plus exactly two task agents. Unrelated guardian sessions excluded.",
+    "No dollar-cost calculation. Tokens are cumulative context processing, not unique document words.",
+    "Report writing, bridge sending and final user reply after cutoff are not included."
+  ]
+}
