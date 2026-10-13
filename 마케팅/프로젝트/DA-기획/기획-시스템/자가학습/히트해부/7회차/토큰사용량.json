@@ -1,0 +1,110 @@
+{
+  "measured_at_kst": "2026-10-13T14:53:43.689636+09:00",
+  "scope": "ca8563f8 A+B 관찰 가능한 메인 차분 및 명시적 조사 에이전트/자식 합계",
+  "baseline_timestamp": "2026-10-13T04:49:09.414Z",
+  "status": "snapshot_not_final",
+  "rows": [
+    {
+      "id": "01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc",
+      "parent": null,
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl",
+      "first": "2026-10-13T04:49:09.422Z",
+      "cutoff": "2026-10-13T05:52:37.496Z",
+      "tokens": {
+        "input_tokens": 28222955,
+        "cached_input_tokens": 27270656,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 55536,
+        "reasoning_output_tokens": 12613,
+        "total_tokens": 28278491,
+        "uncached_input_tokens": 952299
+      },
+      "top_level_tool_calls": {
+        "exec": 85,
+        "js": 67,
+        "wait": 3
+      }
+    },
+    {
+      "id": "01a13399-7338-7983-92e7-60d030b1de3b",
+      "parent": "01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc",
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T13-50-57-01a13399-7338-7983-92e7-60d030b1de3b.jsonl",
+      "first": "2026-10-13T04:50:57.466Z",
+      "cutoff": "2026-10-13T05:47:41.547Z",
+      "tokens": {
+        "input_tokens": 6110377,
+        "cached_input_tokens": 5706368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 71212,
+        "reasoning_output_tokens": 39467,
+        "total_tokens": 6181589,
+        "uncached_input_tokens": 404009
+      },
+      "top_level_tool_calls": {
+        "exec": 44,
+        "wait": 1
+      }
+    },
+    {
+      "id": "01a1339c-d809-78b1-a1ab-37c38a360541",
+      "parent": "01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc",
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T13-54-39-01a1339c-d809-78b1-a1ab-37c38a360541.jsonl",
+      "first": "2026-10-13T04:54:39.989Z",
+      "cutoff": "2026-10-13T05:39:17.699Z",
+      "tokens": {
+        "input_tokens": 12698251,
+        "cached_input_tokens": 12209280,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 43143,
+        "reasoning_output_tokens": 8240,
+        "total_tokens": 12741394,
+        "uncached_input_tokens": 488971
+      },
+      "top_level_tool_calls": {
+        "exec": 29,
+        "js": 66
+      }
+    },
+    {
+      "id": "01a1339c-d97c-76c2-8bd1-d394bfb42fd0",
+      "parent": "01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc",
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T13-54-39-01a1339c-d97c-76c2-8bd1-d394bfb42fd0.jsonl",
+      "first": "2026-10-13T04:54:40.364Z",
+      "cutoff": "2026-10-13T05:52:22.752Z",
+      "tokens": {
+        "input_tokens": 16368361,
+        "cached_input_tokens": 15445760,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 49027,
+        "reasoning_output_tokens": 10284,
+        "total_tokens": 16417388,
+        "uncached_input_tokens": 922601
+      },
+      "top_level_tool_calls": {
+        "exec": 28,
+        "js": 89
+      }
+    }
+  ],
+  "total": {
+    "cache_write_input_tokens": 0,
+    "cached_input_tokens": 60632064,
+    "input_tokens": 63399944,
+    "output_tokens": 218918,
+    "reasoning_output_tokens": 70604,
+    "total_tokens": 63618862,
+    "uncached_input_tokens": 2767880
+  },
+  "account_percent": {
+    "start": 24,
+    "observed_at_1434": 20,
+    "window_days": 7
+  },
+  "notes": [
+    "캐시 입력은 입력에 포함된다. 추론 출력은 출력에 포함되므로 합계에 다시 더하지 않는다.",
+    "기존 메인 대화의 전체 누적 사용량이 아니라 요청 시작 직전 대비 차분이다.",
+    "A/B 공통 메인 오버헤드를 임의로 나누지 않는다.",
+    "숨겨진 시스템/안전검토 비용·Claude 사용량·금액은 이 로그로 측정하지 않았다.",
+    "실시간 진행 중인 에이전트와 이 집계 이후 호출은 다음 집계에 반영된다. 계정 사용률은 작업 단독 소비율이 아니다."
+  ]
+}

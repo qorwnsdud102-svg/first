@@ -1,0 +1,22 @@
+{
+  "parent_session": "01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc",
+  "baseline": {
+    "timestamp": "2026-10-13T04:49:09.414Z",
+    "info": {
+      "input_tokens": 261546729,
+      "cached_input_tokens": 246716544,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1200803,
+      "reasoning_output_tokens": 378832,
+      "total_tokens": 263049244
+    }
+  },
+  "account_start_percent": 24,
+  "account_window_days": 7,
+  "agent_ids": [
+    "01a13399-7338-7983-92e7-60d030b1de3b",
+    "01a1339c-d809-78b1-a1ab-37c38a360541",
+    "01a1339c-d97c-76c2-8bd1-d394bfb42fd0"
+  ],
+  "note": "사용량비율은공유계정.실제토큰은token_count차분.캐시입력포함전체와캐시입력/출력별도집계."
+}
