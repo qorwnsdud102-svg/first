@@ -1,0 +1,61 @@
+{
+  "parent_end": {
+    "timestamp": "2026-10-13T09:46:49.996Z",
+    "info": {
+      "input_tokens": 331164028,
+      "cached_input_tokens": 314112640,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1377395,
+      "reasoning_output_tokens": 427193,
+      "total_tokens": 332843135
+    }
+  },
+  "parent_delta": {
+    "input_tokens": 6648175,
+    "cached_input_tokens": 6402176,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22116,
+    "reasoning_output_tokens": 7274,
+    "total_tokens": 6670291
+  },
+  "agents": [
+    {
+      "id": "01a13494-e493-7b30-9f2f-0abe9859c535",
+      "path": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T18-25-35-01a13494-e493-7b30-9f2f-0abe9859c535.jsonl",
+      "timestamp": "2026-10-13T09:38:10.710Z",
+      "info": {
+        "input_tokens": 2192787,
+        "cached_input_tokens": 2034432,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 16771,
+        "reasoning_output_tokens": 6205,
+        "total_tokens": 2209558
+      }
+    },
+    {
+      "id": "01a13494-e59b-7030-8023-89a88132c2f8",
+      "path": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\13\\rollout-2026-10-13T18-25-35-01a13494-e59b-7030-8023-89a88132c2f8.jsonl",
+      "timestamp": "2026-10-13T09:38:47.485Z",
+      "info": {
+        "input_tokens": 2382824,
+        "cached_input_tokens": 2214144,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 18859,
+        "reasoning_output_tokens": 5037,
+        "total_tokens": 2401683
+      }
+    }
+  ],
+  "sum": {
+    "input_tokens": 11223786,
+    "cached_input_tokens": 10650752,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57746,
+    "reasoning_output_tokens": 18516,
+    "total_tokens": 11281532
+  },
+  "account_start_7day": 55,
+  "account_end_7day": 62,
+  "account_5hour": null,
+  "note": "계정 공유 사용률. 캐시는 입력에, 추론은 출력에 포함. 부모 구간은 사전 준비 일부 포함, 다음 단계에 중복 합산하지 않음. 에이전트는 사전 담당 전환 전 스냅샷까지만 합산."
+}
