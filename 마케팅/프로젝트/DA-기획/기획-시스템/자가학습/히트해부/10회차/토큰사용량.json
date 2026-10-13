@@ -1,0 +1,78 @@
+{
+  "parent_start": {
+    "timestamp": "2026-10-13T11:04:35.227Z",
+    "info": {
+      "input_tokens": 355271272,
+      "cached_input_tokens": 337442432,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1458722,
+      "reasoning_output_tokens": 450571,
+      "total_tokens": 357031706
+    }
+  },
+  "parent_end": {
+    "timestamp": "2026-10-13T11:58:27.548Z",
+    "usage": {
+      "input_tokens": 372496925,
+      "cached_input_tokens": 354133632,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1513356,
+      "reasoning_output_tokens": 464509,
+      "total_tokens": 374311993
+    }
+  },
+  "exclude_market_parent": {
+    "input_tokens": 2224670,
+    "cached_input_tokens": 2152192,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 8926,
+    "reasoning_output_tokens": 1577,
+    "total_tokens": 2233596
+  },
+  "parent_net": {
+    "input_tokens": 15000983,
+    "cached_input_tokens": 14539008,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 45708,
+    "reasoning_output_tokens": 12361,
+    "total_tokens": 15046691
+  },
+  "agents_hit10_only": {
+    "Erdos": {
+      "input_tokens": 8989964,
+      "cached_input_tokens": 8580096,
+      "output_tokens": 26090,
+      "reasoning_output_tokens": 3500,
+      "total_tokens": 9016054
+    },
+    "Darwin_after_market": {
+      "input_tokens": 2844928,
+      "cached_input_tokens": 2750976,
+      "output_tokens": 5013,
+      "reasoning_output_tokens": 939,
+      "total_tokens": 2849941
+    }
+  },
+  "total": {
+    "input_tokens": 26835875,
+    "cached_input_tokens": 25870080,
+    "output_tokens": 76811,
+    "reasoning_output_tokens": 16800,
+    "total_tokens": 26912686
+  },
+  "uncached_input_tokens": 965795,
+  "video_observation_window": {
+    "from": "2026-10-13T11:45:41.429Z",
+    "to": "2026-10-13T11:51:23.185Z",
+    "input_tokens": 817867,
+    "cached_input_tokens": 708736,
+    "output_tokens": 1297,
+    "total_tokens": 819164,
+    "uncached_input_tokens": 109131,
+    "limit": "전사·장면 읽기 및 압축을 포함한 본체 구간. 순수 영상 계산량/가격 아님. 마지막 보고서 작성은 미포함. 5편=9장면모음+5전사, 직접 청취 미검증."
+  },
+  "account_latest_weekly_percent": 23,
+  "account_checked": "2026-10-13 20:53 KST",
+  "account_5h": null,
+  "limit": "본체 일부 역검증 준비·상태응답·사용량 점검이 겹친 측정범위. 순수 해부 업무별 정밀 계량이 아님. 계정%는 공유 값이며 도중 사용자 재설정 발생. 캐시는 입력 부분집합, reasoning은 출력 부분집합이라 더하지 않음. 에이전트는 드릴4 전 고정 시점으로 잘랐다."
+}

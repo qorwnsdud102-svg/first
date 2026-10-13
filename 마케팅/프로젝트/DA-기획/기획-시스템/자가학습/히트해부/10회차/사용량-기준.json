@@ -1,0 +1,16 @@
+{
+  "parent_session": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl",
+  "baseline": {
+    "timestamp": "2026-10-13T11:04:35.227Z",
+    "info": {
+      "input_tokens": 355271272,
+      "cached_input_tokens": 337442432,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1458722,
+      "reasoning_output_tokens": 450571,
+      "total_tokens": 357031706
+    }
+  },
+  "account_start_7day": 100,
+  "agents_baseline": []
+}
