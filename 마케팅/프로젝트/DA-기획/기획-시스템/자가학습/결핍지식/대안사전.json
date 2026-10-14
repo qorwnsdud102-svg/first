@@ -1,0 +1,92 @@
+{
+ "체외충격파": {
+  "kind": "병원 시술",
+  "price": "공시 사례 12만~18만원/회, 3천~5천타. [프라이드병원](https://www.pridehospital.co.kr/guide/payment.php?category=21&code=payment&page=5)",
+  "known_effect": "받고 나면 시원하고 통증이 줄었다는 경험담.",
+  "side_effects": "시술 후 더 아팠다는 담화가 있다. 구체적인 의학적 부작용·발생률은 확인 못 함.",
+  "self": "병원에서 받는 치료. 가정용 EMS로 같은 효과를 낸다는 근거는 확인 못 함.",
+  "needs": [
+   "족저근막염"
+  ]
+ },
+ "스테로이드·뼈주사": {
+  "kind": "병원 주사 치료",
+  "price": "회당 실제 부담금 확인 못 함.",
+  "known_effect": "염증과 통증을 줄이는 주사. ‘한 방에 나았다’는 경험과 ‘그때뿐’이라는 경험이 함께 있다.",
+  "side_effects": "근막이 약해지거나 찢어질 위험. [AAOS](https://www.orthoinfo.org/diseases--conditions/plantar-fasciitis-and-bone-spurs/)",
+  "self": "셀프 불가. 의료진 시술 필요.",
+  "needs": [
+   "족저근막염"
+  ]
+ },
+ "족저근막 일부 절개 수술": {
+  "kind": "병원 수술",
+  "price": "수술·입원 총액 확인 못 함.",
+  "known_effect": "발바닥 근막 일부를 끊어 당김을 줄이는 치료.",
+  "side_effects": "수술 뒤에도 만성 통증이 남을 수 있다. [AAOS](https://www.orthoinfo.org/diseases--conditions/plantar-fasciitis-and-bone-spurs/)",
+  "self": "셀프 불가.",
+  "needs": [
+   "족저근막염"
+  ]
+ },
+ "소염진통제": {
+  "kind": "병원 처방약·약국 일반약",
+  "price": "일반약 이지엔6애니 10캡슐 등록가 1,500~4,000원. 처방 진료·조제비는 확인 못 함. [약국 가격 비교](https://barkiri.com/products/p212)",
+  "known_effect": "통증과 염증을 줄이는 약.",
+  "side_effects": "속 불편함·위궤양·출혈·신장 기능 문제 가능. [AAOS 약물 설명](https://www.orthoinfo.org/treatment/what-are-nsaids/)",
+  "self": "일반약은 약국에서 구매 가능. 한 포장 수천 원이며 월비용은 복용량에 따라 달라 확인 못 함.",
+  "needs": [
+   "족저근막염"
+  ]
+ },
+ "콘드로이친 등 관절 영양제": {
+  "kind": "건강기능식품",
+  "price": "GNM 뮤코다당단백 1500 공시 사례 17,900원/60정. 하루 2정 기준 30일분. [제조사 상품 정보](https://www.gnm.co.kr/web/upload/ai/index.html)",
+  "known_effect": "관절·연골 건강을 돕는다는 인식. 족저근막염 치료·예방 효과는 확인 못 함.",
+  "side_effects": "콘드로이친은 와파린 복용자의 출혈 위험과 관련된 보고가 있다. [NCCIH](https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know)",
+  "self": "구매·섭취 가능. 제품 사례 월 17,900원.",
+  "needs": [
+   "족저근막염"
+  ]
+ },
+ "아치·기능성·맞춤 깔창": {
+  "kind": "셀프 보조용품·맞춤 제작",
+  "price": "기성 액트플러스 인솔 판매 사례 29,700원/켤레. 맞춤 제작가는 확인 못 함. [공식몰](https://www.actplus.co.kr/goods/goods_view.php?goodsNo=1000000074)",
+  "known_effect": "아치를 받쳐 주고 걷거나 서 있을 때 발 부담을 줄인다.",
+  "side_effects": "착용 후 통증 증가 담화. 제품별 의학적 부작용은 확인 못 함.",
+  "self": "기성품은 직접 넣어 사용 가능. 맞춤은 측정·제작 필요.",
+  "needs": [
+   "족저근막염"
+  ]
+ },
+ "쿠션 운동화·리커버리 슬리퍼": {
+  "kind": "생활용품",
+  "price": "판매 사례: 스케쳐스 아치핏 139,000원/켤레, 액트플러스 슬라이드 44,900원/켤레. [스케쳐스](https://www.skecherskorea.co.kr/product/SL0MPCGX082), [액트플러스](https://www.actplus.co.kr/goods/goods_view.php?goodsNo=1000000074)",
+  "known_effect": "오래 서 있거나 걸을 때 덜 아프고 편하다는 경험담.",
+  "side_effects": "안 맞는 신발의 불편·통증 담화. 제품별 의학적 부작용은 확인 못 함.",
+  "self": "직접 구매·착용 가능. 월비용·교체 주기는 확인 못 함.",
+  "needs": [
+   "족저근막염"
+  ]
+ },
+ "저주파·EMS 발 마사지기": {
+  "kind": "셀프 기기",
+  "price": "슬룸 발편한케어 공식몰 검색 노출가 99,000원/대. [공식몰](https://www.sleeplab.co.kr/)",
+  "known_effect": "찌릿하게 자극하고 마사지해 발이 시원해지거나 통증이 줄었다는 담화.",
+  "side_effects": "전기자극 기기에서 피부 자극·화상·통증·심박조율기 간섭 보고. 특정 브랜드의 발생률은 확인 못 함. [FDA](https://www.fda.gov/medical-devices/consumer-products/electronic-muscle-stimulators)",
+  "self": "집에서 사용 가능. 초기 구매비 약 10만원인 제품 사례이며 유지비는 확인 못 함.",
+  "needs": [
+   "족저근막염"
+  ]
+ },
+ "스트레칭·공 굴리기·쉬기": {
+  "kind": "생활요법",
+  "price": "스트레칭·휴식은 추가 구매비 0원. 기존 수건·공·물병 활용 가능.",
+  "known_effect": "발바닥·종아리 당김을 풀고 발 사용을 줄여 통증을 덜려는 방법.",
+  "side_effects": "공 굴리기·지압 후 더 아프다는 담화. 의학적 발생률은 확인 못 함.",
+  "self": "집에서 가능. 기존 물건을 쓰면 추가 구매비 0원.",
+  "needs": [
+   "족저근막염"
+  ]
+ }
+}

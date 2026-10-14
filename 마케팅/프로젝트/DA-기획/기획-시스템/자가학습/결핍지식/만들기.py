@@ -4,10 +4,19 @@
 웹 검색(codex --search)은 의학 사실·가격·부작용·지금 팔리는 제품을 보충한다. 결핍마다 새 짧은 GPT 창(읽기 전용)이 한 장으로 정리한다.
 목소리 비중표·시장카드가 없는 결핍은 만들지 않는다(사장님 P6493: 기초조사는 단순 웹 검색만으로 하면 안 된다). 한 번 만들면 드릴·시험이 다시 쓴다.
 
-  python 만들기.py <결핍> [<결핍> ...]   # 이미 있는 카드는 건너뛴다 → <결핍>.json · <결핍>.md · 사용량.json
+토큰 아끼기(사장님 2026-10-14 "토큰 낭비, 호출제한 주의하면서 병렬로"):
+- 목소리 원표본(목소리-표본.txt, 결핍당 120~160KB)은 묶음에 넣지 않는다. 같은 표본을 센 비중표(예시 말 포함)로 충분하다.
+- 대안사전.json: 다른 카드에서 이미 조사한 대안(체외충격파·스테로이드 주사 등)의 가격·부작용·출처를 다시 검색하지 않고 쓴다.
+- 병렬: 카드마다 별도 codex exec. 웹 검색은 OpenAI 서버의 web_search 도구라 이 PC의 IP로 네이버·구글을 직접 치지 않는다.
+  그래도 OpenAI 쪽 한도를 생각해 동시에 3개까지만 돌린다(--jobs).
+
+  python 만들기.py [--jobs 3] <결핍> [<결핍> ...]   # 이미 있는 카드는 건너뛴다 → <결핍>.json · <결핍>.md · 사용량.json · 대안사전.json
 """
+import argparse
 import glob
 import json
+import threading
+from concurrent.futures import ThreadPoolExecutor
 import os
 import re
 import shutil
@@ -19,9 +28,13 @@ H = os.path.dirname(os.path.abspath(__file__))
 A = os.path.dirname(H)  # 자가학습
 BASE = os.path.normpath(os.path.join(A, "..", "..", "기초분석"))  # DA-기획/기초분석
 MODEL, EFFORT = "gpt-6.1-sol", "ultra"
+SKIP = {"목소리-표본.txt"}  # 원표본은 비중표가 이미 센 것
+LOCK = threading.Lock()
+DICT = os.path.join(H, "대안사전.json")
 PROMPT = """너는 DA(메타 광고) 제품 기획팀의 조사원이다. 결핍 하나에 대해, 기획자가 상징 짝을 고르기 전에 알아야 할 사전 지식을 한 장으로 정리한다.
-1차 자료: 이 폴더의 우리-기초분석/ — 우리가 커뮤니티·유튜브에서 이 결핍과 대안 키워드로 모은 실제 목소리(목소리-표본.txt, 수천 건)와 그것을 센 비중표(목소리-비중표*.md, 있으면), 시장카드.md(메인 키워드 검색량·메타 광고, 있으면). 비중표가 있으면 비율 숫자를 그대로 쓰고, 없으면 표본을 rg로 대안 이름·불만 말로 훑어 센다. 큰 파일은 통째로 출력하지 말고 필요한 부분만 찾는다.
-보충: 결핍.json, 우리-자료.md(우리 상징 사전 절, 있으면), 그리고 웹 검색(병원·약국 가격, 부작용, 지금 쇼핑·메타에서 팔리는 제품). 다른 폴더는 보지 않는다.
+1차 자료: 이 폴더의 우리-기초분석/ — 우리가 커뮤니티·유튜브에서 이 결핍과 대안 키워드로 모은 실제 목소리 수천 건을 센 비중표(목소리-비중표*.md, 예시 말 포함)와 교차표, 시장카드.md(메인 키워드 검색량·메타 광고), 검색량 파일. 비율 숫자는 비중표 그대로 쓴다. 파일은 필요한 절만 찾아 읽는다.
+대안사전.json(있으면): 다른 결핍 카드에서 이미 조사한 대안의 가격·부작용·출처다. 여기 있는 대안은 웹에서 다시 찾지 말고 그대로 쓰고, 이 결핍 목소리에서 나온 불만·꺼리는 점만 새로 채운다. 없는 대안만 웹 검색한다.
+보충: 결핍.json, 우리-자료.md(우리 상징 사전 절, 있으면), 그리고 웹 검색(병원·약국 가격, 부작용, 지금 쇼핑·메타에서 팔리는 제품). 다른 폴더는 보지 않는다. 같은 검색을 되풀이하지 않는다.
 
 채울 것(한국어, 타겟이 쓰는 말로):
 - core: 이 결핍이 무엇인지 — 핵심 원인과 증상, 진행(사람들이 아는 말로 2~3문장)
@@ -79,8 +92,14 @@ def make(need):
     d = os.path.join(H, "_묶음", need)
     os.makedirs(d, exist_ok=True)
     json.dump(e[0] if e else {"need": need}, open(os.path.join(d, "결핍.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    shutil.copytree(src, os.path.join(d, "우리-기초분석"), dirs_exist_ok=True)
+    shutil.copytree(src, os.path.join(d, "우리-기초분석"), dirs_exist_ok=True, ignore=lambda _, names: [n for n in names if n in SKIP])
+    text = "".join(open(os.path.join(d, "우리-기초분석", f), encoding="utf-8", errors="ignore").read() for f in os.listdir(os.path.join(d, "우리-기초분석")))
     notes = our_notes(need)
+    with LOCK:
+        known = json.load(open(DICT, encoding="utf-8")) if os.path.exists(DICT) else {}
+    hit = {k: v for k, v in known.items() if k in text or k in notes}
+    if hit:
+        json.dump(hit, open(os.path.join(d, "대안사전.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     if notes:
         open(os.path.join(d, "우리-자료.md"), "w", encoding="utf-8").write(notes)
     sp = os.path.join(d, "_schema.json")
@@ -92,16 +111,29 @@ def make(need):
     os.remove(sp)
     m = re.findall(r"tokens used[^\d]*([\d,]+)", (r.stderr or "") + (r.stdout or ""), re.I)
     tok = int(m[-1].replace(",", "")) if m else None
-    up = os.path.join(H, "사용량.json")
-    use = json.load(open(up, encoding="utf-8")) if os.path.exists(up) else {}
-    use[need] = tok
-    json.dump(use, open(up, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    if os.path.exists(out):
-        open(os.path.join(H, need + ".md"), "w", encoding="utf-8").write(md(json.load(open(out, encoding="utf-8"))))
-        shutil.rmtree(d, ignore_errors=True)
+    with LOCK:
+        up = os.path.join(H, "사용량.json")
+        use = json.load(open(up, encoding="utf-8")) if os.path.exists(up) else {}
+        use[need] = tok
+        json.dump(use, open(up, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        if os.path.exists(out):
+            c = json.load(open(out, encoding="utf-8"))
+            open(os.path.join(H, need + ".md"), "w", encoding="utf-8").write(md(c))
+            known = json.load(open(DICT, encoding="utf-8")) if os.path.exists(DICT) else {}
+            for a in c["alternatives"]:  # 가격·부작용은 결핍이 달라도 같다 — 다음 카드가 다시 쓴다
+                e = known.setdefault(a["name"], {k: a[k] for k in ("kind", "price", "known_effect", "side_effects", "self")})
+                e.setdefault("needs", [])
+                if need not in e["needs"]:
+                    e["needs"].append(need)
+            json.dump(known, open(DICT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+            shutil.rmtree(d, ignore_errors=True)
     print(need, "완료" if os.path.exists(out) else "실패 " + (r.stderr or "")[-300:], "토큰", tok, flush=True)
 
 
 if __name__ == "__main__":
-    for n in sys.argv[1:]:
-        make(n)
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--jobs", type=int, default=3)
+    ap.add_argument("needs", nargs="+")
+    o = ap.parse_args()
+    with ThreadPoolExecutor(max_workers=o.jobs) as ex:
+        list(ex.map(make, o.needs))
