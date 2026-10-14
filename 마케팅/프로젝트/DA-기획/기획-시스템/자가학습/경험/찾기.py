@@ -84,12 +84,16 @@ def find(need, impl):
     same = [r for r in rows if r["need"] and (need in r["need"] or r["need"] in need)]
     k = kind(impl)
     like = [r for r in rows if r["kind"] == k and r not in same]
-    pick = lambda L, ok: (sorted([r for r in L if ok(r["score"])], key=lambda r: r["score"], reverse=ok(10)) or [None])[0]
+    # 같은 결핍은 가장 최근 판정(최신 지적)을, 다른 결핍은 최근 판정 몇 건 중 결핍마다 돌아가며 꺼낸다.
+    # 6회차까지는 점수 최고 1건만 꺼내 같은 사례(D1-06·R4-06)가 거의 모든 카드에 들어갔다.
+    recent = lambda L, ok: [r for r in L if ok(r["score"])][::-1]
+    turn = sum(map(ord, need))
+    rot = lambda L, n: L[:n][turn % len(L[:n])] if L else None
     out = {
-        "같은 결핍 · 성공": pick(same, lambda s: s >= SUCCESS),
-        "같은 결핍 · 실패": pick(same, lambda s: s <= FAIL),
-        f"같은 구현({k}) · 성공": pick(like, lambda s: s >= SUCCESS),
-        f"같은 구현({k}) · 실패": pick(like, lambda s: s <= FAIL),
+        "같은 결핍 · 성공": (recent(same, lambda s: s >= SUCCESS) or [None])[0],
+        "같은 결핍 · 실패": (recent(same, lambda s: s <= FAIL) or [None])[0],
+        f"같은 구현({k}) · 성공": rot(recent(like, lambda s: s >= SUCCESS), 4),
+        f"같은 구현({k}) · 실패": rot(recent(like, lambda s: s <= FAIL), 6),
     }
     out["이 결핍에 이미 쓴 상징"] = sorted({r["symbol"] for r in same if r["symbol"]})
     return out
