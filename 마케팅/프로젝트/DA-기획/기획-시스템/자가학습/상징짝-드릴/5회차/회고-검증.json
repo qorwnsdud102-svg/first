@@ -1,0 +1,71 @@
+{
+  "request_id": "d9753d74-7460-4b66-9c30-b7870a228981",
+  "verified_at": "2026-10-14T00:50:57.456940+00:00",
+  "files": [
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\경험\\회고-전체.md",
+      "before_sha256": "1711a6b135d92e28b367f6103d1fb32efc885907e276e219d6e2a8153bc6333f",
+      "after_sha256": "8a11b0e123a04dfd78f8b7b285b5f454f5de7fc2dc6a4f3a62cc4b081bcb5ffc"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\경험\\생각-순서.md",
+      "before_sha256": "cbe8570b4914d6a79496f3be83f73112c1b5d2d7fcceb8f55f5495813faf3f8c",
+      "after_sha256": "bac00440058e8dd1f6b9ce9ded5a139956fc473257930102c47e1b440fbe0b1b"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\경험\\결핍별-시도.md",
+      "before_sha256": "bb927cf3d947bae64e07d6943a0ada196c46dc376eb7d40807e6c90ed7f8fcec",
+      "after_sha256": "b65decd08d209ccd8a7a94cecd384cc098dcd3c454b46bd302776a434db80f9b"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\경험\\고쳐쓰기-본보기.md",
+      "before_sha256": "88d6bb81182df01cd2d4100c3efafd2efdd84355818e60df2c03221d73c7646d",
+      "after_sha256": "3ddf17840b48c5a4e01c6f6ee5982382b987f37a106c8218c828cff2a46edc65"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\경험\\본보기-7점.md",
+      "before_sha256": "8e05b6b00fb3782aaf6d9a27f43c76e6414b8943c0be5f7c979a5b642014d64d",
+      "after_sha256": "02d5fbb0ef651bb571a5e35e389d7213de99f253bace91c6724c4c36252f74c8"
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\경험\\실수-반복표.md",
+      "before_sha256": "178c6bf30d292b121b5495d4550076323cb4fe27c27f817dcf7b1003787bef64",
+      "after_sha256": "3b068f6de15bf54556a5978f65b514a25a15bf922cb58a012dd3bf2727fa94be"
+    }
+  ],
+  "judged_cards": 10,
+  "mean": 5.4,
+  "manufacturing_infeasible": [
+    "D5-22",
+    "D5-07",
+    "D5-03",
+    "D5-15"
+  ],
+  "repeat_metric": {
+    "numerator": 6,
+    "denominator": 10,
+    "rate": 0.6,
+    "ids": [
+      "D5-22",
+      "D5-26",
+      "D5-07",
+      "D5-03",
+      "D5-15",
+      "D5-12"
+    ],
+    "definition": "4회차에서 확인된 동일 오류 유형에 보수적으로 대응한 선발 카드 수/5회차 대표판정10장"
+  },
+  "raw_and_cards_unchanged": {
+    "C:\\claude\\LLM-WIKI\\마케팅\\raw\\본인\\2026-10-14_본인판정_상징짝드릴5회차-Claude선발10장-점수-이유_만들수있나-기존공장제품.md": "361c47de84965c9ceb589eac999967c2b882b51c91ca35b1edc7da35911bcab8",
+    "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\5회차\\카드-30.json": "a3e20f3e0397a63d8685514a061d3546761530daaae8936382aaad132473b833"
+  },
+  "checks": [
+    "10 cards + exact human quotations",
+    "stage IV one bullet added",
+    "prior retrospectives/examples preserved",
+    "10 deficit entries added once",
+    "two 7+ examples retain manufacturing and efficacy limits",
+    "six files only; no raw/canonical/ledger/commit edits"
+  ],
+  "fresh_read_verified": true
+}

@@ -1,0 +1,71 @@
+{
+  "request_id": "d9753d74-7460-4b66-9c30-b7870a228981",
+  "budget": 1000000,
+  "baseline": {
+    "timestamp": "2026-10-14T00:40:51.414Z",
+    "usage": {
+      "input_tokens": 481136629,
+      "cached_input_tokens": 459203712,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1932322,
+      "reasoning_output_tokens": 568727,
+      "total_tokens": 483370663
+    },
+    "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+  },
+  "status": "complete",
+  "sources": {
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\경험\\결핍별-시도.md": "bb927cf3d947bae64e07d6943a0ada196c46dc376eb7d40807e6c90ed7f8fcec",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\경험\\고쳐쓰기-본보기.md": "88d6bb81182df01cd2d4100c3efafd2efdd84355818e60df2c03221d73c7646d",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\경험\\본보기-7점.md": "8e05b6b00fb3782aaf6d9a27f43c76e6414b8943c0be5f7c979a5b642014d64d",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\경험\\생각-순서.md": "cbe8570b4914d6a79496f3be83f73112c1b5d2d7fcceb8f55f5495813faf3f8c",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\경험\\실수-반복표.md": "178c6bf30d292b121b5495d4550076323cb4fe27c27f817dcf7b1003787bef64",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\경험\\회고-전체.md": "1711a6b135d92e28b367f6103d1fb32efc885907e276e219d6e2a8153bc6333f",
+    "마케팅\\raw\\본인\\2026-10-14_본인판정_상징짝드릴5회차-Claude선발10장-점수-이유_만들수있나-기존공장제품.md": "361c47de84965c9ceb589eac999967c2b882b51c91ca35b1edc7da35911bcab8",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\상징짝-드릴\\5회차\\카드-30.json": "a3e20f3e0397a63d8685514a061d3546761530daaae8936382aaad132473b833"
+  },
+  "checkpoint": {
+    "timestamp": "2026-10-14T00:47:44.702Z",
+    "usage": {
+      "input_tokens": 481993453,
+      "cached_input_tokens": 459942784,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1935844,
+      "reasoning_output_tokens": 569735,
+      "total_tokens": 484231009
+    },
+    "delta": {
+      "input_tokens": 856824,
+      "cached_input_tokens": 739072,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3522,
+      "reasoning_output_tokens": 1008,
+      "total_tokens": 860346
+    },
+    "note": "편집 직전 관측치. 후속 편집·검증·완료 통지는 마감 관측치에 추가됨."
+  },
+  "closing_observation": {
+    "timestamp": "2026-10-14T00:50:57.594Z",
+    "usage": {
+      "input_tokens": 482120059,
+      "cached_input_tokens": 460062336,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1943669,
+      "reasoning_output_tokens": 570769,
+      "total_tokens": 484365440
+    },
+    "delta": {
+      "input_tokens": 983430,
+      "cached_input_tokens": 858624,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 11347,
+      "reasoning_output_tokens": 2042,
+      "total_tokens": 994777
+    },
+    "fresh_input_tokens": 124806,
+    "within_budget_at_observation": true,
+    "remaining_at_observation": 5223,
+    "note": "현재 완료 통지 호출 직전까지 기록된 누적치. 이 도구 호출 이후의 최종 답변/후행 계측은 포함하지 않아 과업 종료 총량으로 단정하지 않음. 캐시는 입력에 포함되어 중복 합산하지 않음."
+  },
+  "bridge_notice_key": "retro-d5-1014-result"
+}
