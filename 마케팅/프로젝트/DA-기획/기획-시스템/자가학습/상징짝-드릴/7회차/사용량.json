@@ -1,0 +1,67 @@
+{
+ "cards": 10,
+ "model": "gpt-6-astra · effort ultra (5회차와 같음, 6회차는 gpt-6.1-sol high)",
+ "tokens_total": 382470,
+ "per_card": [
+  {
+   "id": "D7-01",
+   "need": "과민성대장증후군",
+   "tokens": 37871,
+   "ok": true
+  },
+  {
+   "id": "D7-02",
+   "need": "족저근막염",
+   "tokens": 37123,
+   "ok": true
+  },
+  {
+   "id": "D7-03",
+   "need": "역류성식도염",
+   "tokens": 43076,
+   "ok": true
+  },
+  {
+   "id": "D7-04",
+   "need": "쥐젖",
+   "tokens": 34767,
+   "ok": true
+  },
+  {
+   "id": "D7-05",
+   "need": "탈모",
+   "tokens": 40978,
+   "ok": true
+  },
+  {
+   "id": "D7-06",
+   "need": "축농증",
+   "tokens": 55838,
+   "ok": true
+  },
+  {
+   "id": "D7-07",
+   "need": "손목터널증후군",
+   "tokens": 35364,
+   "ok": true
+  },
+  {
+   "id": "D7-08",
+   "need": "치질",
+   "tokens": 35941,
+   "ok": true
+  },
+  {
+   "id": "D7-09",
+   "need": "아토피",
+   "tokens": 35780,
+   "ok": true
+  },
+  {
+   "id": "D7-10",
+   "need": "위염",
+   "tokens": 25732,
+   "ok": true
+  }
+ ]
+}
