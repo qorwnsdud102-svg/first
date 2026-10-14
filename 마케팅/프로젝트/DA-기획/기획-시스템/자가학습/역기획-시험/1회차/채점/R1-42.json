@@ -1,0 +1,14 @@
+{
+  "id": "R1-42",
+  "best": 1,
+  "plans": [
+    {"symbol_match": 0, "bridge_match": 1, "need_read": 2},
+    {"symbol_match": 1, "bridge_match": 1, "need_read": 2},
+    {"symbol_match": 0, "bridge_match": 0, "need_read": 2}
+  ],
+  "leak": false,
+  "alt_good": true,
+  "alt_reason": "첫째 안은 핫타월의 수염 불림을 온열·윤활 젤로 연결해 반복 면도와 자극에 대응할 구현 당위가 있다.",
+  "fail_stage": "짝 고르기",
+  "note": "세 안 모두 자극·피부손상 결핍은 읽었지만, 정답의 병풀·시카 계열과 연결되는 둘째 안을 후순위에 뒀다."
+}

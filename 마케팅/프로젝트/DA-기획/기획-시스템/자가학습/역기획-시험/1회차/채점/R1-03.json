@@ -1,0 +1,14 @@
+{
+  "id": "R1-03",
+  "best": 1,
+  "plans": [
+    {"symbol_match": 0, "bridge_match": 0, "need_read": 2},
+    {"symbol_match": 0, "bridge_match": 1, "need_read": 2},
+    {"symbol_match": 0, "bridge_match": 0, "need_read": 2}
+  ],
+  "leak": false,
+  "alt_good": true,
+  "alt_reason": "2안은 써마지의 조임 이미지를 이름과 밀착막의 당김 체감에 연결해 눈밑 탄력 대안으로 검토할 만하다.",
+  "fail_stage": "상징 떠올리기",
+  "note": "세 안 모두 눈밑 탄력 결핍은 읽었지만 울쎄라·초음파 계열을 놓쳤고, 2안만 시술을 연상시키는 이름·체감 다리를 일부 잡았다."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "R1-40",
+  "best": 0,
+  "plans": [
+    {"symbol_match": 0, "bridge_match": 0, "need_read": 2},
+    {"symbol_match": 0, "bridge_match": 0, "need_read": 2},
+    {"symbol_match": 0, "bridge_match": 0, "need_read": 1}
+  ],
+  "leak": false,
+  "alt_good": true,
+  "alt_reason": "1안은 보형물의 부피 보강 상징을 슬리브의 실제 두께로 구현해 크기·상대 만족 걱정에 맞는 대안이다.",
+  "fail_stage": "상징 떠올리기",
+  "note": "1·2안은 근본 걱정을 잘 읽었지만 보톡스 계열과 정답의 다리는 모두 빠졌고, 3안은 미확인 발기 충만도 가설로 결핍을 좁혔다."
+}

@@ -29,11 +29,11 @@ SOURCES = {  # 묶음에 넣는 참고 자료(복사본 이름: 원본)
     "방법정답지.md": os.path.join(A, "히트해부", "방법정답지.md"),
 }
 sys.path.insert(0, os.path.join(A, "경험"))
-sys.path.insert(0, os.path.join(A, "상징짝-드릴", "7회차"))
+sys.path.insert(0, os.path.join(A, "상징짝-드릴", "8회차"))
 import 찾기  # noqa: E402
-from drill7 import RULES  # noqa: E402
+from drill8 import RULES  # noqa: E402
 RULES = RULES.split("# 카드 칸")[0]
-MODEL = "gpt-6-astra"  # 드릴 7과 같은 모델
+MODEL = "gpt-6.1-sol"  # 사장님 2026-10-14: 6 아스트라 ultra는 너무 비싸 6.1 sol ultra로
 STAGES = ["결핍 해석", "상징 떠올리기", "짝 고르기", "구현", "없음"]
 
 ANSWER_PROMPT = """너는 DA(메타 광고) 제품 기획자다. 이 폴더의 문제.json에 결핍 하나가 있다.
@@ -126,7 +126,15 @@ def cmd_pack(rd):
         case = {k: (None if isinstance(v, dict) and hit(v.get("symbol", "") + " " + v.get("impl", "")) else v) for k, v in case.items()}
         case["이 결핍에 이미 쓴 상징"] = [t for t in case["이 결핍에 이미 쓴 상징"] if not hit(t)]
         json.dump(case, open(os.path.join(d, "사례4.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-        left = [w for f in list(SOURCES) + ["사례4.json"] for w in leaks(open(os.path.join(d, f), encoding="utf-8").read(), {**ans, "symbol": ""})]
+        # 생각 순서·규칙의 예시(프락셀 → 무좀 발톱 등)가 이 문제의 답일 수 있다 — 정답 상징 계열·누출어는 묶음 전체에서 ○○로 가린다
+        mask = sorted({w for w in list(ans.get("symbol_family", [])) + list(ans.get("leak_terms", [])) + [ans.get("brand", ""), ans.get("product", "")] if w and len(w) > 1}, key=len, reverse=True)
+        for f in list(SOURCES) + ["규칙.md", "사례4.json"]:
+            fp = os.path.join(d, f)
+            t = open(fp, encoding="utf-8").read()
+            for w in mask:
+                t = t.replace(w, "○○")
+            open(fp, "w", encoding="utf-8").write(t)
+        left = [w for f in list(SOURCES) + ["규칙.md", "사례4.json"] for w in leaks(open(os.path.join(d, f), encoding="utf-8").read(), {**ans, "symbol": ""})]
         assert not left, (x["id"], "묶음에 답이 남음", left)
     json.dump(log, open(os.path.join(rd, "묶음-기록.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("묶음", len(q), "· 지운 줄", sum(sum(v.values()) for v in log.values()))
@@ -226,6 +234,6 @@ if __name__ == "__main__":
     elif o.cmd == "answer":
         cmd_answer(rd, o.only, o.effort or "ultra")
     elif o.cmd == "grade":
-        cmd_grade(rd, o.only, o.effort or "high")
+        cmd_grade(rd, o.only, o.effort or "ultra")
     else:
         cmd_sum(rd)

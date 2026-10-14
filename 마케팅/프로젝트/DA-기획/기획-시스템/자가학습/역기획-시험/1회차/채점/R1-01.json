@@ -1,0 +1,1 @@
+{"id":"R1-01","best":1,"plans":[{"symbol_match":0,"bridge_match":0,"need_read":2},{"symbol_match":2,"bridge_match":2,"need_read":2},{"symbol_match":0,"bridge_match":0,"need_read":2}],"leak":false,"alt_good":false,"alt_reason":"","fail_stage":"짝 고르기","note":"2안은 냉동치료 상징과 냉감·탈락 이미지를 맞췄지만 첫째 안으로 고르지 않았으며, 다른 두 안은 제거로 이어지는 구현 당위가 부족하다."}
