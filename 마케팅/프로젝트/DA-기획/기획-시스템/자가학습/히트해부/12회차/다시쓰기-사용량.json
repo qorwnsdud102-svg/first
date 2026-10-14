@@ -1,0 +1,239 @@
+{
+  "request_id": "9346676a-9fe7-4c41-b4ee-4c56dff241ff",
+  "budget": 6000000,
+  "parent_baseline": {
+    "timestamp": "2026-10-14T00:11:26.465Z",
+    "usage": {
+      "input_tokens": 476705386,
+      "cached_input_tokens": 454962304,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1907257,
+      "reasoning_output_tokens": 561305,
+      "total_tokens": 478914355
+    },
+    "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+  },
+  "agents": [
+    {
+      "id": "01a137d0-9348-7ee3-9723-a2929593706e",
+      "scope": "2등급-재해부 6개 재서술",
+      "allocated_budget": 2000000,
+      "latest": {
+        "timestamp": "2026-10-14T00:37:19.564Z",
+        "usage": {
+          "input_tokens": 1190554,
+          "cached_input_tokens": 1100672,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 17887,
+          "reasoning_output_tokens": 5732,
+          "total_tokens": 1208441
+        },
+        "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T09-29-38-01a137d0-9348-7ee3-9723-a2929593706e.jsonl"
+      },
+      "status": "complete_closed"
+    }
+  ],
+  "status": "complete",
+  "account_start_note": "가장 최근 이전 작업 관찰45%; 이번 작업 전용 사용률 아님",
+  "parent_latest": {
+    "timestamp": "2026-10-14T00:40:01.850Z",
+    "usage": {
+      "input_tokens": 480739353,
+      "cached_input_tokens": 458810496,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1930284,
+      "reasoning_output_tokens": 568430,
+      "total_tokens": 482971349
+    },
+    "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+  },
+  "parent_delta": {
+    "input_tokens": 4033967,
+    "cached_input_tokens": 3848192,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 23027,
+    "reasoning_output_tokens": 7125,
+    "total_tokens": 4056994
+  },
+  "combined_total_tokens": 5265435,
+  "source_hashes": {
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\F-광고해부.md": "cfc273282ad5a90ccd17a2a1e428f7ccbdb01d786834b66d76e8e81711d32c3c",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\_지시.md": "418f93474de0e1a057671c8a28f4987110a56326eff34f09adcfc0777994797e",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\결과.md": "3b62a2b6ac3f38cff587321393366e8e467632dd925658977da73cd5f8831014",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\구역-기록.md": "4e1a1cbaabc1ad3367a20cfeee4cbb8e3d64bcc9df3c5ea6e65ffeea19e6b0b2",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\작업기록.md": "6397eeb17a64cab6a85bba9e860dd8375ddca6d154bdcf761d447014241af62c",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\전체-작업인계.md": "dab1e0e4ed302621a07bc1e79a85020946c56f47c86698f76e097b149fae6784",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\토큰사용량.md": "55c630f21de4cd2050f382d82e8c960e0b5a49ea87dfd83a98fc02d2e9d6a7f0",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\후보-F.md": "a499aa49eed78822db2511db749d3ae73182c7d9750f8cdfa25f9e6cf8a8023e",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\후보-H.md": "04fae8ceab014985dab10e3d0bf4954f0765923c4570d64ce9dc8f0e88d71be1",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\후보-I.md": "011e757cba51d1bd70c018ebff9690392b86b5b0fd46fcf7153bfb87a9636c33",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\_지시.md": "4c2b55d1d1e2c171e7cbbbe023ca9710449d39c43aebdab02210060cc641ffa8",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\검증기록.md": "a0bfc80e2de2266d7fc2ea672f5baa3ce81ea8a7c4d44ff19d28460cf14f3396",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\결과.md": "b0a67c6e861716727f0f53aa71c443ef72f29aea0847d33bd8999ebb2686e78d",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\구역-기록.md": "2cffba69bf7d7aa735c2ff8ccef43dc0f88a9bc4dedc06e8c2f6a6d04f114b2b",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\작업기록.md": "7bcf6597feb52cc7c57efb00f85a3bf4bf076e7f171df646500499b23000b85c",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\토큰사용량.md": "c6ca804066967a5ad433802c2cf39b36fbc3594e80fcfa78b37c332d384bc652",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\후보-A.md": "8ee50fd5dbb012a7c0aa68d83e6a61b11434e781c61eb1f4ca414c90b3f40a51",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\후보-B.md": "9109d4759f7b3751c34f8127881fbfea2ac99e8a52509bd36ab9c511a3567fa7",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\후보-C.md": "d940392ea9f5a7dd8e3a71a20139cf158da44666540b1705bfdffae39d22e94e"
+  },
+  "h12_validation": [
+    {
+      "card": "1. 트루랩스 오르비전 — 눈 건강에서 ‘젊어 보이는 눈빛’으로",
+      "body_markdown": 785,
+      "body_visible": 741,
+      "with_title": 824,
+      "fields_in_order": true
+    },
+    {
+      "card": "2. 알파넥신 비전넥신 — 루테인 다음의 ‘2세대 눈 관리’",
+      "body_markdown": 810,
+      "body_visible": 766,
+      "with_title": 847,
+      "fields_in_order": true
+    },
+    {
+      "card": "3. 헥사큐 아쿠아메딘 — ‘수술 전 해볼 수 있는 한 포’",
+      "body_markdown": 805,
+      "body_visible": 761,
+      "with_title": 842,
+      "fields_in_order": true
+    },
+    {
+      "card": "4. 퓨리븐 퍼플 가루치약 — 치아에도 ‘보색 톤업’",
+      "body_markdown": 819,
+      "body_visible": 775,
+      "with_title": 852,
+      "fields_in_order": true
+    },
+    {
+      "card": "5. 닥터레이디 리쥬톡스 — 불편을 넘어 ‘관계 자신감’",
+      "body_markdown": 812,
+      "body_visible": 768,
+      "with_title": 847,
+      "fields_in_order": true
+    },
+    {
+      "card": "6. 젠엘 퍼스트데이트 — ‘씻고 끝내지 않는 이너 세럼’",
+      "body_markdown": 835,
+      "body_visible": 791,
+      "with_title": 871,
+      "fields_in_order": true
+    }
+  ],
+  "combined": {
+    "total_tokens": 5265435,
+    "input_tokens": 5224521,
+    "cached_input_tokens": 4948864,
+    "output_tokens": 40914,
+    "new_input_tokens": 275657
+  },
+  "validation": [
+    {
+      "folder": "12회차",
+      "card": "1. 트루랩스 오르비전 — 눈 건강에서 ‘젊어 보이는 눈빛’으로",
+      "markdown_chars": 785,
+      "display_chars_without_newlines": 721,
+      "fields_in_order": true,
+      "url_matches_source": true
+    },
+    {
+      "folder": "12회차",
+      "card": "2. 알파넥신 비전넥신 — 루테인 다음의 ‘2세대 눈 관리’",
+      "markdown_chars": 810,
+      "display_chars_without_newlines": 746,
+      "fields_in_order": true,
+      "url_matches_source": true
+    },
+    {
+      "folder": "12회차",
+      "card": "3. 헥사큐 아쿠아메딘 — ‘수술 전 해볼 수 있는 한 포’",
+      "markdown_chars": 805,
+      "display_chars_without_newlines": 741,
+      "fields_in_order": true,
+      "url_matches_source": true
+    },
+    {
+      "folder": "12회차",
+      "card": "4. 퓨리븐 퍼플 가루치약 — 치아에도 ‘보색 톤업’",
+      "markdown_chars": 819,
+      "display_chars_without_newlines": 755,
+      "fields_in_order": true,
+      "url_matches_source": true
+    },
+    {
+      "folder": "12회차",
+      "card": "5. 닥터레이디 리쥬톡스 — 불편을 넘어 ‘관계 자신감’",
+      "markdown_chars": 812,
+      "display_chars_without_newlines": 748,
+      "fields_in_order": true,
+      "url_matches_source": true
+    },
+    {
+      "folder": "12회차",
+      "card": "6. 젠엘 퍼스트데이트 — ‘씻고 끝내지 않는 이너 세럼’",
+      "markdown_chars": 835,
+      "display_chars_without_newlines": 771,
+      "fields_in_order": true,
+      "url_matches_source": true
+    },
+    {
+      "folder": "2등급-재해부",
+      "card": "1. 누룩밤 — 시술에 실망한 기미를 밤마다 관리한다",
+      "markdown_chars": 767,
+      "display_chars_without_newlines": 747,
+      "fields_in_order": true,
+      "url_matches_source": true
+    },
+    {
+      "folder": "2등급-재해부",
+      "card": "2. 노일리 — 엄마가 안심하고 아이가 먼저 씻게 한다",
+      "markdown_chars": 762,
+      "display_chars_without_newlines": 742,
+      "fields_in_order": true,
+      "url_matches_source": true
+    },
+    {
+      "folder": "2등급-재해부",
+      "card": "3. 릴리이브 — 약·병원 전에 손이 가는 잔머리 관리",
+      "markdown_chars": 834,
+      "display_chars_without_newlines": 814,
+      "fields_in_order": true,
+      "url_matches_source": true
+    },
+    {
+      "folder": "2등급-재해부",
+      "card": "4. 에끌무아 — 탈모 관리에도 향과 머릿결을 포기하지 않는다",
+      "markdown_chars": 779,
+      "display_chars_without_newlines": 759,
+      "fields_in_order": true,
+      "url_matches_source": true
+    },
+    {
+      "folder": "2등급-재해부",
+      "card": "5. 인버브 — 손이 아파도 멈출 수 없는 일상에 붙인다",
+      "markdown_chars": 797,
+      "display_chars_without_newlines": 777,
+      "fields_in_order": true,
+      "url_matches_source": true
+    },
+    {
+      "folder": "2등급-재해부",
+      "card": "6. 퍼시닌 — 씻어도 남는 몸 냄새의 원인을 겨냥한다",
+      "markdown_chars": 837,
+      "display_chars_without_newlines": 817,
+      "fields_in_order": true,
+      "url_matches_source": true
+    }
+  ],
+  "source_preservation_pass": true,
+  "artifact_hashes": {
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\다시쓴-카드.md": "f3f32e8399d6668bf65edeb1743c620739cf78e1f500f41d062ba4e6c4ee60d3",
+    "마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\다시쓴-카드.md": "131c0bd76e0c7ff544eb82deec56baf2d665d3ebf22f5caed2e69204a048dee9"
+  },
+  "bridge_result_id": "fa5ca775-6cb0-4ace-b52b-8087b9027b33",
+  "bridge_result_state": "queued",
+  "request_state": "done",
+  "searches": 0,
+  "new_crawls": 0
+}
