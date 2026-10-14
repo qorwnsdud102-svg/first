@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """결핍 지식 카드 — 상징 짝을 고르기 전에 알아야 할 사전 지식(사장님 2026-10-14 P6492).
-결핍마다 새 짧은 GPT 창(codex exec --search, 읽기 전용)이 웹과 우리 자료를 보고 한 장으로 정리한다. 한 번 만들면 드릴·시험이 다시 쓴다.
+1차 자료는 우리가 이미 모은 `DA-기획/기초분석/<결핍>/`(커뮤니티·유튜브 목소리 수천 건의 표본·비중표, 시장카드·검색량)이고,
+웹 검색(codex --search)은 의학 사실·가격·부작용·지금 팔리는 제품을 보충한다. 결핍마다 새 짧은 GPT 창(읽기 전용)이 한 장으로 정리한다.
+목소리 비중표·시장카드가 없는 결핍은 만들지 않는다(사장님 P6493: 기초조사는 단순 웹 검색만으로 하면 안 된다). 한 번 만들면 드릴·시험이 다시 쓴다.
 
   python 만들기.py <결핍> [<결핍> ...]   # 이미 있는 카드는 건너뛴다 → <결핍>.json · <결핍>.md · 사용량.json
 """
@@ -15,9 +17,11 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8")
 H = os.path.dirname(os.path.abspath(__file__))
 A = os.path.dirname(H)  # 자가학습
+BASE = os.path.normpath(os.path.join(A, "..", "..", "기초분석"))  # DA-기획/기초분석
 MODEL, EFFORT = "gpt-6.1-sol", "ultra"
 PROMPT = """너는 DA(메타 광고) 제품 기획팀의 조사원이다. 결핍 하나에 대해, 기획자가 상징 짝을 고르기 전에 알아야 할 사전 지식을 한 장으로 정리한다.
-이 폴더의 결핍.json과 우리-자료.md(있으면)를 먼저 읽고, 부족한 것은 웹 검색으로 채운다(네이버·나무위키·병원·약국·쇼핑·커뮤니티 후기). 다른 폴더는 보지 않는다.
+1차 자료: 이 폴더의 우리-기초분석/ — 우리가 커뮤니티·유튜브에서 이 결핍과 대안 키워드로 모은 실제 목소리(목소리-표본.txt, 수천 건)와 그것을 센 비중표(목소리-비중표*.md, 있으면), 시장카드.md(메인 키워드 검색량·메타 광고, 있으면). 비중표가 있으면 비율 숫자를 그대로 쓰고, 없으면 표본을 rg로 대안 이름·불만 말로 훑어 센다. 큰 파일은 통째로 출력하지 말고 필요한 부분만 찾는다.
+보충: 결핍.json, 우리-자료.md(우리 상징 사전 절, 있으면), 그리고 웹 검색(병원·약국 가격, 부작용, 지금 쇼핑·메타에서 팔리는 제품). 다른 폴더는 보지 않는다.
 
 채울 것(한국어, 타겟이 쓰는 말로):
 - core: 이 결핍이 무엇인지 — 핵심 원인과 증상, 진행(사람들이 아는 말로 2~3문장)
@@ -26,6 +30,7 @@ PROMPT = """너는 DA(메타 광고) 제품 기획팀의 조사원이다. 결핍
 - alternatives: 타겟이 지금 쓰는 해결책 6~10개. 병원(시술·수술·전문의약품)·약국(일반약)·건강기능식품·셀프 기기·생활요법을 고루. 각각 name, kind, price(대략 가격, 회당/월), known_effect(타겟이 아는 효과), complaints(대표 불만·단점), side_effects(부작용·위험), aversion(타겟이 꺼리는 점, 없으면 빈 문자열), self(셀프로 되는지와 얼마나 싼지)
 - selling_now: 이 결핍으로 지금 많이 팔리는 제품·브랜드 3~6개와 각 한 줄 특징(가격 포함)
 - avoid: 타겟이 이 결핍 제품에서 꺼리는 것(형태·성분·사용 장면)
+- voice: 목소리에서 많이 나온 것 8~15줄 — '항목 — 비율 또는 건수 (예시 한마디)'. 증상·장면, 써 본 대안, 대안 불만, 꺼리는 점을 고루
 - unknown: 확인하지 못한 것
 - sources: 근거 URL 5~12개
 추측은 쓰지 않는다. 모르는 칸은 '확인 못 함'이라고 적는다. 상징 짝이나 제품 기획은 하지 않는다."""
@@ -34,10 +39,10 @@ ALT = {"type": "object", "additionalProperties": False,
        "required": ["name", "kind", "price", "known_effect", "complaints", "side_effects", "aversion", "self"],
        "properties": {k: S for k in ["name", "kind", "price", "known_effect", "complaints", "side_effects", "aversion", "self"]}}
 SCHEMA = {"type": "object", "additionalProperties": False,
-          "required": ["need", "core", "scenes", "belief", "alternatives", "selling_now", "avoid", "unknown", "sources"],
+          "required": ["need", "core", "scenes", "belief", "alternatives", "voice", "selling_now", "avoid", "unknown", "sources"],
           "properties": {"need": S, "core": S, "scenes": {"type": "array", "items": S}, "belief": S,
                          "alternatives": {"type": "array", "minItems": 4, "items": ALT},
-                         "selling_now": {"type": "array", "items": S}, "avoid": S, "unknown": S,
+                         "voice": {"type": "array", "items": S}, "selling_now": {"type": "array", "items": S}, "avoid": S, "unknown": S,
                          "sources": {"type": "array", "items": S}}}
 
 
@@ -53,6 +58,7 @@ def md(c):
     out += [f"- {x}" for x in c["scenes"]]
     out += ["", "| 대안 | 종류 | 가격 | 타겟이 아는 효과 | 불만·단점 | 부작용·위험 | 꺼리는 점 | 셀프 |", "|---|---|---|---|---|---|---|---|"]
     out += ["| " + " | ".join(a[k].replace("|", "/") for k in ["name", "kind", "price", "known_effect", "complaints", "side_effects", "aversion", "self"]) + " |" for a in c["alternatives"]]
+    out += ["", "**목소리에서 많이 나온 것**"] + [f"- {x}" for x in c["voice"]]
     out += ["", "**지금 많이 팔리는 것**"] + [f"- {x}" for x in c["selling_now"]]
     out += ["", f"**타겟이 꺼리는 것:** {c['avoid']}", "", f"**확인 못 한 것:** {c['unknown']}", "", "**출처**"] + [f"- {x}" for x in c["sources"]]
     return "\n".join(out) + "\n"
@@ -62,18 +68,25 @@ def make(need):
     out = os.path.join(H, need + ".json")
     if os.path.exists(out):
         return
+    src = os.path.join(BASE, need)
+    files = os.listdir(src) if os.path.isdir(src) else []
+    if not (any(f.startswith("목소리-비중표") for f in files) and "시장카드.md" in files):
+        # 사장님 P6493: 기초조사는 단순 웹 검색만으로 하지 않는다 — 목소리 비중표와 시장카드가 없으면 카드를 만들지 않는다
+        print(need, "건너뜀 — 기초조사 미완(목소리 비중표·시장카드 먼저)", flush=True)
+        return
     allneeds = json.load(open(os.path.join(A, "상징원-사전", "결핍별.json"), encoding="utf-8"))
     e = [x for x in allneeds if x["need"] == need]
     d = os.path.join(H, "_묶음", need)
     os.makedirs(d, exist_ok=True)
     json.dump(e[0] if e else {"need": need}, open(os.path.join(d, "결핍.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    shutil.copytree(src, os.path.join(d, "우리-기초분석"), dirs_exist_ok=True)
     notes = our_notes(need)
     if notes:
         open(os.path.join(d, "우리-자료.md"), "w", encoding="utf-8").write(notes)
     sp = os.path.join(d, "_schema.json")
     json.dump(SCHEMA, open(sp, "w", encoding="utf-8"), ensure_ascii=False)
     exe = sorted(glob.glob(os.path.join(os.environ["LOCALAPPDATA"], "OpenAI", "Codex", "bin", "*", "codex.exe")))[-1]
-    r = subprocess.run([exe, "exec", "--search", "--skip-git-repo-check", "--ephemeral", "-s", "read-only", "-m", MODEL,
+    r = subprocess.run([exe, "--search", "exec", "--skip-git-repo-check", "--ephemeral", "-s", "read-only", "-m", MODEL,
                         "-c", f'model_reasoning_effort="{EFFORT}"', "-C", d, "-o", out, "--output-schema", sp, "-"],
                        input=PROMPT, text=True, encoding="utf-8", capture_output=True)
     os.remove(sp)
