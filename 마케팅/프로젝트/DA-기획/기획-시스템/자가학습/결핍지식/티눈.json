@@ -1,0 +1,140 @@
+{
+  "need": "티눈 — 메인 키워드 월검색 15,650회(시장카드, 2026-10-12)",
+  "core": "같은 곳이 계속 눌리고 쓸리면서 작은 부위의 각질이 딱딱하게 뭉치는 것이다. 가운데 단단한 핵 때문에 누르거나 걸을 때 아프고, 마찰·압박이 계속되면 제거 후에도 다시 생길 수 있다. 사마귀와 헷갈리는 목소리가 많아 두 질환의 치료 경험이 섞여 있다. 의학 설명은 웹 보충이다. [DermNet](https://dermnetnz.org/topics/corn-callus)",
+  "scenes": [
+    "구두를 신고 많이 걸었던 사람 — 발바닥에 티눈이 생겨 걸을 때 불편하다.",
+    "실내화를 바꾼 사람 — 발가락 아래에 티눈이 생기고 신발에 눌리는 부위가 신경 쓰인다.",
+    "냉동치료를 여러 번 받은 사람 — 치료 뒤 통증 때문에 신발을 못 신고 출근도 어렵다."
+  ],
+  "belief": "‘구두·실내화 때문에 같은 곳이 눌려 생긴다’는 원인 설명과 ‘뿌리를 끝까지 안 뽑으면 계속 난다’는 믿음이 나온다. 각각 원인 언급 43건, 재발·뿌리 불만 73건이다. 결핍.json의 원인 문장은 AI 가설로 표시돼 있어 실제 목소리와 구분했다.",
+  "alternatives": [
+    {
+      "name": "병원 냉동치료",
+      "kind": "병원 시술",
+      "price": "약 15,000원/회라는 우리 목소리 1건. 현재 실제 진료비 확인 못 함.",
+      "known_effect": "얼린 부위가 딱지·각질로 떨어지고 새살이 나온다는 경험.",
+      "complaints": "녹을 때·밤에 아픔, 여러 번 방문, 겉만 없어지거나 재발.",
+      "side_effects": "통증·물집·색 변화·흉터·감염 위험. [병원 안내](https://www.leedsth.nhs.uk/patients/resources/cryotherapy/)",
+      "aversion": "반복 통증, 치료 뒤 걷기·출근 지장.",
+      "self": "병원 치료. 가정용 냉동기기로 대체한 실제 목소리는 확인 못 함."
+    },
+    {
+      "name": "병원 레이저·절제수술",
+      "kind": "병원 시술·수술",
+      "price": "한 병원 공개표 검색요약에서 CO₂·냉동 묶음 22,000~110,000원. 절제수술 가격·보험 본인부담 확인 못 함. [가격표](https://www.ymodern.co.kr/upload/ymodern/images/241111.pdf)",
+      "known_effect": "태우거나 도려내서 핵을 없앤다고 이해한다.",
+      "complaints": "마취 주사가 아픔, 치료 뒤 걷기 불편, 수술해도 재발했다는 경험.",
+      "side_effects": "절제수술은 출혈·감염·흉터 위험. 레이저 고유 부작용은 확인 못 함. [피부수술 안내](https://www.cuh.nhs.uk/patient-information/post-operative-advice-for-patients-who-have-had-skin-surgery/)",
+      "aversion": "주사·칼, 회복 중 일상 지장.",
+      "self": "의료진 시술·수술이 필요하다."
+    },
+    {
+      "name": "티눈밴드·티눈고",
+      "kind": "약국 일반의약품",
+      "price": "약 2,000~4,000원/팩이라는 우리 목소리. 현재 제품별 약국 가격 확인 못 함.",
+      "known_effect": "붙여 두면 딱딱한 부분이 불어서 떨어진다는 경험.",
+      "complaints": "걸으면 밀림, 약 붙은 주변 살만 벗겨지고 티눈은 그대로.",
+      "side_effects": "살리실산이 정상 피부를 자극하거나 화상을 일으킬 수 있다. [성분 안내](https://dermnetnz.org/topics/salicylic-acid)",
+      "aversion": "밀려서 약이 맨살에 닿는 것.",
+      "self": "집에서 가능. 확인된 목소리 가격상 병원보다 초기 지출이 작다."
+    },
+    {
+      "name": "티눈액·바르는 일반약",
+      "kind": "약국 일반의약품",
+      "price": "현재 약국 가격·월 사용비 확인 못 함.",
+      "known_effect": "바르면 굳은 각질이 떨어지는 방식. 티눈스립에이액은 살리실산·락트산 각각 10%.",
+      "complaints": "며칠~몇 달 계속 바르는 수고. 액제만의 대표 불만은 확인 못 함.",
+      "side_effects": "발진·붉어짐·가려움, 상처 부위의 염증 위험. [제품 첨부문서](https://common.health.kr/shared/images/insert_pdf/IN_A11AKP07L0329_00.pdf)",
+      "aversion": "",
+      "self": "집에서 바르는 일반약. 실제 비용 확인 못 함."
+    },
+    {
+      "name": "베루말액",
+      "kind": "병원 처방 전문의약품 — 사마귀 경험에서 등장",
+      "price": "약값·진료비 확인 못 함.",
+      "known_effect": "사마귀에 처방받아 바르고 없어졌다는 경험. 허가 효능은 ‘사마귀’다.",
+      "complaints": "매일 바르고 관리해야 함. 이 약에 직접 귀속되는 대표 불만은 확인 못 함.",
+      "side_effects": "화끈거림·붉어짐·가려움·피부 벗겨짐. 임부·수유부·소아 등 사용금기. [허가정보](https://health.kr/drug/A11AJJJJJ0140)",
+      "aversion": "",
+      "self": "처방 후 집에서 사용. 티눈 자가치료약으로 일반화할 근거는 확인 못 함."
+    },
+    {
+      "name": "손톱깎이·칼로 직접 파내기",
+      "kind": "셀프 도구",
+      "price": "기존 도구 사용 시 추가 구매비 0원(시장카드).",
+      "known_effect": "박힌 것을 직접 뽑아 없애려 한다.",
+      "complaints": "피·감염·흉터 걱정, 뜯어도 다시 생김.",
+      "side_effects": "피부 손상 위험. NHS는 직접 잘라내는 행동을 피하도록 안내한다. [NHS](https://www.nhs.uk/conditions/corns-and-calluses/)",
+      "aversion": "피가 나거나 감염되는 것.",
+      "self": "실제로 하는 사람은 있으나 안전한 제거법으로 권할 근거는 없다."
+    },
+    {
+      "name": "물에 불리기·풋파일·요소크림",
+      "kind": "셀프 도구·생활 관리",
+      "price": "풋파일·크림 구매가와 월 사용비 확인 못 함.",
+      "known_effect": "각질을 부드럽게 하고 두께를 줄이는 관리. [DermNet](https://dermnetnz.org/topics/corn-callus)",
+      "complaints": "이 방법에 직접 귀속되는 대표 불만 확인 못 함.",
+      "side_effects": "당뇨·순환장애 등이 있으면 셀프 각질 관리를 피하도록 안내한다. [NHS](https://www.nhs.uk/conditions/corns-and-calluses/)",
+      "aversion": "",
+      "self": "집에서 가능. 도구·크림 비용은 확인 못 함."
+    },
+    {
+      "name": "신발·깔창 바꾸기·보호패드",
+      "kind": "생활요법·보조용품",
+      "price": "제품별 구매가 확인 못 함.",
+      "known_effect": "아픈 곳에 가는 마찰·압력을 줄이는 보조 방식. [NHS](https://www.nhs.uk/conditions/corns-and-calluses/)",
+      "complaints": "이 대안에 직접 귀속되는 대표 불만 확인 못 함.",
+      "side_effects": "특정 제품의 부작용 확인 못 함.",
+      "aversion": "",
+      "self": "직접 바꾸거나 부착 가능. 얼마나 싼지는 확인 못 함."
+    },
+    {
+      "name": "대추·식초·쑥뜸·빙초산 등",
+      "kind": "민간요법",
+      "price": "0~몇천 원(시장카드 기재). 실제 구매비 확인 못 함.",
+      "known_effect": "‘뿌리까지 빠졌다’는 후기 주장. 티눈 치료 효과는 확인 못 함.",
+      "complaints": "방법별 대표 불만 확인 못 함.",
+      "side_effects": "식초를 피부에 오래 접촉시키면 화상 위험. 쑥뜸·대추의 티눈 사용 안전성은 확인 못 함. [독극물센터](https://www.poison.org/articles/vinegar-164)",
+      "aversion": "",
+      "self": "집에서 시도한 목소리는 있으나 안전성과 효과 확인 못 함."
+    }
+  ],
+  "voice": [
+    "발바닥에 생김 — 92건·4.6% (\"왼쪽 발바닥에 티눈 생겨서\")",
+    "신발·마찰·압력을 원인으로 봄 — 43건·2.2% (\"구두 신고 하도 돌아다녔더니\")",
+    "걸을 때·누를 때·신발 신으면 아픔 — 41건·2.1% (\"누르면 아픕니다 걸을때 불편해서\")",
+    "사마귀·굳은살과 헷갈림 — 67건·3.4% (\"나만 사마귀 굳은살인줄 알았냐\")",
+    "병원 제거 이야기 — 513건·25.8% (\"여긴 미용전문이라 안된다고\")",
+    "냉동치료 — 181건·9.1% (\"얼렸던피부가 녹으면서 말로표현못할 고통이 옴\")",
+    "티눈밴드·티눈고 — 84건·4.2% (\"약발라져있는 동그란 부분만 살까짐\")",
+    "바르는 약·연고 — 56건·2.8% (\"사마귀가 크다고 베루말만 처방\")",
+    "치료·제거 통증 — 176건·8.8% (\"밤에 통증때메 잠도 못잠\")",
+    "비용·보험 걱정 — 93건·4.7% (\"얼마정도해요?\")",
+    "여러 번 병원 방문 — 75건·3.8% (\"열번을 넘겼는데\")",
+    "재발·뿌리가 남았다는 불만 — 73건·3.7% (\"10번수술 다재발 이제포기함\")",
+    "셀프 제거의 피·감염·흉터 걱정 — 41건·2.1% (\"지지면 감염위험이 잇어서\")",
+    "무서워서 미룸 — 35건·1.8% (\"티눈제거해본사람있냐\")",
+    "치료 뒤 걷기·출근 지장 — 22건·1.1% (\"지금 신발도 못신어 출근도 못함\")"
+  ],
+  "selling_now": [
+    "Tikovira4 봉독 사마귀·티눈·굳은살 크림 — 2개 45,800원/4개 55,800원. 10월 12일 자료에서 광고 72일; ‘뿌리 제거·재발 방지’는 광고 주장이다. [광고](https://www.facebook.com/ads/library/?id=1007355881926614)",
+    "리디좀 화이트 비니거 — 1박스 29,800원. 노즐형 발톱 케어 액상 제품이며 티눈 광고도 수집됐다. ‘액상 레이저’는 광고 표현이다. [공식 판매 페이지](https://m.rediett.co.kr/product/detail.html?cate_no=1&display_group=2&product_no=21)",
+    "FLAWLESS SKIN 마이크로니들 패치 — 가격 확인 못 함. 살리실산 표기 패치가 Fuopitte supply·Luno-mall1 광고에 등장; ‘통증 제로·5일 탈락’은 광고 주장이다. [광고](https://www.facebook.com/ads/library/?id=1063942526516114)"
+  ],
+  "avoid": "아픈 주사·제거 과정, 반복 방문, 치료 뒤 신발을 못 신거나 출근하기 어려운 상태, 피·감염·흉터, 밴드가 밀려 맨살만 벗겨지는 상황을 꺼린다. 특정 성분·냄새·끈적임·제품 외형에 대한 거부감은 확인 못 함.",
+  "unknown": "1차 근거는 우리-기초분석/목소리-비중표.md와 시장카드.md다. 비율은 비중표 원문 그대로이며 분모는 1,992개 목소리 단위다. 사람 수·환자 비율이 아니고 항목은 중복된다. 관련 이야기 867개 외 잡음이 많고 티눈·사마귀·굳은살 경험도 섞여 있다. 건강기능식품, 가정용 냉동기기·전동 제거기의 실제 사용은 확인 못 함. 대안사전·별도 교차표·별도 검색량 파일은 이 폴더에서 확인 못 함. 현재 약국 가격과 여러 대안의 구매비도 확인 못 함. 병원 가격표 PDF는 원문 열람에 실패해 검색요약만 사용했다. 판매량·매출 순위, 봉독 크림·비니거·마이크로니들 패치의 티눈 치료 효과와 정확한 성분·허가는 확인 못 함. 베루말 복약 요약에는 티눈이 나오지만 허가 효능은 사마귀여서 허가정보를 우선했다. 검색량은 시장카드 15,650회와 결핍.json 15,690회가 달라 측정일이 명시된 시장카드를 사용했다.",
+  "sources": [
+    "[티눈·굳은살 원인과 관리 — DermNet](https://dermnetnz.org/topics/corn-callus)",
+    "[티눈·굳은살 생활 관리 — NHS](https://www.nhs.uk/conditions/corns-and-calluses/)",
+    "[냉동치료 위험 — Leeds Teaching Hospitals](https://www.leedsth.nhs.uk/patients/resources/cryotherapy/)",
+    "[피부수술 후 위험·관리 — CUH](https://www.cuh.nhs.uk/patient-information/post-operative-advice-for-patients-who-have-had-skin-surgery/)",
+    "[살리실산 부작용 — DermNet](https://dermnetnz.org/topics/salicylic-acid)",
+    "[티눈스립에이액 첨부문서](https://common.health.kr/shared/images/insert_pdf/IN_A11AKP07L0329_00.pdf)",
+    "[베루말액 허가정보 — 약학정보원](https://health.kr/drug/A11AJJJJJ0140)",
+    "[병원 공개가격표 — 검색요약만 확인](https://www.ymodern.co.kr/upload/ymodern/images/241111.pdf)",
+    "[리디좀 공식 판매 페이지](https://m.rediett.co.kr/product/detail.html?cate_no=1&display_group=2&product_no=21)",
+    "[봉독 크림 메타 광고 — 우리 시장카드 수집 ID](https://www.facebook.com/ads/library/?id=1007355881926614)",
+    "[마이크로니들 패치 메타 광고 — 우리 시장카드 수집 ID](https://www.facebook.com/ads/library/?id=1063942526516114)",
+    "[식초 피부 접촉 위험 — Poison Control](https://www.poison.org/articles/vinegar-164)"
+  ]
+}

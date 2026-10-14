@@ -1,0 +1,141 @@
+{
+  "need": "하지정맥류",
+  "core": "다리 정맥에서 피가 거꾸로 흐르지 않게 잡아 주는 판막이 약해져, 피가 고이고 혈관이 늘어나는 병이다. 다리가 붓고 무겁거나 아프며, 핏줄이 울퉁불퉁 보이기도 한다. 심해지면 가려움·피부 변색·잘 낫지 않는 상처가 생길 수 있지만, 모두가 같은 순서로 진행하지는 않는다. 웹 보충: [NHS](https://www.england.nhs.uk/wp-content/uploads/2023/11/Decision-support-tool-making-a-decision-about-treatment-for-varicose-veins.pdf).",
+  "scenes": [
+    "하루 8시간가량 서서 일하는 판매직 — 일하거나 퇴근할 무렵 다리가 붓고 무거워진다.",
+    "밤에 종아리 쥐·저림을 겪는 사람 — 자다가 깨거나 소리를 지를 정도로 불편하다.",
+    "다리 핏줄이 도드라진 사람 — 치마·반바지를 입을 때 드러나는 혈관이 신경 쓰인다."
+  ],
+  "belief": "확인 못 함. 결핍.json의 ‘다리의 피가 위로 못 올라가 고인다’는 소비자 발화로 확인되지 않은 AI 가설이다. 자료에는 오래 서거나 앉는 생활·가족력·임신 이야기가 있지만, 이를 타겟의 공통 원인 믿음으로 확정할 수는 없다.",
+  "alternatives": [
+    {
+      "name": "레이저·고주파 정맥폐쇄술",
+      "kind": "병원 시술",
+      "price": "레이저 130만~700만원, 고주파 250만~800만원/원인혈관별 고지액. 한쪽 전체 비용·회당 총액은 확인 못 함. [병원 가격표](https://www.veinkorea.com/03_surgery/surgery08.php).",
+      "known_effect": "문제 혈관을 열로 닫는 치료로 안다. 수술·시술 전반에서 ‘받고 나니 다리가 가볍다’는 경험이 나온다.",
+      "complaints": "수술 전반의 불만은 비싼 비용·회복 수고·저림·재발. 방법별 불만 비율은 확인 못 함.",
+      "side_effects": "통증·멍·감각 이상. 고주파 장치에는 신경 손상·화상·혈전 등의 위험도 고지돼 있다. [제조사 안전정보](https://www.medtronic.com/en-us/healthcare-professionals/products/cardiovascular/superficial-vein/venaseal-closure-system.html).",
+      "aversion": "수술·마취가 아플까, 후유증이 남을까 걱정한다.",
+      "self": "셀프 불가. 검사와 의료진 시술이 필요하며, 생활관리·약보다 초기 비용이 크다."
+    },
+    {
+      "name": "베나실",
+      "kind": "병원 시술·의료용 접착제",
+      "price": "병원 ‘베나실·클라리베인’ 묶음 고지 300만~900만원/원인혈관별. 베나실 단독 회당 총액은 확인 못 함. [병원 가격표](https://www.veinkorea.com/03_surgery/surgery08.php).",
+      "known_effect": "‘본드로 혈관벽을 붙여 닫는다’고 안다.",
+      "complaints": "‘거금 주고 베나실’이라는 비용 부담 발화. 제품별 다른 대표 불만은 확인 못 함.",
+      "side_effects": "접착제 알레르기·염증·정맥염·혈전 등의 위험. [제조사 안전정보](https://www.medtronic.com/en-us/healthcare-professionals/products/cardiovascular/superficial-vein/venaseal-closure-system.html).",
+      "aversion": "",
+      "self": "셀프 불가. 의료진 시술이 필요하며 수백만원대 비용이다."
+    },
+    {
+      "name": "혈관경화요법",
+      "kind": "병원 주사 시술",
+      "price": "30만~100만원/한쪽 다리 고지액. 수집 목소리에는 회당 30만원 사례 1건이 있다. 반복 횟수·총액은 확인 못 함. [병원 가격표](https://www.veinkorea.com/03_surgery/surgery08.php).",
+      "known_effect": "‘주사로 혈관을 굳혀 막는다’고 안다.",
+      "complaints": "‘주사가 수술보다 더 아프다’, ‘재발한 듯해서 그냥 살까’라는 말.",
+      "side_effects": "시술 후 통증·멍. [NHS 치료 안내](https://www.nhs.uk/conditions/varicose-veins/).",
+      "aversion": "아픈 주사를 다시 맞는 것.",
+      "self": "셀프 불가. 고지 금액은 다른 시술보다 낮지만 반복하면 총비용이 늘어난다."
+    },
+    {
+      "name": "엔테론정 150mg",
+      "kind": "병원 처방·전문의약품",
+      "price": "급여 약가 333원/정. 허가 용량인 하루 2정으로 계산하면 약제비 19,980원/30일. 진료·조제료와 실제 본인부담은 별도이며 확인 못 함. [의약품 정보](https://health.kr/drug/A11AOOOOO3954).",
+      "known_effect": "이 제품에 대한 타겟 인식은 확인 못 함. 허가 효과는 무겁고 아픈 다리 등 정맥·림프 기능부전 관련 증상 개선.",
+      "complaints": "엔테론 특정 불만은 확인 못 함. 약 전반에서는 효과 없음·위 쓰림 이야기가 나온다.",
+      "side_effects": "드물게 위통·구역·설사·피부 알레르기, 매우 드물게 두통. [허가정보](https://health.kr/drug/A11AOOOOO3954).",
+      "aversion": "",
+      "self": "처방 후 집에서 복용. 약제비는 수술보다 낮지만 처방 없이 살 수 없다."
+    },
+    {
+      "name": "센시아",
+      "kind": "약국 일반의약품·센텔라정량추출물",
+      "price": "120정 4.2만~6만원. 하루 1~2정 기준 약 1.05만~3만원/30일로 계산. [약국 가격 집계](https://barkiri.com/products/p25).",
+      "known_effect": "광고에서 이름을 알고, 붓고 무겁고 쥐 나는 다리 때문에 복용을 고려한다. 허가 효과는 정맥·림프 부전 관련 증상 개선. [허가정보](https://www.health.kr/drug/2012011900004).",
+      "complaints": "센시아 특정 불만은 확인 못 함. 약 전반의 효과 없음·위 쓰림 발화를 이 제품의 불만으로 단정할 수 없다.",
+      "side_effects": "드물게 구토·식욕부진·알레르기·가려움·광과민반응. 임산부·수유부 등은 복용 금기. [허가정보](https://www.health.kr/drug/2012011900004).",
+      "aversion": "",
+      "self": "처방 없이 약국 구매·자가 복용 가능. 월 환산 비용은 위와 같으며, 허가사항에는 단기간 사용이 명시돼 있다."
+    },
+    {
+      "name": "오메가3·센시오메가",
+      "kind": "건강기능식품",
+      "price": "센시오메가 60캡슐 표시가 38,000원. 공식몰은 8개월 구매 시 월 27,500원부터라고 안내한다. [공식 판매 목록](https://chungdamnutrition.com/category/건강기능식품/42/).",
+      "known_effect": "혈액순환·붓기 개선을 기대하는 제품. ‘하지정맥류를 없앤다’는 수집 광고의 주장이고, 치료 효과는 확인 못 함.",
+      "complaints": "실제 구매자의 대표 불만은 확인 못 함.",
+      "side_effects": "오메가3 일반: 속쓰림·메스꺼움·설사 등. 고용량과 항응고제 병용 시 출혈 관련 상호작용 가능. [NIH](https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/).",
+      "aversion": "",
+      "self": "집에서 섭취 가능. 월 비용은 구매 묶음에 따라 달라진다."
+    },
+    {
+      "name": "압박스타킹·압박밴드",
+      "kind": "의료용 제품·일반 생활용품",
+      "price": "수집물의 다이소 일반 제품 3,000원. 쇼핑 페이지의 발란스핏 종아리형 표시가 25,900원. 병원 처방 의료용 가격은 확인 못 함. [판매 페이지](https://m.gsshop.com/deal/deal.gs?dealNo=1067502714&mseq=402535-5457_14-187276&pre_inflw=424995&shop_planid=187276).",
+      "known_effect": "‘꽉 잡아 준다’, ‘신으면 다리가 가볍고 편하다’는 경험. 의료용은 발목에서 위로 갈수록 압박이 약해진다고 안다.",
+      "complaints": "답답함·더움·가려움·신기 힘듦·말려 올라감. 효과가 그때뿐이라는 말도 있다.",
+      "side_effects": "다리 동맥의 혈류 문제가 있으면 적합하지 않다. 의료용은 압력·치수를 맞춰야 한다. [NHS](https://www.nhs.uk/conditions/varicose-veins/).",
+      "aversion": "꽉 조이는 착용감과 매일 힘들게 신는 과정.",
+      "self": "자가 착용 가능. 일반 제품은 3,000원부터지만 의료용과 같은 효과로 볼 근거는 확인 못 함."
+    },
+    {
+      "name": "공기압 다리마사지기",
+      "kind": "셀프 기기·가격 예시는 닥터라이프 V7MAX",
+      "price": "본체+다리 커프 세트 258,000원/구입. [공식 판매 페이지](https://www.doctorlifemall.com/product/v7max-ㅣ-다리set/150/category/175/display/1/).",
+      "known_effect": "수집물에 마사지·마사지기·공기압 사용 언급이 있다. 해당 모델의 사용 여부와 타겟이 아는 치료 효과는 확인 못 함.",
+      "complaints": "기기별 대표 불만은 확인 못 함.",
+      "side_effects": "해당 모델의 부작용·질환별 사용 금기는 확인 못 함.",
+      "aversion": "",
+      "self": "집에서 반복 사용 가능. 초기 구입비 25.8만원, 월 유지비는 확인 못 함."
+    },
+    {
+      "name": "걷기·까치발 운동·다리 올리기",
+      "kind": "생활요법",
+      "price": "기구 없이 하면 0원/회·월.",
+      "known_effect": "뒤꿈치를 들었더니 쥐가 줄었다는 경험. 웹 안내상 증상 완화에 도움을 줄 수 있지만 생긴 정맥류를 없애지는 않는다. [NHS](https://www.england.nhs.uk/wp-content/uploads/2023/11/Decision-support-tool-making-a-decision-about-treatment-for-varicose-veins.pdf).",
+      "complaints": "‘하다가 안 하면 또 쥐 난다’는 말. 매일 관리하는 수고.",
+      "side_effects": "수집 자료에서 구체적인 부작용은 확인 못 함.",
+      "aversion": "",
+      "self": "완전한 자가 관리. 집에 있는 받침·소파 등을 쓰면 추가 구입비가 없다."
+    }
+  ],
+  "voice": [
+    "핏줄·혈관이 튀어나옴 — 5.8%, 55건 (「좀 튀어 나왔는데」)",
+    "붓는다·부종 — 4.5%, 43건 (「오래 걸으면 다리가 붓고 무거워…」)",
+    "오래 서서·앉아서 일함 — 3.0%, 29건 (「하루 8 시간 서있는것」)",
+    "밤에 종아리 쥐 — 2.7%, 26건 (「외형은 멀쩡한데…쥐가나고」)",
+    "다리가 무겁다 — 2.0%, 19건 (「뭔가 무겁고 아래로만 쏠리고」)",
+    "수술·시술 — 24.4%, 232건 (「다리가 이렇게 가벼울 줄이야」)",
+    "걷기·까치발 등 운동 — 8.9%, 85건 (「종아리쥐때문에 발뒤꿈치 들었는데」)",
+    "압박스타킹·압박밴드 — 4.8%, 46건 (「압박스타킹을 하고 그냥 살아라」)",
+    "정맥순환개선 약 — 1.3%, 12건 (「요즘광고하는 센시아를 복용하면 어떨지요?」)",
+    "주사·마취·시술이 아프다 — 4.2%, 40건 (「주사가 진짜 수술보다 더아픈게 이거임」)",
+    "수술 뒤 후유증 — 5.7%, 54건 (「종아리가 아직도 통증이 있고」)",
+    "수술·시술 비용 부담 — 3.5%, 33건 (「수술비가 양쪽다리 천만원이 넘어요」)",
+    "병원 불신·과잉진료 걱정 — 2.7%, 26건 (「심하지도 않은데 수술 권장 하더라구요」)",
+    "수술해도 재발 — 2.5%, 24건 (「재발한듯한데 그냥 살까봐요」)",
+    "압박스타킹 불편 — 0.9%, 9건 (「압박스타킹 답답해서 못하겠어요」)"
+  ],
+  "selling_now": [
+    "센시아 — 약국 가격 120정 4.2만~6만원. 수집물에서 광고로 이름을 알고 복용을 묻는 제품이며, 2026-10-12 월 검색량은 18,250회. [가격](https://barkiri.com/products/p25).",
+    "청담뉴트리션 센시오메가 — 공식몰 60캡슐 38,000원. 시장카드에서 하지정맥류 제품 광고 6개·최장 146일 게재를 확인한 브랜드. 치료 주장은 광고 문구이며 매출은 확인 못 함. [판매 목록](https://chungdamnutrition.com/category/건강기능식품/42/).",
+    "발란스핏 종아리형 압박밴드 — 조회 쇼핑 페이지 표시가 25,900원, 1등급 신고 의료기기로 판매. 수집 당시 네고왕 가격 8,900~12,900원과는 판매 조건이 다르다. [쇼핑 페이지](https://m.gsshop.com/deal/deal.gs?dealNo=1067502714&mseq=402535-5457_14-187276&pre_inflw=424995&shop_planid=187276).",
+    "닥터라이프 V7MAX — 본체+다리 커프 258,000원. 가정용 공기압 기기로 공식몰 판매를 확인했으며, 하지정맥류 고객의 구매량은 확인 못 함. [공식몰](https://www.doctorlifemall.com/product/v7max-ㅣ-다리set/150/category/175/display/1/)."
+  ],
+  "avoid": "답답하게 조이고 덥거나 가려운 압박 형태, 손에 힘을 줘 매일 신어야 하는 사용 과정. 찜질방·사우나·족욕처럼 뜨거운 사용은 ‘혈관이 늘어난다’며 꺼리는 말이 결핍판에서 5건 나온다. 특정 성분·알약 크기·냄새에 대한 공통 기피는 확인 못 함.",
+  "unknown": "목소리 숫자는 목소리-비중표-결핍키워드만.md의 952단위 기준을 그대로 사용했다. 중복 항목을 허용하며 환자 비율·구매율이 아니다. 예시는 두 비중표와 시장카드의 원문 발췌다. 개인 경험과 정보·질문이 섞여 있어 실제 진단자·실사용자 비율은 확인 못 함. 교차표 파일과 대안사전.json은 이 폴더에 없다. 제품별 현재 매출·판매 순위, 실시간 최종 가격·재고, 의료용 압박스타킹 처방가, 시술별 개인 총비용·반복 횟수, 엔테론·특정 마사지기의 타겟 실사용은 확인 못 함. 시장카드 검색량 33,310회와 결핍.json의 32,870회 차이는 해소되지 않았다.",
+  "sources": [
+    "[NHS — 하지정맥류 정의·생활관리·치료와 위험](https://www.england.nhs.uk/wp-content/uploads/2023/11/Decision-support-tool-making-a-decision-about-treatment-for-varicose-veins.pdf)",
+    "[NHS — 시술·압박스타킹 안내](https://www.nhs.uk/conditions/varicose-veins/)",
+    "[부평수흉부외과 — 비급여 가격표](https://www.veinkorea.com/03_surgery/surgery08.php)",
+    "[Medtronic — 베나실·고주파 장치 안전정보](https://www.medtronic.com/en-us/healthcare-professionals/products/cardiovascular/superficial-vein/venaseal-closure-system.html)",
+    "[약학정보원 — 엔테론 150mg 허가정보·약가](https://health.kr/drug/A11AOOOOO3954)",
+    "[약학정보원 — 센시아 허가정보](https://www.health.kr/drug/2012011900004)",
+    "[발키리 — 센시아 120정 약국 가격 집계](https://barkiri.com/products/p25)",
+    "[청담뉴트리션 — 건강기능식품 판매 목록](https://chungdamnutrition.com/category/건강기능식품/42/)",
+    "[NIH — 오메가3 부작용·약물 상호작용](https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/)",
+    "[닥터라이프 — V7MAX 다리 세트 판매 페이지](https://www.doctorlifemall.com/product/v7max-ㅣ-다리set/150/category/175/display/1/)",
+    "[GS SHOP — 발란스핏 제품·표시 가격](https://m.gsshop.com/deal/deal.gs?dealNo=1067502714&mseq=402535-5457_14-187276&pre_inflw=424995&shop_planid=187276)",
+    "[메타 — 시장카드가 수집한 센시오메가 광고 ID](https://www.facebook.com/ads/library/?id=1784414796271036)"
+  ]
+}

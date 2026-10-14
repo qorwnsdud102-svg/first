@@ -1,0 +1,67 @@
+{
+ "cards": 10,
+ "model": "gpt-6.1-sol · effort ultra (사장님 2026-10-14: 6 아스트라 ultra는 너무 비쌈)",
+ "tokens_total": 522542,
+ "per_card": [
+  {
+   "id": "D8-01",
+   "need": "족저근막염",
+   "tokens": 49288,
+   "ok": true
+  },
+  {
+   "id": "D8-02",
+   "need": "역류성식도염",
+   "tokens": 54569,
+   "ok": true
+  },
+  {
+   "id": "D8-03",
+   "need": "손목터널증후군",
+   "tokens": 58107,
+   "ok": true
+  },
+  {
+   "id": "D8-04",
+   "need": "쥐젖",
+   "tokens": 56172,
+   "ok": true
+  },
+  {
+   "id": "D8-05",
+   "need": "허리디스크",
+   "tokens": 46321,
+   "ok": true
+  },
+  {
+   "id": "D8-06",
+   "need": "불면증",
+   "tokens": 56713,
+   "ok": true
+  },
+  {
+   "id": "D8-07",
+   "need": "갱년기증상",
+   "tokens": 48675,
+   "ok": true
+  },
+  {
+   "id": "D8-08",
+   "need": "거북목",
+   "tokens": 55371,
+   "ok": true
+  },
+  {
+   "id": "D8-09",
+   "need": "티눈",
+   "tokens": 46212,
+   "ok": true
+  },
+  {
+   "id": "D8-10",
+   "need": "오십견",
+   "tokens": 51114,
+   "ok": true
+  }
+ ]
+}
