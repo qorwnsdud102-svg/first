@@ -1,0 +1,41 @@
+{
+  "stage": "0",
+  "budget": 250000,
+  "stop_threshold": 200000,
+  "baseline": {
+    "timestamp": "2026-10-14T01:38:01.720Z",
+    "usage": {
+      "input_tokens": 486069276,
+      "cached_input_tokens": 463931008,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1963740,
+      "reasoning_output_tokens": 578023,
+      "total_tokens": 488334728
+    }
+  },
+  "observed": {
+    "timestamp": "2026-10-14T01:38:11.710Z",
+    "usage": {
+      "input_tokens": 486274896,
+      "cached_input_tokens": 464136320,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1963896,
+      "reasoning_output_tokens": 578023,
+      "total_tokens": 488540504
+    }
+  },
+  "delta": {
+    "input_tokens": 205620,
+    "cached_input_tokens": 205312,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 156,
+    "reasoning_output_tokens": 0,
+    "total_tokens": 205776
+  },
+  "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl",
+  "accounting": "직전 브리지 읽기 호출 뒤 token_count부터 장부 구축 호출까지. 캐시 포함. 후행 답변은 제외.",
+  "status": "stopped_before_execution_at_80_percent",
+  "reason": "단일 실행 호출 진입 시 누적 문맥 입력만으로 80% 정지 기준 도달. 장부 추출·검색도구 생성 전에 정지.",
+  "closing_observed_total": 418811,
+  "note": "정지 후 상태 보존·통지 호출까지 포함한 관측치. 최종 답변 후행 토큰 제외. 이 값도 상한과 비교해야 하며 초기 정지치만으로 예산 준수를 주장하지 않음."
+}

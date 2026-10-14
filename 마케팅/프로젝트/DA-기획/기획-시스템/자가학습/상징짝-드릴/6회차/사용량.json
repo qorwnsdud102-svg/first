@@ -1,0 +1,67 @@
+{
+ "cards": 10,
+ "model": "gpt-6.1-sol(Codex config 기본) · effort high — 5회차는 앱 대화 gpt-6-astra ultra",
+ "tokens_total": 306177,
+ "per_card": [
+  {
+   "id": "D6-01",
+   "need": "과민성대장증후군",
+   "tokens": 28743,
+   "ok": true
+  },
+  {
+   "id": "D6-02",
+   "need": "오십견",
+   "tokens": 29743,
+   "ok": true
+  },
+  {
+   "id": "D6-03",
+   "need": "탈모",
+   "tokens": 39289,
+   "ok": true
+  },
+  {
+   "id": "D6-04",
+   "need": "족저근막염",
+   "tokens": 29506,
+   "ok": true
+  },
+  {
+   "id": "D6-05",
+   "need": "기미",
+   "tokens": 32353,
+   "ok": true
+  },
+  {
+   "id": "D6-06",
+   "need": "역류성식도염",
+   "tokens": 27439,
+   "ok": true
+  },
+  {
+   "id": "D6-07",
+   "need": "하지정맥류",
+   "tokens": 26566,
+   "ok": true
+  },
+  {
+   "id": "D6-08",
+   "need": "지루성두피염",
+   "tokens": 26635,
+   "ok": true
+  },
+  {
+   "id": "D6-09",
+   "need": "쥐젖",
+   "tokens": 48927,
+   "ok": true
+  },
+  {
+   "id": "D6-10",
+   "need": "무좀",
+   "tokens": 16976,
+   "ok": true
+  }
+ ]
+}
