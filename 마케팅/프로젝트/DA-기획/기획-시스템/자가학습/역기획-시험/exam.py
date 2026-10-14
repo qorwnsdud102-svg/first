@@ -13,6 +13,7 @@ import argparse
 import glob
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -21,17 +22,23 @@ sys.stdout.reconfigure(encoding="utf-8")
 H = os.path.dirname(os.path.abspath(__file__))
 A = os.path.dirname(H)  # 자가학습
 MK = os.path.normpath(os.path.join(H, "..", "..", "..", "..", ".."))  # 마케팅
+# 학습 방식 v3(2026-10-14): 응시자는 드릴 기획자와 같은 것을 읽는다 — 생각 순서 · 하드 규칙 · 장부 사례 4건,
+# 그리고 정답지(이 문제의 답 줄을 지운 사본). 정본 전체·사전은 넣지 않는다(토큰 상한).
 SOURCES = {  # 묶음에 넣는 참고 자료(복사본 이름: 원본)
-    "정본.md": os.path.join(MK, "wiki", "syntheses", "DA 기획 단계별 규칙.md"),
-    "서브-상징-장치.md": os.path.join(MK, "wiki", "syntheses", "서브 상징 장치.md"),
+    "생각-순서.md": os.path.join(A, "경험", "생각-순서.md"),
     "방법정답지.md": os.path.join(A, "히트해부", "방법정답지.md"),
-    "다른분야-상징.md": os.path.join(A, "상징원-사전", "다른분야-상징.md"),
-    "카드-형식.md": os.path.join(A, "상징짝-드릴", "_드릴-하는-법.md"),
 }
+sys.path.insert(0, os.path.join(A, "경험"))
+sys.path.insert(0, os.path.join(A, "상징짝-드릴", "7회차"))
+import 찾기  # noqa: E402
+from drill7 import RULES  # noqa: E402
+RULES = RULES.split("# 카드 칸")[0]
+MODEL = "gpt-6-astra"  # 드릴 7과 같은 모델
 STAGES = ["결핍 해석", "상징 떠올리기", "짝 고르기", "구현", "없음"]
 
 ANSWER_PROMPT = """너는 DA(메타 광고) 제품 기획자다. 이 폴더의 문제.json에 결핍 하나가 있다.
-이 폴더의 파일만 읽어라(정본.md, 방법정답지.md, 다른분야-상징.md, 서브-상징-장치.md, 카드-형식.md). 다른 폴더·웹·검색은 쓰지 마라.
+이 폴더의 파일만 읽어라: 생각-순서.md(생각하는 순서), 규칙.md(하드 조건), 사례4.json(지난 판정 장부의 비슷한 성공·실패), 방법정답지.md(실제로 팔린 기획의 길과 1등급 정답 — 이 문제의 답 줄은 지워져 있다). 다른 폴더·웹·검색은 쓰지 마라.
+팔린 기획의 길(방법정답지)을 이 결핍에 옮겨 쓰는 것이 이 시험의 핵심이다.
 할 일: 이 결핍에 상징 짝 3안을 낸다.
 - 상징은 타겟이 이미 아는 상위 상징(병원 시술·기기·유명 원료·대명사)이다. 낫게 하는 방식의 느낌이 이 결핍과 맞아야 한다.
 - 그 상징을 우리가 팔 수 있는 제품(원료·기기·제형·체감·이름)으로 당위 있게 옮긴다.
@@ -112,7 +119,14 @@ def cmd_pack(rd):
             keep = [l for l in lines if not drop_line(l, ans)]
             open(os.path.join(d, name), "w", encoding="utf-8").write("\n".join(keep) + "\n")
             log[x["id"]][name] = len(lines) - len(keep)
-        left = [w for f in SOURCES for w in leaks(open(os.path.join(d, f), encoding="utf-8").read(), {**ans, "symbol": ""})]
+        open(os.path.join(d, "규칙.md"), "w", encoding="utf-8").write(RULES)
+        bad = [w for w in [ans["symbol"]] + list(ans.get("symbol_family", [])) + list(ans.get("leak_terms", [])) if w and len(w) > 1]
+        hit = lambda t: any(w.lower() in t.lower() for w in bad)
+        case = 찾기.find(x["need"], x.get("shelf", ""))
+        case = {k: (None if isinstance(v, dict) and hit(v.get("symbol", "") + " " + v.get("impl", "")) else v) for k, v in case.items()}
+        case["이 결핍에 이미 쓴 상징"] = [t for t in case["이 결핍에 이미 쓴 상징"] if not hit(t)]
+        json.dump(case, open(os.path.join(d, "사례4.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        left = [w for f in list(SOURCES) + ["사례4.json"] for w in leaks(open(os.path.join(d, f), encoding="utf-8").read(), {**ans, "symbol": ""})]
         assert not left, (x["id"], "묶음에 답이 남음", left)
     json.dump(log, open(os.path.join(rd, "묶음-기록.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("묶음", len(q), "· 지운 줄", sum(sum(v.values()) for v in log.values()))
@@ -123,13 +137,19 @@ def codex(folder, prompt, schema, out, effort):
     assert exe, "codex.exe를 못 찾음"
     sp = os.path.join(folder, "_schema.json")
     json.dump(schema, open(sp, "w", encoding="utf-8"), ensure_ascii=False)
-    r = subprocess.run([exe[-1], "exec", "--skip-git-repo-check", "--ephemeral", "-s", "read-only",
+    r = subprocess.run([exe[-1], "exec", "--skip-git-repo-check", "--ephemeral", "-s", "read-only", "-m", MODEL,
                         "-c", f'model_reasoning_effort="{effort}"', "-C", folder, "-o", out,
                         "--output-schema", sp, "-"], input=prompt, text=True, encoding="utf-8",
                        capture_output=True)
     os.remove(sp)
     ok = r.returncode == 0 and os.path.exists(out)
-    print(("완료 " if ok else "실패 ") + os.path.basename(out), "" if ok else r.stderr[-300:])
+    m = re.findall(r"tokens used[^\d]*([\d,]+)", (r.stderr or "") + (r.stdout or ""), re.I)
+    tok = int(m[-1].replace(",", "")) if m else None
+    up = os.path.join(os.path.dirname(os.path.dirname(out)), "응시채점-사용량.json")
+    use = json.load(open(up, encoding="utf-8")) if os.path.exists(up) else {}
+    use[os.path.basename(os.path.dirname(out)) + "/" + os.path.basename(out)] = tok
+    json.dump(use, open(up, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(("완료 " if ok else "실패 ") + os.path.basename(out), "토큰", tok, "" if ok else r.stderr[-300:], flush=True)
 
 
 def cmd_answer(rd, only, effort):
@@ -204,7 +224,7 @@ if __name__ == "__main__":
     elif o.cmd == "pack":
         cmd_pack(rd)
     elif o.cmd == "answer":
-        cmd_answer(rd, o.only, o.effort or "xhigh")
+        cmd_answer(rd, o.only, o.effort or "ultra")
     elif o.cmd == "grade":
         cmd_grade(rd, o.only, o.effort or "high")
     else:

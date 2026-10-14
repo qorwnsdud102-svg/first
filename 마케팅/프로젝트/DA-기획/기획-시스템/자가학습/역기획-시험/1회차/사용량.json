@@ -1,0 +1,151 @@
+{
+  "request_id": "55ed2e5c-b15b-48b5-9f3f-1871500ae3de",
+  "budget": 3000000,
+  "baseline": {
+    "timestamp": "2026-10-14T00:52:10.391Z",
+    "usage": {
+      "input_tokens": 482393740,
+      "cached_input_tokens": 460323328,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1946310,
+      "reasoning_output_tokens": 571285,
+      "total_tokens": 484641762
+    },
+    "source": "C:/Users/qorwn/.codex/sessions/2026/09/21/rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+  },
+  "status": "budget_exceeded_partial_saved",
+  "note": "새 요청 첫 도구 호출 전 마지막 token_count를 기준으로 삼음. 자식 에이전트별 사용량 별도 합산.",
+  "agents": [
+    {
+      "label": "A",
+      "id": "01a13805-b44b-7533-b27a-b75f54f32e5c",
+      "scope": "R1-01~16",
+      "session_source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T10-27-40-01a13805-b44b-7533-b27a-b75f54f32e5c.jsonl",
+      "last_observed_usage": {
+        "input_tokens": 1288198,
+        "cached_input_tokens": 1162880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5689,
+        "reasoning_output_tokens": 598,
+        "total_tokens": 1293887
+      },
+      "closing_observation": {
+        "timestamp": "2026-10-14T01:35:01.674Z",
+        "usage": {
+          "input_tokens": 1288198,
+          "cached_input_tokens": 1162880,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 5689,
+          "reasoning_output_tokens": 598,
+          "total_tokens": 1293887
+        }
+      }
+    },
+    {
+      "label": "B",
+      "id": "01a13805-b5a4-7812-9858-9f4885bb33bd",
+      "scope": "R1-17~32",
+      "session_source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T10-27-41-01a13805-b5a4-7812-9858-9f4885bb33bd.jsonl",
+      "last_observed_usage": {
+        "input_tokens": 857190,
+        "cached_input_tokens": 774528,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5807,
+        "reasoning_output_tokens": 1510,
+        "total_tokens": 862997
+      },
+      "closing_observation": {
+        "timestamp": "2026-10-14T01:35:01.706Z",
+        "usage": {
+          "input_tokens": 980769,
+          "cached_input_tokens": 890368,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7117,
+          "reasoning_output_tokens": 2544,
+          "total_tokens": 987886
+        }
+      }
+    },
+    {
+      "label": "C",
+      "id": "01a13805-b986-7a81-89f4-99df90bb4916",
+      "scope": "R1-33~48",
+      "session_source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T10-27-42-01a13805-b986-7a81-89f4-99df90bb4916.jsonl",
+      "last_observed_usage": {
+        "input_tokens": 1211038,
+        "cached_input_tokens": 1093888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5804,
+        "reasoning_output_tokens": 1618,
+        "total_tokens": 1216842
+      },
+      "closing_observation": {
+        "timestamp": "2026-10-14T01:34:33.819Z",
+        "usage": {
+          "input_tokens": 1522704,
+          "cached_input_tokens": 1397120,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 12489,
+          "reasoning_output_tokens": 1923,
+          "total_tokens": 1535193
+        }
+      }
+    }
+  ],
+  "protected_hashes": {
+    "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\역기획-시험\\exam.py": "8415d8a57e2df7133bba073c0641c0a3059d24dda916088d9760ae92ed095a97",
+    "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\역기획-시험\\README.md": "534d795d6b2cf3a078a403802373fe0f1bd4e428a60be72c67a4f81e5676cf94",
+    "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\역기획-시험\\_지시-1-출제.md": "83b342756487049f8f1980f272724c0bd585a7f66bd3e93034881aa9229c00c1",
+    "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\방법정답지.md": "4d05767b4424e0840edd6ada6af37a5b5975f612961e9efe3feb2b448ca13397",
+    "C:\\claude\\LLM-WIKI\\마케팅\\wiki\\syntheses\\DA 기획 단계별 규칙.md": "48e122e58704162ea12158464fa5288e42fe813ffb7312d159d97ecaf0292bc4"
+  },
+  "stop_requested_at": "2026-10-14T01:31:56.158398+00:00",
+  "failure": "자식 에이전트의 캐시 포함 사용량을 늦게 합산하여 전체 상한을 초과. 추가 조사 중단·기확보 결과 저장 요청.",
+  "closing_observation": {
+    "main": {
+      "timestamp": "2026-10-14T01:34:41.464Z",
+      "usage": {
+        "input_tokens": 484874832,
+        "cached_input_tokens": 462747520,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1959229,
+        "reasoning_output_tokens": 575741,
+        "total_tokens": 487135773
+      }
+    },
+    "main_delta": {
+      "input_tokens": 2481092,
+      "cached_input_tokens": 2424192,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 12919,
+      "reasoning_output_tokens": 4456,
+      "total_tokens": 2494011
+    },
+    "aggregate_with_agents": {
+      "input_tokens": 6272763,
+      "cached_input_tokens": 5874560,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 38214,
+      "reasoning_output_tokens": 9521,
+      "total_tokens": 6310977
+    },
+    "note": "부모 기준점 차이 + 각 자식 세션 누적 사용량 합산. 캐시는 입력에 포함. 최종 통지/답변 후행 토큰 미포함."
+  },
+  "remaining": -3310977,
+  "saved_partials": [
+    {
+      "file": "_분담-C.json",
+      "question_count": 4,
+      "answer_count": 4,
+      "evidence_count": 4,
+      "keys": [
+        "questions",
+        "answers",
+        "evidence",
+        "usage",
+        "progress_notes"
+      ],
+      "sha256": "2cac587b1c7e5fe861f082401a8db7eb851ae973aeff2901c5aef9a782ed0be9"
+    }
+  ]
+}
