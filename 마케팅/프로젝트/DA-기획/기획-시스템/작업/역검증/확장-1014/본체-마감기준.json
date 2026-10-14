@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-10-14T00:08:44.349Z",
+  "usage": {
+    "input_tokens": 475011037,
+    "cached_input_tokens": 453281920,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1902515,
+    "reasoning_output_tokens": 560137,
+    "total_tokens": 477215264
+  },
+  "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+}

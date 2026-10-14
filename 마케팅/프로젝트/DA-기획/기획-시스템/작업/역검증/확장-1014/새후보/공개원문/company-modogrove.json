@@ -1,0 +1,24 @@
+{
+  "key": "company-modogrove",
+  "requested_url": "https://modogrove.com/",
+  "final_url": "https://modogrove.com/",
+  "status_code": 200,
+  "title": "모도그로브",
+  "retrieved_at": "2026-10-14T08:41:07.888535+09:00",
+  "html_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-modogrove.html",
+  "text_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-modogrove.txt",
+  "sha256": "a8659bdcd5471e4abaa07fe51f695bbfda5e66dfb741d30fa9503be5233278b5",
+  "detail_images": [
+    "https://roundhr.s3.ap-northeast-2.amazonaws.com/upload/builder/builder_image/2394/temp/1768804914907/14ad2ff6-f359-494a-a071-f706156e1be1.jpg",
+    "https://roundhr.s3.ap-northeast-2.amazonaws.com/upload/builder/builder_image/2394/temp/1768804342424/c154818d-37fd-4cfb-81be-cc44144c6e65.webp",
+    "https://roundhr.s3.ap-northeast-2.amazonaws.com/upload/builder/builder_image/2394/temp/1768804118017/60039e03-89b8-43a5-a854-94f51fc260e8.webp",
+    "https://roundhr.s3.ap-northeast-2.amazonaws.com/upload/builder/builder_image/2394/temp/1768981516243/cfaa1cf9-006e-4d1a-95f6-4680f48a044d.webp",
+    "https://roundhr.s3.ap-northeast-2.amazonaws.com/upload/builder/builder_image/2394/temp/1768805900418/503c809b-92d9-478d-82f4-002aa69fc87b.webp",
+    "https://roundhr.s3.ap-northeast-2.amazonaws.com/upload/builder/builder_image/2394/temp/1768805889960/062522d0-4633-4f71-a724-4af749754534.webp",
+    "https://assets.roundhr.com/build/recruit/_next/static/media/youtube_icon.b4c73f22.svg",
+    "https://assets.roundhr.com/build/recruit/_next/static/media/instagram_icon.aa2df72a.svg",
+    "https://assets.roundhr.com/build/recruit/_next/static/media/twitter_icon.97a0e3df.svg",
+    "https://assets.roundhr.com/build/recruit/_next/static/media/kakao_icon.baa4c531.svg",
+    "https://assets.roundhr.com/service/logo/logo3.svg"
+  ]
+}

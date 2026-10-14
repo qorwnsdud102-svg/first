@@ -1,0 +1,706 @@
+{
+  "as_of": "2026-10-14",
+  "products": [
+    {
+      "id": "X01",
+      "product_name": "누룩밤",
+      "product_key": "wizardjoseon.com#29",
+      "official_url": "https://wizardjoseon.com/surl/P/29",
+      "status": "P",
+      "reason": "U→P: 실제 P29 광고106일과 현재 P29·운영사를 연결했다. 기존 전체 판독을 재사용했다. 옛 술 빚는 사람 손 서사가 현재에도 보인다고 확대하지 않는다.",
+      "symbol_role": "누룩 발효의 전통 원료 서사를 피부용 밤·취침 루틴으로 이전",
+      "implementation": "100ml 수면크림. 현재 상세의 누룩발효여과물146,500ppm, TXA·나이아신아마이드 및 취침 전 도포 설명을 관찰. 효능 검증과 별개.",
+      "operator": "주식회사 비버글로벌 / 797-86-01878 / 주한결",
+      "company_scope_basis": "공식 회사 사이트와 상품 푸터의 사업자번호가 일치한다. 회사가 게시한 채용 소개는 소수 정예 조직, 원티드 기업정보는 5명·50명 이하 표기다. 소규모 운영의 공개 합리근거로 사용하며 법정 NICE 판정을 요구하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "2115209279403918",
+          "days": 106,
+          "start_date": "2026-06-29",
+          "end_date": "2026-10-13",
+          "landing": "https://wizardjoseon.com/surl/P/29",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/0/ads/7"
+        },
+        {
+          "id": "1058614553512424",
+          "days": 105,
+          "start_date": "2026-06-30",
+          "end_date": "2026-10-13",
+          "landing": "https://wizardjoseon.com/surl/P/29",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/0/ads/5"
+        },
+        {
+          "id": "789338177600051",
+          "days": 105,
+          "start_date": "2026-06-30",
+          "end_date": "2026-10-13",
+          "landing": "https://wizardjoseon.com/surl/P/29",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/0/ads/0"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://wizardjoseon.com/surl/P/29",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\A자료\\누룩밤\\판독.md",
+          "observed": "P29 현재 판매명·100ml 및 이미지029~034 발효/성분 설명. 이미 완료된 전체 판독 재사용. [SHA256 7dd4c1b849b1907cc10c1d1cabe6dfa98e819144501673118bfe7d7dd1837080]"
+        },
+        {
+          "source_url": "https://wizardjoseon.com/surl/P/29",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\A자료\\누룩밤\\P29-text.txt",
+          "observed": "운영사 비버글로벌·사업자797-86-01878. [SHA256 0f46d305b6f3fd984ae6e51fe98f9b1541b2e0591889473f2cddd827169f06de]"
+        },
+        {
+          "source_url": "https://beaverglobal.co.kr/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-beaver.html",
+          "observed": "공식 운영사 사업자번호 일치. [SHA256 8318e1f0227de379620831f69bc5b9e0a65db513f27b71734d8ffde9427dea0f]"
+        },
+        {
+          "source_url": "https://www.wanted.co.kr/company/26502",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\회사-공개근거.json",
+          "observed": "2026-10-14 검색 재확인: 비버글로벌 기업정보 5명·50명 이하 표기. 회사 게시 채용 소개는 소수 정예 조직과 위자드조선 대표 누룩밤을 명시. 이는 현재 실사 인원이나 회계 검증값이 아니다."
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "X02",
+      "product_name": "릴리이브 그로우턴 엑소좀 브러쉬 앰플",
+      "product_key": "lilyeve.kr#235",
+      "official_url": "https://lilyeve.kr/product/detail.html?product_no=235",
+      "status": "U",
+      "reason": "광고96일·정확 P235·현재 브러쉬 앰플 연결은 확보. 현재 브랜드 규모 및 연예인 의존 여부의 배제조건이 미해결이므로 U 유지. 옛 P35의 광고일수를 합치지 않는다.",
+      "symbol_role": "전문 앰플과 잔머리펌/잔머리 메이커 상징",
+      "implementation": "브러쉬로 두피에 직접 바르고 ON/OFF하는 엑소좀 앰플.",
+      "operator": "주식회사 바이트랩",
+      "company_scope_basis": "공식 상품 푸터로 바이트랩을 확인했다. 여러 브랜드 운영·외부 투자와 성장 규모, 채정안 사용 서사가 함께 확인되어 소기업·연예인 의존 배제조건은 이 증거 묶음만으로 확정하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "4380133262243528",
+          "days": 96,
+          "start_date": "2026-07-09",
+          "end_date": "2026-10-13",
+          "landing": "https://lilyeve.kr/product/detail.html?product_no=235&utm_source=FBIG&utm_medium=DR&utm_campaign=ABO_그로우턴&utm_content=채은 [260630]wave_릴리이브_그로우턴 앰플_1등",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/4/ads/2"
+        },
+        {
+          "id": "1588989585956235",
+          "days": 83,
+          "start_date": "2026-07-22",
+          "end_date": "2026-10-13",
+          "landing": "https://lilyeve.kr/product/detail.html?product_no=235&utm_source=FBIG&utm_medium=DR&utm_campaign=ABO_그로우턴&utm_content=[260626]wave_릴리이브_탈모앰플_1등현",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/5/ads/5"
+        },
+        {
+          "id": "2416411265522223",
+          "days": 83,
+          "start_date": "2026-07-22",
+          "end_date": "2026-10-13",
+          "landing": "https://lilyeve.kr/product/detail.html?product_no=235&utm_source=FBIG&utm_medium=DR&utm_campaign=ABO_%EA%B7%B8%EB%A1%9C%EC%9A%B0%ED%84%B4&utm_content=%5B260715%5Dwave_%EB%A6%B4%EB%A6%AC%EC%9D%B4%EB%B8%8C_%EB%91%90%ED%94%BC%EC%97%90%EB%B0%9C%EB%9D%BC_%EA%B7%B8%EB%A1%9C%EC%9A%B0%ED%84%B4+%EC%95%B0%ED%94%8C",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/4/ads/5"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://lilyeve.kr/product/detail.html?product_no=235",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\B자료\\릴리이브\\판독.md",
+          "observed": "현재235 실물·브러쉬·ON/OFF·공식 운영사. 기존 전체 판독 재사용. [SHA256 fd8ec77ff6023859712161ffa50903f69e39e2f81fd0984b3c80c8810b84cb0c]"
+        }
+      ],
+      "remaining": [
+        "소기업/대형 브랜드 및 연예인 의존 배제조건의 판정. 별도 규칙 적용 담당이 보유한 증거와 제품키로 통합."
+      ]
+    },
+    {
+      "id": "X03",
+      "product_name": "에끌무아 볼류미크 퍼퓸 헤어3종",
+      "product_key": "eclmoi.com#59",
+      "official_url": "https://eclmoi.com/product/detail.html?product_no=59",
+      "status": "P",
+      "reason": "U→P: 정확 P59 광고302일·현재 세트의 실제 샴푸와 운영사를 연결. 세트를 3제품으로 늘리지 않고 1제품키로 계산한다. 청담샵/향수 차용은 기존 판독 재사용.",
+      "symbol_role": "향수·트러플·청담샵",
+      "implementation": "더블트러플 퍼퓸 샴푸500ml 중심의 헤어3종 세트. 향수 노트·조향 설명과 검은/흰 송로추출물 표기. 노워시의 성분을 샴푸에 옮기지 않는다.",
+      "operator": "주식회사 더앤비(The&Be) / 491-88-03365 / 손서영",
+      "company_scope_basis": "현재 공식몰 운영사·사업자번호 및 2025 수원 통신판매 신고 확인. 회사 채용 소개의 2025.07 신규 브랜드 출시·초기 팀 충원과 헤어 중심 상품 범위를 공개 합리근거로 소규모 신생 운영으로 판단. 올리브영 온라인 입점 자체를 대기업으로 간주하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "1644194146960867",
+          "days": 302,
+          "start_date": "2025-12-15",
+          "end_date": "2026-10-13",
+          "landing": "https://eclmoi.com/product/detail.html?product_no=59",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/10/ads/7"
+        },
+        {
+          "id": "1542727280112785",
+          "days": 302,
+          "start_date": "2025-12-15",
+          "end_date": "2026-10-13",
+          "landing": "https://eclmoi.com/product/detail.html?product_no=59",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/10/ads/17"
+        },
+        {
+          "id": "2747443895595680",
+          "days": 295,
+          "start_date": "2025-12-22",
+          "end_date": "2026-10-13",
+          "landing": "https://eclmoi.com/product/detail.html?product_no=59",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/10/ads/6"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://eclmoi.com/product/detail.html?product_no=59",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\B자료\\에끌무아\\판독.md",
+          "observed": "P59 세트 선택·샴푸 실제품, 향수 노트 I041, 트러플 I051~052, 3제품 라벨 I116~118. 기존 판독 재사용. [SHA256 5332fdf022ab57187f23a416fc3fd7aea664632a415745628bfaa6fe8f18e25c]"
+        },
+        {
+          "source_url": "https://eclmoi.com/surl/P/59",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\B자료\\에끌무아\\59-text.txt",
+          "observed": "현재 상품/공식 사업자 표기. [SHA256 05c6cc57784dc0f44bd41fd3a6c79f45977b06dbc337eccf2f021d1c2f167f7a]"
+        },
+        {
+          "source_url": "https://careerly.co.kr/job/9642477",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\회사-공개근거.json",
+          "observed": "2026-10-14 검색 재확인한 더앤비 회사 채용 소개: 에끌무아 2025.07 국내 공식 출시, 2026.01 올리브영 온라인몰 입점. 신제품 패키지/웹 담당자를 채용하는 신생 헤어 브랜드. 초기 팀 충원 관련 종전 회사 게시문 https://demoday.co.kr/recruits/14488 도 보조 참조. 재열람은 도구 접근 실패였으므로 현재 열람 근거로 과장하지 않음."
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "X04",
+      "product_name": "메디톨드 퍼시닌 바디워시",
+      "product_key": "meditold.com#446",
+      "official_url": "https://meditold.com/product/detail.html?product_no=446",
+      "status": "U",
+      "reason": "P349 임시 키를 폐기하고 현재 P446 실제품으로 정규화. P175/220/252 라벨 D07 동일 해시로 광고→현재 SKU 연결을 확보했다. 기업 범위 조건은 U 유지.",
+      "symbol_role": "단감·탄닌의 냄새 포획 설명",
+      "implementation": "퍼시닌 바디워시500ml. 감/탄닌과 냄새 포획 설명·초록 병. 88,000ppb 감추출물과 순수 탄닌 함량을 동일시하지 않는다.",
+      "operator": "킥더허들헬스케어 / 451-85-01446; 제품 책임판매 표기 킥더허들",
+      "company_scope_basis": "현재 공식 상품 운영사 확인. 그룹의 복수 브랜드 및 사업 범위가 있어 소기업 배제조건을 이 묶음만으로 확정하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "1559686712459336",
+          "days": 125,
+          "start_date": "2026-06-10",
+          "end_date": "2026-10-13",
+          "landing": "https://meditold.com/surl/P/175?utm_source=MT&utm_medium=P&utm_campaign=da_15",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/8/ads/11"
+        },
+        {
+          "id": "984958550817424",
+          "days": 125,
+          "start_date": "2026-06-10",
+          "end_date": "2026-10-13",
+          "landing": "https://meditold.com/surl/P/175?utm_source=MT&utm_medium=P&utm_campaign=da_16",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/9/ads/0"
+        },
+        {
+          "id": "972640938712387",
+          "days": 125,
+          "start_date": "2026-06-10",
+          "end_date": "2026-10-13",
+          "landing": "https://meditold.com/surl/P/220?utm_source=MT&utm_medium=P&utm_campaign=helmet_4",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/8/ads/0"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://meditold.com/product/detail.html?product_no=446",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\C자료\\메디톨드\\SKU대조.md",
+          "observed": "P446 D07 SHA256 2e1ede65fe934ffd1d9874bbc5e8359daa4db9d0c8d38b3a214429a7a9bc29ac와 P175/220/252 고시 이미지가 동일. 악시크림 P181 제외. [SHA256 335720908d007dd35182cb3e54c7800ad29accce607c818ec68b1ef9ba9031ed]"
+        },
+        {
+          "source_url": "https://meditold.com/product/detail.html?product_no=446",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\C자료\\메디톨드\\판독.md",
+          "observed": "D03·D05 단감/탄닌 서사와 현재 운영사. 기존 전체 판독 재사용. [SHA256 ee988d46cf41f9e6b32d4e411518047e96ee211d356da24deba7bb0099c5a0d3]"
+        }
+      ],
+      "remaining": [
+        "그룹 규모·대형 브랜드 힘 의존 배제조건의 판정. 별도 규칙 적용 담당과 제품키로 통합."
+      ]
+    },
+    {
+      "id": "X05",
+      "product_name": "벨택 페니톡스 프리미엄 맨즈 크림",
+      "product_key": "veltag.co.kr#3",
+      "official_url": "https://www.veltag.co.kr/shop_view/?idx=3",
+      "status": "P",
+      "reason": "U→P: 정확 idx3 광고81일·공개 현재 상세·개인 운영사를 확보. H10 대표의 10점 확정 판정을 반영한다. 상세에 보톡스 시술명 직설이 반드시 있어야 한다는 예전 추가조건을 되살리지 않는다.",
+      "symbol_role": "보톡스",
+      "implementation": "페니톡스 작명·아세틸헥사펩타이드-8",
+      "operator": "라에드(raede) / 623-36-01271 / 박기훈",
+      "company_scope_basis": "공식몰은 라에드·대표 개인명·2025 김포 통신판매 신고·소수 제품의 전문몰 형태를 명시한다. 개인 상호 운영의 공개 근거로 소기업 표본에 포함. 대형 계열사·대형 브랜드 또는 연예인 의존 근거가 나타나지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "2233806247159456",
+          "days": 81,
+          "start_date": "2026-07-24",
+          "end_date": "2026-10-13",
+          "landing": "https://www.veltag.co.kr/shop_view/?idx=3",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\10회차\\브랜드-메타.json#/3/ads/0"
+        },
+        {
+          "id": "1360211426232570",
+          "days": 65,
+          "start_date": "2026-08-09",
+          "end_date": "2026-10-13",
+          "landing": "https://www.veltag.co.kr/shop_view?idx=3",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\10회차\\브랜드-메타.json#/3/ads/8"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://www.veltag.co.kr/shop_view/?idx=3",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\veltag_co_kr-3.html",
+          "observed": "페니톡스 판매명·동일idx3 및 공식 푸터 라에드623-36-01271; GET 200; 取得 2026-10-14T08:27:18.924122+09:00 [SHA256 2a4d2ba224c993147a21b03b8a5c81886e9ff58e47fef8e6d7be576b66dc1a32]"
+        },
+        {
+          "source_url": null,
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\10회차\\결과.md",
+          "observed": "대표 판정10점: 페니톡스 작명과 보톡스 연상 원료 연결도 상징 차용. 이전 보류 판정의 변경 근거. [SHA256 c2276aad09965161398b819f044990a6498ca1c037b58dd5d08e3a7f2355cde2]"
+        },
+        {
+          "source_url": "https://www.veltag.co.kr/shop_view/?idx=3",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\10회차\\검토-벨태그.md",
+          "observed": "현재 상품 형태와 아세틸헥사펩타이드-8 관련 기존 판독 재사용. [SHA256 60893e52082f57841d33d4ec37f18b8c782fba867f39eec6e3c5a66e8a08b3bb]"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "X06",
+      "product_name": "해트케 아크넨 패드",
+      "product_key": "hattke.co.kr#18",
+      "official_url": "https://hattke.co.kr/product/detail.html?product_no=18",
+      "status": "P",
+      "reason": "U→P: 저장135일 광고 두 개와 현재 P18 및 운영사를 대조. 기존 채택 카드의 실제 사용 구조를 재사용했다. 기존32의 P23 가중이불과는 다른 실제품.",
+      "symbol_role": "피부용 패드를 베개에 까는 방식",
+      "implementation": "베개 위 시트·통기/피부 접촉면 구성",
+      "operator": "주식회사 드래프터 / 360-81-03631",
+      "company_scope_basis": "기존 H7 공식 조사와 현재 푸터가 동일한 소규모 전문몰 운영사 드래프터를 가리킨다. 2025 통신판매 신고, 자체 침구 관리 제품 중심의 공개 운영 근거로 포함한다. 법인 지분 전량 조사는 수행하지 않았고 대형 브랜드 의존 정황은 확인되지 않았다.",
+      "ad_evidence": [
+        {
+          "id": "1679375666632178",
+          "days": 135,
+          "start_date": "2026-05-29",
+          "end_date": "2026-10-11",
+          "landing": "https://hattke.co.kr/product/detail.html?product_no=18&utm_source=fb&utm_medium=cbo&utm_campaign=fb_ac_cbo_002&utm_content=003&utm_term=003(260203)_260203_pa_지희수건_T",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/950"
+        },
+        {
+          "id": "982784544237765",
+          "days": 135,
+          "start_date": "2026-05-29",
+          "end_date": "2026-10-11",
+          "landing": "https://hattke.co.kr/product/detail.html?product_no=18&utm_source=fb&utm_medium=cbo&utm_campaign=fb_ac_cbo_009&utm_content=001&utm_term=001(260203)_260203_pa_목린모낭염_T",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/951"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://hattke.co.kr/product/detail.html?product_no=18&utm_source=fb&utm_medium=cbo&utm_campaign=fb_ac_cbo_002&utm_content=003&utm_term=003(260203)_260203_pa_%EC%A7%80%ED%9D%AC%EC%88%98%EA%B1%B4_T",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\hattke_co_kr-18.html",
+          "observed": "아크넨 패드 Acnen Pad·현재 공식 운영사 동일; GET 200; 取得 2026-10-14T08:27:19.021986+09:00 [SHA256 12a383234f33b968f5aa692ccbeb6d6947ef44659bacfe77bddb00f0d4506889]"
+        },
+        {
+          "source_url": "https://hattke.co.kr/product/detail.html?product_no=18",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\해부-해트케-아크넨패드.md",
+          "observed": "이미 확인한 원본 상세: 베개 위에 깔고 교체하는 넓은 소모성 시트·20EA. 화장품 대신 접촉면을 바꾸는 차별 구현. [SHA256 547c64caeb99a07eafad6430dfdbb078be7f7001737283ccee02590979548749]"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "X07",
+      "product_name": "데일리원더 미브잉 텅 트레이너",
+      "product_key": "dailywondermall.co.kr#37",
+      "official_url": "https://dailywondermall.co.kr/product/detail.html?product_no=37&cate_no=1&display_group=2&cafe_mkt=ue_mv_fb_v028",
+      "status": "U",
+      "reason": "정확 P37 광고923일·현재 상품 연결 확보. 과거 턱선 애정형 제외는 이번 원표본의 추가 게이트가 아니므로 그대로 F를 복사하지 않는다. 다만 현재 공식 회사 규모·다브랜드 운영 때문에 소기업 범위는 U.",
+      "symbol_role": "혀 운동을 통한 턱선 관리라는 사용 방식",
+      "implementation": "노란 손잡이·투명 구강부·스프링으로 혀를 운동시키는 구조. 단순 씹기 기구로 잘못 명명하지 않는다.",
+      "operator": "주식회사 이삼오구 / 465-81-01281 / 주재형",
+      "company_scope_basis": "공식 회사 소개에서 13개 브랜드·임직원156명·누적620만 주문을 명시한다. 과거 직원51명 자료만 사용해 명확한 소기업으로 올리지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "1172760470520691",
+          "days": 923,
+          "start_date": "2024-04-02",
+          "end_date": "2026-10-12",
+          "landing": "https://dailywondermall.co.kr/product/detail.html?product_no=37&cate_no=1&display_group=2&cafe_mkt=ue_mv_fb_v028",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/1313"
+        },
+        {
+          "id": "404487008863517",
+          "days": 923,
+          "start_date": "2024-04-02",
+          "end_date": "2026-10-12",
+          "landing": "https://dailywondermall.co.kr/product/detail.html?product_no=37&cate_no=1&display_group=2&cafe_mkt=ue_mv_fb_v005",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/1318"
+        },
+        {
+          "id": "791051829672159",
+          "days": 860,
+          "start_date": "2024-06-04",
+          "end_date": "2026-10-12",
+          "landing": "https://dailywondermall.co.kr/product/detail.html?product_no=37&cate_no=1&display_group=2&cafe_mkt=ue_mv_fb_v003",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/1307"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://dailywondermall.co.kr/product/detail.html?product_no=37&cate_no=1&display_group=2&cafe_mkt=ue_mv_fb_v028",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\dailywondermall_co_kr-37.html",
+          "observed": "미브잉 텅 트레이너 판매명·공식 운영사; GET 200; 取得 2026-10-14T08:27:18.852290+09:00 [SHA256 23ac60c7716d207ae56a9ff084c60fd9c896ca5851b86f29045afcd42bf1984f]"
+        },
+        {
+          "source_url": "https://dailywondermall.co.kr/product/detail.html?product_no=37&cate_no=1&display_group=2&cafe_mkt=ue_mv_fb_v028",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\B1-조사.md",
+          "observed": "§5의 상세 일부 원본 판독: 입에 대는 부품과 스프링/혀 운동. 예전 제외 사유와 현재 미확인 범위 구분. [SHA256 cf527cb611f1273127a5f5c4a08a3c923de7bc7d65ccc21a01bf000c8d75d573]"
+        },
+        {
+          "source_url": "https://www.2359.co.kr/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-2359.html",
+          "observed": "공식 소개 현재13브랜드·156명. 과거 채용 인터뷰의50여 명과 혼동하지 않음. [SHA256 ff910c518c53da6e3af36919fcd6863142f8976b92c7a39bc4f87f497f3b6fde]"
+        }
+      ],
+      "remaining": [
+        "현재 운영사 규모/브랜드 힘 배제조건."
+      ]
+    },
+    {
+      "id": "X08",
+      "product_name": "퓨리븐 퍼플 가루 치약",
+      "product_key": "puriven.co.kr#33",
+      "official_url": "https://puriven.co.kr/product/detail.html?product_no=33",
+      "status": "P",
+      "reason": "U→P: 실제187일 광고의 bit.ly 링크가 보존된 GET 대조에서 정확 P33으로 연결. P31과 P33 상세26개 동일 해시를 확인해 세트/단품을 중복 계수하지 않았다. 보라색 분말·보색 설명은 기존 판독 재사용.",
+      "symbol_role": "보색·톤업",
+      "implementation": "퍼플 가루치약의 보라색 분말·보색 톤업 설명과 HAP 성분 서사. 실제 미백/재생 효능 검증으로 확대하지 않는다.",
+      "operator": "주식회사 온리비앤코 / 427-81-03889 / 황진순",
+      "company_scope_basis": "상품 푸터와 공식 회사 소개 사업자번호427-81-03889 일치. 회사는 설립1년·외부투자 없이 누적100억 달성 전 단계라고 설명한다. 신생 소규모 브랜드 운영의 공개 합리근거로 사용한다. 일부 유명인 후기 노출이 있으나 주된 보색/분말 구조 자체와 구분했다.",
+      "ad_evidence": [
+        {
+          "id": "1311462927616986",
+          "days": 187,
+          "start_date": "2026-04-09",
+          "end_date": "2026-10-13",
+          "landing": "https://bit.ly/3QsbxuL",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\새구역-메타.json#/18/ads/0"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://puriven.co.kr/product/detail.html?product_no=33",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\F-상품광고대조.json",
+          "observed": "배열6: bit.ly/3QsbxuL → puriven.co.kr product_no33, HTTP200. 광고 랜딩 확정 연결. [SHA256 566475d00b5f369146dfafa1edb0ecc713f15e3d17ad8e703b4168a75a86f5d8]"
+        },
+        {
+          "source_url": "https://puriven.co.kr/product/detail.html?product_no=33",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\F자료\\P33-hash-comparison.json",
+          "observed": "P31과P33 상세 원본26개 동일 해시. 한 실제품으로 통합. [SHA256 da4aecab93e9aaf6150c2d69ef2eef044052d30e41ff99b36fe651d860e81863]"
+        },
+        {
+          "source_url": "https://puriven.co.kr/product/detail.html?product_no=33",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\후보-F.md",
+          "observed": "P16/P33-18 보라색 분말과 보색 톤업 논리의 기존 판독. [SHA256 a499aa49eed78822db2511db749d3ae73182c7d9750f8cdfa25f9e6cf8a8023e]"
+        },
+        {
+          "source_url": "https://onlyb.kr/default/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-onlyb.html",
+          "observed": "공식 회사 소개: 사업자 일치·설립1년·투자 없이 누적100억 달성 전 단계라는 회사 자기서술. [SHA256 47aaf019a249e6d971615d3de87fc044a0cb7eef1f254824b3e9fa4a968d6283]"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "X09",
+      "product_name": "미베러 지직볼 손가락 손마사지기",
+      "product_key": "mebetter.co.kr#45",
+      "official_url": "https://mebetter.co.kr/product/detail.html?product_no=45",
+      "status": "P",
+      "reason": "신규 확인: 실제169일 광고·정확P45·현재 EMS+온열 실물·개인 운영사 연결. 일반 크림/패치와 달리 손에 쥐는 구형 전극 구조가 차별 사용법에 들어 있다.",
+      "symbol_role": "지직이라는 전기 자극 감각과 EMS 저주파를 손에 쥐는 마사지 도구로 구체화",
+      "implementation": "손바닥에 쥐는 금속 주름 구형부와 전원 버튼, EMS+온열 표시. 치료 효과가 아니라 형태·사용법 관찰.",
+      "operator": "베이비포 / 849-32-00686 / 신혜정",
+      "company_scope_basis": "현재 공식몰 상호·대표 개인명·개인 예금주 베이비포·2025 통신판매 신고 일치. 소규모 개인 운영 브랜드의 공개 합리근거로 사용한다.",
+      "ad_evidence": [
+        {
+          "id": "1500283091764843",
+          "days": 169,
+          "start_date": "2026-04-25",
+          "end_date": "2026-10-11",
+          "landing": "https://mebetter.co.kr/surl/P/45?utm_source=instagram&utm_medium=social&utm_campaign=2603_jijik_converter&utm_content=image_03",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/897"
+        },
+        {
+          "id": "1281629333614106",
+          "days": 159,
+          "start_date": "2026-05-01",
+          "end_date": "2026-10-07",
+          "landing": "https://mebetter.co.kr/surl/P/45?utm_source=instagram&utm_medium=social&utm_campaign=2603_jijik_converter&utm_content=image_01",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/133"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://mebetter.co.kr/surl/P/45?utm_source=instagram&utm_medium=social&utm_campaign=2603_jijik_converter&utm_content=image_03",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\mebetter_co_kr-45.html",
+          "observed": "지직볼 EMS 저주파+온열 제목·사업자 베이비포 확인; GET 200; 取得 2026-10-14T08:27:18.715505+09:00 [SHA256 8a1f9fecf4824bf47693480a3daac29c20d115847d2a556fc91e53fdcfb59a6f]"
+        },
+        {
+          "source_url": "https://mebetter.co.kr/web/upload/NNEditor/20260205/d33d7853be6a9e6d84debb01bddf25d8.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\항목이미지\\mebetter_co_kr-45-25.jpg",
+          "observed": "현재 공식 상세 원본 직접 판독: 구형 금속 돌출부/버튼 또는 EMS·온열 설명. 작은 온도 수치는 채택하지 않았다. [SHA256 f1a213050034cdad0b8c1895bcb6e9ead1b2c9f8e45c057ee38e4bea72f8c90e]"
+        },
+        {
+          "source_url": "https://mebetter.co.kr/web/upload/NNEditor/20260205/54ec89f2a351c236a6dc74a7cbf2cde1.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\항목이미지\\mebetter_co_kr-45-43.jpg",
+          "observed": "현재 공식 상세 원본 직접 판독: 구형 금속 돌출부/버튼 또는 EMS·온열 설명. 작은 온도 수치는 채택하지 않았다. [SHA256 1ce3f1e99d8653b867af03dcfd9395a236e15363ac35a40962d75f21dd260d64]"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "X12",
+      "product_name": "포뮬라인 애프터밀 흡착바이트",
+      "product_key": "formula-in.com#218",
+      "official_url": "https://formula-in.com/product/detail.html?product_no=218",
+      "status": "P",
+      "reason": "신규P: 저장82일 광고가 정확 P218로 연결되고 현재 P218 제목·알파CD 흡착 설명·공식 운영사가 일치. 기존 H3 해부를 재사용. P187 피부탈색캔디와 다른 실제품이다. 콜라보 제목만으로 유명 연예인 힘에 의존한 제품이라 판정하지 않으며 제품의 흡착/지방흡입 상징을 별도로 확인했다.",
+      "symbol_role": "지방흡입을 먹는 캔디로 옮기고 키친타월/기름 흡착 비유로 연결",
+      "implementation": "애프터밀 흡착바이트 캔디. 현재 제목 지방흡입캔디, 알파CD가 기름을 포집한다는 원료 모식도·오일 시연 설명. 패키지 변경 안내는 동일 성분 안내와 함께 보존. 인체 지방배출/감량 효능의 입증으로 해석하지 않는다.",
+      "operator": "주식회사 미오컴퍼니 / 749-86-01530 / 김용혁",
+      "company_scope_basis": "공식 포뮬라인 푸터와 미오컴퍼니 홈페이지 사업자749-86-01530 일치. 회사 공개 채용 소개는6개 브랜드를 운영하는 Koi House 산하 B2C 법인, 공개 인원5~6명·매출31억대(기준일 불명)를 표시한다. 법정 증명 대신 공식 운영사+공개 인원/사업 범위의 합리근거로 소기업 포함. 그룹명 존재 자체만으로 대기업으로 간주하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "998041516390693",
+          "days": 82,
+          "start_date": "2026-07-21",
+          "end_date": "2026-10-11",
+          "landing": "https://formula-in.com/product/detail.html?product_no=218",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/70"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://formula-in.com/product/detail.html?product_no=218",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\formula-in_com-218.html",
+          "observed": "모루와토녕X흡착바이트·강력한 지방흡입캔디 제목 및 미오컴퍼니 푸터; 공개 GET 200; 수집 2026-10-14T08:27:19.201378+09:00 [SHA256 81a2d6a1d06c786394d80dd20022aed55ec85a87fb5d7e886052a61cbfcf133d]"
+        },
+        {
+          "source_url": "https://formula-in.com/product/detail.html?product_no=218",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\3회차\\해부-포뮬라인.md",
+          "observed": "기존 지방흡입/키친타월·기름 포집 상징과 캔디 사용법 판독 재사용. 새 영상 분석 없음. [SHA256 dff05177173ab4bbf0840e1150d62c12cf61bfef866b1f7a454fcf70d05f403c]"
+        },
+        {
+          "source_url": "https://meocompany.com/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-meo.html",
+          "observed": "공식 홈페이지 Formula:In 브랜드·Koi House 그룹 관계·동일 사업자번호. [SHA256 6eadc3ef01baa94ef9aba82b6f53a8f00f3c3b64a5fd8368be32bd645d596ee4]"
+        },
+        {
+          "source_url": "https://www.wanted.co.kr/company/45427",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\추가4-공개근거.json",
+          "observed": "2026-10-14 검색 열람: 회사 소개는 미오컴퍼니를 Koi House 산하 Formula:In 등6개 브랜드 운영사로 명시. 기업정보 인원6명, 고용보험5명, 매출31억2,519만원 표기(수치 기준일 명확하지 않음). 공식몰 통신판매신고2020-서울강남-01756와 일치한다. 소기업 공개 합리근거로 사용하며 그룹 전체 회계나 광고비를 이 숫자로 단정하지 않는다."
+        },
+        {
+          "source_url": "https://formula-in.com/web/upload/NNEditor/20260828/f394c1ef19778d2be1c3674379a05a76.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\항목이미지\\formula-in_com-218-11.jpg",
+          "observed": "이전에 직접 확인한 현재 상세 항목: 패키지 변경 안내 또는 지방/알파CD 포집 설명. 전체 상세 재해부 아님. [SHA256 0944cce07e921b9d3d91f44b359f68976349d9116628c88674880b8587d209b9]"
+        },
+        {
+          "source_url": "https://formula-in.com/web/upload/NNEditor/20260828/bbff4b9305f02d5eae5f04e1a97bdd36.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\항목이미지\\formula-in_com-218-14.jpg",
+          "observed": "이전에 직접 확인한 현재 상세 항목: 패키지 변경 안내 또는 지방/알파CD 포집 설명. 전체 상세 재해부 아님. [SHA256 bc8dcf32181aaf7caa04f96ff06735ea5879cbf7c4fdddebe34f158b36ea0942]"
+        },
+        {
+          "source_url": "https://formula-in.com/web/upload/NNEditor/20260828/0d80a8638363b879cfa41c862b136ae5.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\항목이미지\\formula-in_com-218-18.jpg",
+          "observed": "이전에 직접 확인한 현재 상세 항목: 패키지 변경 안내 또는 지방/알파CD 포집 설명. 전체 상세 재해부 아님. [SHA256 6c1b6d393546859056e311f84fa8a25aad8f7f61729cf22537e2e63d3b49bc07]"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "X14",
+      "product_name": "디크솔 큐라스팟",
+      "product_key": "diqsol.com#22",
+      "official_url": "https://diqsol.com/product/detail.html?product_no=22",
+      "status": "P",
+      "reason": "신규P: 원광고 ID3496559190520119(127일)·27526164503740358(116일)의 정확 P22와 현재 큐라스팟/운영사 연결. 기존 카드의 두 광고가 모두127일처럼 읽힐 수 있는 요약은 원자료 날짜로 보정했다. 기존 냉동/콜딩파우더 상징 판독 재사용.",
+      "symbol_role": "동결/냉동 처치의 이미지를 콜딩파우더와 국소 도포로 이전",
+      "implementation": "DIQSOL Curaspot / Spot Powder Concentrate 초록 병·분리된 파우더층. 저장 광고 제목 뿌리까지 꽁꽁/콜딩파우더. 율무·녹두 원료 설명은 판매자 기전 설명이지 의료용 동결제나 실제 제거효능 증명은 아니다.",
+      "operator": "주식회사 인뎁스 / 867-87-02154 / 홍윤선",
+      "company_scope_basis": "공식 P22의 인뎁스·대표·사업자·강남 소재 전문몰 운영을 확인. 공개 기업개요의 동일 대표·주소·전자상거래 중소기업 표기가 합리적 소규모 운영 근거를 보완한다. 대형 계열/유명인 의존 근거가 나타나지 않는다. 유료 기업보고서나 새로운 법정 기준을 요구하지 않았다.",
+      "ad_evidence": [
+        {
+          "id": "3496559190520119",
+          "days": 127,
+          "start_date": "2026-06-06",
+          "end_date": "2026-10-11",
+          "landing": "https://diqsol.com/product/detail.html?product_no=22&utm_source=meta&utm_medium=cpc&utm_campaign=da_re&utm_content=선착순50(V1)_260606_khj&utm_term={keyword}",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부1도메인_메타광고소재\\diqsol\\_ads.json#/ads/0"
+        },
+        {
+          "id": "27526164503740358",
+          "days": 116,
+          "start_date": "2026-06-17",
+          "end_date": "2026-10-11",
+          "landing": "https://diqsol.com/product/detail.html?product_no=22&utm_source=meta&utm_medium=cpc&utm_campaign=da&utm_content=자기전콕(V1)_260616_khn&utm_term={keyword}",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부1도메인_메타광고소재\\diqsol\\_ads.json#/ads/1"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://diqsol.com/product/detail.html?product_no=22",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\diqsol_com-22.html",
+          "observed": "현재 판매명 디크솔 큐라스팟 및 인뎁스 공식 사업자 표기; 공개 GET 200; 수집 2026-10-14T08:32:34.342625+09:00 [SHA256 8d0b73c8136bef16a499ac4c649edbc9796fe973b92ac16e1d862cea03a20620]"
+        },
+        {
+          "source_url": "https://diqsol.com/product/detail.html?product_no=22",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\1회차\\해부2-디크솔.md",
+          "observed": "기존 원소재의 라벨 DIQSOL Curaspot/Spot Powder Concentrate, 쥐젖동결제·콜딩파우더 문구 및 병/상자 판독. 날짜·일수는 현재 첨부한 원광고 JSON을 우선한다. [SHA256 344ea000b44e9dd937ce8a61590610e4ad3607fb3434b4d04e99cc56cb358bde]"
+        },
+        {
+          "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=OQ5632",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\추가4-공개근거.json",
+          "observed": "2026-10-14 일반 검색에서 반환된 인뎁스 공개 기업 개요: 대표 홍윤선, 사업자867-87-0****, 2021.09.27 설립, 강남구 테헤란로79길6 브이호실, 전자상거래 소매업, 중소기업 표기. 공식 디크솔 운영사867-87-02154와 대표·주소 대조. 공개 보조근거일 뿐 NICE 구매/증명서/법정 소기업 심사를 새 필수조건으로 사용하지 않음."
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "X15",
+      "product_name": "토르홉 사우난지앙 라인핏 온열 바디스크럽 200g",
+      "product_key": "torhop.com#47",
+      "official_url": "https://torhop.com/product/detail.html?product_no=47",
+      "status": "P",
+      "reason": "신규P: 저장84일·76일 광고의 온열 바디스크럽 이름/튜브 및 올리브영 A000000260069를 기존 H3 판독으로 특정하고 현재 P47의 사우난지앙 라인핏200g 선택지와 연결. P47 민트쿨링 선택지나 얼굴용 솔트마스크 광고는 이 표본에 합산하지 않는다.",
+      "symbol_role": "핀란드 사우나/온열 몸 관리의 경험을 욕실에서 바르는 스크럽으로 이전",
+      "implementation": "사우난지앙 라인핏 온열 바디스크럽200g, 노란 뚜껑 튜브·크림 스크럽·문지르는 온열 사용 설명. 시술/감량 효능의 검증과 별개.",
+      "operator": "주식회사 모도그로브 / 663-88-01695 / 임정안",
+      "company_scope_basis": "현재 P47 푸터와 공식 회사 사이트 사업자번호 일치. 회사가 2024매출20억→2025매출47억, 마스크4·클렌저4·바디2 SKU 및 K-슈퍼루키 선정을 공개한다. 소규모 브랜드 운영의 합리근거. 올리브영의2025전략투자/유통은 함께 공개하되 입점만으로 대기업 브랜드라고 단정하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "1406298164673798",
+          "days": 84,
+          "start_date": "2026-07-19",
+          "end_date": "2026-10-11",
+          "landing": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000260069",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\torhop\\_ads.json#/ads/13"
+        },
+        {
+          "id": "1420278296590406",
+          "days": 76,
+          "start_date": "2026-07-27",
+          "end_date": "2026-10-11",
+          "landing": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000260069",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\torhop\\_ads.json#/ads/30"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://torhop.com/product/detail.html?product_no=47",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\torhop_com-47.html",
+          "observed": "현재 온&냉사우나 바디스크럽200g2종 택1. 사우난지앙 라인핏/라이카 민트쿨링을 선택지로 구분.; 공개 GET 200; 수집 2026-10-14T08:41:08.098123+09:00 [SHA256 db2c2351de3ff61acace8f0f79840e150b0a38206a0c747ebebe857cf1a166a9]"
+        },
+        {
+          "source_url": "https://torhop.com/product/detail.html?product_no=47",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\3회차\\해부-토르홉.md",
+          "observed": "기존 H3 온열84일/76일 소재의 노란 뚜껑 튜브와 Torhop 라벨, 사우난지앙 라인핏 본문 대조. 민트와 얼굴 솔트마스크를 분리한 기존 판독. [SHA256 81df10f7817b7393c9645c94c6f4fdf377935cdba216cce468d9385829727983]"
+        },
+        {
+          "source_url": "https://modogrove.com/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-modogrove.html",
+          "observed": "공식 회사 규모20억/47억·SKU 범위·올리브영 전략투자 및 공식 사업자번호. 판매자가 공개한 사업 현황으로 회계감사로 표현하지 않는다. [SHA256 a8659bdcd5471e4abaa07fe51f695bbfda5e66dfb741d30fa9503be5233278b5]"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "X20",
+      "product_name": "포뮬라인 레몬파인 토닝톡스 코인 / 13호 피부탈색캔디",
+      "product_key": "formula-in.com#187",
+      "official_url": "https://formula-in.com/product/detail.html?product_no=187",
+      "status": "P",
+      "reason": "신규P: 실제 P187 광고164일·현재 P187의 피부탈색캔디 상품명을 연결. 기존 H4 상세 판독의 일본 약국 배합 미백 레시피 차용을 재사용. P218 흡착바이트와 실제품·목적·광고키가 달라 별도1개로 계수.",
+      "symbol_role": "일본 약국의 미백 배합약/레시피를 먹는 캔디의 이름·원료 조합 설명으로 이전",
+      "implementation": "레몬파인 토닝톡스 코인 캔디와 13호 피부탈색캔디 명칭. 일본 약국 배합 레시피 서사와 성분 조합 설명. 실제 피부 탈색/미백 효과나 의약품 동등성은 주장하지 않는다.",
+      "operator": "주식회사 미오컴퍼니 / 749-86-01530 / 김용혁",
+      "company_scope_basis": "공식 포뮬라인 푸터와 미오컴퍼니 홈페이지 사업자749-86-01530 일치. 회사 공개 채용 소개는6개 브랜드를 운영하는 Koi House 산하 B2C 법인, 공개 인원5~6명·매출31억대(기준일 불명)를 표시한다. 법정 증명 대신 공식 운영사+공개 인원/사업 범위의 합리근거로 소기업 포함. 그룹명 존재 자체만으로 대기업으로 간주하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "1684607779546039",
+          "days": 164,
+          "start_date": "2026-04-30",
+          "end_date": "2026-10-11",
+          "landing": "https://formula-in.com/product/detail.html?product_no=187",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\formula-in\\_ads.json#/ads/13"
+        },
+        {
+          "id": "2131048814343860",
+          "days": 164,
+          "start_date": "2026-04-30",
+          "end_date": "2026-10-11",
+          "landing": "https://formula-in.com/product/detail.html?product_no=187",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\formula-in\\_ads.json#/ads/25"
+        },
+        {
+          "id": "2695339747508461",
+          "days": 164,
+          "start_date": "2026-04-30",
+          "end_date": "2026-10-11",
+          "landing": "https://formula-in.com/product/detail.html?product_no=187",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\formula-in\\_ads.json#/ads/31"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://formula-in.com/product/detail.html?product_no=187",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\formula-in_com-187.html",
+          "observed": "현재 P187 13호 피부탈색캔디 제목 및 공식 운영사 미오컴퍼니; 공개 GET 200; 수집 2026-10-14T08:32:34.253833+09:00 [SHA256 3f0fe21f7ba3d35c907ab3056be087723fdb95308789a273b50a5c669f8d25d1]"
+        },
+        {
+          "source_url": "https://formula-in.com/product/detail.html?product_no=187",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\4회차\\해부-포뮬라인.md",
+          "observed": "기존 상세 판독의 레몬파인 토닝톡스 코인·일본 약국 배합약 레시피 상징. 기존 파일의64,000px 아래 미독 한계는 유지하며 현재 상세 전량 재해부로 바꾸지 않는다. [SHA256 e26236b5f4e3c4f6590e2e6b96c27716e300ba288cf1885335e369878c1fef0c]"
+        },
+        {
+          "source_url": "https://meocompany.com/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-meo.html",
+          "observed": "동일 미오컴퍼니 사업자·Formula:In 브랜드 연결. [SHA256 6eadc3ef01baa94ef9aba82b6f53a8f00f3c3b64a5fd8368be32bd645d596ee4]"
+        },
+        {
+          "source_url": "https://www.wanted.co.kr/company/45427",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\추가4-공개근거.json",
+          "observed": "2026-10-14 검색 열람: 회사 소개는 미오컴퍼니를 Koi House 산하 Formula:In 등6개 브랜드 운영사로 명시. 기업정보 인원6명, 고용보험5명, 매출31억2,519만원 표기(수치 기준일 명확하지 않음). 공식몰 통신판매신고2020-서울강남-01756와 일치한다. 소기업 공개 합리근거로 사용하며 그룹 전체 회계나 광고비를 이 숫자로 단정하지 않는다."
+        }
+      ],
+      "remaining": []
+    }
+  ],
+  "summary": {
+    "stage": "사용자 축소 요청: 기존 확정6개+추가4개 확보에서 종료",
+    "P": 10,
+    "U": 3,
+    "F": 0,
+    "id_namespace": "X01~X24",
+    "integration_key": "product_key",
+    "existing32_excluded": true,
+    "status_scope": "P는 원표본 적격 근거 확보, 규칙 행렬 통과·의학적 효능·수익 검증 아님. 원표본 소기업은 공식 운영사와 공개 합리근거로 판정. 불명확 후보는 U.",
+    "changes": "광고 ID·날짜·정확 SKU·현재 상세·운영사와 제품 차별 근거를 붙여 초기 전부U 기록을 갱신. X04는 P349→P446 실제품 키로 변경.",
+    "expected_final_P_range": null,
+    "expected_final_P_is_estimate": false,
+    "actual_total": 13,
+    "additional_P_ids": [
+      "X12",
+      "X14",
+      "X15",
+      "X20"
+    ],
+    "additional_P_count": 4,
+    "stop_reason": "사용자가 통합26개라고 알려 추가P4개 확보에서 마감 허용. 최대24개를 채우기 위한 추가 선정은 하지 않는다.",
+    "main_total_if_four_pass_matrix": 30,
+    "main_total_caveat": "부모의 통합26개에 추가4개를 제품키로 중복 제거하고89규칙 행렬에서 최종 채택했을 때30개. 이 파일 자체는 원표본 적격 근거만 확정한다."
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "as_of": "2026-10-14",
+  "products": [
+    {
+      "id": "X12",
+      "product_name": "포뮬라인 애프터밀 흡착바이트",
+      "product_key": "formula-in.com#218",
+      "official_url": "https://formula-in.com/product/detail.html?product_no=218",
+      "status": "P",
+      "reason": "신규P: 저장82일 광고가 정확 P218로 연결되고 현재 P218 제목·알파CD 흡착 설명·공식 운영사가 일치. 기존 H3 해부를 재사용. P187 피부탈색캔디와 다른 실제품이다. 콜라보 제목만으로 유명 연예인 힘에 의존한 제품이라 판정하지 않으며 제품의 흡착/지방흡입 상징을 별도로 확인했다.",
+      "symbol_role": "지방흡입을 먹는 캔디로 옮기고 키친타월/기름 흡착 비유로 연결",
+      "implementation": "애프터밀 흡착바이트 캔디. 현재 제목 지방흡입캔디, 알파CD가 기름을 포집한다는 원료 모식도·오일 시연 설명. 패키지 변경 안내는 동일 성분 안내와 함께 보존. 인체 지방배출/감량 효능의 입증으로 해석하지 않는다.",
+      "operator": "주식회사 미오컴퍼니 / 749-86-01530 / 김용혁",
+      "company_scope_basis": "공식 포뮬라인 푸터와 미오컴퍼니 홈페이지 사업자749-86-01530 일치. 회사 공개 채용 소개는6개 브랜드를 운영하는 Koi House 산하 B2C 법인, 공개 인원5~6명·매출31억대(기준일 불명)를 표시한다. 법정 증명 대신 공식 운영사+공개 인원/사업 범위의 합리근거로 소기업 포함. 그룹명 존재 자체만으로 대기업으로 간주하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "998041516390693",
+          "days": 82,
+          "start_date": "2026-07-21",
+          "end_date": "2026-10-11",
+          "landing": "https://formula-in.com/product/detail.html?product_no=218",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/70"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://formula-in.com/product/detail.html?product_no=218",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\formula-in_com-218.html",
+          "observed": "모루와토녕X흡착바이트·강력한 지방흡입캔디 제목 및 미오컴퍼니 푸터; 공개 GET 200; 수집 2026-10-14T08:27:19.201378+09:00 [SHA256 81a2d6a1d06c786394d80dd20022aed55ec85a87fb5d7e886052a61cbfcf133d]"
+        },
+        {
+          "source_url": "https://formula-in.com/product/detail.html?product_no=218",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\3회차\\해부-포뮬라인.md",
+          "observed": "기존 지방흡입/키친타월·기름 포집 상징과 캔디 사용법 판독 재사용. 새 영상 분석 없음. [SHA256 dff05177173ab4bbf0840e1150d62c12cf61bfef866b1f7a454fcf70d05f403c]"
+        },
+        {
+          "source_url": "https://meocompany.com/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-meo.html",
+          "observed": "공식 홈페이지 Formula:In 브랜드·Koi House 그룹 관계·동일 사업자번호. [SHA256 6eadc3ef01baa94ef9aba82b6f53a8f00f3c3b64a5fd8368be32bd645d596ee4]"
+        },
+        {
+          "source_url": "https://www.wanted.co.kr/company/45427",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\추가4-공개근거.json",
+          "observed": "2026-10-14 검색 열람: 회사 소개는 미오컴퍼니를 Koi House 산하 Formula:In 등6개 브랜드 운영사로 명시. 기업정보 인원6명, 고용보험5명, 매출31억2,519만원 표기(수치 기준일 명확하지 않음). 공식몰 통신판매신고2020-서울강남-01756와 일치한다. 소기업 공개 합리근거로 사용하며 그룹 전체 회계나 광고비를 이 숫자로 단정하지 않는다."
+        },
+        {
+          "source_url": "https://formula-in.com/web/upload/NNEditor/20260828/f394c1ef19778d2be1c3674379a05a76.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\항목이미지\\formula-in_com-218-11.jpg",
+          "observed": "이전에 직접 확인한 현재 상세 항목: 패키지 변경 안내 또는 지방/알파CD 포집 설명. 전체 상세 재해부 아님. [SHA256 0944cce07e921b9d3d91f44b359f68976349d9116628c88674880b8587d209b9]"
+        },
+        {
+          "source_url": "https://formula-in.com/web/upload/NNEditor/20260828/bbff4b9305f02d5eae5f04e1a97bdd36.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\항목이미지\\formula-in_com-218-14.jpg",
+          "observed": "이전에 직접 확인한 현재 상세 항목: 패키지 변경 안내 또는 지방/알파CD 포집 설명. 전체 상세 재해부 아님. [SHA256 bc8dcf32181aaf7caa04f96ff06735ea5879cbf7c4fdddebe34f158b36ea0942]"
+        },
+        {
+          "source_url": "https://formula-in.com/web/upload/NNEditor/20260828/0d80a8638363b879cfa41c862b136ae5.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\항목이미지\\formula-in_com-218-18.jpg",
+          "observed": "이전에 직접 확인한 현재 상세 항목: 패키지 변경 안내 또는 지방/알파CD 포집 설명. 전체 상세 재해부 아님. [SHA256 6c1b6d393546859056e311f84fa8a25aad8f7f61729cf22537e2e63d3b49bc07]"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "X14",
+      "product_name": "디크솔 큐라스팟",
+      "product_key": "diqsol.com#22",
+      "official_url": "https://diqsol.com/product/detail.html?product_no=22",
+      "status": "P",
+      "reason": "신규P: 원광고 ID3496559190520119(127일)·27526164503740358(116일)의 정확 P22와 현재 큐라스팟/운영사 연결. 기존 카드의 두 광고가 모두127일처럼 읽힐 수 있는 요약은 원자료 날짜로 보정했다. 기존 냉동/콜딩파우더 상징 판독 재사용.",
+      "symbol_role": "동결/냉동 처치의 이미지를 콜딩파우더와 국소 도포로 이전",
+      "implementation": "DIQSOL Curaspot / Spot Powder Concentrate 초록 병·분리된 파우더층. 저장 광고 제목 뿌리까지 꽁꽁/콜딩파우더. 율무·녹두 원료 설명은 판매자 기전 설명이지 의료용 동결제나 실제 제거효능 증명은 아니다.",
+      "operator": "주식회사 인뎁스 / 867-87-02154 / 홍윤선",
+      "company_scope_basis": "공식 P22의 인뎁스·대표·사업자·강남 소재 전문몰 운영을 확인. 공개 기업개요의 동일 대표·주소·전자상거래 중소기업 표기가 합리적 소규모 운영 근거를 보완한다. 대형 계열/유명인 의존 근거가 나타나지 않는다. 유료 기업보고서나 새로운 법정 기준을 요구하지 않았다.",
+      "ad_evidence": [
+        {
+          "id": "3496559190520119",
+          "days": 127,
+          "start_date": "2026-06-06",
+          "end_date": "2026-10-11",
+          "landing": "https://diqsol.com/product/detail.html?product_no=22&utm_source=meta&utm_medium=cpc&utm_campaign=da_re&utm_content=선착순50(V1)_260606_khj&utm_term={keyword}",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부1도메인_메타광고소재\\diqsol\\_ads.json#/ads/0"
+        },
+        {
+          "id": "27526164503740358",
+          "days": 116,
+          "start_date": "2026-06-17",
+          "end_date": "2026-10-11",
+          "landing": "https://diqsol.com/product/detail.html?product_no=22&utm_source=meta&utm_medium=cpc&utm_campaign=da&utm_content=자기전콕(V1)_260616_khn&utm_term={keyword}",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부1도메인_메타광고소재\\diqsol\\_ads.json#/ads/1"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://diqsol.com/product/detail.html?product_no=22",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\diqsol_com-22.html",
+          "observed": "현재 판매명 디크솔 큐라스팟 및 인뎁스 공식 사업자 표기; 공개 GET 200; 수집 2026-10-14T08:32:34.342625+09:00 [SHA256 8d0b73c8136bef16a499ac4c649edbc9796fe973b92ac16e1d862cea03a20620]"
+        },
+        {
+          "source_url": "https://diqsol.com/product/detail.html?product_no=22",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\1회차\\해부2-디크솔.md",
+          "observed": "기존 원소재의 라벨 DIQSOL Curaspot/Spot Powder Concentrate, 쥐젖동결제·콜딩파우더 문구 및 병/상자 판독. 날짜·일수는 현재 첨부한 원광고 JSON을 우선한다. [SHA256 344ea000b44e9dd937ce8a61590610e4ad3607fb3434b4d04e99cc56cb358bde]"
+        },
+        {
+          "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=OQ5632",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\추가4-공개근거.json",
+          "observed": "2026-10-14 일반 검색에서 반환된 인뎁스 공개 기업 개요: 대표 홍윤선, 사업자867-87-0****, 2021.09.27 설립, 강남구 테헤란로79길6 브이호실, 전자상거래 소매업, 중소기업 표기. 공식 디크솔 운영사867-87-02154와 대표·주소 대조. 공개 보조근거일 뿐 NICE 구매/증명서/법정 소기업 심사를 새 필수조건으로 사용하지 않음."
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "X15",
+      "product_name": "토르홉 사우난지앙 라인핏 온열 바디스크럽 200g",
+      "product_key": "torhop.com#47",
+      "official_url": "https://torhop.com/product/detail.html?product_no=47",
+      "status": "P",
+      "reason": "신규P: 저장84일·76일 광고의 온열 바디스크럽 이름/튜브 및 올리브영 A000000260069를 기존 H3 판독으로 특정하고 현재 P47의 사우난지앙 라인핏200g 선택지와 연결. P47 민트쿨링 선택지나 얼굴용 솔트마스크 광고는 이 표본에 합산하지 않는다.",
+      "symbol_role": "핀란드 사우나/온열 몸 관리의 경험을 욕실에서 바르는 스크럽으로 이전",
+      "implementation": "사우난지앙 라인핏 온열 바디스크럽200g, 노란 뚜껑 튜브·크림 스크럽·문지르는 온열 사용 설명. 시술/감량 효능의 검증과 별개.",
+      "operator": "주식회사 모도그로브 / 663-88-01695 / 임정안",
+      "company_scope_basis": "현재 P47 푸터와 공식 회사 사이트 사업자번호 일치. 회사가 2024매출20억→2025매출47억, 마스크4·클렌저4·바디2 SKU 및 K-슈퍼루키 선정을 공개한다. 소규모 브랜드 운영의 합리근거. 올리브영의2025전략투자/유통은 함께 공개하되 입점만으로 대기업 브랜드라고 단정하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "1406298164673798",
+          "days": 84,
+          "start_date": "2026-07-19",
+          "end_date": "2026-10-11",
+          "landing": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000260069",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\torhop\\_ads.json#/ads/13"
+        },
+        {
+          "id": "1420278296590406",
+          "days": 76,
+          "start_date": "2026-07-27",
+          "end_date": "2026-10-11",
+          "landing": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000260069",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\torhop\\_ads.json#/ads/30"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://torhop.com/product/detail.html?product_no=47",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\torhop_com-47.html",
+          "observed": "현재 온&냉사우나 바디스크럽200g2종 택1. 사우난지앙 라인핏/라이카 민트쿨링을 선택지로 구분.; 공개 GET 200; 수집 2026-10-14T08:41:08.098123+09:00 [SHA256 db2c2351de3ff61acace8f0f79840e150b0a38206a0c747ebebe857cf1a166a9]"
+        },
+        {
+          "source_url": "https://torhop.com/product/detail.html?product_no=47",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\3회차\\해부-토르홉.md",
+          "observed": "기존 H3 온열84일/76일 소재의 노란 뚜껑 튜브와 Torhop 라벨, 사우난지앙 라인핏 본문 대조. 민트와 얼굴 솔트마스크를 분리한 기존 판독. [SHA256 81df10f7817b7393c9645c94c6f4fdf377935cdba216cce468d9385829727983]"
+        },
+        {
+          "source_url": "https://modogrove.com/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-modogrove.html",
+          "observed": "공식 회사 규모20억/47억·SKU 범위·올리브영 전략투자 및 공식 사업자번호. 판매자가 공개한 사업 현황으로 회계감사로 표현하지 않는다. [SHA256 a8659bdcd5471e4abaa07fe51f695bbfda5e66dfb741d30fa9503be5233278b5]"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "X20",
+      "product_name": "포뮬라인 레몬파인 토닝톡스 코인 / 13호 피부탈색캔디",
+      "product_key": "formula-in.com#187",
+      "official_url": "https://formula-in.com/product/detail.html?product_no=187",
+      "status": "P",
+      "reason": "신규P: 실제 P187 광고164일·현재 P187의 피부탈색캔디 상품명을 연결. 기존 H4 상세 판독의 일본 약국 배합 미백 레시피 차용을 재사용. P218 흡착바이트와 실제품·목적·광고키가 달라 별도1개로 계수.",
+      "symbol_role": "일본 약국의 미백 배합약/레시피를 먹는 캔디의 이름·원료 조합 설명으로 이전",
+      "implementation": "레몬파인 토닝톡스 코인 캔디와 13호 피부탈색캔디 명칭. 일본 약국 배합 레시피 서사와 성분 조합 설명. 실제 피부 탈색/미백 효과나 의약품 동등성은 주장하지 않는다.",
+      "operator": "주식회사 미오컴퍼니 / 749-86-01530 / 김용혁",
+      "company_scope_basis": "공식 포뮬라인 푸터와 미오컴퍼니 홈페이지 사업자749-86-01530 일치. 회사 공개 채용 소개는6개 브랜드를 운영하는 Koi House 산하 B2C 법인, 공개 인원5~6명·매출31억대(기준일 불명)를 표시한다. 법정 증명 대신 공식 운영사+공개 인원/사업 범위의 합리근거로 소기업 포함. 그룹명 존재 자체만으로 대기업으로 간주하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "1684607779546039",
+          "days": 164,
+          "start_date": "2026-04-30",
+          "end_date": "2026-10-11",
+          "landing": "https://formula-in.com/product/detail.html?product_no=187",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\formula-in\\_ads.json#/ads/13"
+        },
+        {
+          "id": "2131048814343860",
+          "days": 164,
+          "start_date": "2026-04-30",
+          "end_date": "2026-10-11",
+          "landing": "https://formula-in.com/product/detail.html?product_no=187",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\formula-in\\_ads.json#/ads/25"
+        },
+        {
+          "id": "2695339747508461",
+          "days": 164,
+          "start_date": "2026-04-30",
+          "end_date": "2026-10-11",
+          "landing": "https://formula-in.com/product/detail.html?product_no=187",
+          "source_path": "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\formula-in\\_ads.json#/ads/31"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://formula-in.com/product/detail.html?product_no=187",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\formula-in_com-187.html",
+          "observed": "현재 P187 13호 피부탈색캔디 제목 및 공식 운영사 미오컴퍼니; 공개 GET 200; 수집 2026-10-14T08:32:34.253833+09:00 [SHA256 3f0fe21f7ba3d35c907ab3056be087723fdb95308789a273b50a5c669f8d25d1]"
+        },
+        {
+          "source_url": "https://formula-in.com/product/detail.html?product_no=187",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\4회차\\해부-포뮬라인.md",
+          "observed": "기존 상세 판독의 레몬파인 토닝톡스 코인·일본 약국 배합약 레시피 상징. 기존 파일의64,000px 아래 미독 한계는 유지하며 현재 상세 전량 재해부로 바꾸지 않는다. [SHA256 e26236b5f4e3c4f6590e2e6b96c27716e300ba288cf1885335e369878c1fef0c]"
+        },
+        {
+          "source_url": "https://meocompany.com/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-meo.html",
+          "observed": "동일 미오컴퍼니 사업자·Formula:In 브랜드 연결. [SHA256 6eadc3ef01baa94ef9aba82b6f53a8f00f3c3b64a5fd8368be32bd645d596ee4]"
+        },
+        {
+          "source_url": "https://www.wanted.co.kr/company/45427",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\추가4-공개근거.json",
+          "observed": "2026-10-14 검색 열람: 회사 소개는 미오컴퍼니를 Koi House 산하 Formula:In 등6개 브랜드 운영사로 명시. 기업정보 인원6명, 고용보험5명, 매출31억2,519만원 표기(수치 기준일 명확하지 않음). 공식몰 통신판매신고2020-서울강남-01756와 일치한다. 소기업 공개 합리근거로 사용하며 그룹 전체 회계나 광고비를 이 숫자로 단정하지 않는다."
+        }
+      ],
+      "remaining": []
+    }
+  ],
+  "summary": {
+    "P": 4,
+    "U": 0,
+    "F": 0,
+    "id_namespace": "X01~X24",
+    "integration_key": "product_key",
+    "frozen_for_matrix": true,
+    "status_scope": "P는 원표본 적격 근거 확보, 규칙 행렬 통과·의학적 효능·수익 검증 아님. 원표본 소기업은 공식 운영사와 공개 합리근거로 판정. 불명확 후보는 U.",
+    "note": "앞선 행렬착수6개와 겹치지 않는4개. 기존 카드 재사용이며 현재 상세 전량 해부/신규 영상분석 없음."
+  }
+}

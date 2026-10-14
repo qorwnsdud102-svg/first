@@ -1,0 +1,14 @@
+{
+  "key": "company-meo",
+  "requested_url": "https://meocompany.com/",
+  "final_url": "https://meocompany.com/",
+  "status_code": 200,
+  "title": "미오컴퍼니 | We Play, We Make",
+  "retrieved_at": "2026-10-14T08:41:07.866624+09:00",
+  "html_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-meo.html",
+  "text_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-meo.txt",
+  "sha256": "6eadc3ef01baa94ef9aba82b6f53a8f00f3c3b64a5fd8368be32bd645d596ee4",
+  "detail_images": [
+    "https://meocompany.com/images/meocompany-logo-white.png"
+  ]
+}

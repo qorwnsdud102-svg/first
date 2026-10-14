@@ -1,0 +1,96 @@
+{
+  "verified_at": "2026-10-14T08:50:14.162455+09:00",
+  "schema": "PASS",
+  "source_pointer_ID_dates_days_landing": "PASS",
+  "evidence_files_and_hashes": "PASS",
+  "existing32_excluded": "PASS",
+  "old32_keys_count": 32,
+  "previous6_and_additional4_disjoint": "PASS",
+  "counts": {
+    "P": 10,
+    "U": 3,
+    "F": 0
+  },
+  "products": [
+    {
+      "id": "X01",
+      "status": "P",
+      "product_key": "wizardjoseon.com#29",
+      "max_ad_days": 106
+    },
+    {
+      "id": "X02",
+      "status": "U",
+      "product_key": "lilyeve.kr#235",
+      "max_ad_days": 96
+    },
+    {
+      "id": "X03",
+      "status": "P",
+      "product_key": "eclmoi.com#59",
+      "max_ad_days": 302
+    },
+    {
+      "id": "X04",
+      "status": "U",
+      "product_key": "meditold.com#446",
+      "max_ad_days": 125
+    },
+    {
+      "id": "X05",
+      "status": "P",
+      "product_key": "veltag.co.kr#3",
+      "max_ad_days": 81
+    },
+    {
+      "id": "X06",
+      "status": "P",
+      "product_key": "hattke.co.kr#18",
+      "max_ad_days": 135
+    },
+    {
+      "id": "X07",
+      "status": "U",
+      "product_key": "dailywondermall.co.kr#37",
+      "max_ad_days": 923
+    },
+    {
+      "id": "X08",
+      "status": "P",
+      "product_key": "puriven.co.kr#33",
+      "max_ad_days": 187
+    },
+    {
+      "id": "X09",
+      "status": "P",
+      "product_key": "mebetter.co.kr#45",
+      "max_ad_days": 169
+    },
+    {
+      "id": "X12",
+      "status": "P",
+      "product_key": "formula-in.com#218",
+      "max_ad_days": 82
+    },
+    {
+      "id": "X14",
+      "status": "P",
+      "product_key": "diqsol.com#22",
+      "max_ad_days": 127
+    },
+    {
+      "id": "X15",
+      "status": "P",
+      "product_key": "torhop.com#47",
+      "max_ad_days": 84
+    },
+    {
+      "id": "X20",
+      "status": "P",
+      "product_key": "formula-in.com#187",
+      "max_ad_days": 164
+    }
+  ],
+  "raw_duration_differences": [],
+  "scope": "원표본 적격 근거/파일 검증.89규칙 행렬·수익·의학적 효과 검증과 별개."
+}

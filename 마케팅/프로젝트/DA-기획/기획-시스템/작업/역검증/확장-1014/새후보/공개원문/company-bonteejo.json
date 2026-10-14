@@ -1,0 +1,28 @@
+{
+  "key": "company-bonteejo",
+  "requested_url": "https://bonteejo.kr/",
+  "final_url": "https://bonteejo.kr/",
+  "status_code": 200,
+  "title": "본티조 공식 온라인 스토어",
+  "retrieved_at": "2026-10-14T08:32:35.058408+09:00",
+  "html_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-bonteejo.html",
+  "text_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-bonteejo.txt",
+  "sha256": "9dad7922275abda2e016dde50f8a299b4b083bc1d95812c8e5fd3bebe78857ec",
+  "detail_images": [
+    "https://bonteejo.kr/moa/img/icon/icon_search.svg",
+    "https://bonteejo.kr/moa/img/icon/icon_user.svg",
+    "https://bonteejo.kr/moa/img/icon/icon_basket.svg",
+    "https://ecimg.cafe24img.com/pg1943b60206112058/ascob/web/product/medium/20261012/e3669359438ad458b72a4a94c9a029bc.jpg",
+    "https://img.echosting.cafe24.com/design/skin/admin/ko_KR/btn_list_cart.gif",
+    "https://img.echosting.cafe24.com/design/skin/admin/ko_KR/btn_wish_before.png",
+    "https://ecimg.cafe24img.com/pg1943b60206112058/ascob/web/product/medium/20261012/ba33d773de1f358138fcbfa44b134e4b.jpg",
+    "https://ecimg.cafe24img.com/pg1943b60206112058/ascob/web/product/medium/20261012/9999cb0fa7e5da4fb289f9dfb05e3cd7.jpg",
+    "https://ecimg.cafe24img.com/pg1943b60206112058/ascob/web/product/medium/20251024/2949f4b71ed101e6ddc5301eb4093196.jpg",
+    "https://ecimg.cafe24img.com/pg1943b60206112058/ascob/web/product/big/20261012/617db85cd3b4b77ea33fe6f4607d0535.jpg",
+    "https://ecimg.cafe24img.com/pg1943b60206112058/ascob/file_data/",
+    "https://ecimg.cafe24img.com/pg1943b60206112058/ascob/web/product/big/20261012/4faa486a667cb10acb012ecca3e156c2.jpg",
+    "https://ecimg.cafe24img.com/pg1943b60206112058/ascob/file_data/9dcc2fb2e030d88d73717341e409da12.jpg",
+    "https://img.echosting.cafe24.com/skin/skin/common/img_loading.gif",
+    "https://www.facebook.com/tr?id=717182817623517&ev=PageView&noscript=1"
+  ]
+}

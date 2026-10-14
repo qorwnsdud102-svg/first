@@ -1,0 +1,143 @@
+{
+  "as_of": "2026-10-14T09:08:55.776660+09:00",
+  "parent": {
+    "input_tokens": 17249490,
+    "cached_input_tokens": 16775808,
+    "output_tokens": 74823,
+    "reasoning_output_tokens": 16549,
+    "total_tokens": 17324313
+  },
+  "agents": {
+    "input_tokens": 22944788,
+    "cached_input_tokens": 21707776,
+    "output_tokens": 235742,
+    "reasoning_output_tokens": 49019,
+    "total_tokens": 23180530
+  },
+  "total": {
+    "input_tokens": 40194278,
+    "cached_input_tokens": 38483584,
+    "output_tokens": 310565,
+    "reasoning_output_tokens": 65568,
+    "total_tokens": 40504843
+  },
+  "uncached_input": 1710694,
+  "baseline": {
+    "timestamp": "2026-10-13T23:21:36.047Z",
+    "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl",
+    "usage": {
+      "input_tokens": 457761547,
+      "cached_input_tokens": 436506112,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1827692,
+      "reasoning_output_tokens": 543588,
+      "total_tokens": 459890951
+    }
+  },
+  "agent_roles": {
+    "01a13793-a3a9-7ef1-8c52-c41190f75b67": "기존 L 보강 + 학습안 독립 검토",
+    "01a13793-a4e6-7073-8a64-4af6efe5b705": "AP 보강 + 두 제품 규칙 판정",
+    "01a13793-a6a1-77d1-9e16-e8edc4108782": "새 후보 보강",
+    "01a13797-9db5-7993-8442-0353f6955677": "다섯 제품 규칙 판정",
+    "01a137a9-4177-7f73-9e15-3f2777229f55": "추가 판정 시도 — 두 차례 통신 실패",
+    "01a137b1-a3ab-7e31-8228-1199c76050c0": "세 제품 판정 복구·저장"
+  },
+  "snapshots": {
+    "01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc": {
+      "timestamp": "2026-10-14T00:08:44.349Z",
+      "usage": {
+        "input_tokens": 475011037,
+        "cached_input_tokens": 453281920,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1902515,
+        "reasoning_output_tokens": 560137,
+        "total_tokens": 477215264
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\09\\21\\rollout-2026-09-21T16-21-12-01a0c2d7-1cc3-7033-b207-fb76a4c4e2cc.jsonl"
+    },
+    "01a13793-a3a9-7ef1-8c52-c41190f75b67": {
+      "timestamp": "2026-10-13T23:44:13.888Z",
+      "usage": {
+        "input_tokens": 4657908,
+        "cached_input_tokens": 4468480,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 41773,
+        "reasoning_output_tokens": 9150,
+        "total_tokens": 4699681
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T08-23-05-01a13793-a3a9-7ef1-8c52-c41190f75b67.jsonl"
+    },
+    "01a13793-a4e6-7073-8a64-4af6efe5b705": {
+      "timestamp": "2026-10-13T23:50:03.805Z",
+      "usage": {
+        "input_tokens": 5497264,
+        "cached_input_tokens": 5094656,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 50874,
+        "reasoning_output_tokens": 11327,
+        "total_tokens": 5548138
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T08-23-05-01a13793-a4e6-7073-8a64-4af6efe5b705.jsonl"
+    },
+    "01a13793-a6a1-77d1-9e16-e8edc4108782": {
+      "timestamp": "2026-10-13T23:50:49.350Z",
+      "usage": {
+        "input_tokens": 8027375,
+        "cached_input_tokens": 7683584,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 55671,
+        "reasoning_output_tokens": 11791,
+        "total_tokens": 8083046
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T08-23-06-01a13793-a6a1-77d1-9e16-e8edc4108782.jsonl"
+    },
+    "01a13797-9db5-7993-8442-0353f6955677": {
+      "timestamp": "2026-10-13T23:47:02.902Z",
+      "usage": {
+        "input_tokens": 2969212,
+        "cached_input_tokens": 2825472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 47723,
+        "reasoning_output_tokens": 8455,
+        "total_tokens": 3016935
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T08-27-25-01a13797-9db5-7993-8442-0353f6955677.jsonl"
+    },
+    "01a137a9-4177-7f73-9e15-3f2777229f55": {
+      "timestamp": "2026-10-13T23:52:10.497Z",
+      "usage": {
+        "input_tokens": 751325,
+        "cached_input_tokens": 686720,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9405,
+        "reasoning_output_tokens": 5860,
+        "total_tokens": 760730
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T08-46-41-01a137a9-4177-7f73-9e15-3f2777229f55.jsonl"
+    },
+    "01a137b1-a3ab-7e31-8228-1199c76050c0": {
+      "timestamp": "2026-10-14T00:08:55.076Z",
+      "usage": {
+        "input_tokens": 1041704,
+        "cached_input_tokens": 948864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 30296,
+        "reasoning_output_tokens": 2436,
+        "total_tokens": 1072000
+      },
+      "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T08-55-51-01a137b1-a3ab-7e31-8228-1199c76050c0.jsonl"
+    }
+  },
+  "scope": "역검증 확장 + 도중 신규 접수한 GPT 학습방식 제안·비교. 본체 시작기준 이후 차분+이번6개 분담 세션 누적을 각1회 합산. 실패 시도 포함.",
+  "limitations": "캐시는 입력 부분집합, 추론은 출력 부분집합. 학습방식-GPT제안/사용량.json의 부분 구간은 여기 포함되어 재합산 금지. 이전 2등급 재해부 45,822,755토큰은 별도 회차이므로 불포함. 영상 단독 비용·제품 하나당 신규 분석 비용이 아니다. 기록 시점 이후 마감 답변과 브리지 전달의 소량은 미포함. 구독 사용량을 API 청구액으로 바꾸지 않는다.",
+  "account_snapshot": {
+    "as_of": "2026-10-14T09:05:21.130711+09:00",
+    "start_observed_used_percent": 25,
+    "end_observed_used_percent": 45,
+    "window_duration_mins": 10080,
+    "remaining_percent": 55,
+    "ordinary_usage_allowed": true,
+    "five_hour_window": "not_provided",
+    "scope": "계정 공용; 이번 작업 고유 사용률과 같지 않음"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-10-14T08:31:07.827629+09:00",
+  "candidate_id": "L16",
+  "patterns": [
+    "bifidol",
+    "비피돌",
+    "비피두스",
+    "구강스프레이"
+  ],
+  "index_ads": 1404,
+  "checked_json_files": [
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+      "sha256": "4173df168aff2e2f23ef588d8280c7f516a9915f8ac52bb9e7cee7960aab2d2e",
+      "term_match_count": 0
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\사용량-기준.json",
+      "sha256": "8175376dae1fdfc68ed147b30ff311d365ef9067ab504b2a769e32e19a7b6a6b",
+      "term_match_count": 0
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\토큰사용량.json",
+      "sha256": "9c66511bb84ed1ada523624480d758130c7f7d28b508b12bb29e00d1d699a800",
+      "term_match_count": 0
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\8회차\\사용량-기준.json",
+      "sha256": "521c342da508cdd4cdef09955410add9d857350c1a85f52f964d7d3364a86204",
+      "term_match_count": 0
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\8회차\\토큰사용량.json",
+      "sha256": "5a264482c988b05df377b45d00cbdccc6c3554e317912ebc9305244f4169af7f",
+      "term_match_count": 0
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\9회차\\메타-새검색.json",
+      "sha256": "607929884e9e38645b5b635746164d33aea4659f6da2fbb5e4a0a70037adf678",
+      "term_match_count": 0
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\9회차\\메타-확장검색.json",
+      "sha256": "915374da489aef6e17231222b5c5b9f08eda6e5d3750ab48ac042a8312daf652",
+      "term_match_count": 0
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\9회차\\사용량-기준.json",
+      "sha256": "33a03ad8fc34022e46937abee8d338bb9b5dfd51bd20ef6ee53fdb254eded06e",
+      "term_match_count": 0
+    },
+    {
+      "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\9회차\\토큰사용량.json",
+      "sha256": "b587708449152adb85e8e15ec0f277956078ec8bb893b922c59c7e9b23808fbb",
+      "term_match_count": 0
+    }
+  ],
+  "referenced_scratchpad_path": "C:\\claude\\LLM-WIKI\\scratchpad\\hit6\\비피돌",
+  "referenced_scratchpad_exists": false,
+  "old_card": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\6회차\\해부-비피돌.md",
+  "conclusion": "77일 요약은 있으나 확인한 저장 색인에서 광고ID·날짜를 회수하지 못했다. 광고 부재나 과거 요약 오류로 판정하지 않는다. Meta 신규 조회 없음."
+}

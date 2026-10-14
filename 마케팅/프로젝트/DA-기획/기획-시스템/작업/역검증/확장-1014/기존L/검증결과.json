@@ -1,0 +1,279 @@
+{
+  "checked_at": "2026-10-14T08:39:09.944301+09:00",
+  "result": "PASS",
+  "counts": {
+    "P": 6,
+    "U": 3,
+    "F": 0
+  },
+  "checks": [
+    {
+      "check": "지정 9개만 존재",
+      "passed": true
+    },
+    {
+      "check": "product_key 중복 없음",
+      "passed": true
+    },
+    {
+      "check": "공통 필드 완비",
+      "passed": true
+    },
+    {
+      "check": "P/U/F 유효",
+      "passed": true
+    },
+    {
+      "check": "집계 일치",
+      "passed": true
+    },
+    {
+      "check": "L02 근거 경로 존재",
+      "passed": true
+    },
+    {
+      "check": "L02 장기광고 ID/날짜 확보",
+      "passed": true
+    },
+    {
+      "check": "L02 광고 source_path 존재",
+      "passed": true
+    },
+    {
+      "check": "L02 광고 선택 기록 1613610700495756",
+      "passed": true
+    },
+    {
+      "check": "L02 광고 저장값 일치 1613610700495756",
+      "passed": true
+    },
+    {
+      "check": "L02 일수 산술 1613610700495756",
+      "passed": true
+    },
+    {
+      "check": "L02 광고 source_path 존재",
+      "passed": true
+    },
+    {
+      "check": "L02 광고 선택 기록 2046078855981720",
+      "passed": true
+    },
+    {
+      "check": "L02 광고 저장값 일치 2046078855981720",
+      "passed": true
+    },
+    {
+      "check": "L02 일수 산술 2046078855981720",
+      "passed": true
+    },
+    {
+      "check": "L04 근거 경로 존재",
+      "passed": true
+    },
+    {
+      "check": "L04 장기광고 ID/날짜 확보",
+      "passed": true
+    },
+    {
+      "check": "L04 광고 source_path 존재",
+      "passed": true
+    },
+    {
+      "check": "L04 광고 선택 기록 1283012900657812",
+      "passed": true
+    },
+    {
+      "check": "L04 광고 저장값 일치 1283012900657812",
+      "passed": true
+    },
+    {
+      "check": "L04 일수 산술 1283012900657812",
+      "passed": true
+    },
+    {
+      "check": "L06 근거 경로 존재",
+      "passed": true
+    },
+    {
+      "check": "L06 장기광고 ID/날짜 확보",
+      "passed": true
+    },
+    {
+      "check": "L06 광고 source_path 존재",
+      "passed": true
+    },
+    {
+      "check": "L06 광고 선택 기록 2030218967634318",
+      "passed": true
+    },
+    {
+      "check": "L06 광고 저장값 일치 2030218967634318",
+      "passed": true
+    },
+    {
+      "check": "L06 일수 산술 2030218967634318",
+      "passed": true
+    },
+    {
+      "check": "L10 근거 경로 존재",
+      "passed": true
+    },
+    {
+      "check": "L10 광고 source_path 존재",
+      "passed": true
+    },
+    {
+      "check": "L10 광고 선택 기록 1401751151415713",
+      "passed": true
+    },
+    {
+      "check": "L10 광고 저장값 일치 1401751151415713",
+      "passed": true
+    },
+    {
+      "check": "L10 일수 산술 1401751151415713",
+      "passed": true
+    },
+    {
+      "check": "L11 근거 경로 존재",
+      "passed": true
+    },
+    {
+      "check": "L11 장기광고 ID/날짜 확보",
+      "passed": true
+    },
+    {
+      "check": "L11 광고 source_path 존재",
+      "passed": true
+    },
+    {
+      "check": "L11 광고 선택 기록 1166687735126566",
+      "passed": true
+    },
+    {
+      "check": "L11 광고 저장값 일치 1166687735126566",
+      "passed": true
+    },
+    {
+      "check": "L11 일수 산술 1166687735126566",
+      "passed": true
+    },
+    {
+      "check": "L16 근거 경로 존재",
+      "passed": true
+    },
+    {
+      "check": "L16 광고 source_path 존재",
+      "passed": true
+    },
+    {
+      "check": "L18 근거 경로 존재",
+      "passed": true
+    },
+    {
+      "check": "L18 장기광고 ID/날짜 확보",
+      "passed": true
+    },
+    {
+      "check": "L18 광고 source_path 존재",
+      "passed": true
+    },
+    {
+      "check": "L18 광고 선택 기록 1735806597731673",
+      "passed": true
+    },
+    {
+      "check": "L18 광고 저장값 일치 1735806597731673",
+      "passed": true
+    },
+    {
+      "check": "L18 일수 산술 1735806597731673",
+      "passed": true
+    },
+    {
+      "check": "L19 근거 경로 존재",
+      "passed": true
+    },
+    {
+      "check": "L19 광고 source_path 존재",
+      "passed": true
+    },
+    {
+      "check": "L19 광고 선택 기록 922795394176579",
+      "passed": true
+    },
+    {
+      "check": "L19 광고 저장값 일치 922795394176579",
+      "passed": true
+    },
+    {
+      "check": "L19 일수 산술 922795394176579",
+      "passed": true
+    },
+    {
+      "check": "L20 근거 경로 존재",
+      "passed": true
+    },
+    {
+      "check": "L20 장기광고 ID/날짜 확보",
+      "passed": true
+    },
+    {
+      "check": "L20 광고 source_path 존재",
+      "passed": true
+    },
+    {
+      "check": "L20 광고 선택 기록 1553433233148662",
+      "passed": true
+    },
+    {
+      "check": "L20 광고 저장값 일치 1553433233148662",
+      "passed": true
+    },
+    {
+      "check": "L20 일수 산술 1553433233148662",
+      "passed": true
+    },
+    {
+      "check": "L20 광고 source_path 존재",
+      "passed": true
+    },
+    {
+      "check": "L20 광고 선택 기록 2316216285580555",
+      "passed": true
+    },
+    {
+      "check": "L20 광고 저장값 일치 2316216285580555",
+      "passed": true
+    },
+    {
+      "check": "L20 일수 산술 2316216285580555",
+      "passed": true
+    },
+    {
+      "check": "신규 GET 저장 파일 해시",
+      "passed": true
+    },
+    {
+      "check": "기준12와 이번P 중복 없음",
+      "passed": true
+    },
+    {
+      "check": "이번 합산안18 정확",
+      "passed": true
+    },
+    {
+      "check": "L20 4종세트61일 광고",
+      "passed": true
+    },
+    {
+      "check": "짧은 MD 존재",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope": "공통 JSON·정확 광고 저장값·날짜·출처 경로·신규 저장 해시·중복 및 합산 검증. 효능/법정 기업규모/시장 성과의 독립 검증은 아니다.",
+  "final_result_sha256": "01f08c975284ce0a73285b70c47956998591af82cdef24be4893f318574aa637",
+  "finalized_at": "2026-10-14T08:39:33.415387+09:00"
+}

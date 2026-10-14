@@ -1,0 +1,105 @@
+{
+  "as_of": "2026-10-14",
+  "sources": [
+    {
+      "id": "L02-company",
+      "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=RU9375",
+      "retrieved_on": "2026-10-14",
+      "method": "공개 검색 색인; 직접 open은 cache miss",
+      "observed": "아임힐 / 개인 / 중소기업 / 대표 류우영 / 사업자번호 703-25-0**** / 개업 2024.12.30. 공식몰 imheal·Wooyeong Ryu·703-25-01926과 상호·대표·번호 앞자리가 맞는다.",
+      "limitation": "공개 기업정보 주소는 화성, 현 공식몰은 김포로 다르다. 독립된 법정 소기업 증명으로 쓰지 않고 공식 운영사 표기와 함께 원래 대형브랜드 제외 조건의 보조 근거로 쓴다."
+    },
+    {
+      "id": "L04-company",
+      "source_url": "https://www.albamon.com/jobs/detail-company/qT3Bi9fT5t4WRlXv-ze9FQ==",
+      "retrieved_on": "2026-10-14",
+      "method": "공개 웹 open",
+      "observed": "2026-08-06 수정 프로필. 주식회사 프렉탈, 대표 윤예린, 직원 4명, 중소기업(300명 이하), 공식 도메인 fractalofficial.co.kr, 위례서일로 34 601호. 공식몰의 대표·도메인·주소와 대응한다.",
+      "limitation": "채용처 프로필의 규모 정보이며 법정 소기업 확인서가 아니다. 이 한계를 이유로 별도 NICE 의무를 추가하지 않는다."
+    },
+    {
+      "id": "L06-company",
+      "source_url": "https://bizno.net/article/4668700477",
+      "retrieved_on": "2026-10-14",
+      "method": "공개 검색 색인",
+      "observed": "주식회사 그루밍랩, 대표 김재영, 사업자번호 466-87-00477, 중소기업. 현 공식몰의 운영사·대표·사업자번호가 일치한다.",
+      "limitation": "기업정보 주소는 가산동, 현 공식몰 주소는 안양이다. 주소 시차를 보존하며 번호·대표로 연결한다. 2024년 제휴 보고서를 현재의 법정 규모 증명으로 쓰지 않는다."
+    },
+    {
+      "id": "L06-official-company",
+      "source_url": "https://groominglab.co.kr/shopinfo/company.html",
+      "retrieved_on": "2026-10-14",
+      "method": "공개 검색 색인 및 기존 공식 상세",
+      "observed": "주식회사 그루밍랩, 대표 김재영, 466-87-00477, 안양 두산벤처다임 631호를 운영사로 표시한다.",
+      "limitation": "제품의 매출이나 광고비는 표시하지 않는다."
+    },
+    {
+      "id": "L10-company",
+      "source_url": "https://www.jobkorea.co.kr/recruit/co_read/c/wueedang",
+      "retrieved_on": "2026-10-14",
+      "method": "공개 검색 색인",
+      "observed": "우이당, 대표 김갑인, 안산시 대남로 76, 중소기업. 2025.12.31 기준 매출액 7억 7,284만원, 2023.09.07 기준 직원 1명으로 표시한다.",
+      "limitation": "매출·직원수는 각 표시 기준일의 자료다. 현시점 실사나 법정 소기업 판단으로 바꾸지 않는다."
+    },
+    {
+      "id": "L10-official-company",
+      "source_url": "https://wue.co.kr/shopinfo/company.html",
+      "retrieved_on": "2026-10-14",
+      "method": "공개 검색 색인",
+      "observed": "우이당 공식 회사소개가 김갑인·134-86-81028·안산시 대남로 76을 표시한다. 고유지 idx48의 운영사 정보와 같다.",
+      "limitation": "브랜드 인지도나 제품 수익의 직접 증거는 아니다."
+    },
+    {
+      "id": "L11-official-model",
+      "source_url": "https://www.healingcamp.biz/medion",
+      "retrieved_on": "2026-10-14",
+      "method": "공개 웹 open + 직접 GET 저장",
+      "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/L11-manufacturer.html",
+      "observed": "제조사 제품소개에서 '산타시트 메디온 애니'를 치항 모델과 나누어 명시한다. 휴대·가정용, 13인치 태블릿 크기, 나비모양 좌판, 6파장 표기, LED 온열 모드·네오디뮴 마그넷·PC 소재, 물 없는 좌욕 사용을 설명한다.",
+      "limitation": "여기서 확인한 것은 판매자가 제시한 제품 구조와 설득 방식이다. 파장·임상효과·인증의 실질을 검증한 것이 아니다. 페이지 HTML에 네이버 SKU 번호와 STS-MDO001 문자열은 없으므로 정확 SKU 대응은 기존 9회차 직접 관찰 카드와 함께 판단한다."
+    },
+    {
+      "id": "L11-official-history",
+      "source_url": "https://www.healingcamp.biz/timeline",
+      "retrieved_on": "2026-10-14",
+      "method": "공개 검색 색인",
+      "observed": "운영사 힐링캠프·오미애·511-87-01868을 명시하고 2020년 사업자 등록, 2022년 메디온애니 출시, 산타시트 계열 자체 제품 개발·유통 연혁을 제시한다.",
+      "limitation": "'강소기업을 꿈꾸는'이라는 문구 자체를 규모 증명으로 쓰지 않는다. 특화 운영사 연혁과 기존 브랜드 검색 관측을 합쳐 표본상 대형브랜드 의존 제외 조건을 판단한다."
+    },
+    {
+      "id": "L11-company-response",
+      "source_url": "https://bizno.net/article/5118701868",
+      "retrieved_on": "2026-10-14",
+      "method": "공개 GET 200",
+      "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/L11-company.html",
+      "observed": "HTTP 200이지만 본문은 '접속대기_no1' 안내다. 기업정보를 확보한 것으로 세지 않는다.",
+      "limitation": "우회·로그인·반복 재시도 없음."
+    },
+    {
+      "id": "L18-image-observation",
+      "source_url": "https://temporary-scent.kr/product/detail.html?product_no=146",
+      "retrieved_on": "2026-10-14",
+      "method": "기존 공식 HTML의 원본 이미지 URL GET 후 view_image",
+      "local_paths": [
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/images/L18-02.jpg",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/images/L18-03.jpg",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/images/L18-05.jpg",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/images/L18-11.jpg"
+      ],
+      "observed": "옴므 페로몬/오드퍼퓸 명명, 50mL 분사병, 청록색 액체, 머스크·바닐라 잔향 설명, 책임판매업자 더블유비스킨, 읽을 수 있는 전성분을 확인했다. 실제 페로몬 성분·함량 표시는 확인하지 못했다.",
+      "limitation": "이성 유인의 연상을 담은 명명·향기 분위기의 상징으로 판정한다. 생물학적 페로몬 효과를 확인했다는 뜻이 아니다."
+    },
+    {
+      "id": "L10-image-observation",
+      "source_url": "https://koyuji.com/shop_view/?idx=48",
+      "retrieved_on": "2026-10-14",
+      "method": "기존 공식 HTML의 원본 이미지 URL GET 후 view_image",
+      "local_paths": [
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/images/L10-top.jpg",
+        "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/images/L10-ratio.jpg"
+      ],
+      "observed": "용기 리뉴얼 공지는 용량·성분·내용물이 같다고 설명한다. 별도 상세 이미지는 6.5% 소금·일반 소금치약 대비 12배 이상이라고 표시하며 120g 옛 디자인 튜브를 보여준다.",
+      "limitation": "공지 날짜 및 과거 '6배' 광고와의 직접 대응은 확인하지 못했다. 6배를 6%로 해석하지 않으며 12배가 배합 증량인지 비교 기준 변경인지 확정하지 않는다."
+    }
+  ]
+}

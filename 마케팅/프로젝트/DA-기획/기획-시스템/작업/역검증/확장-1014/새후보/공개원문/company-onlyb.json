@@ -1,0 +1,24 @@
+{
+  "key": "company-onlyb",
+  "requested_url": "https://onlyb.kr/default/",
+  "final_url": "https://onlyb.kr/default/",
+  "status_code": 200,
+  "title": "온리비엔코 ONLYB",
+  "retrieved_at": "2026-10-14T08:32:34.098548+09:00",
+  "html_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-onlyb.html",
+  "text_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-onlyb.txt",
+  "sha256": "47aaf019a249e6d971615d3de87fc044a0cb7eef1f254824b3e9fa4a968d6283",
+  "detail_images": [
+    "https://onlyb.kr/default/img/main/scroll.png",
+    "https://onlyb.kr/default/img/main/m-ms01-02.jpg",
+    "https://onlyb.kr/default/img/main/m-ms02-02.jpg",
+    "https://onlyb.kr/default/img/main/m-ms03-02.jpg",
+    "https://onlyb.kr/default/img/main/m-mf01-02.jpg",
+    "https://onlyb.kr/default/img/main/m-mb01-03.png",
+    "https://onlyb.kr/default/img/main/m-mb02-03.png",
+    "https://onlyb.kr/default/img/main/m-mb03-03.png",
+    "https://onlyb.kr/default/img/main/m-mb04-03.png",
+    "https://onlyb.kr/default/img/common/icon-top.png",
+    "https://onlyb.kr/default/img/common/flogo-w-02.png"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "key": "company-kickthehurdle",
+  "requested_url": "https://kthd.co.kr/",
+  "final_url": "https://kthd.co.kr/",
+  "status_code": 200,
+  "title": "공지",
+  "retrieved_at": "2026-10-14T08:32:34.854884+09:00",
+  "html_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-kickthehurdle.html",
+  "text_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-kickthehurdle.txt",
+  "sha256": "cf8d4471375c44506d1eb5fd57dccfe8ec96b478c6478a6f631917bcb97d8366",
+  "detail_images": [
+    "https://kthd.co.kr/images/icon_info.svg"
+  ]
+}

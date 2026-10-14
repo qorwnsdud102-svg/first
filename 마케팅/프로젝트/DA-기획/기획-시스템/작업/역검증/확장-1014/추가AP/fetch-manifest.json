@@ -1,0 +1,326 @@
+[
+  {
+    "name": "AP12-detail4.jpg",
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/4.jpg",
+    "retrieved_at": "2026-10-14T08:25:32.177468+09:00",
+    "method": "GET",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "AP12-detail6.jpg",
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/6.jpg",
+    "retrieved_at": "2026-10-14T08:25:32.177982+09:00",
+    "method": "GET",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "AP12-detail8.jpg",
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/8.jpg",
+    "retrieved_at": "2026-10-14T08:25:32.178598+09:00",
+    "method": "GET",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "AP09-detail3.jpg",
+    "url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-3.jpg",
+    "retrieved_at": "2026-10-14T08:25:32.179017+09:00",
+    "method": "GET",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "AP09-detail4.jpg",
+    "url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-4.jpg",
+    "retrieved_at": "2026-10-14T08:25:32.179392+09:00",
+    "method": "GET",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "AP11-cooling.png",
+    "url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/product/Heart%20Cheek%20Pack/007-22.png",
+    "retrieved_at": "2026-10-14T08:25:32.179732+09:00",
+    "method": "GET",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "AP02-film.jpg",
+    "url": "https://ecimg.cafe24img.com/pg2242b49631414056/brisse2025/web/rabbittonguetintfilm_2/260911/tintfilm2_04.jpg",
+    "retrieved_at": "2026-10-14T08:25:32.180154+09:00",
+    "method": "GET",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "AP12-detail4.jpg",
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/4.jpg",
+    "retrieved_at": "2026-10-14T08:26:01.772988+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/4.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-detail4.jpg",
+    "sha256": "96abf2e1866dcd424ae9b1333245cf4df9c54ca64513449e284687a994928e9a",
+    "bytes": 156079
+  },
+  {
+    "name": "AP12-detail6.jpg",
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/6.jpg",
+    "retrieved_at": "2026-10-14T08:26:01.773442+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/6.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-detail6.jpg",
+    "sha256": "464fa6722ecd8d14a385f56fbc1ebed800a2a62034e2e236dc76d86ace470b58",
+    "bytes": 1341394
+  },
+  {
+    "name": "AP12-detail8.jpg",
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/8.jpg",
+    "retrieved_at": "2026-10-14T08:26:01.773967+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/8.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-detail8.jpg",
+    "sha256": "4125a6bfe1cf6b20fa9029a328c1f94f8478282662eec1a8f1c9ac33be7a6ca9",
+    "bytes": 171209
+  },
+  {
+    "name": "AP09-detail3.jpg",
+    "url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-3.jpg",
+    "retrieved_at": "2026-10-14T08:26:01.774144+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-3.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP09-detail3.jpg",
+    "sha256": "751274db17bf221cdd45d99153faaa414406e467aaab503baae65bfca5379eca",
+    "bytes": 304915
+  },
+  {
+    "name": "AP09-detail4.jpg",
+    "url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-4.jpg",
+    "retrieved_at": "2026-10-14T08:26:01.774600+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-4.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP09-detail4.jpg",
+    "sha256": "aad2fd6a747750d295612aca194adf3a2bfead635c27ca1e78e1c899a4b2a921",
+    "bytes": 1524128
+  },
+  {
+    "name": "AP11-cooling.png",
+    "url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/product/Heart%20Cheek%20Pack/007-22.png",
+    "retrieved_at": "2026-10-14T08:26:01.774864+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/product/Heart%20Cheek%20Pack/007-22.png",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP11-cooling.png",
+    "sha256": "4206881f7a436a2e268aa5d8a052aa078f02799e0d755f1220716c7a558c7bac",
+    "bytes": 2238072
+  },
+  {
+    "name": "AP02-film.jpg",
+    "url": "https://ecimg.cafe24img.com/pg2242b49631414056/brisse2025/web/rabbittonguetintfilm_2/260911/tintfilm2_04.jpg",
+    "retrieved_at": "2026-10-14T08:26:01.829776+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg2242b49631414056/brisse2025/web/rabbittonguetintfilm_2/260911/tintfilm2_04.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP02-film.jpg",
+    "sha256": "3ad89e563dce5238edcdae6dea1464e2b0dd9e33fcc3edc2cecda9f9ca3c896a",
+    "bytes": 900476
+  },
+  {
+    "name": "juvelook-brand.html",
+    "url": "https://www.juvelook.co.kr/sub/media.php?boardid=news&idx=90&mNum=4&mode=view&sNum=0",
+    "retrieved_at": "2026-10-14T08:26:02.090564+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://www.juvelook.co.kr/sub/media.php?boardid=news&idx=90&mNum=4&mode=view&sNum=0",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\juvelook-brand.html",
+    "sha256": "406f017d1cba92ca608fcbd0335807adbed59196ff4007a3178edaa6cf87f7ac",
+    "bytes": 35630
+  },
+  {
+    "name": "museaura-popup.html",
+    "url": "https://museaura.global/article/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/1/51/",
+    "retrieved_at": "2026-10-14T08:26:02.158304+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://museaura.global/article/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/1/51/",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\museaura-popup.html",
+    "sha256": "fe4b28c2254a4e26ed68a469ec9d325a781f5f40d540ae5f6bcc90099e068ffb",
+    "bytes": 108226
+  },
+  {
+    "name": "museaura-brand.html",
+    "url": "https://museaura.global/brand.html",
+    "retrieved_at": "2026-10-14T08:26:02.300713+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://museaura.global/brand.html",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\museaura-brand.html",
+    "sha256": "11c6c93bf3767ca05f13e52c43c3524cb6aced25ac1aa3b592094622734ee477",
+    "bytes": 96028
+  },
+  {
+    "name": "AP12-detail10.jpg",
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/10.jpg",
+    "retrieved_at": "2026-10-14T08:27:01.137733+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/10.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-detail10.jpg",
+    "sha256": "c72814b89be6017b1f0bc7221fbc7418f9c9302442754d10261fba1b033ae3ee",
+    "bytes": 675599
+  },
+  {
+    "name": "AP12-detail12.jpg",
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/12.jpg",
+    "retrieved_at": "2026-10-14T08:27:01.138268+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/12.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-detail12.jpg",
+    "sha256": "ade12e5c433652aefda6276d251b9b16796df1fb14b0ccc2491a496bb754e8de",
+    "bytes": 261846
+  },
+  {
+    "name": "AP12-detail30.jpg",
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/30.jpg",
+    "retrieved_at": "2026-10-14T08:27:01.138894+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/30.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-detail30.jpg",
+    "sha256": "e1fd0a9a4b34168e3a83437daec9d7277cb79cc7d3c5bf27fa1f7961d08f386d",
+    "bytes": 656340
+  },
+  {
+    "name": "AP09-detail5.jpg",
+    "url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/copy-1736828713-3ECA285EC84B8ED8AB8-5.jpg",
+    "retrieved_at": "2026-10-14T08:27:01.139186+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/copy-1736828713-3ECA285EC84B8ED8AB8-5.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP09-detail5.jpg",
+    "sha256": "00f17bba58d9d5955cb158cb253e5f199133d93e4b769573a03626504359373b",
+    "bytes": 315173
+  },
+  {
+    "name": "AP11-popup-celebrity.png",
+    "url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/web/upload/NNEditor/20260528/20260529_18_10.png",
+    "retrieved_at": "2026-10-14T08:27:01.139776+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/web/upload/NNEditor/20260528/20260529_18_10.png",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP11-popup-celebrity.png",
+    "sha256": "60f1715cf3117b215bbab44acb3d3ff8fc72e60e82a3922054708c9b7af61020",
+    "bytes": 75850
+  },
+  {
+    "name": "AP02-use.jpg",
+    "url": "https://ecimg.cafe24img.com/pg2242b49631414056/brisse2025/web/rabbittonguetintfilm_2/260911/tintfilm2_26.jpg",
+    "retrieved_at": "2026-10-14T08:27:01.208764+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg2242b49631414056/brisse2025/web/rabbittonguetintfilm_2/260911/tintfilm2_26.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP02-use.jpg",
+    "sha256": "2e2568b24f2e977f13b1dbacd56a134387dc2f0086bc1fd9214bd58fdc26496a",
+    "bytes": 52096
+  },
+  {
+    "name": "AP12-ampoule-to-foam.gif",
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/11_gif.gif",
+    "retrieved_at": "2026-10-14T08:27:46.000301+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/11_gif.gif",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-ampoule-to-foam.gif",
+    "sha256": "66a0a4afd27fb46c27194c97fe9ee2a9981cde2c1571fb262a9c18c5b972ba33",
+    "bytes": 3581403
+  },
+  {
+    "name": "AP12-usage.jpg",
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/26.jpg",
+    "retrieved_at": "2026-10-14T08:27:46.206660+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/26.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-usage.jpg",
+    "sha256": "1f6ea9a0441d09e3f4fb6e896179a093c6dd519724b0ec654857c72275e55a54",
+    "bytes": 555258
+  },
+  {
+    "name": "AP09-cleanser.jpg",
+    "url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-7.jpg",
+    "retrieved_at": "2026-10-14T08:27:46.768603+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-7.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP09-cleanser.jpg",
+    "sha256": "724f0ccadda3b733422cbf1c02ecdedaf95371e5ba17852b265d0ebcc34a521b",
+    "bytes": 316297
+  },
+  {
+    "name": "AP11-popup-main.png",
+    "url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/web/upload/NNEditor/20260528/20260528.png",
+    "retrieved_at": "2026-10-14T08:27:46.776705+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/web/upload/NNEditor/20260528/20260528.png",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP11-popup-main.png",
+    "sha256": "36d9f86e877d5669905c2ba94e5eccae2775f1e8fe2d19b3d277d1575379732c",
+    "bytes": 674644
+  },
+  {
+    "name": "brisse-issuer-press.html",
+    "url": "https://www.hankyung.com/article/202606119728P",
+    "retrieved_at": "2026-10-14T08:27:46.777240+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://www.hankyung.com/article/202606119728P",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\brisse-issuer-press.html",
+    "sha256": "1b1f2c881f5ff816441e591749e7b877e937796681273f6b91127911eed816cd",
+    "bytes": 91190
+  },
+  {
+    "name": "AP09-detail8.jpg",
+    "url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-8.jpg",
+    "retrieved_at": "2026-10-14T08:28:36.246140+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-8.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP09-detail8.jpg",
+    "sha256": "f140811c3d56ac1a67050a578b9c4f47243e0b47c710f8c72ccc9b6221f350e3",
+    "bytes": 269593
+  },
+  {
+    "name": "AP09-detail9.jpg",
+    "url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-9.jpg",
+    "retrieved_at": "2026-10-14T08:28:36.246672+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-9.jpg",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP09-detail9.jpg",
+    "sha256": "0ae4be693a01eb058767bd66236518cf021ba42d73693a6b91e2c9ddedc8b4fc",
+    "bytes": 202091
+  },
+  {
+    "name": "AP11-popup-benefit.png",
+    "url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/web/upload/NNEditor/20260528/20260529_18_00.png",
+    "retrieved_at": "2026-10-14T08:28:36.247296+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/web/upload/NNEditor/20260528/20260529_18_00.png",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP11-popup-benefit.png",
+    "sha256": "2f1f8d28255600f529f582311b2ea11026c21d0df92dc91c6526f95f002ca472",
+    "bytes": 349742
+  },
+  {
+    "name": "AP12-detail9.gif",
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/9_gif.gif",
+    "retrieved_at": "2026-10-14T08:28:36.247470+09:00",
+    "method": "GET",
+    "status": 200,
+    "final_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/9_gif.gif",
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-detail9.gif",
+    "sha256": "d3722e53320cba0c7bef780724e8a840ac30c21aeee8f180856c78da01d90415",
+    "bytes": 21152122
+  }
+]

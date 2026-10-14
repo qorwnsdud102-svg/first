@@ -1,0 +1,21 @@
+{
+  "key": "company-bodythy",
+  "requested_url": "https://bodythy.com/about.html",
+  "final_url": "https://bodythy.com/about.html",
+  "status_code": 200,
+  "title": "BODYTHY｜바디씨 공식 온라인몰",
+  "retrieved_at": "2026-10-14T08:32:34.413447+09:00",
+  "html_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-bodythy.html",
+  "text_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-bodythy.txt",
+  "sha256": "e8a995d7fdca0784c7a9837e771b5e98feec05669e26d7ceae6752d0bbb830a7",
+  "detail_images": [
+    "https://trace.popin.cc/api/bidder/track/pixel/pageview?tn=f9f2b1ef23fe2759c2cad0953029a94b",
+    "https://bodythy.com/moa/img/icon/icon_search.svg",
+    "https://bodythy.com/moa/img/icon/icon_x.svg",
+    "https://bodythy.com/moa/img/icon/icon_user.svg",
+    "https://bodythy.com/moa/img/icon/icon_cart.svg",
+    "https://bodythy.com/moa/img/icon/size_find.png",
+    "https://img.echosting.cafe24.com/skin/skin/common/img_loading.gif",
+    "https://www.facebook.com/tr?id=957605602199807&ev=PageView&noscript=1"
+  ]
+}

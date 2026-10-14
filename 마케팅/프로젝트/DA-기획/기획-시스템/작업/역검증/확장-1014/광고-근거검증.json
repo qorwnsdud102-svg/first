@@ -1,0 +1,298 @@
+{
+  "as_of": "2026-10-14T08:52:22.214181+09:00",
+  "eligible_count": 30,
+  "checked": [
+    {
+      "id": "L01",
+      "ad_id": "1825504655527568",
+      "days": 79,
+      "date_difference": 79,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L03",
+      "ad_id": "4275968339318988",
+      "days": 176,
+      "date_difference": 176,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L05",
+      "ad_id": "1750301563032484",
+      "days": 458,
+      "date_difference": 458,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L07",
+      "ad_id": "2495807260893096",
+      "days": 61,
+      "date_difference": 61,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\8회차\\해부-하엔-좀퓨어딥트릭스DPRX홈레이저.md",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L08",
+      "ad_id": "1926957904540528",
+      "days": 415,
+      "date_difference": 415,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\8회차\\해부-유어벳-펫덴탈스프레이.md"
+      ]
+    },
+    {
+      "id": "L09",
+      "ad_id": "3151423001914364",
+      "days": 128,
+      "date_difference": 128,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L12",
+      "ad_id": "1623568378971949",
+      "days": 179,
+      "date_difference": 179,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L13",
+      "ad_id": "1306253277677327",
+      "days": 406,
+      "date_difference": 406,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L14",
+      "ad_id": "2008233483130935",
+      "days": 103,
+      "date_difference": 103,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L15",
+      "ad_id": "1944581446458689",
+      "days": 319,
+      "date_difference": null,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L17",
+      "ad_id": "1555617772569463",
+      "days": 144,
+      "date_difference": null,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\본체-보강\\광고연결-보강.md"
+      ]
+    },
+    {
+      "id": "AP06",
+      "ad_id": "1432214985330499",
+      "days": 135,
+      "date_difference": 135,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L02",
+      "ad_id": "1613610700495756",
+      "days": 118,
+      "date_difference": 118,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L04",
+      "ad_id": "1283012900657812",
+      "days": 132,
+      "date_difference": 132,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L06",
+      "ad_id": "2030218967634318",
+      "days": 103,
+      "date_difference": 103,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "L11",
+      "ad_id": "1166687735126566",
+      "days": 634,
+      "date_difference": 634,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\9회차\\메타-새검색.json"
+      ]
+    },
+    {
+      "id": "L18",
+      "ad_id": "1735806597731673",
+      "days": 70,
+      "date_difference": 70,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\본체-보강\\광고연결-보강.json"
+      ]
+    },
+    {
+      "id": "L20",
+      "ad_id": "1553433233148662",
+      "days": 61,
+      "date_difference": 61,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\본체-보강\\광고연결-보강.json",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\본체-보강\\광고연결-보강.json"
+      ]
+    },
+    {
+      "id": "AP09",
+      "ad_id": "514516541701728",
+      "days": 572,
+      "date_difference": 572,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "AP12",
+      "ad_id": "1644665389767455",
+      "days": 179,
+      "date_difference": 179,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "X01",
+      "ad_id": "2115209279403918",
+      "days": 106,
+      "date_difference": 106,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json"
+      ]
+    },
+    {
+      "id": "X03",
+      "ad_id": "1644194146960867",
+      "days": 302,
+      "date_difference": 302,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json"
+      ]
+    },
+    {
+      "id": "X05",
+      "ad_id": "2233806247159456",
+      "days": 81,
+      "date_difference": 81,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\10회차\\브랜드-메타.json",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\10회차\\브랜드-메타.json"
+      ]
+    },
+    {
+      "id": "X06",
+      "ad_id": "1679375666632178",
+      "days": 135,
+      "date_difference": 135,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "X08",
+      "ad_id": "1311462927616986",
+      "days": 187,
+      "date_difference": 187,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\12회차\\새구역-메타.json"
+      ]
+    },
+    {
+      "id": "X09",
+      "ad_id": "1500283091764843",
+      "days": 169,
+      "date_difference": 169,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "X12",
+      "ad_id": "998041516390693",
+      "days": 82,
+      "date_difference": 82,
+      "sources_found": [
+        "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json"
+      ]
+    },
+    {
+      "id": "X14",
+      "ad_id": "3496559190520119",
+      "days": 127,
+      "date_difference": 127,
+      "sources_found": [
+        "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부1도메인_메타광고소재\\diqsol\\_ads.json",
+        "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부1도메인_메타광고소재\\diqsol\\_ads.json"
+      ]
+    },
+    {
+      "id": "X15",
+      "ad_id": "1406298164673798",
+      "days": 84,
+      "date_difference": 84,
+      "sources_found": [
+        "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\torhop\\_ads.json",
+        "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\torhop\\_ads.json"
+      ]
+    },
+    {
+      "id": "X20",
+      "ad_id": "1684607779546039",
+      "days": 164,
+      "date_difference": 164,
+      "sources_found": [
+        "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\formula-in\\_ads.json",
+        "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\formula-in\\_ads.json",
+        "C:\\claude\\네이버 급상승 키워드 기반 경쟁사 발굴\\scripts\\히트해부3_메타광고소재\\formula-in\\_ads.json"
+      ]
+    }
+  ],
+  "issues": [],
+  "method": "확정 표본의 60일 이상 근거·제시 날짜 차이·광고ID 원자료 존재·근거파일 존재. 과거 활성 관찰을 오늘까지 소급 연장하지 않음.",
+  "path_field_normalization": "source/source_path/local_index_file 이름 차이를 보정하여 빈 근거 경로를 재검사했다.",
+  "missing_ad_id_source": [],
+  "updated_at": "2026-10-14T09:06:29.959810+09:00"
+}

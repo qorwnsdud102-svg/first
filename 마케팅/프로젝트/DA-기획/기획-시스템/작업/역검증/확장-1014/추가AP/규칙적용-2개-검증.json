@@ -1,0 +1,75 @@
+{
+  "as_of": "2026-10-14T08:49:44.288293+09:00",
+  "result": "PASS",
+  "checks": {
+    "source_rule_count": 89,
+    "snapshot_hash_unchanged": true,
+    "eligibility_result_unchanged": true,
+    "only_requested_products": true,
+    "coverage": {
+      "AP09": {
+        "rows": 89,
+        "unique": 89,
+        "order_matches_snapshot": true
+      },
+      "AP12": {
+        "rows": 89,
+        "unique": 89,
+        "order_matches_snapshot": true
+      }
+    },
+    "warning_rule_H_count": 0,
+    "evidence_files_exist_and_absolute": true,
+    "evidence_file_count": 11,
+    "md_exists": true,
+    "result_md_exists": true
+  },
+  "counts": {
+    "AP09": {
+      "P": 24,
+      "U": 31,
+      "N": 33,
+      "W": 1,
+      "H": 0
+    },
+    "AP12": {
+      "P": 27,
+      "U": 34,
+      "N": 27,
+      "W": 1,
+      "H": 0
+    }
+  },
+  "total": {
+    "P": 51,
+    "U": 65,
+    "N": 60,
+    "W": 2,
+    "H": 0
+  },
+  "errors": [],
+  "output_sha256": {
+    "규칙적용-2개.json": "0a2a18a2e1476f40bc89c6e0184cc6c9b1c449d006fc1d8f605a92722dbb98d3",
+    "규칙적용-2개.md": "77c9c99f8a156cf9213279fb517484770563de6a34f14ef66f6ae335cf152ead",
+    "결과.md": "f4d2dc440205ef5fb1aa9254ca500b57870a1ed21bed7a8c759ea42d41a358c1"
+  },
+  "evidence_sha256": {
+    "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/7회차/광고-재사용색인.json": "4173df168aff2e2f23ef588d8280c7f516a9915f8ac52bb9e7cee7960aab2d2e",
+    "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/sources/AP09.txt": "5c913052c45aa6d7b8e6944bf37c88103da19d3416a21564af94a795c31cf2eb",
+    "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/sources/AP12.txt": "f2407c21ed0277077ce7d3c13e2669b70fc5c5b650466c1093d16388e89b1a36",
+    "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/추가AP/evidence/AP09-detail3.jpg": "751274db17bf221cdd45d99153faaa414406e467aaab503baae65bfca5379eca",
+    "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/추가AP/evidence/AP09-detail4.jpg": "aad2fd6a747750d295612aca194adf3a2bfead635c27ca1e78e1c899a4b2a921",
+    "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/추가AP/evidence/AP09-detail9.jpg": "0ae4be693a01eb058767bd66236518cf021ba42d73693a6b91e2c9ddedc8b4fc",
+    "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/추가AP/evidence/AP12-detail10.jpg": "c72814b89be6017b1f0bc7221fbc7418f9c9302442754d10261fba1b033ae3ee",
+    "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/추가AP/evidence/AP12-detail12.jpg": "ade12e5c433652aefda6276d251b9b16796df1fb14b0ccc2491a496bb754e8de",
+    "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/추가AP/evidence/AP12-detail6.jpg": "464fa6722ecd8d14a385f56fbc1ebed800a2a62034e2e236dc76d86ace470b58",
+    "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/추가AP/evidence/AP12-detail8.jpg": "4125a6bfe1cf6b20fa9029a328c1f94f8478282662eec1a8f1c9ac33be7a6ca9",
+    "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/추가AP/evidence/AP12-usage.jpg": "1f6ea9a0441d09e3f4fb6e896179a093c6dd519724b0ec654857c72275e55a54"
+  },
+  "semantic_notes": [
+    "소재/원료·질감형을 특정 시술 복제형으로 바꾸지 않음",
+    "AP12=46, 피코샷52/토닝샷 근거 전용 없음",
+    "광고기간으로 원가·ROAS·효능·상징 인지도 대체 없음",
+    "기존 결과.json과 규칙 스냅샷 해시 보존"
+  ]
+}

@@ -1,0 +1,558 @@
+[
+  {
+    "i": 9,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/upload/NNEditor/20260728/copy-1785207022-1.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\09.bin",
+    "sha256": "79c71b341798ae5cb6b29f20ef843c952de36b36f396d4dccab9e7ab9c4669e1",
+    "size": [
+      1200,
+      2567
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\09-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\09-02000.jpg"
+    ]
+  },
+  {
+    "i": 10,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/2.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\10.bin",
+    "sha256": "a50926c837bb16dc62371d1b8d33abda0aabaf56edb621a6f177a5b47978bd17",
+    "size": [
+      1200,
+      2795
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\10-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\10-02000.jpg"
+    ]
+  },
+  {
+    "i": 11,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/3_gif.gif",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\11.bin",
+    "sha256": "9ee34898859c57765d1122ca1e821166bcc79a11b1c33f67b11b73072f560294",
+    "size": [
+      800,
+      450
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\11-00000.jpg"
+    ]
+  },
+  {
+    "i": 12,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/upload/NNEditor/20260728/4_gif.gif",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\12.bin",
+    "sha256": "f27d78b08f18a0473b09172bc0baaa6648f65fc7f53aedb8dba7cf94569ceb6f",
+    "size": [
+      1200,
+      2300
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\12-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\12-02000.jpg"
+    ]
+  },
+  {
+    "i": 13,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/5_1_20260615.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\13.bin",
+    "sha256": "5b6cbbe0b2148c05718bba0a39b29e1f0f1713a7f6e6d75b022c440a48764648",
+    "size": [
+      1200,
+      1068
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\13-00000.jpg"
+    ]
+  },
+  {
+    "i": 14,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/5_2_gif.gif",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\14.bin",
+    "sha256": "72e48f159d02e7bf7856f43dfb2c5bb77ed8aef11c3aea54b9aa999c85ce25d0",
+    "size": [
+      800,
+      640
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\14-00000.jpg"
+    ]
+  },
+  {
+    "i": 15,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/5_3_gif.gif",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\15.bin",
+    "sha256": "a84c3d7d8cfab9ea468cfe173b9aae041c663fcb8240f5eb176cd46dd2276440",
+    "size": [
+      800,
+      640
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\15-00000.jpg"
+    ]
+  },
+  {
+    "i": 16,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/5_4_gif.gif",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\16.bin",
+    "sha256": "850a375394de999c5f34678e4fae7be2c1e2db64f03405ea59964d5eb0a83ec8",
+    "size": [
+      800,
+      633
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\16-00000.jpg"
+    ]
+  },
+  {
+    "i": 17,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/5_5.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\17.bin",
+    "sha256": "83b72891b707ec0c46a5e5724850dcd1fb780c36955bed5743e6afaa30f260ae",
+    "size": [
+      1200,
+      349
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\17-00000.jpg"
+    ]
+  },
+  {
+    "i": 18,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/6.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\18.bin",
+    "sha256": "e87350199a2130ca6f0a72daf2f4818095e89b73867dd247103e21299e9616db",
+    "size": [
+      1200,
+      2499
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\18-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\18-02000.jpg"
+    ]
+  },
+  {
+    "i": 19,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/7.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\19.bin",
+    "sha256": "d35cfc66634b59d02d8509f80d9fc38c49506f48eb001c018979bea50c475ae6",
+    "size": [
+      1200,
+      1990
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\19-00000.jpg"
+    ]
+  },
+  {
+    "i": 20,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/8_gif.gif",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\20.bin",
+    "sha256": "91ef5bc7e5a47f2ca2b0b32385de1f30b14ce6e0f1d974a89e699a44eaac34ed",
+    "size": [
+      800,
+      913
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\20-00000.jpg"
+    ]
+  },
+  {
+    "i": 21,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/9.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\21.bin",
+    "sha256": "a54cb6ba4f3b73b0d0d73c8b9c3b9a01d028407019a7b3c071c5f91e116c3c2f",
+    "size": [
+      1200,
+      3424
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\21-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\21-02000.jpg"
+    ]
+  },
+  {
+    "i": 22,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/10.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\22.bin",
+    "sha256": "721c7f5f90f1c1166f097ff0470d1cb39e8f38acd77925ccc2904bba5c37a857",
+    "size": [
+      1200,
+      774
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\22-00000.jpg"
+    ]
+  },
+  {
+    "i": 23,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/11.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\23.bin",
+    "sha256": "5438cb62569262e4166959ee9a4e8cd417dd8c9439b8711b05cf6b4d2ced2013",
+    "size": [
+      1200,
+      715
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\23-00000.jpg"
+    ]
+  },
+  {
+    "i": 24,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/12.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\24.bin",
+    "sha256": "79b1b10fe9c073423e15dc0517d3699ce31399a97c62b72d51b82cb95354e181",
+    "size": [
+      1200,
+      3770
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\24-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\24-02000.jpg"
+    ]
+  },
+  {
+    "i": 25,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/13.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\25.bin",
+    "sha256": "c0635ca6009645d8a17ddad8fa9087c4c23d761f858f5b895c62b89694c10321",
+    "size": [
+      1200,
+      2165
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\25-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\25-02000.jpg"
+    ]
+  },
+  {
+    "i": 26,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/14_gif.gif",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\26.bin",
+    "sha256": "b288059de6c836873e28b27c05e771b882941a3c1c250ce479344dfff6413043",
+    "size": [
+      1200,
+      1085
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\26-00000.jpg"
+    ]
+  },
+  {
+    "i": 27,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/15_gif.gif",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\27.bin",
+    "sha256": "0425b1c5e0beecbaf6c7c8ba54693cb7c16c880e4ae8a30f864877b8cd53877c",
+    "size": [
+      700,
+      1210
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\27-00000.jpg"
+    ]
+  },
+  {
+    "i": 28,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/16.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\28.bin",
+    "sha256": "e8787398bbdc2ab49a32f35be4ca14f6f54934352f184a455760ba520b8bf1fe",
+    "size": [
+      1200,
+      3215
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\28-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\28-02000.jpg"
+    ]
+  },
+  {
+    "i": 29,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/upload/NNEditor/20260805/17_gif.gif",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\29.bin",
+    "sha256": "3678af4c693ce4a2c089109433ae086406b85fb59747c5f578f9e949a7773359",
+    "size": [
+      800,
+      1556
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\29-00000.jpg"
+    ]
+  },
+  {
+    "i": 30,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/18.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\30.bin",
+    "sha256": "6420e13f9d90f1436e61013aaf920fc440e7bf235380d7df3b6a7e2666a0f3eb",
+    "size": [
+      1200,
+      1444
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\30-00000.jpg"
+    ]
+  },
+  {
+    "i": 31,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/19_gif.gif",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\31.bin",
+    "sha256": "9e039a8e46d875f2245b9dc6acd174cb6c8cce6fca5fccb6135274907ebd232b",
+    "size": [
+      800,
+      1346
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\31-00000.jpg"
+    ]
+  },
+  {
+    "i": 32,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/20.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\32.bin",
+    "sha256": "1c724461be0d44ae11ca2f162c713313959c42d33a020c0466b41d75f8e3e86c",
+    "size": [
+      1200,
+      2782
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\32-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\32-02000.jpg"
+    ]
+  },
+  {
+    "i": 33,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/21.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\33.bin",
+    "sha256": "886b0c6301ca58f37771d418a2103b8539fcdec3f9762ba09f959008f3f47801",
+    "size": [
+      1200,
+      2192
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\33-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\33-02000.jpg"
+    ]
+  },
+  {
+    "i": 34,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/22.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\34.bin",
+    "sha256": "5ea5a38430f0caac2db7907dd2e71bf1a803823632eacbba5731c37c8b3ad6e5",
+    "size": [
+      1200,
+      2641
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\34-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\34-02000.jpg"
+    ]
+  },
+  {
+    "i": 35,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/23.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\35.bin",
+    "sha256": "ad9902f63fd6cedc8bc29d17ad05082cdd74395b3d641dec4a1777f9b6986c19",
+    "size": [
+      1200,
+      2538
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\35-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\35-02000.jpg"
+    ]
+  },
+  {
+    "i": 36,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/24.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\36.bin",
+    "sha256": "aa3cd0d7f20d2cadd40abe717ef8b7d6405b0c2f2b3f2ffde5891f4cc9c4625f",
+    "size": [
+      1200,
+      1977
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\36-00000.jpg"
+    ]
+  },
+  {
+    "i": 37,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/25.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\37.bin",
+    "sha256": "e17ce33f4e72d08f7e05821ff0624cb33b09d5b59df78607d682b801f5a0bbfa",
+    "size": [
+      1200,
+      2371
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\37-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\37-02000.jpg"
+    ]
+  },
+  {
+    "i": 38,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/26.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\38.bin",
+    "sha256": "a66caf58d342e3361821e66c6d266f3dc6f5e06ecaaad14dca0cf7a26018fb90",
+    "size": [
+      1200,
+      1570
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\38-00000.jpg"
+    ]
+  },
+  {
+    "i": 39,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/27.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\39.bin",
+    "sha256": "12bf83bfb63872fde75b5b7c0cddce1c49b6316b6dba70af550d78f212087fa1",
+    "size": [
+      1200,
+      2486
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\39-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\39-02000.jpg"
+    ]
+  },
+  {
+    "i": 40,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/28.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\40.bin",
+    "sha256": "a1df09a709dbe665d5f0120695606c021c3223d3c900f92a9d94632c73964857",
+    "size": [
+      1200,
+      3188
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\40-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\40-02000.jpg"
+    ]
+  },
+  {
+    "i": 41,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/29.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\41.bin",
+    "sha256": "ade12e5c433652aefda6276d251b9b16796df1fb14b0ccc2491a496bb754e8de",
+    "size": [
+      1200,
+      1843
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\41-00000.jpg"
+    ]
+  },
+  {
+    "i": 42,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/30.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\42.bin",
+    "sha256": "5f5320e0a95f2cd1079261fa0f162bc6a8a54f769dfaa472cfb336c79584da76",
+    "size": [
+      1200,
+      2009
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\42-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\42-02000.jpg"
+    ]
+  },
+  {
+    "i": 43,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/31.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\43.bin",
+    "sha256": "c4b7f6ff6758c8435a7d8cbbe8f2281ffca2996c5cc9298c6c91c3b957ff5b85",
+    "size": [
+      1200,
+      3540
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\43-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\43-02000.jpg"
+    ]
+  },
+  {
+    "i": 44,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/32.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\44.bin",
+    "sha256": "b22aa7924c601ca0153eda98cafde2ea0f16cb1ceb95d1ae961c3a38d36022f3",
+    "size": [
+      1200,
+      3526
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\44-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\44-02000.jpg"
+    ]
+  },
+  {
+    "i": 45,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/33.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\45.bin",
+    "sha256": "527a8603e3cda382c1bc1097870cf8587d82b888b6fe0a31ca89417f8baf0d6b",
+    "size": [
+      1200,
+      2998
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\45-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\45-02000.jpg"
+    ]
+  },
+  {
+    "i": 46,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/34.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\46.bin",
+    "sha256": "973e599afe9bd68a585497dbecfba29cce044ae3829ad023cf2ef98c6b6edc22",
+    "size": [
+      1200,
+      2927
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\46-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\46-02000.jpg"
+    ]
+  },
+  {
+    "i": 47,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/35_260910.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\47.bin",
+    "sha256": "25661ad7fa0810854eeac1986c9b434b618de88e7c9eff22cbc37220c681342a",
+    "size": [
+      1200,
+      2763
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\47-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\47-02000.jpg"
+    ]
+  },
+  {
+    "i": 48,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/36_260915.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\48.bin",
+    "sha256": "ecaa452733635c335f8139ea8e383fe5279f0f804e25db8765f5bffb6a4c64f8",
+    "size": [
+      1200,
+      3275
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\48-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\48-02000.jpg"
+    ]
+  },
+  {
+    "i": 49,
+    "url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cream/20260526/pc/37.jpg",
+    "path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\49.bin",
+    "sha256": "ade6b5a37c3a72260841854b70cedb2c0cca1bb8b543313778c6467ce548b6f9",
+    "size": [
+      1200,
+      2604
+    ],
+    "previews": [
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\49-00000.jpg",
+      "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\본체\\피코샷\\49-02000.jpg"
+    ]
+  }
+]

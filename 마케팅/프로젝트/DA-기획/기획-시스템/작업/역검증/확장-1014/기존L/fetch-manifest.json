@@ -1,0 +1,79 @@
+[
+  {
+    "name": "L18-02.jpg",
+    "url": "https://ecimg.cafe24img.com/pg351b58332543078/wbskintemper/web/upload/NNEditor/20240710/02.jpg",
+    "status": 200,
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\기존L\\images\\L18-02.jpg",
+    "sha256": "db5a554d183ae106e4160e212e40ee5b08b836c4a9df7a121ba15d3af9afc7cd",
+    "bytes": 688335,
+    "retrieved_at": "2026-10-14T08:26:19.530085+09:00"
+  },
+  {
+    "name": "L18-03.jpg",
+    "url": "https://ecimg.cafe24img.com/pg351b58332543078/wbskintemper/web/upload/NNEditor/20240710/03.jpg",
+    "status": 200,
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\기존L\\images\\L18-03.jpg",
+    "sha256": "e228a5d32a84168030bc515ccc6065b31762c363059a5702cdb66f6c4673a685",
+    "bytes": 633902,
+    "retrieved_at": "2026-10-14T08:26:19.553008+09:00"
+  },
+  {
+    "name": "L18-05.jpg",
+    "url": "https://ecimg.cafe24img.com/pg351b58332543078/wbskintemper/web/upload/NNEditor/20240710/05.jpg",
+    "status": 200,
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\기존L\\images\\L18-05.jpg",
+    "sha256": "541c694dada2348e2e93559efa6658e78662802222aa252ac48e4b8c6ad34d13",
+    "bytes": 467206,
+    "retrieved_at": "2026-10-14T08:26:19.525487+09:00"
+  },
+  {
+    "name": "L18-11.jpg",
+    "url": "https://ecimg.cafe24img.com/pg351b58332543078/wbskintemper/web/upload/NNEditor/20240710/11.jpg",
+    "status": 200,
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\기존L\\images\\L18-11.jpg",
+    "sha256": "7a026ccbb3495e417af6e277fab376ebf9980d7aca231a9fc5a191f5d321aca8",
+    "bytes": 579088,
+    "retrieved_at": "2026-10-14T08:26:19.386298+09:00"
+  },
+  {
+    "name": "L10-top.jpg",
+    "url": "https://cdn.imweb.me/upload/S20220328478690d775f16/cdc05b39be9a0.jpg",
+    "status": 200,
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\기존L\\images\\L10-top.jpg",
+    "sha256": "1c5eccce9ac3acad246569559b86ef03ffecaff30d9f29295ce204851fc1431a",
+    "bytes": 257319,
+    "retrieved_at": "2026-10-14T08:26:19.498653+09:00"
+  },
+  {
+    "name": "L11-manufacturer.html",
+    "url": "https://www.healingcamp.biz/medion",
+    "status": 200,
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\기존L\\sources\\L11-manufacturer.html",
+    "sha256": "f0ef4f866fb7fa4d4cc2cffd0a11d43d55b7b9dd3e9ab40f182842259978ab4f",
+    "bytes": 1215668,
+    "retrieved_at": "2026-10-14T08:26:19.996437+09:00"
+  },
+  {
+    "name": "L11-company.html",
+    "url": "https://bizno.net/article/5118701868",
+    "status": 200,
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\기존L\\sources\\L11-company.html",
+    "sha256": "0cda3432d143a3907f0d1c0daa90cd4d3c73c86321b55776028fa50f496b7146",
+    "bytes": 2209,
+    "retrieved_at": "2026-10-14T08:28:40.285258+09:00"
+  },
+  {
+    "name": "L11-product.jpg",
+    "url": "https://static.wixstatic.com/media/759bcb_5f3b661e9cd04b56924fc18fbe4cb05d~mv2.jpg",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "L10-ratio.jpg",
+    "url": "https://cdn.imweb.me/upload/S20220328478690d775f16/3b2eaff7695b1.jpg",
+    "status": 200,
+    "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\기존L\\images\\L10-ratio.jpg",
+    "sha256": "dc22bf5d726a7e59c9650cf5377d33de380734389c4ee9fb98637b4269a16ecd",
+    "bytes": 411342,
+    "retrieved_at": "2026-10-14T08:28:40.424744+09:00"
+  }
+]

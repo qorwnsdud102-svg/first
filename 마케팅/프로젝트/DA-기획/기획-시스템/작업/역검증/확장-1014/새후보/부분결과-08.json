@@ -1,0 +1,309 @@
+{
+  "as_of": "2026-10-14",
+  "products": [
+    {
+      "id": "X01",
+      "product_name": "누룩밤",
+      "product_key": "wizardjoseon.com#29",
+      "official_url": "https://wizardjoseon.com/surl/P/29",
+      "status": "U",
+      "reason": "부분저장: 구체 후보 선정. 상세 연결·운영사 및 범위 확인 전이며 유효제품 확정 아님.",
+      "symbol_role": "누룩 발효·수면팩",
+      "implementation": "발효원료·밤 제형·취침 전 루틴",
+      "operator": null,
+      "company_scope_basis": null,
+      "ad_evidence": [
+        {
+          "id": "2115209279403918",
+          "days": 106,
+          "start_date": "2026-06-29",
+          "end_date": "2026-10-13",
+          "landing": "https://wizardjoseon.com/surl/P/29",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/0/ads/7"
+        },
+        {
+          "id": "1058614553512424",
+          "days": 105,
+          "start_date": "2026-06-30",
+          "end_date": "2026-10-13",
+          "landing": "https://wizardjoseon.com/surl/P/29",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/0/ads/5"
+        },
+        {
+          "id": "789338177600051",
+          "days": 105,
+          "start_date": "2026-06-30",
+          "end_date": "2026-10-13",
+          "landing": "https://wizardjoseon.com/surl/P/29",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/0/ads/0"
+        }
+      ],
+      "evidence": [],
+      "remaining": [
+        "공식 상세 및 정확 상품 연결",
+        "운영사·공개 규모근거",
+        "제품별 상징 판정"
+      ]
+    },
+    {
+      "id": "X02",
+      "product_name": "릴리이브 그로우턴 엑소좀 브러쉬 앰플",
+      "product_key": "lilyeve.kr#235",
+      "official_url": "https://lilyeve.kr/product/detail.html?product_no=235&utm_source=FBIG&utm_medium=DR&utm_campaign=ABO_그로우턴&utm_content=채은 [260630]wave_릴리이브_그로우턴 앰플_1등",
+      "status": "U",
+      "reason": "부분저장: 구체 후보 선정. 상세 연결·운영사 및 범위 확인 전이며 유효제품 확정 아님.",
+      "symbol_role": "전문 앰플·잔머리펌 대체",
+      "implementation": "브러쉬 도포·ON/OFF",
+      "operator": null,
+      "company_scope_basis": null,
+      "ad_evidence": [
+        {
+          "id": "4380133262243528",
+          "days": 96,
+          "start_date": "2026-07-09",
+          "end_date": "2026-10-13",
+          "landing": "https://lilyeve.kr/product/detail.html?product_no=235&utm_source=FBIG&utm_medium=DR&utm_campaign=ABO_그로우턴&utm_content=채은 [260630]wave_릴리이브_그로우턴 앰플_1등",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/4/ads/2"
+        },
+        {
+          "id": "1588989585956235",
+          "days": 83,
+          "start_date": "2026-07-22",
+          "end_date": "2026-10-13",
+          "landing": "https://lilyeve.kr/product/detail.html?product_no=235&utm_source=FBIG&utm_medium=DR&utm_campaign=ABO_그로우턴&utm_content=[260626]wave_릴리이브_탈모앰플_1등현",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/5/ads/5"
+        },
+        {
+          "id": "2416411265522223",
+          "days": 83,
+          "start_date": "2026-07-22",
+          "end_date": "2026-10-13",
+          "landing": "https://lilyeve.kr/product/detail.html?product_no=235&utm_source=FBIG&utm_medium=DR&utm_campaign=ABO_%EA%B7%B8%EB%A1%9C%EC%9A%B0%ED%84%B4&utm_content=%5B260715%5Dwave_%EB%A6%B4%EB%A6%AC%EC%9D%B4%EB%B8%8C_%EB%91%90%ED%94%BC%EC%97%90%EB%B0%9C%EB%9D%BC_%EA%B7%B8%EB%A1%9C%EC%9A%B0%ED%84%B4+%EC%95%B0%ED%94%8C",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/4/ads/5"
+        }
+      ],
+      "evidence": [],
+      "remaining": [
+        "공식 상세 및 정확 상품 연결",
+        "운영사·공개 규모근거",
+        "제품별 상징 판정"
+      ]
+    },
+    {
+      "id": "X03",
+      "product_name": "에끌무아 볼류미크 퍼퓸 헤어3종",
+      "product_key": "eclmoi.com#59",
+      "official_url": "https://eclmoi.com/product/detail.html?product_no=59",
+      "status": "U",
+      "reason": "부분저장: 구체 후보 선정. 상세 연결·운영사 및 범위 확인 전이며 유효제품 확정 아님.",
+      "symbol_role": "향수·트러플·청담샵",
+      "implementation": "향수 노트와 헤어3종",
+      "operator": null,
+      "company_scope_basis": null,
+      "ad_evidence": [
+        {
+          "id": "1644194146960867",
+          "days": 302,
+          "start_date": "2025-12-15",
+          "end_date": "2026-10-13",
+          "landing": "https://eclmoi.com/product/detail.html?product_no=59",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/10/ads/7"
+        },
+        {
+          "id": "1542727280112785",
+          "days": 302,
+          "start_date": "2025-12-15",
+          "end_date": "2026-10-13",
+          "landing": "https://eclmoi.com/product/detail.html?product_no=59",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/10/ads/17"
+        },
+        {
+          "id": "2747443895595680",
+          "days": 295,
+          "start_date": "2025-12-22",
+          "end_date": "2026-10-13",
+          "landing": "https://eclmoi.com/product/detail.html?product_no=59",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/10/ads/6"
+        }
+      ],
+      "evidence": [],
+      "remaining": [
+        "공식 상세 및 정확 상품 연결",
+        "운영사·공개 규모근거",
+        "제품별 상징 판정"
+      ]
+    },
+    {
+      "id": "X04",
+      "product_name": "메디톨드 퍼시닌 바디워시",
+      "product_key": "meditold.com#349",
+      "official_url": "https://meditold.com/surl/P/349?utm_source=MT&utm_medium=P&utm_campaign=konojjang_1",
+      "status": "U",
+      "reason": "부분저장: 구체 후보 선정. 상세 연결·운영사 및 범위 확인 전이며 유효제품 확정 아님.",
+      "symbol_role": "단감·탄닌의 냄새 포획 설명",
+      "implementation": "감추출물·초록 병",
+      "operator": null,
+      "company_scope_basis": null,
+      "ad_evidence": [
+        {
+          "id": "1124006736966519",
+          "days": 60,
+          "start_date": "2026-08-14",
+          "end_date": "2026-10-13",
+          "landing": "https://meditold.com/surl/P/349?utm_source=MT&utm_medium=P&utm_campaign=konojjang_1",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\2등급-재해부\\현재-메타.json#/9/ads/29"
+        }
+      ],
+      "evidence": [],
+      "remaining": [
+        "공식 상세 및 정확 상품 연결",
+        "운영사·공개 규모근거",
+        "제품별 상징 판정"
+      ]
+    },
+    {
+      "id": "X05",
+      "product_name": "벨택 페니톡스 크림",
+      "product_key": "veltag.co.kr#3",
+      "official_url": "https://www.veltag.co.kr/shop_view/?idx=3",
+      "status": "U",
+      "reason": "부분저장: 구체 후보 선정. 상세 연결·운영사 및 범위 확인 전이며 유효제품 확정 아님.",
+      "symbol_role": "보톡스",
+      "implementation": "페니톡스 작명·아세틸헥사펩타이드-8",
+      "operator": null,
+      "company_scope_basis": null,
+      "ad_evidence": [
+        {
+          "id": "2233806247159456",
+          "days": 81,
+          "start_date": "2026-07-24",
+          "end_date": "2026-10-13",
+          "landing": "https://www.veltag.co.kr/shop_view/?idx=3",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\10회차\\브랜드-메타.json#/3/ads/0"
+        },
+        {
+          "id": "1360211426232570",
+          "days": 65,
+          "start_date": "2026-08-09",
+          "end_date": "2026-10-13",
+          "landing": "https://www.veltag.co.kr/shop_view?idx=3",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\10회차\\브랜드-메타.json#/3/ads/8"
+        }
+      ],
+      "evidence": [],
+      "remaining": [
+        "공식 상세 및 정확 상품 연결",
+        "운영사·공개 규모근거",
+        "제품별 상징 판정"
+      ]
+    },
+    {
+      "id": "X06",
+      "product_name": "해트케 아크넨 패드",
+      "product_key": "hattke.co.kr#18",
+      "official_url": "https://hattke.co.kr/product/detail.html?product_no=18&utm_source=fb&utm_medium=cbo&utm_campaign=fb_ac_cbo_002&utm_content=003&utm_term=003(260203)_260203_pa_지희수건_T",
+      "status": "U",
+      "reason": "부분저장: 구체 후보 선정. 상세 연결·운영사 및 범위 확인 전이며 유효제품 확정 아님.",
+      "symbol_role": "피부용 패드를 베개에 까는 방식",
+      "implementation": "베개 위 시트·통기/피부 접촉면 구성",
+      "operator": null,
+      "company_scope_basis": null,
+      "ad_evidence": [
+        {
+          "id": "1679375666632178",
+          "days": 135,
+          "start_date": "2026-05-29",
+          "end_date": "2026-10-11",
+          "landing": "https://hattke.co.kr/product/detail.html?product_no=18&utm_source=fb&utm_medium=cbo&utm_campaign=fb_ac_cbo_002&utm_content=003&utm_term=003(260203)_260203_pa_지희수건_T",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/950"
+        },
+        {
+          "id": "982784544237765",
+          "days": 135,
+          "start_date": "2026-05-29",
+          "end_date": "2026-10-11",
+          "landing": "https://hattke.co.kr/product/detail.html?product_no=18&utm_source=fb&utm_medium=cbo&utm_campaign=fb_ac_cbo_009&utm_content=001&utm_term=001(260203)_260203_pa_목린모낭염_T",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/951"
+        }
+      ],
+      "evidence": [],
+      "remaining": [
+        "공식 상세 및 정확 상품 연결",
+        "운영사·공개 규모근거",
+        "제품별 상징 판정"
+      ]
+    },
+    {
+      "id": "X07",
+      "product_name": "데일리원더 이중턱 운동기",
+      "product_key": "dailywondermall.co.kr#37",
+      "official_url": "https://dailywondermall.co.kr/product/detail.html?product_no=37&cate_no=1&display_group=2&cafe_mkt=ue_mv_fb_v028",
+      "status": "U",
+      "reason": "부분저장: 구체 후보 선정. 상세 연결·운영사 및 범위 확인 전이며 유효제품 확정 아님.",
+      "symbol_role": "턱 근육 운동 방식",
+      "implementation": "입에 물고 사용하는 구조",
+      "operator": null,
+      "company_scope_basis": null,
+      "ad_evidence": [
+        {
+          "id": "1172760470520691",
+          "days": 923,
+          "start_date": "2024-04-02",
+          "end_date": "2026-10-12",
+          "landing": "https://dailywondermall.co.kr/product/detail.html?product_no=37&cate_no=1&display_group=2&cafe_mkt=ue_mv_fb_v028",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/1313"
+        },
+        {
+          "id": "404487008863517",
+          "days": 923,
+          "start_date": "2024-04-02",
+          "end_date": "2026-10-12",
+          "landing": "https://dailywondermall.co.kr/product/detail.html?product_no=37&cate_no=1&display_group=2&cafe_mkt=ue_mv_fb_v005",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/1318"
+        },
+        {
+          "id": "791051829672159",
+          "days": 860,
+          "start_date": "2024-06-04",
+          "end_date": "2026-10-12",
+          "landing": "https://dailywondermall.co.kr/product/detail.html?product_no=37&cate_no=1&display_group=2&cafe_mkt=ue_mv_fb_v003",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json#/ads/1307"
+        }
+      ],
+      "evidence": [],
+      "remaining": [
+        "공식 상세 및 정확 상품 연결",
+        "운영사·공개 규모근거",
+        "제품별 상징 판정"
+      ]
+    },
+    {
+      "id": "X08",
+      "product_name": "퓨리븐 퍼플 가루 치약",
+      "product_key": "puriven.co.kr#33",
+      "official_url": "https://puriven.co.kr/product/detail.html?product_no=33",
+      "status": "U",
+      "reason": "부분저장: 구체 후보 선정. 상세 연결·운영사 및 범위 확인 전이며 유효제품 확정 아님.",
+      "symbol_role": "보색·톤업",
+      "implementation": "보라색 분말",
+      "operator": null,
+      "company_scope_basis": null,
+      "ad_evidence": [],
+      "evidence": [],
+      "remaining": [
+        "공식 상세 및 정확 상품 연결",
+        "운영사·공개 규모근거",
+        "제품별 상징 판정"
+      ]
+    }
+  ],
+  "summary": {
+    "stage": "최초8개 부분결과",
+    "P": 0,
+    "U": 8,
+    "F": 0,
+    "existing32_excluded": true,
+    "note": "기존 자료의 선정 상태를 복사해 확정하지 않음. 이후 확인 결과로 갱신.",
+    "id_namespace": "X01~X24. 기존 원장 N 식별자와 구분."
+  }
+}

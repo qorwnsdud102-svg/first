@@ -1,0 +1,512 @@
+{
+  "as_of": "2026-10-14T08:39:33.414502+09:00",
+  "products": [
+    {
+      "id": "L02",
+      "product_name": "아임힐 사마킬 율무 크림",
+      "product_key": "imheal.kr#185",
+      "official_url": "https://imheal.kr/shop_view/?idx=185",
+      "status": "P",
+      "reason": "기존 U→P. 정확 상품·공개 상세·시술 대안 상징·장기 광고는 이미 연결되어 있었다. 공식 개인 운영사 정보와 공개 기업정보를 대조하여 원래의 대형브랜드 제외 조건을 통과로 재판정했다. 동적 본문뿐인 310일 광고 대신 시술 대비 설명이 실제 남아 있는 118·109일 광고를 주 근거로 선택했다.",
+      "symbol_role": "냉동·레이저 시술은 비교 상징원, 면역 케어는 판매자가 제시하는 대체 논리, 율무 크림은 바르는 구현 수단이다.",
+      "implementation": "idx185의 사마킬 율무 크림을 매일 바르는 형태. 저장 광고가 냉동·레이저의 통증·반복 부담과 집에서 바르는 방식을 대비한다. 바이러스 제거·면역·무통증 등의 개별 효능은 판매자 주장으로만 기록한다.",
+      "operator": {
+        "name": "아임힐 / imheal",
+        "representative": "Wooyeong Ryu / 류우영",
+        "business_registration_number": "703-25-01926"
+      },
+      "company_scope_basis": "P(표본상 판단). 공식몰의 개인 운영사 식별정보에 공개 기업정보의 개인·중소기업 표기, 같은 대표·번호 앞자리가 대응한다. NICE 자료는 찾은 보조 근거이지 의무 게이트가 아니다. 공개 기업정보의 화성 주소와 현 몰의 김포 주소 차이는 보존한다. 계열 전수 실사나 법정 소기업 증명을 뜻하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "1613610700495756",
+          "days": 118,
+          "start_date": "2026-06-15",
+          "end_date": "2026-10-11",
+          "landing": "https://imheal.kr/shop_view/?idx=185",
+          "source_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/7회차/광고-재사용색인.json#/ads/82"
+        },
+        {
+          "id": "2046078855981720",
+          "days": 109,
+          "start_date": "2026-06-24",
+          "end_date": "2026-10-11",
+          "landing": "https://imheal.kr/shop_view/?idx=185",
+          "source_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/7회차/광고-재사용색인.json#/ads/88"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://imheal.kr/shop_view/?idx=185",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/sources/L02.html",
+          "observed": "공개 상세의 사마킬 상품명·idx185·운영사·대표·사업자번호를 확인했다."
+        },
+        {
+          "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=RU9375",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/공개보강-관측.json",
+          "observed": "L02-company: 개인·중소기업 공개 표기와 식별정보 대조. 직접 open 실패와 주소 차이도 기록했다."
+        },
+        {
+          "source_url": "https://www.facebook.com/ads/library/?id=2046078855981720",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/선별-광고.json",
+          "observed": "L02의 선택 광고 2개를 원래 색인 위치와 대조했다. 시술 대안 설명의 관찰이지 의학 사실 채택이 아니다."
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "L04",
+      "product_name": "프렉탈 에스테틱 링클 필로우",
+      "product_key": "fractalofficial.co.kr#34",
+      "official_url": "https://fractalofficial.co.kr/product/에스테틱-링클-필로우/34/category/42/display/1/",
+      "status": "P",
+      "reason": "기존 U→P. 132일 광고·정확 P34·공개 상세는 유지된다. 기존 미확인 이유였던 독립적인 최신 기업 실사를 필수조건에서 제거하고, 공식 운영사와 최근 채용처 프로필의 직원 4명·중소기업 표기를 원래 대형브랜드 제외 조건의 충분한 합리적 근거로 적용했다.",
+      "symbol_role": "시술명이 아니라 수면 중 반복 접힘이라는 원인 재정의와 피부가 구겨지지 않도록 받치는 베개 구조가 차별 방식이다. C커브·양쪽 날개는 구조 구현이며 외부 치료효과의 보증이 아니다.",
+      "implementation": "공식 상세 텍스트가 중앙 경추 받침, 귀 뒤를 지탱하는 양쪽 완만한 날개, 피부 접촉면 최소화, EPP 충전량 조절을 설명한다. 목주름 효능 자체는 검증하지 않았다.",
+      "operator": {
+        "name": "주식회사 프렉탈",
+        "representative": "윤예린 / Yelin Yun",
+        "business_registration_number": "137-86-55418"
+      },
+      "company_scope_basis": "P(표본상 판단). 공식몰 대표·도메인·위례서일로 34 601호가 2026-08-06 수정 알바몬 기업 프로필과 일치한다. 프로필은 직원 4명·중소기업을 표시한다. 채용처 제공 정보라는 한계를 남기며 별도 NICE나 법정 규모 확인을 요구하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "1283012900657812",
+          "days": 132,
+          "start_date": "2026-06-01",
+          "end_date": "2026-10-11",
+          "landing": "https://fractalofficial.co.kr/product/%EC%97%90%EC%8A%A4%ED%85%8C%ED%8B%B1-%EB%A7%81%ED%81%B4-%ED%95%84%EB%A1%9C%EC%9A%B0/34/category/42/display/1/",
+          "source_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/7회차/광고-재사용색인.json#/ads/794"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://fractalofficial.co.kr/product/에스테틱-링클-필로우/34/category/42/display/1/",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/sources/L04.txt",
+          "observed": "정확 상품명·사업자정보와 경추 받침·양쪽 날개·접촉면·충전량 설명을 직접 재확인했다."
+        },
+        {
+          "source_url": "https://www.albamon.com/jobs/detail-company/qT3Bi9fT5t4WRlXv-ze9FQ==",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/공개보강-관측.json",
+          "observed": "L04-company: 직원 4명·중소기업·동일 대표/공식 도메인/주소. 기존에 독립 자료가 아니라는 이유로 남긴 U를 재판정했다."
+        },
+        {
+          "source_url": "https://www.facebook.com/ads/library/?id=1283012900657812",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/선별-광고.json",
+          "observed": "132일 광고의 P34 연결은 확인했다. 동적 광고 본문으로 구조나 상징을 판독하지 않고 공식 상세를 썼다."
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "L06",
+      "product_name": "그루밍랩 비오티노이드 윤기루트 새치염색약 200mL",
+      "product_key": "groominglab.co.kr#259",
+      "official_url": "https://www.groominglab.co.kr/product/detail.html?product_no=259",
+      "status": "P",
+      "reason": "기존 U→P. 정확 사업자번호·대표가 같은 공개 중소기업 정보를 공식몰과 연결했다. 2024년 보고서보다 새 법정 증명을 가져오라는 추가 게이트를 두지 않는다. 103일 광고의 혼합·준비물 축소 방식과 정확 상품의 펌프병·브러시 원본 이미지를 대조했다.",
+      "symbol_role": "강한 외부 시술 상징보다 1·2제 준비와 염색볼을 줄이는 원펌프 사용 방식이 차별 역할을 한다. 비오티노이드 이름·윤기는 보조 설명이다.",
+      "implementation": "P259의 Glossy Root Hair Color 펌프병과 매직브러시를 원본 이미지에서 확인했다. 103일 광고는 한 번에 펌핑하고 필요한 만큼 다시 쓰는 방식을 설명한다. 용기 내부 구조·피부 안전성·실제 염색 성능을 독립 시험했다는 뜻은 아니다.",
+      "operator": {
+        "name": "주식회사 그루밍랩",
+        "representative": "김재영",
+        "business_registration_number": "466-87-00477"
+      },
+      "company_scope_basis": "P(표본상 판단). 공식몰 운영사·대표·번호와 bizno 공개 중소기업 표기가 정확히 대응한다. 공개 정보의 주소 시차와 2024년 제휴 보고서의 오래된 기준일은 남긴다. 원래 대형브랜드 제외 조건에 충분하며 최신 독립 실사나 NICE 보고서 구매는 요구하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "2030218967634318",
+          "days": 103,
+          "start_date": "2026-07-01",
+          "end_date": "2026-10-12",
+          "landing": "https://www.groominglab.co.kr/product/detail.html?product_no=259",
+          "source_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/7회차/광고-재사용색인.json#/ads/1138"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://www.groominglab.co.kr/product/detail.html?product_no=259",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/sources/L06.html",
+          "observed": "P259 상품과 주식회사 그루밍랩 운영사 표기."
+        },
+        {
+          "source_url": "https://www.groominglab.co.kr/web/upload/NNEditor/20240714/0618_EAB7B8EBA3A8EBB08DEB9EA9-EC97BCEC8389ECA09C-EC8381EC84B8ED8E98EC9DB4ECA780_06.png",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/images/L06-2.png",
+          "observed": "원본 view_image: 윤기루트 헤어컬러 펌프병 2색상·매직브러시·초간편 생활 염색 표시."
+        },
+        {
+          "source_url": "https://bizno.net/article/4668700477",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/공개보강-관측.json",
+          "observed": "L06-company 및 L06-official-company: 번호·대표 일치와 중소기업 보조 표기."
+        },
+        {
+          "source_url": "https://www.facebook.com/ads/library/?id=2030218967634318",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/선별-광고.json",
+          "observed": "103일 광고의 1·2제 혼합과 준비물 축소 문구. 36일 소재는 기간 근거에서 제외했다."
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "L10",
+      "product_name": "고유지 소나무소금 잇몸집중 치약 (과거 6배 / 현행 12배)",
+      "product_key": "koyuji.com#48",
+      "official_url": "https://koyuji.com/shop_view/?idx=48",
+      "status": "U",
+      "reason": "전체 U 유지, 기업규모 U는 해소. 원본 공지에서 용기 리뉴얼 시 내용물·용량·성분이 같다는 설명과 별도 원본의 6.5%·일반 소금치약 대비 12배 표기를 확인했다. 그러나 공지에 날짜 및 과거 6배 광고와의 직접 대응이 없어 과거·현재의 배합/비교 기준 중 무엇이 바뀌었는지는 풀리지 않았다. 과거 250일을 현행 12배 배합의 장기 광고라고 바꾸지 않는다.",
+      "symbol_role": "소나무로 굽는 소금·전통 염전은 원물/공정 상징, 청와대 납품은 판매자가 빌리는 보조 권위, 짠맛·알갱이는 원료를 느끼게 하는 장치다.",
+      "implementation": "현행 상세는 소금 6.5%와 알갱이가 느껴지는 치약을 제시한다. 용기 공지는 튜브 디자인 변경을 설명하지만 모든 역사적 배합이 같다는 증거는 아니다. 6배를 6%로 해석하지 않는다.",
+      "operator": {
+        "name": "주식회사 우이당",
+        "representative": "김갑인",
+        "business_registration_number": "134-86-81028"
+      },
+      "company_scope_basis": "P(표본상 판단). 고유지와 우이당 공식 소개의 대표·사업자번호·주소가 일치한다. 공개 기업 프로필은 중소기업 및 2025년 매출 약 7.7억원을 표시한다. 과거 직원수·매출의 기준일을 보존하며 법정 규모 실사로 확장하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "1401751151415713",
+          "days": 250,
+          "start_date": "2026-02-03",
+          "end_date": "2026-10-11",
+          "landing": "https://koyuji.com/shop_view/?idx=48",
+          "source_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/7회차/광고-재사용색인.json#/ads/701"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://koyuji.com/shop_view/?idx=48",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/sources/L10.html",
+          "observed": "현행 제목은 소나무소금 12배 함량 잇몸집중 치약이다."
+        },
+        {
+          "source_url": "https://cdn.imweb.me/upload/S20220328478690d775f16/cdc05b39be9a0.jpg",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/images/L10-top.jpg",
+          "observed": "원본 view_image: 용기 리뉴얼, 용량·성분·내용물 동일 안내. 날짜와 6배 광고의 연결은 없다."
+        },
+        {
+          "source_url": "https://cdn.imweb.me/upload/S20220328478690d775f16/3b2eaff7695b1.jpg",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/images/L10-ratio.jpg",
+          "observed": "원본 view_image: 소금 6.5%, 일반 소금치약의 12배 이상, 120g 옛 디자인 튜브."
+        },
+        {
+          "source_url": "https://www.jobkorea.co.kr/recruit/co_read/c/wueedang",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/공개보강-관측.json",
+          "observed": "L10-company: 기업규모 관련 보강. 제품 배합 동일성의 근거로 전용하지 않는다."
+        },
+        {
+          "source_url": "https://www.facebook.com/ads/library/?id=1401751151415713",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/선별-광고.json",
+          "observed": "250일 저장 광고 본문에는 소금 함유량 6배라고 남아 있다."
+        }
+      ],
+      "remaining": [
+        "6배 광고와 현재 12배·6.5% 상세의 비교 기준/배합 대응. 명시적인 제품 변경 이력 또는 당시 표시와의 직접 대조가 없으므로 현재 배합 기준 집계는 보류한다."
+      ]
+    },
+    {
+      "id": "L11",
+      "product_name": "산타시트 메디온애니",
+      "product_key": "brand.naver.com#6849913668",
+      "official_url": "https://brand.naver.com/santasitz/products/6849913668",
+      "status": "P",
+      "reason": "기존 U→P(원래 제품 단위 표본 규칙). 9회차 저장 광고 원자료에서 634일·정확 SKU 링크를 재확인했고, 기존 직접 상세 관찰 카드의 메디온애니와 제조사 공개 제품소개를 대응시켰다. 네이버 429는 재시도/우회하지 않았다. 광고가 전 기간 같은 6파장 상세를 유지했다는 증명은 하지 않지만 이를 별도 신규 게이트로 삼지도 않는다.",
+      "symbol_role": "전문 빛 관리/PBM·RLT는 판매자가 차용하는 상징·권위이고, 물 없는 좌욕은 사용 방식의 차별이다. 붉은 발광부·나비모양 좌판이 이를 물성으로 설명한다.",
+      "implementation": "제조사 공개 상세는 메디온 애니를 치항과 구별하여 휴대·가정용, 태블릿 크기의 나비모양 좌판, LED 온열 모드·마그넷·PC 소재를 설명한다. 기존 정확 SKU 관찰 카드는 STS-MDO001 및 전원을 연결해 앉는 사용을 기록한다. 표시 파장·질환 효과·기술 인증의 실질은 독립 검증하지 않았다.",
+      "operator": {
+        "name": "주식회사 힐링캠프",
+        "representative": "오미애",
+        "business_registration_number": "511-87-01868"
+      },
+      "company_scope_basis": "P(공개 합리 근거에 따른 표본 판단). 공식 운영사·연혁은 2020년 등록한 산타시트 계열 제조·유통 주체를 특정한다. 기존 2026-10-13 카드의 브랜드 검색 관측 330회와 공개 제품군·광고 내용상 전문기술/편의 중심 소구를 합쳐 대형브랜드·연예인 힘에 의존한 표본으로 보지 않았다. 법정 소기업 확인이나 '강소기업을 꿈꾸는' 문구의 증명력은 주장하지 않는다. 직원수·매출·계열 전수는 미확인이다.",
+      "ad_evidence": [
+        {
+          "id": "1166687735126566",
+          "days": 634,
+          "start_date": "2025-01-17",
+          "end_date": "2026-10-13",
+          "landing": "https://brand.naver.com/santasitz/products/6849913668",
+          "source_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/9회차/메타-새검색.json#/2/ads/1"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://brand.naver.com/santasitz/products/6849913668",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/9회차/해부-산타시트-메디온애니.md",
+          "observed": "기존 10/13 직접 공개 상세 관찰: 정확 SKU, 메디온애니 STS-MDO001, 구조·사용 방식, 브랜드 검색 330회. 이번 조사에서 네이버 본문을 새로 읽었다고 주장하지 않는다."
+        },
+        {
+          "source_url": "https://www.healingcamp.biz/medion",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/L11-manufacturer.html",
+          "observed": "신규 공개 GET 200. 메디온 애니를 치항 모델과 구별한 제품 설명·구조·물 없는 좌욕. 원본 사진은 403으로 확보하지 못해 새 사진 관찰로 세지 않는다."
+        },
+        {
+          "source_url": "https://www.healingcamp.biz/timeline",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/공개보강-관측.json",
+          "observed": "L11-official-history: 운영사 식별·2020년 등록·2022년 메디온애니 출시를 보조 근거로 연결."
+        },
+        {
+          "source_url": "https://www.facebook.com/ads/library/?id=1166687735126566",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/선별-광고.json",
+          "observed": "기존 원자료의 ID·634일·시작/끝 날짜·정확 SKU 링크를 직접 대조. 전 기간 동일 모델 구성이나 연속 유료집행까지 입증하지 않는다."
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "L16",
+      "product_name": "비피돌 구강스프레이 솔루션",
+      "product_key": "bifidol.co.kr#25",
+      "official_url": "https://bifidol.co.kr/product/detail.html?product_no=25",
+      "status": "U",
+      "reason": "U 유지. 기존 77일 카드의 실제 광고ID 연결을 찾기 위해 7회차 1,404개 색인 및 6~9회차 저장 JSON 9개를 검색했으나 관련 항목은 0건이었다. 카드가 참조하는 scratchpad/hit6/비피돌 원자료 폴더도 현 저장소에 없다. 본체의 현재 도메인 검색 0건을 과거 광고가 없었다는 결론으로 바꾸지 않았다.",
+      "symbol_role": "핀란드 건치 국가 이미지가 상징원, 핀란드산 자일리톨·국기 라벨은 원물/외형 근거, 잇몸에 직접 분사하는 용기는 전달 방식이다.",
+      "implementation": "정확 P25의 구강스프레이, 병의 핀란드 국기·제품표기는 기존 공식 원본 및 관찰을 재사용했다. 이번 보강은 광고ID 회수에 한정하며 전체 제품 해부를 반복하지 않았다.",
+      "operator": {
+        "name": "주식회사 네이머즈",
+        "representative": "김기종",
+        "business_registration_number": "703-81-03371"
+      },
+      "company_scope_basis": "P 유지. 기존 공식몰의 네이머즈·사업자번호와 공개 중소기업 정보가 연결되어 있다. 기업 조사 추가 없음. 남은 U의 이유는 규모가 아니라 저장 장기 광고의 원자료 연결이다.",
+      "ad_evidence": [
+        {
+          "id": null,
+          "days": 77,
+          "start_date": null,
+          "end_date": null,
+          "landing": "https://bifidol.co.kr/product/detail.html?product_no=25",
+          "source_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/6회차/해부-비피돌.md"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://bifidol.co.kr/product/detail.html?product_no=25",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/sources/L16.html",
+          "observed": "기존 정확 상품·공개 상세·운영사 증거 유지."
+        },
+        {
+          "source_url": "https://bifidol.co.kr/product/detail.html?product_no=25",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/6회차/해부-비피돌.md",
+          "observed": "6회차 카드의 광고 2개·최장 77일 요약은 보존한다. ID/시작일/관찰일이 없는 요약 자체를 충족 근거로 승격하지 않는다."
+        },
+        {
+          "source_url": null,
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/L16-색인점검.json",
+          "observed": "대상 저장 JSON 9개·1,404개 광고 색인의 관련어 검색 결과와 파일 해시, 참조 폴더 부재를 기록했다."
+        },
+        {
+          "source_url": null,
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/본체-보강/광고연결-보강.json",
+          "observed": "본체의 10/14 도메인 조회 0건 결과 재사용. 이번 작업의 Meta 신규 조회는 없다."
+        }
+      ],
+      "remaining": [
+        "과거 77일 카드에 대응하는 실제 광고ID·시작일·관찰일·정확 P25 랜딩 원자료."
+      ]
+    },
+    {
+      "id": "L18",
+      "product_name": "템포러리 옴므 페로몬 오드 퍼퓸 50mL",
+      "product_key": "temporary-scent.kr#146",
+      "official_url": "https://temporary-scent.kr/product/detail.html?product_no=146",
+      "status": "P",
+      "reason": "기존 U→P. 본체가 이미 저장한 P146의 70일 광고를 사용하고 재조회하지 않았다. 정확 상세 원본 이미지를 추가 판독하여 페로몬 명명과 머스크·바닐라 향조의 연결을 확인했다. 생물학적 페로몬 원료나 이성 유인 효능을 입증해야 한다는 추가 게이트 없이, 상징과 향기 분위기의 역할로 판정했다.",
+      "symbol_role": "페로몬은 이성에게 끌리는 체취를 떠올리게 하는 명명·애정 상징이다. 머스크/바닐라는 판매자가 그 분위기를 설명하는 향조이며 청록 액체·분사병은 외형과 사용 형태다.",
+      "implementation": "50mL 옴므 페로몬 오드퍼퓸, 레몬/스파이시·아로마·머스크/바닐라 향 설명, 분사 사용, 책임판매업자·전성분을 원본에서 확인했다. 실제 페로몬 성분·함량은 확인되지 않았다. 제품명 상징 구현과 생물학적 작동 여부를 분리한다. 1+1은 같은 제품의 프로모션으로 1표본만 센다.",
+      "operator": {
+        "name": "주식회사 더블유비스킨",
+        "representative": "고승환",
+        "business_registration_number": "807-88-00414"
+      },
+      "company_scope_basis": "P 유지. 기존 공식몰 식별정보와 동일 대표·번호의 공개 중소기업 자료를 재사용했다. 현재 대표를 과거 인물로 덮어쓰지 않으며, 이번 확인한 상세는 상품명·향조를 중심으로 설득한다. 회사 규모를 추가 심화하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "1735806597731673",
+          "days": 70,
+          "start_date": "2026-08-04",
+          "end_date": "2026-10-13",
+          "landing": "https://temporary-scent.kr/product/detail.html?product_no=146&utm_source=instagram&utm_medium=video&utm_content=s197957",
+          "source_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/본체-보강/광고연결-보강.json#candidate_id=L18"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://temporary-scent.kr/product/detail.html?product_no=146",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/sources/L18.html",
+          "observed": "기존 정확 P146 상세에서 원본 이미지 URL과 운영사 연결을 재사용했다."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg351b58332543078/wbskintemper/web/upload/NNEditor/20240710/03.jpg",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/images/L18-03.jpg",
+          "observed": "원본 view_image: HOMME PHEROMONE / EAU DE PARFUM, 청록 액체 분사병, 50mL."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg351b58332543078/wbskintemper/web/upload/NNEditor/20240710/05.jpg",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/images/L18-05.jpg",
+          "observed": "원본 view_image: 레몬·스파이시, 아로마, 머스크·바닐라 향조 설명."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg351b58332543078/wbskintemper/web/upload/NNEditor/20240710/11.jpg",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/images/L18-11.jpg",
+          "observed": "원본 view_image: 정확 제품명·50mL·더블유비스킨·전성분. 페로몬 성분/함량은 확인되지 않았다."
+        },
+        {
+          "source_url": "https://www.facebook.com/ads/library/?id=1735806597731673",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/선별-광고.json",
+          "observed": "본체 저장 70일 광고의 P146 직접 랜딩. 동적 본문으로 상징을 추정하지 않고 공식 이미지를 사용했다."
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "L19",
+      "product_name": "어네이즈 프로페셔널 루트 앤 스칼프 샴푸 500mL (14377 택1 중 샴푸)",
+      "product_key": "hemekolab.com#14377",
+      "official_url": "https://www.hemekolab.com/store/products/14377",
+      "status": "U",
+      "reason": "전체 U 유지, 광고 대상의 모호함은 축소. 저장된 82일 광고가 500mL 샴푸를 직접 말하고 P14377로 연결되어 샴푸 단위로 좁힐 수 있다. 원본 상세는 전문가 샴푸법·세정 구조·이지 클리닝 포뮬러를 제시하나, 기우쌤 권위와 흔한 세정/볼륨 주장에 더해 표본에 넣을 만큼 강한 독립 차별 방식이 드러나는지는 아직 불명확하다. 연예인 제품이라고 단정해 F로 만들지는 않는다.",
+      "symbol_role": "청담/살롱 전문가의 샴푸는 비교 상징 후보, 기우쌤은 개발자 권위, 세정 구조·잔여감 설명은 원인 재정의 후보다. 같은 기능 주장과 강한 상징·차별 방식의 경계가 남는다.",
+      "implementation": "원본 상세의 갈색 500mL 펌프병, 프로페셔널 루트 앤 스칼프 샴푸명, 일반적인 거품 세정 장면을 확인했다. 세정 구조를 이지 클리닝 포뮬러로 풀었다는 판매 설명은 있으나 구체적으로 구별되는 제품 구조/사용법은 이 근거에서 선명하지 않다.",
+      "operator": {
+        "name": "주식회사 헤메코",
+        "representative": "이성규",
+        "business_registration_number": "666-87-02551"
+      },
+      "company_scope_basis": "P 유지. 기존 공식몰 번호·대표·주소와 공개 중소기업 자료를 재사용한다. 이성규/헤메코의 규모와 기우쌤 권위의 기여는 별개다. 개발자를 연예인으로 임의 분류하거나 광고비 규모를 추정하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "922795394176579",
+          "days": 82,
+          "start_date": "2026-07-21",
+          "end_date": "2026-10-11",
+          "landing": "https://www.hemekolab.com/store/products/14377?hmkcid=meta_reels__bid_3__pid_14377&dp2=true&utm_source=meta&utm_medium=reels&utm_campaign=pb_anaze&utm_content=1_1_non_volume_shoppinglive_7&utm_term=KR_volume_2607&np=true&boost=urgency_v1",
+          "source_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/히트해부/7회차/광고-재사용색인.json#/ads/235"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://www.hemekolab.com/store/products/14377",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/sources/L19-nextdata.json",
+          "observed": "공개 페이지 저장 데이터의 상품14377·택1 제목, 루트 앤 스칼프 샴푸 옵션 관측, 추가 옵션군을 확인했다. 랜딩 전체를 고정 세트라고 바꾸지 않는다."
+        },
+        {
+          "source_url": "https://d1cnx04b8cgzcv.cloudfront.net/media/products/details/260430_%ED%94%84%EB%A1%9C%ED%8E%98%EC%85%94%EB%84%90%EB%A3%A8%ED%8A%B8%EC%95%A4%EC%8A%A4%EC%B9%BC%ED%94%84%EC%83%B4%ED%91%B8_01_6ab9a272be7f45fea8e4117e4c62c900.jpg",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/images/L19-1.jpg",
+          "observed": "원본 view_image: 정확 샴푸명·500mL, 살롱 케어/전문가 샴푸법 및 이지 클리닝 포뮬러 설명."
+        },
+        {
+          "source_url": "https://www.facebook.com/ads/library/?id=922795394176579",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/선별-광고.json",
+          "observed": "82일 본문은 500mL 샴푸를 특정한다. 135일 샴푸&트리트먼트 광고와 12970 멜로우 크림의170일을 같은 상품 증거로 합치지 않는다."
+        }
+      ],
+      "remaining": [
+        "샴푸 단위에서 전문가 유명세·일반적인 세정/볼륨 효능과 구별되는 강한 상징 또는 구체적 차별 방식의 추가 근거. 다른 제품·트리트먼트의 기획을 전용하지 않는다."
+      ]
+    },
+    {
+      "id": "L20",
+      "product_name": "아로셀 첫구매 43g 겔 마스크 4종 체험세트",
+      "product_key": "arocell.co.kr#608",
+      "official_url": "https://www.arocell.co.kr/product/detail.html?product_no=608&cafe_mkt=facebook",
+      "status": "P",
+      "reason": "기존 U→P. 본체 저장 자료를 다시 읽어 단일 멜라팩 67일 광고 외에 4종 세트를 직접 명시한 61일 광고 2개를 확인했다. 광고의 네 구성품·9,900원과 공식 원본의 네 구성품·43g 겔 마스크 4종 구성이 대응한다. 세트의 광고에 다리미·콜라겐 망·비타민 캡슐 상징이 명시되어 귀속 문제를 해소했다. 세트 1개만 센다.",
+      "symbol_role": "프라임톡스의 꼬리톡스 다리미는 주름을 펴는 비유, 콜라겐 망은 받쳐 주는 구조 비유, 비타민 4천개를 굳힌 팩은 농축된 원료의 수량/제형 상징이다. 반중력이라는 브랜드 공통 표현을 모든 구성품의 입증된 고유기전으로 돌리지 않는다.",
+      "implementation": "공식 원본은 슈퍼콜라겐2.0·보툴프라임톡스·멜라TXA·보툴PDRN을 각1매로 명시하고 43g 겔 마스크 세트로 보여 준다. 61일 세트 광고가 각 구성품에 상징/방식을 직접 연결한다. 정확 배합량·원료 작동·효능을 새로 검증한 것은 아니며 네 개의 독립 표본으로 분리하지 않는다.",
+      "operator": {
+        "name": "주식회사 에프아이씨씨",
+        "representative": "박의훈",
+        "business_registration_number": "341-86-01369"
+      },
+      "company_scope_basis": "P 유지. 기존 공식몰 운영사 식별정보와 공개 중소기업 자료가 연결되어 있다. 이번 조사에서 기업 게이트를 추가하지 않았다. 개발 원료 공급사의 이름을 판매 운영사의 규모와 혼동하지 않는다.",
+      "ad_evidence": [
+        {
+          "id": "1553433233148662",
+          "days": 61,
+          "start_date": "2026-08-13",
+          "end_date": "2026-10-13",
+          "landing": "https://www.arocell.co.kr/product/detail.html?product_no=608&cafe_mkt=facebook",
+          "source_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/본체-보강/광고연결-보강.json#candidate_id=L20/id=1553433233148662"
+        },
+        {
+          "id": "2316216285580555",
+          "days": 61,
+          "start_date": "2026-08-13",
+          "end_date": "2026-10-13",
+          "landing": "https://www.arocell.co.kr/product/detail.html?product_no=608&cafe_mkt=facebook",
+          "source_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/본체-보강/광고연결-보강.json#candidate_id=L20/id=2316216285580555"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://www.arocell.co.kr/product/detail.html?product_no=608&cafe_mkt=facebook",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/sources/L20.html",
+          "observed": "정확 P608 체험세트·운영사 정보."
+        },
+        {
+          "source_url": "https://www.arocell.co.kr/web/upload/NNEditor/20260917/welcome_event_042028229.jpg",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/images/L20-1.jpg",
+          "observed": "원본 view_image: 43g 겔 마스크 4종 SET, 각1매 구성, 실제 네 패키지, 첫구매 9,900원."
+        },
+        {
+          "source_url": "https://www.facebook.com/ads/library/?id=1553433233148662",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/선별-광고.json",
+          "observed": "61일 본문에 4종 체험세트와 콜라겐 망·보툴PDRN·멜라팩·꼬리톡스 다리미가 함께 명시된다. 동일 P608 랜딩."
+        },
+        {
+          "source_url": "https://www.facebook.com/ads/library/?id=2316216285580555",
+          "local_path": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/확장-1014/기존L/sources/선별-광고.json",
+          "observed": "같은 날짜 범위의 두 번째 4종 세트 광고. 동일 세트의 추가 근거이지 별도 표본이 아니다."
+        }
+      ],
+      "remaining": []
+    }
+  ],
+  "summary": {
+    "status": "완료",
+    "assigned_count": 9,
+    "counts": {
+      "P": 6,
+      "U": 3,
+      "F": 0
+    },
+    "P_ids": [
+      "L02",
+      "L04",
+      "L06",
+      "L11",
+      "L18",
+      "L20"
+    ],
+    "U_ids": [
+      "L10",
+      "L16",
+      "L19"
+    ],
+    "F_ids": [],
+    "baseline_confirmed": 12,
+    "baseline_source": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/작업/역검증/보강-1014/본체-보강/후속집계.json",
+    "additional_eligible": 6,
+    "baseline_plus_this_batch": 18,
+    "target": 30,
+    "remaining_from_baseline_plus_this_batch": 12,
+    "aggregation_note": "본체 기준12에 이번 6개만 더한 합산안이다. 다른 조사자의 새 후보/AP 추가와 N01 후속판정은 포함하지 않았고 본체 집계 파일은 수정하지 않았다. L15/L17은 대상 밖이며 중복 합산하지 않는다.",
+    "criteria_applied": "60일 이상 저장 광고의 ID·날짜·정확 상품, 공개 상세, 흔한 효능 직설과 구별되는 강한 상징/차별 방식, 대기업·대형브랜드·연예인/광고비 힘 의존 제품 제외. 회사 판단은 공식 운영사와 공개 합리 근거에 따르며 NICE/법정 증명/최신 전수실사를 필수로 두지 않는다.",
+    "classification_note": "P는 역검증 표본 적격이라는 조사 판단이다. 광고 기간은 실제 수익·연속 유료집행·효능의 증거가 아니며 공식 판매자의 기전 주장은 의학적 사실로 승격하지 않았다. L11의 규모는 공개 운영 맥락에 따른 정성적 판단이고 법정 규모 분류가 아니다.",
+    "new_meta_queries": 0,
+    "rule_scoring_performed": false,
+    "canonical_or_raw_modified": false,
+    "company_research_closed": true,
+    "changed_judgments": [
+      "L02/L04/L06: 기업규모만의 U를 원래 제외 조건으로 재판정하여 P.",
+      "L11: 정확 SKU 저장 광고와 기존 직접 관찰·제조사 공개 상세를 연결. 전 기간 동일 6파장 구성 증명을 별도 게이트로 두지 않고 P.",
+      "L18: 페로몬을 명명/향기 분위기 상징으로 분리하고 원본 이미지로 보강하여 P.",
+      "L20: 4종 세트를 직접 명시한61일 광고2개를 선택해 귀속 불명확을 해소, 세트1개로 P."
+    ],
+    "unchanged_limits": [
+      "L10: 기업규모는 해소했지만 6배/12배 고시의 비교 기준·배합 대응은 U.",
+      "L16:77일 요약의 실제 광고ID·날짜 미회수.",
+      "L19:샴푸 단위는82일 광고로 좁혔지만 강한 독립 상징/차별 방식은 U."
+    ],
+    "verification_file": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\기존L\\검증결과.json",
+    "verification_checks_passed": 66
+  }
+}

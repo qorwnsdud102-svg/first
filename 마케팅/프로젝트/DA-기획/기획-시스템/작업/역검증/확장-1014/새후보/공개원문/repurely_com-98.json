@@ -1,0 +1,27 @@
+{
+  "key": "repurely.com#98",
+  "requested_url": "https://repurely.com/product/detail.html?product_no=98",
+  "final_url": "https://repurely.com/product/detail.html?product_no=98",
+  "status_code": 200,
+  "title": "Re:purely | 올레놀샷 NMN 포뮬러",
+  "retrieved_at": "2026-10-14T08:41:08.095454+09:00",
+  "html_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\repurely_com-98.html",
+  "text_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\repurely_com-98.txt",
+  "sha256": "d8b3848a2b4241e5b5ccffc0000a5956be1cf221737f441f2f256630f870fa13",
+  "detail_images": [
+    "https://repurely.com/web/upload/NNEditor/20251127/12028629.jpg",
+    "https://repurely.com/web/upload/NNEditor/20251114/220281729.jpg",
+    "https://repurely.com/web/upload/NNEditor/20251113/32028629.jpg",
+    "https://repurely.com/web/upload/NNEditor/20251113/42028629.jpg",
+    "https://repurely.com/web/upload/NNEditor/20251114/52028129.webp",
+    "https://repurely.com/web/upload/NNEditor/20251114/620281129.jpg",
+    "https://repurely.com/web/upload/NNEditor/20251114/720ED8C8CECBBA8EC9AA92028529.jpg",
+    "https://repurely.com/web/upload/NNEditor/20251113/82028129.jpg",
+    "https://repurely.com/web/upload/NNEditor/20251113/ED8FACEC9DB8ED8AB8120ED8C8CECBBA8EC9AA9.jpg",
+    "https://repurely.com/web/upload/NNEditor/20251127/ED8FACEC9DB8ED8AB82.jpg",
+    "https://repurely.com/web/upload/NNEditor/20251114/ED8FACEC9DB8ED8AB8320ED8C8CECBBA8EC9AA9.webp",
+    "https://repurely.com/web/upload/NNEditor/20251113/EC82ACEC9AA9EBB0A9EBB295.jpg",
+    "https://repurely.com/web/upload/NNEditor/20260122/copy-1769064593-ECA09CED928820EC8381EC84B8ECA095EBB3B42028129.jpg",
+    "https://repurely.com/web/upload/NNEditor/20260413/copy-1776073659-ED9998EBB688EAB79CECA09520EBAFBCEC9B9020EC8898ECA0952028429.jpg"
+  ]
+}

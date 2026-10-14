@@ -1,0 +1,38 @@
+{
+  "as_of": "2026-10-14",
+  "items": [
+    {
+      "id": "X13",
+      "product_key": "virenne.co.kr#20",
+      "status": "U",
+      "reason": "원광고75/69/68일·정확 P20·현재 상세는 확보. 공식 운영사 LSSC와 회사 채용 소개의140명·80여브랜드/매출1200억 자기서술이 있어 소기업·광고비 힘 조건을 이번에 확정하지 않음.",
+      "source_url": "https://groupby.kr/startups/1857",
+      "evidence_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\virenne_co_kr-20.html"
+    },
+    {
+      "id": "X16",
+      "product_key": "parodex.kr#13",
+      "status": "U",
+      "reason": "원광고90/77일·정확P13·현재2.0은 확보. 더스크그룹 공식 소개의2025매출1045억·다브랜드 규모 때문에 최초1등급이라는 이유만으로 원표본P에 합산하지 않음. 과거 BCP와현재RCM/2.0 변화도 별도 구분 필요.",
+      "source_url": "https://www.duskgroup.co.kr/",
+      "evidence_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\company-dusk.html"
+    },
+    {
+      "id": "X17",
+      "product_key": "hanuibichaek.com#12",
+      "status": "U",
+      "reason": "관절뜸 실제품의 원광고4533361816923891은2026-09-03~10-11의38일. 같은 브랜드 비연P62의61일 광고를 관절뜸에 전용하지 않음.",
+      "source_url": "https://hanuibichaek.com/surl/P/12",
+      "evidence_path": "C:/claude/네이버 급상승 키워드 기반 경쟁사 발굴/scripts/히트해부4_메타광고소재/hanuibichaek/_ads.json#/ads/8"
+    },
+    {
+      "id": "X19",
+      "product_key": "repurely.com#98",
+      "status": "U",
+      "reason": "현재 올레놀샷NMN포뮬러/운영사 시리즈빌더 확인. 별도 옛 구조의 ad_links에서 P100 광고 ID1528179205310583·823058183812979·1238963801422601을 발견했으나 ad_texts에는 시작일만 있고 저장 종료일/정확P100→현재P98 실제품 대조가 미완료. 카드의151일 서술만으로P 승격하지 않음.",
+      "source_url": "https://repurely.com/product/detail.html?product_no=98",
+      "evidence_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\새후보\\공개원문\\repurely_com-98.html"
+    }
+  ],
+  "note": "결과.json의 P10개 외 추가 미채택 탐색 메모. 정식 products/집계로 합산 금지. 추가 조사 없이 종료."
+}

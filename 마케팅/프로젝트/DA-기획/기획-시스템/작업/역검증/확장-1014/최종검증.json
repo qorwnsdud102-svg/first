@@ -1,0 +1,220 @@
+{
+  "as_of": "2026-10-14T09:08:13.571358+09:00",
+  "status": "pass",
+  "eligible": 30,
+  "candidate_pool_status": {
+    "P": 30,
+    "U": 12,
+    "F": 3
+  },
+  "products": 60,
+  "cells": 5340,
+  "grade1_count": 40,
+  "grade1_mapping": [
+    {
+      "id": "G01",
+      "source_name": "비렌느 (virenne.co.kr)",
+      "matrix_name": "비렌느 (virenne.co.kr)"
+    },
+    {
+      "id": "G02",
+      "source_name": "디크솔 큐라스팟 (diqsol.com)",
+      "matrix_name": "디크솔 큐라스팟 (diqsol.com)"
+    },
+    {
+      "id": "G03",
+      "source_name": "유쎄라블 리프팅샷 900 (melable.co.kr)",
+      "matrix_name": "유쎄라블 리프팅샷 900 (melable.co.kr)"
+    },
+    {
+      "id": "G04",
+      "source_name": "써모드 PLX 900샷 (thermode.kr, 자사)",
+      "matrix_name": "써모드 PLX 900샷 (thermode.kr, 자사)"
+    },
+    {
+      "id": "G05",
+      "source_name": "토르홉 사우난지앙 (torhop.com)",
+      "matrix_name": "토르홉 사우난지앙 (torhop.com)"
+    },
+    {
+      "id": "G06",
+      "source_name": "imheal 사마킬 (imheal.kr)",
+      "matrix_name": "imheal 사마킬 (imheal.kr)"
+    },
+    {
+      "id": "G07",
+      "source_name": "바이브랩 스피옥실 400 (vivelab.kr)",
+      "matrix_name": "바이브랩 스피옥실 400 (vivelab.kr)"
+    },
+    {
+      "id": "G08",
+      "source_name": "씨스터앤 S-EGF 부스트샷 (sister-ann.com)",
+      "matrix_name": "씨스터앤 S-EGF 부스트샷 (sister-ann.com)"
+    },
+    {
+      "id": "G09",
+      "source_name": "지엘○○ GLP-1 유산균",
+      "matrix_name": "지엘○○ GLP-1 유산균"
+    },
+    {
+      "id": "G10",
+      "source_name": "바르는 올레놀샷 (repurely.com)",
+      "matrix_name": "바르는 올레놀샷 (repurely.com)"
+    },
+    {
+      "id": "G11",
+      "source_name": "한의비책 관절 뜸패치 (hanuibichaek.com)",
+      "matrix_name": "한의비책 관절 뜸패치 (hanuibichaek.com)"
+    },
+    {
+      "id": "G12",
+      "source_name": "파라코펜 (paracopen.com)",
+      "matrix_name": "파라코펜 (paracopen.com)"
+    },
+    {
+      "id": "G13",
+      "source_name": "히토 온천크림 (사장님 제품)",
+      "matrix_name": "히토 온천크림 (사장님 제품)"
+    },
+    {
+      "id": "G14",
+      "source_name": "쏘모카 (사장님 기획, 속모증)",
+      "matrix_name": "쏘모카 (사장님 기획, 속모증)"
+    },
+    {
+      "id": "G15",
+      "source_name": "이옴 트러블 패치 마스크",
+      "matrix_name": "이옴 트러블 패치 마스크"
+    },
+    {
+      "id": "G16",
+      "source_name": "포뮬라인 13호 피부탈색캔디",
+      "matrix_name": "포뮬라인 13호 피부탈색캔디"
+    },
+    {
+      "id": "G17",
+      "source_name": "메디온 MDC 이노시톨",
+      "matrix_name": "메디온 MDC 이노시톨"
+    },
+    {
+      "id": "G18",
+      "source_name": "프렉탈 에스테틱 링클 필로우",
+      "matrix_name": "프렉탈 에스테틱 링클 필로우"
+    },
+    {
+      "id": "G19",
+      "source_name": "넥필 (mediness.co.kr)",
+      "matrix_name": "넥필 (mediness.co.kr)"
+    },
+    {
+      "id": "G20",
+      "source_name": "파로덱스 잇몸 앰플치약 2.0 (parodex.kr)",
+      "matrix_name": "파로덱스 잇몸 앰플치약 2.0 (parodex.kr)"
+    },
+    {
+      "id": "G21",
+      "source_name": "바로랩 텐스온 (baro-lab.com)",
+      "matrix_name": "바로랩 텐스온 (baro-lab.com)"
+    },
+    {
+      "id": "G22",
+      "source_name": "오호라 시럽 네일강화제 (ohora.kr)",
+      "matrix_name": "오호라 시럽 네일강화제 (ohora.kr)"
+    },
+    {
+      "id": "G23",
+      "source_name": "트라센 케라소프트 손발톱 앰플 (trasen.co.kr)",
+      "matrix_name": "트라센 케라소프트 손발톱 앰플 (trasen.co.kr)"
+    },
+    {
+      "id": "G24",
+      "source_name": "리노베라 프랑스 피톤치드 (renovera.co.kr)",
+      "matrix_name": "리노베라 프랑스 피톤치드 (renovera.co.kr)"
+    },
+    {
+      "id": "G25",
+      "source_name": "그루밍랩 비오티노이드 새치염색약 (groominglab.co.kr)",
+      "matrix_name": "그루밍랩 비오티노이드 새치염색약 (groominglab.co.kr)"
+    },
+    {
+      "id": "G26",
+      "source_name": "아비튜드 레이저베이스 (habitude.co.kr)",
+      "matrix_name": "아비튜드 레이저베이스 (habitude.co.kr)"
+    },
+    {
+      "id": "G27",
+      "source_name": "하엔 좀퓨어 딥트릭스 홈레이저 (haenstore.com)",
+      "matrix_name": "하엔 좀퓨어 딥트릭스 홈레이저 (haenstore.com)"
+    },
+    {
+      "id": "G28",
+      "source_name": "뉴로덴트 구강세정기 (neurodent.co.kr)",
+      "matrix_name": "뉴로덴트 구강세정기 (neurodent.co.kr)"
+    },
+    {
+      "id": "G29",
+      "source_name": "유어벳 펫 덴탈 스프레이 (yourvet.kr)",
+      "matrix_name": "유어벳 펫 덴탈 스프레이 (yourvet.kr)"
+    },
+    {
+      "id": "G30",
+      "source_name": "슬리피솔플러스 (sleepisol.com)",
+      "matrix_name": "슬리피솔플러스 (sleepisol.com)"
+    },
+    {
+      "id": "G31",
+      "source_name": "포렌 오리지널 에코플루피 경추베개 (poren29.com)",
+      "matrix_name": "포렌 오리지널 에코플루피 경추베개 (poren29.com)"
+    },
+    {
+      "id": "G32",
+      "source_name": "고유지 소나무소금 잇몸집중치약 (koyuji.com)",
+      "matrix_name": "고유지 소나무소금 잇몸집중치약 (koyuji.com)"
+    },
+    {
+      "id": "G33",
+      "source_name": "뉴티365 뉴티락 (newt365.kr)",
+      "matrix_name": "뉴티365 뉴티락 (newt365.kr)"
+    },
+    {
+      "id": "G34",
+      "source_name": "메라블 유쎄라블 실프팅 4D 크림 (melable.co.kr)",
+      "matrix_name": "메라블 유쎄라블 실프팅 4D 크림 (melable.co.kr)"
+    },
+    {
+      "id": "G35",
+      "source_name": "케라솔 모발솔루션 탈모 케어 부스팅 젤 (kerasol.co.kr)",
+      "matrix_name": "케라솔 모발솔루션 탈모 케어 부스팅 젤 (kerasol.co.kr)"
+    },
+    {
+      "id": "G36",
+      "source_name": "아이럭스뷰 EMS 웜케어 시스템 (iluxview.com)",
+      "matrix_name": "아이럭스뷰 EMS 웜케어 시스템 (iluxview.com)"
+    },
+    {
+      "id": "G37",
+      "source_name": "비오티아에스 리볼좀 탈모완화 탄산 토닉 (roosolb.com)",
+      "matrix_name": "비오티아에스 리볼좀 탈모완화 탄산 토닉 (roosolb.com)"
+    },
+    {
+      "id": "G38",
+      "source_name": "산타시트 메디온애니 (brand.naver.com/santasitz)",
+      "matrix_name": "산타시트 메디온애니 (brand.naver.com/santasitz)"
+    },
+    {
+      "id": "G39",
+      "source_name": "웰247 페이스튠핏 (well247.co.kr)",
+      "matrix_name": "웰247 페이스튠핏"
+    },
+    {
+      "id": "G40",
+      "source_name": "벨택 페니톡스 프리미엄 맨즈 크림 (veltag.co.kr)",
+      "matrix_name": "벨택 페니톡스 프리미엄 맨즈 크림"
+    }
+  ],
+  "evidence_file_count": 104,
+  "canonical_unchanged": true,
+  "canonical_sha256": "ba08fee8e3032cb248b8cd07da6b3d70f005677e385dc2f0fc3a3ea4a1c92a59",
+  "issues": [],
+  "limits": "파일 존재·89칸 완비·원장 집계·표본 중복·1등급40개 대응·정본 불변 검사. 모든 원자료의 진실성·모든 영상 전체 시청·시장 수익을 새로 입증하는 검사가 아니다. 광고 ID/날짜 검사는 광고-근거검증.json의 저장 관찰을 재사용."
+}

@@ -1,0 +1,853 @@
+{
+  "as_of": "2026-10-14T08:36:36.794429+09:00",
+  "products": [
+    {
+      "id": "AP01",
+      "product_name": "어네이즈 멜로우 크림",
+      "product_key": "hemekolab.com#12970",
+      "official_url": "https://www.hemekolab.com/store/products/12970?hmkcid=meta_partnership__bid_3__pid_12970&dp2=true&utm_source=meta&utm_medium=partnership&utm_campaign=pb_anaze&utm_content=1_1_non_mellow_kiu_2&utm_term=2604_mellow&np=true&boost=urgency_v1",
+      "status": "U",
+      "reason": "보류 유지. 170일 광고와 12970 상품은 일치한다. 이번에 원본 상세의 워터 젤 크림, 모발 도포법, 수분·지질 설명까지 확인했으나, 확보 범위에서는 헤어 보습 에센스의 효능·사용감 설명을 넘어서는 강한 상징 또는 차별 방식을 확정하기 어렵다. 의학적 효능이나 별도 실험이 없어서 보류한 것은 아니다.",
+      "symbol_role": {
+        "status": "U",
+        "name": "모발용 수분크림",
+        "role": "수분크림은 제형·사용감 비유이며, 로열젤리·올리브·코코넛은 원료/보조 설명이다. 독립적인 강한 상징원으로 자동 승격하지 않는다."
+      },
+      "implementation": {
+        "status": "P",
+        "observed": "원본 AP01-3에 워터 젤 네트워크·흰 크림 사진·타월드라이한 모발에 도포하는 사용법이 있다. 실제 작동을 실험한 결과가 아닌 공식 상세의 물성·사용 동작 관찰이다.",
+        "qualification_limit": "제형 존재는 확인했지만, 그 자체가 이번 표본의 강한 차별 방식인지까지는 미확정이다."
+      },
+      "operator": {
+        "name": "헤메코",
+        "business_registration_number": "666-87-02551",
+        "representative": "이성규",
+        "identity_status": "P",
+        "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP01.html"
+      },
+      "company_scope_basis": {
+        "status": "P",
+        "basis": "공식몰 헤메코의 사업자 666-87-02551·이성규와 기존 공개 기업자료가 연결된다. 기존 규모 근거를 보조적으로 재사용하며 NICE 재조회나 법정 소기업 증명서를 추가 관문으로 요구하지 않는다.",
+        "standard": "원래 대기업·대형브랜드 및 연예인·광고비 힘 의존 제외. 법정 NICE 증명·신규 연구·시술기전 당위를 공통 필수조건으로 추가하지 않는다."
+      },
+      "ad_evidence": [
+        {
+          "id": "2576385466110390",
+          "days": 170,
+          "start_date": "2026-04-24",
+          "end_date": "2026-10-11",
+          "landing": "https://www.hemekolab.com/store/products/12970?hmkcid=meta_partnership__bid_3__pid_12970&dp2=true&utm_source=meta&utm_medium=partnership&utm_campaign=pb_anaze&utm_content=1_1_non_mellow_kiu_2&utm_term=2604_mellow&np=true&boost=urgency_v1",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+          "source_pointer": "/ads/134",
+          "verification_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\광고-대조.json"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://www.hemekolab.com/store/products/12970?hmkcid=meta_partnership__bid_3__pid_12970&dp2=true&utm_source=meta&utm_medium=partnership&utm_campaign=pb_anaze&utm_content=1_1_non_mellow_kiu_2&utm_term=2604_mellow&np=true&boost=urgency_v1",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP01.html",
+          "observed": "기존 저장 공개 상세를 재사용. 상품키 hemekolab.com#12970、공개 상품명·운영사 식별 확인."
+        },
+        {
+          "source_url": "https://d1cnx04b8cgzcv.cloudfront.net/media/products/details/9861803b-63ee-41a8-9a34-c743143d802d_1790916571464.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\images\\AP01-3.jpg",
+          "observed": "워터 젤 기반의 흰 크림, 모발의 수분·지질 설명, 젖은 모발에 도포하는 방법을 직접 관찰."
+        },
+        {
+          "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=OW3897",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\적격성.json",
+          "observed": "기존 수집 자료 재사용: 공식몰 번호 앞자리·대표·압구정로 주소 일치 / 공개 분류 중소기업. 이번에 다시 조회한 자료가 아니며 필수 관문으로 채택하지 않는다."
+        }
+      ],
+      "remaining": [
+        "현재 확보한 크림 제형·보습 설명을 넘어서는 상품 고유의 강한 상징/차별 방식 여부. 새 Meta 조회나 효능 논문은 요구하지 않는다."
+      ],
+      "previous_status": "U",
+      "decision_change": "U 유지",
+      "gate_changes": [
+        "실물·도포 방식의 근거가 구체화됐으나 강한 차별 방식은 U 유지."
+      ]
+    },
+    {
+      "id": "AP02",
+      "product_name": "브리쎄 레빗텅 틴트 필름",
+      "product_key": "brisse.co.kr#23",
+      "official_url": "https://brisse.co.kr/product/%EB%B8%8C%EB%A6%AC%EC%8E%84-%EB%A0%88%EB%B9%97%ED%85%85-%ED%8B%B4%ED%8A%B8-%ED%95%84%EB%A6%84/23/category/28/display/1/",
+      "status": "U",
+      "reason": "상징·구현은 P, 브랜드 범위는 U 유지. 토끼혀와 틴트라는 미용 상징을 물 없이 사용하는 구강 필름으로 옮긴 방식이 명확하다. 공식 운영사는 HLB글로벌이며, 회사가 직접 배포한 자료에서 같은 제품의 방송 PPL과 인지도 확대 목적도 확인했다. 그룹 소속만으로 제외하거나, 반대로 신규 브랜드라는 이유로 소규모 독립 표본에 넣지 않는다.",
+      "symbol_role": {
+        "status": "P",
+        "name": "토끼혀 / 혀에 바르는 틴트",
+        "role": "토끼혀는 원하는 외관의 상징, 틴트는 입술 미용 방식을 혀로 옮기는 사용방식 비유, 얇은 필름은 휴대·사용 구현이다."
+      },
+      "implementation": {
+        "status": "P",
+        "observed": "원본 포장에 RABBIT TONGUE TINT FILM과 115.5mg×10 films가 보인다. 추가 확보한 공식 상세에는 붉은 필름 사진과 혀 색 표현이 있고, 회사 발행 보도자료는 물 없이 사용하는 제형이라고 설명한다.",
+        "qualification_limit": "색·구취·백태 효과의 실증 판정은 하지 않는다. 현재 23번 상세는 VER.2이며 82일 내내 같은 버전이었다고 주장하지 않는다."
+      },
+      "operator": {
+        "name": "HLB글로벌",
+        "business_registration_number": "225-81-00025",
+        "representative": "김광재",
+        "identity_status": "P",
+        "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP02.html"
+      },
+      "company_scope_basis": {
+        "status": "U",
+        "basis": "기존 공식 HTML의 HLB글로벌·225-81-00025·김광재와 HLB글로벌 발행 보도자료가 일치한다. 사용자가 전달한 블랭크 브랜드군 배경은 지정 자료의 AP02 기록과 공식 원문에서 연결되지 않았다. 이 충돌을 숨기지 않고 현행 운영사는 HLB로 기록한다. 같은 운영사의 카밈 제외 이력은 브리쎄의 자동 제외 근거로 복사하지 않는다. 방송 PPL은 관찰 사실이지만 그 사실만으로 광고비 의존도를 정량 확정할 수는 없다.",
+        "standard": "원래 대기업·대형브랜드 및 연예인·광고비 힘 의존 제외. 법정 NICE 증명·신규 연구·시술기전 당위를 공통 필수조건으로 추가하지 않는다."
+      },
+      "ad_evidence": [
+        {
+          "id": "4017798798527153",
+          "days": 82,
+          "start_date": "2026-07-22",
+          "end_date": "2026-10-12",
+          "landing": "https://brisse.co.kr/product/%EB%B8%8C%EB%A6%AC%EC%8E%84-%EB%A0%88%EB%B9%97%ED%85%85-%ED%8B%B4%ED%8A%B8-%ED%95%84%EB%A6%84/23/category/28/display/1/",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+          "source_pointer": "/ads/1223",
+          "verification_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\광고-대조.json"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://brisse.co.kr/product/%EB%B8%8C%EB%A6%AC%EC%8E%84-%EB%A0%88%EB%B9%97%ED%85%85-%ED%8B%B4%ED%8A%B8-%ED%95%84%EB%A6%84/23/category/28/display/1/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP02.html",
+          "observed": "기존 저장 공개 상세를 재사용. 상품키 brisse.co.kr#23、공개 상품명·운영사 식별 확인."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg2242b49631414056/brisse2025/web/product/option_button/20260916/5b7c0afb2edd0417dad5d44c73c249f3.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\images\\AP02-2.jpg",
+          "observed": "개별 필름 포장, 틴트 필름 명칭 및 수량 표기 직접 확인."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg2242b49631414056/brisse2025/web/rabbittonguetintfilm_2/260911/tintfilm2_04.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP02-film.jpg",
+          "observed": "공식 상세에 붉은 필름 사진과 혀에 색을 더하는 표현이 실려 있다. 판매자 편집 후기의 효능 진술은 사실로 채택하지 않는다."
+        },
+        {
+          "source_url": "https://www.hankyung.com/article/202606119728P",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\brisse-issuer-press.html",
+          "observed": "2026-06-11 HLB글로벌 발행 보도자료. 같은 레빗텅 틴트 필름의 ENA 예능 PPL, 물 없는 필름 제형, 브랜드 인지도 확대 목적을 명시. 하단에 기업 작성·배포 자료라고 표시한다."
+        }
+      ],
+      "remaining": [
+        "HLB글로벌의 브랜드·미디어커머스 지원을 받는 이 상품을 원래 소규모 표본 범위에 넣을 수 있는지 불명확하다. 법정 기업분류 미발급 문제가 아니다.",
+        "블랭크 브랜드군이라는 전달 배경과 HLB 공식 운영사 자료의 출처 불일치."
+      ],
+      "previous_status": "U",
+      "decision_change": "U 유지",
+      "gate_changes": [
+        "토끼혀·필름의 구현 근거 보강; 회사 발행 PPL 자료 추가; 최종 U 유지."
+      ]
+    },
+    {
+      "id": "AP03",
+      "product_name": "메디큐브 콜라겐 우유 랩핑 마스크",
+      "product_key": "themedicube.co.kr#2491",
+      "official_url": "https://themedicube.co.kr/product/detail.html?product_no=2491&cate_no=502&display_group=1",
+      "status": "F",
+      "reason": "기존 U를 F로 변경. 메디큐브는 원래의 대형브랜드 제외 범위로 판단한다. 공식 운영사와 APR 재무자료의 동일 사업자를 확인했고, 기존 저장 공식자료의 2025년 연결 매출은 15,273억원이다. 법정 중견기업 분류를 허용 근거로 사용하지 않는다. 이 수치는 메디큐브 단독 매출이나 해당 마스크 매출이 아니다.",
+      "symbol_role": {
+        "status": "U",
+        "name": "우유 랩핑",
+        "role": "우유는 제형/질감 비유 후보, 랩핑은 필름 방식 후보. 브랜드 범위로 제외하므로 추가 해부하지 않았다."
+      },
+      "implementation": {
+        "status": "U",
+        "observed": "2491의 공개 상품명과 광고의 우유 세럼+랩핑팩 조합 표현은 확인돼 있다.",
+        "qualification_limit": "157일 광고의 세럼+마스크 조합을 단일 마스크의 성과로 귀속하지 않는다. 실물 필름 관찰 미확인도 그대로 남긴다."
+      },
+      "operator": {
+        "name": "에이피알",
+        "business_registration_number": "220-88-89441",
+        "representative": "김병훈",
+        "identity_status": "P",
+        "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP03.html"
+      },
+      "company_scope_basis": {
+        "status": "F",
+        "basis": "공식몰 에이피알·220-88-89441·김병훈이 공식 IR과 일치한다. 공식 브랜드군에 메디큐브가 있고 기업 매출 규모가 확인된다. 원래 대형브랜드 제외 문구에 따른 표본 판정이며 새로운 매출 하한선이나 법정 대기업 판정을 만들지 않았다.",
+        "standard": "원래 대기업·대형브랜드 및 연예인·광고비 힘 의존 제외. 법정 NICE 증명·신규 연구·시술기전 당위를 공통 필수조건으로 추가하지 않는다."
+      },
+      "ad_evidence": [
+        {
+          "id": "1016867834668982",
+          "days": 157,
+          "start_date": "2026-05-07",
+          "end_date": "2026-10-11",
+          "landing": "https://themedicube.co.kr/product/detail.html?product_no=2491&cate_no=502&display_group=1",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+          "source_pointer": "/ads/120",
+          "verification_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\광고-대조.json"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://themedicube.co.kr/product/detail.html?product_no=2491&cate_no=502&display_group=1",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP03.html",
+          "observed": "기존 저장 공개 상세를 재사용. 상품키 themedicube.co.kr#2491、공개 상품명·운영사 식별 확인."
+        },
+        {
+          "source_url": "https://apr-in.com/financial_highlights.html",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\C23.txt",
+          "observed": "APR 공식 재무하이라이트 저장본: 2025년 매출 15,273억원(단위 억원), 메디큐브 브랜드 표기, 사업자 220-88-89441. 특정 SKU 성과는 확인할 수 없다."
+        },
+        {
+          "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=M23872",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\적격성.json",
+          "observed": "기존 수집 자료 재사용: 공식몰·IR 사업자220-88-89441과 대표·송파구 주소 일치. 중견기업을 법정 대기업으로 바꾸지 않음. / 공개 분류 중견기업. 이번에 다시 조회한 자료가 아니며 필수 관문으로 채택하지 않는다."
+        }
+      ],
+      "remaining": [
+        "표본 추가 작업은 종료. 조합 광고/단일 SKU 귀속과 필름 물성 미확인은 참고 한계로 보존하며, 이번 제외를 해소할 신규 요구사항으로 삼지 않는다."
+      ],
+      "previous_status": "U",
+      "decision_change": "U→F",
+      "gate_changes": [
+        "대형브랜드 범위 U→F. 그 외 미확인 항목은 조사 확대 없이 보존."
+      ]
+    },
+    {
+      "id": "AP04",
+      "product_name": "메디큐브 PDRN 핑크 콜라겐 젤리 미스트세럼",
+      "product_key": "themedicube.co.kr#2494",
+      "official_url": "https://themedicube.co.kr/product/detail.html?product_no=2494&utm_source=fain&I242I211I163utm_medium=vid&utm_campaign=pd_p_mistserum&utm_term=con&utm_content=2509_kyi_316_KR",
+      "status": "F",
+      "reason": "기존 U를 F로 변경. AP03과 동일한 에이피알의 메디큐브 제품이므로 원래 대형브랜드 제외를 적용한다. 157일 광고와 2494 상품의 연결은 보존한다. 젤리 물성을 새로 확인해도 이번 표본의 브랜드 범위 제외를 상쇄하지 않는다.",
+      "symbol_role": {
+        "status": "U",
+        "name": "젤리 미스트",
+        "role": "젤리는 물성 비유 후보, 미스트는 분사 방식. 이번에는 상세 재해부를 하지 않았다."
+      },
+      "implementation": {
+        "status": "U",
+        "observed": "공개 상품명 PDRN 핑크 콜라겐 젤리 미스트세럼 및 2494 광고 연결 확인.",
+        "qualification_limit": "실제 젤리 물성과 분사 장면의 미확인을 별도 보존한다."
+      },
+      "operator": {
+        "name": "에이피알",
+        "business_registration_number": "220-88-89441",
+        "representative": "김병훈",
+        "identity_status": "P",
+        "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP04.html"
+      },
+      "company_scope_basis": {
+        "status": "F",
+        "basis": "에이피알·220-88-89441·김병훈 및 기존 공식 IR의 2025년 연결 매출 15,273억원을 근거로 대형브랜드 범위를 적용한다. 중견기업이라는 법정/민간 분류를 제품 허용 논리로 바꾸지 않는다.",
+        "standard": "원래 대기업·대형브랜드 및 연예인·광고비 힘 의존 제외. 법정 NICE 증명·신규 연구·시술기전 당위를 공통 필수조건으로 추가하지 않는다."
+      },
+      "ad_evidence": [
+        {
+          "id": "1290937879871381",
+          "days": 157,
+          "start_date": "2026-05-07",
+          "end_date": "2026-10-11",
+          "landing": "https://themedicube.co.kr/product/detail.html?product_no=2494&utm_source=fain&I242I211I163utm_medium=vid&utm_campaign=pd_p_mistserum&utm_term=con&utm_content=2509_kyi_316_KR",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+          "source_pointer": "/ads/105",
+          "verification_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\광고-대조.json"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://themedicube.co.kr/product/detail.html?product_no=2494&utm_source=fain&I242I211I163utm_medium=vid&utm_campaign=pd_p_mistserum&utm_term=con&utm_content=2509_kyi_316_KR",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP04.html",
+          "observed": "기존 저장 공개 상세를 재사용. 상품키 themedicube.co.kr#2494、공개 상품명·운영사 식별 확인."
+        },
+        {
+          "source_url": "https://apr-in.com/financial_highlights.html",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\C23.txt",
+          "observed": "동일 운영사 공식 IR 및 메디큐브 브랜드 표기 확인. 회사 매출과 개별 제품 매출을 구별한다."
+        },
+        {
+          "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=M23872",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\적격성.json",
+          "observed": "기존 수집 자료 재사용: 공식몰·IR 사업자220-88-89441과 대표·송파구 주소 일치. 중견기업을 법정 대기업으로 바꾸지 않음. / 공개 분류 중견기업. 이번에 다시 조회한 자료가 아니며 필수 관문으로 채택하지 않는다."
+        }
+      ],
+      "remaining": [
+        "표본 추가 작업 종료. 제형의 남은 미확인은 참고 한계이며 추가 조사 대기 작업으로 잡지 않는다."
+      ],
+      "previous_status": "U",
+      "decision_change": "U→F",
+      "gate_changes": [
+        "대형브랜드 범위 U→F."
+      ]
+    },
+    {
+      "id": "AP05",
+      "product_name": "메디큐브2주 광채 주름SET",
+      "product_key": "themedicube.co.kr#2780",
+      "official_url": "https://themedicube.co.kr/product/detail.html?product_no=2780&cate_no=604&display_group=1",
+      "status": "F",
+      "reason": "기존 U를 F로 변경. 에이피알 메디큐브의 대형브랜드 범위 제외를 적용한다. 103일 광고와 2780 랜딩 연결은 유지하되, 과거 PDRN 주름세트와 현재 2주 광채 주름SET의 구성 동일성까지 확정하지 않는다.",
+      "symbol_role": {
+        "status": "U",
+        "name": "팔자주름 지우개",
+        "role": "지우개는 결과를 압축한 비유 후보. 광고에는 여배우들의 추천 권위도 들어 있다."
+      },
+      "implementation": {
+        "status": "U",
+        "observed": "2780의 공개 세트명과 광고 랜딩은 일치한다.",
+        "qualification_limit": "광고 시점 구성과 현재 구성의 동일성, 지우개 비유의 제형/사용방식 연결은 미확인. 세트를 구성품별 표본으로 나누지 않는다."
+      },
+      "operator": {
+        "name": "에이피알",
+        "business_registration_number": "220-88-89441",
+        "representative": "김병훈",
+        "identity_status": "P",
+        "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP05.html"
+      },
+      "company_scope_basis": {
+        "status": "F",
+        "basis": "에이피알·220-88-89441과 메디큐브 브랜드 및 공식 IR을 대조했다. 본 판정의 결정 근거는 대형브랜드 제외이며, 여배우 추천 문구만으로 판매 인과를 별도 확정하지 않았다.",
+        "standard": "원래 대기업·대형브랜드 및 연예인·광고비 힘 의존 제외. 법정 NICE 증명·신규 연구·시술기전 당위를 공통 필수조건으로 추가하지 않는다."
+      },
+      "ad_evidence": [
+        {
+          "id": "908213278987659",
+          "days": 103,
+          "start_date": "2026-06-30",
+          "end_date": "2026-10-11",
+          "landing": "https://themedicube.co.kr/product/detail.html?product_no=2780&cate_no=604&display_group=1",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+          "source_pointer": "/ads/266",
+          "verification_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\광고-대조.json"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://themedicube.co.kr/product/detail.html?product_no=2780&cate_no=604&display_group=1",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP05.html",
+          "observed": "기존 저장 공개 상세를 재사용. 상품키 themedicube.co.kr#2780、공개 상품명·운영사 식별 확인."
+        },
+        {
+          "source_url": "https://apr-in.com/financial_highlights.html",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\C23.txt",
+          "observed": "공식 APR 브랜드·운영사·재무정보. 원래의 대형브랜드 범위 제외 근거로 사용."
+        },
+        {
+          "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=M23872",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\적격성.json",
+          "observed": "기존 수집 자료 재사용: 공식몰·IR 사업자220-88-89441과 대표·송파구 주소 일치. 중견기업을 법정 대기업으로 바꾸지 않음. / 공개 분류 중견기업. 이번에 다시 조회한 자료가 아니며 필수 관문으로 채택하지 않는다."
+        }
+      ],
+      "remaining": [
+        "표본 추가 작업 종료. 과거/현재 구성과 상징 구현의 미확인은 보존한다."
+      ],
+      "previous_status": "U",
+      "decision_change": "U→F",
+      "gate_changes": [
+        "대형브랜드 범위 U→F."
+      ]
+    },
+    {
+      "id": "AP07",
+      "product_name": "쥬베룩PDLLA 콜라겐 부스팅 마스크4매",
+      "product_key": "juvelook-skincare.com#64",
+      "official_url": "https://juvelook-skincare.com/product/%EC%B2%AB-%EA%B5%AC%EB%A7%A4-%EC%A5%AC%EB%B2%A0%EB%A3%A9-pdlla-%EC%BD%9C%EB%9D%BC%EA%B2%90-%EB%B6%80%EC%8A%A4%ED%8C%85-%EB%A7%88%EC%8A%A4%ED%81%AC-4%EB%A7%A4/64/category/66/display/1/",
+      "status": "U",
+      "reason": "제품 차별 방식은 P 유지, 브랜드 범위 U 유지. 94일 광고의 터뜨리는 동작과 두 구역 파우치의 ROLL UP/PUSH 표기가 직접 연결된다. 바임 공식 시술 브랜드 사이트가 동일 사업자와 스킨케어몰 연결을 명시하므로, 외부 시술 상징을 빌린 독립 소브랜드가 아니라 시술 브랜드 본체의 확장이라는 점을 보강했다.",
+      "symbol_role": {
+        "status": "P",
+        "name": "쥬베룩 / 터뜨려 혼합하는 마스크",
+        "role": "쥬베룩은 자체 시술 브랜드 권위, 두 구역 포장을 눌러 혼합하는 동작은 제품 고유의 사용방식이다. 두 역할을 분리한다."
+      },
+      "implementation": {
+        "status": "P",
+        "observed": "원본 AP07-11에서 위·아래 두 구역, STEP 1 ROLL UP, STEP 2 PUSH, 코팅 시트 표기를 직접 확인했다. 저장 광고도 마스크팩을 터뜨리는 법을 말한다.",
+        "qualification_limit": "PDLLA 코팅이나 콜라겐 관련 문구는 판매자의 설계 설명이다. 시술과 같은 효능이라고 판정하지 않는다."
+      },
+      "operator": {
+        "name": "바임",
+        "business_registration_number": "757-87-01595",
+        "representative": "전동훈",
+        "identity_status": "P",
+        "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP07.html"
+      },
+      "company_scope_basis": {
+        "status": "U",
+        "basis": "바임 현행 사업자 757-87-01595와 공식 시술 사이트의 동일 번호·대표·스킨케어몰 링크가 일치한다. 기존 공개 중소기업 분류와 라디언트홀딩스 배경도 보존한다. 중소기업 분류만으로 P로 올리지 않으며, 시술 본체라는 사실만으로 모든 해당 브랜드를 자동 제외하는 새 규칙도 만들지 않는다. 본체의 브랜드 자산이 강한 이 사례를 원래 표본 범위에서 어떻게 다룰지가 남는다.",
+        "standard": "원래 대기업·대형브랜드 및 연예인·광고비 힘 의존 제외. 법정 NICE 증명·신규 연구·시술기전 당위를 공통 필수조건으로 추가하지 않는다."
+      },
+      "ad_evidence": [
+        {
+          "id": "1048547674411615",
+          "days": 94,
+          "start_date": "2026-07-09",
+          "end_date": "2026-10-11",
+          "landing": "https://juvelook-skincare.com/product/%EC%B2%AB-%EA%B5%AC%EB%A7%A4-%EC%A5%AC%EB%B2%A0%EB%A3%A9-pdlla-%EC%BD%9C%EB%9D%BC%EA%B2%90-%EB%B6%80%EC%8A%A4%ED%8C%85-%EB%A7%88%EC%8A%A4%ED%81%AC-4%EB%A7%A4/64/category/66/display/1/",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+          "source_pointer": "/ads/558",
+          "verification_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\광고-대조.json"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://juvelook-skincare.com/product/%EC%B2%AB-%EA%B5%AC%EB%A7%A4-%EC%A5%AC%EB%B2%A0%EB%A3%A9-pdlla-%EC%BD%9C%EB%9D%BC%EA%B2%90-%EB%B6%80%EC%8A%A4%ED%8C%85-%EB%A7%88%EC%8A%A4%ED%81%AC-4%EB%A7%A4/64/category/66/display/1/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP07.html",
+          "observed": "기존 저장 공개 상세를 재사용. 상품키 juvelook-skincare.com#64、공개 상품명·운영사 식별 확인."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg2459b03284917087/juvelookskincare/web/upload/NNEditor/20260710/5302812c9686a543e8d3ff94c84f4d6f.webp",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\images\\AP07-11.webp",
+          "observed": "두 구역 파우치의 ROLL UP/PUSH 사용 동작을 직접 확인."
+        },
+        {
+          "source_url": "https://www.juvelook.co.kr/sub/media.php?boardid=news&idx=90&mNum=4&mode=view&sNum=0",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\juvelook-brand.html",
+          "observed": "바임이 쥬베룩을 자사 대표 시술 브랜드로 설명하고 쥬베룩 스킨케어 체험을 같은 브랜드 공간에서 운영한다고 밝힌다. 사이트 footer 사업자 757-87-01595 및 스킨케어몰 링크 확인."
+        },
+        {
+          "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=JX8714",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\적격성.json",
+          "observed": "기존 수집 자료 재사용: 공식몰 번호 앞자리·대표·테크노1로 일치. 그룹 라디언트홀딩스. 대형 브랜드 제외 경계 미확인 / 공개 분류 중소기업. 이번에 다시 조회한 자료가 아니며 필수 관문으로 채택하지 않는다."
+        }
+      ],
+      "remaining": [
+        "시술 브랜드 본체의 스킨케어 확장을 원래 대형브랜드/브랜드 힘 제외 범위에 포함할지 불명확. 기업분류 재발급이나 신규 연구는 필요하지 않다."
+      ],
+      "previous_status": "U",
+      "decision_change": "U 유지",
+      "gate_changes": [
+        "두 구역 포장 원본 재확인; 시술 브랜드와 동일 법인·공식몰 연결 근거 보강; 최종 U 유지."
+      ]
+    },
+    {
+      "id": "AP08",
+      "product_name": "쥬베룩PDLLA 프로텍팅 크림50ml",
+      "product_key": "juvelook-skincare.com#65",
+      "official_url": "https://juvelook-skincare.com/product/%EC%B2%AB-%EA%B5%AC%EB%A7%A4-%EC%A5%AC%EB%B2%A0%EB%A3%A9-pdlla-%ED%94%84%EB%A1%9C%ED%85%8D%ED%8C%85-%ED%81%AC%EB%A6%BC-50ml/65/category/66/display/1/",
+      "status": "U",
+      "reason": "최종 U 유지하되 상징/설명 관문은 U→P로 보강. 광고는 단순 보습 대신 콜라겐을 만든 뒤 지킨다는 문제 정의와 MMP-1 감소 설계를 명시한다. 공식 상세의 COLLAGEN LOCK/BARRIER LOCK 및 유지 단계 설명과 연결된다. 문자 그대로 잠금장치가 실물에 있어야 한다는 조건은 적용하지 않는다. 남은 것은 바임/쥬베룩 본체의 표본 범위다.",
+      "symbol_role": {
+        "status": "P",
+        "name": "콜라겐 잠금",
+        "role": "잠금은 생성 후 소실을 막는다는 설명 비유, MMP-1은 판매자가 제시한 설명상의 연결 고리, 크림은 이를 바르는 형태다. 기계식 자물쇠 외형을 요구하지 않는다."
+      },
+      "implementation": {
+        "status": "P",
+        "observed": "89일 광고의 MMP-1·콜라겐 환경 유지 설명과 원본 AP08-10의 COLLAGEN LOCK/BARRIER LOCK, Create/Sustain/Complete 도식, 크림 실물이 연결된다.",
+        "qualification_limit": "설득 구조와 상세 기전의 제시를 확인한 것이며 MMP-1 감소나 실제 효능을 독립 검증한 판정은 아니다."
+      },
+      "operator": {
+        "name": "바임",
+        "business_registration_number": "757-87-01595",
+        "representative": "전동훈",
+        "identity_status": "P",
+        "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP08.html"
+      },
+      "company_scope_basis": {
+        "status": "U",
+        "basis": "AP07과 동일한 바임 757-87-01595 및 자체 시술 브랜드 확장 근거. 중소기업 분류와 본체 브랜드 자산을 별개로 기록한다.",
+        "standard": "원래 대기업·대형브랜드 및 연예인·광고비 힘 의존 제외. 법정 NICE 증명·신규 연구·시술기전 당위를 공통 필수조건으로 추가하지 않는다."
+      },
+      "ad_evidence": [
+        {
+          "id": "2361876967638979",
+          "days": 89,
+          "start_date": "2026-07-14",
+          "end_date": "2026-10-11",
+          "landing": "https://juvelook-skincare.com/product/%EC%B2%AB-%EA%B5%AC%EB%A7%A4-%EC%A5%AC%EB%B2%A0%EB%A3%A9-pdlla-%ED%94%84%EB%A1%9C%ED%85%8D%ED%8C%85-%ED%81%AC%EB%A6%BC-50ml/65/category/66/display/1/",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+          "source_pointer": "/ads/563",
+          "verification_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\광고-대조.json"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://juvelook-skincare.com/product/%EC%B2%AB-%EA%B5%AC%EB%A7%A4-%EC%A5%AC%EB%B2%A0%EB%A3%A9-pdlla-%ED%94%84%EB%A1%9C%ED%85%8D%ED%8C%85-%ED%81%AC%EB%A6%BC-50ml/65/category/66/display/1/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP08.html",
+          "observed": "기존 저장 공개 상세를 재사용. 상품키 juvelook-skincare.com#65、공개 상품명·운영사 식별 확인."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg2459b03284917087/juvelookskincare/web/upload/NNEditor/20260716/97d213f40f9a95423749b13d91b96c6c.webp",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\images\\AP08-10.webp",
+          "observed": "콜라겐 잠금·장벽 잠금, 생성-유지-완성 도식 및 크림 실물 확인. 광고에 있는 MMP-1 설계 설명과 결합해 관찰."
+        },
+        {
+          "source_url": "https://www.juvelook.co.kr/sub/media.php?boardid=news&idx=90&mNum=4&mode=view&sNum=0",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\juvelook-brand.html",
+          "observed": "공식 시술 브랜드 본체와 스킨케어몰의 동일 법인 연결."
+        },
+        {
+          "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=JX8714",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\적격성.json",
+          "observed": "기존 수집 자료 재사용: 공식몰 번호 앞자리·대표·테크노1로 일치. 그룹 라디언트홀딩스. 대형 브랜드 제외 경계 미확인 / 공개 분류 중소기업. 이번에 다시 조회한 자료가 아니며 필수 관문으로 채택하지 않는다."
+        }
+      ],
+      "remaining": [
+        "AP07과 같은 시술 브랜드 본체의 표본 범위 쟁점. 크림에 실제 자물쇠가 없는 것은 미해결 항목이 아니다."
+      ],
+      "previous_status": "U",
+      "decision_change": "U 유지",
+      "gate_changes": [
+        "상징/차별 설명 U→P. 상세 기전 적격성과 의학적 효능 검증을 분리. 브랜드 범위 U 유지."
+      ]
+    },
+    {
+      "id": "AP09",
+      "product_name": "필로디 청소년 앰플·폼클렌징·선에센스3종세트",
+      "product_key": "feelody.co.kr#19",
+      "official_url": "https://feelody.co.kr/product/%ED%95%84%EB%A1%9C%EB%94%94-3%EC%A2%85-%EC%B2%AD%EC%86%8C%EB%85%84-%EC%95%B0%ED%94%8C-%ED%8F%BC%ED%81%B4%EB%A0%8C%EC%A7%95-%EC%84%A0%EC%97%90%EC%84%BC%EC%8A%A4-%EC%82%AC%EC%B6%98%EA%B8%B0-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%97%AC%EB%93%9C%EB%A6%84-%EA%B8%B0%EC%B4%88-%ED%99%94%EC%9E%A5%ED%92%88-%EC%84%A0%EB%AC%BC-%EC%84%B8%ED%8A%B8/19/category/59/display/1/",
+      "status": "P",
+      "reason": "기존 U를 P로 변경. 572일 저장 광고의 19번 고정 3종세트가 정확히 연결된다. 이번에 직접 확인한 노란 앰플 제형·라임 향 설명과 청록 선에센스 제형·배 향 설명은, 광고의 시럽 앰플 및 아이가 화장품을 꺼리는 문제를 오감 사용 경험으로 바꾸는 방식과 연결된다. 단순 효능 직설을 넘는 감각형 차별로 판단한다. 원물·감각형 상징에 시술 대체나 의학적 기전 당위를 별도로 요구하지 않는다. 세트 하나의 적격성에 모든 구성품이 각각 강한 상징을 가져야 한다는 추가 조건도 만들지 않는다.",
+      "symbol_role": {
+        "status": "P",
+        "name": "시럽 앰플 / 생크림 버블 / 아이가 찾는 오감 케어",
+        "role": "시럽은 실제 앰플 질감의 비유, 라임·배 향과 색은 청소년의 사용 거부감을 줄이는 감각 장치다. 광고의 생크림 버블은 추가 후보 표현으로 보존하되 실물 미확인이다. 이 감각형 차별에 시술기전 당위를 요구하지 않는다."
+      },
+      "implementation": {
+        "status": "P",
+        "observed": "앰플 상세의 노란 제형을 접시와 스패튤러에 덜어 놓은 사진, 선에센스 상세의 청록 제형을 직접 확인했다. 판매자는 향·색·발림성으로 청소년의 사용 거부감을 줄인다고 설명한다.",
+        "qualification_limit": "앰플·선에센스의 감각형 설계는 확인했다. 광고의 생크림 버블에 대응하는 클렌저 실물은 미확인으로 남기며 P의 근거에 넣지 않는다. 세트는 1개로만 센다. 광고와 상세의 방송 추천은 보조 권위로 관찰되지만, 그것만으로 연예인 의존을 확정하지 않는다."
+      },
+      "operator": {
+        "name": "제이디티앤티",
+        "business_registration_number": "804-81-01792",
+        "representative": "방지현",
+        "identity_status": "P",
+        "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP09.html"
+      },
+      "company_scope_basis": {
+        "status": "P",
+        "basis": "제이디티앤티·804-81-01792·방지현의 공식몰 정보와 기존 공개 기업자료가 연결된다. 법정 소기업 증명서를 요구하지 않는다. 회사 범위와 별개로 방송 추천의 영향 및 제품 차별 강도는 보수적으로 기록했다.",
+        "standard": "원래 대기업·대형브랜드 및 연예인·광고비 힘 의존 제외. 법정 NICE 증명·신규 연구·시술기전 당위를 공통 필수조건으로 추가하지 않는다."
+      },
+      "ad_evidence": [
+        {
+          "id": "514516541701728",
+          "days": 572,
+          "start_date": "2025-03-18",
+          "end_date": "2026-10-11",
+          "landing": "https://feelody.co.kr/product/%ED%95%84%EB%A1%9C%EB%94%94-3%EC%A2%85-%EC%B2%AD%EC%86%8C%EB%85%84-%EC%95%B0%ED%94%8C-%ED%8F%BC%ED%81%B4%EB%A0%8C%EC%A7%95-%EC%84%A0%EC%97%90%EC%84%BC%EC%8A%A4-%EC%82%AC%EC%B6%98%EA%B8%B0-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%97%AC%EB%93%9C%EB%A6%84-%EA%B8%B0%EC%B4%88-%ED%99%94%EC%9E%A5%ED%92%88-%EC%84%A0%EB%AC%BC-%EC%84%B8%ED%8A%B8/19/category/59/display/1/",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+          "source_pointer": "/ads/130",
+          "verification_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\광고-대조.json"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://feelody.co.kr/product/%ED%95%84%EB%A1%9C%EB%94%94-3%EC%A2%85-%EC%B2%AD%EC%86%8C%EB%85%84-%EC%95%B0%ED%94%8C-%ED%8F%BC%ED%81%B4%EB%A0%8C%EC%A7%95-%EC%84%A0%EC%97%90%EC%84%BC%EC%8A%A4-%EC%82%AC%EC%B6%98%EA%B8%B0-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%97%AC%EB%93%9C%EB%A6%84-%EA%B8%B0%EC%B4%88-%ED%99%94%EC%9E%A5%ED%92%88-%EC%84%A0%EB%AC%BC-%EC%84%B8%ED%8A%B8/19/category/59/display/1/",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP09.html",
+          "observed": "기존 저장 공개 상세를 재사용. 상품키 feelody.co.kr#19、공개 상품명·운영사 식별 확인."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-3.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP09-detail3.jpg",
+          "observed": "제형·향 때문에 화장품 사용을 꺼리는 아이를 겨냥한다는 공식 기획 설명. 학교·연구진 표기는 판매자의 권위 설명으로만 기록."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-4.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP09-detail4.jpg",
+          "observed": "앰플의 노란 제형을 스패튤러·접시에 덜어낸 사진, 라임 향과 감각적 사용감 설명 직접 확인."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/3ECA285EC84B8ED8AB8-9.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP09-detail9.jpg",
+          "observed": "선스크린의 청록 제형·배 향·펌프 사진 확인. 이 사진은 클렌저 생크림 버블의 증거가 아니다."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg722b61111675074/feelody/web/upload/NNEditor/20250114/copy-1736828595-38.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\images\\AP09-11.jpg",
+          "observed": "공식 상세가 방송 출연 장면을 활용함을 관찰. 사진만으로 인물을 식별하지 않고 광고 본문의 방송/연예인 명시와 구별해 기록."
+        },
+        {
+          "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=LT2465",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\적격성.json",
+          "observed": "기존 수집 자료 재사용: 공식몰 번호 앞자리·대표·장한로 주소 일치 / 공개 분류 중소기업. 이번에 다시 조회한 자료가 아니며 필수 관문으로 채택하지 않는다."
+        }
+      ],
+      "remaining": [],
+      "previous_status": "U",
+      "decision_change": "U→P",
+      "gate_changes": [
+        "상징/차별 방식 U→P: 출연자 소개 컷만 보던 한계를 정확 구성품의 색·향·제형 및 대상 문제 설명으로 해소. 미확인 거품까지 확인했다고 확대하지 않는다."
+      ]
+    },
+    {
+      "id": "AP10",
+      "product_name": "쥬베룩PDLLA 리파이닝 퍼스트 에센스150ml",
+      "product_key": "juvelook-skincare.com#62",
+      "official_url": "https://juvelook-skincare.com/product/detail.html?product_no=62",
+      "status": "U",
+      "reason": "U 유지. 66일 광고와 62번 에센스는 연결된다. 원본 상세에서 첫 단계 사용·피부결·속건조 설명과 에센스 실물을 확인했다. 리부팅을 문자 그대로 컴퓨터 장치로 구현할 필요는 없지만, 현재 확인한 자료에서 보통의 첫 단계 에센스보다 강한 방식 차별을 특정하지 못했다. 쥬베룩 본체의 브랜드 범위도 남는다.",
+      "symbol_role": {
+        "status": "U",
+        "name": "피부결 리부팅",
+        "role": "리부팅은 루틴 첫 단계·피부 상태 재정비를 설명하는 말이다. 컴퓨터 외형이나 전자장치 부재를 탈락 근거로 삼지 않는다."
+      },
+      "implementation": {
+        "status": "P",
+        "observed": "원본 AP10-10에서 150ml 에센스 병과 콜라겐 부스팅 첫 단계·피부결·수분감 설명을 확인했다.",
+        "qualification_limit": "제품·사용 단계의 존재는 확인됐으나 강한 방식 차별은 미확정이다."
+      },
+      "operator": {
+        "name": "바임",
+        "business_registration_number": "757-87-01595",
+        "representative": "전동훈",
+        "identity_status": "P",
+        "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP10.html"
+      },
+      "company_scope_basis": {
+        "status": "U",
+        "basis": "AP07과 같은 바임 757-87-01595 및 자체 시술 브랜드 확장. 다른 제품의 터뜨리는 포장이나 콜라겐 잠금 설명을 이 에센스에 전용하지 않는다.",
+        "standard": "원래 대기업·대형브랜드 및 연예인·광고비 힘 의존 제외. 법정 NICE 증명·신규 연구·시술기전 당위를 공통 필수조건으로 추가하지 않는다."
+      },
+      "ad_evidence": [
+        {
+          "id": "1366648885429435",
+          "days": 66,
+          "start_date": "2026-08-06",
+          "end_date": "2026-10-11",
+          "landing": "https://juvelook-skincare.com/product/detail.html?product_no=62",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+          "source_pointer": "/ads/567",
+          "verification_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\광고-대조.json"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://juvelook-skincare.com/product/detail.html?product_no=62",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP10.html",
+          "observed": "기존 저장 공개 상세를 재사용. 상품키 juvelook-skincare.com#62、공개 상품명·운영사 식별 확인."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg2459b03284917087/juvelookskincare/web/upload/NNEditor/20260710/7fb24b06fd5dfcc39a7924411cff1cce.webp",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\images\\AP10-10.webp",
+          "observed": "에센스 실물과 첫 단계/수분/피부결 중심의 상세 설명 관찰."
+        },
+        {
+          "source_url": "https://www.juvelook.co.kr/sub/media.php?boardid=news&idx=90&mNum=4&mode=view&sNum=0",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\juvelook-brand.html",
+          "observed": "쥬베룩 시술과 스킨케어가 동일 브랜드·법인이라는 공식 연결 근거."
+        },
+        {
+          "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=JX8714",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\적격성.json",
+          "observed": "기존 수집 자료 재사용: 공식몰 번호 앞자리·대표·테크노1로 일치. 그룹 라디언트홀딩스. 대형 브랜드 제외 경계 미확인 / 공개 분류 중소기업. 이번에 다시 조회한 자료가 아니며 필수 관문으로 채택하지 않는다."
+        }
+      ],
+      "remaining": [
+        "첫 단계 에센스의 일반적 효능 설명을 넘어서는 구체적 차별 방식.",
+        "AP07과 같은 시술 브랜드 본체의 표본 범위."
+      ],
+      "previous_status": "U",
+      "decision_change": "U 유지",
+      "gate_changes": [
+        "에센스 원본에서 실제 첫 단계 설명 재확인; 문자 그대로의 리부팅 구현 요구는 제거; U 유지."
+      ]
+    },
+    {
+      "id": "AP11",
+      "product_name": "뮤즈아우라 핑키쉬 하이드로겔 하트 치크팩30매",
+      "product_key": "museaura.global#11",
+      "official_url": "https://museaura.global/product/detail.html?product_no=11&utm_source=meta&utm_medium=da&utm_campaign=tp_im_260811_09",
+      "status": "U",
+      "reason": "최종 U 유지하되 제품 형상·사용방식은 U→P로 보강. 하트는 볼 밀착과 셀카 외관을 맡고, 열감 케어 설명은 노메쉬 하이드로겔이 맡는 것으로 공식 상세에서 분리됐다. 하트 자체가 홍조를 치료해야 한다는 조건은 제거한다. 한편 배우 조수민이 론칭한 브랜드라는 공개 보도, 공식 대표명, 브랜드 판촉 자료가 확인돼 연예인 힘에 의존하는 제품의 제외 범위가 남는다.",
+      "symbol_role": {
+        "status": "P",
+        "name": "하트 치크팩 / 홍조 지우개",
+        "role": "하트는 볼 곡선 밀착·브랜드 로고·셀카 외관, 지우개는 광고상 결과 비유, 노메쉬 하이드로겔은 쿨링·밀착을 설명하는 제형이다. 역할별로 판정한다."
+      },
+      "implementation": {
+        "status": "P",
+        "observed": "원본 AP11-2의 하트 형태와 볼 착용 사진, 추가 공식 007-22의 노메쉬 젤·밀착·접촉 시 시원함·시간 경과에 따른 투명 변화 설명을 확인했다. 62일 광고의 붙이는 쿨링/10분 케어와 연결된다.",
+        "qualification_limit": "판매자가 설명한 피부 온도·홍조 변화의 의학적 효과는 독립 검증하지 않았다."
+      },
+      "operator": {
+        "name": "메이크유어데이",
+        "business_registration_number": "733-88-03366",
+        "representative": "조수민",
+        "identity_status": "P",
+        "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP11.html"
+      },
+      "company_scope_basis": {
+        "status": "U",
+        "basis": "공식 운영사 메이크유어데이·733-88-03366·조수민을 확인했다. 공개 론칭 보도는 배우 조수민이 직접 시작한 브랜드와 첫 제품 하트치크팩을 명시하며, 공식 팝업 판촉에는 친필 사인 브로슈어도 등장한다. 동명이인 NICE QA3206을 사용하지 않는다. 기업분류 자료 부족 자체를 새 하드게이트로 만들지 않고, 원래 연예인 의존 제외와의 경계 때문에 U로 둔다. 특정 광고의 매출이 배우 때문이라고 인과를 확정하지는 않는다.",
+        "standard": "원래 대기업·대형브랜드 및 연예인·광고비 힘 의존 제외. 법정 NICE 증명·신규 연구·시술기전 당위를 공통 필수조건으로 추가하지 않는다."
+      },
+      "ad_evidence": [
+        {
+          "id": "2010412472976496",
+          "days": 62,
+          "start_date": "2026-08-11",
+          "end_date": "2026-10-12",
+          "landing": "https://museaura.global/product/detail.html?product_no=11&utm_source=meta&utm_medium=da&utm_campaign=tp_im_260811_09",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+          "source_pointer": "/ads/1395",
+          "verification_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\광고-대조.json"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://museaura.global/product/detail.html?product_no=11&utm_source=meta&utm_medium=da&utm_campaign=tp_im_260811_09",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP11.html",
+          "observed": "기존 저장 공개 상세를 재사용. 상품키 museaura.global#11、공개 상품명·운영사 식별 확인."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/product/Heart%20Cheek%20Pack/005.png",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\images\\AP11-2.png",
+          "observed": "하트 형태를 볼 곡선 밀착·셀카·브랜드 로고로 설명하는 공식 원본 직접 확인."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/product/Heart%20Cheek%20Pack/007-22.png",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP11-cooling.png",
+          "observed": "노메쉬 하이드로겔, 접촉 시 시원함·밀착, 투명 변화라는 판매자의 상세 설계 설명과 젤 사진 확인."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg2526b10471399030/makeyourday2025/web/upload/NNEditor/20260528/20260529_18_00.png",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP11-popup-benefit.png",
+          "observed": "공식 팝업 안내의 구매 판촉에 친필 사인 브로슈어가 있다. 이 이미지 자체에는 사인 주체의 이름이 없으므로 인물 특정 근거로 단독 사용하지 않는다."
+        },
+        {
+          "source_url": "https://www.ktnews.com/news/articleView.html?idxno=143928",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\외부보강-관찰.json",
+          "observed": "2026-02-09 공개 론칭 기사에서 배우 조수민의 브랜드 론칭 및 첫 제품 하트치크팩을 명시. 공식몰 대표명과 함께 검토하되 매출 기여도의 증명으로 사용하지 않는다."
+        }
+      ],
+      "remaining": [
+        "제품의 물성·형상 차별은 확인됐지만 배우 창업자·판촉 영향이 있는 브랜드를 원래 연예인 힘 제외 범위에서 통과시킬 근거가 불명확하다."
+      ],
+      "previous_status": "U",
+      "decision_change": "U 유지",
+      "gate_changes": [
+        "하트의 역할과 하이드로겔 제형을 분리하여 상징/사용방식 U→P; 회사 법정 규모 미증명이 아닌 연예인 의존 경계로 U 유지."
+      ]
+    },
+    {
+      "id": "AP12",
+      "product_name": "메라블 루비알엔 앰플 클렌저150ml",
+      "product_key": "melable.co.kr#46",
+      "official_url": "https://melable.co.kr/product/%EB%A3%A8%EB%B9%84%EC%95%8C%EC%97%94-%EC%95%B0%ED%94%8C-%ED%81%B4%EB%A0%8C%EC%A0%80/46/category/67/display/1/?utm_source=meta&utm_medium=engagement_cbo&utm_campaign=RubyRN_Cleanser&utm_content=FB_LP_260415_4&cafe_mkt=ue_FB_LP_260415_4",
+      "status": "P",
+      "reason": "기존 U를 P로 변경. 179일 광고와 46번 150ml 클렌저가 일치하고 운영사 고지식바이오 근거도 있다. 추가 공식 상세에서 루비색 투명 제형·노즐 병, 앰플 투 폼이라는 방식, 스킨부스터 앰플을 세안으로 옮긴다는 비교 설명, 클렌저에 대응하는 거품 연출을 확인했다. 이름에 앰플이 있다는 이유만의 승격이 아니라, 판매자가 제시한 상징·물성·세안 방식의 연결을 확인한 판정이다.",
+      "symbol_role": {
+        "status": "P",
+        "name": "스킨부스터 앰플을 세안으로 이동 / 루비 핑크빛",
+        "role": "스킨부스터 앰플은 고농축 케어의 상징원, 루비색은 시각·원료 서사, 노즐 병과 액상 제형은 외형, 앰플 투 폼은 케어와 세안을 결합하는 방식이다."
+      },
+      "implementation": {
+        "status": "P",
+        "observed": "공식 10.jpg에서 노즐 병과 투명한 루비색 제형을, 12.jpg에서 앰플 투 폼 및 스킨부스터 앰플 30병이라는 판매자 비교 설명을, 26.jpg의 Step1에서 정확한 앰플 클렌저 병과 거품 표현을 직접 확인했다. 저장 광고도 앰플 성분을 넣은 클렌저와 거품 세안을 같은 제품으로 설명한다.",
+        "qualification_limit": "앰플 30병 상당성·피부 전달·효능 수치는 판매자 주장으로만 취급한다. 판매자 사진·도식을 관찰했으며 독립적인 제형 실험이나 실제 사용 동영상의 전 과정을 관찰했다고 주장하지 않는다. 같은 상세의 토닝샷 앰플·피코샷 크림은 별개 상품이다."
+      },
+      "operator": {
+        "name": "고지식바이오",
+        "business_registration_number": "274-81-00503",
+        "representative": "성주영",
+        "identity_status": "P",
+        "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP12.html"
+      },
+      "company_scope_basis": {
+        "status": "P",
+        "basis": "고지식바이오·274-81-00503·성주영의 공식몰 식별정보와 기존 공개 기업자료가 연결된다. 본체 기확인 사례의 동일 운영사 근거를 보조적으로 재사용하며, 이 클렌저의 광고·상징은 자체 46번 자료로 별도 확인했다.",
+        "standard": "원래 대기업·대형브랜드 및 연예인·광고비 힘 의존 제외. 법정 NICE 증명·신규 연구·시술기전 당위를 공통 필수조건으로 추가하지 않는다."
+      },
+      "ad_evidence": [
+        {
+          "id": "1644665389767455",
+          "days": 179,
+          "start_date": "2026-04-15",
+          "end_date": "2026-10-11",
+          "landing": "https://melable.co.kr/product/%EB%A3%A8%EB%B9%84%EC%95%8C%EC%97%94-%EC%95%B0%ED%94%8C-%ED%81%B4%EB%A0%8C%EC%A0%80/46/category/67/display/1/?utm_source=meta&utm_medium=engagement_cbo&utm_campaign=RubyRN_Cleanser&utm_content=FB_LP_260415_4&cafe_mkt=ue_FB_LP_260415_4",
+          "source_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\자가학습\\히트해부\\7회차\\광고-재사용색인.json",
+          "source_pointer": "/ads/11",
+          "verification_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\광고-대조.json"
+        }
+      ],
+      "evidence": [
+        {
+          "source_url": "https://melable.co.kr/product/%EB%A3%A8%EB%B9%84%EC%95%8C%EC%97%94-%EC%95%B0%ED%94%8C-%ED%81%B4%EB%A0%8C%EC%A0%80/46/category/67/display/1/?utm_source=meta&utm_medium=engagement_cbo&utm_campaign=RubyRN_Cleanser&utm_content=FB_LP_260415_4&cafe_mkt=ue_FB_LP_260415_4",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\sources\\AP12.html",
+          "observed": "기존 저장 공개 상세를 재사용. 상품키 melable.co.kr#46、공개 상품명·운영사 식별 확인."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/10.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-detail10.jpg",
+          "observed": "정확 상품인 RubyRN Ampoule Cleanser 150ml의 노즐 병, 루비색 투명 제형 사진 직접 확인."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/12.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-detail12.jpg",
+          "observed": "앰플 투 폼 문구와 스킨부스터 앰플 30병이라는 판매자의 비교 서사를 확인. 함량 상당성 또는 효능 검증 자료로 사용하지 않는다."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/26.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-usage.jpg",
+          "observed": "Step1 클렌저 병과 거품 표현 확인. Step2 토닝샷 앰플과 Step3 피코샷 크림의 골드실·골드필름은 AP12 근거에서 제외."
+        },
+        {
+          "source_url": "https://ecimg.cafe24img.com/pg568b56739155098/medilabo/web/melable/r_cleanser/20260520/pc/30.jpg",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP\\evidence\\AP12-detail30.jpg",
+          "observed": "같은 상세에 별개 피코샷 크림 홍보가 섞여 있음을 확인하여 해당 크림의 기전·시술 설명을 AP12에 전용하지 않았다."
+        },
+        {
+          "source_url": "https://www.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=HV0251",
+          "local_path": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\적격성.json",
+          "observed": "기존 수집 자료 재사용: 공식몰 성주영·사업자 앞자리·선릉로 주소 일치 / 공개 분류 중소기업. 이번에 다시 조회한 자료가 아니며 필수 관문으로 채택하지 않는다."
+        }
+      ],
+      "remaining": [],
+      "previous_status": "U",
+      "decision_change": "U→P",
+      "gate_changes": [
+        "상징/차별 방식 U→P. 앰플 상품명만 확인했던 한계를 정확 상품의 제형·앰플 투 폼 설명·거품 표현으로 해소."
+      ]
+    }
+  ],
+  "summary": {
+    "reviewed": 11,
+    "counts": {
+      "P": 2,
+      "U": 6,
+      "F": 3
+    },
+    "P_ids": [
+      "AP09",
+      "AP12"
+    ],
+    "U_ids": [
+      "AP01",
+      "AP02",
+      "AP07",
+      "AP08",
+      "AP10",
+      "AP11"
+    ],
+    "F_ids": [
+      "AP03",
+      "AP04",
+      "AP05"
+    ],
+    "excluded_from_assignment": [
+      "AP06"
+    ],
+    "baseline_confirmed_count": 12,
+    "baseline_source": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\보강-1014\\본체-보강\\후속집계.json",
+    "additional_confirmed": 2,
+    "projected_confirmed_after_merge": 14,
+    "target": 30,
+    "projected_remaining_after_merge": 16,
+    "main_aggregate_modified": false,
+    "new_meta_queries": 0,
+    "rule_scoring_performed": false,
+    "company_research_closed": true,
+    "limits": [
+      "장기광고는 저장 광고의 시작일~관찰종료일 차이이며 중단 없는 실제 유료집행·수익·매출·의학적 효능의 증명이 아니다.",
+      "정확 상품 또는 고정 세트 1개를 표본 1개로 센다. 광고·옵션·세트 구성품 수로 늘리지 않았다.",
+      "원물·감각형 상징에는 시술기전 당위를 별도로 요구하지 않았다. 상세 기전의 적격성과 의학적 효능 실증은 별개다.",
+      "현재 상세 관찰을 광고가 저장된 전기간의 동일 구성·동일 표현으로 소급하지 않는다.",
+      "U는 현 근거에서 원래 표본 조건을 확정하지 못한 상태다. 자료 미발급·기업분류 미확인 자체가 F는 아니다.",
+      "브리쎄의 블랭크 배경 전달과 현행 HLB 공식 운영사 자료의 불일치를 명시했다.",
+      "추가 회사 조사 없이 이번 담당 11개 판정을 마감한다."
+    ],
+    "execution": {
+      "fork_created": false,
+      "subagents_available": false,
+      "parallel_method": "독립 읽기·공개 웹 조회·허용된 GET을 병렬 실행. 다중 에이전트 도구가 없어 fork를 대체 수단으로 사용하지 않았다.",
+      "written_scope": "C:\\claude\\LLM-WIKI\\마케팅\\프로젝트\\DA-기획\\기획-시스템\\작업\\역검증\\확장-1014\\추가AP"
+    }
+  }
+}
