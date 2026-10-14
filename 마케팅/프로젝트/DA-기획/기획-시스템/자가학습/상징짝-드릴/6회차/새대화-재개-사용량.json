@@ -1,0 +1,30 @@
+{
+  "thread_id": "01a13854-d649-7071-9b8d-a380ac179a06",
+  "stage": "0-新대화재개",
+  "budget": 250000,
+  "stop_threshold": 200000,
+  "first_observed_total": 196532,
+  "observed_at": "2026-10-14T02:55:18.131Z",
+  "source": "C:\\Users\\qorwn\\.codex\\sessions\\2026\\10\\14\\rollout-2026-10-14T11-54-06-01a13854-d649-7071-9b8d-a380ac179a06.jsonl",
+  "usage": {
+    "input_tokens": 262750,
+    "cached_input_tokens": 217600,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1919,
+    "reasoning_output_tokens": 123,
+    "total_tokens": 264669
+  },
+  "uncached_input_tokens": 45150,
+  "previous_stage0_cost": 418811,
+  "stage0_combined_observed": 683480,
+  "previous_reverse_exam_cost": 6310977,
+  "overall_combined_observed": 6994457,
+  "status": "stopped_at_budget_guard",
+  "limitations": "새 대화 시작부터 실측. 캐시는 입력에 포함, reasoning은 출력에 포함. 이 저장 호출과 후행 안내 비용은 아직 미포함. 과거 관측값은 후행 답변 제외이며 삭제하지 않음.",
+  "findings": [
+    "경험카드.jsonl·찾기.py·카드-10.json·예측-10.json이 이미 존재. 인계의 미생성 설명과 불일치.",
+    "찾기.py에 6회차까지는/최근 판정 등 이후 작업 흔적. 타 작업 파일로 판단해 수정·재실행하지 않음.",
+    "장부 검증·검색기 수정·카드 생성은 실행하지 않음. 하위 에이전트 사용 없음."
+  ],
+  "next": "현행 산출물과 인계의 불일치부터 좁게 확인. 이 대화에서 예산을 초기화하거나 무단으로 1단계 예산을 사용하지 않음."
+}
