@@ -38,13 +38,14 @@ def main(cand_path, out_path):
          '- 쿠팡 "상징+제형"(예: 하수오 샴푸): 쿠팡 검색 결과 상위 제품 수·후기 수. Claude가 브라우저로 채운다(쿠팡이 막혀 있으면 확인 대기).', '']
     for need, items in cands.items():
         texts = prep.meta_texts(kwmap.get(need, [need]) + [need]); n = len(texts) or 1
-        names = [clean(x['symbol']).replace(' ', '') for x in items]
-        vol = volumes(sorted(set(names)))
+        parts = [[clean(s).replace(' ', '') for s in x['symbol'].split('×')] for x in items]   # 'A × B' 짝은 둘 다 잰다
+        vol = volumes(sorted({s for ps in parts for s in ps}))
+        fmt = lambda s: f'{vol[s]:,}' if isinstance(vol.get(s), int) else '없음'
         L += [f'## {need} (메타 광고 {len(texts)}개)', '', '| 후보 | 검색량 | 매대 % | 쿠팡 "상징+제형" |', '|---|---:|---:|---|']
-        for x, nm in zip(items, names):
-            hits = sum(nm in t.replace(' ', '') for t in texts)
+        for x, ps in zip(items, parts):
+            shelf = ' / '.join(str(round(100 * sum(s in t.replace(' ', '') for t in texts) / n, 1)) for s in ps)
             cp = x.get('coupang', '확인 대기')
-            L.append(f"| {x['symbol']} ({x.get('form','')}) | {vol.get(nm, '없음') if not isinstance(vol.get(nm), int) else f'{vol[nm]:,}'} | {round(100*hits/n,1)} | {cp} |")
+            L.append(f"| {x['symbol']} ({x.get('form','')}) | {' / '.join(fmt(s) for s in ps)} | {shelf} | {cp} |")
         L.append('')
     Path(out_path).write_text('\n'.join(L), encoding='utf-8'); print('\n'.join(L))
 

@@ -46,7 +46,7 @@ def main():
         tgt = os.path.join(R, dest, name + '.xlsx'); n = 2
         if os.path.exists(tgt) and os.path.getsize(tgt) == os.path.getsize(f):   # 지난번에 복사만 되고 원본이 남은 경우
             try: os.remove(f); moved.append(f'{dest} ← {name} (이미 있음)'); got_names.append(p)
-            except OSError: unknown.append(f'{os.path.basename(f)} 사용 중(탐색기 미리 보기 등)—다음에')
+            except OSError: moved.append(f'{dest} ← {name} (이미 복사됨, 원본은 사용 중이라 못 지움)'); got_names.append(p)
             continue
         while os.path.exists(tgt): tgt = os.path.join(R, dest, f'{name} ({n}).xlsx'); n += 1
         for k, extra in ALSO.items():
