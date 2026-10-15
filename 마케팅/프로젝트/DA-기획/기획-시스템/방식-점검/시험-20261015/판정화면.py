@@ -10,7 +10,7 @@ import json, os, random, re, sys
 sys.stdout.reconfigure(encoding="utf-8")
 H = os.path.dirname(os.path.abspath(__file__)); OUT = sys.argv[1]
 TPL = r"C:\claude\LLM-WIKI\프로그램\아웃풋\da-planning\scripts\round\page_template.html"
-CELLS = [("지금방식", "opus"), ("지금방식", "sonnet"), ("새방식", "opus"), ("새방식", "sonnet"), ("다시해오기", "opus"), ("다시해오기", "sonnet")]
+CELLS = [("지금방식", "opus"), ("지금방식", "sonnet"), ("새방식", "opus"), ("다시해오기", "opus"), ("다시해오기", "sonnet")]  # 새방식-sonnet은 사장님 "48장이면 충분"(P6538)으로 뺌
 SEED = 20261015
 
 def clean(s):
@@ -22,10 +22,13 @@ for method, model in CELLS:
     for i, c in enumerate(json.load(open(os.path.join(H, "산출", f"{method}-{model}-카드.json"), encoding="utf-8"))["cards"]):
         key = f"{method}-{model}-{i + 1:02d}"
         cards.append({"key": key, "method": method, "model": model, "orig_id": c.get("id", ""), "topic": c["topic"], "symbol": c["symbol"],
-                      "hint": clean(c["hint"]), "value": clean(c["value"]), "bridge": clean(c["bridge"]), "risk": clean(c["risk"])})
-assert len(cards) == 60, len(cards)
+                      "hint": re.sub(r"\s*(?:—|:)\s+", " → ", clean(c["hint"]), count=1) if "→" not in c["hint"] else clean(c["hint"]), "value": clean(c["value"]), "bridge": clean(c["bridge"]), "risk": clean(c["risk"])})
+assert len(cards) == 48, len(cards)
 dup_path = os.path.join(H, "산출", "같은아이디어.json")
-dups = json.load(open(dup_path, encoding="utf-8")) if os.path.exists(dup_path) else {}
+groups = json.load(open(dup_path, encoding="utf-8"))["groups"] if os.path.exists(dup_path) else []
+dups = {}
+for gi, g in enumerate(groups):
+    rep = random.Random(SEED + gi).choice(g); dups[rep] = [k for k in g if k != rep]
 hidden = {k for ks in dups.values() for k in ks}
 shown = [c for c in cards if c["key"] not in hidden]
 random.Random(SEED).shuffle(shown)
@@ -37,11 +40,11 @@ for n, c in enumerate(shown, 1):
                   "facts": {"gap": c["value"], "product": c["bridge"], "risk": c["risk"]}, "fixed": "", "lights": [], "defaults": [], "links": {}})
 os.makedirs(os.path.join(H, "봉인"), exist_ok=True)
 json.dump({"seed": SEED, "화면번호→카드": key_of, "카드": {c["key"]: c for c in cards},
-           "다듬은 것": "상태 표시(needs_check:)와 '(자료: …)' 출처 괄호만 지움. 내용은 그대로."},
+           "다듬은 것": "상태 표시(needs_check:)와 '(자료: …)' 출처 괄호를 지우고, 핵심 힌트의 첫 구분 기호(— 또는 :)를 →로 통일. 내용은 그대로."},
           open(os.path.join(H, "봉인", "작성자표.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 changes = [
-    "같은 4개 주제(탈모·아토피·잇몸 염증·다한증)와 어제 7점 카드 6장을 여러 방식으로 다시 만든 카드입니다. 누가 어떤 방식으로 만들었는지는 봉인해 두었고, 판정이 끝난 뒤 미리 정한 규칙대로 숫자로 결정합니다.",
+    "같은 4개 주제(탈모·아토피·잇몸 염증·다한증)와 어제 7점 카드 6장을 여러 방식으로 다시 만든 카드입니다. 오늘 정한 결핍 책이 아니라 예전 지식 카드로 만들었습니다. 누가 어떤 방식으로 만들었는지는 봉인해 두었고, 판정이 끝난 뒤 미리 정한 규칙대로 숫자로 결정합니다.",
     "같은 아이디어가 겹친 카드는 한 장만 보여 드립니다.",
     "매기는 법: 점수 1~10, 제일 걸리는 곳(결핍 / 상징 짝 / 구현 당위 / 없음), 이유 한 줄. 7점 이상이 '발전시킬 만함' 기준입니다.",
 ]
