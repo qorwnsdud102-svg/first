@@ -100,6 +100,32 @@ def naver_line(plan, plan_dir, logs):
     status(plan_dir, '네이버', '끝')
 
 # ── 커뮤니티 한 줄씩(네이트판, 디시 — 서로 다른 사이트라 따로 돈다) ─────────
+# 키워드 하나당 사이트마다 여는 글 수. 결핍 키워드는 50개(사장님 P6535), 대안은 30개.
+import voice_crawl
+POSTS = {'결핍': 50, '대안': 30}
+_tl = threading.local()
+_orig_vc_run = voice_crawl.run
+def _vc_run(*a, **kw):
+    kw['max_posts'] = getattr(_tl, 'posts', kw.get('max_posts', 30))
+    return _orig_vc_run(*a, **kw)
+voice_crawl.run = _vc_run
+
+def reset_old_posts(f):
+    """결핍 폴더에서 30개 기준으로 이미 모은 커뮤니티 결과를 지워 50개로 다시 모으게 한다(한 번만)."""
+    folder = folder_of(f); mark = folder / '_커뮤니티-기준.json'
+    if f['kind'] != '결핍' or mark.exists(): return
+    import shutil
+    gone = []
+    for site in COMMUNITY:
+        for q in f['queries']:
+            part = v2.OUT / '_공유-커뮤니티' / site / voice_crawl.safe(q)
+            if part.exists(): shutil.rmtree(part); gone.append(str(part))
+        dest = folder / ('커뮤니티-' + site)
+        if dest.exists(): shutil.rmtree(dest); gone.append(str(dest))
+        out = folder / COMMUNITY[site][1]
+        if out.exists(): out.unlink(); gone.append(str(out))
+    v2.write(mark, {'posts': POSTS['결핍'], 'at': now(), 'removed_30_post_results': gone})
+
 # 로그인 없는 공개 커뮤니티 전부(사장님 P6534 "모든 커뮤니티에서"). 블라인드·인스티즈·네이버 카페는 로그인 사이트라 돌리지 않는다.
 COMMUNITY = {'natepann': ('커뮤니티', '커뮤니티.json'), 'dcinside': ('디시', '디시.json'), 'fmkorea': ('펨코', '펨코.json'),
              'ruliweb': ('루리웹', '루리웹.json'), 'mlbpark': ('엠팍', '엠팍.json'), 'arca': ('아카', '아카.json')}
@@ -109,7 +135,8 @@ def community_line(plan, plan_dir, logs, site='natepann'):
     for f in plan['folders']:
         folder = folder_of(f); out = folder / fname
         if out.exists(): continue
-        status(plan_dir, line, f"{f['kind']}/{f['name']} 시작")
+        status(plan_dir, line, f"{f['kind']}/{f['name']} 시작 (키워드당 글 {POSTS[f['kind']]}개)")
+        _tl.posts = POSTS[f['kind']]
         try: v2.write(out, v2.community(f['name'], None, folder, logs[f['name']], sites=site))
         except Exception as e: logs[f['name']].append({'source': site, 'error': str(e)[:200]})
     status(plan_dir, line, '끝')
@@ -185,6 +212,7 @@ def youtube_line(plan, plan_dir, logs):
         folder = folder_of(f); out = folder / '유튜브댓글.json'
         if out.exists(): continue
         status(plan_dir, '유튜브', f"{f['name']} 댓글")
+        _tl.posts = 30
         try: v2.write(out, v2.community(f['name'], None, folder, logs[f['name']], sites='youtube'))
         except Exception as e: logs[f['name']].append({'source': '유튜브 댓글', 'error': str(e)[:200]})
     status(plan_dir, '유튜브', '끝')
@@ -242,6 +270,7 @@ if __name__ == '__main__':
     plan_path = Path(args.plan).resolve(); plan = json.loads(plan_path.read_text(encoding='utf-8')); plan_dir = plan_path.parent
     if args.smoke: smoke(plan); sys.exit(0)
     logs = {f['name']: prepare(f) for f in plan['folders']}
+    for f in plan['folders']: reset_old_posts(f)
     status(plan_dir, '전체', f"시작 — 폴더 {len(plan['folders'])}개")
     with ThreadPoolExecutor(max_workers=4 + len(COMMUNITY)) as pool:
         jobs = [pool.submit(naver_line, plan, plan_dir, logs), pool.submit(youtube_line, plan, plan_dir, logs)]
