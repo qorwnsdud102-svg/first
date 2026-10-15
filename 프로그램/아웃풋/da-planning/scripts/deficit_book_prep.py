@@ -65,14 +65,30 @@ def reviews_summary(folder_names, alias_pat):
             L += ['- 도움 많은 후기: ' + ' / '.join(best)] + (['- 낮은 점수: ' + ' / '.join(low)] if low else [])
     return L
 
+LONG = []   # (게재일수, 본문 앞부분) — meta_texts가 채운다
+
 def meta_texts(keywords):
-    seen, texts = set(), []
+    import datetime
+    seen, texts = set(), []; LONG.clear(); today = datetime.date(2026, 10, 15)
     for kw in keywords:
         for f in glob.glob(str(META / '*_메타광고소재' / kw / '_ads.json')):
-            for t in load(f).get('ad_texts', []) if isinstance(load(f), dict) else []:
+            d = load(f)
+            for t in d.get('ad_texts', []) if isinstance(d, dict) else []:
                 m = re.search(r'라이브러리 ID: (\d+)', t)
-                if m and m.group(1) not in seen: seen.add(m.group(1)); texts.append(t.split('광고\n', 1)[-1][:800])
+                if not m or m.group(1) in seen: continue
+                seen.add(m.group(1)); body = t.split('광고\n', 1)[-1][:800]; texts.append(body)
+                s = re.search(r'(\d{4})\. (\d{1,2})\. (\d{1,2})\.에 게재 시작함', t)
+                if s: LONG.append(((today - datetime.date(int(s.group(1)), int(s.group(2)), int(s.group(3)))).days, re.sub(r'\s+', ' ', body)[:160]))
     return texts
+
+def long_running(k=12):
+    out, seen = [], set()
+    for days, body in sorted(LONG, reverse=True):
+        key = body[:40]
+        if key in seen: continue
+        seen.add(key); out.append(f'- {days}일 · {body}')
+        if len(out) >= k: break
+    return out
 
 def transcript_snips(vids, role=None, per=2500, k=10):
     out = []
@@ -110,6 +126,7 @@ def main(plan_path, family):
             L += ['', f'## 매대 — 이 결핍 메타 광고 {len(mt)}개에서 상징·제형이 나온 비율(정규식 추정)', '', '| 상징 | 광고 수 | % |', '|---|---:|---:|']
             L += [f'| {k} | {n} | {p} |' for k, n, p in sorted(share(mt, {s: re.escape(s) for s in SYMBOLS}), key=lambda x: -x[1]) if n]
             L += ['', '| 제형 | 광고 수 | % |', '|---|---:|---:|'] + [f'| {k} | {n} | {p} |' for k, n, p in sorted(share(mt, FORMS), key=lambda x: -x[1]) if n]
+            L += ['', '## 오래 돈 광고 상위 12(게재일 순, 같은 문구는 한 번) — 오래 돈 소재가 돈을 번 소재', ''] + long_running(12)
             sp = sellers / f"{f['name']}.md"
             if sp.exists(): L += ['', '## 메타 판매처 순위(광고 수·최장 게재일)', ''] + sp.read_text(encoding='utf-8').splitlines()[4:22]
             vid_md += [f"## {f['name']}", ''] + transcript_snips(vids, '의사·설명', 2500, 10) + ['']
