@@ -92,7 +92,10 @@ def meta_texts(keywords):
             for t in d.get('ad_texts', []) if isinstance(d, dict) else []:
                 m = re.search(r'라이브러리 ID: (\d+)', t)
                 if not m or m.group(1) in seen: continue
-                seen.add(m.group(1)); body = t.split('광고\n', 1)[-1][:800]; texts.append(body)
+                seen.add(m.group(1)); body = t.split('광고\n', 1)[-1][:800]
+                letters = re.findall(r'[A-Za-z가-힣]', body)   # 외국어 광고(영어·인니어 단편드라마 앱 — 튼살 207개 중 약 97개, 10-16)는 뺀다
+                if letters and sum('가' <= ch <= '힣' for ch in letters) / len(letters) < 0.3: continue
+                texts.append(body)
                 s = re.search(r'(\d{4})\. (\d{1,2})\. (\d{1,2})\.에 게재 시작함', t)
                 if s: LONG.append(((today - datetime.date(int(s.group(1)), int(s.group(2)), int(s.group(3)))).days, re.sub(r'\s+', ' ', body)[:160]))
     return texts
