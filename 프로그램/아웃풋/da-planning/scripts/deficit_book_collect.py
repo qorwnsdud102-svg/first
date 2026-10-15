@@ -154,6 +154,7 @@ def pick_videos(queries, n, role, seen, log):
                 info = y.extract_info(f'ytsearch{n + 5}:{q}', download=False)
             for e in info.get('entries', []):
                 vid = (e or {}).get('id', '')
+                if not re.search(r'[가-힣]', (e or {}).get('title') or ''): continue   # 한국어 영상만
                 if re.fullmatch(r'[A-Za-z0-9_-]{11}', vid) and vid not in seen:
                     seen.add(vid)
                     out.append({'id': vid, 'title': e.get('title', ''), 'url': 'https://www.youtube.com/watch?v=' + vid,
@@ -166,10 +167,13 @@ def transcribe_all(chosen, folder, log, path, blocks):
     import yt_dlp
     from youtube_transcript_api import YouTubeTranscriptApi
     import ad_media
+    # 자막 서버가 한 번 막히면(429) 30분 쉰 뒤(gate가 기다림) 이번 실행에서는 자막을 더 묻지 않고 음성 받아쓰기(로컬 faster-whisper)로 간다.
+    # 음성 받기도 세 번 막히면 이번 실행에서는 멈춘다(다음 실행이 이어서 한다).
     for rec in chosen:
-        if rec.get('transcript') or rec.get('status'): continue
-        if blocks[0] >= 2: rec['status'] = '유튜브 차단 두 번—이번 실행에서는 더 묻지 않음'; continue
+        if rec.get('transcript') or rec.get('status') in ('전사 완료', '음성/전사 미확보'): continue
+        if blocks[1] >= 3: rec['status'] = '음성 받기 세 번 막힘—다음 실행에서 이어서'; continue
         try:
+            if blocks[0]: raise LookupError('자막 서버 막힘 뒤—음성으로')
             with gate('youtube'): fetched = YouTubeTranscriptApi().fetch(rec['id'], languages=['ko', 'en'])
             rec['transcript'] = '\n'.join(x.text for x in fetched); rec['method'] = '공개 자막'
         except Exception as e:
@@ -178,7 +182,6 @@ def transcribe_all(chosen, folder, log, path, blocks):
                 blocks[0] += 1
                 try: observe('youtube', 429, str(e))   # 30분 휴식을 저장한다(다음 gate가 기다림)
                 except RuntimeError: pass
-                continue
             try:
                 audio = folder / '음성'; audio.mkdir(exist_ok=True)
                 with yt_dlp.YoutubeDL({'quiet': True, 'no_warnings': True, 'format': 'bestaudio[ext=m4a]/bestaudio',
@@ -190,12 +193,23 @@ def transcribe_all(chosen, folder, log, path, blocks):
                 f = next(audio.glob(rec['id'] + '.*')); segs = ad_media.transcribe(str(f))
                 rec['transcript'] = ad_media.fmt_segments(segs); rec['method'] = '음성만·로컬 faster-whisper'
                 rec['status'] = '전사 완료' if segs else '로컬 전사 실패'
-            except Exception as err: rec['status'] = '음성/전사 미확보'; rec['audio_error'] = str(err)[:200]
+            except Exception as err:
+                rec['audio_error'] = str(err)[:200]
+                if re.search(r'429|Too Many|blocked|Sign in to confirm', str(err), re.I):
+                    blocks[1] += 1; rec['status'] = '음성 받기 막힘'
+                    try: observe('youtube', 429, str(err))
+                    except RuntimeError: pass
+                else: rec['status'] = '음성/전사 미확보'
         v2.write(path, chosen)
     v2.write(path, chosen)
 
 def youtube_line(plan, plan_dir, logs):
-    alt = plan['alt_youtube']; seen = set(); blocks = [0]
+    alt = plan['alt_youtube']; seen = set(); blocks = [0, 0]   # [자막 막힘, 음성 막힘]
+    # 자막 서버는 한 번 막히면 거의 하루 간다(10-14~15 기록). 24시간 안에 막힌 적이 있으면 처음부터 음성 받아쓰기로 간다.
+    try:
+        st = json.loads((v2.OUT / '_호출제한' / 'youtube.json').read_text(encoding='utf-8'))
+        if st.get('blocked_at') and time.time() - datetime.datetime.fromisoformat(st['blocked_at']).timestamp() < 86400: blocks[0] = 1
+    except Exception: pass
     for f in plan['folders']:
         folder = folder_of(f); path = folder / '영상-원자료.json'; log = logs[f['name']]
         chosen = json.loads(path.read_text(encoding='utf-8')) if path.exists() else None
