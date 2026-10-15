@@ -3,7 +3,7 @@
 사장님 근거: P6517(호출 제한 안에서 병렬), P6524~P6529(결핍 책, 비슷한 결핍은 묶어 중복 크롤링 안 함).
 사용: python deficit_book_collect.py <수집계획.json> [--smoke] [--no-meta]
 
-- 줄 네 개를 동시에 돌린다: 네이버(카페·블로그·지식인 공개 검색), 커뮤니티(네이트판), 유튜브(영상 받아쓰기, 결핍은 댓글도), 메타 광고 라이브러리.
+- 줄 다섯 개를 동시에 돌린다: 네이버 지식인, 네이트판, 디시(사장님 P6533), 유튜브(영상 받아쓰기, 결핍은 댓글도), 메타 광고 라이브러리.
 - 사이트 간격과 차단 휴식(30분)은 voice_rate.gate가 프로세스를 넘어 지킨다. 막히면 기다릴 뿐 우회하지 않는다.
 - 이미 모은 폴더·질의는 건너뛴다. 같은 계열의 대안은 결핍책/대안/<대안>/에 한 번만 모은다.
 - 네이버는 지식인만 본다. 블로그·카페는 보지 않는다(사장님 P6531 "블로그는 아예 보지말자", P6532 "카페도 보지말자, 지식인만 보자").
@@ -99,15 +99,18 @@ def naver_line(plan, plan_dir, logs):
         except Exception as e: logs[f['name']].append({'source': '네이버', 'error': str(e)[:200]})
     status(plan_dir, '네이버', '끝')
 
-# ── 커뮤니티(네이트판) 한 줄 ───────────────────────────────────
-def community_line(plan, plan_dir, logs):
+# ── 커뮤니티 한 줄씩(네이트판, 디시 — 서로 다른 사이트라 따로 돈다) ─────────
+COMMUNITY = {'natepann': ('커뮤니티', '커뮤니티.json'), 'dcinside': ('디시', '디시.json')}
+
+def community_line(plan, plan_dir, logs, site='natepann'):
+    line, fname = COMMUNITY[site]
     for f in plan['folders']:
-        folder = folder_of(f); out = folder / '커뮤니티.json'
+        folder = folder_of(f); out = folder / fname
         if out.exists(): continue
-        status(plan_dir, '커뮤니티', f"{f['kind']}/{f['name']} 시작")
-        try: v2.write(out, v2.community(f['name'], None, folder, logs[f['name']], sites='natepann'))
-        except Exception as e: logs[f['name']].append({'source': '네이트판', 'error': str(e)[:200]})
-    status(plan_dir, '커뮤니티', '끝')
+        status(plan_dir, line, f"{f['kind']}/{f['name']} 시작")
+        try: v2.write(out, v2.community(f['name'], None, folder, logs[f['name']], sites=site))
+        except Exception as e: logs[f['name']].append({'source': site, 'error': str(e)[:200]})
+    status(plan_dir, line, '끝')
 
 # ── 유튜브 한 줄 ─────────────────────────────────────────────
 def pick_videos(queries, n, role, seen, log):
@@ -203,7 +206,7 @@ def finish_all(plan, plan_dir, logs):
     for f in plan['folders']:
         folder = folder_of(f)
         load = lambda n: json.loads((folder / n).read_text(encoding='utf-8')) if (folder / n).exists() else []
-        rows = load('공개검색-원자료.json') + load('커뮤니티.json') + load('유튜브댓글.json')
+        rows = load('공개검색-원자료.json') + load('커뮤니티.json') + load('디시.json') + load('유튜브댓글.json')
         rows = [r for r in rows if not str(r.get('source', '')).startswith(DROP)]
         vids = load('영상-원자료.json')
         k = json.loads((folder / '키워드.json').read_text(encoding='utf-8'))
@@ -237,9 +240,9 @@ if __name__ == '__main__':
     if args.smoke: smoke(plan); sys.exit(0)
     logs = {f['name']: prepare(f) for f in plan['folders']}
     status(plan_dir, '전체', f"시작 — 폴더 {len(plan['folders'])}개")
-    with ThreadPoolExecutor(max_workers=4) as pool:
+    with ThreadPoolExecutor(max_workers=5) as pool:
         jobs = [pool.submit(naver_line, plan, plan_dir, logs), pool.submit(community_line, plan, plan_dir, logs),
-                pool.submit(youtube_line, plan, plan_dir, logs)]
+                pool.submit(community_line, plan, plan_dir, logs, 'dcinside'), pool.submit(youtube_line, plan, plan_dir, logs)]
         if not args.no_meta: jobs.append(pool.submit(meta_line, plan, plan_dir))
         for j in jobs:
             try: j.result()
