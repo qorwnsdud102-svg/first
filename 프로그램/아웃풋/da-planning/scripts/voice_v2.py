@@ -179,7 +179,7 @@ def community(need,kws,folder,log,sites='natepann'):
     allrows=[]
     k=json.loads((folder/'키워드.json').read_text(encoding='utf-8'))
     community_queries=[x['keyword'] for x in k['main']]+[x['keyword'] for x in k['alternatives']]
-    for sites,queries in [(sites,community_queries if sites in ('natepann','dcinside') else [need])]:
+    for sites,queries in [(sites,community_queries if sites!='youtube' else [need])]:
         dest=folder/('커뮤니티-'+sites);dest.mkdir(exist_ok=True)
         def runner(cmd,**kw):
             paced=[cmd[0],'-X','utf8',str(HERE/'voice_rate_runtime.py'),cmd[1],*cmd[2:]]
