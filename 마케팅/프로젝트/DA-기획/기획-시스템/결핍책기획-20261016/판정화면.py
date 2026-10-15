@@ -32,7 +32,7 @@ changes = [
 data = {"plans": plans, "hits": [], "toggles": [], "dropped": [], "changes": changes}
 page = open(TPL, encoding="utf-8").read().replace("__NO__", "시험").replace("__PREV__", "어제").replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", r"<\/"))
 for a, b in [
-    ("기획 시험회차 판정", "결핍 책 첫 기획 — 카드 판정"),
+    ("기획 시험회차 판정", "결핍 책 첫 기획 판정"),
     ('<section aria-labelledby="h-hits">', '<section aria-labelledby="h-hits" hidden>'),
     ('<section aria-labelledby="h-toggles">', '<section aria-labelledby="h-toggles" hidden>'),
     ("<p>점수 띠는 1~3 기각 · 4~5 보류 · 6~7 조건부(고치면 진행) · 8~10 진행입니다. 신호등은 다른 Claude가 미리 본 검사입니다.</p>",

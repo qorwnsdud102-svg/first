@@ -1,0 +1,374 @@
+<title>결핍 책 첫 기획 판정</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
+<style>
+/* 한 줄 세로 흐름: 기획 카드 → 히트 해부 → 켜고 끄는 결정. 카드는 판정 단위에만 쓴다. (1~3회차 화면과 같은 토큰) */
+:root {
+  --bg: #f4f5f2;
+  --surface: #ffffff;
+  --ink: #1c2421;
+  --muted: #5b6662;
+  --line: #dfe3df;
+  --chip: #ecefeb;
+  --accent: #2c6e5a;
+  --accent-ink: #ffffff;
+  --link: #1f5f8b;
+  --ok: #2f8a4e;
+  --mid: #6b7f1f;
+  --warn: #b7791f;
+  --bad: #c0442b;
+  --no: #5b6662;
+  --on-band: #ffffff;
+  --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --font-num: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121614; --surface: #1a201d; --ink: #e6ebe8; --muted: #9aa6a1; --line: #2b3430; --chip: #222a26;
+    --accent: #6cc3a5; --accent-ink: #0f1a16; --link: #8cc4ea; --ok: #5cc580; --mid: #b5cf5f; --warn: #e2a948; --bad: #f0795c;
+    --no: #9aa6a1; --on-band: #0f1a16;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121614; --surface: #1a201d; --ink: #e6ebe8; --muted: #9aa6a1; --line: #2b3430; --chip: #222a26;
+  --accent: #6cc3a5; --accent-ink: #0f1a16; --link: #8cc4ea; --ok: #5cc580; --mid: #b5cf5f; --warn: #e2a948; --bad: #f0795c;
+  --no: #9aa6a1; --on-band: #0f1a16;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; padding-block: 24px 64px; display: grid; gap: 28px; }
+h1, h2 { text-wrap: balance; margin: 0; line-height: 1.3; }
+h1 { font-size: 1.6rem; font-weight: 700; }
+h2 { font-size: 1.15rem; font-weight: 700; }
+.lede { color: var(--muted); margin: 6px 0 0; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-top: 12px; }
+.count { font-family: var(--font-num); font-variant-numeric: tabular-nums; font-size: .95rem; }
+.status { font-size: .85rem; color: var(--muted); }
+.status.bad { color: var(--bad); }
+section { display: grid; gap: 12px; }
+.sec-head { display: grid; gap: 4px; }
+.sec-head p { margin: 0; color: var(--muted); font-size: .92rem; }
+.stack { display: grid; gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.card.done { border-color: var(--accent); }
+.tag { display: inline-block; font-size: .78rem; letter-spacing: .02em; background: var(--chip); color: var(--muted); border-radius: 999px; padding: 1px 10px; }
+.conf { font-size: .8rem; color: var(--muted); }
+.oneline { font-size: 1.12rem; font-weight: 700; margin: 0; }
+.reason { margin: 0; }
+.fixed { margin: 0; font-size: .9rem; color: var(--muted); }
+.fixed b { color: var(--ink); font-weight: 600; }
+.facts { display: grid; grid-template-columns: 7.5em minmax(0, 1fr); gap: 8px 14px; margin: 0; }
+.facts dt { font-weight: 600; color: var(--muted); font-size: .9rem; padding-top: 1px; }
+.facts dt.key { color: var(--accent); }
+.facts dd { margin: 0; min-width: 0; }
+.links { display: flex; flex-wrap: wrap; gap: 2px 14px; margin-top: 4px; font-size: .86rem; }
+.links a { color: var(--link); text-underline-offset: 2px; overflow-wrap: anywhere; }
+.shots { display: flex; gap: 8px; overflow-x: auto; margin-top: 8px; padding-bottom: 4px; }
+.shots a { flex: 0 0 auto; width: 150px; color: var(--muted); text-decoration: none; font-size: .78rem; }
+.shots img { display: block; width: 150px; height: 210px; object-fit: cover; object-position: top; border: 1px solid var(--line); border-radius: 6px; background: var(--chip); }
+.shots span { display: block; margin-top: 3px; line-height: 1.3; }
+.lights { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0; padding: 0; list-style: none; font-size: .88rem; }
+.lights li { display: flex; gap: 6px; align-items: baseline; min-width: 0; }
+.dot { width: 9px; height: 9px; border-radius: 50%; flex: none; transform: translateY(-1px); display: inline-block; }
+.dot.ok { background: var(--ok); } .dot.warn { background: var(--warn); } .dot.bad { background: var(--bad); }
+.lights small { color: var(--muted); }
+details { font-size: .9rem; }
+details summary { cursor: pointer; color: var(--muted); }
+details ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 4px; }
+.judge { border-top: 1px solid var(--line); padding-top: 14px; display: grid; gap: 14px; }
+.judge-row { display: grid; gap: 8px; }
+.row-head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.row-label { font-weight: 600; font-size: .95rem; }
+.pick { font-family: var(--font-num); font-variant-numeric: tabular-nums; font-weight: 700; }
+.nums { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 6px; }
+.num { font-family: var(--font-num); font-size: 1.2rem; font-weight: 700; min-height: 46px; padding: 0; border-radius: 8px; border: 1.5px solid var(--line); border-bottom-width: 5px; background: var(--surface); color: var(--ink); cursor: pointer; }
+.num.b-bad { border-bottom-color: var(--bad); } .num.b-warn { border-bottom-color: var(--warn); }
+.num.b-mid { border-bottom-color: var(--mid); } .num.b-ok { border-bottom-color: var(--ok); }
+.num[aria-pressed="true"] { color: var(--on-band); }
+.num[aria-pressed="true"].b-bad { background: var(--bad); border-color: var(--bad); }
+.num[aria-pressed="true"].b-warn { background: var(--warn); border-color: var(--warn); }
+.num[aria-pressed="true"].b-mid { background: var(--mid); border-color: var(--mid); }
+.num[aria-pressed="true"].b-ok { background: var(--ok); border-color: var(--ok); }
+.legend { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: .84rem; color: var(--muted); }
+.legend span::before { content: ""; display: inline-block; width: 12px; height: 5px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+.legend .l-bad::before { background: var(--bad); } .legend .l-warn::before { background: var(--warn); }
+.legend .l-mid::before { background: var(--mid); } .legend .l-ok::before { background: var(--ok); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: inherit; font-size: .92rem; min-height: 40px; padding: 4px 14px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+.choose { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 1.05rem; min-width: 64px; min-height: 44px; padding: 6px 16px; border-radius: 8px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.btn[aria-pressed="true"].yes { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn[aria-pressed="true"].no { background: var(--no); border-color: var(--no); color: var(--surface); }
+.num:focus-visible, .chip:focus-visible, .btn:focus-visible, input:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note-row { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+.note { font: inherit; font-size: .95rem; flex: 1 1 260px; min-width: 0; min-height: 44px; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
+.saved { font-size: .8rem; color: var(--muted); }
+.plain { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+.dropped { margin: 0; font-size: .9rem; color: var(--muted); }
+.dropped:empty { display: none; }
+.chat { font-size: .9rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; margin: 0; }
+.chat code { font-family: var(--font-num); background: var(--chip); border-radius: 4px; padding: 1px 6px; overflow-wrap: anywhere; }
+@media (max-width: 560px) {
+  .facts { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .facts dd { margin-bottom: 8px; }
+  .nums { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+@media (prefers-reduced-motion: no-preference) { .num, .chip, .btn { transition: background .12s, border-color .12s, color .12s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>결핍 책 첫 기획 판정</h1>
+    <p class="lede" id="lede"></p>
+    <div class="bar">
+      <span class="count" id="count"></span>
+      <span class="status" id="status">저장 준비 중…</span>
+    </div>
+  </header>
+
+  <section aria-labelledby="h-plans">
+    <div class="sec-head">
+      <h2 id="h-plans">1. 기획 — 진행해 볼 만한가</h2>
+      <p>두 가지만 봐 주세요. 결핍에 맞고 타겟이 아는 상징인가, 그 상징의 핵심(USP)이 제품에 직관적으로 옮겨졌나. 점수 띠는 1~3 기각 · 4~5 보류 · 6~7 조건부 · 8~10 진행입니다.</p>
+    </div>
+    <div class="stack" id="plans"></div>
+    <p class="dropped" id="dropped"></p>
+  </section>
+
+  <section aria-labelledby="h-hits" hidden>
+    <div class="sec-head">
+      <h2 id="h-hits">2. 히트 해부 — 잘되는 이유를 맞게 찾았나</h2>
+      <p>지금 메타 광고로 팔리고 있거나 예전에 검색이 높았던 제품입니다. 상세페이지를 끝까지 보고 제품 기획(이름·원료·숫자·용기)에서 이유를 찾았습니다. 점수 띠는 1~3 틀림 · 4~6 반쯤 · 7~10 맞음이고, 틀렸으면 진짜 이유를 한 줄로 적어 주세요.</p>
+    </div>
+    <div class="stack" id="hits"></div>
+  </section>
+
+  <section aria-labelledby="h-toggles" hidden>
+    <div class="sec-head">
+      <h2 id="h-toggles">3. 켜고 끄는 결정</h2>
+      <p>○면 그대로 진행합니다. ×면 이유 칸에 한 줄만 적어 주세요.</p>
+    </div>
+    <div class="stack" id="toggles"></div>
+  </section>
+
+  <details class="changes">
+    <summary>어제회차 판정 뒤 바꾼 것 (읽기만)</summary>
+    <ul class="plain" id="changes"></ul>
+  </details>
+
+  <p class="chat" id="chat"></p>
+</div>
+
+<script>
+const DATA = {"plans": [{"id": "K01", "need": "팔자주름", "line": "스컬트라 → 미국 FDA 팔자 시술 원료를 담은 'PLLA 포뮬러' 팔자 크림", "facts": {"gap": "필러처럼 이물질로 빵빵하게 채우는 건 싫고, 내 피부가 콜라겐을 만들어 꺼진 골이 자연스럽게 차오르길 원한다. 스컬트라를 그렇게 채워 주는 시술로 믿는다.", "product": "'콜라겐을 만들어 서서히 채움'을 PLLA 원료로 옮기고, 못 넣으면 'PLLA 포뮬러'라는 이름으로 옮긴다. 박스 정면에 '미국 FDA가 팔자주름에 승인한 시술의 원료'라는 이야기와 '12주 차오름 루틴' 숫자를 단다.", "risk": "PLLA는 주사용 입자라 크림 원료로 구할 수 있는지 확인해야 한다. 못 넣으면 이름만 남아 상징이 약해진다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K02", "need": "팔자주름", "line": "쥬베룩 → 자는 동안 PDLLA를 찔러 넣는 녹는 니들 팔자 패치", "facts": {"gap": "쥬베룩처럼 내 콜라겐으로 서서히 차오르길 원하지만 주사 통증·결절·붓기는 무섭다. 패치는 떼고 한두 시간이면 원래대로 돌아와 실망했다.", "product": "'주사로 넣은 PDLLA가 콜라겐을 만들게 함'을 녹는 마이크로니들(주사 느낌)에 실은 PDLLA 원료와 '붙일수록 차오름 8주' 숫자로 옮긴다. 기존 히알루론 니들 팔자 패치와 다른 점은 니들에 PDLLA를 싣는 것이다.", "risk": "PDLLA를 녹는 니들에 실어 만드는 OEM이 없으면 흔한 히알루론 팔자 패치와 같아진다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K03", "need": "팔자주름", "line": "디올 립 맥시마이저 → 바르면 화끈하게 차오르는 '팔자 맥시마이저' 플럼핑 스틱", "facts": {"gap": "필러처럼 바로 눈에 보이는 채움을 주사 없이 원한다. 립 맥시마이저를 '바르면 바로 통통해지는 주사 없는 립 필러'로 믿는다.", "product": "'바르는 즉시 화끈하며 부풂'을 같은 플럼핑 원료(진저·바닐릴부틸에터의 화끈한 감각 + 물을 머금는 히알루론 구체)로 옮기고, 입술 바로 옆 팔자 골에 긋는 스틱에 '팔자 맥시마이저'라는 이름을 붙인다. 이미 있는 팔자 주름 스틱과 다른 점은 화끈하게 부풀리는 플럼핑이다.", "risk": "코 옆 피부는 입술보다 두꺼워 덜 부풀 수 있고, 화끈한 느낌이 자극으로 읽힐 수 있다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K04", "need": "목주름", "line": "붙이는 목주름 필러 → 가로선마다 하나씩 붙이는 녹는 히알루론산 미세침 '선 패치'", "facts": {"gap": "가로주름에는 필러가 맞는다는 걸 알고 시술 중 가장 맞고 싶어 하지만, 뭉침과 하얀 선 자국이 무서워 못 맞는다. 바늘 공포 없이 패인 골이 차오르길 원한다.", "product": "필러의 '골에 직접 넣어 채움'을 녹는 히알루론산 미세침(원료·감각)과 목 가로선 길이에 맞춘 가는 스트립(형태)으로 옮긴다. 쿠팡에 있는 눈가·목 겸용 니들패치(후기 28)와 달리, 목 가로선 전용 '선' 모양이라는 점이 다르다.", "risk": "얇고 계속 접히는 목에서 스트립이 붉어짐 없이 밤새 붙어 있어야 한다. 기존 목 팩·패치가 바로 여기서 무너졌다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K05", "need": "목주름", "line": "목에 바르는 더마틱스 → 1분이면 투명 실리콘 막이 되는 '붙이지 않는 실리콘 넥 패치' 젤", "facts": {"gap": "폰과 베개에 접혀 생긴 선이라 '살이 접히지 않게 막는' 실리콘 패치 원리는 믿지만, 패치는 2시간이면 떨어진다. 수술·제왕절개 흉터를 납작하게 편 약국 실리콘 젤이라면 목 선도 펴 줄 거라 믿는다.", "product": "더마틱스의 '마르면서 생기는 얇은 실리콘 막이 눌러 평평하게 함'을 같은 실리콘 계열 원료(폴리실록산·실리카)로 만든 빨리 마르는 젤과 약국 연고 튜브로 옮긴다. 쿠팡에 실리콘 넥 패치는 23개가 팔리지만 바르는 막 젤은 못 찾았다.", "risk": "고개를 숙이고 돌려도 막이 갈라지거나 밀리지 않고 밤새 유지되는 제형이 나와야 '패치 대신'이라는 말이 성립한다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K06", "need": "목주름", "line": "바르는 실크 베개 → 자기 전 목에 바르는 실크 슬리핑 넥 크림", "facts": {"gap": "목주름 없는 사람의 비결로 베개와 '목까지 바르기'를 꼽지만, 엄청 부지런해야 해서 못 한다. 실크 베개는 자는 동안 눌리고 쓸려 생기는 주름을 막아 준다고 믿는다.", "product": "실크 베개의 '매끄러운 면이 밤새 마찰과 눌림을 줄임'을 바르면 실크처럼 미끄러운 막이 남는 감촉(감각), 실크 단백질(원료), 이름 '바르는 실크 베개'로 옮긴다. 자기 전에 한 번만 바르면 되는 것이 차이이고, 쿠팡에는 실크펩타이드 넥 괄사크림 1개(후기 0)뿐이다.", "risk": "'실크베개커버' 월 검색량이 670으로 작아서, 베개가 바로 떠오르지 않으면 평범한 보습 넥크림으로 보인다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K07", "need": "볼패임", "line": "쥬베룩 볼륨 → 꺼진 옆볼에 바르는 PDLLA 볼륨 앰플", "facts": {"gap": "이 사람들은 필러는 뭉칠까 무섭고, 쥬베룩은 아픈 데다 한 번에 44만원이라 망설인다. 그래서 '내 콜라겐이 서서히 차오른다'는 쥬베룩 볼륨의 자연스러운 채움을 집에서 원한다.", "product": "쥬베룩의 USP(PDLLA가 콜라겐을 만들게 해 서서히 차오름)를 PDLLA 원료로 옮기고, 못 넣으면 'PDLLA 포뮬러'라는 이름으로 옮긴다. 시술용 1cc 바이알을 닮은 앰플 용기와 '스킨'이 아닌 '볼륨' 표기를 더한다. 약국 PDLLA 크림(쥬베클)은 있지만 꺼진 볼 전용 앰플은 못 봤고, 그게 차이다.", "risk": "바르는 PDLLA로 볼이 차오른다는 근거가 없다. 그래서 '차오름'을 약속하지 못하면 '농도 짙은 토너' 같은 실망이 남는다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K08", "need": "볼패임", "line": "스컬트라 → 살 빠져 꺼진 볼에 바르는 'PLLA 포뮬러' 볼 크림", "facts": {"gap": "급감량하거나 원래 말라서 먹어도 얼굴살이 안 붙는 사람들이다. 미국 FDA가 얼굴 지방이 빠진 것을 치료하라고 승인한 원조 스컬트라처럼 오래가는 채움을 믿는다.", "product": "스컬트라의 USP(PLLA로 콜라겐을 만들어 오래 채움)를 PLLA 원료로 옮기고, 못 넣으면 'PLLA 포뮬러'라는 이름으로 옮긴다. 용기는 'FDA 원조' 이야기를 담은 미국 처방약 병 모양으로 한다. 이미 있는 PLLA 크림(에셀라이트)은 팔자용이라 '지방 빠진 볼 전용'이 차이다.", "risk": "FDA 승인은 주사 시술이 받은 것이라 크림 광고에는 쓸 수 없다. 그러면 이미 있는 PLLA 크림과의 차이가 '볼 전용' 하나만 남을 수 있다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K09", "need": "볼패임", "line": "슈링크 × 옆볼 필러 → 턱선은 조이고 옆볼은 채우는 2구 리프팅 스틱", "facts": {"gap": "리프팅이나 턱 보톡스를 하고 싶지만 볼패임이 무서운 사람들이다. 병원에서처럼 '턱라인 위주로' 당기고 꺼진 옆볼은 채우는, '볼패임 걱정 없는' 리프팅을 원한다.", "product": "슈링크의 USP(순한 입문 리프팅)는 턱선 칸의 조이는 느낌과 '300샷' 숫자로 옮긴다. 옆볼 필러의 USP(꺼진 곳을 바로 채움)는 볼 칸의 쫀쫀한 볼륨 젤과 '1cc' 숫자로 옮긴다. 2구 용기는 조이는 쪽을 볼에는 바르지 않는다는 걸 보여 준다.", "risk": "이 결핍에서는 리프팅 이름이 볼패임의 원인으로도 읽힌다. '슈링크'를 앞세우면 오히려 공포를 부를 수 있다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K10", "need": "이중턱", "line": "윤곽주사 → 턱밑에 붙이는 '바늘 없는 윤곽주사' 미세침 패치", "facts": {"gap": "턱밑 진성살을 칼 없이 녹여 준다고 믿고 '간단하고 회복 빠를 것 같아' 알아보지만(검색 1.2만), 붓기·멍·볼패임과 상담실 업셀이 무서워 문턱에서 멈춘다. 원하는 건 살 빠짐보다 '턱 밑이 덜 묵직하고 라인이 정돈'된 얼굴이다.", "product": "'주사로 녹인다'는 USP를 녹는 미세침(용기·감각)과 윤곽주사 대표 성분 PPC(원료)로 옮겨, 붙이면 바늘이 녹아드는 주사 경험을 집에서 만든다. 쿠팡 PPC는 바디 슬리밍 크림뿐이고 니들 패치는 리프팅·스팟용뿐이며, 턱밑 PPC 니들 패치는 못 찾음.", "risk": "지방을 녹인다는 말은 화장품에 못 써서, 미세침 감각 뒤에 '덜 묵직함' 체감이 없으면 흔한 리프팅 니들 패치(메디힐 VTR 후기 1,610)와 같아 보인다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K11", "need": "이중턱", "line": "온다리프팅 → 속은 데우고 겉은 식히는 '바르는 온다' 턱살 크림", "facts": {"gap": "살 많은 얼굴의 지방을 데워 빼는 시술로 알고(검색 5.5만) '한 거 모르는데 라인이 날카로워졌다'는 말을 원하지만, 아픔(30%)·비쌈(22%)·붓기(21%)가 막는다.", "product": "속 지방층은 데우고 표면은 식히는 USP를 온감 원료와 쿨링 원료를 겹친 '속열 겉쿨' 이중 감각으로, 온다를 파는 '줄(J)' 단위는 '8만줄' 같은 숫자로 옮긴다. 메타 8.9%는 대부분 병원 시술 광고이고, 쿠팡엔 이름만 빌린 셀프인모드 턱살크림(후기 40)뿐이며 온다 감각을 옮긴 크림은 못 찾음.", "risk": "얼굴 열감은 유쎄라블 리프팅샷 아이크림처럼 '화끈거림·효과 없음' 1~2점(356/1500)으로 돌아올 수 있다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K12", "need": "이중턱", "line": "카이벨라 → 미국 FDA 이중턱 주사 성분(DCA)을 담은 처방약 라벨 턱밑 앰플", "facts": {"gap": "'살인데 안 빠진다'며 리프팅템에 '또 속았다'는 타겟에게, 미국 FDA가 턱밑 지방용으로 승인한 주사는 이름을 몰라도(검색 10) 한눈에 믿을 근거가 된다.", "product": "FDA가 승인한 이중턱 전용 주사라는 USP를 그 주성분 디옥시콜산(DCA, 원료)과 미국 처방 바이알 라벨(용기)로 옮긴다. 쿠팡의 DCA 이중턱 패치(후기 2)는 성분만 쓰고 'FDA 이중턱 주사' 상징은 입히지 않았다.", "risk": "'FDA 승인'은 원본 주사 이야기라, 우리 제품이 승인받은 것처럼 읽히면 표시광고 위반이 된다. 권위를 어디까지 빌릴지 선을 정확히 그어야 한다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K13", "need": "기미", "line": "트란시노 → 혈전 걱정 뺀 '8주 먹는 기미약' 정", "facts": {"gap": "기미 타겟은 트란시노를 일본 약국에서 사 오는 먹는 기미약으로 알고, '3주차쯤 톤이 환해진다'고 믿는다. 그런데 혈전·붓기가 무섭고 8주 제한이 있어 못 먹는다. 바라는 건 완치가 아니라 '더 퍼지고 진해지지만 않게'다.", "product": "'먹어서 안에서 막는 기미약'이라는 USP를 원료·숫자·용기로 옮긴다. 혈전 걱정을 부르는 트라넥삼산 대신 자매품(화이트C 클리어)처럼 비타민C·L-시스테인을 넣고, '8주·하루 2번' 코스 숫자와 일본 약국 상자 모양을 입힌다.", "risk": "트라넥삼산이 빠진 정을 '트란시노급'으로 믿어 줄지가 걸린다. 핵심 성분 없이 이름과 모양으로만 옮긴 상징이 된다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K14", "need": "기미", "line": "트리루마 → 미국 FDA 기미 3중 처방을 본뜬 3칸 트리플 크림", "facts": {"gap": "기미 타겟은 '들어 있다는데 효과 없는' 미백 크림에 데여서 약처럼 확실한 걸 원한다. 트리루마라는 이름은 몰라도 '미국 FDA가 기미 치료제로 승인한 3중 크림'이라는 권위는 한눈에 믿는다.", "product": "'세 약을 한 번에(멜라닌 억제·배출·진정)'라는 USP를 원료·용기·숫자로 옮긴다. 하이드로퀴논은 그 배당체인 알부틴, 트레티노인은 한 단계 앞인 레티날, 스테로이드는 판테놀·병풀로 바꿔 세 칸이 보이는 3칸 튜브에 담는다. 쿠팡의 '트리플' 기미크림(파티온 멜라제로 1,006)은 이름만 트리플이라, 칸이 보이는 용기와 처방에 짝을 맞춘 원료가 차이다.", "risk": "타겟이 이름을 모른다(검색 월 20). 'FDA 승인 처방' 한 줄에 기대야 하는데, 그 문구가 화장품 광고에서 오인 표현으로 막힐 수 있다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K15", "need": "기미", "line": "교정 유지장치 → 토닝 뒤 밤마다 바르는 '토닝 유지장치' 크림", "facts": {"gap": "기미 타겟은 토닝으로 옅어져도 '햇빛 보면 다시 올라온다'는 걸 이미 안다. 그래서 없애기보다 옅어진 상태가 되돌아가지 않기를 원한다. 교정이 끝나고 유지장치를 끼는 이유와 같다.", "product": "'되돌아가지 않게 밤마다 붙잡아 둔다'는 USP를 이름·용기·숫자로 옮긴다. 이름은 '토닝 유지장치', 용기는 리테이너 케이스처럼 여닫는 투명 케이스, 숫자는 '토닝 끝난 날부터 12주 밤마다'이고 속에는 멜라닌 생성 억제 원료를 넣는다. 쿠팡의 '토닝' 크림(아멜라토닝 9,301 등)은 토닝 효과를 팔고, 이건 토닝 뒤의 유지를 판다.", "risk": "크림에서 유지장치가 느껴지는지가 걸린다. 거북목 × 치아교정(1점)처럼 생김새가 원래 상징을 담지 못하면 이름만 빌린 크림이 된다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K16", "need": "여드름흉터", "line": "아젤리아 → 여드름 자국 전용 아젤라산 약 튜브 크림", "facts": {"gap": "타겟은 아젤리아를 여드름 약 크림으로 이미 안다(월 검색 49,990). 그래서 시술 없이 새 여드름과 붉은·갈색 자국을 함께 옅게 해 줄 거라 믿는다.", "product": "아젤리아의 핵심 원료인 아젤라산을 그대로 넣고, 약 같은 알루미늄 튜브와 농도 숫자로 '약 크림' 이미지를 옮긴다. 쿠팡에 아젤라산 크림은 6개(후기 85개 이하)뿐이고, '자국 전용' 약 튜브형은 못 찾았다.", "risk": "같은 성분의 약(아젤리아)을 약국에서 살 수 있다. 화장품을 따로 살 결정적 차이(자국 전용·저자극)를 못 보이면 원조 약을 산다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K17", "need": "여드름흉터", "line": "트란시노 → 먹지 않고 바르는 갈색 여드름 자국 트라넥삼산 앰플", "facts": {"gap": "트란시노는 기미를 먹어서 지우는 일본 약으로 알려져 있다(월 3,320). 그래서 갈색으로 남은 여드름 자국도 시술 없이 옅게 해 줄 거라 믿는다.", "product": "트란시노의 핵심 원료인 트라넥삼산을 먹는 대신 바르는 고함량 앰플로 옮기고, 일본 약국풍 박스와 함량 숫자로 '일본 기미약' 이미지를 입힌다. 쿠팡 트라넥삼산 크림 29개와 다른 점은 '일본 기미약을 바른다'는 이름과 갈색 여드름 자국 전용이라는 점이다.", "risk": "트라넥삼산 크림·앰플은 이미 흔하다(더마팩토리 6% 크림 후기 6,756). '일본 기미약' 이미지가 약하면 흔한 트라넥삼산 제품 중 하나로 보인다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K18", "need": "여드름흉터", "line": "브이빔 → 붉은 여드름 자국만 골라 끄는 595 쿨링 젤", "facts": {"gap": "타겟은 붉은 자국에는 프락셀이 아니라 혈관 레이저를 쓴다고 알고 있다(월 2,010). 딱지와 연차 걱정 없이 붉은기부터 빼면 흉터가 덜 도드라진다고 믿는다.", "product": "브이빔의 USP인 '붉은 혈관만 골라 다운타임 없이'를 세 가지로 옮긴다: 시술 때 뿌리는 냉각 가스처럼 바르는 순간 차가운 감각, '595nm' 숫자를 단 노란빛 젤, 붉은기 진정 원료. 쿠팡 레드스팟 제품(폴메디슨 6,315·메디비 5,615) 중에 혈관 레이저 이름·숫자·냉감을 단 젤은 못 찾았다.", "risk": "쿨링과 숫자만으로는 레이저 이미지가 서지 않는다. 그러면 예전에 받은 '알로에로는 브이빔 상징을 못 가져온다' 판정을 다시 받는다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K19", "need": "튼살", "line": "붙이는 스컬트라 → 튼살 선을 따라 붙이고 자는 PLLA 녹는 미세침 스트립", "facts": {"gap": "이미 튼 사람은 '튼살크림 소용없다'고 믿고, 시술은 3~5회 견적에 막힌다. 스컬트라처럼 피부 속에 넣어 내 콜라겐으로 채우는 관리를 집에서 원한다.", "product": "스컬트라의 USP(PLLA로 콜라겐 생성)는 원료 PLLA로, '피부 속에 넣는다'는 아크로패스식 녹는 미세침으로 옮긴다. 쿠팡의 튼살 패치(실리콘·탄력, 후기 0~3)는 덮는 패치라서, 선 길이 스트립으로 PLLA를 넣는 이 패치와 다르다.", "risk": "PLLA를 실은 녹는 미세침을 선 길이로 만들어 줄 OEM과 단가. 선이 많으면 한 통 값이 커진다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K20", "need": "튼살", "line": "튼살 본드: 올라플렉스처럼 끊어진 결을 잇는 No.1 앰플 → No.2 크림 2단계", "facts": {"gap": "타겟은 튼살을 '피부가 늘어나는 속도를 못 따라가 찢어진 선'으로 안다. 탈색으로 끊어진 머리를 되살린 올라플렉스처럼 끊어진 걸 다시 잇는 해결을 원한다.", "product": "올라플렉스의 USP(끊어진 결합을 잇는 본드 빌더)는 이름 '본드'와 번호 단계(No.1 → No.2)로 옮기고, 잇는 작용은 탄력섬유 형성을 돕는 원료(딜 추출물 계열)로 옮긴다. 쿠팡 '튼살 앰플'(바른채움 113)에는 본드·번호 단계형이 없다.", "risk": "머리카락 상징이라 피부로 옮겼을 때 '본드' 이미지가 튼살과 바로 이어지는지가 걸린다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K21", "need": "튼살", "line": "바르는 튼살 리쥬란 → 붉은 선에 하루 한 병 바르는 연어 PDRN 바이알 앰플", "facts": {"gap": "붉은 튼살은 피부 속이 아직 회복 중인 때라서, 하얗게 굳기 전에 손쓰고 싶어 한다. 재생 주사로 아는 리쥬란을 시술비 없이 집에서 쓰기를 원한다.", "product": "리쥬란의 USP(연어 DNA로 손상 피부 재생)는 같은 연어 DNA 원료인 PDRN으로, '한 번 맞는 주사'는 1회분 바이알로 옮긴다. 이미 있는 PDRN 바디로션(쿠팡 10개, 후기 80 안팎)과 달리 붉은 선에만 쓰는 튼살 전용이다.", "risk": "PDRN은 얼굴 앰플·바디로션에 이미 흔해서 '또 PDRN'으로 보이면 후킹이 약해진다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K22", "need": "소극성속모증", "line": "디페린 → 처방 없이 바르는 '미국 약국 0.1' 코·턱 레티노이드 젤", "facts": {"gap": "블랙헤드 제품을 다 써도 안 빠지는 까만 점이 있는 사람은, 미국에선 약국에서 그냥 사는 레티노이드라면 막힌 모공 입구가 풀린다고 믿는다. 한국에선 피부과에 가야 받는 약이라 '병원 안 가도 된다'는 것 자체가 가치다.", "product": "'처방 없이 쓰는 레티노이드'라는 USP를 원료·숫자·용기로 옮긴다. 아다팔렌 대신 바로 작용하는 레티노이드 에스터(HPR)를 넣고, 정면에 '0.1'을 크게 쓰고, 미국 약국 연고 튜브에 담는다. 밤에 콩알 하나만 바르는 루틴으로 판다.", "risk": "아다팔렌도 디페린이라는 이름도 쓸 수 없다. 튜브와 숫자만으로 디페린이 떠오르지 않으면 흔한 레티놀 젤로 보인다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K23", "need": "소극성속모증", "line": "스티바A → 뜯지 않고 밤새 붙여 두는 레티날 코 시트", "facts": {"gap": "코팩·연화제를 써도 반응이 없던 사람은 의사가 속모증에 바르라고 하는 처방 레티노이드를 원하지만, 병원은 부담스럽다. 늘 하던 코팩처럼 붙이기만 하면 되니 매일 할 수 있다.", "product": "'각질 마개를 풀어 갇힌 털이 저절로 빠지게 한다'는 USP를 원료와 형식으로 옮긴다. 트레티노인 바로 앞 단계인 레티날을 하이드로겔 코·턱 시트에 담아 자기 전에 붙이고 아침에 뗀다. 뜯어내지 않아서 코팩처럼 모공을 넓히지 않는 '뽑지 않는 코팩'이다.", "risk": "시트로 만들면 처방 연고 이미지가 옅어진다. 쿠팡에 이미 있는 레티날 모공 패치와 똑같아 보일 수 있다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K24", "need": "소극성속모증", "line": "리들샷 × 살리실산 → 털이 갇힌 코·턱 모공 입구까지 파고드는 BHA 스피큘 에센스", "facts": {"gap": "까만 점이 모공 안에 박혀서 안 빠진다고 느끼는 사람은, 따끔하게 파고드는 리들샷이라면 성분이 막힌 입구 속까지 닿는다고 믿는다. 살리실산(BHA)은 각질제거제 중에서 이미 믿는 성분이다.", "product": "'미세 침이 길을 내 성분을 깊이 넣는다'는 리들샷의 USP는 스피큘의 따끔한 감각으로, 각질 마개를 푸는 기능은 살리실산·PHA 원료로 옮긴다. 기존 모공 스피큘(PDRN·블루 등)과 달리 '털이 갇힌 각질 마개'를 겨냥하고, 용량은 코·턱 전용 소용량으로 줄인다.", "risk": "쿠팡에 모공 스피큘 제품이 이미 25개 넘게 있다. 살리실산을 넣고 코 전용으로 만드는 것만으로는 달라 보이지 않을 수 있다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K25", "need": "쥐젖", "line": "냉동치료 → 목 오돌토돌에 한 점씩 콕 찍는 -196 쿨링 스왑", "facts": {"gap": "타겟은 냉동치료를 '얼려서 떨어지게 하는 병원 방법'으로 알지만, 아프고 여러 번 가야 해서 미룬다. 그 차가운 한 점을 집에서, 아프지 않게 받고 싶어 한다.", "product": "냉동치료의 USP인 차가움을 감각으로 옮긴다. 바르는 순간 얼음처럼 차가운 쿨링에, 병원처럼 면봉 끝으로 콕 찍는 1회용 스왑 용기와 이름 '-196'을 더한다. 쿠팡에서 '쥐젖'이 이름에 든 제품은 크림·스팟·고무 링뿐이었고, 차가운 1회용 스왑은 못 찾았다.", "risk": "얼려서 떼는 상징이라, 광고가 '떨어진다'를 약속하는 순간 불법이 되고 평점이 무너진다(비렌느 2.96)."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K26", "need": "쥐젖", "line": "요쿠이닌 → 일본 이보약 함량 그대로, 먹는 율무 정", "facts": {"gap": "타겟은 율무를 쥐젖 성분으로 이미 봤지만, 바르는 율무 크림은 과대광고로 의심한다. 일본에서는 율무를 이보 약으로 먹는다는 권위가 민간요법 느낌을 지운다.", "product": "요쿠이닌의 USP인 '율무 추출물을 약으로 먹는다'를 원료·숫자·형태로 옮긴다. 요쿠이닌의 하루 율무 추출 함량을 상자 정면에 숫자 그대로 담은 정(카베진의 양배추처럼)에 피부 보습 고시 원료를 더한다. 쿠팡 '목 오돌토돌'에는 바르는 율무 크림이 18개(잇퓨 후기 4,359)나 있지만, 먹는 율무 정은 2개(후기 0·80)뿐이다.", "risk": "국내 타겟은 '요쿠이닌'을 거의 모른다(검색 30). 상자에서 '일본 약국 이보약'이 한눈에 보이지 않으면 흔한 율무 정이 된다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}, {"id": "K27", "need": "쥐젖", "line": "트란시노 → 레이저로 뗀 쥐젖 자리마다 찍는 트라넥삼산 도트 앰플", "facts": {"gap": "타겟은 결국 병원에서 수십 개를 떼고 나서 '색소침착이나 흉이 남을까' 걱정한다. 트란시노는 먹는 일본 기미약, 곧 '색소 잡는 약'으로 안다.", "product": "트란시노의 USP인 트라넥삼산 색소 억제를 원료·숫자·용기로 옮긴다. 트라넥삼산 고함량(정면에 %)과 나이아신아마이드 미백 기능성에, 뗀 자리에 한 점씩 찍는 도트 팁과 '딱지 떨어진 날부터'라는 시점을 더한다. 쿠팡 트라넥삼산 앰플은 이미 29개(더마팩토리 6,756)라 '뗀 자리 전용 도트'로 비틀었고, 그런 스팟용은 못 찾았다.", "risk": "뗀 뒤 색소 관리는 수요 근거가 얇다(질문 몇 개뿐). 그래서 제거를 바라는 타겟의 지갑을 열지 못할 수 있다."}, "fixed": "", "lights": [], "defaults": [], "links": {}}], "hits": [], "toggles": [], "dropped": [], "changes": ["오늘 밤 새로 만든 결핍 책(원인·대안·타겟 인식·시장 지도) 위에서 Opus 최대 + 새 방식으로 만든 첫 기획입니다.", "결핍마다 상징 후보 10개 → 검색량·매대 비율 확인 → 3장. 같은 결핍 안에서 상징은 서로 다릅니다.", "매기는 법: 점수 1~10, 제일 걸리는 곳(결핍 / 상징 짝 / 구현 당위 / 없음), 이유 한 줄. 7점 이상이 '발전시킬 만함'입니다."]};
+const FACTS = [["gap", "타겟 가치"], ["product", "어떻게 옮기나", true], ["risk", "남은 걸림"]];
+const BANDS = {
+  plan: [[1, 3, "기각", "bad"], [4, 5, "보류", "warn"], [6, 7, "조건부", "mid"], [8, 10, "진행", "ok"]],
+  hit: [[1, 3, "틀림", "bad"], [4, 6, "반쯤", "warn"], [7, 10, "맞음", "ok"]],
+};
+const PARTS = ["결핍", "상징 짝", "구현 당위", "없음"];
+const PLANS = DATA.plans, HITS = DATA.hits || [], TOGGLES = DATA.toggles || [];
+const KIND = {};
+PLANS.forEach(p => KIND[p.id] = "plan"); HITS.forEach(h => KIND[h.id] = "hit"); TOGGLES.forEach(t => KIND[t.id] = "toggle");
+const IDS = Object.keys(KIND);
+const state = {};
+let db = null;
+
+function el(tag, attrs, ...kids) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (k === "class") n.className = v; else if (k === "text") n.textContent = v; else n.setAttribute(k, v);
+  }
+  for (const c of kids) if (c) n.append(c);
+  return n;
+}
+
+function bandOf(kind, n) { return BANDS[kind].find(b => n >= b[0] && n <= b[1]); }
+
+function scoreRow(id, kind) {
+  const nums = el("div", { class: "nums", role: "group", "aria-label": "점수 1~10" });
+  for (let n = 1; n <= 10; n++) {
+    const b = bandOf(kind, n);
+    const btn = el("button", { class: "num b-" + b[3], type: "button", "aria-pressed": "false", "data-id": id, "data-score": String(n), "aria-label": n + "점, " + b[2] }, String(n));
+    btn.addEventListener("click", () => save(id, { score: n }));
+    nums.append(btn);
+  }
+  const legend = el("div", { class: "legend" });
+  for (const [lo, hi, word, c] of BANDS[kind]) legend.append(el("span", { class: "l-" + c, text: lo + "~" + hi + " " + word }));
+  return el("div", { class: "judge-row" },
+    el("div", { class: "row-head" }, el("span", { class: "row-label", text: "점수" }), el("span", { class: "pick", id: "pick-" + id })),
+    nums, legend);
+}
+
+function partsRow(id) {
+  const chips = el("div", { class: "chips", role: "group", "aria-label": "제일 걸리는 곳" });
+  for (const p of PARTS) {
+    const c = el("button", { class: "chip", type: "button", "aria-pressed": "false", "data-id": id, "data-part": p }, p);
+    c.addEventListener("click", () => save(id, { weak: p }));
+    chips.append(c);
+  }
+  return el("div", { class: "judge-row" }, el("span", { class: "row-label", text: "제일 걸리는 곳" }), chips);
+}
+
+function markRow(id) {
+  const row = el("div", { class: "choose", role: "group", "aria-label": "○ 진행 / × 안 함" });
+  for (const [mark, cls, word] of [["○", "yes", "진행"], ["×", "no", "안 함"]]) {
+    const b = el("button", { class: "btn " + cls, type: "button", "aria-pressed": "false", "data-id": id, "data-mark": mark, "aria-label": mark + " " + word }, mark);
+    b.addEventListener("click", () => save(id, { mark }));
+    row.append(b);
+  }
+  return row;
+}
+
+function noteRow(id, hint) {
+  const note = el("input", { class: "note", type: "text", id: "note-" + id, placeholder: hint, "aria-label": hint, "data-id": id });
+  note.addEventListener("change", () => save(id, { note: note.value.trim() }));
+  return el("div", { class: "note-row" }, note, el("span", { class: "saved", id: "saved-" + id }));
+}
+
+function shotStrip(list) {
+  if (!list || !list.length) return null;
+  const box = el("div", { class: "shots" });
+  for (const [src, cap] of list) box.append(el("a", { href: src, target: "_blank", rel: "noopener" }, el("img", { src: src, alt: cap, loading: "lazy" }), el("span", { text: cap })));
+  return box;
+}
+
+function linkLine(list) {
+  if (!list || !list.length) return null;
+  const box = el("span", { class: "links" });
+  for (const [label, url] of list) box.append(el("a", { href: url, target: "_blank", rel: "noopener", text: label + " ↗" }));
+  return box;
+}
+
+function renderPlans() {
+  const box = document.getElementById("plans");
+  for (const p of PLANS) {
+    const facts = el("dl", { class: "facts" });
+    for (const [key, name, main] of FACTS) {
+      if (!p.facts[key]) continue;
+      const dd = el("dd", {}, document.createTextNode(p.facts[key]));
+      const links = linkLine((p.links || {})[key]);
+      if (links) dd.append(el("br"), links);
+      facts.append(el("dt", { class: main ? "key" : "", text: name }), dd);
+    }
+    const card = el("article", { class: "card", id: "card-" + p.id },
+      el("div", {}, el("span", { class: "tag", text: p.need })),
+      el("p", { class: "oneline", text: p.line }),
+      facts);
+    if (p.lights && p.lights.length) {
+      const lights = el("ul", { class: "lights" });
+      for (const [lv, name, sub] of p.lights) {
+        lights.append(el("li", {}, el("span", { class: "dot " + lv, "aria-hidden": "true" }), el("span", { text: name }), sub ? el("small", { text: sub }) : null));
+      }
+      card.append(lights);
+    }
+    if (p.fixed) card.append(el("p", { class: "fixed" }, el("b", { text: "검사 뒤 고친 것 " }), document.createTextNode(p.fixed)));
+    if (p.defaults && p.defaults.length) {
+      const ul = el("ul");
+      for (const d of p.defaults) ul.append(el("li", { text: d }));
+      card.append(el("details", {}, el("summary", { text: "정하실 것 " + p.defaults.length + "개 — 추천대로 갑니다 (바꾸실 것만 이유 칸에)" }), ul));
+    }
+    card.append(el("div", { class: "judge" }, scoreRow(p.id, "plan"), partsRow(p.id),
+      noteRow(p.id, "왜 이 점수인지 한 줄 — 짧아도 제일 많이 배웁니다")));
+    box.append(card);
+  }
+  document.getElementById("h-plans").textContent = "카드 " + PLANS.length + "장";
+  if (DATA.dropped && DATA.dropped.length) document.getElementById("dropped").textContent = "화면에서 뺀 기획: " + DATA.dropped.join(" · ");
+}
+
+function renderHits() {
+  const box = document.getElementById("hits");
+  for (const h of HITS) {
+    const facts = el("dl", { class: "facts" });
+    for (const [name, text, main] of [["무엇", h.what], ["잘되는 이유", h.reason, true], ["우리가 배울 길", h.way]]) {
+      if (text) facts.append(el("dt", { class: main ? "key" : "", text: name }), el("dd", { text: text }));
+    }
+    const head = el("div", {}, el("span", { class: "tag", text: h.brand }), document.createTextNode(" "), el("span", { class: "conf", text: h.conf }));
+    const links = linkLine(h.links);
+    box.append(el("article", { class: "card", id: "card-" + h.id }, head, facts, shotStrip(h.imgs), links,
+      el("div", { class: "judge" }, scoreRow(h.id, "hit"), noteRow(h.id, "틀린 곳이 있으면 진짜 이유 한 줄"))));
+  }
+  document.getElementById("h-hits").textContent = "2. 히트 해부 " + HITS.length + "장 — 잘되는 이유를 맞게 찾았나";
+}
+
+function renderToggles() {
+  const box = document.getElementById("toggles");
+  for (const t of TOGGLES) {
+    const card = el("article", { class: "card", id: "card-" + t.id }, el("p", { class: "oneline", text: t.title }), el("p", { class: "reason", text: t.text }));
+    if (t.why) card.append(el("p", { class: "fixed" }, el("b", { text: "왜 " }), document.createTextNode(t.why)));
+    if (t.items && t.items.length) {
+      const ul = el("ul", { class: "plain" });
+      for (const x of t.items) ul.append(el("li", { text: x }));
+      card.append(ul);
+    }
+    card.append(el("div", { class: "judge" }, markRow(t.id), noteRow(t.id, t.hint || "×면 이유 한 줄")));
+    box.append(card);
+  }
+}
+
+function answered(id) {
+  const s = state[id] || {};
+  return KIND[id] === "toggle" ? !!s.mark : Number.isInteger(s.score);
+}
+
+function paint(id) {
+  const s = state[id] || {};
+  const mine = sel => document.querySelectorAll('[data-id="' + id + '"]' + sel);
+  mine("[data-score]").forEach(b => b.setAttribute("aria-pressed", String(Number(b.dataset.score) === s.score)));
+  mine("[data-part]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.part === s.weak)));
+  mine("[data-mark]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mark === s.mark)));
+  const pick = document.getElementById("pick-" + id);
+  if (pick) pick.textContent = Number.isInteger(s.score) && BANDS[KIND[id]] ? s.score + "점 · " + bandOf(KIND[id], s.score)[2] : "";
+  const note = document.getElementById("note-" + id);
+  if (note && document.activeElement !== note && typeof s.note === "string") note.value = s.note;
+  const card = document.getElementById("card-" + id);
+  if (card) card.classList.toggle("done", answered(id));
+  document.getElementById("count").textContent = IDS.length + "개 중 " + IDS.filter(answered).length + "개 답함";
+}
+
+function setStatus(text, bad) {
+  const s = document.getElementById("status");
+  s.textContent = text; s.classList.toggle("bad", !!bad);
+}
+
+async function save(id, patch) {
+  const next = Object.assign({}, state[id] || {}, patch, { at: new Date().toISOString() });
+  state[id] = next;
+  paint(id);
+  const tag = document.getElementById("saved-" + id);
+  if (!db) { setStatus("이 화면에서는 저장되지 않습니다. 채팅으로 답해 주세요.", true); return; }
+  try {
+    await db.doc("answers/" + id).set(next);
+    if (tag) tag.textContent = "저장됨";
+    setStatus("누르시는 대로 저장됩니다.");
+  } catch (e) {
+    if (tag) tag.textContent = "저장 안 됨";
+    setStatus("저장이 안 됐습니다. 채팅으로 답해 주세요.", true);
+  }
+}
+
+function renderRest() {
+  document.getElementById("lede").textContent = "카드 " + PLANS.length + "장, 점수(1~10) · 제일 걸리는 곳 · 이유 한 줄입니다. 마음에 드는 것만 길게, 나머지는 점수만 줘도 됩니다. 15분쯤 걸리고, 누르시는 대로 저장됩니다.";
+  const ul = document.getElementById("changes");
+  for (const t of DATA.changes || []) ul.append(el("li", { text: t }));
+  const ex = "카드 " + PLANS.map((_, i) => [6, 4, 3, 5, 7][i % 5]).join(" ");
+  document.getElementById("chat").append("채팅으로 답하셔도 됩니다. 예: ", el("code", { text: ex }), " 다음 줄부터 카드마다 걸리는 곳과 이유 한 줄.");
+  document.getElementById("count").textContent = IDS.length + "개 중 0개 답함";
+}
+
+renderPlans(); renderHits(); renderToggles(); renderRest();
+
+(async () => {
+  try { db = window.claude && window.claude.use ? await window.claude.use("db") : null; } catch (e) { db = null; }
+  if (!db) { setStatus("이 화면에서는 저장되지 않습니다. 채팅으로 답해 주세요.", true); return; }
+  setStatus("누르시는 대로 저장됩니다.");
+  db.collection("answers").onSnapshot(snap => {
+    for (const d of snap.docs) if (d.exists) state[d.id] = Object.assign({}, d.data());
+    for (const id of Object.keys(state)) if (KIND[id]) paint(id);
+  }, () => setStatus("저장 연결이 끊겼습니다. 채팅으로 답해 주세요.", true));
+})();
+</script>
