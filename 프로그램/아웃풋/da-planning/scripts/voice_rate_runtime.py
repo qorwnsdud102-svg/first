@@ -7,8 +7,8 @@ HERE=Path(__file__).resolve().parent
 target=Path(sys.argv[1]).resolve();args=sys.argv[2:]
 allowed={Path('C:/claude/크롤링/crawl.py').resolve(),(HERE/'naver_kw.py').resolve()}
 if target not in allowed:raise ValueError('승인된 기존 수집기만 실행합니다.')
-if target.name=='crawl.py' and (not args or args[0]!='crawl' or not set(args[1].split(',')).issubset({'natepann','youtube','dcinside','fmkorea','ruliweb','mlbpark','arca'})):
-    raise ValueError('로그인 없는 공개 커뮤니티(네이트판·유튜브·디시·펨코·루리웹·엠팍·아카) crawl만 허용합니다. 로그인 기능·로그인 사이트(블라인드·인스티즈·네이버 카페)는 실행하지 않습니다.')
+if target.name=='crawl.py' and (not args or args[0]!='crawl' or not set(args[1].split(',')).issubset({'natepann','youtube','dcinside','fmkorea','ruliweb','mlbpark','arca','blind'})):
+    raise ValueError('로그인 없이 도는 커뮤니티(네이트판·유튜브·디시·펨코·루리웹·엠팍·아카·블라인드—블라인드는 쿠키 없이 공개 검색) crawl만 허용합니다. 로그인 기능과 아이디·비밀번호로 자동 로그인하는 사이트(인스티즈·네이버 카페)는 실행하지 않습니다.')
 os.environ['CRAWL_HEADLESS']='1';os.environ['PYTHONUTF8']='1';os.environ['PYTHONIOENCODING']='utf-8'
 sys.dont_write_bytecode=True
 import requests

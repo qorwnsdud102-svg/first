@@ -126,9 +126,11 @@ def reset_old_posts(f):
         if out.exists(): out.unlink(); gone.append(str(out))
     v2.write(mark, {'posts': POSTS['결핍'], 'at': now(), 'removed_30_post_results': gone})
 
-# 로그인 없는 공개 커뮤니티 전부(사장님 P6534 "모든 커뮤니티에서"). 블라인드·인스티즈·네이버 카페는 로그인 사이트라 돌리지 않는다.
+# 로그인 없이 도는 커뮤니티 전부(사장님 P6534 "모든 커뮤니티에서", P6536 블라인드). 블라인드는 쿠키 없이 공개 검색으로 돈다.
+# 인스티즈(저장된 아이디·비밀번호로 자동 로그인)와 네이버 카페(P6532)는 돌리지 않는다.
 COMMUNITY = {'natepann': ('커뮤니티', '커뮤니티.json'), 'dcinside': ('디시', '디시.json'), 'fmkorea': ('펨코', '펨코.json'),
-             'ruliweb': ('루리웹', '루리웹.json'), 'mlbpark': ('엠팍', '엠팍.json'), 'arca': ('아카', '아카.json')}
+             'ruliweb': ('루리웹', '루리웹.json'), 'mlbpark': ('엠팍', '엠팍.json'), 'arca': ('아카', '아카.json'),
+             'blind': ('블라인드', '블라인드.json')}
 
 def community_line(plan, plan_dir, logs, site='natepann'):
     line, fname = COMMUNITY[site]
