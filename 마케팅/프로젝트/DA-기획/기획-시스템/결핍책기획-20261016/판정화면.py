@@ -14,8 +14,11 @@ def clean(s):
     s = re.sub(r"^\s*(needs_check|ok|status)\s*[:：]\s*", "", s or "", flags=re.I)
     return re.sub(r"\s*\((자료|출처)\s*[:：][^)]*\)", "", s).strip()
 
+# 사장님 P6548: 기획 카드는 쿠팡 후기까지 분석한 결핍 책 위에서만 — 후기 없이 만든 결핍은 판정에서 뺀다(후기 받은 뒤 다시 만듦)
+HOLD = ['수족냉증', '비염', '역류성식도염', '족저근막염', '허리디스크']
 plans, n = [], 0
 for need in order:
+    if need in HOLD: continue
     p = os.path.join(H, "산출", f"{need}.json")
     if not os.path.exists(p): continue
     for c in json.load(open(p, encoding="utf-8"))["cards"]:
@@ -27,6 +30,7 @@ for need in order:
 changes = [
     "오늘 밤 새로 만든 결핍 책(원인·대안·타겟 인식·시장 지도) 위에서 Opus 최대 + 새 방식으로 만든 첫 기획입니다.",
     "결핍마다 상징 후보 10개 → 검색량·매대 비율 확인 → 3장. 같은 결핍 안에서 상징은 서로 다릅니다.",
+    "쿠팡 후기 없이 만든 5개 결핍(수족냉증·비염·역류성식도염·족저근막염·허리디스크)은 뺐습니다. 후기를 받은 뒤 결핍 책부터 다시 만듭니다.",
     "매기는 법: 점수 1~10, 제일 걸리는 곳(결핍 / 상징 짝 / 구현 당위 / 없음), 이유 한 줄. 7점 이상이 '발전시킬 만함'입니다.",
 ]
 data = {"plans": plans, "hits": [], "toggles": [], "dropped": [], "changes": changes}
