@@ -30,6 +30,13 @@ WISH = r'만 ?되면|처럼 ?되|싶어요|싶다|원해|바래|방법 ?없을�
 FORMS = {'크림': r'크림', '앰플·세럼': r'앰플|세럼|에센스', '패치': r'패치', '마스크·팩': r'마스크|팩', '밴드': r'밴드', '디바이스·기기': r'디바이스|기기|마사지기|부스터 ?프로',
          '먹는 것': r'정|캡슐|환|스틱|젤리|분말|영양제|드링크', '샴푸·토닉': r'샴푸|토닉', '스프레이': r'스프레이|미스트', '오일·밤': r'오일|밤'}
 
+# 대안 이름이 다른 말과 겹쳐 섞인 글(2026-10-15 주름윤곽에서 확인: 온라인모드·일괄사표·자전거 모델)을 뺀다.
+NEG = {'인모드': r'온라인 ?모드', '괄사': r'일괄', '스컬트라': r'자전거|로드 ?바이크|휠셋|프레임', '레디어스': r'게임|던파', '온다리프팅': r'^(?!.*온다 ?리프팅)'}
+
+def drop_noise(rows, name):
+    pat = NEG.get(name)
+    return [r for r in rows if not (pat and re.search(pat, r.get('text', '')))] if pat else rows
+
 def load(p):
     try: return json.loads(Path(p).read_text(encoding='utf-8'))
     except Exception: return []
@@ -110,7 +117,7 @@ def main(plan_path, family):
     vid_md = [f'# {family} — 결핍별 의사·설명 영상 받아쓰기(발췌, 영상당 앞 2,500자)', '']
     for f in fam['folders']:
         folder = BOOK / f['kind'] / f['name']; rec = load(folder / '수집기록.json') or {}
-        rows = load(folder / '정제-목소리.json'); vids = load(folder / '영상-원자료.json')
+        rows = drop_noise(load(folder / '정제-목소리.json'), f['name']); vids = load(folder / '영상-원자료.json')
         if f.get('reuse_v2'): vids += [v for v in load(ROOT / '마케팅/프로젝트/DA-기획/기초분석-v2' / f['name'] / '영상-원자료.json') if v.get('transcript')]
         exp_texts = [r['text'] for r in rows if str(r.get('experience')) == 'True']
         alias = '|'.join(re.escape(a) for a in f['aliases'])
