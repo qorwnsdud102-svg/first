@@ -1,0 +1,193 @@
+{
+  "items": [
+    {
+      "target": "발톱무좀",
+      "boss_refs": [
+        "P6268"
+      ],
+      "symbol": "주블리아",
+      "source": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/경험/경험카드.jsonl",
+      "id": "R2-05",
+      "implementation": "사포질 없이 바르는 흰 붓 병의 투명 물약",
+      "status": "기존안. 그대로 또는 이름/포장 변경으로 새 성과 제출 금지"
+    },
+    {
+      "target": "목주름",
+      "boss_refs": [
+        "P6276"
+      ],
+      "symbol": "메피폼 흉터 실리콘 시트",
+      "source": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/경험/경험카드.jsonl",
+      "id": "R3-04",
+      "implementation": "목 모양으로 자른 밤용 실리콘 시트",
+      "status": "기존안. 그대로 또는 이름/포장 변경으로 새 성과 제출 금지"
+    },
+    {
+      "target": "붉은 튼살",
+      "boss_refs": [
+        "P6322"
+      ],
+      "symbol": "프랑스 세픽 TECA 고순도 병풀",
+      "source": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/경험/경험카드.jsonl",
+      "id": "G-10",
+      "implementation": "TECA를 넣는 150ml 보습크림",
+      "status": "기존안. 그대로 또는 이름/포장 변경으로 새 성과 제출 금지"
+    },
+    {
+      "target": "노화로 깊어지는 주름·팔자주름",
+      "boss_refs": [
+        "P6116",
+        "P6156",
+        "P6157"
+      ],
+      "symbol": "NMN 영양제·올레놀샷",
+      "source": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/경험/경험카드.jsonl",
+      "id": "J1-C04",
+      "implementation": "뚜껑의 NMN 가루를 첫날 앰플에 떨어뜨려 녹이는 30ml 두 제형",
+      "status": "기존안. 그대로 또는 이름/포장 변경으로 새 성과 제출 금지"
+    },
+    {
+      "target": "잔주름과 거친 피부 겉결",
+      "boss_refs": [
+        "P6158"
+      ],
+      "symbol": "백화점 고가 캐비어 관리·라프레리",
+      "source": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/경험/경험카드.jsonl",
+      "id": "J1-G01",
+      "implementation": "캐비어 원료와 얇은 투명 피막을 결합한 보습 앰플",
+      "status": "기존안. 그대로 또는 이름/포장 변경으로 새 성과 제출 금지"
+    },
+    {
+      "target": "팔자주름과 처짐으로 늙어 보임",
+      "boss_refs": [
+        "P6189",
+        "P6190"
+      ],
+      "symbol": "울쎄라",
+      "source": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/경험/경험카드.jsonl",
+      "id": "J3-N01",
+      "implementation": "스피큘의 찌릿함·마르는 필름의 당김·정량 펌프 300샷",
+      "status": "기존안. 그대로 또는 이름/포장 변경으로 새 성과 제출 금지"
+    },
+    {
+      "target": "도드라지는 팔자주름",
+      "boss_refs": [
+        "P6198",
+        "P6199",
+        "P6200",
+        "P6228",
+        "P6232"
+      ],
+      "symbol": "스컬트라·PLLA",
+      "source": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/경험/경험카드.jsonl",
+      "id": "J3-N04",
+      "implementation": "L형 PLLA 미세입자를 넣은 흰 밀크 래핑팩 50ml",
+      "status": "기존안. 그대로 또는 이름/포장 변경으로 새 성과 제출 금지"
+    },
+    {
+      "target": "튼살",
+      "boss_refs": [
+        "P6407"
+      ],
+      "symbol": "프락셀",
+      "source": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/경험/경험카드.jsonl",
+      "id": "D3-01",
+      "implementation": "스피큘을 분산한 국소 바디젤",
+      "status": "기존안. 그대로 또는 이름/포장 변경으로 새 성과 제출 금지"
+    },
+    {
+      "target": "튼살",
+      "boss_refs": [
+        "P6408"
+      ],
+      "symbol": "리쥬란",
+      "source": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/경험/경험카드.jsonl",
+      "id": "D3-02",
+      "implementation": "PDRN 원료와 바디젤을 섞는 두 칸 앰플",
+      "status": "기존안. 그대로 또는 이름/포장 변경으로 새 성과 제출 금지"
+    },
+    {
+      "target": "젤네일 뒤 층층이 벗겨지는 손톱",
+      "boss_refs": [
+        "P6424"
+      ],
+      "symbol": "리쥬란",
+      "source": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/경험/경험카드.jsonl",
+      "id": "D4-08",
+      "implementation": "PN·스피큘을 넣는 밀착 네일젤",
+      "status": "기존안. 그대로 또는 이름/포장 변경으로 새 성과 제출 금지"
+    },
+    {
+      "target": "무좀",
+      "boss_refs": [
+        "P6480"
+      ],
+      "symbol": "제습기",
+      "source": "C:/claude/LLM-WIKI/마케팅/프로젝트/DA-기획/기획-시스템/자가학습/경험/경험카드.jsonl",
+      "id": "D6-10",
+      "implementation": "실리카·전분 계열 흡습 분말의 풋 파우더 OEM을 검토한다. 기존 분말용 살포 용기에 담고 이름은 ‘발 사이 제습 파우더’. 씻고 충분히 말린 발에 소량 쓰는 보송 관리 제품으로 기획한다.",
+      "status": "기존안. 그대로 또는 이름/포장 변경으로 새 성과 제출 금지"
+    },
+    {
+      "target": "튼살",
+      "symbol": "프락셀",
+      "source": "../인터뷰.md:43-60",
+      "id": "INTERVIEW-STRETCH-FRAXEL",
+      "implementation": "스피큘을 넣는 바르는 튼살 프락셀",
+      "status": "사장님이 이미 낸 안"
+    },
+    {
+      "target": "튼살",
+      "boss_refs": [
+        "P6276"
+      ],
+      "symbol": "메피폼",
+      "source": "경험/결핍별-시도.md:174",
+      "id": "BOSS-MEPIFORM-STRETCH",
+      "implementation": "튼살 메피폼 패치",
+      "status": "사장님이 이미 낸 대안"
+    },
+    {
+      "status": "기존 히트 짝. 이름/포장 변경은 새 성과 아님",
+      "source": "히트해부/방법정답지.md 1등급 표",
+      "id": "H-WR-ULTHERA",
+      "target": "주름",
+      "implementation": "유쎄라블 미세열감 크림",
+      "symbol": "울쎄라"
+    },
+    {
+      "status": "기존 히트 짝. 이름/포장 변경은 새 성과 아님",
+      "source": "히트해부/방법정답지.md 1등급 표",
+      "id": "H-WR-THERMAGE",
+      "target": "주름",
+      "implementation": "써모드 900샷·바이알·미세열감",
+      "symbol": "써마지"
+    },
+    {
+      "status": "기존 히트 짝. 이름/포장 변경은 새 성과 아님",
+      "source": "히트해부/방법정답지.md 1등급 표",
+      "id": "H-WR-THREAD",
+      "target": "주름",
+      "implementation": "메라블 실프팅4D 회오리 스피큘",
+      "symbol": "실리프팅"
+    },
+    {
+      "status": "기존 히트 짝. 이름/포장 변경은 새 성과 아님",
+      "source": "히트해부/방법정답지.md 1등급 표",
+      "id": "H-WR-EGF",
+      "target": "주름",
+      "implementation": "씨스터앤 S-EGF 부스트샷",
+      "symbol": "EGF·NMN·스피큘"
+    },
+    {
+      "status": "기존 히트 짝. 이름/포장 변경은 새 성과 아님",
+      "source": "히트해부/방법정답지.md 1등급 표",
+      "id": "H-NAIL-FRAXEL",
+      "target": "발톱무좀",
+      "implementation": "트라센 케라소프트 연화·스피큘·바이알",
+      "symbol": "프락셀"
+    }
+  ],
+  "schema_version": 1,
+  "rule": "같은 결핍+상징+원료/원리 연결의 재사용을 새 성과로 세지 않는다. 다른 상징/다른 문제 연결은 차이 설명 필요."
+}

@@ -1,0 +1,46 @@
+{
+  "positive_reference": {
+    "meaning": "사장님 튼살 프락셀: 이미 가치가 느껴지는 시술의 해결 이미지와 스피큘의 자극 원리를 연결. 신규 AI 아이디어나 제품 효능 실증으로 세지 않음",
+    "source": "인터뷰.md:43-64"
+  },
+  "old_frozen_trial": "원 기준판/학습판/A/B/고정지침과 해시 기록은 수정하지 않음. 이번 피드백을 받는 다음 소량 호출은 별도이며 블라인드 전후 비교가 아님",
+  "confirmed_learning": "네 안의 상징재가 끌리지 않음",
+  "source": {
+    "verbatim_rejection": "음 다 맘에.안드는데.어쩌지",
+    "confirmed_reason": "상징재가 끌리지않아",
+    "batch": "야간-20261014 선택4개",
+    "kind": "사장님 직접 메시지"
+  },
+  "evaluated": 4,
+  "accepted": 0,
+  "not_evaluated": "기준판 및 보류8자리. 사장님이 본4개의 탈락 이유를 다른 안의 판정으로 확장하지 않음",
+  "schema_version": 1,
+  "recorded_at": "2026-10-15T07:31:45.9612854+09:00",
+  "implementation_interpretation": {
+    "limits": "가림·보습 제형 전체를 금지하거나 모든 비유를 금지한다는 사장님 판정은 없음. 유명하면 무조건 좋다는 규칙도 아님. 원료·원리 연결과 사실 정확성은 계속 필요",
+    "status": "AI 해석. 개별 탈락 원인을 추가로 지어내지 않음",
+    "action": "설명되는 원리 비유만으로 선택하지 말고 해당 타겟이 이미 가치 있게 여기는 외부 대상의 의미를 실제 근거와 함께 먼저 찾는다. 상징을 빼도 평범한 제형 설명만 남는 안은 가치 차용을 설명하지 못한 것으로 재검토"
+  },
+  "ratings": [
+    {
+      "verdict": "rejected",
+      "id": "ST-01",
+      "symbol": "색보정 필터"
+    },
+    {
+      "verdict": "rejected",
+      "id": "WR-01",
+      "symbol": "급수 스펀지"
+    },
+    {
+      "verdict": "rejected",
+      "id": "FN-01",
+      "symbol": "무대 분장"
+    },
+    {
+      "verdict": "rejected",
+      "id": "FN-02",
+      "symbol": "안전유리 보강막"
+    }
+  ]
+}
