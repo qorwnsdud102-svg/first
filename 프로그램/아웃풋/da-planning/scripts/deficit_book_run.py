@@ -46,14 +46,48 @@ def naver_line(folders, plan, plan_dir, families, logs):
     base.status(plan_dir, '네이버', '끝')
 
 # ── 커뮤니티 일곱 곳 ─────────────────────────────────────────
+# 느린 사이트(키워드 하나에 15~20분 — 2026-10-15 실측)는 결핍의 메인 키워드 하나만 돈다. 대안은 빠른 사이트·지식인·유튜브가 맡는다.
+SLOW = {'dcinside', 'blind', 'natepann', 'mlbpark'}
+
+def community_rows(f, folder, log, site, queries):
+    """voice_v2.community와 같은 방식이되, 돌 질의를 정해 준다. 예전에 모은 질의 결과(키워드.json)도 함께 읽는다."""
+    import voice_crawl, voice_count
+    dest = folder / ('커뮤니티-' + site); dest.mkdir(exist_ok=True)
+    def runner(cmd, **kw):
+        return subprocess.run([cmd[0], '-X', 'utf8', str(HERE / 'voice_rate_runtime.py'), cmd[1], *cmd[2:]], timeout=1800, **kw)
+    for i, q in enumerate(queries):
+        part = v2.OUT / '_공유-커뮤니티' / site / voice_crawl.safe(q)
+        if (dest / (voice_crawl.safe(q) + '.xlsx')).exists(): continue
+        if i: time.sleep(30)
+        try: voice_crawl.run([q], str(part), sites=site, max_posts=base.POSTS[f['kind']], filt='smart', runner=runner)
+        except Exception as e: log.append({'source': site, 'keyword': q, 'error': type(e).__name__ + ': ' + str(e)[:150]})
+    k = json.loads((folder / '키워드.json').read_text(encoding='utf-8'))
+    allq = set(queries) | {x['keyword'] for x in k.get('main', [])}
+    files = list(dest.glob('*.xlsx'))
+    for q in allq: files += list((v2.OUT / '_공유-커뮤니티' / site / voice_crawl.safe(q)).glob('*.xlsx'))
+    rows = []
+    for fp in files:
+        try:
+            ctx = {}; raw = voice_count.load_rows(fp)
+            for r in raw:
+                c = (list(r) + [None] * 11)[:11]
+                if c[0] == '게시글': ctx[c[6] or ''] = (str(c[3] or '') + ' ' + str(c[4] or ''))[:3000]
+            for u in voice_count.units_from_rows(raw):
+                rows.append({'source': u['사이트'] if u['종류'] != '유튜브 댓글' else '유튜브 댓글', 'type': u['종류'], 'text': u['글'], 'url': u['url'],
+                             'context': ctx.get(u['url'], '') if '댓글' in u['종류'] else '', 'level': '기존 공개 크롤러 본문/댓글', 'likes': u['좋아요'], 'raw_file': str(fp)})
+        except Exception as e: log.append({'source': site, 'file': str(fp), 'error': str(e)[:140]})
+    return rows
+
 def community_line(site, folders, plan_dir, families, logs):
     line, fname = base.COMMUNITY[site]
     for f in folders:
         folder = base.folder_of(f); out = folder / fname
-        if not out.exists():
-            base.status(plan_dir, line, f"{fkey(f)} 시작 (키워드당 글 {base.POSTS[f['kind']]}개)")
+        slow_skip = site in SLOW and f['kind'] == '대안'
+        if not out.exists() and not slow_skip:
+            qs = f['queries'][:1] if site in SLOW else f['queries']
+            base.status(plan_dir, line, f"{fkey(f)} 시작 ({len(qs)}개 질의, 키워드당 글 {base.POSTS[f['kind']]}개)")
             base._tl.posts = base.POSTS[f['kind']]
-            try: v2.write(out, v2.community(f['name'], None, folder, logs[f['name']], sites=site))
+            try: v2.write(out, community_rows(f, folder, logs[f['name']], site, qs))
             except Exception as e: logs[f['name']].append({'source': site, 'error': str(e)[:200]})
         mark(line, f, plan_dir, families, logs)
     base.status(plan_dir, line, '끝')
