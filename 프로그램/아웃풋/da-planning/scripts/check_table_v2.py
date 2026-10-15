@@ -35,13 +35,13 @@ def main(cand_path, out_path):
     kwmap = json.loads((prep.BOOK / '메타판매처' / '_키워드.json').read_text(encoding='utf-8'))
     L = ['# 확인표 — 스크립트가 잰 값', '', '- 검색량: 네이버 검색광고 월간 PC+모바일(정확 일치, 띄어쓰기 없앰).',
          '- 매대: 이 결핍 메타 광고 문구 중 그 상징 이름이 나온 비율. 0은 못 봤다는 뜻이지 없다는 뜻이 아니다.',
-         '- 쿠팡 "상징+제형"(예: 하수오 샴푸): 쿠팡 검색 결과 상위 제품 수·후기 수. Claude가 브라우저로 채운다(쿠팡이 막혀 있으면 확인 대기).', '']
+         '- "상징+제형"이 이미 팔리나(예: 하수오 샴푸): 웹·쿠팡 검색으로 제품명이 보이면 팖. 못 찾음은 없다는 뜻이 아니라 못 봤다는 뜻.', '']
     for need, items in cands.items():
         texts = prep.meta_texts(kwmap.get(need, [need]) + [need]); n = len(texts) or 1
         parts = [[clean(s).replace(' ', '') for s in x['symbol'].split('×')] for x in items]   # 'A × B' 짝은 둘 다 잰다
         vol = volumes(sorted({s for ps in parts for s in ps}))
         fmt = lambda s: f'{vol[s]:,}' if isinstance(vol.get(s), int) else '없음'
-        L += [f'## {need} (메타 광고 {len(texts)}개)', '', '| 후보 | 검색량 | 매대 % | 쿠팡 "상징+제형" |', '|---|---:|---:|---|']
+        L += [f'## {need} (메타 광고 {len(texts)}개)', '', '| 후보 | 검색량 | 매대 % | 이미 파나("상징+제형") |', '|---|---:|---:|---|']
         for x, ps in zip(items, parts):
             shelf = ' / '.join(str(round(100 * sum(s in t.replace(' ', '') for t in texts) / n, 1)) for s in ps)
             cp = x.get('coupang', '확인 대기')
