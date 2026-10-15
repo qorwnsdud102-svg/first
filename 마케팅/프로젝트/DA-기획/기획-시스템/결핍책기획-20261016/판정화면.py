@@ -30,7 +30,7 @@ changes = [
     "매기는 법: 점수 1~10, 제일 걸리는 곳(결핍 / 상징 짝 / 구현 당위 / 없음), 이유 한 줄. 7점 이상이 '발전시킬 만함'입니다.",
 ]
 data = {"plans": plans, "hits": [], "toggles": [], "dropped": [], "changes": changes}
-page = open(TPL, encoding="utf-8").read().replace("__NO__", "결핍 책").replace("__PREV__", "어제").replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\/"))
+page = open(TPL, encoding="utf-8").read().replace("__NO__", "시험").replace("__PREV__", "어제").replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", r"<\/"))
 for a, b in [
     ("기획 시험회차 판정", "결핍 책 첫 기획 — 카드 판정"),
     ('<section aria-labelledby="h-hits">', '<section aria-labelledby="h-hits" hidden>'),
