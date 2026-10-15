@@ -31,11 +31,15 @@ FORMS = {'크림': r'크림', '앰플·세럼': r'앰플|세럼|에센스', '패
          '먹는 것': r'정|캡슐|환|스틱|젤리|분말|영양제|드링크', '샴푸·토닉': r'샴푸|토닉', '스프레이': r'스프레이|미스트', '오일·밤': r'오일|밤'}
 
 # 대안 이름이 다른 말과 겹쳐 섞인 글(2026-10-15 주름윤곽에서 확인: 온라인모드·일괄사표·자전거 모델)을 뺀다.
-NEG = {'인모드': r'온라인 ?모드', '괄사': r'일괄', '스컬트라': r'자전거|로드 ?바이크|휠셋|프레임', '레디어스': r'게임|던파', '온다리프팅': r'^(?!.*온다 ?리프팅)'}
+NEG = {'인모드': r'온라인 ?모드', '괄사': r'일괄', '스컬트라': r'자전거|로드 ?바이크|휠셋|프레임', '레디어스': r'게임|던파', '온다리프팅': r'^(?!.*온다 ?리프팅)',
+       '기미': r'기미가요|닝기미|(빠질|터질|나을|들어갈|줄어들|좋아질|변할|올|보일) ?기미|기미(도|조차) ?(안|없|보이)'}
+
+# 같은 말이 다른 뜻으로 많이 쓰이는 결핍은 그 뜻일 때만 남긴다('기미가요'·'할 기미'·'닝기미' — 색소흉터 원인원리 작성자가 찾음, 10-16)
+POS = {'기미': r'피부|얼굴|잡티|색소|주근깨|미백|토닝|레이저|크림|선크림|썬크림|자외선|광대|트란|멜라|흑자|검버섯|시술|피부과|화장|세럼|앰플|비타민|뺨|눈밑|임신'}
 
 def drop_noise(rows, name):
-    pat = NEG.get(name)
-    return [r for r in rows if not (pat and re.search(pat, r.get('text', '')))] if pat else rows
+    pat, pos = NEG.get(name), POS.get(name)
+    return [r for r in rows if not (pat and re.search(pat, r.get('text', ''))) and not (pos and not re.search(pos, r.get('text', '')))]
 
 def load(p):
     try: return json.loads(Path(p).read_text(encoding='utf-8'))
@@ -107,7 +111,7 @@ def transcript_snips(vids, role=None, per=2500, k=10):
         out.append(f"#### {v.get('title','')} ({v.get('channel','')}, {v.get('role','')})\n{v.get('url','')}\n{tx[:per]}")
     return out
 
-def main(plan_path, family):
+def main(plan_path, family, only=None):   # only: 이 폴더만 다시 만든다(다른 작성자가 읽는 중인 재료는 건드리지 않음)
     plan = json.loads(Path(plan_path).read_text(encoding='utf-8'))
     fams = {f['family']: f for f in plan['families']}; fam = fams[family]
     by_name = {f['name']: f for fm in plan['families'] for f in fm['folders']}
@@ -116,6 +120,7 @@ def main(plan_path, family):
     fam_dir = BOOK / '묶음' / family; fam_dir.mkdir(parents=True, exist_ok=True)
     vid_md = [f'# {family} — 결핍별 의사·설명 영상 받아쓰기(발췌, 영상당 앞 2,500자)', '']
     for f in fam['folders']:
+        if only and f['name'] != only: continue
         folder = BOOK / f['kind'] / f['name']; rec = load(folder / '수집기록.json') or {}
         rows = drop_noise(load(folder / '정제-목소리.json'), f['name']); vids = load(folder / '영상-원자료.json')
         if f.get('reuse_v2'): vids += [v for v in load(ROOT / '마케팅/프로젝트/DA-기획/기초분석-v2' / f['name'] / '영상-원자료.json') if v.get('transcript')]
@@ -148,8 +153,9 @@ def main(plan_path, family):
             L += ['', '## 영상 발췌(의사·설명 / 경험)', ''] + transcript_snips(vids, None, 1800, 3)
         (folder / '_재료.md').write_text('\n'.join(L) + '\n', encoding='utf-8')
         print('재료', f['kind'], f['name'], len('\n'.join(L)))
+    if only: return
     (fam_dir / '_재료-영상.md').write_text('\n\n'.join(vid_md) + '\n', encoding='utf-8')
     print('영상 재료', family, len('\n\n'.join(vid_md)))
 
 if __name__ == '__main__':
-    main(sys.argv[1], sys.argv[2])
+    main(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None)
