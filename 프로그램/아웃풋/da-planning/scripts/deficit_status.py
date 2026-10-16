@@ -25,14 +25,17 @@ for fm in plan['families']:
         ana = META / '_해부' / n
         sellers = [p for p in ana.iterdir() if p.is_dir()] if ana.exists() else []
         ocr = sum(1 for p in sellers if (p / 'ocr.txt').exists() and (p / 'ocr.txt').stat().st_size > 50)
+        extra = sum(1 for fname in ('82쿡.json', '더쿠.json') if (d / fname).exists())
+        kin = json.loads((d / '공개검색-원자료.json').read_text(encoding='utf-8')) if (d / '공개검색-원자료.json').exists() else []
+        deep = f"지식인 {sum(1 for r in kin if str(r.get('source','')).startswith('지식인'))} · 82쿡/더쿠 {extra}/2"
         rows.append([fm['family'], n, rec.get('experience', '-'), f"{sum(bool(v.get('transcript')) for v in vids)}/{len(vids)}",
                      f"{len(xs)} · {sum(nrev(x) for x in xs):,}", 'O' if (META / f'{n}-소재.md').exists() else '-',
                      f"{len(sellers)} · OCR {ocr}" if sellers else '-', 'O' if (META / f'{n}-컨셉.md').exists() else '-',
-                     mtime(d / '결핍책.md'), mtime(d / '기획카드.md')])
+                     mtime(d / '결핍책.md'), mtime(d / '기획카드.md'), deep])
 L = ['# 결핍 책 보충 현황 (사장님 2026-10-16 기준)', '', f'만든 때: {datetime.datetime.now():%Y-%m-%d %H:%M} · 결핍 {len(rows)}개', '',
      '기준: 경험 1,500+ · 유튜브 의사 20·경험 10 · 쿠팡 후기 제품 8개+ · 메타 판매처 해부 5곳(상세 OCR·쿠팡 실제 후기) · 메타 컨셉 지도 · 결핍 책·기획 카드', '',
-     '| 계열 | 결핍 | 경험 단위 | 유튜브(받아씀/고름) | 쿠팡 후기(파일 · 후기) | 메타 소재 | 메타 해부(판매처 · OCR) | 컨셉 지도 | 결핍 책 | 기획 카드 |',
-     '|---|---|---:|---:|---|:-:|---|:-:|---|---|']
+     '| 계열 | 결핍 | 경험 단위 | 유튜브(받아씀/고름) | 쿠팡 후기(파일 · 후기) | 메타 소재 | 메타 해부(판매처 · OCR) | 컨셉 지도 | 결핍 책 | 기획 카드 | 깊이 채우기(지식인 행 · 82쿡/더쿠) |',
+     '|---|---|---:|---:|---|:-:|---|:-:|---|---|---|']
 L += ['| ' + ' | '.join(str(c) for c in r) + ' |' for r in rows]
 (BOOK / '_보충현황.md').write_text('\n'.join(L) + '\n', encoding='utf-8')
 print('결핍', len(rows), '→', BOOK / '_보충현황.md')
