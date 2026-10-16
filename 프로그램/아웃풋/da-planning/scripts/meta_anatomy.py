@@ -15,6 +15,7 @@ import requests
 from PIL import Image
 HERE = Path(__file__).resolve().parent; sys.path.insert(0, str(HERE))
 import meta_concept_material as mcm
+mcm.MAPV = False
 OUT = Path(mcm.OUT); ANA = OUT / '_해부'
 UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
 

@@ -16,9 +16,11 @@ META = r"C:\claude\네이버 급상승 키워드 기반 경쟁사 발굴\scripts
 OUT = r"C:\claude\LLM-WIKI\마케팅\프로젝트\DA-기획\결핍책\메타판매처"
 VID = os.path.join(OUT, '_영상')
 SKIP = ('facebook.com', 'instagram.com', 'fb.me', 'naver.me', 'bit.ly', 'linktr.ee', 'kakao', 'play.google.com', 'apps.apple.com',
-        'blog.naver.com', 'youtube.com', 'cloudfront.net')
+        'blog.naver.com', 'youtube.com', 'cloudfront.net',
+        'drama', 'netshort', 'lightreader', 'webfic', 'novelstream', 'reelshort', 'shortmax', 'goodshort', 'flextv', 'vigloo', 'dmmbpnyy')   # 숏드라마·웹소설 앱 광고(10-16 무좀 작성자가 찾음)
 CLINIC = re.compile(r'clinic|한의원|의원|피부과|병원|성형|언니', re.I)
 TOP, TEXTS = 12, 3
+MAPV = True   # 옛 형식 광고의 영상 짝짓기(길이 맞추기). meta_anatomy는 끈다
 TODAY = datetime.date(2026, 10, 16)
 
 def dom(u):
@@ -37,6 +39,35 @@ def parse_text(t):
     body = re.sub(r'\s+', ' ', t.split('광고\n', 1)[-1]).strip()
     return aid, days, (page or '').strip(), body
 
+_FF = None
+def dur(p):
+    global _FF
+    _FF = _FF or ad_media.ffmpeg_exe()
+    try: return ad_media.duration(_FF, p)
+    except Exception: return None
+
+def map_videos(folder, texts):
+    """옛 형식(media = videos/001.mp4…, 광고 ID 없음): 광고 문구의 '0:00 / 0:34'(영상 길이)와 파일 길이를 순서대로 맞춰 광고 ID ↔ 영상을 짝짓는다.
+    광고 순서와 파일 순서가 같다고 보고, 길이가 1.5초 안으로 맞을 때만 짝짓는다(못 맞추면 건너뜀)."""
+    vids = sorted(glob.glob(os.path.join(folder, 'videos', '*.mp4')))
+    if not vids: return {}
+    want = []
+    for t in texts:
+        m = re.search(r'0:00 / (\d+):(\d\d)', t); aid = (re.search(r'라이브러리 ID: (\d+)', t) or [None, None])[1]
+        if m and aid: want.append((aid, int(m[1]) * 60 + int(m[2])))
+    out, j = {}, 0
+    durs = {}
+    # 10-16 고침: 1.5초·6칸 창은 짝이 자주 틀렸다(기미·부유방 작성자: 음성이 문구와 다른 제품). 0.6초 안, 4칸 창, 창 안에 비슷한 길이가 둘 이상이면 짝짓지 않는다.
+    for aid, sec in want:
+        cand = []
+        for k in range(j, min(len(vids), j + 4)):
+            if vids[k] not in durs: durs[vids[k]] = dur(vids[k])
+            d = durs[vids[k]]
+            if d is not None and abs(d - sec) <= 1.5: cand.append((abs(d - sec), k))
+        if len(cand) == 1 and cand[0][0] <= 0.6:
+            k = cand[0][1]; out[aid] = vids[k]; j = k + 1
+    return out
+
 def collect(kws):
     ads = {}   # aid -> dict(days, page, body, links, video)
     for kw in kws:
@@ -46,10 +77,12 @@ def collect(kws):
             if not isinstance(d, dict): continue
             folder = os.path.dirname(f)
             links = {x['id']: x.get('links', []) for x in d.get('ad_links', []) if isinstance(x, dict) and x.get('id')}
-            for t in d.get('ad_texts', []) or []:
-                if not isinstance(t, str): continue
+            texts = [t for t in (d.get('ad_texts', []) or []) if isinstance(t, str)]
+            vmap = map_videos(folder, texts) if MAPV else {}
+            for t in texts:
                 aid, days, page, body = parse_text(t)
-                if aid and aid not in ads: ads[aid] = {'days': days, 'page': page, 'body': body, 'links': links.get(aid, []), 'video': ''}
+                if aid and aid not in ads: ads[aid] = {'days': days, 'page': page, 'body': body, 'links': links.get(aid, []), 'video': vmap.get(aid, ''), 'guess': aid in vmap}
+                elif aid and not ads[aid]['video'] and aid in vmap: ads[aid]['video'] = vmap[aid]; ads[aid]['guess'] = True
             for m in d.get('media', []) or []:
                 if isinstance(m, dict) and m.get('id'):
                     aid = str(m['id']); mp4 = os.path.join(folder, 'videos', f'{aid}.mp4')
@@ -84,9 +117,9 @@ def one(need, kws):
          f'키워드: {", ".join(kws)} · 광고 {len(ads)}개 · 제품 판매처 {len(groups)}곳 중 광고 수 상위 {len(rank)}곳 · 판매처마다 서로 다른 문구 {TEXTS}개(오래 돈 순)', '']
     want, n_vid = [], 0
     for d, items in rank:
-        items.sort(key=lambda x: -x[1]['days'])
+        items.sort(key=lambda x: (not x[1]['video'], -x[1]['days']))   # 영상 있는 소재 먼저(사장님 10-16 '메타 영상 더 많이'), 그다음 오래 돈 순
         link = next((x[2] for x in items if x[2]), '')
-        L += [f'## {d} — {items[0][1]["page"]}', f'- 광고 {len(items)}개 · 최장 게재 {items[0][1]["days"]}일 · 링크 {link}', '']
+        L += [f'## {d} — {items[0][1]["page"]}', f'- 광고 {len(items)}개 · 최장 게재 {max(x[1]["days"] for x in items)}일 · 링크 {link}', '']
         heads, k = set(), 0
         for aid, a, _ in items:
             head = re.sub(r'\W', '', a['body'])[:40]
@@ -94,7 +127,7 @@ def one(need, kws):
             heads.add(head); k += 1
             L += [f'### 소재 {aid} · {a["days"]}일 게재', '- 문구: ' + a['body'][:500]]
             if a['video']:
-                n_vid += 1; L += ['- 영상 음성(받아쓰기):', asr(a['video'])[:1500] or '(음성 없음·음악만)']
+                n_vid += 1; L += ['- 영상 음성(받아쓰기' + (' · 영상 길이로 짝지은 추정 — 문구와 다른 제품을 말하면 짝이 틀림' if a.get('guess') else '') + '):', asr(a['video'])[:1500] or '(음성 없음·음악만)']
             elif k == 1:
                 want.append(aid)
             L.append('')
