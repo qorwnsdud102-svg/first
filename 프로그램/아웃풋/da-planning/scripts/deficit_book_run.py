@@ -40,7 +40,7 @@ def naver_line(folders, plan, plan_dir, families, logs):
     for f in folders:
         folder = base.folder_of(f)
         done_mark = folder / '공개검색-완료.json'
-        if FULL[0] and done_mark.exists(): done_mark.rename(folder / '공개검색-완료-1차.json')   # 이미 모은 질의는 기록으로 건너뛰고 모자란 것만 더 모은다
+        if FULL[0] and done_mark.exists() and not (folder / '공개검색-완료-1차.json').exists(): done_mark.rename(folder / '공개검색-완료-1차.json')   # 이미 모은 질의는 기록으로 건너뛰고 모자란 것만 더 모은다. '-1차'가 이미 있으면 지금 표시는 깊이 채우기가 끝난 표시(10-17 08:29 다시 띄울 때 이름 겹쳐 네이버 줄이 죽음)
         if (FULL[0] or not f.get('reuse_v2')) and not done_mark.exists():
             base.status(plan_dir, '네이버', f"{fkey(f)} 지식인 시작 ({len(f['queries'])}개 질의, 정렬당 {plan['kin_limit'][f['kind']]}건)")
             base._limit[0] = plan['kin_limit'][f['kind']]
