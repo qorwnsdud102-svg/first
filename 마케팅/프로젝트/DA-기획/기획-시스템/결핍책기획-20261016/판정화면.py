@@ -16,13 +16,15 @@ def clean(s):
 
 # 사장님 P6548: 기획 카드는 쿠팡 후기까지 분석한 결핍 책 위에서만 — 후기 없이 만든 결핍은 판정에서 뺀다(후기 받은 뒤 다시 만듦)
 HOLD = ['수족냉증', '비염', '역류성식도염', '족저근막염', '허리디스크']
+# 사장님 P6548 뒤: '이미 파나'를 웹 검색으로만 본 결핍은 쿠팡 재확인이 끝날 때까지 뺀다
+RECHECK = ['팔자주름', '볼패임', '잇몸염증']   # 무좀·하지정맥류는 쿠팡 재확인에서 카드 3장 모두 빈자리로 확인돼 다시 올림(10-16)
 plans, n = [], 0
 for need in order:
-    if need in HOLD: continue
     p = os.path.join(H, "산출", f"{need}.json")
     if not os.path.exists(p): continue
     for c in json.load(open(p, encoding="utf-8"))["cards"]:
-        n += 1
+        n += 1  # 뺀 결핍도 번호는 세어 둔다 — 다시 넣을 때 카드 번호(판정 기록 열쇠)가 밀리지 않게
+        if need in HOLD or need in RECHECK: continue
         hint = clean(c["hint"]); hint = hint if "→" in hint else re.sub(r"\s*(?:—|:)\s+", " → ", hint, count=1)
         plans.append({"id": f"K{n:02d}", "need": need, "line": hint,
                       "facts": {"gap": clean(c["value"]), "product": clean(c["bridge"]), "risk": clean(c["risk"])},
@@ -30,7 +32,8 @@ for need in order:
 changes = [
     "오늘 밤 새로 만든 결핍 책(원인·대안·타겟 인식·시장 지도) 위에서 Opus 최대 + 새 방식으로 만든 첫 기획입니다.",
     "결핍마다 상징 후보 10개 → 검색량·매대 비율 확인 → 3장. 같은 결핍 안에서 상징은 서로 다릅니다.",
-    "쿠팡 후기 없이 만든 5개 결핍(수족냉증·비염·역류성식도염·족저근막염·허리디스크)은 뺐습니다. 후기를 받은 뒤 결핍 책부터 다시 만듭니다.",
+    "여기 있는 14개 결핍은 쿠팡 후기를 분석했고, 카드의 '이미 파나'도 쿠팡에서 직접 확인했습니다.",
+    "뺀 것: 후기를 오늘 받은 5개(수족냉증·비염·역류성식도염·족저근막염·허리디스크)는 결핍 책을 다시 써서 새로 기획하는 중이고, 팔자주름·볼패임·잇몸염증은 쿠팡에 이미 비슷한 제품이 있어 카드를 다시 고르는 중입니다.",
     "매기는 법: 점수 1~10, 제일 걸리는 곳(결핍 / 상징 짝 / 구현 당위 / 없음), 이유 한 줄. 7점 이상이 '발전시킬 만함'입니다.",
 ]
 data = {"plans": plans, "hits": [], "toggles": [], "dropped": [], "changes": changes}
