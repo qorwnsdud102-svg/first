@@ -27,7 +27,11 @@ for need in order:
         if need in HOLD or need in RECHECK: continue
         hint = clean(c["hint"]); hint = hint if "→" in hint else re.sub(r"\s*(?:—|:)\s+", " → ", hint, count=1)
         plans.append({"id": f"K{n:02d}", "need": need, "line": hint,
-                      "facts": {"gap": clean(c["value"]), "product": clean(c["bridge"]), "risk": clean(c["risk"])},
+                      "facts": {"gap": clean(c["value"]), "product": clean(c["bridge"]), "risk": clean(c["risk"]),
+                                **({"borrow": " · ".join(x for x in [
+                                    "원리: " + ", ".join(c["principle"]) if c.get("principle") else "",
+                                    "이미지: " + ", ".join(c["image"]) if c.get("image") else "",
+                                    "감각: " + c["sense"] if c.get("sense") else ""] if x)} if c.get("principle") else {})},
                       "fixed": "", "lights": [], "defaults": [], "links": {}})
 changes = [
     "오늘 밤 새로 만든 결핍 책(원인·대안·타겟 인식·시장 지도) 위에서 Opus 최대 + 새 방식으로 만든 첫 기획입니다.",
@@ -45,7 +49,7 @@ for a, b in [
     ("<p>점수 띠는 1~3 기각 · 4~5 보류 · 6~7 조건부(고치면 진행) · 8~10 진행입니다. 신호등은 다른 Claude가 미리 본 검사입니다.</p>",
      "<p>두 가지만 봐 주세요. 결핍에 맞고 타겟이 아는 상징인가, 그 상징의 핵심(USP)이 제품에 직관적으로 옮겨졌나. 점수 띠는 1~3 기각 · 4~5 보류 · 6~7 조건부 · 8~10 진행입니다.</p>"),
     ('const FACTS = [["gap", "결핍"], ["borrow", "빌려 온 것"], ["why", "왜 이걸 빌리나", true], ["product", "제품", true],\n  ["money", "가격·돈"], ["scene", "첫 광고 장면"], ["risk", "걸리는 점"]];',
-     'const FACTS = [["gap", "타겟 가치"], ["product", "어떻게 옮기나", true], ["risk", "남은 걸림"]];'),
+     'const FACTS = [["borrow", "원리·이미지 상징"], ["gap", "타겟 가치"], ["product", "어떻게 옮기나", true], ["risk", "남은 걸림"]];'),
     ('const PARTS = ["결핍", "빌린 상징", "제품", "한 줄·광고", "돈·위험", "없음"];', 'const PARTS = ["결핍", "상징 짝", "구현 당위", "없음"];'),
     ('"1. 기획 " + PLANS.length + "개 — 진행해 볼 만한가"', '"카드 " + PLANS.length + "장"'),
     ('"기획 " + PLANS.length + "개는 점수(1~10) · 제일 걸리는 곳 · 이유 한 줄, 해부 " + HITS.length +\n    "장은 점수만(틀렸으면 한 줄), 결정 " + TOGGLES.length + "개는 ○/×입니다. 15분쯤 걸리고',
