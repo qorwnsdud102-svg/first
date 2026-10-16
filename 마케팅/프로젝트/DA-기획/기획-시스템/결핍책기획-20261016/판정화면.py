@@ -33,7 +33,22 @@ for need in order:
                                     "이미지: " + ", ".join(c["image"]) if c.get("image") else "",
                                     "감각: " + c["sense"] if c.get("sense") else ""] if x)} if c.get("principle") else {})},
                       "fixed": "", "lights": [], "defaults": [], "links": {}})
+# 사장님 10-16 "튼살 결핍 제품 꼭 진행하고싶으니까 튼살로 기획 10개 후보 내줘(타겟 나눠서)" — 맨 앞에 따로 묶는다(번호 T01~)
+p2 = os.path.join(H, "산출", "튼살-2차.json")
+if os.path.exists(p2):
+    extra = []
+    for k, c in enumerate(json.load(open(p2, encoding="utf-8"))["cards"], 1):
+        borrow = " · ".join(x for x in ["타겟: " + c.get("target", ""),
+                                        "원리: " + ", ".join(c.get("principle") or []),
+                                        "이미지: " + ", ".join(c["image"]) if c.get("image") else "",
+                                        "감각: " + c["sense"] if c.get("sense") else "",
+                                        c.get("coupang", "")] if x)
+        extra.append({"id": f"T{k:02d}", "need": "튼살 2차 (타겟별 10개)", "line": clean(c["hint"]),
+                      "facts": {"borrow": borrow, "gap": clean(c["value"]), "product": clean(c["bridge"]), "risk": clean(c["risk"])},
+                      "fixed": "", "lights": [], "defaults": [], "links": {}})
+    plans = extra + plans
 changes = [
+    "맨 위 '튼살 2차'는 말씀하신 타겟별 튼살 기획 10개입니다(임산부·산후·급찐살·흰 튼살·다이어트 후·성장기·운동 남성). 카드마다 타겟·원리/이미지 상징·감각·쿠팡 확인 결과를 맨 위에 적었습니다.",
     "새로 올린 18장(점수 없는 카드): 수족냉증·역류성식도염·족저근막염은 오늘 받은 쿠팡 후기를 넣어 결핍 책을 다시 쓴 뒤 새로 기획했고, 팔자주름·볼패임·잇몸염증은 쿠팡에서 '이미 파나'를 다시 확인해 카드를 다시 골랐습니다.",
     "역류성식도염·족저근막염·잇몸염증 카드는 오늘 인터뷰로 정한 원리 상징·이미지 상징 기준으로 만들어, 카드 맨 위에 원리·이미지 상징과 감각을 적었습니다.",
     "이미 점수를 주신 42장은 그대로 있습니다. 비염은 기획 중이고, 허리디스크는 말씀대로 돌리지 않았습니다.",
@@ -62,4 +77,4 @@ for a, b in [
 os.makedirs(OUT, exist_ok=True)
 out = os.path.join(OUT, "결핍책-첫기획-판정.html")
 open(out, "w", encoding="utf-8").write(page)
-print("카드", len(plans), "·", sorted({p['need'] for p in plans}, key=order.index), "·", out)
+print("카드", len(plans), "·", sorted({p['need'] for p in plans}, key=lambda n: order.index(n) if n in order else -1), "·", out)
