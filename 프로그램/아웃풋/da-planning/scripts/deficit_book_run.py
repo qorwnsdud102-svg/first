@@ -34,10 +34,14 @@ def mark(line, f, plan_dir, families, logs):
     check_families(plan_dir, families, logs)
 
 # ── 네이버 지식인 ────────────────────────────────────────────
+FULL = [False]   # 계획의 full_depth — 사장님 10-16 밤 "시간 문제로 자료 수집을 덜 하는 경우는 없어야 해": 줄였던 깊이(지식인 정렬당 수·느린 사이트 메인 키워드만·대안 생략)를 기본값으로 다시 채운다
+
 def naver_line(folders, plan, plan_dir, families, logs):
     for f in folders:
         folder = base.folder_of(f)
-        if not f.get('reuse_v2') and not (folder / '공개검색-완료.json').exists():
+        done_mark = folder / '공개검색-완료.json'
+        if FULL[0] and done_mark.exists(): done_mark.rename(folder / '공개검색-완료-1차.json')   # 이미 모은 질의는 기록으로 건너뛰고 모자란 것만 더 모은다
+        if (FULL[0] or not f.get('reuse_v2')) and not done_mark.exists():
             base.status(plan_dir, '네이버', f"{fkey(f)} 지식인 시작 ({len(f['queries'])}개 질의, 정렬당 {plan['kin_limit'][f['kind']]}건)")
             base._limit[0] = plan['kin_limit'][f['kind']]
             try: v2.collect_public(f['name'], f['queries'], folder, logs[f['name']])
@@ -49,18 +53,51 @@ def naver_line(folders, plan, plan_dir, families, logs):
 # 느린 사이트(키워드 하나에 15~20분 — 2026-10-15 실측)는 결핍의 메인 키워드 하나만 돈다. 대안은 빠른 사이트·지식인·유튜브가 맡는다.
 SLOW = {'dcinside', 'blind', 'natepann', 'mlbpark'}
 
+_ql = {}; _qlg = threading.Lock()
+def _qlock(site, q):
+    with _qlg: return _ql.setdefault((site, q), threading.Lock())
+
+# 사이트 하나에 줄 여러 개(10-16 밤 사장님 "몇 주 걸리는 건 너무 심한데", "커뮤니티 병렬로"). 요청 간격은 voice_rate가 사이트(주소)마다
+# 3~6초로 지키고 막힘 신호면 30분 쉬므로, 줄을 늘려도 사이트에 가는 속도는 그 이상 빨라지지 않는다 — 수집기가 혼자 쉬던 빈 시간만 채운다.
+LINES_PER_SITE = {'dcinside': 3, 'blind': 3, 'natepann': 3, 'mlbpark': 3, 'arca': 3, 'fmkorea': 2, 'ruliweb': 2}
+
+def extras_of(f):
+    n = f['name']; return {f'{n} 후기', f'{n} 고민', f'{n} 없애는법'} if f['kind'] == '결핍' else {f'{n} 후기', f'{n} 효과', f'{n} 부작용'}
+
+def redo_if_capped(part, q, posts):
+    """깊이 채우기: 예전 한도(결핍 50·대안 30)로 받은 질의는 새 한도(결핍 80·대안 50)로 다시 받게 기록을 비운다.
+    사장님 10-16 밤 "키워드당 50개가 아니라 80개로 늘리자"(DC·블라인드가 핵심). 옛 엑셀은 '-1차'로 남겨 함께 읽고, 정리 때 URL로 중복을 지운다.
+    결과가 원래 적었던 질의(글 10개 미만)는 다시 받지 않는다. 다시 받은 한도는 _한도.json에 남겨 되풀이하지 않는다."""
+    sp, lp = part / '_수집.json', part / '_한도.json'
+    if not sp.exists(): return
+    caps = json.loads(lp.read_text(encoding='utf-8')) if lp.exists() else {}
+    if caps.get(q, 0) >= posts: return
+    st = json.loads(sp.read_text(encoding='utf-8'))
+    rec = next((x for x in st if x.get('키워드') == q), None)
+    if rec and rec.get('파일'):
+        n = sum((v or {}).get('글', 0) for v in (rec.get('사이트') or {}).values())
+        if n >= 10:
+            x = Path(rec['파일'])
+            if x.exists(): x.rename(x.with_name(x.stem + '-1차.xlsx'))
+            v2.write(sp, [y for y in st if y is not rec])
+    caps[q] = posts; v2.write(lp, caps)
+
 def community_rows(f, folder, log, site, queries):
     """voice_v2.community와 같은 방식이되, 돌 질의를 정해 준다. 예전에 모은 질의 결과(키워드.json)도 함께 읽는다."""
-    import voice_crawl, voice_count
+    import voice_crawl, voice_count, community_extra
     dest = folder / ('커뮤니티-' + site); dest.mkdir(exist_ok=True)
-    def runner(cmd, **kw):
-        return subprocess.run([cmd[0], '-X', 'utf8', str(HERE / 'voice_rate_runtime.py'), cmd[1], *cmd[2:]], timeout=1800, **kw)
+    posts = getattr(base._tl, 'posts', base.POSTS[f['kind']])
+    def runner(cmd, **kw):   # 깊이 채우기(키워드당 80개)는 느린 사이트에서 30분을 넘길 수 있어 2시간까지 기다린다
+        return subprocess.run([cmd[0], '-X', 'utf8', str(HERE / 'voice_rate_runtime.py'), cmd[1], *cmd[2:]], timeout=7200 if FULL[0] else 1800, **kw)
     for i, q in enumerate(queries):
         part = v2.OUT / '_공유-커뮤니티' / site / voice_crawl.safe(q)
-        if (dest / (voice_crawl.safe(q) + '.xlsx')).exists(): continue
+        if not FULL[0] and (dest / (voice_crawl.safe(q) + '.xlsx')).exists(): continue
+        if FULL[0]: redo_if_capped(part, q, posts)
         if i: time.sleep(30)
-        try: voice_crawl.run([q], str(part), sites=site, max_posts=base.POSTS[f['kind']], filt='smart', runner=runner)
-        except Exception as e: log.append({'source': site, 'keyword': q, 'error': type(e).__name__ + ': ' + str(e)[:150]})
+        crawler = community_extra.run if site in community_extra.SITES else voice_crawl.run   # 82쿡·더쿠는 새 수집기(10-16 밤)
+        with _qlock(site, q):   # 같은 사이트 줄 여럿이 같은 질의를 동시에 받지 않게
+            try: crawler([q], str(part), sites=site, max_posts=posts, filt='smart', runner=runner)
+            except Exception as e: log.append({'source': site, 'keyword': q, 'error': type(e).__name__ + ': ' + str(e)[:150]})
     k = json.loads((folder / '키워드.json').read_text(encoding='utf-8'))
     allq = set(queries) | {x['keyword'] for x in k.get('main', [])}
     files = list(dest.glob('*.xlsx'))
@@ -78,15 +115,23 @@ def community_rows(f, folder, log, site, queries):
         except Exception as e: log.append({'source': site, 'file': str(fp), 'error': str(e)[:140]})
     return rows
 
+YT_DONE = threading.Event()
+
+def yt_line_safe(*a):
+    try: yt_download_line(*a)
+    finally: YT_DONE.set()   # 영상 줄이 실패해도 댓글 줄이 영원히 기다리지 않게   # 유튜브 댓글 줄은 영상 받기 줄이 끝난 뒤에 돈다(같은 유튜브 간격 파일을 두 프로세스가 동시에 잡으면 막힘 — 10-16 yt_extend 실측)
+
 def community_line(site, folders, plan_dir, families, logs):
     line, fname = base.COMMUNITY[site]
+    if site == 'youtube': base.status(plan_dir, line, '영상 받기 줄 끝나기 기다림'); YT_DONE.wait()
     for f in folders:
         folder = base.folder_of(f); out = folder / fname
-        slow_skip = site in SLOW and f['kind'] == '대안'
-        if not out.exists() and not slow_skip:
-            qs = f['queries'][:1] if site in SLOW else f['queries']
+        slow_skip = site in SLOW and f['kind'] == '대안' and not FULL[0]
+        if (FULL[0] or not out.exists()) and not slow_skip:   # 깊이 채우기: 이미 받은 질의(xlsx)는 community_rows가 건너뛴다
+            qs = f['queries'][:1] if (site in SLOW and not FULL[0]) else f['queries']
+            if FULL[0] and site in SLOW: qs = [x for x in qs if x not in extras_of(f)]   # 느린 사이트는 기본 질의만(덧붙인 '후기·고민·없애는법'은 검색이 기본 단어로 이미 잡음)
             base.status(plan_dir, line, f"{fkey(f)} 시작 ({len(qs)}개 질의, 키워드당 글 {base.POSTS[f['kind']]}개)")
-            base._tl.posts = base.POSTS[f['kind']]
+            base._tl.posts = 15 if site == 'youtube' else base.POSTS[f['kind']]   # 유튜브는 키워드당 영상 15개의 댓글
             try: v2.write(out, community_rows(f, folder, logs[f['name']], site, qs))
             except Exception as e: logs[f['name']].append({'source': site, 'error': str(e)[:200]})
         mark(line, f, plan_dir, families, logs)
@@ -118,6 +163,14 @@ def yt_download_line(folders, plan_dir, families, logs):
             base.status(plan_dir, '유튜브받기', f"{fkey(f)} 영상 고르기")
             chosen = base.pick_videos(doc, nd, '의사·설명', seen, log) + base.pick_videos(rev, nr, '경험·후기', seen, log)
             v2.write(path, chosen)
+        if FULL[0]:   # 깊이 채우기: 이미 고른 영상이 목표(결핍 의사 20·경험 10, 대안 4·2)보다 적으면 모자란 만큼 더 고른다(yt_extend와 같은 방식)
+            ids = {r['id'] for r in chosen}; seen |= ids
+            have_d = sum(1 for r in chosen if str(r.get('role', '')).startswith('의사')); have_r = len(chosen) - have_d
+            doc = f.get('yt_doctor') or [f['name'] + ' 원리']; rev = f.get('yt_review') or [f['name'] + ' 후기']; add = []
+            if nd > have_d or nr > have_r: base.status(plan_dir, '유튜브받기', f"{fkey(f)} 영상 더 고르기")
+            if nd > have_d: add += base.pick_videos(doc + [f['name'] + ' 원인', f['name'] + ' 치료'], nd - have_d, '의사·설명', seen, log)
+            if nr > have_r: add += base.pick_videos(rev + [f['name'] + ' 경험'], nr - have_r, '경험·후기', seen, log)
+            chosen += [r for r in add if r['id'] not in ids]
         for r in chosen:
             seen.add(r['id'])
             if '403' in str(r.get('audio_error', '')) or r.get('status') == '음성 받기 막힘':   # 낡은 받기 도구 탓이던 실패는 다시 받는다
@@ -151,13 +204,14 @@ def yt_download_line(folders, plan_dir, families, logs):
                 save_rec(f, rec); done_one(f, plan_dir, families, logs)
         if not todo: mark('유튜브', f, plan_dir, families, logs)
     for f in folders:                                       # 결핍은 유튜브 댓글도 (커뮤니티 크롤러, 글 30개)
-        if f['kind'] != '결핍': continue
+        if f['kind'] != '결핍' or FULL[0]: continue          # 깊이 채우기는 유튜브 댓글을 커뮤니티 줄(모든 질의)로 따로 돈다
         out = base.folder_of(f) / '유튜브댓글.json'
         if out.exists(): continue
         base.status(plan_dir, '유튜브받기', f"{f['name']} 댓글")
         base._tl.posts = 30
         try: v2.write(out, v2.community(f['name'], None, base.folder_of(f), logs[f['name']], sites='youtube'))
         except Exception as e: logs[f['name']].append({'source': '유튜브 댓글', 'error': str(e)[:200]})
+    YT_DONE.set()
     base.status(plan_dir, '유튜브받기', '끝')
     TQ.put(None)
 
@@ -233,7 +287,8 @@ def finish_family(fam, families, plan_dir, logs):
         folder = base.folder_of(f)
         load = lambda p: json.loads(p.read_text(encoding='utf-8')) if p.exists() else []
         rows = load(folder / '공개검색-원자료.json') + load(folder / '유튜브댓글.json')
-        for _, fname in base.COMMUNITY.values(): rows += load(folder / fname)
+        for s_, (_, fname) in base.COMMUNITY.items():
+            if s_ != 'youtube': rows += load(folder / fname)   # 유튜브댓글.json은 위에서 이미 읽음
         if f.get('reuse_v2'): rows += load(v2.OUT / f['name'] / '공개검색-원자료.json')
         rows = [r for r in rows if not str(r.get('source', '')).startswith(base.DROP)]
         vids = load(folder / '영상-원자료.json')
@@ -259,7 +314,10 @@ def finish_family(fam, families, plan_dir, logs):
     base.status(plan_dir, '정리', f"{fam['family']} 끝 — 묶음/{fam['family']}/수집결과.md")
 
 if __name__ == '__main__':
-    a = argparse.ArgumentParser(); a.add_argument('plan'); a.add_argument('--no-meta', action='store_true'); args = a.parse_args()
+    a = argparse.ArgumentParser(); a.add_argument('plan'); a.add_argument('--no-meta', action='store_true')
+    a.add_argument('--lines', default='', help='돌릴 줄만(쉼표): naver,ytdl,youtube,dcinside,blind,natepann,mlbpark,fmkorea,ruliweb,arca,cook82,theqoo — 다른 실행이 쓰는 사이트와 겹치지 않게 나눠 돌릴 때')
+    a.add_argument('--finish-only', action='store_true', help='수집 없이 모든 계열을 다시 정리만 한다(두 실행이 나눠 모은 뒤 마지막 정리)')
+    args = a.parse_args()
     plan_path = Path(args.plan).resolve(); plan = json.loads(plan_path.read_text(encoding='utf-8')); plan_dir = plan_path.parent
     families = plan['families']
     base.KIN_LIMIT.update(plan['kin_limit'])
@@ -269,17 +327,37 @@ if __name__ == '__main__':
             if fkey(f) in seen: raise SystemExit('같은 폴더가 두 계열에 있음: ' + fkey(f))
             seen.add(fkey(f)); folders.append(f)
     logs = {f['name']: base.prepare(f) for f in folders}
+    FULL[0] = bool(plan.get('full_depth'))
+    if FULL[0]:   # 낮은 한도(25·40)로 끝난 지식인 질의는 기록에서 지워 기본 한도(100·50)까지 다시 모으게 한다(행은 정리 때 URL로 중복 제거)
+        for f in folders:
+            logs[f['name']] = [e for e in logs[f['name']] if not (e.get('source') == '지식인' and 'returned' in e and 15 <= e['returned'] < base.KIN_LIMIT[f['kind']])]
     for f in folders:
         if not f.get('reuse_v2'): base.reset_old_posts(f)
+    if FULL[0]:
+        base.COMMUNITY['youtube'] = ('유튜브댓글', '유튜브댓글.json')
+        base.COMMUNITY['cook82'] = ('82쿡', '82쿡.json'); base.COMMUNITY['theqoo'] = ('더쿠', '더쿠.json')   # 여성 커뮤니티(사장님 10-16 밤)
+        base.POSTS.update({'결핍': 80, '대안': 50})
+        YT.update({'결핍': (20, 10), '대안': (4, 2)})   # 유튜브도 기본 깊이(사장님 10-16 '유튜브 영상을 좀 더 많이')   # 사장님 10-16 밤: 키워드당 50 → 80(대안 30 → 50)   # 깊이 채우기: 의사·경험 영상 밑 본인 경험 댓글(사장님 10-16 밤 "자료 부족하면 안 돼")
     ACTIVE[:] = ['네이버', '유튜브'] + [base.COMMUNITY[s][0] for s in base.COMMUNITY]
+    sel = set(x.strip() for x in args.lines.split(',') if x.strip())
+    if sel:   # 줄 나눠 돌리기(10-16 밤: 1차 수집이 아직 쓰는 사이트와 겹치지 않게)
+        for s_ in [s_ for s_ in base.COMMUNITY if s_ not in sel]: base.COMMUNITY.pop(s_)
+        ACTIVE[:] = (['네이버'] if 'naver' in sel else []) + (['유튜브'] if 'ytdl' in sel else []) + [base.COMMUNITY[s_][0] for s_ in base.COMMUNITY]
+        if 'ytdl' not in sel: YT_DONE.set()
+    if args.finish_only:
+        for fam in families: finish_family(fam, families, plan_dir, logs)
+        base.status(plan_dir, '전체', '정리만 끝'); raise SystemExit(0)
     model, device = load_model()
     base.status(plan_dir, '전체', f"시작 — 계열 {len(families)}개, 폴더 {len(folders)}개, 받아쓰기 {device}")
     workers = 1 if device == 'cuda' else 3
-    with ThreadPoolExecutor(max_workers=4 + len(base.COMMUNITY) + workers) as pool:
-        jobs = [pool.submit(naver_line, folders, plan, plan_dir, families, logs),
-                pool.submit(yt_download_line, folders, plan_dir, families, logs)]
-        jobs += [pool.submit(transcribe_worker, model, device, plan_dir, families, logs) for _ in range(workers)]
-        jobs += [pool.submit(community_line, s, folders, plan_dir, families, logs) for s in base.COMMUNITY]
+    with ThreadPoolExecutor(max_workers=4 + sum(LINES_PER_SITE.get(s_, 1) for s_ in base.COMMUNITY) + workers) as pool:
+        jobs = [pool.submit(naver_line, folders, plan, plan_dir, families, logs)] if (not sel or 'naver' in sel) else []
+        if not sel or 'ytdl' in sel:
+            jobs.append(pool.submit(yt_line_safe, folders, plan_dir, families, logs))
+            jobs += [pool.submit(transcribe_worker, model, device, plan_dir, families, logs) for _ in range(workers)]
+        for s_ in base.COMMUNITY:
+            n_ = LINES_PER_SITE.get(s_, 1) if FULL[0] else 1
+            jobs += [pool.submit(community_line, s_, folders[i::n_], plan_dir, families, logs) for i in range(n_)]
         if not args.no_meta: jobs.append(pool.submit(meta_line, families, plan_dir))
         for j in jobs:
             try: j.result()

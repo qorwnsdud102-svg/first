@@ -20,7 +20,7 @@ SKIP = ('facebook.com', 'instagram.com', 'fb.me', 'naver.me', 'bit.ly', 'linktr.
         'drama', 'netshort', 'lightreader', 'webfic', 'novelstream', 'reelshort', 'shortmax', 'goodshort', 'flextv', 'vigloo', 'dmmbpnyy')   # 숏드라마·웹소설 앱 광고(10-16 무좀 작성자가 찾음)
 CLINIC = re.compile(r'clinic|한의원|의원|피부과|병원|성형|언니', re.I)
 TOP, TEXTS = 12, 3
-MAPV = True   # 옛 형식 광고의 영상 짝짓기(길이 맞추기). meta_anatomy는 끈다
+MAPV = False  # 옛 형식 광고의 영상 짝짓기(길이 맞추기). 10-16 밤 끔: 엄격하게 해도 다크서클 5편 중 3편·바디착색 7편 중 3편이 다른 제품 음성 — 광고 ID로 받은 영상만 쓴다
 TODAY = datetime.date(2026, 10, 16)
 
 def dom(u):

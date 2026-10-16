@@ -23,7 +23,7 @@ def digest(f):
     text = lambda r, n: re.sub(r'\s+', ' ', str(r[idx['리뷰내용']] or ''))[:n]
     helpful = sorted(data, key=lambda r: -int(float(r[idx.get('도움된인원수', 10)] or 0)))
     best = [f'  - ({star(r)}점) {text(r, 180)}' for r in helpful if len(text(r, 30)) >= 20][:6]
-    low = [f'  - ({star(r)}점) {text(r, 150)}' for r in data if (star(r) or 5) <= 2 and len(text(r, 20)) >= 10][:5]
+    low = [f'  - ({star(r)}점) {text(r, 150)}' for r in data if (star(r) or 5) <= 2 and len(text(r, 20).strip()) >= 2][:5]
     seller = next((str(r[idx['판매자']]) for r in data if r[idx['판매자']]), '')
     L = [f'### {f.stem}  (폴더 {f.parent.name})',
          f'- 후기 {len(data)}개 · 평균 {round(sum(stars) / len(stars), 2) if stars else "-"}점 · 별점 5/4/3/2/1 = {"/".join(str(dist.get(k, 0)) for k in (5, 4, 3, 2, 1))} · 판매자 {seller}',
