@@ -16,7 +16,10 @@ def provider(url):
     if 'instiz.net' in host:return 'instiz'
     return 'shop_'+re.sub(r'[^a-z0-9._-]','',host)
 
-def gap_for(site):return GAPS['shopping'] if site.startswith('shop_') else GAPS.get(site,GAPS['community'])
+# 큰 커뮤니티 주소별 간격(10-17 00:25 — 깊이 채우기가 3~6초 간격에 묶여 디시 5일 걸림 → 사장님 '병렬로 빠르게, 제한은 받지 않게'. 막힘 한 번이면 그 주소는 (4,7)로 되돌린다)
+HOST_GAPS = {'shop_gall.dcinside.com':(2,3.5),'shop_search.dcinside.com':(2,3.5),'shop_www.fmkorea.com':(2,3.5),'shop_bbs.ruliweb.com':(2,3.5),
+             'shop_arca.live':(2,3.5),'shop_mlbpark.donga.com':(2,3.5),'shop_www.teamblind.com':(2.5,4.5)}
+def gap_for(site):return HOST_GAPS.get(site) or (GAPS['shopping'] if site.startswith('shop_') else GAPS.get(site,GAPS['community']))
 
 def blocked(status,text=''):
     return status in (429,418) or bool(re.search(r'보안문자를\s?입력|자동입력\s?방지\s?문자를|IpBlocked|RequestBlocked|HTTP Error 429',text,re.I))

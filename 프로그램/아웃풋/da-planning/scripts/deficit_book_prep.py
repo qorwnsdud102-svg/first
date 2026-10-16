@@ -41,9 +41,19 @@ NEG = {'인모드': r'온라인 ?모드', '괄사': r'일괄', '스컬트라': r
 # 같은 말이 다른 뜻으로 많이 쓰이는 결핍은 그 뜻일 때만 남긴다('기미가요'·'할 기미'·'닝기미' — 색소흉터 원인원리 작성자가 찾음, 10-16)
 POS = {'기미': r'피부|얼굴|잡티|색소|주근깨|미백|토닝|레이저|크림|선크림|썬크림|자외선|광대|트란|멜라|흑자|검버섯|시술|피부과|화장|세럼|앰플|비타민|뺨|눈밑|임신'}
 
+# 사람 결핍인데 반려동물 글이 섞인다(10-17 구내염 작성자: 인용 40개 중 고양이·뱀 글 4개) — 모든 결핍에서 뺀다
+NEG_ALL = r'고양이|강아지|냥이|반려묘|반려견|댕댕이|동물병원|수의사|길냥|집사님'
+POS.update({'구내염': r'입|혀|잇몸|구내염|입병|혓바늘|알보칠|오라메디|헐었|헐어|궤양|양치|가글',
+            '구순염': r'입술|구순|입꼬리|입가|립밤|각질|갈라|트고|텄',
+            # 10-17 여성 계열 작성자: 대안 목소리가 빵·게임(크랜베리)·무좀 연고(질정)·남성(케겔)으로 가득
+            '크랜베리': r'방광|소변|요로|질염|여성|오줌|화장실|잔뇨', '질정': r'질염|질정|분비물|냉|칸디다|산부인과|질 ?건조|Y존',
+            '케겔운동': r'요실금|골반|출산|소변|질|산후|기침|재채기', '여성청결제': r'질염|Y존|냄새|분비물|냉|청결|가려',
+            '질유산균': r'질염|질|여성|Y존|분비물|냉|유산균'})
+
 def drop_noise(rows, name):
     pat, pos = NEG.get(name), POS.get(name)
-    return [r for r in rows if not (pat and re.search(pat, r.get('text', ''))) and not (pos and not re.search(pos, r.get('text', '')))]
+    return [r for r in rows if not (pat and re.search(pat, r.get('text', ''))) and not (pos and not re.search(pos, r.get('text', '')))
+            and not re.search(NEG_ALL, r.get('text', ''))]
 
 def load(p):
     try: return json.loads(Path(p).read_text(encoding='utf-8'))

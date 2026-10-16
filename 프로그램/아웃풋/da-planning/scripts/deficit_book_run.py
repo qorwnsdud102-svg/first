@@ -44,7 +44,8 @@ def naver_line(folders, plan, plan_dir, families, logs):
         if (FULL[0] or not f.get('reuse_v2')) and not done_mark.exists():
             base.status(plan_dir, '네이버', f"{fkey(f)} 지식인 시작 ({len(f['queries'])}개 질의, 정렬당 {plan['kin_limit'][f['kind']]}건)")
             base._limit[0] = plan['kin_limit'][f['kind']]
-            try: v2.collect_public(f['name'], f['queries'], folder, logs[f['name']])
+            qs_n = [x for x in f['queries'] if x not in extras_of(f)] if FULL[0] else f['queries']   # 지식인은 덧붙인 '후기·고민·없애는법' 빼고 기본 질의만(같은 질문이 대부분 겹침 — 10-17 01:25 네이버가 결핍당 2~3시간)
+            try: v2.collect_public(f['name'], qs_n, folder, logs[f['name']])
             except Exception as e: logs[f['name']].append({'source': '네이버', 'error': str(e)[:200]})
         mark('네이버', f, plan_dir, families, logs)
     base.status(plan_dir, '네이버', '끝')
@@ -347,9 +348,9 @@ if __name__ == '__main__':
     if args.finish_only:
         for fam in families: finish_family(fam, families, plan_dir, logs)
         base.status(plan_dir, '전체', '정리만 끝'); raise SystemExit(0)
-    model, device = load_model()
+    model, device = load_model() if (not sel or 'ytdl' in sel) else (None, '없음(받아쓰기 줄 없음)')   # 그래픽카드 3GB — 받아쓰기 안 하는 실행은 모델을 올리지 않는다
     base.status(plan_dir, '전체', f"시작 — 계열 {len(families)}개, 폴더 {len(folders)}개, 받아쓰기 {device}")
-    workers = 1 if device == 'cuda' else 3
+    workers = 1 if device == 'cuda' else (3 if model else 0)
     with ThreadPoolExecutor(max_workers=4 + sum(LINES_PER_SITE.get(s_, 1) for s_ in base.COMMUNITY) + workers) as pool:
         jobs = [pool.submit(naver_line, folders, plan, plan_dir, families, logs)] if (not sel or 'naver' in sel) else []
         if not sel or 'ytdl' in sel:
