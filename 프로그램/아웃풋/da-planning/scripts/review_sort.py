@@ -6,6 +6,7 @@
 import glob, io, json, os, re, shutil, sys
 import openpyxl
 D = os.path.expanduser(r'~\Downloads'); R = r'C:\claude\LLM-WIKI\마케팅\프로젝트\DA-기획\후기-받은함'
+DBX = os.path.expanduser(r'~\Dropbox\쿠팡후기')   # 10-17 사장님: 다른 노트북에서 받아 드롭박스에 넣으면 여기서 가져간다(어떤 이름의 xlsx든)
 RULES = [('질염', r'락토리메디'), ('주사피부염', r'리코셀'), ('한포진', r'허벌 파마라인|파마라인 센스티브 (주부|핸드)|파마라인 센스티브 핸드'), ('땀띠', r'땀띠|칼라민|베이비 ?파우더'), ('바디착색', r'화이트홀릭'),   # 10-17 수동받기 옵션명이 목록 이름과 달라 미분류된 5개
          ('주름공통', r'라이필|유쎄라블|블랙 스네일크림|마데카 크림 시즌|타이트 리프팅|펩타이드샷|녹는실|레티날 300|펩타 리프팅|콜라겐 임팩트|레티놀 겔 마스크|보톡스 멀티밤|슈마지|갈바닉 고주파|페이스 괄사|에버콜라겐'),
          ('팔자주름', r'팔자|PDRN 핑크 콜라겐|피디알엔 핑크'), ('목주름', r'목주름|넥 마스크|넥 실리콘|쥬베핏'), ('이중턱', r'브이라인|V라인|골기|에이지알'),
@@ -63,7 +64,7 @@ def main():
     extra = search_rules()
     manual = manual_rows()   # 10-17: 새 결핍 제품은 옛 규칙 사전(RULES)이 엉뚱한 곳(두피 샴푸→탈모, 율무패치→쥐젖)으로 보내므로 수동 목록과 먼저 맞춘다
     got_names = []
-    for f in sorted(glob.glob(os.path.join(D, '리뷰다운로드*.xlsx')), key=os.path.getmtime):
+    for f in sorted(glob.glob(os.path.join(D, '리뷰다운로드*.xlsx')) + glob.glob(os.path.join(DBX, '*.xlsx')), key=os.path.getmtime):
         try:
             with open(f, 'rb') as fh: data = io.BytesIO(fh.read())   # 10-17: 파일을 직접 열면 iter_rows가 원본 손잡이를 쥐고 있어 옮기기가 늘 '사용 중'으로 실패했다
             wb = openpyxl.load_workbook(data, read_only=True); it = wb.active.iter_rows(values_only=True)
