@@ -3,17 +3,18 @@
 - 제품 이름(상품옵션명)을 _받을-링크.md의 제품 목록과 단어 겹침으로 맞추고, 못 맞추면 규칙 사전으로 본다. 그래도 모르면 _미분류/로 옮긴다.
 - 끝에 '_받을-링크.md에는 있는데 아직 안 받은 제품' 목록을 _아직안받음.md로 쓴다.
 사용: python review_sort.py"""
-import glob, json, os, re, shutil, sys
+import glob, io, json, os, re, shutil, sys
 import openpyxl
 D = os.path.expanduser(r'~\Downloads'); R = r'C:\claude\LLM-WIKI\마케팅\프로젝트\DA-기획\후기-받은함'
-RULES = [('주름공통', r'라이필|유쎄라블|블랙 스네일크림|마데카 크림 시즌|타이트 리프팅|펩타이드샷|녹는실|레티날 300|펩타 리프팅|콜라겐 임팩트|레티놀 겔 마스크|보톡스 멀티밤|슈마지|갈바닉 고주파|페이스 괄사|에버콜라겐'),
+RULES = [('질염', r'락토리메디'), ('주사피부염', r'리코셀'), ('한포진', r'허벌 파마라인|파마라인 센스티브 (주부|핸드)|파마라인 센스티브 핸드'), ('땀띠', r'땀띠|칼라민|베이비 ?파우더'), ('바디착색', r'화이트홀릭'),   # 10-17 수동받기 옵션명이 목록 이름과 달라 미분류된 5개
+         ('주름공통', r'라이필|유쎄라블|블랙 스네일크림|마데카 크림 시즌|타이트 리프팅|펩타이드샷|녹는실|레티날 300|펩타 리프팅|콜라겐 임팩트|레티놀 겔 마스크|보톡스 멀티밤|슈마지|갈바닉 고주파|페이스 괄사|에버콜라겐'),
          ('팔자주름', r'팔자|PDRN 핑크 콜라겐|피디알엔 핑크'), ('목주름', r'목주름|넥 마스크|넥 실리콘|쥬베핏'), ('이중턱', r'브이라인|V라인|골기|에이지알'),
          ('기미', r'도미나스|기미|누룩밤|들깨 미백|멜라논|셀리맥스|나이아신아마이드 20'), ('여드름흉터', r'흔적 리페어|마데케어|레드스팟|센텔라스카|더마틱스'),
          ('튼살', r'튼살|스트레치 마크|프래그넌트|프레그넌시|힐텀|프라젠트라|튼사렌'), ('소극성속모증', r'속모증|피지 멜팅|피지제거기|노우즈 팩|포어 클린|돼지코팩'),
          ('쥐젖', r'와트프리져|비렌느|스팟 엑스|쥐젖|에끌라퓨어|요철|율무|비립종|큐라스팟'), ('티눈', r'티눈|굳은살'), ('무좀', r'케라셀|무좀|발톱 스케일링|케라좀|라셀턴|좀퓨어|케라큐'),
          ('부유방', r'부유방|팔뚝'), ('하지정맥류', r'압박스타킹|압박밴드|종아리 이완|디오스민|징코맥스|하지정맥'),
          ('역류성식도염', r'위엔포스|위건강|역류|매스틱'), ('수족냉증', r'보온대|발핫팩|수면양말|허브찜질팩|열선양말|수족냉증'), ('비염', r'노즈스위퍼|노즈픽션|나잘후레쉬|브레스온|곰보배추|노즈스윗|코세정'),
-         ('탈모', r'탈모|트리코엑스|그로우턴|마이녹셀|리바이브 테라피|스칼프|Vivelab|바이브랩|모발 강화|두피'), ('아토피', r'아토피|아토 |아토팜|리스토피|아토크림'), ('다한증', r'다한증|땀|데오|퍼스피렉스|오도리스'),
+         ('탈모', r'탈모|트리코엑스|그로우턴|마이녹셀|리바이브 테라피|스칼프|Vivelab|바이브랩|모발 강화|두피'), ('아토피', r'아토피|아토 |아토팜|리스토피|아토크림'), ('다한증', r'다한증|땀(?!띠)|데오|퍼스피렉스|오도리스'),
          ('잇몸염증', r'잇몸|치탄플러스|효소의발견|가그린|진지발리스')]
 ALSO = {'와트프리져': ['티눈']}
 
@@ -28,19 +29,54 @@ def link_rows():
             if cur: rows.append((cur, name, pid))
     return rows
 
+def manual_rows():
+    """_수동받기-목록.md(10-16 밤 새 결핍·메타 판매 제품) — ① '- [ ] <결핍> · <제품> · 링크', ② '### <결핍> (n개)' 아래 '- [ ] <제품> · 링크'."""
+    p = os.path.join(R, '_수동받기-목록.md'); rows, cur = [], None
+    if not os.path.exists(p): return rows
+    for line in open(p, encoding='utf-8'):
+        h = re.match(r'### (\S+) \(\d+개\)', line)
+        if h: cur = h.group(1); continue
+        if line.startswith('## '): cur = None
+        m = re.match(r'- \[.\] (.+?) · https://www\.coupang\.com/vp/products/(\d+)', line)
+        if not m: continue
+        body, pid = m.group(1), m.group(2)
+        if cur is None and ' · ' in body: need, name = body.split(' · ', 1)
+        elif cur: need, name = cur, body
+        else: continue
+        rows.append((need.strip(), name.strip(), pid))
+    return rows
+
+def search_rules():
+    """_수동받기-목록.md ③ 표(| 결핍 | 검색어 | 받을 제품 수 | 제품 이름에 들어갈 말 |) — 검색어로 받은 제품은 링크가 없어 이름 낱말로 맞춘다(10-17)."""
+    p = os.path.join(R, '_수동받기-목록.md'); out, on = [], False
+    if not os.path.exists(p): return out
+    for line in open(p, encoding='utf-8'):
+        if line.startswith('## '): on = line.startswith('## ③')
+        cells = [c.strip() for c in line.strip().strip('|').split('|')] if on and line.startswith('| ') else []
+        if len(cells) == 4 and cells[0] not in ('결핍', '---') and not set(cells[0]) <= {'-'}:
+            words = [re.escape(w.strip()) for w in cells[3].split(',') if w.strip()]
+            if words: out.append((cells[0], '|'.join(w if w != '땀' else '땀(?!띠)' for w in words)))
+    return out
+
 def main():
     links = link_rows(); moved, unknown = [], []
+    extra = search_rules()
+    manual = manual_rows()   # 10-17: 새 결핍 제품은 옛 규칙 사전(RULES)이 엉뚱한 곳(두피 샴푸→탈모, 율무패치→쥐젖)으로 보내므로 수동 목록과 먼저 맞춘다
     got_names = []
     for f in sorted(glob.glob(os.path.join(D, '리뷰다운로드*.xlsx')), key=os.path.getmtime):
         try:
-            wb = openpyxl.load_workbook(f, read_only=True); it = wb.active.iter_rows(values_only=True)
+            with open(f, 'rb') as fh: data = io.BytesIO(fh.read())   # 10-17: 파일을 직접 열면 iter_rows가 원본 손잡이를 쥐고 있어 옮기기가 늘 '사용 중'으로 실패했다
+            wb = openpyxl.load_workbook(data, read_only=True); it = wb.active.iter_rows(values_only=True)
             head = [str(c or '') for c in next(it)]; first = next(it, None)
             p = str(first[head.index('상품옵션명')] if first and '상품옵션명' in head else '')
             wb.close()                                   # 파일 잠금을 풀어야 옮길 수 있다
         except Exception as e: unknown.append(f'{os.path.basename(f)} 읽기 실패 {e}'); continue
         best = max(links, key=lambda r: len(toks(r[1]) & toks(p)) / (len(toks(r[1])) or 1), default=None)
         score = len(toks(best[1]) & toks(p)) / (len(toks(best[1])) or 1) if best else 0
-        dest = next((d for d, pat in RULES if re.search(pat, p)), None) or (best[0] if best and score >= 0.5 else '_미분류')
+        bm = max(manual, key=lambda r: len(toks(r[1]) & toks(p)) / (len(toks(r[1])) or 1), default=None)
+        sm = len(toks(bm[1]) & toks(p)) / (len(toks(bm[1])) or 1) if bm else 0
+        dest = (bm[0] if bm and sm >= 0.6 else None) or next((d for d, pat in RULES if re.search(pat, p)), None) or (best[0] if best and score >= 0.5 else None) \
+               or next((d for d, pat in extra if re.search(pat, p)), None) or '_미분류'   # ③ 검색어로 받은 제품은 맨 뒤에 이름 낱말로
         name = re.sub(r'[\\/:*?"<>|]', '', p.split(',')[0]).strip()[:80] or os.path.basename(f)[:-5]
         os.makedirs(os.path.join(R, dest), exist_ok=True)
         tgt = os.path.join(R, dest, name + '.xlsx'); n = 2
@@ -59,7 +95,7 @@ def main():
             moved.append(f'{dest} ← {name} (복사, 원본은 다음에 정리)'); got_names.append(p)
         if dest == '_미분류': unknown.append(name)
     have = {os.path.basename(x)[:-5] for x in glob.glob(os.path.join(R, '*', '*.xlsx'))}
-    missing = [(d, nm, pid) for d, nm, pid in links if not any(len(toks(nm) & toks(h)) / (len(toks(nm)) or 1) >= 0.5 for h in have)]
+    missing = [(d, nm, pid) for d, nm, pid in links + manual if not any(len(toks(nm) & toks(h)) / (len(toks(nm)) or 1) >= 0.5 for h in have)]
     L = ['# 아직 안 받은 후기 제품 (review_sort.py가 _받을-링크.md와 받은 파일을 맞춰 본 결과)', '']
     L += [f'- {d} · [{nm}](https://www.coupang.com/vp/products/{pid})' for d, nm, pid in missing]
     open(os.path.join(R, '_아직안받음.md'), 'w', encoding='utf-8').write('\n'.join(L) + '\n')
