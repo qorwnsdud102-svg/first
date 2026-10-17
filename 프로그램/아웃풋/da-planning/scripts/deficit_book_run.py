@@ -36,11 +36,17 @@ def mark(line, f, plan_dir, families, logs):
 # ── 네이버 지식인 ────────────────────────────────────────────
 FULL = [False]   # 계획의 full_depth — 사장님 10-16 밤 "시간 문제로 자료 수집을 덜 하는 경우는 없어야 해": 줄였던 깊이(지식인 정렬당 수·느린 사이트 메인 키워드만·대안 생략)를 기본값으로 다시 채운다
 
+DEEP_START = '2026-10-16T22:00'   # 깊이 채우기 계획을 처음 띄운 때 — 이보다 앞서 끝난 완료 표시만 1차 수집의 것
+def _first_round(mark):
+    """10-17 12:15: 새 결핍(1차 없음)은 깊이 채우기 완료 표시를 다시 띄울 때마다 '-1차'로 바꿔 네이버가 처음부터 다시 걸었다 → 완료 시각으로 가린다."""
+    try: return json.loads(mark.read_text(encoding='utf-8')).get('completed_at', '') < DEEP_START
+    except Exception: return False
+
 def naver_line(folders, plan, plan_dir, families, logs):
     for f in folders:
         folder = base.folder_of(f)
         done_mark = folder / '공개검색-완료.json'
-        if FULL[0] and done_mark.exists() and not (folder / '공개검색-완료-1차.json').exists(): done_mark.rename(folder / '공개검색-완료-1차.json')   # 이미 모은 질의는 기록으로 건너뛰고 모자란 것만 더 모은다. '-1차'가 이미 있으면 지금 표시는 깊이 채우기가 끝난 표시(10-17 08:29 다시 띄울 때 이름 겹쳐 네이버 줄이 죽음)
+        if FULL[0] and done_mark.exists() and not (folder / '공개검색-완료-1차.json').exists() and _first_round(done_mark): done_mark.rename(folder / '공개검색-완료-1차.json')   # 이미 모은 질의는 기록으로 건너뛰고 모자란 것만 더 모은다. '-1차'가 이미 있으면 지금 표시는 깊이 채우기가 끝난 표시(10-17 08:29 다시 띄울 때 이름 겹쳐 네이버 줄이 죽음)
         if (FULL[0] or not f.get('reuse_v2')) and not done_mark.exists():
             base.status(plan_dir, '네이버', f"{fkey(f)} 지식인 시작 ({len(f['queries'])}개 질의, 정렬당 {plan['kin_limit'][f['kind']]}건)")
             base._limit[0] = plan['kin_limit'][f['kind']]
