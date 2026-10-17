@@ -295,6 +295,8 @@ def check_families(plan_dir, families, logs):
             FINISHED.add(fam['family'])
         threading.Thread(target=finish_family, args=(fam, families, plan_dir, logs), daemon=False).start()
 
+ALL_COMM = {}   # 10-17 16:30: --lines로 나눠 돌면 base.COMMUNITY가 그 줄의 사이트만 남아, 계열을 마지막에 끝낸 줄이 수집기록을 제 사이트만으로 덮어썼다 → 정리는 늘 전체 사이트로
+
 def finish_family(fam, families, plan_dir, logs):
     by_name = {f['name']: f for fm in families for f in fm['folders']}
     alts = [f for f in fam['folders'] if f['kind'] == '대안'] + [by_name[s] for s in fam.get('shared', []) if s in by_name]
@@ -303,7 +305,7 @@ def finish_family(fam, families, plan_dir, logs):
         folder = base.folder_of(f)
         load = lambda p: json.loads(p.read_text(encoding='utf-8')) if p.exists() else []
         rows = load(folder / '공개검색-원자료.json') + load(folder / '유튜브댓글.json')
-        for s_, (_, fname) in base.COMMUNITY.items():
+        for s_, (_, fname) in (ALL_COMM or base.COMMUNITY).items():
             if s_ != 'youtube': rows += load(folder / fname)   # 유튜브댓글.json은 위에서 이미 읽음
         if f.get('reuse_v2'): rows += load(v2.OUT / f['name'] / '공개검색-원자료.json')
         rows = [r for r in rows if not str(r.get('source', '')).startswith(base.DROP)]
@@ -355,6 +357,7 @@ if __name__ == '__main__':
         base.POSTS.update({'결핍': 80, '대안': 50})
         YT.update({'결핍': (20, 10), '대안': (4, 2)})   # 유튜브도 기본 깊이(사장님 10-16 '유튜브 영상을 좀 더 많이')   # 사장님 10-16 밤: 키워드당 50 → 80(대안 30 → 50)   # 깊이 채우기: 의사·경험 영상 밑 본인 경험 댓글(사장님 10-16 밤 "자료 부족하면 안 돼")
     ACTIVE[:] = ['네이버', '유튜브'] + [base.COMMUNITY[s][0] for s in base.COMMUNITY]
+    ALL_COMM.update(base.COMMUNITY)
     sel = set(x.strip() for x in args.lines.split(',') if x.strip())
     if sel:   # 줄 나눠 돌리기(10-16 밤: 1차 수집이 아직 쓰는 사이트와 겹치지 않게)
         for s_ in [s_ for s_ in base.COMMUNITY if s_ not in sel]: base.COMMUNITY.pop(s_)
