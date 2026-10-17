@@ -119,13 +119,19 @@ def share(texts, pats):
 
 def quotes(rows, k=40, need=None):
     pool = [r for r in rows if str(r.get('experience')) == 'True' and 60 <= len(r.get('text', '')) <= 600 and (not need or re.search(need, r['text']))]
+    pool = [r for r in pool if r.get('type') != '답변']    # 10-18: 목소리 인용은 타겟 발화만(지식인 답변은 설명이라 뺌)
     pool.sort(key=lambda r: (-(int(r.get('likes') or 0)), -len(r['text'])))
-    by_src, out = collections.Counter(), []
-    for r in pool:                                         # 출처가 한쪽으로 몰리지 않게
-        s = str(r.get('source', ''))[:6]
-        if by_src[s] >= max(4, k // 4): continue
-        by_src[s] += 1; out.append(f"- [{r.get('source','')}] {re.sub(chr(10)+'+', ' ', r['text'])[:300]}")
-        if len(out) >= k: break
+    groups = collections.OrderedDict()                     # 10-18: 사이트마다 돌아가며 한 개씩 — 새로 넣은 사이트(블라인드·82쿡·더쿠…)도 인용에 들어오게
+    for r in pool: groups.setdefault(str(r.get('source', ''))[:6], []).append(r)
+    out, seen_url, i = [], collections.Counter(), 0
+    while len(out) < k and any(groups.values()):
+        for s in list(groups):
+            if not groups[s]: continue
+            r = groups[s].pop(0)
+            if seen_url[r.get('url')] >= 2: continue       # 한 글의 댓글은 2개까지
+            seen_url[r.get('url')] += 1
+            out.append(f"- [{r.get('source','')}] {re.sub(chr(10)+'+', ' ', r['text'])[:300]}")
+            if len(out) >= k: break
     return out
 
 def reviews_summary(folder_names, alias_pat):
