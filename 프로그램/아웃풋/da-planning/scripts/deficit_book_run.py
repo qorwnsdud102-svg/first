@@ -212,7 +212,7 @@ def yt_download_line(folders, plan_dir, families, logs):
                 TQ.put((f, rec, str(got[0])))
             except Exception as err:
                 rec['audio_error'] = str(err)[:200]
-                if re.search(r'429|Too Many|Sign in to confirm', str(err), re.I):
+                if re.search(r'429|Too Many|Sign in to confirm(?! your age)', str(err), re.I):   # 10-17: '나이 확인' 영상 하나를 차단으로 읽어 30분씩 쉬던 것 — 그 영상만 건너뛴다
                     blocks[0] += 1; rec['status'] = '음성 받기 막힘'
                     try: observe('youtube', 429, str(err))
                     except RuntimeError: pass
