@@ -65,6 +65,14 @@ LINES_PER_SITE = {'dcinside': 3, 'blind': 3, 'natepann': 3, 'mlbpark': 3, 'arca'
 def extras_of(f):
     n = f['name']; return {f'{n} 후기', f'{n} 고민', f'{n} 없애는법'} if f['kind'] == '결핍' else {f'{n} 후기', f'{n} 효과', f'{n} 부작용'}
 
+def done_q(part, q):
+    """수집기(voice_crawl.run·community_extra.run)가 건너뛰는 기준과 같다: 그 키워드 기록에 파일이 있고 막힘이 아님."""
+    sp = part / '_수집.json'
+    if not sp.exists(): return False
+    try: st = json.loads(sp.read_text(encoding='utf-8'))
+    except Exception: return False
+    return any(x.get('키워드') == q and x.get('파일') and not x.get('막힘') for x in st)
+
 def redo_if_capped(part, q, posts):
     """깊이 채우기: 예전 한도(결핍 50·대안 30)로 받은 질의는 새 한도(결핍 80·대안 50)로 다시 받게 기록을 비운다.
     사장님 10-16 밤 "키워드당 50개가 아니라 80개로 늘리자"(DC·블라인드가 핵심). 옛 엑셀은 '-1차'로 남겨 함께 읽고, 정리 때 URL로 중복을 지운다.
@@ -94,6 +102,7 @@ def community_rows(f, folder, log, site, queries):
         part = v2.OUT / '_공유-커뮤니티' / site / voice_crawl.safe(q)
         if not FULL[0] and (dest / (voice_crawl.safe(q) + '.xlsx')).exists(): continue
         if FULL[0]: redo_if_capped(part, q, posts)
+        if done_q(part, q): continue   # 이미 받은 질의는 쉬지 않고 건너뜀(10-17 09:24: 다시 띄울 때 받은 질의마다 30초씩 쉬어 줄마다 수십 분을 버림)
         if i: time.sleep(30)
         crawler = community_extra.run if site in community_extra.SITES else voice_crawl.run   # 82쿡·더쿠는 새 수집기(10-16 밤)
         with _qlock(site, q):   # 같은 사이트 줄 여럿이 같은 질의를 동시에 받지 않게

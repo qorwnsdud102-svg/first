@@ -4,7 +4,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 STATE = Path(__file__).resolve().parents[4]/'마케팅/프로젝트/DA-기획/기초분석-v2/_호출제한'
-GAPS = {'naver':(3,6),'youtube':(10,20),'community':(2,4),'shopping':(3,6),'cook82':(4,7),'theqoo':(4,7),'naver_api':(1,2)}   # 82쿡·더쿠는 넉넉히(사장님 10-16 밤 '엑세스 제한 안당하게 조심')
+GAPS = {'naver':(3,6),'youtube':(10,20),'community':(2,4),'shopping':(3,6),'cook82':(4,7),'theqoo':(2.5,4),'naver_api':(1,2)}   # 82쿡·더쿠는 넉넉히(사장님 10-16 밤 '엑세스 제한 안당하게 조심'). 더쿠는 10-17 사장님 '더쿠 간격 2.5~4초로 줄여'(4~7초면 8일) — 막힘 한 번이면 (4,7)로 되돌린다
 _locks={};_local=threading.local();_setup=threading.Lock()
 
 def provider(url):
