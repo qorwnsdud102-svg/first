@@ -95,8 +95,18 @@ CAUSE_BY = {
 }
 PERCEPT_BY = {'혀클리너': {'구역질': r'구역질|헛구역|구역 ?반사'}}
 
+THREAD_CAP = 5
+def cap_thread(rows, k=THREAD_CAP):
+    """한 글(같은 url)의 댓글·답변은 k개까지만 센다 — 바디착색 타겟 발화 68개 중 14개가 네이트판 글 하나의 댓글이라 원인 1순위가 뒤집혔다(10-17)."""
+    seen, out = {}, []
+    for r in rows:
+        u = r.get('url') or id(r); seen[u] = seen.get(u, 0) + 1
+        if seen[u] <= k: out.append(r)
+    return out
+
 def table2(rows, pats, label='단서', sort=False):
     """타겟 발화(질문·글·댓글)와 지식인 답변을 나눠 센다 — 답변은 '설명하는 원인'이라 타겟이 믿는 원인과 섞으면 안 된다(10-17)."""
+    rows = cap_thread(rows)
     voice = [r['text'] for r in rows if r.get('type') != '답변']; ans = [r['text'] for r in rows if r.get('type') == '답변']
     a, b = share(voice, pats), {k: (n, p) for k, n, p in share(ans, pats)}
     if sort: a = sorted(a, key=lambda x: -x[1])
