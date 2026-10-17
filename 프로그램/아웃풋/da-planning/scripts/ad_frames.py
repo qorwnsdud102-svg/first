@@ -46,8 +46,9 @@ def one(need):
     L = [f'# {need} — 메타 광고 영상 화면 재료 (모델 없음)', '',
          f'영상 {len(ids)}편(판매처 상위·상세페이지 본 곳). 그림마다 3x2 칸, 왼쪽 위가 첫 장면. 「첫3초」는 0.2~3.2초를 6칸, 「전체」는 3초~끝을 6칸으로 고르게 뽑았다.', '']
     for aid in ids:
-        imgs, dur = frames(ff, aid)
         seller, days, copy = sm.get(aid, ('(판매처 모름)', 0, ''))
+        if re.search(r'drama|novel|reel|shortmax|webfic|드라마|웹소설', seller + copy, re.I): continue   # 10-17 튼살: 숏드라마 앱 영상 3편이 섞임
+        imgs, dur = frames(ff, aid)
         tr = VID / f'{aid}.음성.txt'
         voice = tr.read_text(encoding='utf-8')[:300].replace('\n', ' ') if tr.exists() else '(받아쓰기 없음)'
         L += [f'## {aid} · {seller} · {days}일 게재 · {dur:.0f}초', f'- 문구 첫 줄: {copy}', f'- 음성 첫머리: {voice}'] + [f'- 그림: `{p}`' for p in imgs] + ['']
