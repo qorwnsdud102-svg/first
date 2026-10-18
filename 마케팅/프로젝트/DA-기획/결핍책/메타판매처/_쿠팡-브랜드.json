@@ -1028,5 +1028,214 @@
    ],
    "query": "퓨렉신 우로비콘"
   }
+ ],
+ "손상모": [
+  {
+   "tag": "hemekolab.com",
+   "words": [
+    "어네이즈"
+   ],
+   "query": "어네이즈 멜로우 크림"
+  },
+  {
+   "tag": "fromlabs.kr",
+   "words": [
+    "프롬랩스"
+   ],
+   "query": "프롬랩스 더블 단백질"
+  },
+  {
+   "tag": "fb.com",
+   "words": [
+    "나르카"
+   ],
+   "query": "나르카 헤어밀크"
+  }
+ ],
+ "발냄새": [
+  {
+   "tag": "racelturn",
+   "words": [
+    "라셀턴",
+    "박토킬"
+   ],
+   "query": "라셀턴 박토킬 스프레이"
+  },
+  {
+   "tag": "rediett",
+   "words": [
+    "리디킬"
+   ],
+   "query": "리디킬"
+  },
+  {
+   "tag": "smellmall",
+   "words": [
+    "냄새몰"
+   ],
+   "query": "냄새몰 발냄새 양말"
+  }
+ ],
+ "입냄새": [
+  {
+   "tag": "hetras.co.kr",
+   "words": [
+    "헤트라스"
+   ],
+   "query": "헤트라스 리톨 치약"
+  },
+  {
+   "tag": "dr-soom",
+   "words": [
+    "닥터숨"
+   ],
+   "query": "닥터숨 마우스 캔디"
+  },
+  {
+   "tag": "oy.run",
+   "words": [
+    "브리쎄",
+    "레빗텅"
+   ],
+   "query": "브리쎄 레빗텅 필름"
+  }
+ ],
+ "등드름": [
+  {
+   "tag": "theforment.com",
+   "words": [
+    "포맨트"
+   ],
+   "query": "포맨트 코튼허그 워시"
+  },
+  {
+   "tag": "not4u.kr",
+   "words": [
+    "낫포유"
+   ],
+   "query": "낫포유 클리어 바디 미스트"
+  },
+  {
+   "tag": "themedicube.co.kr",
+   "words": [
+    "필링샷"
+   ],
+   "query": "메디큐브 아크네 바디 필링샷"
+  }
+ ],
+ "넓은모공": [
+  {
+   "tag": "calmlab.kr",
+   "words": [
+    "캄랩"
+   ],
+   "query": "캄랩 그린티 243 포어 세럼"
+  },
+  {
+   "tag": "full-y.co.kr",
+   "words": [
+    "그린토마토"
+   ],
+   "query": "풀리 그린토마토 클레이 팩 클렌저"
+  },
+  {
+   "tag": "melable.co.kr",
+   "words": [
+    "포어시그널"
+   ],
+   "query": "메라블 포어시그널 앰플"
+  }
+ ],
+ "성인여드름": [
+  {
+   "tag": "tetocool.co.kr",
+   "words": [
+    "테토쿨"
+   ],
+   "query": "테토쿨 그린 시카 쉐이빙 젤"
+  },
+  {
+   "tag": "abso.kr",
+   "words": [
+    "앱소"
+   ],
+   "query": "앱소 흔적 ZERO 크림"
+  },
+  {
+   "tag": "noily.kr",
+   "words": [
+    "노일리"
+   ],
+   "query": "노일리 블랙헤드 슬라임"
+  }
+ ],
+ "액취증": [
+  {
+   "tag": "healgrids.co.kr",
+   "words": [
+    "힐그리즈"
+   ],
+   "query": "힐그리즈 토닝 데오드란트"
+  },
+  {
+   "tag": "purelevy.com",
+   "words": [
+    "프레톡"
+   ],
+   "query": "프레톡 데오드란트 패드"
+  },
+  {
+   "tag": "meditold.com",
+   "words": [
+    "퍼시닌"
+   ],
+   "query": "퍼시닌 바디워시"
+  }
+ ],
+ "노인냄새": [
+  {
+   "tag": "whiff.co.kr",
+   "words": [
+    "위프"
+   ],
+   "query": "위프 클린 리추얼 워시"
+  },
+  {
+   "tag": "alaskacube.com",
+   "words": [
+    "데오우드"
+   ],
+   "query": "데오우드 퍼퓸 샤워바"
+  },
+  {
+   "tag": "meditold.com",
+   "words": [
+    "퍼시닌"
+   ],
+   "query": "퍼시닌 바디워시"
+  }
+ ],
+ "발뒤꿈치각질": [
+  {
+   "tag": "hetotoe.com",
+   "words": [
+    "헤투토"
+   ],
+   "query": "헤투토 발각질제거기"
+  },
+  {
+   "tag": "kr.fuopitte.com",
+   "words": [
+    "나노클라스"
+   ],
+   "query": "나노클라스 풋케어 리무버"
+  },
+  {
+   "tag": "smartstore.naver.com",
+   "words": [
+    "마린힐"
+   ],
+   "query": "마린힐 풋케어 스프레이"
+  }
  ]
 }
