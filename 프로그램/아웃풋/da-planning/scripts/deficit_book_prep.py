@@ -79,6 +79,9 @@ NEG.update({'액취증': r'샹차이|마이쮸|워셔액|쯔란|인도인|백흑
 NEG.update({'다리붓기': r'반깁스|흉터투성이|이로하선배|대주자|타격왕|몰루|발효생식|이든네이처|신생아',   # 10-19 부종 A+B
     '호박즙': r'양배추즙|펌킨에일|자궁근종|기부한거|차이나게이트|코코넛워터|파스타그램|나중에 마셔야지', '붓기차': r'면김쏘욱슈|cpu|강동원|인바디|살쪘음을 보여주는|온몸 근육이 아픈데',
     '다리마사지기': r'상다리|시어머님|장모님|국가총력전'})
+NEG.update({'발뒤꿈치각질': r'쓱싹크림|흑설탕 마사지|검정깨 화장수|혼인 유지|찍찍이|쌩까는거|네이비씰|Video 태그를 지원하지|메이드 카페|발을 핥는다|호감도 선물|성홍열|런닝머신',   # 10-19 발손톱 A+B
+    '손발톱갈라짐': r'최승용|올스타전|개꼴데|우락실|날아다니는 영화|트린드|펑거스세럼', '발각질제거기': r'제모기 고민하다가|소중이 부근|케틀럿|조곤조곤 사고 있음',
+    '손톱영양제': r'귀티나는 손 만들기|웹사이트 하나 남기고갈게요|피부실기', '풋필링': r'슈퍼적립 상품|오집보다 싼 것 같아서 올림당'})
 NEG_ALL = r'adcr\.naver|캐시워크|고양이|강아지|냥이|반려묘|반려견|댕댕이|동물병원|수의사|길냥|집사님'
 POS.update({'구내염': r'입|혀|잇몸|구내염|입병|혓바늘|알보칠|오라메디|헐었|헐어|궤양|양치|가글',
             '구순염': r'입술|구순|입꼬리|입가|립밤|각질|갈라|트고|텄',
@@ -111,8 +114,17 @@ POS.update({'풋스프레이': r'풋 ?(스프레이|미스트|데오)|발.{0,4}(
 
 def drop_noise(rows, name):
     pat, pos = NEG.get(name), POS.get(name)
-    return [r for r in rows if not (pat and re.search(pat, r.get('text', ''))) and not (pos and not re.search(pos, r.get('text', '')))
+    rows = [r for r in rows if not (pat and re.search(pat, r.get('text', ''))) and not (pos and not re.search(pos, r.get('text', '')))
             and not re.search(NEG_ALL, r.get('text', ''))]
+    # 10-19 M13: 복붙 글(앞 80자가 같은 글)은 하나만, 6,000자 넘는 목록형 글('미용법 50가지')은 뺀다 — 발뒤꿈치각질 타겟 발화의 24%가 복붙이었다
+    seen, out = set(), []
+    for r in rows:
+        t = r.get('text', '')
+        if len(t) > 6000: continue
+        k = re.sub(r'\s+', '', t)[:80]
+        if len(k) >= 30 and k in seen: continue
+        seen.add(k); out.append(r)
+    return out
 
 def load(p):
     try: return json.loads(Path(p).read_text(encoding='utf-8'))
