@@ -32,7 +32,11 @@ def doc_count(auth, q, ep):
 
 def main(cand_path, out_path):
     cands = json.loads(Path(cand_path).read_text(encoding='utf-8')); auth = config.NaverAuth()
-    kwmap = json.loads((prep.BOOK / '메타판매처' / '_키워드.json').read_text(encoding='utf-8'))
+    # 10-19: 새 결핍 키워드는 _키워드-추가*.json·메타 주말 줄 지도에 있어 _키워드.json만 읽으면 매대가 0으로 나왔다(넓은모공 0개 ← 실제 443개)
+    kwmap = {}
+    for p in [prep.BOOK / '메타판매처' / f for f in ('_키워드.json', '_키워드-추가.json', '_키워드-추가2.json', '_키워드-추가3.json')] + [prep.BOOK / '묶음' / '_메타줄-키워드.json']:
+        if p.exists():
+            for k, v in json.loads(p.read_text(encoding='utf-8')).items(): kwmap[k] = list(dict.fromkeys(kwmap.get(k, []) + list(v)))
     L = ['# 확인표 — 스크립트가 잰 값', '', '- 검색량: 네이버 검색광고 월간 PC+모바일(정확 일치, 띄어쓰기 없앰).',
          '- 매대: 이 결핍 메타 광고 문구 중 그 상징 이름이 나온 비율. 0은 못 봤다는 뜻이지 없다는 뜻이 아니다.',
          '- "상징+제형"이 이미 팔리나(예: 하수오 샴푸): 웹·쿠팡 검색으로 제품명이 보이면 팖. 못 찾음은 없다는 뜻이 아니라 못 봤다는 뜻.', '']
