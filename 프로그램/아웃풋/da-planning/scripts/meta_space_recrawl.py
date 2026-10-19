@@ -9,10 +9,12 @@ PER = 6
 REST = 40 * 60
 
 rounds = int(sys.argv[sys.argv.index('--rounds') + 1]) if '--rounds' in sys.argv else 1
+if '--wait' in sys.argv: time.sleep(int(sys.argv[sys.argv.index('--wait') + 1]) * 60)   # 막 제한이 걸린 뒤 다시 띄울 때 먼저 쉼
 for _ in range(rounds):
     q = json.loads(Q.read_text(encoding='utf-8')); done = set(q.get('끝', []))
     left = [kw for n in q['순서'] for kw in q['키워드'].get(n, []) if kw not in done]
     left = list(dict.fromkeys(left))
+    cuts = q.get('잘림', {}); left.sort(key=lambda k: cuts.get(k, 0))   # 잘린 횟수가 적은 것부터 — 한 키워드가 줄을 막지 않게
     if not left: print('남은 키워드 없음'); break
     batch = left[:PER]; title = f"결핍책-띄어쓰기-{time.strftime('%m%d%H%M')}"
     print(f"{time.strftime('%H:%M')} {title}: {', '.join(batch)}", flush=True)
@@ -21,6 +23,8 @@ for _ in range(rounds):
     summ = json.loads((Path(TOOL) / f'{title}_메타광고소재' / '_summary.json').read_text(encoding='utf-8'))
     ok = [s['brand'] for s in summ if not s.get('truncated')]
     cut = [s['brand'] for s in summ if s.get('truncated')]
-    q = json.loads(Q.read_text(encoding='utf-8')); q['끝'] = list(dict.fromkeys(q.get('끝', []) + ok)); Q.write_text(json.dumps(q, ensure_ascii=False, indent=1), encoding='utf-8')
+    q = json.loads(Q.read_text(encoding='utf-8')); q['끝'] = list(dict.fromkeys(q.get('끝', []) + ok))
+    q.setdefault('잘림', {}); [q['잘림'].__setitem__(c, q['잘림'].get(c, 0) + 1) for c in cut]
+    Q.write_text(json.dumps(q, ensure_ascii=False, indent=1), encoding='utf-8')
     print(f"  끝 {len(ok)}개 · 잘림 {len(cut)}개 {cut}", flush=True)
     if cut: print(f"  메타 제한 — {REST // 60}분 쉼(우회 안 함)", flush=True); time.sleep(REST)
