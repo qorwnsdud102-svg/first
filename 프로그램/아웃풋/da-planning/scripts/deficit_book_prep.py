@@ -107,6 +107,10 @@ NEG.update({'한포진': r'채널 육아|채널 결혼생활|서브웨이|저가
 NEG.update({'피부가려움증': r'임라라|손민수|슈돌|지상렬|배윤정|허백윤|만삭에도|췌장암|뇌소양증|호모섹스|코로나19 백신|해파리|문신 하나|난임덬|수족구|탈모언니들|페니실린|CARA|투석환자|테스터용'})   # 10-19 피부가려움증 A+B 작성자
 POS.update({'피부가려움증': r'가려움|가려운|가려워|가려웠|가려우|가려울|가렵|간지럽|간지러|간지럼|간질|소양|긁|근질|피부|두드러기|아토피|습진|발진|각질|건조|보습|연고|스테로이드|항히스타민|알레르기|알러지|진물|로션|바디|비누|샤워|좌욕|비데|항문|질염|염증|수포|뾰루지|벌레|모기'})   # 더쿠 댓글 무관 40% — 가려움·피부 낱말 든 글만
 NEG.update({'지루성피부염': r'장애인수급자|도살장에|개인적인 이유로 직장|관장님|이긴자로|스마일라식|헤어식초|샴푸 몇 번 펌핑'})   # 10-19 지루성피부염 A+B 작성자(무관 7, 오탐 0)
+NEG.update({'건선': r'푸바오|사육사|노안|우엉차|현미차|감잎차|보리차|카모마일|혈소판|헌혈 가능한 덬|백혈구|파티온|노스카나인|센텔리안|설페이트|페녹시에탄올|미녹시딜|녹차실감|검은줄|검은색 줄|햇빛알레르기|비데|좌욕|장누수|포드맵|식이유황|문전박대|무늬만 피부과|미인점|보정속옷|채널포인트|jpop|생성형 에이아이|노팅엄|라인업|이정후|바이킹|퓨리아|건선물로건'})   # 10-20 건선 깊이 보충 작성자
+POS.update({'건선': r'건선|피부|각질|가려|가렵|간지|연고|스테로이드|광선|엑시머|병원|치료|증상|면역|바르|관절|두피|진물|딱지|비듬|재발|완치|습진|아토피|발진|로션|크림|보습|산정특례|생물학|주사'})
+# 10-20: 더쿠는 피부 잡담 스레드가 많아 POS만으로 안 걸러진다 — 결핍 낱말이 있거나 같은 글(url)의 본글 앞 150자에 결핍 낱말이 든 스레드의 행만 남긴다(건선 더쿠 무관 44% → 작성자 제안)
+THREAD_POS = {'건선': ('theqoo', r'건선')}
 POS.update({'주사피부염': r'피부|얼굴|볼|뺨|열감|화끈|여드름|연고|크림|수란트라|아젤|브이빔|레이저|피부과|모낭충|주사피부염|안면홍조|붉어|빨개|트러블|진정'})   # '홍조' 단독은 캐릭터 얼굴 붉힘까지 들어왔다
 # 10-19 M15: 대안 언급 표는 계획의 aliases(새 17은 이름 되풀이뿐)로만 세서 코큐텐·스타틴·CGM 같은 부르는 말을 놓쳤다(고지혈증약 13 → 32%) — 세는 데만 쓰는 별칭(수집 키워드는 그대로)
 MENTION_ALIAS = {
@@ -173,7 +177,11 @@ def drop_noise(rows, name):
     pat, pos = NEG.get(name), POS.get(name)
     for r in rows:
         if r.get('text'): r['text'] = strip_ads(r['text'])
-    rows = [r for r in rows if not (pat and re.search(pat, r.get('text', ''))) and not (pos and not re.search(pos, r.get('text', '')))
+    tp = THREAD_POS.get(name)
+    if tp:
+        heads = {r.get('url'): r.get('text', '')[:150] for r in rows if r.get('source') == tp[0] and r.get('type') == '글'}
+        rows = [r for r in rows if r.get('source') != tp[0] or re.search(tp[1], r.get('text', '')) or re.search(tp[1], heads.get(r.get('url'), ''))]
+    rows = [r for r in rows if not (pat and re.search(pat, r.get('text', ''))) and not (pos and not (tp and r.get('source') == tp[0]) and not re.search(pos, r.get('text', '')))
             and not re.search(NEG_ALL, r.get('text', ''))
             and not ('지식' in str(r.get('source', '')) and KIN_PROMO.search(r.get('text', '')))]
     # 10-19 M13: 복붙 글(앞 80자가 같은 글)은 하나만, 6,000자 넘는 목록형 글('미용법 50가지')은 뺀다 — 발뒤꿈치각질 타겟 발화의 24%가 복붙이었다
