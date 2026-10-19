@@ -335,6 +335,7 @@ if __name__ == '__main__':
     a = argparse.ArgumentParser(); a.add_argument('plan'); a.add_argument('--no-meta', action='store_true')
     a.add_argument('--lines', default='', help='돌릴 줄만(쉼표): naver,ytdl,youtube,dcinside,blind,natepann,mlbpark,fmkorea,ruliweb,arca,cook82,theqoo — 다른 실행이 쓰는 사이트와 겹치지 않게 나눠 돌릴 때')
     a.add_argument('--finish-only', action='store_true', help='수집 없이 모든 계열을 다시 정리만 한다(두 실행이 나눠 모은 뒤 마지막 정리)')
+    a.add_argument('--finish-families', default='', help='이 계열들만(쉼표) 다시 정리 — 10-20: 더쿠 줄이 계열 정리 뒤에 끝나 더쿠가 정제에 빠진 계열을 다시 묶을 때')
     args = a.parse_args()
     plan_path = Path(args.plan).resolve(); plan = json.loads(plan_path.read_text(encoding='utf-8')); plan_dir = plan_path.parent
     families = plan['families']
@@ -363,9 +364,11 @@ if __name__ == '__main__':
         for s_ in [s_ for s_ in base.COMMUNITY if s_ not in sel]: base.COMMUNITY.pop(s_)
         ACTIVE[:] = (['네이버'] if 'naver' in sel else []) + (['유튜브'] if 'ytdl' in sel else []) + [base.COMMUNITY[s_][0] for s_ in base.COMMUNITY]
         if 'ytdl' not in sel: YT_DONE.set()
-    if args.finish_only:
-        for fam in families: finish_family(fam, families, plan_dir, logs)
-        base.status(plan_dir, '전체', '정리만 끝'); raise SystemExit(0)
+    if args.finish_only or args.finish_families:
+        only = set(x.strip() for x in args.finish_families.split(',') if x.strip())
+        for fam in families:
+            if not only or fam['family'] in only: finish_family(fam, families, plan_dir, logs)
+        base.status(plan_dir, '전체', '정리만 끝' + (f" ({', '.join(sorted(only))})" if only else '')); raise SystemExit(0)
     model, device = load_model() if (not sel or 'ytdl' in sel) else (None, '없음(받아쓰기 줄 없음)')   # 그래픽카드 3GB — 받아쓰기 안 하는 실행은 모델을 올리지 않는다
     base.status(plan_dir, '전체', f"시작 — 계열 {len(families)}개, 폴더 {len(folders)}개, 받아쓰기 {device}")
     workers = 1 if device == 'cuda' else (3 if model else 0)
