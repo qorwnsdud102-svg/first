@@ -44,7 +44,8 @@ SEEK = {
               '주사'],
     '정보 탐색': ['없애는법', '없애는방법', '없애기', '자연치유', '자가진단', '좋은음식', '치료법', '관리법', '원인', '증상', '제거',
               '음식', '초기', '사진', '전염', '차이', '완치', '관리', '예방', '방법', '이유', '기간', '진단', '종류', '특징', '뜻', '영어',
-              '없애', '빼는법', '시기', '언제', '부터', '줄이기', '개선', '완화', '재발', '스트레스', '식단', '생활습관'],
+              '없애', '빼는법', '시기', '언제', '부터', '좋아지는법', '높이는법', '감퇴', '저하', '테스트', '게임', '향상', '부족',
+              '심해지', '나빠지', '좋아지', '자가', '체크', '검사법', '수치', '정상', '기준', '낮추는법', '낮추기', '내리는법', '줄이기', '개선', '완화', '재발', '스트레스', '식단', '생활습관'],
     '구매 직전': ['내돈내산', '최저가', '올리브영', '추천', '순위', '후기', '가격', '비교', '브랜드', '쿠팡', '다이소', '효과', '성분', '랭킹'],
 }
 STAGE = {'흰·오래된': ['흰색', '하얀', '흰', '오래된', '백색'], '붉은·초기': ['빨간', '붉은', '보라', '초기', '생기기전', '예방']}
@@ -147,14 +148,17 @@ class _R:
 
 
 def dl_post(auth, url, body):
+    """키마다 하루 1,000번 한도(쇼핑인사이트·검색어 트렌드 따로). 한도 난 키는 건너뛰고, 모든 키가 한도면 그날은 멈춘다."""
     if DL['dead']: return _R()
-    for i in range(3):
+    n = len(auth.keys['dl']); tried = 0
+    while tried < n * 2:
         r = requests.post(url, headers=auth.datalab_headers(), data=json.dumps(body), timeout=20)
-        if r.status_code == 429 or (r.status_code in (400, 403) and ('limit' in r.text.lower() or '한도' in r.text or '010' in r.text)):
-            if i == 2: DL['dead'] = True; print('  [데이터랩 한도] 오늘은 여기까지 — 다음 실행에 채움', flush=True)
-            time.sleep(5); continue
+        if r.status_code == 429 and '010' in r.text:   # 이 키 오늘 한도 → 다음 키
+            auth._dl_idx += 1; tried += 1; continue
+        if r.status_code == 429: time.sleep(3); tried += 1; continue
         return r
-    return r
+    DL['dead'] = True; print('  [데이터랩 한도] 모든 키 오늘 한도 — 다음 실행에 채움', flush=True)
+    return _R()
 
 
 def kw_demo(auth, cid, kw, start, end):
