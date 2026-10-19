@@ -115,8 +115,15 @@ NEG.update({'손상모': r'캐릭터|작화|만화|웹툰|애니|게임|성우|�
 POS.update({'풋스프레이': r'풋 ?(스프레이|미스트|데오)|발.{0,4}(스프레이|미스트)', '신발탈취제': r'신발|구두|운동화|탈취|발냄새',
             '입냄새': r'입냄새|구취|입 ?냄새|양치|혀|편도|치과|잇몸|가글|입에서'})
 
+BLIND_AD = re.compile(r'\n\n(?:[^\n]{1,90}\n){1,3}(?=좋아요\n\d+ ?\n댓글)')
+def strip_ads(t):
+    # 10-19 M14: 블라인드 글 끝 '좋아요' 바로 앞 1~3줄은 회사 태그·광고('플란치과, 임플란트 가격 할인'·'퓨어그램 모공 탄력 세럼')라 뺀다 — 비싸다 칸·대안 이름 셈을 부풀렸다
+    return BLIND_AD.sub('\n\n', t) if '\n좋아요\n' in t else t
+
 def drop_noise(rows, name):
     pat, pos = NEG.get(name), POS.get(name)
+    for r in rows:
+        if r.get('text'): r['text'] = strip_ads(r['text'])
     rows = [r for r in rows if not (pat and re.search(pat, r.get('text', ''))) and not (pos and not re.search(pos, r.get('text', '')))
             and not re.search(NEG_ALL, r.get('text', ''))]
     # 10-19 M13: 복붙 글(앞 80자가 같은 글)은 하나만, 6,000자 넘는 목록형 글('미용법 50가지')은 뺀다 — 발뒤꿈치각질 타겟 발화의 24%가 복붙이었다
