@@ -341,6 +341,7 @@ if __name__ == '__main__':
     m = kw_maps(); m.update(extra)
     FIRST = ['주사피부염', '장미색비강진', '튼살', '지루성두피염']   # 사장님 10-19 우선순위
     allnames = sorted(set(m) | {p.name for p in (BOOK / '결핍').iterdir() if p.is_dir()} | set(EXTRA_SEEDS))
+    allnames = [n for n in allnames if n != '허리디스크']   # 사장님 10-16 "허리디스크는 돌리지마"
     names = [n for n in FIRST if n in allnames] + [n for n in allnames if n not in FIRST] if '--all' in args else [a for a in args if a != '--all']
     auth = NaverAuth()
     for n in names:
