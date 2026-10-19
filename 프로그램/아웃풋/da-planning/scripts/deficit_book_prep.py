@@ -111,7 +111,12 @@ NEG.update({'지루성피부염': r'장애인수급자|도살장에|개인적인
 NEG.update({'건선': r'푸바오|사육사|노안|우엉차|현미차|감잎차|보리차|카모마일|혈소판|헌혈 가능한 덬|백혈구|파티온|노스카나인|센텔리안|설페이트|페녹시에탄올|미녹시딜|녹차실감|검은줄|검은색 줄|햇빛알레르기|비데|좌욕|장누수|포드맵|식이유황|문전박대|무늬만 피부과|미인점|보정속옷|채널포인트|jpop|생성형 에이아이|노팅엄|라인업|이정후|바이킹|퓨리아|건선물로건'})   # 10-20 건선 깊이 보충 작성자
 POS.update({'건선': r'건선|피부|각질|가려|가렵|간지|연고|스테로이드|광선|엑시머|병원|치료|증상|면역|바르|관절|두피|진물|딱지|비듬|재발|완치|습진|아토피|발진|로션|크림|보습|산정특례|생물학|주사'})
 # 10-20: 더쿠는 피부 잡담 스레드가 많아 POS만으로 안 걸러진다 — 결핍 낱말이 있거나 같은 글(url)의 본글 앞 150자에 결핍 낱말이 든 스레드의 행만 남긴다(건선 더쿠 무관 44% → 작성자 제안)
-THREAD_POS = {'건선': ('theqoo', r'건선'), '한포진': ('theqoo', r'한포진|습진'), '주사피부염': ('theqoo', r'주사|안면 ?홍조|홍조증|모낭충|수란트라|브이빔|열감|화끈|붉은기|붉어|빨개|빨갛|시뻘|벌개|뻘개')}   # 한포진 10-20 2차 깊이 보충 작성자(1,141 → 약 1,056, 모든 칸 1%p 안쪽)
+NEG.update({'켈로이드': r'칼리스테|개체값|깐쇼새우|광어회|흡연이 이슈|차은우|유전자 검사를 검색',   # 10-20 흉터색소2 깊이 보충 작성자(11행, 오탐 0)
+    '검버섯': r'손석희|영김민경|랄로|송민상|틀딱|하이닉스|레니플|검버섯 ?핀|검버섯 ?낀|검버섯 ?피고|검버섯 ?재배|검버섯 ?양식|양식장|다문천왕|트릭컬|이길여|통근버스기사|민주당|단식투쟁|단식을 한다|삼전닉스|애플님|사와티캅|노친네|류웨이|푼동|검버섯 ?마법|잼명이|영어 잘하시는|영작진짜|은수저|유붕이|검버섯 ?늙|검버섯내|곰팡이 ?쉰내|쉰내가 씨발|노인쉰내|통발|응애|검버섯한테',
+    '바디착색': r'액취'})   # 바디착색: 수집 키워드 '액취·겨드랑이'가 냄새 글을 끌어옴(82쿡 92%가 냄새)
+THREAD_POS = {'건선': ('theqoo', r'건선'), '한포진': ('theqoo', r'한포진|습진'), '주사피부염': ('theqoo', r'주사|안면 ?홍조|홍조증|모낭충|수란트라|브이빔|열감|화끈|붉은기|붉어|빨개|빨갛|시뻘|벌개|뻘개'),
+    '검버섯': (('아카라이브', '에펨코리아', '루리웹', 'MLB파크', 'DC인사이드', '네이트판'), r'피부|레이저|피부과|제거|시술|크림|연고|기미|잡티|흑자|색소|점 ?빼|토닝|화장품|선크림|손등'),   # 10-20 '검버섯'이 노인 비하·별명으로 쓰인 스레드
+    '바디착색': ('*', r'착색|색소|거뭇|까맣|까매|검어|검게|검은|검다|어두워|어둡|흑색|멜라닌|칙칙|미백|검정|시꺼|꺼매|거무', 200)}   # 10-20 냄새 스레드를 전 출처에서 걸러냄   # 한포진 10-20 2차 깊이 보충 작성자(1,141 → 약 1,056, 모든 칸 1%p 안쪽)
 POS.update({'주사피부염': r'피부|얼굴|볼|뺨|열감|화끈|여드름|연고|크림|수란트라|아젤|브이빔|레이저|피부과|모낭충|주사피부염|안면홍조|붉어|빨개|트러블|진정'})   # '홍조' 단독은 캐릭터 얼굴 붉힘까지 들어왔다
 # 10-19 M15: 대안 언급 표는 계획의 aliases(새 17은 이름 되풀이뿐)로만 세서 코큐텐·스타틴·CGM 같은 부르는 말을 놓쳤다(고지혈증약 13 → 32%) — 세는 데만 쓰는 별칭(수집 키워드는 그대로)
 MENTION_ALIAS = {
@@ -179,10 +184,12 @@ def drop_noise(rows, name):
     for r in rows:
         if r.get('text'): r['text'] = strip_ads(r['text'])
     tp = THREAD_POS.get(name)
+    in_tp = (lambda r: True) if tp and tp[0] == '*' else (lambda r: r.get('source') in (tp[0] if isinstance(tp[0], tuple) else (tp[0],))) if tp else (lambda r: False)
     if tp:
-        heads = {r.get('url'): r.get('text', '')[:150] for r in rows if r.get('source') == tp[0] and r.get('type') == '글'}
-        rows = [r for r in rows if r.get('source') != tp[0] or re.search(tp[1], r.get('text', '')) or re.search(tp[1], heads.get(r.get('url'), ''))]
-    rows = [r for r in rows if not (pat and re.search(pat, r.get('text', ''))) and not (pos and not (tp and r.get('source') == tp[0]) and not re.search(pos, r.get('text', '')))
+        hl = tp[2] if len(tp) > 2 else 150
+        heads = {r.get('url'): r.get('text', '')[:hl] for r in rows if in_tp(r) and r.get('type') == '글'}
+        rows = [r for r in rows if not in_tp(r) or re.search(tp[1], r.get('text', '')) or re.search(tp[1], heads.get(r.get('url'), ''))]
+    rows = [r for r in rows if not (pat and re.search(pat, r.get('text', ''))) and not (pos and not in_tp(r) and not re.search(pos, r.get('text', '')))
             and not re.search(NEG_ALL, r.get('text', ''))
             and not ('지식' in str(r.get('source', '')) and KIN_PROMO.search(r.get('text', '')))]
     # 10-19 M13: 복붙 글(앞 80자가 같은 글)은 하나만, 6,000자 넘는 목록형 글('미용법 50가지')은 뺀다 — 발뒤꿈치각질 타겟 발화의 24%가 복붙이었다
